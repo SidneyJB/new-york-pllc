@@ -1,3 +1,4 @@
+// File: web/src/components/sections/hero-section.tsx
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
@@ -34,6 +35,16 @@ export function HeroSection() {
                 all-inclusive. No surprise fees.
               </p>
 
+              {/* NEW: plain-English sales language to match About tone */}
+              <p className="text-base leading-7 text-muted-foreground">
+                We’re a small New York team offering unnmatched customer service, and we’re happy to talk you through every step.
+                We’re real people—no upsells, no runaround. Prefer to chat first?{' '}
+                <Link href="/contact" className="underline underline-offset-2">
+                  Contact us
+                </Link>
+                .
+              </p>
+
               {/* Trust cues */}
               <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted-foreground">
                 <li className="flex items-center gap-2">
@@ -46,7 +57,7 @@ export function HeroSection() {
                 </li>
                 <li className="flex items-center gap-2">
                   <BadgeCheck className="h-4 w-4 text-primary" aria-hidden="true" />
-                  Human support
+                  Real people in New York
                 </li>
               </ul>
 

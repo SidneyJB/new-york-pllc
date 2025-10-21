@@ -1,126 +1,133 @@
-/* eslint-disable react/no-unescaped-entities */
+ 
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { PRICING, PROFESSIONAL_TYPES } from '@/lib/constants'
 
 export default function PricingPage() {
+  const PRICE = PRICING.basePrice
+
   return (
     <div className="flex flex-col">
-      {/* What's Included Section */}
-      <section className="py-20 lg:py-32">
+      {/* Top: Transparent headline + price lock bar */}
+      <section className="py-16 lg:py-24" aria-labelledby="pricing-hero">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-3xl text-center">
+            <h1 id="pricing-hero" className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
+              Transparent, all-in pricing for New York PLLCs
+            </h1>
+            <p className="mt-6 text-lg leading-8 text-muted-foreground">
+              The price is <strong>{'$'}{PRICE}</strong>. It includes the required two-newspaper, six-week publication and our filing work.
+              No add-ons, no surprises. We’re real people in New York—happy to talk you through anything before you pay.
+            </p>
+
+            <div className="mt-6 inline-flex flex-wrap items-center justify-center gap-2 text-xs text-muted-foreground">
+              <span className="rounded-full border px-3 py-1">Publishing included</span>
+              <span className="rounded-full border px-3 py-1">Licensed professionals only (PLLC)</span>
+              <span className="rounded-full border px-3 py-1">Secure checkout</span>
+            </div>
+
+            <div className="mt-10 flex items-center justify-center gap-3">
+              <Button size="lg" asChild data-cta="pricing-start">
+                <Link href="/order" aria-label={`Start PLLC formation for $${PRICE}`}>
+                  Start Formation — {'$'}{PRICE}
+                </Link>
+              </Button>
+              <Button size="lg" variant="outline" asChild data-cta="pricing-contact">
+                <Link href="/contact">Have questions? Talk to us</Link>
+              </Button>
+            </div>
+
+            <p className="mt-3 text-sm text-muted-foreground">
+              ~5–7 minutes to complete • We’ll keep you updated at each step • No hidden fees
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What’s Included */}
+      <section className="py-16 lg:py-24" aria-labelledby="included-heading">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Everything You Need, Included
+            <h2 id="included-heading" className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+              Exactly what you get for {'$'}{PRICE}
             </h2>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              Our $885 package includes everything required for NY PLLC formation — no surprises, no add-ons.
+              We handle the paperwork and the publication end-to-end. Clear deliverables, clear timeline.
             </p>
           </div>
 
-          <div className="mx-auto mt-16 max-w-4xl">
+          <div className="mx-auto mt-14 max-w-4xl">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
-              <Card className="border-2 border-primary/20">
+              <Card>
                 <CardHeader>
-                  <CardTitle className="text-primary">Formation Services</CardTitle>
-                  <CardDescription>
-                    Complete state filing and document preparation
-                  </CardDescription>
+                  <CardTitle>Formation</CardTitle>
+                  <CardDescription>We file the core state paperwork</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <ul className="space-y-3 text-sm">
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      Articles of Organization Filing
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      Professional License Verification
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      Registered Agent Service
-                    </li>
+                  <ul className="space-y-2 text-sm">
+                    <li>• Articles of Organization (PLLC) prepared & filed</li>
+                    <li>• Basic name check and PLLC-specific rule review</li>
+                    <li>• State filing receipt delivered digitally</li>
                   </ul>
                 </CardContent>
               </Card>
 
-              <Card className="border-2 border-primary/20">
+              <Card>
                 <CardHeader>
-                  <CardTitle className="text-primary">Publishing Services</CardTitle>
-                  <CardDescription>
-                    Mandatory 6-week newspaper publication included
-                  </CardDescription>
+                  <CardTitle>Publication (included)</CardTitle>
+                  <CardDescription>Six weeks in two NY newspapers, per law</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <ul className="space-y-3 text-sm">
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      Publication in 2 NY Newspapers
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      6-Week Publication Period
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      Affidavit of Publication
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      Certificate of Publication Filing
-                    </li>
+                  <ul className="space-y-2 text-sm">
+                    <li>• Newspaper selection & scheduling</li>
+                    <li>• Six-week run across two required publications</li>
+                    <li>• Affidavits obtained; Certificate of Publication filed</li>
                   </ul>
                 </CardContent>
               </Card>
 
-              <Card className="border-2 border-primary/20">
+              <Card>
                 <CardHeader>
-                  <CardTitle className="text-primary">Support & Delivery</CardTitle>
-                  <CardDescription>
-                    Professional service and fast delivery
-                  </CardDescription>
+                  <CardTitle>Updates & delivery</CardTitle>
+                  <CardDescription>Real people, clear communication</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <ul className="space-y-3 text-sm">
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      Digital Document Delivery
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      Email Status Updates
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      Phone & Email Support
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      24-48 Hour Processing
-                    </li>
+                  <ul className="space-y-2 text-sm">
+                    <li>• Email updates at each milestone</li>
+                    <li>• Final documents delivered as PDFs</li>
+                    <li>• Straightforward next-step guidance</li>
                   </ul>
                 </CardContent>
               </Card>
 
-              <Card className="border-2 border-primary/20">
+              <Card>
                 <CardHeader>
-                  <CardTitle className="text-primary">For Licensed Professionals</CardTitle>
-                  <CardDescription>
-                    Specifically designed for licensed professionals only
-                  </CardDescription>
+                  <CardTitle>Who it’s for</CardTitle>
+                  <CardDescription>New York licensed professionals</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
                     {PROFESSIONAL_TYPES.slice(0, 6).map((type) => (
-                      <span key={type} className="inline-flex items-center rounded-md bg-secondary px-2 py-1 text-xs font-medium text-secondary-foreground">
+                      <span
+                        key={type}
+                        className="inline-flex items-center rounded-md bg-secondary px-2 py-1 text-xs font-medium text-secondary-foreground"
+                      >
                         {type}
                       </span>
                     ))}
+                    {PROFESSIONAL_TYPES.length > 6 && (
+                      <Link
+                        href="/professions"
+                        className="inline-flex items-center rounded-md border px-2 py-1 text-xs underline underline-offset-2"
+                        aria-label="View all supported professions"
+                      >
+                        +{PROFESSIONAL_TYPES.length - 6} more
+                      </Link>
+                    )}
                   </div>
                   <p className="mt-3 text-sm text-muted-foreground">
-                    PLLCs are restricted to licensed professionals. We verify your credentials as part of our service.
+                    PLLCs are restricted to licensed professionals. We’ll confirm your license details as part of the process.
                   </p>
                 </CardContent>
               </Card>
@@ -129,255 +136,186 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* Value Comparison Section */}
-      <section className="bg-muted/50 py-20 lg:py-32">
+      {/* Clear comparison (no gimmicks) */}
+      <section className="bg-muted/50 py-16 lg:py-24" aria-labelledby="comparison-heading">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              The Real Value: All-Inclusive Pricing
+            <h2 id="comparison-heading" className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+              How our pricing compares
             </h2>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              Many competitors advertise low formation fees but charge extra for mandatory publishing.
-              We include everything upfront.
+              Many services show a low “formation” price, then add hundreds for the legally required publication.
+              We include publication up front.
             </p>
           </div>
 
-          <div className="mx-auto mt-16 max-w-4xl">
+          <div className="mx-auto mt-14 max-w-5xl">
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-              <Card className="opacity-60">
+              <Card className="opacity-70">
                 <CardHeader>
-                  <CardTitle className="text-muted-foreground">Typical Competitor</CardTitle>
-                  <CardDescription className="text-muted-foreground">
-                    Hidden fees and surprises
-                  </CardDescription>
+                  <CardTitle>“Low fee” sites</CardTitle>
+                  <CardDescription>Looks cheap until publishing</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="text-3xl font-bold text-muted-foreground mb-4">$99</div>
                   <ul className="space-y-2 text-sm text-muted-foreground">
-                    <li>• Basic Formation Filing</li>
-                    <li className="text-red-500">✗ Publishing (Extra $500-1000)</li>
-                    <li className="text-red-500">✗ Support (Extra charges)</li>
-                    <li className="text-muted-foreground">Total: $599-1099+</li>
+                    <li>• Formation: $0–$199</li>
+                    <li>• Publishing add-on: $500–$1,000+</li>
+                    <li>• Extras & service fees vary</li>
                   </ul>
+                  <div className="mt-4 text-sm text-muted-foreground">Typical total: $599–$1,199+</div>
                 </CardContent>
               </Card>
 
-              <Card className="border-2 border-primary relative">
-                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-primary text-primary-foreground text-sm font-medium px-3 py-1 rounded-full">
-                    Best Value
-                  </span>
-                </div>
+              <Card className="border-2 border-primary">
                 <CardHeader>
-                  <CardTitle className="text-primary">Our Service</CardTitle>
-                  <CardDescription>
-                    Complete, transparent pricing
-                  </CardDescription>
+                  <CardTitle>Us</CardTitle>
+                  <CardDescription>Complete, all-in price</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="text-3xl font-bold text-primary mb-4">${PRICING.basePrice}</div>
+                  <div className="mb-4 text-3xl font-bold text-primary">{'$'}{PRICE}</div>
                   <ul className="space-y-2 text-sm">
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      Complete Formation Filing
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      6-Week Publishing Included
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      Full Support Included
-                    </li>
-                    <li className="flex items-start text-green-600 font-medium">
-                      <span className="mr-2">✓</span>
-                      Total: ${PRICING.basePrice} (All-Inclusive)
-                    </li>
+                    <li>• Formation filing included</li>
+                    <li>• Six-week, two-paper publication included</li>
+                    <li>• Certificate of Publication filing included</li>
+                    <li className="font-medium">• Total due today: {'$'}{PRICE}</li>
                   </ul>
                 </CardContent>
               </Card>
 
-              <Card className="opacity-60">
+              <Card className="opacity-70">
                 <CardHeader>
-                  <CardTitle className="text-muted-foreground">Lawyer/CPA Service</CardTitle>
-                  <CardDescription className="text-muted-foreground">
-                    Premium professional services
-                  </CardDescription>
+                  <CardTitle>Attorney/CPA</CardTitle>
+                  <CardDescription>Great for custom legal advice</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="text-3xl font-bold text-muted-foreground mb-4">$1500+</div>
                   <ul className="space-y-2 text-sm text-muted-foreground">
-                    <li>• Professional Legal Advice</li>
-                    <li>• Custom Document Preparation</li>
-                    <li>• Ongoing Consultation</li>
-                    <li className="text-muted-foreground">Total: $1500+</li>
+                    <li>• Customized legal guidance</li>
+                    <li>• Bespoke documents</li>
                   </ul>
+                  <div className="mt-4 text-sm text-muted-foreground">Typical total: $1,500+</div>
                 </CardContent>
               </Card>
+            </div>
+
+            <p className="mx-auto mt-6 max-w-3xl text-center text-xs text-muted-foreground">
+              Pricing ranges are illustrative and depend on the provider and county/newspapers. We keep it simple with one price that includes publication.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Plain-English notes (what’s optional / not included) */}
+      <section className="py-16 lg:py-24" aria-labelledby="notes-heading">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-3xl">
+            <h2 id="notes-heading" className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
+              A few plain-English notes
+            </h2>
+            <div className="mt-6 space-y-4 text-base leading-7 text-foreground">
+              <p>
+                We focus on PLLC formation and the legally required publication. If you need an EIN, registered agent, or amendments later,
+                we can point you in the right direction or help as an add-on. None of those are required for us to complete the publication step.
+              </p>
+              <p>
+                Timelines vary by county and paper schedules. Expect filing to start right away, publication to run weeks 1–6, and final
+                Certificate of Publication in week 7 in most cases.
+              </p>
+              <p>
+                Prefer to talk to a human before you check out? We’re happy to walk you through the process.{' '}
+                <Link href="/contact" className="underline underline-offset-2">Contact us</Link>.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-20 lg:py-32">
+      {/* Pricing FAQ (focused on objections) */}
+      <section className="bg-muted/50 py-16 lg:py-24" aria-labelledby="faq-heading">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+            <h2 id="faq-heading" className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
               Pricing FAQ
             </h2>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              Common questions about our pricing and services.
+              Straight answers to the most common questions.
             </p>
           </div>
 
-          <div className="mx-auto mt-16 max-w-3xl">
-            <div className="space-y-8">
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg">Why $885? Is that the final price?</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    Yes, $885 is the complete, final price. Unlike competitors who charge $99 for formation and then $500-1000+ for mandatory publishing, we include everything. No hidden fees, no surprises.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg">What's included in the publishing service?</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    New York law requires PLLCs to publish formation notices in two newspapers for six weeks. We handle the entire process: selecting appropriate newspapers, managing publication schedules, obtaining affidavits, and filing the Certificate of Publication with the state.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg">Do you offer payment plans?</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    Currently, we require full payment upfront to initiate the formation process. This ensures we can begin work immediately and maintain our fast turnaround times. Payment is processed securely through our partner payment processor.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg">What if I need to make changes after filing?</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    Amendments to your PLLC after formation typically cost $500-1000+ through traditional services. We offer amendment services at a reduced rate of $395 for existing customers. Contact us for details.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg">Is there a money-back guarantee?</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    We stand behind our service with a satisfaction guarantee. If you're not satisfied with our formation service, contact us within 30 days and we'll work to make it right or provide a full refund.
-                  </p>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Trust Indicators Section */}
-      <section className="bg-muted/50 py-20 lg:py-32">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Trusted by Licensed Professionals
-            </h2>
-            <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              Join hundreds of doctors, lawyers, CPAs, and other licensed professionals who have successfully formed their PLLC with us.
-            </p>
-          </div>
-
-          <div className="mx-auto mt-16 max-w-4xl">
-            <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary">500+</div>
-                <p className="text-sm text-muted-foreground mt-2">PLLCs Formed</p>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary">4.9/5</div>
-                <p className="text-sm text-muted-foreground mt-2">Customer Rating</p>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary">24-48hr</div>
-                <p className="text-sm text-muted-foreground mt-2">Processing Time</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 lg:py-32">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Ready to Form Your PLLC?
-            </h2>
-            <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              Get started today with our all-inclusive $885 package. No hidden fees, no surprises — just complete PLLC formation.
-            </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
-              <Button size="lg" asChild>
-                <Link href="/order">
-                  Start Formation - ${PRICING.basePrice}
-                </Link>
-              </Button>
-              <Button variant="outline" size="lg" asChild>
-                <Link href="/contact">
-                  Have Questions?
-                </Link>
-              </Button>
-            </div>
-            <p className="mt-6 text-sm text-muted-foreground">
-              ✓ Licensed Professional Verification Included<br />
-              ✓ 6-Week Publishing Included<br />
-              ✓ Digital Document Delivery<br />
-              ✓ 30-Day Satisfaction Guarantee
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Legal Disclaimer Section */}
-      <section className="bg-orange-50 border-t border-orange-200 py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-4xl">
-            <Card className="border-orange-200 bg-orange-50">
+          <div className="mx-auto mt-14 max-w-3xl space-y-6">
+            <Card>
               <CardHeader>
-                <CardTitle className="text-orange-800 flex items-center">
-                  <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
-                  </svg>
-                  Important Legal Disclaimer
-                </CardTitle>
+                <CardTitle className="text-lg">Is {'$'}{PRICE} really the final price?</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-orange-700 text-sm leading-relaxed">
-                  <strong>This is not legal advice.</strong> We provide administrative filing services for PLLC formation in New York. 
-                  Our $885 service fee includes state filing fees, publication costs, and administrative services only. 
-                  We do not provide legal advice, tax advice, or professional consultation. PLLC formation involves complex 
-                  legal requirements that vary by profession. We recommend consulting with a licensed attorney for legal 
-                  advice regarding your specific situation and business structure decisions.
+                <p className="text-muted-foreground">
+                  Yes. Formation filing + the full six-week, two-paper publication + Certificate of Publication filing are included.
+                  There are no publishing add-ons later.
                 </p>
               </CardContent>
             </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg">How long does it take?</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  We start filing right away. Publication runs for six weeks by law. Most customers see their Certificate of Publication in week 7,
+                  depending on county and newspaper schedules.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg">Do you offer payment plans?</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  We currently charge in full at checkout so we can begin immediately and cover publication. If you need a different arrangement,
+                  reach out and we’ll see what we can do.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg">What if my name is taken or the PLLC rules block it?</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  We flag common conflicts early and work with you on alternatives before we publish. If something unexpected comes up,
+                  we’ll talk it through and make a plan together.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="py-16 lg:py-24" aria-labelledby="cta-heading">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 id="cta-heading" className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+              Ready to form your PLLC?
+            </h2>
+            <p className="mt-6 text-lg leading-8 text-muted-foreground">
+              Start now for {'$'}{PRICE}. Real people, clear pricing, publication included.
+            </p>
+            <div className="mt-8 flex items-center justify-center gap-3">
+              <Button size="lg" asChild data-cta="pricing-start-bottom">
+                <Link href="/order" aria-label={`Start PLLC formation for $${PRICE}`}>
+                  Start Formation — {'$'}{PRICE}
+                </Link>
+              </Button>
+              <Button size="lg" variant="outline" asChild data-cta="pricing-contact-bottom">
+                <Link href="/contact">Talk to us first</Link>
+              </Button>
+            </div>
+            <p className="mt-4 text-xs text-muted-foreground">
+              We are not a law firm and do not provide legal advice.
+            </p>
           </div>
         </div>
       </section>

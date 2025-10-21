@@ -35,8 +35,8 @@ export const BUSINESS_INFO = {
 export const NAVIGATION = {
   main: [
     { name: 'Home', href: '/' },
-    { name: 'Services', href: '/services' },
-    { name: 'Pricing', href: '/pricing' },
+    // Temporarily disabled: { name: 'Services', href: '/services' },
+    // Temporarily disabled: { name: 'Pricing', href: '/pricing' },
     { name: 'FAQ', href: '/faq' },
     { name: 'Contact', href: '/contact' },
   ],

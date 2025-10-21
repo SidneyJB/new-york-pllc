@@ -41,10 +41,6 @@ export default function PricingPage() {
                       <span className="text-green-600 mr-2">✓</span>
                       Registered Agent Service
                     </li>
-                    <li className="flex items-start">
-                      <span className="text-green-600 mr-2">✓</span>
-                      Operating Agreement Template
-                    </li>
                   </ul>
                 </CardContent>
               </Card>

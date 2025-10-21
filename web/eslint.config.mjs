@@ -22,14 +22,7 @@ const eslintConfig = [
 		rules: {
 			"@typescript-eslint/no-unused-vars": "off",
 			"@typescript-eslint/no-unescaped-entities": "off",
-			'@react/no-unescaped-entities': 'off',
-			'@react/no-unknown-property': 'off',
-			'@react/no-unused-prop-types': 'off',
-			'@react/no-unused-vars': 'off',
-			'@react/no-unused-imports': 'off',
-			'@react/no-unused-expressions': 'off',
-			'@react/no-unused-labels': 'off',
-			'@react/no-unused-functions': 'off',
+			'react/no-unescaped-entities': 'off',
 		},
   },
 ];

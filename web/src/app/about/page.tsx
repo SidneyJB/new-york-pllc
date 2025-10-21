@@ -11,9 +11,9 @@ type Founder = {
 
 const FOUNDERS: Founder[] = [
   {
-    name: 'Founder Name One',
+    name: 'Sid',
     title: 'Co-founder',
-    headshotSrc: '/images/founders/founder-1.jpg', // TODO: replace with real headshot path
+    headshotSrc: '/founder-1.jpeg', // TODO: replace with real headshot path
     headshotAlt: 'Headshot of Founder Name One',
     bio: [
       // TODO: replace with real copy
@@ -23,7 +23,7 @@ const FOUNDERS: Founder[] = [
     ],
   },
   {
-    name: 'Founder Name Two',
+    name: 'Steve',
     title: 'Co-founder',
     headshotSrc: '/images/founders/founder-2.jpg', // TODO: replace with real headshot path
     headshotAlt: 'Headshot of Founder Name Two',
@@ -96,17 +96,18 @@ export default function AboutExtendedSection() {
           <div className="mt-12">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">Meet the founders</h2>
 
-            <div className="mt-6 grid grid-cols-1 gap-10 sm:grid-cols-2 max-w-none">
+            <div className="mt-6 grid grid-cols-1 gap-10 sm:grid-cols-2">
               {FOUNDERS.map((f) => (
                 <article key={f.name} className="flex flex-col gap-4">
-                  <div className="relative h-64 w-full overflow-hidden rounded-xl bg-muted">
+                  <div className="relative h-64 w-full overflow-hidden rounded-xl ">
                     <Image
                       src={f.headshotSrc}
                       alt={f.headshotAlt}
-                      fill
+                      
                       priority
                       className="object-cover"
-                      sizes="(min-width: 640px) 50vw, 100vw"
+                      height={800}
+                      width={400}
                     />
                   </div>
 

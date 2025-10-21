@@ -6,31 +6,9 @@ import { PRICING } from '@/lib/constants'
 export default function OrderPage() {
   return (
     <div className="flex flex-col">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-background via-muted/30 to-muted/50 py-20 lg:py-32">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl">
-              Start Your{' '}
-              <span className="text-primary">PLLC Formation</span>
-            </h1>
-            <p className="mt-6 text-lg leading-8 text-muted-foreground max-w-2xl mx-auto">
-              Complete your PLLC formation in minutes. Our streamlined process handles everything from filing to publishing.
-            </p>
-            <div className="mt-8">
-              <div className="text-6xl font-bold text-primary sm:text-7xl">
-                ${PRICING.basePrice}
-              </div>
-              <p className="mt-4 text-xl text-muted-foreground">
-                All-Inclusive • No Hidden Fees
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Order Form Section - Spiffy Integration Placeholder */}
-      <section className="py-20 lg:py-32">
+      <section className="py-4 lg:py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl">
 
@@ -43,27 +21,11 @@ export default function OrderPage() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                {/* Spiffy Form Integration Placeholder */}
-                <div className="min-h-[600px] bg-muted/30 rounded-lg border-2 border-dashed border-muted-foreground/25 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                      </svg>
-                    </div>
-                    <h3 className="text-lg font-semibold mb-2">Spiffy Form Integration</h3>
-                    <p className="text-muted-foreground mb-4">
-                      The complete order form and payment processing will be embedded here via Spiffy.co
-                    </p>
-                    <div className="text-sm text-muted-foreground space-y-1">
-                      <p>• Customer information collection</p>
-                      <p>• Professional license verification</p>
-                      <p>• Business entity details</p>
-                      <p>• Secure payment processing ($885)</p>
-                      <p>• Order confirmation and next steps</p>
-                    </div>
-                  </div>
-                </div>
+             <div dangerouslySetInnerHTML={{
+              __html: `
+               <spiffy-checkout url="https://nyllcpub.spiffy.co/checkout/pllc-form-1" ></spiffy-checkout>
+              `
+             }}/>
               </CardContent>
             </Card>
 

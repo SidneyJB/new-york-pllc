@@ -72,7 +72,6 @@ export default function AboutExtendedSection() {
               <p><strong>Clarity over complexity.</strong> We communicate like people, not policy manuals.</p>
               <p><strong>Promises we can keep.</strong> We'd rather under-promise than disappoint.</p>
               <p><strong>Kindness and speed.</strong> Quick replies matter when your work depends on paperwork.</p>
-              <p><strong>No upsells.</strong> Our job is to help you finish, not to pad a shopping cart.</p>
             </div>
           </div>
 

@@ -18,7 +18,7 @@ Establish the design system with consistent colors, typography, spacing, and reu
 High
 
 ## Status
-To Do
+Completed
 
 ## Labels
 design-system, ui-components, styling, phase-1

@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Production builds
+.next/
+out/
+build/
+
+# Environment variables
+.env*
+
+# Package manager files
+package-lock.json
+yarn.lock
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/

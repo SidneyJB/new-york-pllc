@@ -12,20 +12,20 @@ export function CTASection() {
             Ready to Form Your PLLC?
           </h2>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            Join hundreds of licensed professionals who have successfully formed their PLLC with us.
+            Join thousands of licensed professionals who have successfully formed their PLLC with us.
           </p>
 
           {/* Trust Indicators */}
           <div className="mt-8 flex flex-wrap items-center justify-center gap-6 text-sm">
-            <div className="trust-indicator">
+            <div className="trust-indicator text-green-500 ">
               <CheckCircle className="h-4 w-4" />
               <span>NY State Compliant</span>
             </div>
-            <div className="trust-indicator">
+            <div className="trust-indicator text-green-500 ">
               <CheckCircle className="h-4 w-4" />
               <span>Licensed Professional Focus</span>
             </div>
-            <div className="trust-indicator">
+            <div className="trust-indicator text-green-500 ">
               <CheckCircle className="h-4 w-4" />
               <span>Money-Back Guarantee</span>
             </div>
@@ -34,7 +34,7 @@ export function CTASection() {
           <div className="mt-10">
             <Button size="lg" className="bg-primary hover:bg-primary-700" asChild>
               <Link href="/order">
-                Get Started Now - ${PRICING.basePrice}
+                Start your PLLC today
               </Link>
             </Button>
             <p className="mt-4 text-sm text-muted-foreground">

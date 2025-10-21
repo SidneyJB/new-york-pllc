@@ -14,7 +14,7 @@ export default function Home() {
       <HeroSection />
       <FeaturesSection />
 			<AboutBlurbSection />
-      <ProcessSection />
+      {/* <ProcessSection /> */}
       <GuaranteeSection />
       <DisclaimerSection />
       <CTASection />

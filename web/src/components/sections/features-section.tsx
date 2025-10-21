@@ -6,7 +6,7 @@ import { PRICING, PROFESSIONAL_TYPES } from '@/lib/constants'
 
 export function FeaturesSection() {
   return (
-    <section className="py-20 lg:py-32" aria-labelledby="features-heading">
+    <section className="py-8" aria-labelledby="features-heading">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Headline */}
         <div className="mx-auto max-w-2xl text-center">
@@ -47,7 +47,7 @@ export function FeaturesSection() {
                 </CardTitle>
                 <CardDescription>
                   {'$'}{PRICING.basePrice} covers formation <em>and</em> publication.
-                  Many competitors add $300–$500 for publishing.
+                  Many competitors add $500–$1000 for publishing. And most, like LegalZoom, don't even offer PLLC formation.
                 </CardDescription>
               </CardHeader>
 
@@ -61,12 +61,12 @@ export function FeaturesSection() {
 
                   <div className="flex items-center justify-between text-sm text-muted-foreground">
                     <span>Competitors (incl. publishing)</span>
-                    <span className="line-through">$1,200–$1,400</span>
+                    <span className="line-through">$1,385–$1,885</span>
                   </div>
 
                   <div className="flex items-center justify-between rounded-lg bg-muted px-3 py-2">
                     <span className="text-sm font-medium">You save</span>
-                    <span className="font-bold">$315–$515</span>
+                    <span className="font-bold">$500–$1,000</span>
                   </div>
 
                   <p className="flex items-start gap-2 text-xs text-muted-foreground">
@@ -76,7 +76,7 @@ export function FeaturesSection() {
                 </div>
 
                 {/* What's included (NY-accurate language) */}
-                <div className="mt-6" id="included">
+                {/* <div className="mt-6" id="included">
                   <p className="mb-2 text-xs uppercase tracking-wide text-muted-foreground">What’s included</p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">
@@ -96,14 +96,14 @@ export function FeaturesSection() {
                       <span>State filing receipt & affidavits delivered as PDFs</span>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </CardContent>
 
               {/* Inline CTA to reduce bounce */}
               <CardFooter className="pt-2">
                 <Button asChild className="w-full" data-cta="features-start">
                   <Link href="/order" aria-label={`Start PLLC formation for $${PRICING.basePrice}`}>
-                    Start for {'$'}{PRICING.basePrice}
+                    Get started today
                   </Link>
                 </Button>
               </CardFooter>
@@ -126,7 +126,7 @@ export function FeaturesSection() {
               <CardContent>
                 {/* Top professions + "view all" */}
                 <div className="mb-4 flex flex-wrap gap-2">
-                  {PROFESSIONAL_TYPES.slice(0, 6).map((type) => (
+                  {PROFESSIONAL_TYPES.map((type) => (
                     <span
                       key={type}
                       className="inline-flex items-center rounded-md bg-secondary px-2 py-1 text-xs font-medium text-secondary-foreground"
@@ -134,15 +134,6 @@ export function FeaturesSection() {
                       {type}
                     </span>
                   ))}
-                  {PROFESSIONAL_TYPES.length > 6 && (
-                    <Link
-                      href="/professions"
-                      className="inline-flex items-center rounded-md border px-2 py-1 text-xs text-muted-foreground underline-offset-2 hover:underline"
-                      aria-label="View all supported professions"
-                    >
-                      +{PROFESSIONAL_TYPES.length - 6} more
-                    </Link>
-                  )}
                 </div>
 
                 {/* Confidence bullets (distinct from left card) */}
@@ -164,25 +155,10 @@ export function FeaturesSection() {
                 {/* Micro-FAQ hook */}
                 <div className="mt-4 text-xs text-muted-foreground">
                   <Link href="/faq#publication" className="underline underline-offset-2 hover:text-foreground">
-                    Why does NY require publication?
+                    Questions? See our FAQ
                   </Link>
                 </div>
               </CardContent>
-
-              <CardFooter className="pt-2">
-                <div className="grid w-full grid-cols-1 gap-2 sm:grid-cols-2">
-                  <Button asChild className="w-full" data-cta="features-start-secondary">
-                    <Link href="/order" aria-label={`Start PLLC formation for $${PRICING.basePrice}`}>
-                      Start now — {'$'}{PRICING.basePrice}
-                    </Link>
-                  </Button>
-                  <Button asChild variant="outline" className="w-full" data-cta="features-learn">
-                    <Link href="/pricing" aria-label="See what's included and how it works">
-                      See what’s included
-                    </Link>
-                  </Button>
-                </div>
-              </CardFooter>
             </Card>
           </div>
         </div>

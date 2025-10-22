@@ -247,7 +247,7 @@ export default function ContactPage() {
           <div className="mx-auto mt-16 max-w-4xl">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">500+</div>
+                <div className="text-3xl font-bold text-primary">2,000+</div>
                 <p className="text-sm text-muted-foreground mt-2">PLLCs Formed</p>
               </div>
               <div className="text-center">

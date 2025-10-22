@@ -194,21 +194,6 @@ export default function ContactPage() {
                         />
                       </div>
 
-                      <div className="flex items-start space-x-2">
-                        <input type="checkbox" id="privacy" required className="mt-1" />
-                        <Label htmlFor="privacy" className="text-sm leading-5">
-                          I agree to the{' '}
-                          <Link href="/privacy" className="text-primary hover:underline">
-                            Privacy Policy
-                          </Link>{' '}
-                          and{' '}
-                          <Link href="/terms" className="text-primary hover:underline">
-                            Terms of Service
-                          </Link>
-                          . I understand this form is for inquiries only and not for legal advice.
-                        </Label>
-                      </div>
-
                       <Button type="submit" size="lg" className="w-full">
                         Send Message
                       </Button>

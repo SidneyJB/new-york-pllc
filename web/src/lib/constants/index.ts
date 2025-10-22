@@ -4,8 +4,8 @@ export const APP_CONFIG = {
   tagline: 'Professional LLC Formation for Licensed Professionals',
   description: 'Complete PLLC formation service including mandatory publishing for licensed professionals in New York.',
   url: process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000',
-  supportEmail: 'support@nypllc.com',
-  phone: '(555) 123-4567',
+  supportEmail: 'contact@newyorkpllc.com',
+  phone: '646-444-2102',
 } as const
 
 export const PRICING = {
@@ -22,12 +22,12 @@ export const PRICING = {
 } as const
 
 export const BUSINESS_INFO = {
-  legalName: 'NY Professional Formation Services LLC',
+  legalName: 'Metro Corporate Services',
   address: {
-    street: '123 Business Ave',
-    city: 'New York',
+    street: '1 Blue Hill Plaza Ste 1509-43',
+    city: 'Pearl River',
     state: 'NY',
-    zipCode: '10001',
+    zipCode: '10965',
   },
   license: 'Licensed NY Formation Service Provider',
 } as const

@@ -322,8 +322,8 @@ export default function FAQPage() {
                       We're here to help! You can reach us through:
                     </p>
                     <ul className="list-disc list-inside text-muted-foreground space-y-1">
-                      <li><strong>Email:</strong> support@nypllc.com</li>
-                      <li><strong>Phone:</strong> (555) 123-4567</li>
+                      <li><strong>Email:</strong> contact@newyorkpllc.com</li>
+                      <li><strong>Phone:</strong> 646-444-2102</li>
                       <li><strong>Hours:</strong> Monday-Friday, 9 AM - 6 PM EST</li>
                     </ul>
                   </CardContent>

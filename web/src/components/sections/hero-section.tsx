@@ -19,7 +19,7 @@ export function HeroSection() {
             <div className="flex max-w-2xl flex-col gap-3 sm:gap-4 lg:gap-5">
               {/* Eyebrow */}
               <p className="text-sm font-medium uppercase tracking-wide text-primary/90">
-                New York PLLC Formation
+                Metro Corporate Services
               </p>
 
               <h1 id="hero-heading" className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl">

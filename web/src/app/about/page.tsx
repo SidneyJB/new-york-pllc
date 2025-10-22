@@ -16,10 +16,10 @@ const FOUNDERS: Founder[] = [
     headshotSrc: '/founder-1.jpeg', // TODO: replace with real headshot path
     headshotAlt: 'Headshot of Founder Name One',
     bio: [
-			"I help licensed professionals turn plans into real New York PLLCs by guiding you through one of the most important early steps: forming your entity the right way.",
-			"With an engineering background, I’ve built our systems that streamline every part of the process—reducing errors, speeding up filings, and keeping everything organized from start to finish. My goal is to make something that’s usually stressful feel smooth and predictable.",
-			"Clients work with me because I cut through confusing state rules and legal jargon, make sure you’re compliant from day one, save time and avoidable costs, and provide responsive, personal service—no upsells, no runaround.",
-			"Whether you’re opening your first practice or formalizing a growing one, my mission is the same: give you a solid legal start so you can focus on your work. I’m NYC-based and always happy to talk things through before you start."
+			"I started this service after watching licensed professionals get stuck dealing with the complicated steps of New York PLLC formation. I handle the nuts and bolts—making sure every detail is right so your business gets off to a clean start.",
+			"I designed and built our entire process from scratch, creating systems that handle document creation, government filings, and legal requirement checks. This cuts out the mistakes and delays that usually happen with manual work.",
+			"I keep things accurate and clear: every form gets filled out correctly, every deadline gets tracked, and every requirement gets met without any surprises. No shortcuts, no hidden issues—just consistent, dependable results.",
+			"I get what professional life demands because I've created systems specifically for licensed professionals like you. My engineering background means I solve problems efficiently, not with piles of paperwork. Get in touch if you want to understand exactly how it all works before you start."
 			]
   },
   {

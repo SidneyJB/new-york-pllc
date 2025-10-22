@@ -12,7 +12,7 @@ export function GuaranteeSection() {
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-complementary-100">
                   <Award className="h-4 w-4 text-complementary-600" />
                 </div>
-                <span className="trust-indicator">100% Money-Back Guarantee</span>
+                <span className="trust-indicator text-green-500">100% Money-Back Guarantee</span>
               </CardTitle>
             </CardHeader>
             <CardContent>

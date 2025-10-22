@@ -74,8 +74,7 @@ export default function AboutExtendedSection() {
           {/* Story */}
           <div className="mt-6 space-y-5 text-base leading-7 text-foreground max-w-none">
             <p>
-              We’re a small New York team that built this service after seeing how confusing the PLLC process can feel—
-              especially the publication requirement. Too many people ran into half-answers, surprise add-ons, or just
+              We’re a small New York team that built this service after seeing how confusing the PLLC process can feel. Too many people ran into half-answers, surprise add-ons, or just
               silence when they needed a simple update. We wanted another path: plain English, predictable steps, and
               real people you can reach.
             </p>

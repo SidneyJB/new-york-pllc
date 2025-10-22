@@ -6,7 +6,7 @@ export function AboutBlurbSection() {
   return (
     <section className="py-12 lg:py-16" aria-labelledby="about-heading">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-5xl">
+        <div className="mx-auto max-w-7xl">
           <Card className="border-primary/10 shadow-sm">
             <CardContent className="p-6 sm:p-8">
               <h2 id="about-heading" className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">

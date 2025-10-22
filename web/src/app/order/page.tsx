@@ -54,34 +54,6 @@ export default function OrderPage() {
               </CardContent>
             </Card>
 
-            {/* Legal Disclaimer */}
-            <Card className="border-orange-200 bg-orange-50 mb-8">
-              <CardHeader>
-                <CardTitle className="text-orange-800 flex items-center">
-                  <svg
-                    className="w-5 h-5 mr-2"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
-                  </svg>
-                  <span>Important Legal Disclaimer</span>
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-orange-700 text-sm leading-relaxed">
-                  <strong>This is not legal advice.</strong> We provide administrative filing services for PLLC formation in New York. 
-                  By proceeding with this order, you acknowledge that we are not a law firm and do not provide legal advice. 
-                  PLLC formation involves complex legal and regulatory requirements that vary by profession. We recommend 
-                  consulting with a licensed attorney for legal advice regarding your specific situation, professional 
-                  licensing requirements, and business structure decisions. Our service is limited to filing and administrative 
-                  tasks as permitted by law.
-                </p>
-              </CardContent>
-            </Card>
-
             {/* What Happens Next */}
             <Card>
               <CardHeader>

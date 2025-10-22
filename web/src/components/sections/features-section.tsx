@@ -6,10 +6,10 @@ import { PRICING, PROFESSIONAL_TYPES } from '@/lib/constants'
 
 export function FeaturesSection() {
   return (
-    <section className="py-8" aria-labelledby="features-heading">
+    <section className="py-8 max-w-12xl o" aria-labelledby="features-heading">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Headline */}
-        <div className="mx-auto max-w-2xl text-center">
+        <div className="mx-auto max-w-10xl text-center">
           <h2 id="features-heading" className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             Everything you need to form your NY PLLC — one flat price
           </h2>
@@ -34,7 +34,7 @@ export function FeaturesSection() {
         </div>
 
         {/* Cards */}
-        <div className="mx-auto mt-16 max-w-5xl">
+        <div className="mx-auto mt-16 max-w-8xl">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
             {/* Pricing Proof + What's Included */}
             <Card className="feature-card">

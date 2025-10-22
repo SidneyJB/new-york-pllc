@@ -5,7 +5,7 @@ export function GuaranteeSection() {
   return (
     <section className="bg-muted/30 py-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-4xl">
+        <div className="mx-auto max-w-7xl">
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center gap-3">

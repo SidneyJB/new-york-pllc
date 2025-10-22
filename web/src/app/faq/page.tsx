@@ -199,8 +199,36 @@ export default function FAQPage() {
                       </CardTitle>
                     </CardHeader>
                     <CardContent>
+                      <p className="text-muted-foreground mb-4">
+                        The most common professions requiring NYSED preapproval include:
+                      </p>
+
+                      {/* Most Common Professions - Highlighted */}
+                      <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-3 mb-6">
+                        <div className="bg-primary/5 border border-primary/20 rounded-lg p-3 text-center">
+                          <div className="font-semibold text-primary text-sm">Medicine</div>
+                          <div className="text-xs text-muted-foreground">Doctors</div>
+                        </div>
+                        <div className="bg-primary/5 border border-primary/20 rounded-lg p-3 text-center">
+                          <div className="font-semibold text-primary text-sm">Dentistry</div>
+                          <div className="text-xs text-muted-foreground">Dentists</div>
+                        </div>
+                        <div className="bg-primary/5 border border-primary/20 rounded-lg p-3 text-center">
+                          <div className="font-semibold text-primary text-sm">Public Accountancy</div>
+                          <div className="text-xs text-muted-foreground">CPAs</div>
+                        </div>
+                        <div className="bg-primary/5 border border-primary/20 rounded-lg p-3 text-center">
+                          <div className="font-semibold text-primary text-sm">Psychology</div>
+                          <div className="text-xs text-muted-foreground">Psychologists</div>
+                        </div>
+                        <div className="bg-primary/5 border border-primary/20 rounded-lg p-3 text-center">
+                          <div className="font-semibold text-primary text-sm">Veterinary Medicine</div>
+                          <div className="text-xs text-muted-foreground">Veterinarians</div>
+                        </div>
+                      </div>
+
                       <p className="text-muted-foreground mb-3">
-                        The following professions require NYSED preapproval for PLLC formation:
+                        All professions requiring NYSED preapproval for PLLC formation:
                       </p>
                       <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
                         <div className="text-muted-foreground">Acupuncture</div>

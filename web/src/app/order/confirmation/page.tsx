@@ -18,18 +18,16 @@ export const metadata = generateMetadata({
 })
 
 // This page expects order data to be passed via URL search params from Spiffy
-// Example: /order/confirmation?orderId=123&customerName=John%20Doe&amount=885
+// Example: /order/confirmation?name_first=John&name_last=Doe
 export default function OrderConfirmationPage() {
   // TODO: Connect to Spiffy webhook/order API to get real order data
   const searchParams = new URLSearchParams(typeof window !== 'undefined' ? window.location.search : '')
 
-  const orderId = searchParams.get('orderId')
-  const customerName = searchParams.get('customerName')
-  const amount = searchParams.get('amount')
-  const orderNumber = searchParams.get('orderNumber')
+  const nameFirst = searchParams.get('name_first')
+  const nameLast = searchParams.get('name_last')
 
   // If no order data is provided, show error
-  if (!orderId || !customerName || !amount) {
+  if (!nameFirst || !nameLast) {
     return (
       <div className="flex flex-col min-h-screen">
         <section className="bg-gradient-to-br from-red-50 via-background to-red-50 py-20 lg:py-32">
@@ -45,7 +43,7 @@ export default function OrderConfirmationPage() {
                 <span className="text-red-600">Order Access</span>
               </h1>
               <p className="mt-6 text-lg leading-8 text-muted-foreground max-w-2xl mx-auto">
-                This confirmation page requires valid order parameters. Please complete your order through our secure payment form.
+                This confirmation page requires valid order parameters (name_first, name_last). Please complete your order through our secure payment form.
               </p>
               <div className="mt-10">
                 <Button size="lg" asChild>
@@ -62,10 +60,9 @@ export default function OrderConfirmationPage() {
   }
 
   const orderDetails = {
-    orderNumber: orderNumber || `NYPLLC-${new Date().getFullYear()}-${orderId}`,
-    customerName: decodeURIComponent(customerName),
+    customerName: `${nameFirst} ${nameLast}`,
     service: "PLLC Formation Package",
-    amount: parseInt(amount),
+    amount: 885, // Standard package price
     paymentDate: new Date().toLocaleDateString(),
     estimatedCompletion: "7-8 weeks"
   }
@@ -115,10 +112,6 @@ export default function OrderConfirmationPage() {
                   <div>
                     <h3 className="font-semibold mb-3">Order Information</h3>
                     <div className="space-y-2 text-sm">
-                      <div className="flex justify-between">
-                        <span className="text-muted-foreground">Order Number:</span>
-                        <span className="font-medium">{orderDetails.orderNumber}</span>
-                      </div>
                       <div className="flex justify-between">
                         <span className="text-muted-foreground">Customer:</span>
                         <span className="font-medium">{orderDetails.customerName}</span>

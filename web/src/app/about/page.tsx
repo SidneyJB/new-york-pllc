@@ -21,11 +21,11 @@ const FOUNDERS: Founder[] = [
     headshotSrc: '/founder-1.jpeg', // TODO: replace with real headshot path
     headshotAlt: 'Headshot of Founder Name One',
     bio: [
-			"I started this service after watching licensed professionals get stuck dealing with the complicated steps of New York PLLC formation. I handle the nuts and bolts—making sure every detail is right so your business gets off to a clean start.",
-			"I designed and built our entire process from scratch, creating systems that handle document creation, government filings, and legal requirement checks. This cuts out the mistakes and delays that usually happen with manual work.",
-			"I keep things accurate and clear: every form gets filled out correctly, every deadline gets tracked, and every requirement gets met without any surprises. No shortcuts, no hidden issues—just consistent, dependable results.",
-			"I get what professional life demands because I've created systems specifically for licensed professionals like you. My engineering background means I solve problems efficiently, not with piles of paperwork. Get in touch if you want to understand exactly how it all works before you start."
-			]
+      "I started this service after watching licensed professionals get stuck dealing with the complicated steps of New York PLLC formation. I handle the nuts and bolts, making sure every detail is right so your business gets off to a clean start.",
+      "I designed and built our entire process from scratch, creating systems that handle document creation, government filings, and legal requirement checks. This cuts out the mistakes and delays that usually happen with manual work.",
+      "I keep things accurate and clear: every form gets filled out correctly, every deadline gets tracked, and every requirement gets met without any surprises. No shortcuts, no hidden issues, just consistent, dependable results.",
+      "I get what professional life demands because I've created systems specifically for licensed professionals like you. My engineering background means I solve problems efficiently, not with piles of paperwork. Get in touch if you want to understand exactly how it all works before you start."
+    ]
   },
   {
     name: 'Steve',
@@ -33,11 +33,11 @@ const FOUNDERS: Founder[] = [
     headshotSrc: '/founder-2.jpg', // TODO: replace with real headshot path
     headshotAlt: 'Headshot of Founder Name Two',
     bio: [
-      'I help entrepreneurs turn their ideas into reality by guiding them through one of the most important first steps: forming their business entity the right way.',
-      'With 25+ years of experience and a proven track record of assisting over 25,000 business owners, I specialize in making the LLC and corporation formation process fast, accurate, and stress-free. My expertise is especially deep in New York business law, where many national providers like Legalzoom, Bizee, Northwest, etc. fall short or spread misinformation.',
-      'Over the years, I\'ve built a reputation for cutting through confusing state rules and legal jargon, ensuring compliance from day one, and saving clients time, money, and unnecessary headaches. I provide trusted, personal service in an industry often dominated by faceless "big box" formation companies.',
-      'Whether you\'re starting a small local business, scaling into new markets, or exploring foreign registration, my mission is the same: make sure your company\'s legal foundation is solid so you can focus on growth.'
-    ],
+      "I help entrepreneurs turn their ideas into reality by guiding them through one of the most important first steps: forming their business entity the right way.", 
+      "With 25+ years of experience and a proven track record of assisting over 25,000 business owners, I specialize in making the LLC and corporation formation process fast, accurate, and stress-free. My expertise is especially deep in New York business law, where many national providers like Legalzoom, Bizee, Northwest, etc. fall short or spread misinformation.",
+      "Over the years, I've built a reputation for cutting through confusing state rules and legal jargon, ensuring compliance from day one, and saving clients time, money, and unnecessary headaches. I provide trusted, personal, and friendly service in an industry often dominated by faceless \"big box\" formation companies.",
+      "Whether you're starting a small local business, scaling into new markets, or exploring foreign registration, my mission is the same: make sure your company's legal foundation is solid so you can focus on growth.",
+      ],
   },
 ]
 
@@ -74,19 +74,14 @@ export default function AboutExtendedSection() {
           {/* Story */}
           <div className="mt-6 space-y-5 text-base leading-7 text-foreground max-w-none">
             <p>
-              We’re a small New York team that built this service after seeing how confusing the PLLC process can feel. Too many people ran into half-answers, surprise add-ons, or just
-              silence when they needed a simple update. We wanted another path: plain English, predictable steps, and
-              real people you can reach.
+            We’re a small New York team that built this service after seeing how confusing the PLLC process can be for busy New York professionals. Too many people ran into half-answers, surprise add-ons, or just silence when they needed a simple update. We wanted another path: plain English, predictable steps, and real people you can reach.
+
             </p>
             <p>
-              From day one, the idea was simple: do one thing well and do it with care. That means answering questions
-              honestly, setting expectations we can keep, and finishing without drama. We don’t try to be everything;
-              we focus on the part we’re great at and make it easy for you to get on with your work.
+            From day one, the idea was simple: do one thing well and do it with care. That means answering questions honestly, setting expectations we can keep, and finishing without drama. We don’t try to be everything; we focus on the part we’re great at and make it easy for you to get on with your work.
             </p>
             <p>
-              We’re New Yorkers. We respect your time, we say what we mean, and we follow through. If you prefer to talk
-              to a human before you start, we’ll make time. If you’d rather keep it over email, we’ll keep messages short
-              and clear. Either way, you won’t have to chase us.
+            We respect your time, we say what we mean, and we follow through. If you prefer to talk to a human before you start, we’ll make time. If you’d rather keep it over email, we’ll keep messages short and clear. Either way, you won’t have to chase us.
             </p>
           </div>
 
@@ -94,7 +89,7 @@ export default function AboutExtendedSection() {
           <div className="mt-10">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">What guides us</h2>
             <div className="mt-4 space-y-3 text-base leading-7 text-foreground max-w-none">
-              <p><strong>Clarity over complexity.</strong> We communicate like people, not policy manuals.</p>
+              <p><strong>Clarity over complexity.</strong> We communicate like people, not policy manuals. No AI or chatbot shortcuts.</p>
               <p><strong>Promises we can keep.</strong> We'd rather under-promise than disappoint.</p>
               <p><strong>Kindness and speed.</strong> Quick replies matter when your work depends on paperwork.</p>
             </div>
@@ -105,14 +100,10 @@ export default function AboutExtendedSection() {
             <h2 className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">Why we built this</h2>
             <div className="mt-4 space-y-4 text-base leading-7 text-foreground max-w-none">
               <p>
-                We kept meeting licensed professionals who were excellent at their craft and frustrated by the paperwork
-                that stood in the way. The sticking point wasn't just forms—it was not knowing what was happening, what
-                was required, or when they'd be done. We decided to build the kind of help we wished existed: steady,
-                transparent, and human.
+              We kept meeting licensed professionals who were excellent at their craft and frustrated by the paperwork that stood in the way. The sticking point wasn't just forms, it was not knowing what was happening, what was required, or when they'd be done. We decided to build the kind of help we wished existed: steady, transparent, and human.
               </p>
               <p>
-                If you work in a licensed field, you already carry a heavy load of standards and responsibility. Our role
-                is to handle a small but stubborn hurdle with care so you can stay focused on your practice.
+              If you work in a licensed field, you already carry a heavy load of standards and responsibility. Our role is to handle a small but stubborn hurdle with care so you can stay focused on your practice.
               </p>
             </div>
           </div>
@@ -154,9 +145,8 @@ export default function AboutExtendedSection() {
           <div className="mt-12 space-y-4 text-base leading-7 text-foreground max-w-none">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">Our promise to you</h2>
             <p>
-              We'll be straight with you, we'll move quickly, and we'll keep you informed. If something unexpected pops
-              up, we'll explain it clearly and work with you on a simple plan. And if you'd rather talk it through
-              before you start, we're a message away—no scripts, no runaround.
+            We'll be straight with you, we'll move quickly, and we'll keep you informed. If something unexpected pops up, we'll explain it clearly and work with you on a simple plan. And if you'd rather talk it through before you start, we're a message away—no scripts, no runaround.
+
             </p>
             <p>
               Prefer to speak with someone first?{' '}

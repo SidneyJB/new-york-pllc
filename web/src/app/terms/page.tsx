@@ -422,9 +422,8 @@ export default function TermsPage() {
                   <div className="bg-muted/50 rounded-lg p-4">
                     <h3 className="font-semibold mb-2">Business Hours</h3>
                     <p className="text-muted-foreground text-sm">
-                      Monday - Friday: 9:00 AM - 6:00 PM EST<br />
-                      Saturday: 10:00 AM - 2:00 PM EST<br />
-                      Sunday: Closed
+                      Monday - Friday: 10:00 AM - 5:00 PM EST<br />
+                      Saturday - Sunday: Closed
                     </p>
                   </div>
                 </div>

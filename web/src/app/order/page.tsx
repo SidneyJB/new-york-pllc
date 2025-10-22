@@ -1,11 +1,36 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { PRICING } from '@/lib/constants'
+import { ORDER_METADATA } from '@/lib/seo/metadata'
+import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
+
+export const metadata = ORDER_METADATA
 
 export default function OrderPage() {
   return (
-    <div className="flex flex-col">
+    <>
+      {/* Breadcrumb Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateBreadcrumbSchema([
+            { name: 'Order', item: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/order` }
+          ])),
+        }}
+      />
+      <div className="flex flex-col">
+      {/* Breadcrumb Navigation */}
+      <div className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <Breadcrumb
+            items={[
+              { label: 'Order', href: '/order' }
+            ]}
+          />
+        </div>
+      </div>
 
       {/* Order Form Section - Spiffy Integration Placeholder */}
       <section className="py-4 lg:py-16">
@@ -33,10 +58,16 @@ export default function OrderPage() {
             <Card className="border-orange-200 bg-orange-50 mb-8">
               <CardHeader>
                 <CardTitle className="text-orange-800 flex items-center">
-                  <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg
+                    className="w-5 h-5 mr-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
                   </svg>
-                  Important Legal Disclaimer
+                  <span>Important Legal Disclaimer</span>
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -152,6 +183,7 @@ export default function OrderPage() {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   )
 }

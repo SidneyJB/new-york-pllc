@@ -2,6 +2,9 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { APP_CONFIG, PRICING } from '@/lib/constants'
+import { TERMS_METADATA } from '@/lib/seo/metadata'
+
+export const metadata = TERMS_METADATA
 
 export default function TermsPage() {
   return (

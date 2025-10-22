@@ -12,11 +12,9 @@ import {
   Building2
 } from 'lucide-react'
 import { APP_CONFIG, BUSINESS_INFO } from '@/lib/constants'
+import { DISCLAIMER_METADATA } from '@/lib/seo/metadata'
 
-export const metadata = {
-  title: `Legal Disclaimer | ${APP_CONFIG.name}`,
-  description: 'Important legal disclaimers and limitations for NY PLLC formation services. Not legal advice.',
-}
+export const metadata = DISCLAIMER_METADATA
 
 export default function DisclaimerPage() {
   return (

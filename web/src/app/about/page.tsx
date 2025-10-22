@@ -1,5 +1,10 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { ABOUT_METADATA } from '@/lib/seo/metadata'
+import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
+
+export const metadata = ABOUT_METADATA
 
 type Founder = {
   name: string
@@ -38,7 +43,28 @@ const FOUNDERS: Founder[] = [
 
 export default function AboutExtendedSection() {
   return (
-    <section className="py-16 lg:py-24 max-w-7xl mx-auto" aria-labelledby="about-extended-heading">
+    <>
+      {/* Breadcrumb Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateBreadcrumbSchema([
+            { name: 'About', item: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/about` }
+          ])),
+        }}
+      />
+      {/* Breadcrumb Navigation */}
+      <div className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <Breadcrumb
+            items={[
+              { label: 'About', href: '/about' }
+            ]}
+          />
+        </div>
+      </div>
+
+      <section className="py-16 lg:py-24 max-w-7xl mx-auto" aria-labelledby="about-extended-heading">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div>
           <h1 id="about-extended-heading" className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
@@ -147,5 +173,6 @@ export default function AboutExtendedSection() {
         </div>
       </div>
     </section>
+    </>
   )
 }

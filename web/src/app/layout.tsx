@@ -1,6 +1,8 @@
 
+import type { Metadata } from 'next'
 import { Inter, JetBrains_Mono } from 'next/font/google'
 import { MainLayout } from '@/components/layout'
+import { generateRootSchemas } from '@/lib/seo/structured-data'
 import './globals.css'
 
 const inter = Inter({
@@ -15,6 +17,63 @@ const jetbrainsMono = JetBrains_Mono({
   variable: '--font-jetbrains-mono',
 })
 
+// Root metadata for SEO
+export const metadata: Metadata = {
+  title: {
+    default: 'NY PLLC Formation | Professional LLC Services New York',
+    template: '%s | NY PLLC Formation',
+  },
+  description: 'Form your New York Professional Limited Liability Company (PLLC) for $885 including all publishing requirements. Fast, simple, and compliant PLLC formation for licensed professionals.',
+  keywords: [
+    'NY PLLC formation',
+    'New York PLLC',
+    'PLLC publishing',
+    'professional LLC New York',
+    'licensed professional LLC',
+    'PLLC formation service',
+    'NY professional corporation'
+  ],
+  authors: [{ name: 'New York PLLC Formation Service' }],
+  creator: 'New York PLLC Formation Service',
+  publisher: 'New York PLLC Formation Service',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL('https://newyorkpllc.com'),
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'New York PLLC Formation Service',
+    title: 'NY PLLC Formation | Professional LLC Services New York',
+    description: 'Form your New York Professional Limited Liability Company (PLLC) for $885 including all publishing requirements. Fast, simple, and compliant PLLC formation for licensed professionals.',
+    images: [{
+      url: '/og-image.svg',
+      width: 1200,
+      height: 630,
+      alt: 'New York PLLC Formation Service - Professional LLC Services',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'NY PLLC Formation | Professional LLC Services New York',
+    description: 'Form your New York Professional Limited Liability Company (PLLC) for $885 including all publishing requirements.',
+    images: ['/og-image.svg'],
+    creator: '@nypllc',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+}
 
 export default function RootLayout({
   children,
@@ -41,6 +100,13 @@ spiffy.config({
 spiffy.load("nyllcpub");
 `
         }}/>
+        {/* Structured Data for SEO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(generateRootSchemas()),
+          }}
+        />
         <MainLayout>{children}</MainLayout>
       </body>
     </html>

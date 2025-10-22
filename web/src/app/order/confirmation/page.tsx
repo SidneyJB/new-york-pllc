@@ -3,6 +3,19 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { PRICING } from '@/lib/constants'
 import { notFound } from 'next/navigation'
+import { generateMetadata } from '@/lib/seo/metadata'
+
+export const metadata = generateMetadata({
+  title: 'Order Confirmation | NY PLLC Formation Complete',
+  description: 'Your New York PLLC formation order has been confirmed. Track your order status and next steps for completing your professional LLC formation.',
+  keywords: [
+    'PLLC order confirmation',
+    'NY PLLC status',
+    'professional LLC order',
+    'PLLC formation tracking'
+  ],
+  canonical: '/order/confirmation',
+})
 
 // This page expects order data to be passed via URL search params from Spiffy
 // Example: /order/confirmation?orderId=123&customerName=John%20Doe&amount=885

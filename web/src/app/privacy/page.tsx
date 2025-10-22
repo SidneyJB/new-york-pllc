@@ -2,6 +2,9 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { APP_CONFIG } from '@/lib/constants'
+import { PRIVACY_METADATA } from '@/lib/seo/metadata'
+
+export const metadata = PRIVACY_METADATA
 
 export default function PrivacyPage() {
   return (

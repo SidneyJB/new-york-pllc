@@ -102,7 +102,7 @@ export function HeroSection() {
               <div className="mt-3 mb-3 flex items-center gap-2">
                 
                 <ClipboardList className="mt-0.5 h-8 w-7 text-primary flex-shrink-0" aria-hidden="true" />
-                <span className="text-xl font-medium">Here's what you get with our expertise:</span>
+                <span className="text-lg font-medium">Here's what you get with our expertise:</span>
               </div>
                 {/* Divider */}
                 <div className="my-6 h-px w-full bg-border/70" />

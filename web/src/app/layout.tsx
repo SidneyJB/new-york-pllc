@@ -42,6 +42,23 @@ export const metadata: Metadata = {
     telephone: false,
   },
   metadataBase: new URL('https://newyorkpllc.com'),
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any' },
+    ],
+    shortcut: ['/favicon.ico'],
+    apple: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    other: [
+      {
+        rel: 'icon',
+        type: 'image/png',
+        url: '/favicon.ico',
+      },
+    ],
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',

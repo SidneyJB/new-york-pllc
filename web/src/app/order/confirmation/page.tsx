@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { PRICING } from '@/lib/constants'
-import { notFound } from 'next/navigation'
+import { notFound, useSearchParams } from 'next/navigation'
 import { generateMetadata } from '@/lib/seo/metadata'
 
 export const metadata = generateMetadata({
@@ -17,50 +17,17 @@ export const metadata = generateMetadata({
   canonical: '/order/confirmation',
 })
 
-// This page expects order data to be passed via URL search params from Spiffy
+// This page shows order confirmation and can work with or without URL parameters
 // Example: /order/confirmation?name_first=John&name_last=Doe
 export default function OrderConfirmationPage() {
   // TODO: Connect to Spiffy webhook/order API to get real order data
-  const searchParams = new URLSearchParams(typeof window !== 'undefined' ? window.location.search : '')
+  const searchParams = useSearchParams()
 
   const nameFirst = searchParams.get('name_first')
   const nameLast = searchParams.get('name_last')
 
-  // If no order data is provided, show error
-  if (!nameFirst || !nameLast) {
-    return (
-      <div className="flex flex-col min-h-screen">
-        <section className="bg-gradient-to-br from-red-50 via-background to-red-50 py-20 lg:py-32">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-4xl mx-auto text-center">
-              <div className="w-20 h-20 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-8">
-                <svg className="w-10 h-10 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
-                </svg>
-              </div>
-              <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl">
-                Invalid{' '}
-                <span className="text-red-600">Order Access</span>
-              </h1>
-              <p className="mt-6 text-lg leading-8 text-muted-foreground max-w-2xl mx-auto">
-                This confirmation page requires valid order parameters (name_first, name_last). Please complete your order through our secure payment form.
-              </p>
-              <div className="mt-10">
-                <Button size="lg" asChild>
-                  <Link href="/order">
-                    Return to Order Form
-                  </Link>
-                </Button>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    )
-  }
-
   const orderDetails = {
-    customerName: `${nameFirst} ${nameLast}`,
+    customerName: (nameFirst && nameLast) ? `${nameFirst} ${nameLast}` : "Valued Customer",
     service: "PLLC Formation Package",
     amount: 885, // Standard package price
     paymentDate: new Date().toLocaleDateString(),

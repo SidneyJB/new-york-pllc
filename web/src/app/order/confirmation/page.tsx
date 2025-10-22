@@ -135,7 +135,7 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-600 mr-2">✓</span>
-                        Registered Agent Service
+                        Free First Year Registered Agent Service
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-600 mr-2">✓</span>
@@ -168,11 +168,12 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
                 </div>
               </CardContent>
             </Card>
-
             {/* Next Steps Timeline */}
+            {/* 
+
             <Card className="mb-8">
               <CardHeader>
-                <CardTitle>Next Steps & Timeline</CardTitle>
+                <CardTitle>Next Steps</CardTitle>
                 <CardDescription>
                   Here's what happens next in your PLLC formation process
                 </CardDescription>
@@ -228,7 +229,8 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
                   </div>
                 </div>
               </CardContent>
-            </Card>
+            </Card> 
+            */}
 
             {/* Support Information */}
             <Card>

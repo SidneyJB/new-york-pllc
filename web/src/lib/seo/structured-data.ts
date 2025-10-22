@@ -201,7 +201,7 @@ export function generateRootSchemas() {
 export const PLLC_SERVICE_OFFERS: ServiceOffer[] = [
   {
     name: 'Complete PLLC Formation Package',
-    description: 'Articles of Organization filing, 6-week newspaper publishing in two newspapers, Certificate of Publication filing, and all required affidavits.',
+    description: 'Articles of Organization filing, free first year registered agent service, 6-week newspaper publishing in two newspapers, Certificate of Publication filing, and all required affidavits.',
     price: '885.00',
     priceCurrency: 'USD',
     availability: 'https://schema.org/InStock',
@@ -232,7 +232,7 @@ export const PLLC_FAQS: FAQItem[] = [
   },
   {
     question: 'Why is your service $885?',
-    answer: 'Our $885 price includes everything: Articles of Organization filing, 6-week newspaper publication in two newspapers, Certificate of Publication filing, and all required affidavits. Many competitors charge $99 for filing but then add $500-1000+ for publishing, making their total cost much higher.',
+    answer: 'Our $885 price includes everything: Articles of Organization filing, free first year registered agent service, 6-week newspaper publication in two newspapers, Certificate of Publication filing, and all required affidavits. Many competitors charge $99 for filing but then add $500-1000+ for publishing, making their total cost much higher.',
   },
   {
     question: 'Are there any hidden fees?',

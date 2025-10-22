@@ -65,6 +65,7 @@ export default function TermsPage() {
                   <ul className="list-disc list-inside text-muted-foreground space-y-1">
                     <li>Articles of Organization filing with New York State</li>
                     <li>Professional license verification</li>
+                    <li>Free first year registered agent service</li>
                     <li>6-week newspaper publication in two designated newspapers</li>
                     <li>Certificate of Publication filing with New York State</li>
                     <li>Digital delivery of all formation documents</li>

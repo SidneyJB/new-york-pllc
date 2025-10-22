@@ -29,7 +29,7 @@ export function AboutBlurbSection() {
 
             <p>
               What you can expect from us: clear pricing, clear timelines, and clear communication. The flat fee is{' '}
-              <strong>{'$'}{PRICING.basePrice}</strong> and it includes the two-newspaper, six-week publication. We’ll
+              <strong>{'$'}{PRICING.basePrice}</strong> and it includes the two-newspaper, six-week publication, plus free first year registered agent service. We’ll
               prepare and file your Articles of Organization, manage the publication, file the Certificate of
               Publication, and send your final documents with simple next steps. You won’t need to chase anyone or guess
               what’s happening—we’ll keep you posted.

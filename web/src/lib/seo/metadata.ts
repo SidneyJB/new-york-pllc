@@ -105,7 +105,7 @@ export const HOME_METADATA = generateMetadata({
 
 export const PRICING_METADATA = generateMetadata({
   title: 'PLLC Formation Pricing | $885 All-Inclusive New York',
-  description: 'Transparent PLLC formation pricing at $885 including Articles of Organization, 6-week newspaper publishing, and Certificate of Publication. No hidden fees for New York professional LLC formation.',
+  description: 'Transparent PLLC formation pricing at $885 including Articles of Organization, free first year registered agent service, 6-week newspaper publishing, and Certificate of Publication. No hidden fees for New York professional LLC formation.',
   keywords: [
     'PLLC formation cost',
     'NY PLLC pricing',

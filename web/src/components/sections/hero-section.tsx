@@ -122,7 +122,10 @@ export function HeroSection() {
                       <BadgeCheck className="mt-0.5 h-3 w-3 text-primary flex-shrink-0" aria-hidden="true" />
                       <span>Federal Tax ID Number</span>
                     </div>
-
+                    <div className="flex items-center gap-2">
+                      <BadgeCheck className="mt-0.5 h-3 w-3 text-primary flex-shrink-0" aria-hidden="true" />
+                      <span>Free first year registered agent service</span>
+                    </div>
                     <div className="flex items-center gap-2">
                       <BadgeCheck className="mt-0.5 h-3 w-3 text-primary flex-shrink-0" aria-hidden="true" />
                       <span>Signature-ready Operating Agreement</span>

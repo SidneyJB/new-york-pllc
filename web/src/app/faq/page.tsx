@@ -371,6 +371,7 @@ export default function FAQPage() {
                         <li>NYSED preapproval process</li>
                         <li>PLLC formation and filing</li>
                         <li>Federal tax ID (EIN)</li>
+                        <li>Free first year registered agent service</li>
                         <li>Operating agreement (required in NY)</li>
                         <li>Complete legal publishing process (six weeks in two newspapers)</li>
                         <li>Certificate of Publication filing</li>

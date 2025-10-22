@@ -42,14 +42,14 @@ export default function FAQPage() {
         </div>
 
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-background via-muted/30 to-muted/50 py-20 lg:py-32">
+        <section className="bg-gradient-to-br from-background via-muted/30 to-muted/50 py-20 lg:py-8">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl">
                 Frequently Asked <span className="text-primary">Questions</span>
               </h1>
               <p className="mt-6 text-lg leading-8 text-muted-foreground max-w-2xl mx-auto">
-                Straight answers about forming a New York PLLC — what’s required, how long it takes, and what’s changing.
+                Straight answers about forming a New York PLLC.
               </p>
               <div className="mt-10">
                 <Button size="lg" asChild>
@@ -61,7 +61,7 @@ export default function FAQPage() {
         </section>
 
         {/* FAQ Sections */}
-        <section className="py-20 lg:py-32">
+        <section className="py-20 lg:py-8">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-4xl">
               {/* PLLC Formation Basics */}
@@ -554,7 +554,7 @@ export default function FAQPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-muted/50 py-20 lg:py-32">
+        <section className="bg-muted/50 py-20 lg:py-8">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">

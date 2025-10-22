@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { PRICING } from '@/lib/constants'
-import { notFound, useSearchParams } from 'next/navigation'
+import { notFound } from 'next/navigation'
 import { generateMetadata } from '@/lib/seo/metadata'
 
 export const metadata = generateMetadata({
@@ -19,12 +19,12 @@ export const metadata = generateMetadata({
 
 // This page shows order confirmation and can work with or without URL parameters
 // Example: /order/confirmation?name_first=John&name_last=Doe
-export default function OrderConfirmationPage() {
+export default async function OrderConfirmationPage({ searchParams }: { searchParams: Promise<{ [key: string]: string | string[] | undefined }> }) {
   // TODO: Connect to Spiffy webhook/order API to get real order data
-  const searchParams = useSearchParams()
+  const params = await searchParams
 
-  const nameFirst = searchParams.get('name_first')
-  const nameLast = searchParams.get('name_last')
+  const nameFirst = params.name_first as string
+  const nameLast = params.name_last as string
 
   const orderDetails = {
     customerName: (nameFirst && nameLast) ? `${nameFirst} ${nameLast}` : "Valued Customer",

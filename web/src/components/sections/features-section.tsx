@@ -1,4 +1,5 @@
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import { Button } from '@/components/ui/button'
 import { DollarSign, Shield, CheckCircle2, Info } from 'lucide-react'
 import Link from 'next/link'
@@ -124,16 +125,39 @@ export function FeaturesSection() {
               </CardHeader>
 
               <CardContent>
-                {/* Top professions + "view all" */}
+                {/* Top professions as badges */}
                 <div className="mb-4 flex flex-wrap gap-2">
-                  {PROFESSIONAL_TYPES.map((type) => (
+                  {PROFESSIONAL_TYPES.slice(0, 8).map((profession) => (
                     <span
-                      key={type}
-                      className="inline-flex items-center rounded-md bg-secondary px-2 py-1 text-xs font-medium text-secondary-foreground"
+                      key={profession}
+                      className="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 text-xs font-medium text-primary"
                     >
-                      {type}
+                      {profession}
                     </span>
                   ))}
+                </div>
+
+                {/* Professions Accordion for the rest */}
+                <div className="mb-4">
+                  <Accordion type="single" collapsible className="w-full">
+                    <AccordionItem value="professions">
+                      <AccordionTrigger className="text-sm font-medium text-muted-foreground hover:text-foreground">
+                        View {PROFESSIONAL_TYPES.length - 8} more professions
+                      </AccordionTrigger>
+                      <AccordionContent>
+                        <div className="grid grid-cols-2 md:grid-cols-3 gap-2 mt-2">
+                          {PROFESSIONAL_TYPES.slice(8).map((profession) => (
+                            <div
+                              key={profession}
+                              className="text-xs text-muted-foreground p-2 rounded-md bg-muted/50"
+                            >
+                              {profession}
+                            </div>
+                          ))}
+                        </div>
+                      </AccordionContent>
+                    </AccordionItem>
+                  </Accordion>
                 </div>
 
                 {/* Confidence bullets (distinct from left card) */}

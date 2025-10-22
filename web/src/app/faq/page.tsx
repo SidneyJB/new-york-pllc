@@ -111,6 +111,153 @@ export default function FAQPage() {
                       </p>
                     </CardContent>
                   </Card>
+
+                  <Card>
+                    <CardHeader>
+                      <CardTitle className="text-lg">Why does PLLC formation take longer than regular LLCs?</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-muted-foreground">
+                        PLLC formation requires preapproval from the New York State Education Department (NYSED),
+                        adding 3-4 months to the process compared to regular entities. This mandatory step applies
+                        to most professional practices and cannot be expedited, regardless of which service you use.
+                      </p>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardHeader>
+                      <CardTitle className="text-lg">Why are PLLCs more expensive to form?</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-muted-foreground">
+                        The additional NYSED preapproval process requires extra paperwork and documentation,
+                        increasing both the time and cost compared to forming a regular LLC. This is a state requirement
+                        that applies to all professional entities, not specific to any particular service provider.
+                      </p>
+                    </CardContent>
+                  </Card>
+                </div>
+              </div>
+
+              {/* NYSED Preapproval Process */}
+              <div className="mb-16">
+                <h2 className="text-3xl font-bold tracking-tight text-foreground mb-8">
+                  NYSED Preapproval Process
+                </h2>
+
+                <div className="space-y-6">
+                  <Card>
+                    <CardHeader>
+                      <CardTitle className="text-lg">
+                        What is NYSED preapproval and why is it required?
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-muted-foreground">
+                        The New York State Education Department (NYSED) must review and approve professional
+                        entities before they can be formed. This mandatory preapproval process adds 3-4 months
+                        to the formation timeline and is required for most licensed professional practices.
+                      </p>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardHeader>
+                      <CardTitle className="text-lg">
+                        Why choose an experienced service for NYSED preapproval?
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-muted-foreground">
+                        Small errors, naming mistakes, or other missteps in the preapproval request can add
+                        several months to the approval timeline. Experienced professionals understand the
+                        requirements and can help ensure your application is approved as quickly as possible.
+                      </p>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardHeader>
+                      <CardTitle className="text-lg">
+                        Can naming affect my PLLC approval?
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-muted-foreground">
+                        Yes, your chosen name can impact approval timing. After helping form hundreds of
+                        professional entities, we've learned the specific naming conventions that help
+                        avoid delays in the approval process.
+                      </p>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardHeader>
+                      <CardTitle className="text-lg">
+                        Which professions require NYSED preapproval?
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-muted-foreground mb-3">
+                        The following professions require NYSED preapproval for PLLC formation:
+                      </p>
+                      <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
+                        <div className="text-muted-foreground">Acupuncture</div>
+                        <div className="text-muted-foreground">Applied Behavior Analysis</div>
+                        <div className="text-muted-foreground">Architecture</div>
+                        <div className="text-muted-foreground">Athletic Training</div>
+                        <div className="text-muted-foreground">Audiology</div>
+                        <div className="text-muted-foreground">Certified Shorthand Reporting</div>
+                        <div className="text-muted-foreground">Chiropractic</div>
+                        <div className="text-muted-foreground">Clinical Laboratory Technology</div>
+                        <div className="text-muted-foreground">Dentistry</div>
+                        <div className="text-muted-foreground">Dietetics-Nutrition</div>
+                        <div className="text-muted-foreground">Engineering</div>
+                        <div className="text-muted-foreground">Geology</div>
+                        <div className="text-muted-foreground">Interior Design</div>
+                        <div className="text-muted-foreground">Land Surveying</div>
+                        <div className="text-muted-foreground">Landscape Architecture</div>
+                        <div className="text-muted-foreground">Massage Therapy</div>
+                        <div className="text-muted-foreground">Medical Physics</div>
+                        <div className="text-muted-foreground">Medicine</div>
+                        <div className="text-muted-foreground">Mental Health Practitioners</div>
+                        <div className="text-muted-foreground">Midwifery</div>
+                        <div className="text-muted-foreground">Nursing</div>
+                        <div className="text-muted-foreground">Occupational Therapy</div>
+                        <div className="text-muted-foreground">Ophthalmic Dispensing</div>
+                        <div className="text-muted-foreground">Optometry</div>
+                        <div className="text-muted-foreground">Pathologists' Assistant</div>
+                        <div className="text-muted-foreground">Perfusion</div>
+                        <div className="text-muted-foreground">Pharmacy</div>
+                        <div className="text-muted-foreground">Physical Therapy</div>
+                        <div className="text-muted-foreground">Podiatry</div>
+                        <div className="text-muted-foreground">Polysomnographic Technology</div>
+                        <div className="text-muted-foreground">Psychology</div>
+                        <div className="text-muted-foreground">Public Accountancy</div>
+                        <div className="text-muted-foreground">Respiratory Therapy</div>
+                        <div className="text-muted-foreground">Social Work</div>
+                        <div className="text-muted-foreground">Speech-Language Pathology</div>
+                        <div className="text-muted-foreground">Veterinary Medicine</div>
+                      </div>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardHeader>
+                      <CardTitle className="text-lg">
+                        Should I use national services like LegalZoom for NY PLLCs?
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-muted-foreground">
+                        National services outside of New York typically don't handle professional entities
+                        in New York due to the complexity of the NYSED preapproval process and state-specific
+                        requirements. Working with experienced New York professionals ensures compliance
+                        with all local regulations.
+                      </p>
+                    </CardContent>
+                  </Card>
                 </div>
               </div>
 
@@ -139,7 +286,7 @@ export default function FAQPage() {
 
                   <Card>
                     <CardHeader>
-                      <CardTitle className="text-lg">How long does publishing take and what’s the deadline?</CardTitle>
+                      <CardTitle className="text-lg">How long does publishing take and what's the deadline?</CardTitle>
                     </CardHeader>
                     <CardContent>
                       <p className="text-muted-foreground">
@@ -152,11 +299,11 @@ export default function FAQPage() {
 
                   <Card>
                     <CardHeader>
-                      <CardTitle className="text-lg">What happens if I don’t publish?</CardTitle>
+                      <CardTitle className="text-lg">What happens if I don't publish?</CardTitle>
                     </CardHeader>
                     <CardContent>
                       <p className="text-muted-foreground">
-                        If you miss the 120-day deadline, the PLLC’s authority to carry on business in New York is
+                        If you miss the 120-day deadline, the PLLC's authority to carry on business in New York is
                         suspended until you cure by publishing and filing the certificate. You can usually fix it
                         later, but it can create issues (e.g., with banking or litigation) until corrected.
                       </p>
@@ -217,10 +364,18 @@ export default function FAQPage() {
                       <CardTitle className="text-lg">What does your $885 price include?</CardTitle>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-muted-foreground">
-                        NYSED pre approval, Formation filing, EIN, Operating Agreement, the required six-week publication in two newspapers, the Certificate of
-                        Publication filing, and status updates. It’s a single, all-inclusive price for New York PLLCs.
+                      <p className="text-muted-foreground mb-3">
+                        Our all-inclusive $885 price covers everything needed to form and operate your PLLC:
                       </p>
+                      <ul className="list-disc list-inside text-muted-foreground space-y-1">
+                        <li>NYSED preapproval process</li>
+                        <li>PLLC formation and filing</li>
+                        <li>Federal tax ID (EIN)</li>
+                        <li>Operating agreement (required in NY)</li>
+                        <li>Complete legal publishing process (six weeks in two newspapers)</li>
+                        <li>Certificate of Publication filing</li>
+                        <li>Status updates throughout the process</li>
+                      </ul>
                     </CardContent>
                   </Card>
 
@@ -230,7 +385,7 @@ export default function FAQPage() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-muted-foreground">
-                        No. If you ask for optional extras (for example, special expedited state services), we’ll
+                        No. If you ask for optional extras (for example, special expedited state services), we'll
                         spell out the cost before you decide. Otherwise, the price you see is the price you pay.
                       </p>
                     </CardContent>
@@ -243,7 +398,20 @@ export default function FAQPage() {
                     <CardContent>
                       <p className="text-muted-foreground">
                         We currently collect the full amount up front so we can file immediately and keep timelines
-                        tight. If you have questions about budgeting, reach out and we’ll talk it through.
+                        tight. If you have questions about budgeting, reach out and we'll talk it through.
+                      </p>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardHeader>
+                      <CardTitle className="text-lg">When should I start the PLLC formation process?</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-muted-foreground">
+                        Given that the NYSED preapproval process adds 3-4 months to the timeline, it's best to
+                        start as soon as possible. Don't wait until you need to begin practicing — start the
+                        formation process early to avoid delays in your practice launch.
                       </p>
                     </CardContent>
                   </Card>

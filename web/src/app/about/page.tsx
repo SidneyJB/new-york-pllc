@@ -16,22 +16,22 @@ const FOUNDERS: Founder[] = [
     headshotSrc: '/founder-1.jpeg', // TODO: replace with real headshot path
     headshotAlt: 'Headshot of Founder Name One',
     bio: [
-      // TODO: replace with real copy
-      'Short bio placeholder. Share a quick backstory—how you began helping New York professionals with entity filings and why the publication step caught your attention.',
-      'Explain what you focus on today (e.g., guiding customers, keeping communication plain-English, setting the bar for service).',
-      'Add one human detail—a belief, habit, or origin story that makes the work feel personal and local to New York.'
-    ],
+			"I help licensed professionals turn plans into real New York PLLCs by guiding you through one of the most important early steps: forming your entity the right way.",
+			"With an engineering background, I’ve built our systems that streamline every part of the process—reducing errors, speeding up filings, and keeping everything organized from start to finish. My goal is to make something that’s usually stressful feel smooth and predictable.",
+			"Clients work with me because I cut through confusing state rules and legal jargon, make sure you’re compliant from day one, save time and avoidable costs, and provide responsive, personal service—no upsells, no runaround.",
+			"Whether you’re opening your first practice or formalizing a growing one, my mission is the same: give you a solid legal start so you can focus on your work. I’m NYC-based and always happy to talk things through before you start."
+			]
   },
   {
     name: 'Steve',
     title: 'Co-founder',
-    headshotSrc: '/images/founders/founder-2.jpg', // TODO: replace with real headshot path
+    headshotSrc: '/founder-2.jpg', // TODO: replace with real headshot path
     headshotAlt: 'Headshot of Founder Name Two',
     bio: [
-      // TODO: replace with real copy
-      'Short bio placeholder. Mention practical experience (operations, customer support, or publication logistics) and why details matter.',
-      'Describe how you keep things moving for customers—quick replies, clear timelines, zero upsells—and what “doing it right” means to you.',
-      'Close with a friendly line that signals approachability and that you’re a real person in New York.'
+      'I help entrepreneurs turn their ideas into reality by guiding them through one of the most important first steps: forming their business entity the right way.',
+      'With 25+ years of experience and a proven track record of assisting over 25,000 business owners, I specialize in making the LLC and corporation formation process fast, accurate, and stress-free. My expertise is especially deep in New York business law, where many national providers like Legalzoom, Bizee, Northwest, etc. fall short or spread misinformation.',
+      'Over the years, I\'ve built a reputation for cutting through confusing state rules and legal jargon, ensuring compliance from day one, and saving clients time, money, and unnecessary headaches. I provide trusted, personal service in an industry often dominated by faceless "big box" formation companies.',
+      'Whether you\'re starting a small local business, scaling into new markets, or exploring foreign registration, my mission is the same: make sure your company\'s legal foundation is solid so you can focus on growth.'
     ],
   },
 ]
@@ -96,18 +96,18 @@ export default function AboutExtendedSection() {
           <div className="mt-12">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">Meet the founders</h2>
 
-            <div className="mt-6 grid grid-cols-1 gap-10 sm:grid-cols-2">
-              {FOUNDERS.map((f) => (
-                <article key={f.name} className="flex flex-col gap-4">
+            <div className="mt-6 relative">
+              <div className="hidden sm:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-gray-300 transform -translate-x-1/2 z-10"></div>
+              <div className="grid grid-cols-1 gap-10 sm:grid-cols-2">
+                {FOUNDERS.map((f) => (
+                  <article key={f.name} className="flex flex-col gap-4">
                   <div className="relative h-64 w-full overflow-hidden rounded-xl ">
                     <Image
                       src={f.headshotSrc}
                       alt={f.headshotAlt}
-                      
+                      fill
                       priority
-                      className="object-cover"
-                      height={800}
-                      width={400}
+                      className="object-contain"
                     />
                   </div>
 
@@ -121,6 +121,7 @@ export default function AboutExtendedSection() {
                   </div>
                 </article>
               ))}
+              </div>
             </div>
           </div>
 

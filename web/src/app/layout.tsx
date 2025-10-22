@@ -113,10 +113,22 @@ export default function RootLayout({
           }}
         />
 
-        {/* Crisp Chat Widget */}
+        {/* Tawk.to Chat Widget */}
         <script type="text/javascript" dangerouslySetInnerHTML={{
-          __html: `window.$crisp=[];window.CRISP_WEBSITE_ID="811960ab-ccbe-40dd-8241-7f0c93648f2b";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();`
-        }} />
+          __html: `
+            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+            (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/68f940cd511129194ce113cc/1j86qa8he';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+            })();
+          `}} 
+        />
+
+
       </head>
       <body className={`${inter.variable} ${jetbrainsMono.variable} antialiased`}>
         <script async dangerouslySetInnerHTML={{

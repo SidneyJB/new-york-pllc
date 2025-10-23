@@ -1,9 +1,8 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { PRICING } from '@/lib/constants'
-import { notFound } from 'next/navigation'
 import { generateMetadata } from '@/lib/seo/metadata'
+import { BadgeCheck } from 'lucide-react'
 
 export const metadata = generateMetadata({
   title: 'Order Confirmation | NY PLLC Formation Complete',
@@ -121,51 +120,66 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
 
             {/* What's Included */}
             <Card className="mb-8">
-              <CardHeader>
-                <CardTitle>What's Included in Your Order</CardTitle>
+              <CardHeader className="pb-2">
+                <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                  Included with your formation
+                </p>
+                <CardTitle className="text-2xl">
+                  The same concierge service you saw before checkout
+                </CardTitle>
+                <CardDescription>
+                  We handle every New York PLLC requirement end-to-end—no surprise follow-up work on your side.
+                </CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                  <div className="space-y-3">
-                    <h4 className="font-semibold text-primary">Formation Services</h4>
-                    <ul className="space-y-2 text-sm">
-                      <li className="flex items-start">
-                        <span className="text-green-600 mr-2">✓</span>
-                        Articles of Organization Filing
+                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+                  <div>
+                    <h4 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+                      Formation & compliance
+                    </h4>
+                    <ul className="space-y-3 text-sm">
+                      <li className="flex items-start gap-2">
+                        <BadgeCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" aria-hidden="true" />
+                        <span>NYSED pre-approval of your PLLC name and professional license</span>
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-green-600 mr-2">✓</span>
-                        Professional License Verification
+                      <li className="flex items-start gap-2">
+                        <BadgeCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" aria-hidden="true" />
+                        <span>PLLC Articles of Organization prepared, filed, and tracked for you</span>
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-green-600 mr-2">✓</span>
-                        Free First Year Registered Agent Service
+                      <li className="flex items-start gap-2">
+                        <BadgeCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" aria-hidden="true" />
+                        <span>Federal Tax ID (EIN) obtained and delivered securely</span>
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-green-600 mr-2">✓</span>
-                        Operating Agreement Template
+                      <li className="flex items-start gap-2">
+                        <BadgeCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" aria-hidden="true" />
+                        <span>Free first-year registered agent service with automatic renewals available</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <BadgeCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" aria-hidden="true" />
+                        <span>Signature-ready operating agreement tailored to your member structure</span>
                       </li>
                     </ul>
                   </div>
-
-                  <div className="space-y-3">
-                    <h4 className="font-semibold text-primary">Publishing Services</h4>
-                    <ul className="space-y-2 text-sm">
-                      <li className="flex items-start">
-                        <span className="text-green-600 mr-2">✓</span>
-                        Publication in 2 NY Newspapers
+                  <div>
+                    <h4 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+                      Publishing & delivery
+                    </h4>
+                    <ul className="space-y-3 text-sm">
+                      <li className="flex items-start gap-2">
+                        <BadgeCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" aria-hidden="true" />
+                        <span>Two New York newspaper placements for the full six-week publishing requirement</span>
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-green-600 mr-2">✓</span>
-                        6-Week Publication Period
+                      <li className="flex items-start gap-2">
+                        <BadgeCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" aria-hidden="true" />
+                        <span>Affidavits collected and Certificate of Publication filed with the state</span>
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-green-600 mr-2">✓</span>
-                        Affidavit of Publication
+                      <li className="flex items-start gap-2">
+                        <BadgeCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" aria-hidden="true" />
+                        <span>Status updates at every milestone, so you never wonder where things stand</span>
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-green-600 mr-2">✓</span>
-                        Certificate of Publication Filing
+                      <li className="flex items-start gap-2">
+                        <BadgeCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" aria-hidden="true" />
+                        <span>Digital delivery of every filing receipt, affidavit, and final certificate</span>
                       </li>
                     </ul>
                   </div>

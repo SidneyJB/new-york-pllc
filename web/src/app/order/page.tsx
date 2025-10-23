@@ -48,7 +48,7 @@ export default function OrderPage() {
               <CardContent>
              <div dangerouslySetInnerHTML={{
               __html: `
-               <spiffy-checkout url="https://nyllcpub.spiffy.co/checkout/pllc-form-1" ></spiffy-checkout>
+               <spiffy-checkout url="https://nypllc.spiffy.co/checkout/new-york-pllc-formation" ></spiffy-checkout>
               `
              }}/>
               </CardContent>

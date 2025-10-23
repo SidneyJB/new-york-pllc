@@ -65,7 +65,11 @@ export function HeroSection() {
                   </li>
                   <li className="flex items-start gap-2">
                     <BadgeCheck className="mt-0.5 h-3 w-3 text-primary flex-shrink-0" aria-hidden="true" />
-                    <span>Everything you need to open your practice (EIN, Operating Agreement, Required Legal Publishing end-to-end)</span>
+                    <span>Everything you need to open your practice (EIN, Operating Agreement,{' '}
+                    <Link href="/faq#publishing-requirements" className="text-primary underline underline-offset-2">
+                      Required Legal Publishing
+                    </Link>{' '}
+                    end-to-end)</span>
                   </li>
                 </ul>
               </div>

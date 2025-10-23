@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+ 
 import Link from 'next/link'
 import { Metadata } from 'next'
 import { Button } from '@/components/ui/button'
@@ -12,6 +12,14 @@ import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 export const metadata: Metadata = {
   title: `Form a New York MHC PLLC | ${APP_CONFIG?.name || 'New York PLLC'}`,
   description: `Form your MHC PLLC in New York for a flat $${PRICING.basePrice}. We help Licensed Mental Health Counselors get NYSED pre-approval, meet naming requirements, file correctly, complete legal publishing, and receive every document needed to open their counseling practice.`,
+  keywords: [
+    'MHC PLLC formation',
+    'New York Mental Health Counselor LLC',
+    'Licensed Mental Health Counselor PLLC',
+    'NY counselor business formation',
+    'MHC practice formation',
+    'New York therapist PLLC'
+  ],
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/professions/mhc`,
   },

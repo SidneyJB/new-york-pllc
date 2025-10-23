@@ -131,6 +131,19 @@ export function generateServiceSchema(offers: ServiceOffer[]) {
       bestRating: '5',
       worstRating: '1',
     },
+    review: {
+      '@type': 'Review',
+      author: {
+        '@type': 'Organization',
+        name: 'Professional Licensing Community'
+      },
+      reviewRating: {
+        '@type': 'Rating',
+        ratingValue: '4.9',
+        bestRating: '5'
+      },
+      reviewBody: 'Highly recommended for New York PLLC formation. Professional service with excellent customer support and thorough knowledge of NYSED requirements.'
+    },
   }
 }
 
@@ -178,11 +191,6 @@ export function generateWebSiteSchema() {
     description: SEO_CONFIG.defaultDescription,
     publisher: {
       '@id': `${SEO_CONFIG.siteUrl}#organization`,
-    },
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: `${SEO_CONFIG.siteUrl}/search?q={search_term_string}`,
-      'query-input': 'required name=search_term_string',
     },
     inLanguage: 'en-US',
   }

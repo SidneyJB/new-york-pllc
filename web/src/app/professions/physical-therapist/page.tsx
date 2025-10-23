@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link'
 import { Metadata } from 'next'
 import { Button } from '@/components/ui/button'
@@ -12,6 +11,14 @@ import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 export const metadata: Metadata = {
   title: `Form a New York PT PLLC | ${APP_CONFIG?.name || 'New York PLLC'}`,
   description: `Form your Physical Therapist PLLC in New York for a flat $${PRICING.basePrice}. We help licensed PTs with NYSED pre-approval, compliant naming, accurate filing, legal publishing, EIN setup, and delivery of all bank-ready documents.`,
+  keywords: [
+    'PT PLLC formation',
+    'New York Physical Therapist LLC',
+    'Licensed Physical Therapist PLLC',
+    'NY PT business formation',
+    'Physical therapy practice formation',
+    'New York PT PLLC'
+  ],
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/professions/physical-therapist`,
   },

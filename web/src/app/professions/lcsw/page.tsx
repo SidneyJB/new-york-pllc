@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link'
 import { Metadata } from 'next'
 import { Button } from '@/components/ui/button'
@@ -12,6 +11,14 @@ import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 export const metadata: Metadata = {
   title: `Form a New York LCSW PLLC | ${APP_CONFIG?.name || 'New York PLLC'}`,
   description: `Form your LCSW PLLC in New York for a flat $${PRICING.basePrice}. We help Licensed Clinical Social Workers get NYSED pre-approval, choose compliant names, file correctly, complete publishing, and get every document needed to open a therapy practice.`,
+  keywords: [
+    'LCSW PLLC formation',
+    'New York LCSW LLC',
+    'Licensed Clinical Social Worker PLLC',
+    'NY therapist business formation',
+    'LCSW practice formation',
+    'New York social worker PLLC'
+  ],
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/professions/lcsw`,
   },
@@ -133,8 +140,11 @@ export default function LCSWPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-muted-foreground text-sm">
-                We coordinate the full six-week publication, collect affidavits, and file the Certificate of Publication.  
-                It’s all included in the ${PRICE} — no surprises later.
+                We coordinate the full six-week publication, collect affidavits, and file the Certificate of Publication.{' '}
+                <Link href="/faq#publishing-requirements" className="text-primary underline underline-offset-2 text-xs">
+                  Learn about publishing requirements
+                </Link>
+                . It’s all included in the ${PRICE} — no surprises later.
               </CardContent>
             </Card>
           </div>

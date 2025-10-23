@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link'
 import { Metadata } from 'next'
 import { Button } from '@/components/ui/button'
@@ -12,6 +11,14 @@ import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 export const metadata: Metadata = {
   title: `Form a New York Psychology PLLC | ${APP_CONFIG?.name || 'New York PLLC'}`,
   description: `Form your Psychology PLLC in New York for a flat $${PRICING.basePrice}. We help licensed psychologists with NYSED pre-approval, compliant naming, precise filing, legal publishing, EIN setup, and delivery of all bank-ready documents.`,
+  keywords: [
+    'Psychology PLLC formation',
+    'New York Psychologist LLC',
+    'Licensed Psychologist PLLC',
+    'NY psychology practice formation',
+    'Psychologist business formation',
+    'New York psychology PLLC'
+  ],
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/professions/psychologist`,
   },

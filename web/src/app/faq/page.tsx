@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+ 
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -107,7 +107,11 @@ export default function FAQPage() {
                         A regular LLC can be formed for almost any lawful business by any person. A PLLC is limited
                         to licensed professional services, requires OP pre-clearance, has naming/purpose restrictions,
                         and ownership is generally limited to licensees (with specific rules for certain design
-                        professions).
+                        professions).{' '}
+                        <Link href="/about" className="text-primary underline underline-offset-2">
+                          Learn more about our professional focus
+                        </Link>
+                        .
                       </p>
                     </CardContent>
                   </Card>
@@ -405,6 +409,11 @@ export default function FAQPage() {
                         <li>Certificate of Publication filing</li>
                         <li>Status updates throughout the process</li>
                       </ul>
+                      <p className="mt-4 text-sm">
+                        <Link href="/order" className="text-primary underline underline-offset-2 font-medium">
+                          Ready to get started? Order now for $885
+                        </Link>
+                      </p>
                     </CardContent>
                   </Card>
 

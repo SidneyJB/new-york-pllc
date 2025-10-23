@@ -41,6 +41,12 @@ export const NAVIGATION = {
     { name: 'FAQ', href: '/faq' },
     { name: 'Contact', href: '/contact' },
   ],
+  professions: [
+    { name: 'LCSW (Licensed Clinical Social Worker)', href: '/professions/lcsw', shortName: 'LCSW' },
+    { name: 'MHC (Mental Health Counselor)', href: '/professions/mhc', shortName: 'MHC' },
+    { name: 'Physical Therapist', href: '/professions/physical-therapist', shortName: 'Physical Therapist' },
+    { name: 'Psychologist', href: '/professions/psychologist', shortName: 'Psychologist' },
+  ],
   footer: [
     { name: 'Privacy Policy', href: '/privacy' },
     { name: 'Terms of Service', href: '/terms' },

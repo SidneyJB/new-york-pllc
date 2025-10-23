@@ -9,8 +9,8 @@ export function GuaranteeSection() {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center gap-3">
-                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-complementary-100">
-                  <Award className="h-4 w-4 text-complementary-600" />
+                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-success-500">
+                  <Award className="h-4 w-4 text-green-500" />
                 </div>
                 <span className="trust-indicator text-green-500">100% Money-Back Guarantee</span>
               </CardTitle>

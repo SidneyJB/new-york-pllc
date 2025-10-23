@@ -7,6 +7,7 @@ import { PRIVACY_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 
 export const metadata = PRIVACY_METADATA
+const LAST_UPDATED = 'October 23, 2025'
 
 export default function PrivacyPage() {
   return (
@@ -44,7 +45,7 @@ export default function PrivacyPage() {
               How we collect, use, and protect your personal information when you use our PLLC formation services.
             </p>
             <p className="mt-4 text-sm text-muted-foreground">
-              Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+              Last updated: {LAST_UPDATED}
             </p>
           </div>
         </div>

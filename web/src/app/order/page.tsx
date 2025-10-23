@@ -36,6 +36,14 @@ export default function OrderPage() {
       <section className="py-4 lg:py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl">
+            <header className="mb-8 text-center">
+              <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+                Complete Your New York PLLC Formation Order
+              </h1>
+              <p className="mt-3 text-base text-muted-foreground">
+                Secure checkout powered by Spiffy. Licensed professionals only — no hidden fees, ever.
+              </p>
+            </header>
 
             {/* Spiffy Form Placeholder */}
             <Card className="mb-8">

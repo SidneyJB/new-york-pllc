@@ -7,7 +7,7 @@ import { PRICING, PROFESSIONAL_TYPES } from '@/lib/constants'
 
 export function FeaturesSection() {
   return (
-    <section className="py-8 max-w-12xl o" aria-labelledby="features-heading">
+    <section className="py-8" aria-labelledby="features-heading">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Headline */}
         <div className="mx-auto max-w-10xl text-center">

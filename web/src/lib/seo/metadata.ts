@@ -47,11 +47,12 @@ export function generateMetadata({
 }: PageMetadata): Metadata {
   const fullTitle = title.includes('|') ? title : `${title} | ${SEO_CONFIG.siteName}`
   const canonicalUrl = canonical ? `${SEO_CONFIG.siteUrl}${canonical}` : undefined
+  const defaultOgImage = new URL(SEO_CONFIG.socialImage, SEO_CONFIG.siteUrl).toString()
 
   return {
     title: fullTitle,
     description,
-    keywords: keywords.join(', '),
+    keywords,
     authors: [{ name: SEO_CONFIG.companyInfo.name }],
     creator: SEO_CONFIG.companyInfo.name,
     publisher: SEO_CONFIG.companyInfo.name,
@@ -72,7 +73,7 @@ export function generateMetadata({
       title: openGraph?.title || fullTitle,
       description: openGraph?.description || description,
       images: openGraph?.images || [{
-        url: SEO_CONFIG.socialImage,
+        url: defaultOgImage,
         width: 1200,
         height: 630,
         alt: 'New York PLLC Formation Service - Professional LLC Services',
@@ -82,7 +83,7 @@ export function generateMetadata({
       card: twitter?.card || 'summary_large_image',
       title: twitter?.title || fullTitle,
       description: twitter?.description || description,
-      images: twitter?.images || [SEO_CONFIG.socialImage],
+      images: twitter?.images || [defaultOgImage],
       creator: SEO_CONFIG.twitterHandle,
     },
     robots: robots || {

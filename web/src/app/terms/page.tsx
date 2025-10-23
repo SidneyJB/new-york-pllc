@@ -5,6 +5,7 @@ import { APP_CONFIG, PRICING } from '@/lib/constants'
 import { TERMS_METADATA } from '@/lib/seo/metadata'
 
 export const metadata = TERMS_METADATA
+const LAST_UPDATED = 'October 23, 2025'
 
 export default function TermsPage() {
   return (
@@ -21,7 +22,7 @@ export default function TermsPage() {
               Terms and conditions for using our PLLC formation services in New York.
             </p>
             <p className="mt-4 text-sm text-muted-foreground">
-              Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+              Last updated: {LAST_UPDATED}
             </p>
           </div>
         </div>

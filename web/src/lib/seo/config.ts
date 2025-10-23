@@ -6,12 +6,17 @@ export const SEO_CONFIG = {
   twitterHandle: '@nypllc',
   companyInfo: {
     name: 'New York PLLC Formation Service',
-    address: 'New York, NY',
+    address: {
+      street: '1 Blue Hill Plaza Ste 1509-43',
+      city: 'Pearl River',
+      state: 'NY',
+      postalCode: '10965',
+    },
     phone: '646-444-2102',
     email: 'contact@newyorkpllc.com',
     description: 'Professional PLLC formation services for licensed professionals in New York. Complete formation including mandatory newspaper publishing.',
   },
-  socialImage: '/og-image.svg',
+  socialImage: '/og-image.png',
   keywords: [
     'NY PLLC formation',
     'New York PLLC',

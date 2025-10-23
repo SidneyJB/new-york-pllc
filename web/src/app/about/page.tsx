@@ -19,7 +19,7 @@ const FOUNDERS: Founder[] = [
     name: 'Sid',
     title: 'Co-founder',
     headshotSrc: '/founder-1.jpeg', // TODO: replace with real headshot path
-    headshotAlt: 'Headshot of Founder Name One',
+    headshotAlt: 'Photo of Sid, Co-founder of New York PLLC Formation Service',
     bio: [
       "I started this service after watching licensed professionals get stuck dealing with the complicated steps of New York PLLC formation. I handle the nuts and bolts, making sure every detail is right so your business gets off to a clean start.",
       "I designed and built our entire process from scratch, creating systems that handle document creation, government filings, and legal requirement checks. This cuts out the mistakes and delays that usually happen with manual work.",
@@ -31,7 +31,7 @@ const FOUNDERS: Founder[] = [
     name: 'Steve',
     title: 'Co-founder',
     headshotSrc: '/founder-2.jpg', // TODO: replace with real headshot path
-    headshotAlt: 'Headshot of Founder Name Two',
+    headshotAlt: 'Photo of Steve, Co-founder of New York PLLC Formation Service',
     bio: [
       "I help entrepreneurs turn their ideas into reality by guiding them through one of the most important first steps: forming their business entity the right way.", 
       "With 25+ years of experience and a proven track record of assisting over 25,000 business owners, I specialize in making the LLC and corporation formation process fast, accurate, and stress-free. My expertise is especially deep in New York business law, where many national providers like Legalzoom, Bizee, Northwest, etc. fall short or spread misinformation.",

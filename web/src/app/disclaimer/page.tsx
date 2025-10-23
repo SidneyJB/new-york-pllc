@@ -15,6 +15,7 @@ import { APP_CONFIG, BUSINESS_INFO } from '@/lib/constants'
 import { DISCLAIMER_METADATA } from '@/lib/seo/metadata'
 
 export const metadata = DISCLAIMER_METADATA
+const LAST_UPDATED = 'October 23, 2025'
 
 export default function DisclaimerPage() {
   return (
@@ -551,7 +552,7 @@ export default function DisclaimerPage() {
                   <strong>By using our services, you acknowledge that you have read, understood, and agree to these disclaimers and limitations.</strong> If you do not agree with any part of these disclaimers, please do not use our services. These disclaimers are subject to change without notice.
                 </p>
                 <p className="text-orange-600 text-xs mt-4">
-                  Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                  Last updated: {LAST_UPDATED}
                 </p>
               </CardContent>
             </Card>

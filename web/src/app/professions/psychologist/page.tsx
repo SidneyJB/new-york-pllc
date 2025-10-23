@@ -26,6 +26,11 @@ export const metadata: Metadata = {
 
 export default function PsychologyPage() {
   const PRICE = PRICING.basePrice
+  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'
+  const breadcrumbJson = [
+    { name: 'Home', item: siteUrl },
+    { name: 'Psychology PLLC Formation', item: `${siteUrl}/professions/psychologist` },
+  ]
 
   return (
     <>
@@ -33,9 +38,7 @@ export default function PsychologyPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(generateBreadcrumbSchema([
-            { name: 'Psychologist', item: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/professions/psychologist` }
-          ])),
+          __html: JSON.stringify(generateBreadcrumbSchema(breadcrumbJson)),
         }}
       />
       <div className="flex flex-col">
@@ -44,7 +47,8 @@ export default function PsychologyPage() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <Breadcrumb
               items={[
-                { label: 'Psychologist', href: '/professions/psychologist' }
+                { label: 'Professions' },
+                { label: 'Psychology PLLC', href: '/professions/psychologist' }
               ]}
             />
           </div>

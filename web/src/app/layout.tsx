@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     title: 'NY PLLC Formation | Professional LLC Services New York',
     description: 'Form your New York Professional Limited Liability Company (PLLC) for $885 including all publishing requirements. Fast, simple, and compliant PLLC formation for licensed professionals.',
     images: [{
-      url: '/og-image.svg',
+      url: 'https://newyorkpllc.com/og-image.png',
       width: 1200,
       height: 630,
       alt: 'New York PLLC Formation Service - Professional LLC Services',
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'NY PLLC Formation | Professional LLC Services New York',
     description: 'Form your New York Professional Limited Liability Company (PLLC) for $885 including all publishing requirements.',
-    images: ['/og-image.svg'],
+    images: ['https://newyorkpllc.com/og-image.png'],
     creator: '@nypllc',
   },
   robots: {
@@ -99,7 +99,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <head>
         {/* SEO Verification Meta Tags */}
         {/* <meta name="google-site-verification" content="your-gsc-code-here" />
@@ -108,8 +108,14 @@ export default function RootLayout({
         <meta name="linkedin-verification-id" content="your-linkedin-code-here" /> */}
 
         {/* Google tag (gtag.js) */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-17672972971" />
-        <script
+        <Script
+          id="gtag-src"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17672972971"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="gtag-init"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
@@ -121,40 +127,70 @@ export default function RootLayout({
         />
 
         {/* Tawk.to Chat Widget */}
-        <script type="text/javascript" dangerouslySetInnerHTML={{
-          __html: `
-            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-            (function(){
-            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-            s1.async=true;
-            s1.src='https://embed.tawk.to/68f940cd511129194ce113cc/1j86qa8he';
-            s1.charset='UTF-8';
-            s1.setAttribute('crossorigin','*');
-            s0.parentNode.insertBefore(s1,s0);
-            })();
-          `}} 
+        <Script
+          id="tawk-script"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+              (function(){
+                var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                s1.async=true;
+                s1.src='https://embed.tawk.to/68f940cd511129194ce113cc/1j86qa8he';
+                s1.charset='UTF-8';
+                s1.setAttribute('crossorigin','*');
+                s0.parentNode.insertBefore(s1,s0);
+              })();
+            `,
+          }}
         />
 
 
       </head>
       <body className={`${inter.variable} ${jetbrainsMono.variable} antialiased`}>
-        <script async dangerouslySetInnerHTML={{
-          __html: `
-            "use strict";!function(i,t){var f=t.spiffy=t.spiffy||[];if(!f.init){
-            if(f.invoked)return void(t.console&&console.error&&console.warn("Spiffy Elements included twice."))
-            ;f.invoked=!0,f.methods=["identify","config","debug","off","on"],f.factory=function(i){
-            return function(){var t=Array.prototype.slice.call(arguments);return t.unshift(i),f.push(t),f}},
-            f.methods.forEach(function(i){spiffy[i]=f.factory(i)}),f.load=function(t,f){if(!spiffy.ACCOUNT){
-            spiffy.ACCOUNT=t,spiffy.DOMAIN=f;var e=i.createElement("script");e.type="text/javascript",
-            e.async=!0,e.crossorigin="anonymous",e.src="https://js.static.spiffy.co/spiffy.js?a="+t
-            ;var n=i.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)}}}}(document,window),
-            spiffy.SNIPPET_VERSION="1.1.0";
-            spiffy.config({
-                hideSidebar: false,
-            })
-            spiffy.load("nypllc");
-          `
-        }}/>
+        <Script
+          id="spiffy-script"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              "use strict";
+              !function(i,t){
+                var f=t.spiffy=t.spiffy||[];
+                if(!f.init){
+                  if(f.invoked){
+                    return void (t.console && console.warn && console.warn("Spiffy Elements included twice."));
+                  }
+                  f.invoked=!0;
+                  f.methods=["identify","config","debug","off","on"];
+                  f.factory=function(i){
+                    return function(){
+                      var t=Array.prototype.slice.call(arguments);
+                      t.unshift(i);
+                      return f.push(t),f;
+                    }
+                  };
+                  f.methods.forEach(function(i){spiffy[i]=f.factory(i)});
+                  f.load=function(t,f){
+                    if(!spiffy.ACCOUNT){
+                      spiffy.ACCOUNT=t;
+                      spiffy.DOMAIN=f;
+                      var e=i.createElement("script");
+                      e.type="text/javascript";
+                      e.async=!0;
+                      e.crossorigin="anonymous";
+                      e.src="https://js.static.spiffy.co/spiffy.js?a="+t;
+                      var n=i.getElementsByTagName("script")[0];
+                      n.parentNode.insertBefore(e,n);
+                    }
+                  };
+                }
+              }(document,window);
+              spiffy.SNIPPET_VERSION="1.1.0";
+              spiffy.config({ hideSidebar: false });
+              spiffy.load("nypllc");
+            `,
+          }}
+        />
         {/* Structured Data for SEO */}
         <script
           type="application/ld+json"

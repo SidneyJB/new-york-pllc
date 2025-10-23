@@ -20,6 +20,8 @@ export interface ServiceOffer {
 
 // Organization Schema (for root layout)
 export function generateOrganizationSchema() {
+  const address = SEO_CONFIG.companyInfo.address
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
@@ -35,8 +37,10 @@ export function generateOrganizationSchema() {
     description: SEO_CONFIG.companyInfo.description,
     address: {
       '@type': 'PostalAddress',
-      addressLocality: SEO_CONFIG.companyInfo.address,
-      addressRegion: 'NY',
+      streetAddress: address.street,
+      addressLocality: address.city,
+      addressRegion: address.state,
+      postalCode: address.postalCode,
       addressCountry: 'US',
     },
     contactPoint: {
@@ -67,6 +71,8 @@ export function generateOrganizationSchema() {
 
 // LocalBusiness Schema (NY-specific)
 export function generateLocalBusinessSchema() {
+  const address = SEO_CONFIG.companyInfo.address
+
   return {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
@@ -77,14 +83,11 @@ export function generateLocalBusinessSchema() {
     email: SEO_CONFIG.companyInfo.email,
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'New York',
-      addressRegion: 'NY',
+      streetAddress: address.street,
+      addressLocality: address.city,
+      addressRegion: address.state,
+      postalCode: address.postalCode,
       addressCountry: 'US',
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: '40.7128',
-      longitude: '-74.0060',
     },
     openingHours: 'Mo-Fr 09:00-18:00',
     priceRange: '$$',
@@ -124,26 +127,6 @@ export function generateServiceSchema(offers: ServiceOffer[]) {
         '@id': `${SEO_CONFIG.siteUrl}#organization`,
       },
     })),
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '500',
-      bestRating: '5',
-      worstRating: '1',
-    },
-    review: {
-      '@type': 'Review',
-      author: {
-        '@type': 'Organization',
-        name: 'Professional Licensing Community'
-      },
-      reviewRating: {
-        '@type': 'Rating',
-        ratingValue: '4.9',
-        bestRating: '5'
-      },
-      reviewBody: 'Highly recommended for New York PLLC formation. Professional service with excellent customer support and thorough knowledge of NYSED requirements.'
-    },
   }
 }
 

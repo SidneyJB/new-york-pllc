@@ -27,6 +27,11 @@ export const metadata: Metadata = {
 
 export default function MHCPage() {
   const PRICE = PRICING.basePrice
+  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'
+  const breadcrumbJson = [
+    { name: 'Home', item: siteUrl },
+    { name: 'Mental Health Counselor PLLC Formation', item: `${siteUrl}/professions/mhc` },
+  ]
 
   return (
     <>
@@ -34,9 +39,7 @@ export default function MHCPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(generateBreadcrumbSchema([
-            { name: 'MHC', item: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/professions/mhc` }
-          ])),
+          __html: JSON.stringify(generateBreadcrumbSchema(breadcrumbJson)),
         }}
       />
       <div className="flex flex-col">
@@ -45,7 +48,8 @@ export default function MHCPage() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <Breadcrumb
               items={[
-                { label: 'MHC', href: '/professions/mhc' }
+                { label: 'Professions' },
+                { label: 'MHC PLLC', href: '/professions/mhc' }
               ]}
             />
           </div>

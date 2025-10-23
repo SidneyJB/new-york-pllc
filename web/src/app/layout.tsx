@@ -4,6 +4,7 @@ import { Inter, JetBrains_Mono } from 'next/font/google'
 import { MainLayout } from '@/components/layout'
 import { generateRootSchemas } from '@/lib/seo/structured-data'
 import './globals.css'
+import Script from 'next/script'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -100,8 +101,14 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        {/* SEO Verification Meta Tags */}
+        {/* <meta name="google-site-verification" content="your-gsc-code-here" />
+        <meta name="msvalidate.01" content="your-bing-code-here" />
+        <meta name="facebook-domain-verification" content="your-facebook-code-here" />
+        <meta name="linkedin-verification-id" content="your-linkedin-code-here" /> */}
+
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17672972971"></script>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-17672972971" />
         <script
           dangerouslySetInnerHTML={{
             __html: `

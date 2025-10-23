@@ -1,14 +1,37 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { APP_CONFIG } from '@/lib/constants'
 import { PRIVACY_METADATA } from '@/lib/seo/metadata'
+import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 
 export const metadata = PRIVACY_METADATA
 
 export default function PrivacyPage() {
   return (
-    <div className="flex flex-col">
+    <>
+      {/* Breadcrumb Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateBreadcrumbSchema([
+            { name: 'Privacy Policy', item: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/privacy` }
+          ])),
+        }}
+      />
+
+      <div className="flex flex-col">
+        {/* Breadcrumb Navigation */}
+        <div className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <Breadcrumb
+              items={[
+                { label: 'Privacy Policy', href: '/privacy' }
+              ]}
+            />
+          </div>
+        </div>
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-background via-muted/30 to-muted/50 py-20 lg:py-32">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -400,6 +423,7 @@ export default function PrivacyPage() {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   )
 }

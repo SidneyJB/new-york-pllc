@@ -15,6 +15,10 @@ export const metadata = generateMetadata({
     'PLLC formation tracking'
   ],
   canonical: '/order/confirmation',
+  robots: {
+    index: false,
+    follow: false,
+  },
 })
 
 // This page shows order confirmation and can work with or without URL parameters

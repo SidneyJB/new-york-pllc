@@ -6,6 +6,17 @@ export interface PageMetadata {
   description: string
   keywords?: string[]
   canonical?: string
+  robots?: {
+    index?: boolean
+    follow?: boolean
+    googleBot?: {
+      index?: boolean
+      follow?: boolean
+      'max-video-preview'?: number
+      'max-image-preview'?: 'none' | 'standard' | 'large'
+      'max-snippet'?: number
+    }
+  }
   openGraph?: {
     title?: string
     description?: string
@@ -30,6 +41,7 @@ export function generateMetadata({
   description,
   keywords = [...SEO_CONFIG.keywords],
   canonical,
+  robots,
   openGraph,
   twitter
 }: PageMetadata): Metadata {
@@ -73,7 +85,7 @@ export function generateMetadata({
       images: twitter?.images || [SEO_CONFIG.socialImage],
       creator: SEO_CONFIG.twitterHandle,
     },
-    robots: {
+    robots: robots || {
       index: true,
       follow: true,
       googleBot: {

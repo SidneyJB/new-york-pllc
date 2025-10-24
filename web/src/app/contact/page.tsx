@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { redirect } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
@@ -10,7 +11,51 @@ import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 
 export const metadata = CONTACT_METADATA
 
-export default function ContactPage() {
+const ZAPIER_WEBHOOK_URL = 'https://hooks.zapier.com/hooks/catch/9929146/urpjund/'
+
+async function handleContactSubmit(formData: FormData) {
+  'use server'
+
+  const payload = {
+    firstName: formData.get('firstName')?.toString() ?? '',
+    lastName: formData.get('lastName')?.toString() ?? '',
+    email: formData.get('email')?.toString() ?? '',
+    phone: formData.get('phone')?.toString() ?? '',
+    professionalType: formData.get('professionalType')?.toString() ?? '',
+    subject: formData.get('subject')?.toString() ?? '',
+    message: formData.get('message')?.toString() ?? '',
+    submittedAt: new Date().toISOString(),
+  }
+
+  try {
+    const response = await fetch(ZAPIER_WEBHOOK_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(payload),
+    })
+
+    if (!response.ok) {
+      console.error('Failed to deliver contact form to Zapier', await response.text())
+      redirect('/contact?error=1')
+    }
+  } catch (error) {
+    console.error('Error sending contact form to Zapier', error)
+    redirect('/contact?error=1')
+  }
+
+  redirect('/contact?submitted=1')
+}
+
+export default function ContactPage({
+  searchParams,
+}: {
+  searchParams?: { submitted?: string; error?: string }
+}) {
+  const submitted = searchParams?.submitted === '1'
+  const submissionError = searchParams?.error === '1'
+
   return (
     <>
       {/* Breadcrumb Structured Data */}
@@ -143,6 +188,26 @@ export default function ContactPage() {
                   Send Us a Message
                 </h2>
 
+                {submitted && (
+                  <Card className="mb-6 border-green-200 bg-green-50">
+                    <CardContent className="py-4 text-sm text-green-900">
+                      Thanks—your message is on its way. We&apos;ll get back to you within 2-4 business hours.
+                    </CardContent>
+                  </Card>
+                )}
+
+                {submissionError && (
+                  <Card className="mb-6 border-destructive bg-destructive/10">
+                    <CardContent className="py-4 text-sm text-destructive">
+                      Something went wrong sending your message. Please try again or email us directly at{' '}
+                      <a className="underline" href={`mailto:${APP_CONFIG.supportEmail}`}>
+                        {APP_CONFIG.supportEmail}
+                      </a>
+                      .
+                    </CardContent>
+                  </Card>
+                )}
+
                 <Card>
                   <CardHeader>
                     <CardTitle>Contact Form</CardTitle>
@@ -151,31 +216,62 @@ export default function ContactPage() {
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <form className="space-y-6">
+                    <form className="space-y-6" action={handleContactSubmit}>
                       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                         <div>
                           <Label htmlFor="firstName">First Name *</Label>
-                          <Input id="firstName" type="text" required className="mt-1" />
+                          <Input
+                            id="firstName"
+                            name="firstName"
+                            type="text"
+                            autoComplete="given-name"
+                            required
+                            className="mt-1"
+                          />
                         </div>
                         <div>
                           <Label htmlFor="lastName">Last Name *</Label>
-                          <Input id="lastName" type="text" required className="mt-1" />
+                          <Input
+                            id="lastName"
+                            name="lastName"
+                            type="text"
+                            autoComplete="family-name"
+                            required
+                            className="mt-1"
+                          />
                         </div>
                       </div>
 
                       <div>
                         <Label htmlFor="email">Email Address *</Label>
-                        <Input id="email" type="email" required className="mt-1" />
+                        <Input
+                          id="email"
+                          name="email"
+                          type="email"
+                          autoComplete="email"
+                          required
+                          className="mt-1"
+                        />
                       </div>
 
                       <div>
                         <Label htmlFor="phone">Phone Number</Label>
-                        <Input id="phone" type="tel" className="mt-1" />
+                        <Input
+                          id="phone"
+                          name="phone"
+                          type="tel"
+                          autoComplete="tel"
+                          className="mt-1"
+                        />
                       </div>
 
                       <div>
                         <Label htmlFor="professionalType">Professional Type</Label>
-                        <select id="professionalType" className="w-full mt-1 px-3 py-2 border border-input bg-background rounded-md">
+                        <select
+                          id="professionalType"
+                          name="professionalType"
+                          className="w-full mt-1 px-3 py-2 border border-input bg-background rounded-md"
+                        >
                           <option value="">Select your profession</option>
                           <option value="physician">Physician (MD/DO)</option>
                           <option value="dentist">Dentist (DDS/DMD)</option>
@@ -188,11 +284,16 @@ export default function ContactPage() {
                           <option value="pharmacist">Pharmacist</option>
                           <option value="other">Other Licensed Professional</option>
                         </select>
-                      </div>
+                        </div>
 
                       <div>
                         <Label htmlFor="subject">Subject *</Label>
-                        <select id="subject" required className="w-full mt-1 px-3 py-2 border border-input bg-background rounded-md">
+                        <select
+                          id="subject"
+                          name="subject"
+                          required
+                          className="w-full mt-1 px-3 py-2 border border-input bg-background rounded-md"
+                        >
                           <option value="">Select inquiry type</option>
                           <option value="general">General Question</option>
                           <option value="pricing">Pricing Question</option>
@@ -208,6 +309,7 @@ export default function ContactPage() {
                         <Label htmlFor="message">Message *</Label>
                         <textarea
                           id="message"
+                          name="message"
                           rows={5}
                           required
                           className="w-full mt-1 px-3 py-2 border border-input bg-background rounded-md resize-none"

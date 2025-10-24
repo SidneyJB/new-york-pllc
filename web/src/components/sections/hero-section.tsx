@@ -114,38 +114,38 @@ export function HeroSection() {
                 {/* What's included */}
                 <div>
                   <ul className="grid grid-cols-1 gap-2 text-lg text-foreground">
-                    <div className="flex items-center gap-2">
+                    <li className="flex items-center gap-2">
                       <BadgeCheck className="mt-0.5 h-3 w-3 text-primary flex-shrink-0" aria-hidden="true" />
                       <span>Pre-approval of filing package</span>
-                    </div>
-                    <div className="flex items-center gap-2">
+                    </li>
+                    <li className="flex items-center gap-2">
                       <BadgeCheck className="mt-0.5 h-3 w-3 text-primary flex-shrink-0" aria-hidden="true" />
                       <span>PLLC Articles of Organization prepared & filed</span>
-                    </div>
-                    <div className="flex items-center gap-2">
+                    </li>
+                    <li className="flex items-center gap-2">
                       <BadgeCheck className="mt-0.5 h-3 w-3 text-primary flex-shrink-0" aria-hidden="true" />
                       <span>Federal Tax ID Number</span>
-                    </div>
-                    <div className="flex items-center gap-2">
+                    </li>
+                    <li className="flex items-center gap-2">
                       <BadgeCheck className="mt-0.5 h-3 w-3 text-primary flex-shrink-0" aria-hidden="true" />
                       <span>Free first year registered agent service</span>
-                    </div>
-                    <div className="flex items-center gap-2">
+                    </li>
+                    <li className="flex items-center gap-2">
                       <BadgeCheck className="mt-0.5 h-3 w-3 text-primary flex-shrink-0" aria-hidden="true" />
                       <span>Signature-ready Operating Agreement</span>
-                    </div>
-                    <div className="flex items-center gap-2">
+                    </li>
+                    <li className="flex items-center gap-2">
                       <BadgeCheck className="mt-0.5 h-3 w-3 text-primary flex-shrink-0" aria-hidden="true" />
                       <span>Entire legal publishing process, start to finish</span>
-                    </div>
-                    <div className="flex items-center gap-2">
+                    </li>
+                    <li className="flex items-center gap-2">
                       <BadgeCheck className="mt-0.5 h-3 w-3 text-primary flex-shrink-0" aria-hidden="true" />
                       <span>Email updates at each milestone</span>
-                    </div>
-                    <div className="flex items-center gap-2">
+                    </li>
+                    <li className="flex items-center gap-2">
                       <BadgeCheck className="mt-0.5 h-3 w-3 text-primary flex-shrink-0" aria-hidden="true" />
                       <span>Delivery of all documents required to open a bank account and start doing business</span>
-                    </div>
+                    </li>
                   </ul>
                 </div>
 

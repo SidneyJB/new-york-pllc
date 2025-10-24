@@ -53,7 +53,7 @@ export function generateOrganizationSchema() {
     sameAs: [
       // Add social media URLs here when available
     ],
-    foundingDate: '2024',
+    foundingDate: '2005',
     areaServed: {
       '@type': 'State',
       name: 'New York',

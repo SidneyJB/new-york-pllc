@@ -35,7 +35,7 @@ const FOUNDERS: Founder[] = [
     bio: [
       "I help entrepreneurs turn their ideas into reality by guiding them through one of the most important first steps: forming their business entity the right way.", 
       "With 25+ years of experience and a proven track record of assisting over 25,000 business owners, I specialize in making the LLC and corporation formation process fast, accurate, and stress-free. My expertise is especially deep in New York business law, where many national providers like Legalzoom, Bizee, Northwest, etc. fall short or spread misinformation.",
-      "Over the years, I've built a reputation for cutting through confusing state rules and legal jargon, ensuring compliance from day one, and saving clients time, money, and unnecessary headaches. I provide trusted, personal, and friendly service in an industry often dominated by faceless \"big box\" formation companies.",
+      "Since 2005 I've built a reputation for cutting through confusing state rules and legal jargon, ensuring compliance from day one, and saving clients time, money, and unnecessary headaches. I provide trusted, personal, and friendly service in an industry often dominated by faceless \"big box\" formation companies.",
       "Whether you're starting a small local business, scaling into new markets, or exploring foreign registration, my mission is the same: make sure your company's legal foundation is solid so you can focus on growth.",
       ],
   },

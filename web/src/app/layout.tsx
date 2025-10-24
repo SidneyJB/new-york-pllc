@@ -2,6 +2,7 @@
 import type { Metadata } from 'next'
 import { Inter, JetBrains_Mono } from 'next/font/google'
 import { MainLayout } from '@/components/layout'
+import { Analytics } from '@vercel/analytics/next'
 import { generateRootSchemas } from '@/lib/seo/structured-data'
 import './globals.css'
 import Script from 'next/script'
@@ -199,6 +200,7 @@ export default function RootLayout({
           }}
         />
         <MainLayout>{children}</MainLayout>
+        <Analytics />
       </body>
     </html>
   )

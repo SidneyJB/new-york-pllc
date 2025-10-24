@@ -6,11 +6,11 @@ import { Badge } from '@/components/ui/badge'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { Brain, Shield, ClipboardList, FileCheck2, Newspaper, Users, CheckCircle, ArrowRight } from 'lucide-react'
 import { PRICING, APP_CONFIG } from '@/lib/constants'
-import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
+import { generateBreadcrumbSchema, generateFAQSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
   title: `Form a New York Psychology PLLC | ${APP_CONFIG?.name || 'New York PLLC'}`,
-  description: `Form your Psychology PLLC in New York for a flat $${PRICING.basePrice}. We help licensed psychologists with NYSED pre-approval, compliant naming, precise filing, legal publishing, EIN setup, and delivery of all bank-ready documents.`,
+  description: `Psychology PLLC formation done right in NY. NYSED pre‑approval support, professional naming, accurate filings, required publishing, EIN + bank‑ready packet — $${PRICING.basePrice}.`,
   keywords: [
     'Psychology PLLC formation',
     'New York Psychologist LLC',
@@ -32,6 +32,39 @@ export default function PsychologyPage() {
     { name: 'Psychology PLLC Formation', item: `${siteUrl}/professions/psychologist` },
   ]
 
+  const PSY_FAQ = [
+    {
+      question: 'Do psychologists need NYSED pre‑approval before forming a PLLC?',
+      answer:
+        'Yes. Psychology practices require NYSED pre‑approval prior to Department of State filing. We prepare a profession‑specific submission so your proposed name, purpose language, and ownership align with state standards.',
+    },
+    {
+      question: 'Who may own or manage a Psychology PLLC in New York?',
+      answer:
+        'Ownership is generally limited to licensees who can lawfully provide the professional services of the entity. For psychology practices, this typically means licensed psychologists. We help you structure ownership in compliance with New York rules.',
+    },
+    {
+      question: 'What naming rules are unique to psychology practices?',
+      answer:
+        'Names must be professional, include the proper designator (e.g., “PLLC”), and avoid restricted words without additional approvals (for example, terms implying a hospital or multi‑disciplinary clinic). We review your options and help select a name that passes NYSED review.',
+    },
+    {
+      question: 'Is the six‑week publication included in the price?',
+      answer:
+        'Yes. We coordinate the two‑newspaper publication in your county, handle affidavits, and file the Certificate of Publication. It is included in the $' + PRICE + ' price.',
+    },
+    {
+      question: 'Which documents do I receive for banking and onboarding?',
+      answer:
+        'You receive EIN confirmation, filed Articles of Organization, publication affidavits, and your Certificate of Publication — a bank‑ready package accepted by most institutions.',
+    },
+    {
+      question: 'How long does a Psychology PLLC typically take?',
+      answer:
+        'NYSED pre‑approval often adds several months, followed by the six‑week publication period. We initiate steps quickly, set clear expectations, and keep you informed throughout.',
+    },
+  ]
+
   return (
     <>
       {/* Breadcrumb Structured Data */}
@@ -39,6 +72,13 @@ export default function PsychologyPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(generateBreadcrumbSchema(breadcrumbJson)),
+        }}
+      />
+      {/* FAQ Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateFAQSchema(PSY_FAQ)),
         }}
       />
       <div className="flex flex-col">
@@ -62,7 +102,7 @@ export default function PsychologyPage() {
           </h1>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
             Designed specifically for licensed psychologists in New York.  
-            We handle NYSED pre-approval, naming compliance, professional filings, required publishing, EIN registration,
+            We handle <Link href="/faq#nysed-preapproval" className="text-primary underline underline-offset-2">NYSED pre-approval</Link>, naming compliance, professional filings, required publishing, EIN registration,
             and deliver every document you need to open your practice — all for <strong>${PRICE}</strong>.
           </p>
 
@@ -99,6 +139,9 @@ export default function PsychologyPage() {
               requirements that are more complex than standard businesses.  
               We make it seamless, compliant, and stress-free — so you can focus on your clients, not your filings.
             </p>
+            <p className="mt-4 text-base text-muted-foreground max-w-3xl mx-auto">
+              Our process is transparent: we review your proposed name, assemble NYSED pre‑approval materials, prepare precise purpose language for your Articles, and coordinate the six‑week publication. You’ll get clear checkpoints and a bank‑ready document package at the end.
+            </p>
           </div>
 
           <div className="grid gap-6 md:grid-cols-2">
@@ -121,7 +164,7 @@ export default function PsychologyPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-muted-foreground text-sm">
-                NYSED enforces strict naming rules for psychology practices.  
+                NYSED enforces strict <Link href="/faq#naming-conventions" className="text-primary underline underline-offset-2">naming rules</Link> for psychology practices.  
                 We’ll help you choose a compliant name that maintains professionalism and aligns with your scope of practice.
               </CardContent>
             </Card>
@@ -218,6 +261,37 @@ export default function PsychologyPage() {
             </Button>
           </div>
           <p className="mt-4 text-sm text-muted-foreground">We are not a law firm and do not provide legal advice.</p>
+        </div>
+      </section>
+      {/* PROFESSION-SPECIFIC FAQ */}
+      <section className="py-20 lg:py-28 bg-muted/20">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Psychology PLLC FAQs</h2>
+            <p className="mt-4 text-lg text-muted-foreground">
+              Practical answers for New York psychologists forming a PLLC — on ownership, naming, publishing, and timelines.
+            </p>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-2">
+            {PSY_FAQ.map((item) => (
+              <Card key={item.question}>
+                <CardHeader>
+                  <CardTitle className="text-lg">{item.question}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground text-sm">{item.answer}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          <div className="mt-10 text-center">
+            <Button size="lg" asChild>
+              <Link href="/order">Start your Psychology PLLC — ${PRICE}</Link>
+            </Button>
+          </div>
+          <p className="mt-4 text-center text-sm text-muted-foreground">For general guidance only — not legal advice.</p>
         </div>
       </section>
       </div>

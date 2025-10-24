@@ -7,11 +7,11 @@ import { Badge } from '@/components/ui/badge'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { Shield, ClipboardList, FileCheck2, Newspaper, Heart, Users, MessageSquare, CheckCircle, ArrowRight } from 'lucide-react'
 import { PRICING, APP_CONFIG } from '@/lib/constants'
-import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
+import { generateBreadcrumbSchema, generateFAQSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
   title: `Form a New York MHC PLLC | ${APP_CONFIG?.name || 'New York PLLC'}`,
-  description: `Form your MHC PLLC in New York for a flat $${PRICING.basePrice}. We help Licensed Mental Health Counselors get NYSED pre-approval, meet naming requirements, file correctly, complete legal publishing, and receive every document needed to open their counseling practice.`,
+  description: `LMHC PLLC formation in NY. Counseling‑specific NYSED pre‑approval, compliant naming, precise filings, publishing included, EIN + operating agreement — flat $${PRICING.basePrice}.`,
   keywords: [
     'MHC PLLC formation',
     'New York Mental Health Counselor LLC',
@@ -33,6 +33,39 @@ export default function MHCPage() {
     { name: 'Mental Health Counselor PLLC Formation', item: `${siteUrl}/professions/mhc` },
   ]
 
+  const MHC_FAQ = [
+    {
+      question: 'Do LMHCs need NYSED pre‑approval before forming a PLLC?',
+      answer:
+        'Yes. Mental Health Counselors fall under the Mental Health Practitioners group reviewed by the Office of the Professions. We assemble a thorough pre‑approval request so your name, purpose, and ownership meet the state’s standards.',
+    },
+    {
+      question: 'Who can own or manage an MHC PLLC in New York?',
+      answer:
+        'Ownership and management are generally limited to appropriately licensed professionals who can lawfully provide the services of the entity. For counseling practices, that typically means LMHCs (and in some cases other closely related licensed professions, where permitted).',
+    },
+    {
+      question: 'What naming issues commonly delay LMHC approvals?',
+      answer:
+        'Names must be professional, include the correct designator (e.g., “PLLC”), and avoid restricted terms like “clinic” or references to services outside counseling without approvals. We help you choose a compliant name that passes review.',
+    },
+    {
+      question: 'Is the six‑week, two‑newspaper publication included in the price?',
+      answer:
+        'Yes. We manage the county‑assigned publication schedule, handle proofs and affidavits, and file the Certificate of Publication when complete. It is included in the $' + PRICE + ' flat price.',
+    },
+    {
+      question: 'What documents will I get for banking and credentialing?',
+      answer:
+        'You receive EIN confirmation, filed Articles, publication affidavits, and the Certificate of Publication. These are commonly requested for opening a bank account and practice onboarding.',
+    },
+    {
+      question: 'How long does an LMHC PLLC usually take?',
+      answer:
+        'NYSED pre‑approval can add several months. After formation, publication takes six consecutive weeks. We begin quickly, set clear expectations, and keep you updated at each step.',
+    },
+  ]
+
   return (
     <>
       {/* Breadcrumb Structured Data */}
@@ -40,6 +73,13 @@ export default function MHCPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(generateBreadcrumbSchema(breadcrumbJson)),
+        }}
+      />
+      {/* FAQ Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateFAQSchema(MHC_FAQ)),
         }}
       />
       <div className="flex flex-col">
@@ -63,7 +103,7 @@ export default function MHCPage() {
           </h1>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
             For Licensed Mental Health Counselors ready to open their own practice.  
-            We handle NYSED pre-approval, naming compliance, filing, publishing, and deliver every document you need to start seeing clients — all for{' '}
+            We handle <Link href="/faq#nysed-preapproval" className="text-primary underline underline-offset-2">NYSED pre-approval</Link>, naming compliance, filing, publishing, and deliver every document you need to start seeing clients — all for{' '}
             <strong>${PRICE}</strong>. No confusion, no hidden fees, and no call centers.
           </p>
 
@@ -100,6 +140,9 @@ export default function MHCPage() {
               We’ve helped MHCs across the state set up clean, compliant PLLCs that meet every NYSED and Department of State rule —  
               without the paperwork overwhelm.
             </p>
+            <p className="mt-4 text-base text-muted-foreground max-w-3xl mx-auto">
+              Expect a step‑by‑step process: name review, NYSED pre‑approval packaging, Articles filing, and county publication. We keep you informed with plain‑English updates and realistic timelines, so you always know what’s next and why it matters for your counseling practice.
+            </p>
           </div>
 
           <div className="grid gap-6 md:grid-cols-2">
@@ -122,7 +165,7 @@ export default function MHCPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-muted-foreground text-sm">
-                NYSED enforces very specific naming conventions for MHC PLLCs.  
+                NYSED enforces very specific <Link href="/faq#naming-conventions" className="text-primary underline underline-offset-2">naming conventions</Link> for MHC PLLCs.  
                 We help you avoid restricted terms and ensure your name passes state review on the first try.
               </CardContent>
             </Card>
@@ -198,6 +241,37 @@ export default function MHCPage() {
       </section>
 
       {/* TRUST SECTION */}
+      {/* PROFESSION-SPECIFIC FAQ */}
+      <section className="py-20 lg:py-28 bg-muted/20">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">LMHC PLLC FAQs</h2>
+            <p className="mt-4 text-lg text-muted-foreground">
+              Answers to the most common questions Licensed Mental Health Counselors ask about PLLC formation in New York.
+            </p>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-2">
+            {MHC_FAQ.map((item) => (
+              <Card key={item.question}>
+                <CardHeader>
+                  <CardTitle className="text-lg">{item.question}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground text-sm">{item.answer}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          <div className="mt-10 text-center">
+            <Button size="lg" asChild>
+              <Link href="/order">Start your MHC PLLC — ${PRICE}</Link>
+            </Button>
+          </div>
+          <p className="mt-4 text-center text-sm text-muted-foreground">General information only — not legal advice.</p>
+        </div>
+      </section>
       <section className="bg-muted/40 py-20 lg:py-28">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-3xl">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">We understand what it takes to start a counseling practice in NY</h2>

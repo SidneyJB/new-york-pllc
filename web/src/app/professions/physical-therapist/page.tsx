@@ -6,11 +6,11 @@ import { Badge } from '@/components/ui/badge'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { Shield, ClipboardList, FileCheck2, Newspaper, Activity, Users, CheckCircle, ArrowRight } from 'lucide-react'
 import { PRICING, APP_CONFIG } from '@/lib/constants'
-import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
+import { generateBreadcrumbSchema, generateFAQSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
   title: `Form a New York PT PLLC | ${APP_CONFIG?.name || 'New York PLLC'}`,
-  description: `Form your Physical Therapist PLLC in New York for a flat $${PRICING.basePrice}. We help licensed PTs with NYSED pre-approval, compliant naming, accurate filing, legal publishing, EIN setup, and delivery of all bank-ready documents.`,
+  description: `Physical Therapy PLLC formation for NY PTs. NYSED pre‑approval, PT naming guidance, accurate filings, six‑week publishing, EIN + bank‑ready docs — $${PRICING.basePrice}.`,
   keywords: [
     'PT PLLC formation',
     'New York Physical Therapist LLC',
@@ -32,6 +32,39 @@ export default function PTPage() {
     { name: 'Physical Therapist PLLC Formation', item: `${siteUrl}/professions/physical-therapist` },
   ]
 
+  const PT_FAQ = [
+    {
+      question: 'Do Physical Therapists need NYSED pre‑approval to form a PLLC?',
+      answer:
+        'Yes. Physical Therapy practices require NYSED pre‑approval before filing with the Department of State. We prepare a PT‑specific submission so your name, purpose, and ownership align with state rules.',
+    },
+    {
+      question: 'Can a PT PLLC include non‑PT owners?',
+      answer:
+        'Ownership is generally limited to professionals licensed to provide the services of the entity. For PT practices, this typically means licensed Physical Therapists. We help you structure ownership in compliance with New York rules.',
+    },
+    {
+      question: 'What naming pitfalls should PTs avoid?',
+      answer:
+        'NYSED restricts certain terms (for example, “clinic,” “rehabilitation,” or terms implying broader medical services) without additional approvals. Names must include the professional designator and remain professional. We guide you to names that pass first review.',
+    },
+    {
+      question: 'Is the six‑week newspaper publication included?',
+      answer:
+        'Yes. Publication in two county‑designated newspapers is included in the $' + PRICE + ' price. We coordinate the schedule, handle affidavits, and file the Certificate of Publication for you.',
+    },
+    {
+      question: 'What documents do I receive for banking and vendor onboarding?',
+      answer:
+        'You receive EIN confirmation, filed Articles, publication affidavits, and the Certificate of Publication. These satisfy most banks and vendors for opening accounts and contracting.',
+    },
+    {
+      question: 'How long does a PT PLLC typically take?',
+      answer:
+        'NYSED pre‑approval often adds several months, and publication takes six consecutive weeks. We move quickly, set realistic timelines, and keep you updated at each milestone.',
+    },
+  ]
+
   return (
     <>
       {/* Breadcrumb Structured Data */}
@@ -39,6 +72,13 @@ export default function PTPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(generateBreadcrumbSchema(breadcrumbJson)),
+        }}
+      />
+      {/* FAQ Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateFAQSchema(PT_FAQ)),
         }}
       />
       <div className="flex flex-col">
@@ -62,7 +102,7 @@ export default function PTPage() {
           </h1>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
             For licensed Physical Therapists ready to open their own practice.  
-            We handle NYSED pre-approval, naming compliance, state filing, required publishing, EIN registration, and
+            We handle <Link href="/faq#nysed-preapproval" className="text-primary underline underline-offset-2">NYSED pre-approval</Link>, naming compliance, state filing, required publishing, EIN registration, and
             deliver all your bank-ready documents — all for <strong>${PRICE}</strong>.  
             Real help, no hidden fees, and no call centers.
           </p>
@@ -121,7 +161,7 @@ export default function PTPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-muted-foreground text-sm">
-                New York limits how “rehabilitation,” “wellness,” or “clinic” can be used in PT entity names.  
+                New York limits how “rehabilitation,” “wellness,” or “clinic” can be used in PT entity names. See <Link href="/faq#naming-conventions" className="text-primary underline underline-offset-2">naming conventions</Link>.  
                 We help you choose a compliant name that passes NYSED review the first time.
               </CardContent>
             </Card>
@@ -216,6 +256,37 @@ export default function PTPage() {
             </Button>
           </div>
           <p className="mt-4 text-sm text-muted-foreground">We are not a law firm and do not provide legal advice.</p>
+        </div>
+      </section>
+      {/* PROFESSION-SPECIFIC FAQ */}
+      <section className="py-20 lg:py-28 bg-muted/20">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Physical Therapy PLLC FAQs</h2>
+            <p className="mt-4 text-lg text-muted-foreground">
+              Practical answers for PTs forming a New York PLLC — from ownership and naming to publishing and banking.
+            </p>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-2">
+            {PT_FAQ.map((item) => (
+              <Card key={item.question}>
+                <CardHeader>
+                  <CardTitle className="text-lg">{item.question}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground text-sm">{item.answer}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          <div className="mt-10 text-center">
+            <Button size="lg" asChild>
+              <Link href="/order">Start your PT PLLC — ${PRICE}</Link>
+            </Button>
+          </div>
+          <p className="mt-4 text-center text-sm text-muted-foreground">This page provides general information, not legal advice.</p>
         </div>
       </section>
       </div>

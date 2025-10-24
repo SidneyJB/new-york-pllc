@@ -66,7 +66,7 @@ export default function FAQPage() {
             <div className="mx-auto max-w-4xl">
               {/* PLLC Formation Basics */}
               <div className="mb-16">
-                <h2 className="text-3xl font-bold tracking-tight text-foreground mb-8">
+                <h2 id="pllc-basics" className="text-3xl font-bold tracking-tight text-foreground mb-8">
                   PLLC Formation Basics
                 </h2>
 
@@ -146,7 +146,7 @@ export default function FAQPage() {
 
               {/* NYSED Preapproval Process */}
               <div className="mb-16">
-                <h2 className="text-3xl font-bold tracking-tight text-foreground mb-8">
+                <h2 id="nysed-preapproval" className="text-3xl font-bold tracking-tight text-foreground mb-8">
                   NYSED Preapproval Process
                 </h2>
 
@@ -183,7 +183,7 @@ export default function FAQPage() {
 
                   <Card>
                     <CardHeader>
-                      <CardTitle className="text-lg">
+                      <CardTitle id="naming-conventions" className="text-lg">
                         Can naming affect my PLLC approval?
                       </CardTitle>
                     </CardHeader>
@@ -318,7 +318,7 @@ export default function FAQPage() {
 
                   <Card>
                     <CardHeader>
-                      <CardTitle className="text-lg">How long does publishing take and what's the deadline?</CardTitle>
+                      <CardTitle id="publishing-requirements" className="text-lg">How long does publishing take and what's the deadline?</CardTitle>
                     </CardHeader>
                     <CardContent>
                       <p className="text-muted-foreground">
@@ -331,7 +331,7 @@ export default function FAQPage() {
 
                   <Card>
                     <CardHeader>
-                      <CardTitle className="text-lg">What happens if I don't publish?</CardTitle>
+                      <CardTitle id="publishing-penalty" className="text-lg">What happens if I don't publish?</CardTitle>
                     </CardHeader>
                     <CardContent>
                       <p className="text-muted-foreground">
@@ -346,7 +346,7 @@ export default function FAQPage() {
 
               {/* Professional License Requirements */}
               <div className="mb-16">
-                <h2 className="text-3xl font-bold tracking-tight text-foreground mb-8">
+                <h2 id="license-requirements" className="text-3xl font-bold tracking-tight text-foreground mb-8">
                   Professional License Requirements
                 </h2>
 
@@ -386,7 +386,7 @@ export default function FAQPage() {
 
               {/* Pricing & Payment (business policy) */}
               <div className="mb-16">
-                <h2 className="text-3xl font-bold tracking-tight text-foreground mb-8">
+                <h2 id="pricing-payment" className="text-3xl font-bold tracking-tight text-foreground mb-8">
                   Pricing & Payment
                 </h2>
 

@@ -50,6 +50,7 @@ export const NAVIGATION = {
     { name: 'Speech-Language Pathologist', href: '/professions/speech-language-pathologist', shortName: 'Speech-Language Pathologist' },
     { name: 'Physician', href: '/professions/physician', shortName: 'Physician' },
     { name: 'Massage Therapist', href: '/professions/massage-therapist', shortName: 'Massage Therapist' },
+    { name: 'Chiropractor', href: '/professions/chiropractor', shortName: 'Chiropractor' },
   ],
   footer: [
     { name: 'Privacy Policy', href: '/privacy' },

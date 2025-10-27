@@ -22,6 +22,7 @@
 - [x] Speech-Language Pathologist page indexing - sitemap and navigation integration
 - [x] Physician page indexing - sitemap and navigation integration
 - [x] Massage Therapist page indexing - sitemap and navigation integration
+- [x] Chiropractor page indexing - sitemap and navigation integration
 
 ### 2. Core Architecture Decisions
 

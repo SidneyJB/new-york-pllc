@@ -55,6 +55,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     // Profession-specific pages
     {
+      url: `${baseUrl}/professions/dentist`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/professions/lcsw`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
@@ -74,6 +80,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/professions/psychologist`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/professions/speech-language-pathologist`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9,

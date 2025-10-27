@@ -48,6 +48,7 @@ export const NAVIGATION = {
     { name: 'Physical Therapist', href: '/professions/physical-therapist', shortName: 'Physical Therapist' },
     { name: 'Psychologist', href: '/professions/psychologist', shortName: 'Psychologist' },
     { name: 'Speech-Language Pathologist', href: '/professions/speech-language-pathologist', shortName: 'Speech-Language Pathologist' },
+    { name: 'Physician', href: '/professions/physician', shortName: 'Physician' },
   ],
   footer: [
     { name: 'Privacy Policy', href: '/privacy' },

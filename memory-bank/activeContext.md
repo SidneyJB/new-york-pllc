@@ -20,6 +20,7 @@
 - [x] Navigation updates - About page link added to navbar
 - [x] Dentist page indexing - sitemap and navigation integration
 - [x] Speech-Language Pathologist page indexing - sitemap and navigation integration
+- [x] Physician page indexing - sitemap and navigation integration
 
 ### 2. Core Architecture Decisions
 

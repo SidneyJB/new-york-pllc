@@ -42,10 +42,15 @@ export const NAVIGATION = {
     { name: 'Contact', href: '/contact' },
   ],
   professions: [
+    { name: 'Dentist', href: '/professions/dentist', shortName: 'Dentist' },
     { name: 'LCSW (Licensed Clinical Social Worker)', href: '/professions/lcsw', shortName: 'LCSW' },
     { name: 'MHC (Mental Health Counselor)', href: '/professions/mhc', shortName: 'MHC' },
     { name: 'Physical Therapist', href: '/professions/physical-therapist', shortName: 'Physical Therapist' },
     { name: 'Psychologist', href: '/professions/psychologist', shortName: 'Psychologist' },
+    { name: 'Speech-Language Pathologist', href: '/professions/speech-language-pathologist', shortName: 'Speech-Language Pathologist' },
+    { name: 'Physician', href: '/professions/physician', shortName: 'Physician' },
+    { name: 'Massage Therapist', href: '/professions/massage-therapist', shortName: 'Massage Therapist' },
+    { name: 'Chiropractor', href: '/professions/chiropractor', shortName: 'Chiropractor' },
   ],
   footer: [
     { name: 'Privacy Policy', href: '/privacy' },

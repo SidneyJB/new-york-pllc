@@ -118,7 +118,7 @@ export default function ContactPage({
                     <CardContent>
                       <p className="text-lg font-medium text-primary mb-2">{APP_CONFIG.supportEmail}</p>
                       <p className="text-muted-foreground">
-                        Send us an email anytime. We typically respond within 2-4 hours during business hours.
+                        Send us an email anytime. We typically respond within 18 minutes during business hours.
                       </p>
                     </CardContent>
                   </Card>

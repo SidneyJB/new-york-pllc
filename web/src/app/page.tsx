@@ -2,6 +2,7 @@ import {
   HeroSection,
   FeaturesSection,
   ProcessSection,
+  TimelineSection,
   GuaranteeSection,
   DisclaimerSection,
   CTASection
@@ -51,6 +52,7 @@ export default function Home() {
         <HeroSection />
         <FeaturesSection />
         <AboutBlurbSection />
+        <TimelineSection />
         {/* <ProcessSection /> */}
         <GuaranteeSection />
         {/* <DisclaimerSection /> */}

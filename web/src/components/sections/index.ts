@@ -1,6 +1,7 @@
 export { HeroSection } from './hero-section'
 export { FeaturesSection } from './features-section'
 export { ProcessSection } from './process-section'
+export { TimelineSection } from './timeline-section'
 export { GuaranteeSection } from './guarantee-section'
 export { DisclaimerSection } from './disclaimer-section'
 export { CTASection } from './cta-section'

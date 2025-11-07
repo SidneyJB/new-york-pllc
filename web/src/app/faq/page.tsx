@@ -123,7 +123,7 @@ export default function FAQPage() {
                     <CardContent>
                       <p className="text-muted-foreground">
                         PLLC formation requires preapproval from the New York State Education Department (NYSED),
-                        adding 3-4 months to the process compared to regular entities. This mandatory step applies
+                        adding 2-3 months to the process compared to regular entities. This mandatory step applies
                         to most professional practices and cannot be expedited, regardless of which service you use.
                       </p>
                     </CardContent>
@@ -160,7 +160,7 @@ export default function FAQPage() {
                     <CardContent>
                       <p className="text-muted-foreground">
                         The New York State Education Department (NYSED) must review and approve professional
-                        entities before they can be formed. This mandatory preapproval process adds 3-4 months
+                        entities before they can be formed. This mandatory preapproval process adds 2-3 months
                         to the formation timeline and is required for most licensed professional practices.
                       </p>
                     </CardContent>
@@ -447,7 +447,7 @@ export default function FAQPage() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-muted-foreground">
-                        Given that the NYSED preapproval process adds 3-4 months to the timeline, it's best to
+                        Given that the NYSED preapproval process adds 2-3 months to the timeline, it's best to
                         start as soon as possible. Don't wait until you need to begin practicing — start the
                         formation process early to avoid delays in your practice launch.
                       </p>

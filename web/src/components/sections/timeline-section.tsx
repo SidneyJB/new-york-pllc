@@ -120,9 +120,9 @@ export function TimelineSection() {
 
                     {/* Highlighted box after step 3 */}
                     {isStep3 && (
-                      <div className="ml-0 md:ml-24 mt-4">
-                        <div className="rounded-lg border-2 border-amber-300 bg-amber-50 p-4">
-                          <p className="text-sm font-medium text-amber-900">
+                      <div className="ml-[88px] sm:ml-[120px] md:ml-[144px] mt-4 -mr-4 sm:mr-0">
+                        <div className="rounded-lg border-2 border-primary/30 bg-primary/5 p-3 sm:p-4">
+                          <p className="text-sm font-medium text-primary">
                             ✓ You can begin doing business at this point
                           </p>
                         </div>

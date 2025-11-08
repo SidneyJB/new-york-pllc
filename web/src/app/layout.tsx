@@ -4,6 +4,7 @@ import { Inter, JetBrains_Mono } from 'next/font/google'
 import { MainLayout } from '@/components/layout'
 import { Analytics } from '@vercel/analytics/next'
 import { generateRootSchemas } from '@/lib/seo/structured-data'
+import { SEO_CONFIG } from '@/lib/seo/config'
 import './globals.css'
 import Script from 'next/script'
 
@@ -43,7 +44,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://newyorkpllc.com'),
+  metadataBase: new URL(SEO_CONFIG.siteUrl),
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },
@@ -68,7 +69,7 @@ export const metadata: Metadata = {
     title: 'NY PLLC Formation | Professional LLC Services New York',
     description: 'Form your New York Professional Limited Liability Company (PLLC) for $885 including all publishing requirements. Fast, simple, and compliant PLLC formation for licensed professionals.',
     images: [{
-      url: 'https://newyorkpllc.com/og-image.png',
+      url: new URL(SEO_CONFIG.socialImage, SEO_CONFIG.siteUrl).toString(),
       width: 1200,
       height: 630,
       alt: 'New York PLLC Formation Service - Professional LLC Services',
@@ -78,7 +79,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'NY PLLC Formation | Professional LLC Services New York',
     description: 'Form your New York Professional Limited Liability Company (PLLC) for $885 including all publishing requirements.',
-    images: ['https://newyorkpllc.com/og-image.png'],
+    images: [new URL(SEO_CONFIG.socialImage, SEO_CONFIG.siteUrl).toString()],
     creator: '@nypllc',
   },
   robots: {

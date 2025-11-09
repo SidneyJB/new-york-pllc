@@ -157,7 +157,8 @@ NEXT_PUBLIC_APP_URL="http://localhost:3000"
 │   └── contact/           # Contact and support pages
 ├── components/            # Reusable components
 │   ├── ui/               # Basic UI components
-│   ├── forms/            # Form components
+│   ├── analytics/        # Tracked components and hooks
+│   ├── forms/            # Form components (ContactForm)
 │   ├── layout/           # Layout components
 │   └── sections/         # Page sections
 ├── lib/                  # Utilities and configurations
@@ -165,10 +166,6 @@ NEXT_PUBLIC_APP_URL="http://localhost:3000"
 │   ├── sendgrid/         # Email utilities
 │   ├── validations/      # Form validation schemas
 │   └── constants/        # Application constants
-├── components/           # Reusable components
-│   ├── analytics/        # Tracked components and hooks
-│   ├── forms/            # Form components (ContactForm)
-│   └── ...
 ├── __tests__/            # Integration tests
 │   └── integration/      # Page-level integration tests
 ├── test/                 # Test setup and utilities

@@ -65,9 +65,11 @@ Admin Action → Email Notification → Customer Update → Manual Processing
 ### Shared Components
 
 - **Layout Components**: Navbar, Footer, Sidebar
-- **Form Components**: Input fields, Select dropdowns, File uploads
+- **Form Components**: Input fields, Select dropdowns, File uploads, ContactForm
 - **Display Components**: Order cards, Status badges, Progress bars
 - **Modal Components**: Document upload, Confirmation dialogs
+- **Analytics Components**: TrackedCTAButton, TrackedPhoneLink, TrackedEmailLink
+- **Tracking Hooks**: useFormTracking, useCheckoutTracking
 
 ## Design Patterns
 
@@ -140,8 +142,48 @@ const uploadDocument = async (file: File, orderId: string) => {
 ### External Service Integration
 
 - Google Analytics for conversion tracking
+- Vercel Analytics for privacy-friendly conversion funnel tracking
 - Sentry for error monitoring and reporting
 - Static content management for admin dashboard
+
+### Analytics Tracking Pattern
+
+**Vercel Custom Events**: Lean, privacy-friendly conversion tracking
+
+```typescript
+// Tracking utilities with UTM auto-capture
+import { trackCTAClick, trackLeadStart, trackLeadSubmit, trackCheckoutStart, trackPurchase } from '@/lib/analytics/track'
+
+// Tracked components encapsulate tracking logic
+<TrackedCTAButton href="/order" cta="start-now" location="hero">
+  Start your PLLC
+</TrackedCTAButton>
+
+// Form tracking hooks
+const { handleFirstInput } = useFormTracking('contact')
+// Tracks lead_start on first keystroke
+
+// Checkout tracking
+useCheckoutTracking() // Tracks checkout_start when Spiffy form loads
+
+// Purchase tracking
+trackPurchase({ value: 885, plan: 'PLLC Formation', entityType: 'PLLC' })
+```
+
+**Key Events Tracked**:
+- `cta_click` - CTA button clicks with location and value
+- `lead_start` - First keystroke on forms (tracked once per form)
+- `lead_submit` - Form submissions
+- `checkout_start` - Checkout initiation (when Spiffy form loads)
+- `purchase` - Purchase completion (on order confirmation)
+- `phone_click` - Phone link clicks
+- `email_click` - Email link clicks
+
+**Event Properties** (≤8 to meet Pro plan limits):
+- `cta`, `location`, `value`, `variant` (for CTA clicks)
+- `form`, `step`, `value` (for form events)
+- `plan`, `price`, `entityType` (for checkout/purchase)
+- `utm_source`, `utm_campaign` (auto-captured from URL)
 
 ## Security Patterns
 

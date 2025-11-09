@@ -12,14 +12,14 @@
 - **Payment Processing**: Spiffy.co forms for payment collection
 - **Email Service**: SendGrid for transactional emails
 - **Error Monitoring**: Sentry for error tracking
-- **Analytics**: Google Analytics 4 (GA4)
+- **Analytics**: Google Analytics 4 (GA4) + Vercel Analytics for conversion tracking
 - **Hosting**: Vercel (primary) or Netlify (alternative)
 
 ### Development Tools
 - **Version Control**: Git + GitHub
-- **Package Manager**: npm or yarn
+- **Package Manager**: npm
 - **Code Quality**: ESLint + Prettier
-- **Testing**: Jest + React Testing Library
+- **Testing**: Vitest + React Testing Library + @testing-library/user-event
 - **API Testing**: Postman or similar
 
 ## Development Environment Setup
@@ -93,30 +93,35 @@ NEXT_PUBLIC_APP_URL="http://localhost:3000"
 ### Production Dependencies
 ```json
 {
-  "next": "^14.0.0",
-  "react": "^18.0.0",
-  "react-dom": "^18.0.0",
+  "next": "^15.5.6",
+  "react": "^19.1.0",
+  "react-dom": "^19.1.0",
+  "@vercel/analytics": "^1.5.0",
   "@sendgrid/mail": "^7.0.0",
   "@sentry/nextjs": "^7.0.0",
-  "react-hook-form": "^7.0.0",
-  "zod": "^3.0.0",
-  "tailwindcss": "^3.0.0",
-  "@headlessui/react": "^1.0.0",
-  "framer-motion": "^10.0.0",
-  "lucide-react": "^0.200.0"
+  "react-hook-form": "^7.65.0",
+  "zod": "^4.1.12",
+  "tailwindcss": "^4.0.0",
+  "lucide-react": "^0.546.0"
 }
 ```
 
 ### Development Dependencies
 ```json
 {
-  "@types/node": "^18.0.0",
-  "@types/react": "^18.0.0",
-  "eslint": "^8.0.0",
-  "prettier": "^3.0.0",
-  "jest": "^29.0.0",
+  "@types/node": "^20.0.0",
+  "@types/react": "^19.0.0",
+  "@types/react-dom": "^19.0.0",
+  "@vitejs/plugin-react": "^5.1.0",
+  "@vitest/ui": "^4.0.8",
   "@testing-library/react": "^14.0.0",
-  "typescript": "^5.0.0"
+  "@testing-library/jest-dom": "^6.0.0",
+  "@testing-library/user-event": "^14.0.0",
+  "eslint": "^9.0.0",
+  "prettier": "^3.6.2",
+  "vitest": "^4.0.8",
+  "jsdom": "^24.0.0",
+  "typescript": "^5.9.3"
 }
 ```
 
@@ -156,9 +161,17 @@ NEXT_PUBLIC_APP_URL="http://localhost:3000"
 │   ├── layout/           # Layout components
 │   └── sections/         # Page sections
 ├── lib/                  # Utilities and configurations
+│   ├── analytics/        # Analytics tracking utilities
 │   ├── sendgrid/         # Email utilities
 │   ├── validations/      # Form validation schemas
 │   └── constants/        # Application constants
+├── components/           # Reusable components
+│   ├── analytics/        # Tracked components and hooks
+│   ├── forms/            # Form components (ContactForm)
+│   └── ...
+├── __tests__/            # Integration tests
+│   └── integration/      # Page-level integration tests
+├── test/                 # Test setup and utilities
 ├── public/               # Static assets
 │   ├── images/          # Image assets
 │   └── icons/           # Icon assets
@@ -178,7 +191,13 @@ NEXT_PUBLIC_APP_URL="http://localhost:3000"
 - User interaction metrics
 
 ### Business Metrics
-- Order conversion funnel
+- Order conversion funnel (tracked via Vercel Analytics)
+- CTA click rates by location
+- Form engagement (lead_start, lead_submit)
+- Checkout initiation rates
+- Purchase completion rates
+- Phone/email click tracking
+- UTM attribution tracking
 - Payment success rates
 - Email delivery rates
 - Customer satisfaction tracking

@@ -2,8 +2,8 @@
 
 ## Current Project Status
 
-**Phase**: SEO Optimization Complete
-**Last Updated**: October 27, 2025
+**Phase**: Analytics Tracking Complete
+**Last Updated**: December 2024
 
 ## Immediate Focus Areas
 
@@ -23,6 +23,10 @@
 - [x] Physician page indexing - sitemap and navigation integration
 - [x] Massage Therapist page indexing - sitemap and navigation integration
 - [x] Chiropractor page indexing - sitemap and navigation integration
+- [x] SEO metadata domain fix - all metadata points to primary domain (nypllc.com)
+- [x] Order page messaging fix - clarified filing happens after NYSED approval
+- [x] Vercel analytics tracking implementation - lean conversion funnel tracking
+- [x] Comprehensive test suite - 69 tests covering all tracking instances
 
 ### 2. Core Architecture Decisions
 
@@ -38,6 +42,8 @@
 - [x] Build responsive layout and navigation (complete)
 - [x] Create all core pages with content and legal compliance (complete)
 - [x] SEO optimization implementation (PROJ-016 complete)
+- [x] Vercel analytics tracking implementation (complete)
+- [x] Comprehensive test suite with Vitest (complete)
 - [ ] Implement Spiffy.co payment form integration (next priority)
 
 ## Active Decisions & Considerations
@@ -52,6 +58,8 @@
 - Spiffy.co for payment forms (confirmed)
 - SendGrid for email notifications (confirmed)
 - Static site generation approach (confirmed)
+- Vercel Analytics for conversion tracking (confirmed)
+- Vitest + React Testing Library for testing (confirmed)
 
 ### Content Management Strategy
 
@@ -121,6 +129,10 @@
 - SEO optimization requires comprehensive metadata, structured data, and performance configuration
 - Breadcrumb navigation enhances both UX and SEO with proper structured data
 - Open Graph images significantly improve social media sharing appearance
+- Vercel Analytics provides privacy-friendly conversion tracking alongside GA4
+- Lean event tracking (≤8 properties) keeps costs low while capturing key funnel metrics
+- UTM parameter auto-capture enables attribution tracking without manual implementation
+- Comprehensive test coverage ensures tracking works correctly across all pages and instances
 
 ### Tailwind CSS v4 Configuration & Behavior
 
@@ -162,6 +174,8 @@
 - **Design Assets**: Need brand guidelines and color scheme
 - **Content**: FAQ content, testimonials, legal disclaimers, service descriptions ✅ (PROJ-018 complete)
 - **SEO Optimization**: Meta tags, structured data, sitemap, performance optimization ✅ (PROJ-016 complete)
+- **Analytics Tracking**: Vercel custom events for conversion funnel ✅ (complete)
+- **Testing Infrastructure**: Vitest setup with 69 comprehensive tests ✅ (complete)
 - **Spiffy.co Integration**: Form setup and payment flow configuration (next priority)
 
 ## Communication & Collaboration

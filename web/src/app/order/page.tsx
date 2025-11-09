@@ -73,9 +73,9 @@ export default function OrderPage() {
                     <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                       <span className="text-primary font-bold">1</span>
                     </div>
-                    <h3 className="font-semibold mb-2">Instant Filing</h3>
+                    <h3 className="font-semibold mb-2">State Filing</h3>
                     <p className="text-sm text-muted-foreground">
-                      We file your Articles of Organization with New York State within 24 hours
+                      We file your Articles of Organization with New York State within 24 hours after NYSED approval
                     </p>
                   </div>
 

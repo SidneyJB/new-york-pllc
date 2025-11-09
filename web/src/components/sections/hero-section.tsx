@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { PRICING } from '@/lib/constants'
 import { ArrowRight, ClipboardList, Newspaper, FileCheck2, BadgeCheck } from 'lucide-react'
+import { TrackedCTAButton } from '@/components/analytics/tracked-cta'
 
 export function HeroSection() {
   return (
@@ -75,17 +76,17 @@ export function HeroSection() {
               </div>
 
               <div className="mt-0 flex flex-wrap items-center gap-1">
-                <Button size="lg" asChild data-cta="start-now">
-                  <Link
-                    href="/order"
-                    aria-label={`Start PLLC formation for $${PRICING.basePrice}`}
-                  >
-                    Start your PLLC — {'$'}{PRICING.basePrice}
-                    <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
-                  </Link>
-                </Button>
+                <TrackedCTAButton
+                  href="/order"
+                  cta="start-now"
+                  location="hero"
+                  size="lg"
+                >
+                  Start your PLLC — {'$'}{PRICING.basePrice}
+                  <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
+                </TrackedCTAButton>
 
-                <Button variant="outline" size="lg" asChild data-cta="learn-more">
+                <Button variant="outline" size="lg" asChild>
                   <Link href="#how-it-works" aria-label="See how it works step by step">
                     How it works
                   </Link>
@@ -150,11 +151,14 @@ export function HeroSection() {
                 </div>
 
                 <div className="mt-6">
-                  <Button className="w-full" asChild data-cta="begin-order-secondary">
-                    <Link href="/order" aria-label={`Begin your PLLC order for $${PRICING.basePrice}`}>
-                      Begin your order
-                    </Link>
-                  </Button>
+                  <TrackedCTAButton
+                    href="/order"
+                    cta="begin-order-secondary"
+                    location="hero-sidebar"
+                    className="w-full"
+                  >
+                    Begin your order
+                  </TrackedCTAButton>
                 </div>
 
                 <p className="mt-3 text-center text-xs leading-6 text-muted-foreground">

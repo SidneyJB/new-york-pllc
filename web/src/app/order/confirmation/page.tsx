@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { generateMetadata } from '@/lib/seo/metadata'
 import { BadgeCheck } from 'lucide-react'
+import { OrderConfirmationClient } from './confirmation-client'
 
 export const metadata = generateMetadata({
   title: 'Order Confirmation | NY PLLC Formation Complete',
@@ -39,6 +40,7 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
 
   return (
     <div className="flex flex-col">
+      <OrderConfirmationClient amount={orderDetails.amount} />
       {/* Success Hero Section */}
       <section className="bg-gradient-to-br from-green-50 via-background to-green-50 py-20 lg:py-32">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">

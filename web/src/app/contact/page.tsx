@@ -2,12 +2,13 @@ import Link from 'next/link'
 import { redirect } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { Input } from '@/components/ui/input'
-import { Label } from '@/components/ui/label'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { APP_CONFIG, BUSINESS_INFO } from '@/lib/constants'
 import { CONTACT_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
+import { ContactForm } from '@/components/forms/contact-form'
+import { TrackedPhoneLink, TrackedEmailLink } from '@/components/analytics/tracked-cta'
+import { TrackedCTAButton } from '@/components/analytics/tracked-cta'
 
 export const metadata = CONTACT_METADATA
 
@@ -116,7 +117,13 @@ export default function ContactPage({
                       </CardTitle>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-lg font-medium text-primary mb-2">{APP_CONFIG.supportEmail}</p>
+                      <TrackedEmailLink
+                        email={APP_CONFIG.supportEmail}
+                        location="contact-page"
+                        className="text-lg font-medium text-primary mb-2 block"
+                      >
+                        {APP_CONFIG.supportEmail}
+                      </TrackedEmailLink>
                       <p className="text-muted-foreground">
                         Send us an email anytime. We typically respond within 18 minutes during business hours.
                       </p>
@@ -133,7 +140,13 @@ export default function ContactPage({
                       </CardTitle>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-lg font-medium text-primary mb-2">{APP_CONFIG.phone}</p>
+                      <TrackedPhoneLink
+                        phone={APP_CONFIG.phone}
+                        location="contact-page"
+                        className="text-lg font-medium text-primary mb-2 block"
+                      >
+                        {APP_CONFIG.phone}
+                      </TrackedPhoneLink>
                       <p className="text-muted-foreground">
                         Speak directly with our formation specialists. Perfect for urgent questions.
                       </p>
@@ -216,111 +229,7 @@ export default function ContactPage({
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <form className="space-y-6" action={handleContactSubmit}>
-                      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                        <div>
-                          <Label htmlFor="firstName">First Name *</Label>
-                          <Input
-                            id="firstName"
-                            name="firstName"
-                            type="text"
-                            autoComplete="given-name"
-                            required
-                            className="mt-1"
-                          />
-                        </div>
-                        <div>
-                          <Label htmlFor="lastName">Last Name *</Label>
-                          <Input
-                            id="lastName"
-                            name="lastName"
-                            type="text"
-                            autoComplete="family-name"
-                            required
-                            className="mt-1"
-                          />
-                        </div>
-                      </div>
-
-                      <div>
-                        <Label htmlFor="email">Email Address *</Label>
-                        <Input
-                          id="email"
-                          name="email"
-                          type="email"
-                          autoComplete="email"
-                          required
-                          className="mt-1"
-                        />
-                      </div>
-
-                      <div>
-                        <Label htmlFor="phone">Phone Number</Label>
-                        <Input
-                          id="phone"
-                          name="phone"
-                          type="tel"
-                          autoComplete="tel"
-                          className="mt-1"
-                        />
-                      </div>
-
-                      <div>
-                        <Label htmlFor="professionalType">Professional Type</Label>
-                        <select
-                          id="professionalType"
-                          name="professionalType"
-                          className="w-full mt-1 px-3 py-2 border border-input bg-background rounded-md"
-                        >
-                          <option value="">Select your profession</option>
-                          <option value="physician">Physician (MD/DO)</option>
-                          <option value="dentist">Dentist (DDS/DMD)</option>
-                          <option value="attorney">Attorney/Lawyer</option>
-                          <option value="cpa">Certified Public Accountant (CPA)</option>
-                          <option value="architect">Architect</option>
-                          <option value="engineer">Engineer</option>
-                          <option value="veterinarian">Veterinarian</option>
-                          <option value="optometrist">Optometrist</option>
-                          <option value="pharmacist">Pharmacist</option>
-                          <option value="other">Other Licensed Professional</option>
-                        </select>
-                        </div>
-
-                      <div>
-                        <Label htmlFor="subject">Subject *</Label>
-                        <select
-                          id="subject"
-                          name="subject"
-                          required
-                          className="w-full mt-1 px-3 py-2 border border-input bg-background rounded-md"
-                        >
-                          <option value="">Select inquiry type</option>
-                          <option value="general">General Question</option>
-                          <option value="pricing">Pricing Question</option>
-                          <option value="pllc-formation">PLLC Formation</option>
-                          <option value="publishing">Publishing Process</option>
-                          <option value="license">Professional License</option>
-                          <option value="technical">Technical Support</option>
-                          <option value="other">Other</option>
-                        </select>
-                      </div>
-
-                      <div>
-                        <Label htmlFor="message">Message *</Label>
-                        <textarea
-                          id="message"
-                          name="message"
-                          rows={5}
-                          required
-                          className="w-full mt-1 px-3 py-2 border border-input bg-background rounded-md resize-none"
-                          placeholder="Please describe your question or concern in detail..."
-                        />
-                      </div>
-
-                      <Button type="submit" size="lg" className="w-full">
-                        Send Message
-                      </Button>
-                    </form>
+                    <ContactForm action={handleContactSubmit} />
                   </CardContent>
                 </Card>
               </div>
@@ -489,14 +398,20 @@ export default function ContactPage({
               Contact us if you have questions, or get started with our streamlined formation process.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <Button size="lg" variant="secondary" asChild>
-                <Link href="/order">
-                  Start Formation - $885
-                </Link>
-              </Button>
-              <Button variant="outline" size="lg" className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                Call: {APP_CONFIG.phone}
-              </Button>
+              <TrackedCTAButton
+                href="/order"
+                cta="start-formation-contact"
+                location="contact-cta"
+                size="lg"
+                variant="secondary"
+              >
+                Start Formation - $885
+              </TrackedCTAButton>
+              <TrackedPhoneLink phone={APP_CONFIG.phone} location="contact-cta">
+                <Button variant="outline" size="lg" className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+                  Call: {APP_CONFIG.phone}
+                </Button>
+              </TrackedPhoneLink>
             </div>
           </div>
         </div>

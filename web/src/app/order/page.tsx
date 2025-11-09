@@ -5,6 +5,7 @@ import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { PRICING } from '@/lib/constants'
 import { ORDER_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
+import { OrderPageClient } from './order-client'
 
 export const metadata = ORDER_METADATA
 
@@ -21,6 +22,7 @@ export default function OrderPage() {
         }}
       />
       <div className="flex flex-col">
+      <OrderPageClient />
       {/* Breadcrumb Navigation */}
       <div className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">

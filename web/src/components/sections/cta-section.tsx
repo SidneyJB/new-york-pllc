@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { CheckCircle } from 'lucide-react'
 import { PRICING } from '@/lib/constants'
+import { TrackedCTAButton } from '@/components/analytics/tracked-cta'
 
 export function CTASection() {
   return (
@@ -32,11 +33,15 @@ export function CTASection() {
           </div>
 
           <div className="mt-10">
-            <Button size="lg" className="bg-primary hover:bg-primary-700" asChild>
-              <Link href="/order">
-                Start your PLLC today
-              </Link>
-            </Button>
+            <TrackedCTAButton
+              href="/order"
+              cta="start-pllc-today"
+              location="cta-section"
+              size="lg"
+              className="bg-primary hover:bg-primary-700"
+            >
+              Start your PLLC today
+            </TrackedCTAButton>
             <p className="mt-4 text-sm text-muted-foreground">
               ✓ No hidden fees • ✓ All-inclusive pricing • ✓ Fast processing
             </p>

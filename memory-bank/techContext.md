@@ -10,7 +10,7 @@
 
 ### External Services
 - **Payment Processing**: Spiffy.co forms for payment collection
-- **Email Service**: SendGrid for transactional emails
+- **Email Service**: Zapier webhooks (triggered by Spiffy.co) for customer and admin notifications
 - **Error Monitoring**: Sentry for error tracking
 - **Analytics**: Google Analytics 4 (GA4) + Vercel Analytics for conversion tracking
 - **Hosting**: Vercel (deployed and running in production)
@@ -55,8 +55,8 @@ npm run dev
 SPIFFY_CO_FORM_ID="your-form-id"
 SPIFFY_CO_PUBLIC_KEY="your-public-key"
 
-# SendGrid (for email notifications)
-SENDGRID_API_KEY="SG...."
+# Email notifications handled via Zapier webhooks from Spiffy.co
+# No SendGrid API key needed - Zapier handles email delivery
 
 # Sentry (error monitoring)
 SENTRY_DSN="https://..."

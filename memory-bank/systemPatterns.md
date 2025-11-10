@@ -157,19 +157,17 @@ useCheckoutTracking() // Detects <spiffy-checkout> element and tracks checkout_s
 ```
 
 - Form submission handling and validation (handled by Spiffy)
-- Email notifications on form submission (handled by Spiffy)
-
-### Email Integration
-
-- SendGrid for transactional emails
-- Template-based email generation
-- Customer notification automation
+- Email notifications via Zapier webhooks (handled by Spiffy → Zapier)
+  - Customer order confirmation emails
+  - Admin notification emails on new orders
+  - Automated via Spiffy webhook triggers
 
 ### External Service Integration
 
 - Google Analytics for conversion tracking
 - Vercel Analytics for privacy-friendly conversion funnel tracking
 - Sentry for error monitoring and reporting
+- Zapier webhooks for email notifications (triggered by Spiffy.co)
 - Static content management for admin dashboard
 
 ### Analytics Tracking Pattern

@@ -168,7 +168,7 @@
 ### External Dependencies
 
 - **Payment Forms**: Spiffy.co account setup and form configuration ✅ (complete)
-- **Email Service**: SendGrid account configuration
+- **Email Service**: Zapier webhooks configured for customer/admin notifications ✅ (complete - triggered by Spiffy.co)
 - **Domain & Hosting**: Vercel deployment ✅ (complete - deployed and running)
 - **Analytics**: Google Analytics setup
 

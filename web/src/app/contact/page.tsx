@@ -304,8 +304,8 @@ export default function ContactPage({
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                   </svg>
                 </div>
-                <h3 className="font-semibold mb-2">Satisfaction Guarantee</h3>
-                <p className="text-sm text-muted-foreground">30-day satisfaction guarantee on all our formation services</p>
+                <h3 className="font-semibold mb-2">Lifetime Support</h3>
+                <p className="text-sm text-muted-foreground">Free ongoing support throughout your PLLC journey</p>
               </div>
             </div>
           </div>

@@ -580,8 +580,9 @@ export default function FAQPage() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-muted-foreground">
-                        Yes—throughout the process and for 30 days after completion. If you need help later, reach out;
-                        we’ll point you in the right direction.
+                        Yes—we provide free lifetime ongoing support. Throughout the formation process and 
+                        beyond, we're here to help answer questions and guide you. Whether you need assistance 
+                        with compliance, filings, or general questions about your PLLC, reach out anytime.
                       </p>
                     </CardContent>
                   </Card>

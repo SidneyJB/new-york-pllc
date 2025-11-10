@@ -143,9 +143,13 @@ export default function TermsPage() {
                   <div>
                     <h3 className="font-semibold mb-2">Refund Policy</h3>
                     <p className="text-muted-foreground">
-                      We offer a 30-day satisfaction guarantee. If you are not satisfied with our service, 
-                      contact us within 30 days of your order date for a full refund. Refunds are processed 
-                      within 5-10 business days.
+                      Refunds are only available in cases where we have made an error in our service delivery. 
+                      This includes situations such as filing errors on our part, incorrect information submitted 
+                      due to our mistake, or failure to deliver services as promised. Refunds are not available 
+                      for customer change of mind, delays caused by third parties (state agencies, newspapers), 
+                      or circumstances beyond our control. If you believe an error has occurred, please contact 
+                      us within 30 days of your order date. Refunds are processed within 5-10 business days 
+                      after approval.
                     </p>
                   </div>
                 </div>
@@ -369,8 +373,8 @@ export default function TermsPage() {
                   <div className="bg-red-50 border border-red-200 rounded-lg p-4">
                     <p className="text-red-800 text-sm">
                       <strong>Important:</strong> If we terminate your service due to a violation of these 
-                      Terms, you may not be eligible for a refund. We will provide a prorated refund for 
-                      services not yet performed if termination is not due to your violation of these Terms.
+                      Terms, you may not be eligible for a refund. Refunds are only available for errors on 
+                      our part, as described in our Refund Policy.
                     </p>
                   </div>
                 </div>

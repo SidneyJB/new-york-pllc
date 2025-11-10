@@ -129,9 +129,35 @@ const uploadDocument = async (file: File, orderId: string) => {
 
 ### Payment Integration
 
-- Spiffy.co forms for payment collection
-- Form submission handling and validation
-- Email notifications on form submission
+**Spiffy.co Implementation**:
+- Spiffy script loaded in root layout (`layout.tsx`) with account "nypllc"
+- Checkout component embedded in order page: `<spiffy-checkout url="https://nypllc.spiffy.co/checkout/new-york-pllc-formation">`
+- Customer data collection and payment processing handled entirely by Spiffy
+- Analytics tracking detects checkout form load and tracks `checkout_start` event
+- Order confirmation page receives payment success data via URL parameters
+
+**Implementation Pattern**:
+```typescript
+// Root layout - Spiffy script loading
+<Script
+  id="spiffy-script"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: `/* Spiffy initialization script */`
+  }}
+/>
+
+// Order page - Checkout component embedding
+<div dangerouslySetInnerHTML={{
+  __html: `<spiffy-checkout url="https://nypllc.spiffy.co/checkout/new-york-pllc-formation"></spiffy-checkout>`
+}}/>
+
+// Analytics - Automatic checkout detection
+useCheckoutTracking() // Detects <spiffy-checkout> element and tracks checkout_start
+```
+
+- Form submission handling and validation (handled by Spiffy)
+- Email notifications on form submission (handled by Spiffy)
 
 ### Email Integration
 

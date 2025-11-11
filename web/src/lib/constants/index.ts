@@ -22,7 +22,7 @@ export const PRICING = {
 } as const
 
 export const BUSINESS_INFO = {
-  legalName: 'Metro Corporate Services',
+  legalName: 'Business Filing Solutions LLC',
   address: {
     street: '1 Blue Hill Plaza Ste 1509-43',
     city: 'Pearl River',

@@ -10,6 +10,7 @@ import OrderConfirmationPage from '@/app/order/confirmation/page'
 import { ContactForm } from '@/components/forms/contact-form'
 import { OrderPageClient } from '@/app/order/order-client'
 import { OrderConfirmationClient } from '@/app/order/confirmation/confirmation-client'
+import { setLocationSearch } from '@/test/setup'
 
 vi.mock('@/lib/analytics/track', () => ({
   trackCTAClick: vi.fn(),
@@ -280,6 +281,11 @@ describe('Analytics Integration Tests - All Pages', () => {
   })
 
   describe('Order Confirmation Page', () => {
+    beforeEach(() => {
+      // Clear sessionStorage before each test
+      sessionStorage.clear()
+    })
+
     it('should track purchase on page load', async () => {
       render(<OrderConfirmationClient amount={885} />)
       
@@ -306,6 +312,45 @@ describe('Analytics Integration Tests - All Pages', () => {
         plan: 'PLLC Formation',
         entityType: 'PLLC',
       })
+    })
+
+    it('should track purchase with time spent when checkout start time exists', async () => {
+      // Simulate checkout start time stored in sessionStorage
+      const startTime = Date.now() - 120000 // 2 minutes ago
+      sessionStorage.setItem('checkout_start_time', startTime.toString())
+      
+      render(<OrderConfirmationClient amount={885} />)
+      
+      await waitFor(() => {
+        expect(trackPurchase).toHaveBeenCalled()
+      })
+      
+      const callArgs = vi.mocked(trackPurchase).mock.calls[0][0]
+      expect(callArgs.value).toBe(885)
+      expect(callArgs.plan).toBe('PLLC Formation')
+      expect(callArgs.entityType).toBe('PLLC')
+      expect(callArgs.timeSpentSeconds).toBeGreaterThanOrEqual(119) // ~120 seconds, allow small variance
+      expect(callArgs.timeSpentSeconds).toBeLessThanOrEqual(121)
+      
+      // Verify sessionStorage was cleaned up
+      expect(sessionStorage.getItem('checkout_start_time')).toBeNull()
+    })
+
+    it('should extract order ID from URL parameters', async () => {
+      // Use the test helper to set location search
+      setLocationSearch('?order_id=spiffy-12345')
+      
+      render(<OrderConfirmationClient amount={885} />)
+      
+      await waitFor(() => {
+        expect(trackPurchase).toHaveBeenCalled()
+      })
+      
+      const callArgs = vi.mocked(trackPurchase).mock.calls[0][0]
+      expect(callArgs.orderId).toBe('spiffy-12345')
+      
+      // Clean up
+      setLocationSearch('')
     })
 
     it('should track purchase only once', async () => {

@@ -27,8 +27,9 @@
 - [x] SEO metadata domain fix - all metadata points to primary domain (nypllc.com)
 - [x] Order page messaging fix - clarified filing happens after NYSED approval
 - [x] Vercel analytics tracking implementation - lean conversion funnel tracking
-- [x] Comprehensive test suite - 69 tests covering all tracking instances
+- [x] Comprehensive test suite - 73 tests covering all tracking instances
 - [x] Spiffy.co payment form integration - checkout form embedded and running
+- [x] Enhanced analytics tracking - order time tracking and order ID extraction
 
 ### 2. Core Architecture Decisions
 
@@ -136,6 +137,8 @@
 - Lean event tracking (≤8 properties) keeps costs low while capturing key funnel metrics
 - UTM parameter auto-capture enables attribution tracking without manual implementation
 - Comprehensive test coverage ensures tracking works correctly across all pages and instances
+- Order time tracking captures duration from checkout start to purchase completion
+- Order ID extraction from URL parameters enables order-level analytics and attribution
 
 ### Tailwind CSS v4 Configuration & Behavior
 
@@ -177,8 +180,8 @@
 - **Design Assets**: Need brand guidelines and color scheme
 - **Content**: FAQ content, testimonials, legal disclaimers, service descriptions ✅ (PROJ-018 complete)
 - **SEO Optimization**: Meta tags, structured data, sitemap, performance optimization ✅ (PROJ-016 complete)
-- **Analytics Tracking**: Vercel custom events for conversion funnel ✅ (complete)
-- **Testing Infrastructure**: Vitest setup with 69 comprehensive tests ✅ (complete)
+- **Analytics Tracking**: Vercel custom events for conversion funnel with time tracking ✅ (complete)
+- **Testing Infrastructure**: Vitest setup with 73 comprehensive tests ✅ (complete)
 - **Spiffy.co Integration**: Form setup and payment flow configuration ✅ (complete)
 
 ## Communication & Collaboration

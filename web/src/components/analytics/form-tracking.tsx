@@ -33,6 +33,7 @@ export function trackFormSubmit(formName: string, step?: string) {
 
 /**
  * Track checkout start (when Spiffy form loads)
+ * Stores timestamp for duration calculation
  */
 export function useCheckoutTracking() {
   useEffect(() => {
@@ -40,6 +41,10 @@ export function useCheckoutTracking() {
     const checkForSpiffy = () => {
       const spiffyForm = document.querySelector('spiffy-checkout')
       if (spiffyForm) {
+        // Store checkout start time for duration calculation
+        const checkoutStartTime = Date.now()
+        sessionStorage.setItem('checkout_start_time', checkoutStartTime.toString())
+        
         trackCheckoutStart({
           plan: 'PLLC Formation',
           price: PRICING.basePrice,

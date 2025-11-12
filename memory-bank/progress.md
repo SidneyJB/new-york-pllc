@@ -269,8 +269,11 @@
 - **UTM Auto-Capture**: Automatic UTM parameter extraction enables attribution tracking
 - **Component-Based Tracking**: Tracked components encapsulate tracking logic for reusability
 - **Form Tracking Pattern**: First keystroke tracking (lead_start) provides early funnel insight
-- **Test Coverage**: Comprehensive tests verify tracking works on every page and instance
+- **Test Coverage**: Comprehensive tests (73 tests) verify tracking works on every page and instance
 - **Event Filtering**: Filtering undefined values prevents Vercel API errors
+- **Order Time Tracking**: SessionStorage-based duration tracking from checkout start to purchase completion
+- **Order ID Extraction**: Automatic extraction from URL parameters enables order-level analytics
+- **Time Metrics**: Purchase events include `time_spent` (seconds) for conversion analysis
 
 ### Spiffy.co Integration Insights
 

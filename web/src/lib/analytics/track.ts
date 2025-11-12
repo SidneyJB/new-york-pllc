@@ -93,18 +93,22 @@ export function trackCheckoutStart(options?: {
 }
 
 /**
- * Track purchase completion
+ * Track purchase completion with time spent and order details
  */
 export function trackPurchase(options: {
   value: number
   plan?: string
   entityType?: 'PLLC' | 'LLC'
+  timeSpentSeconds?: number
+  orderId?: string
 }) {
   const utm = getUTMParams()
   track('purchase', filterUndefined({
     value: options.value,
     plan: options.plan,
     entityType: options.entityType || 'PLLC',
+    time_spent: options.timeSpentSeconds,
+    order_id: options.orderId,
     ...utm,
   }))
 }

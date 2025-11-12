@@ -204,6 +204,31 @@ describe('Analytics Tracking', () => {
       })
     })
 
+    it('should track purchase with time spent and order ID', () => {
+      trackPurchase({
+        value: 885,
+        plan: 'PLLC Formation',
+        entityType: 'PLLC',
+        timeSpentSeconds: 120,
+        orderId: 'order-123',
+      })
+      expect(track).toHaveBeenCalledWith('purchase', {
+        value: 885,
+        plan: 'PLLC Formation',
+        entityType: 'PLLC',
+        time_spent: 120,
+        order_id: 'order-123',
+      })
+    })
+
+    it('should filter out undefined time spent and order ID', () => {
+      trackPurchase({ value: 885 })
+      const callArgs = vi.mocked(track).mock.calls[0]
+      const properties = callArgs[1] as Record<string, unknown>
+      expect(properties).not.toHaveProperty('time_spent')
+      expect(properties).not.toHaveProperty('order_id')
+    })
+
     it('should include UTM parameters', () => {
       setLocationSearch('?utm_source=google&utm_campaign=promo')
       trackPurchase({ value: 885 })

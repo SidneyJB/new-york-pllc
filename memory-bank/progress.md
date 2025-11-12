@@ -269,11 +269,14 @@
 - **UTM Auto-Capture**: Automatic UTM parameter extraction enables attribution tracking
 - **Component-Based Tracking**: Tracked components encapsulate tracking logic for reusability
 - **Form Tracking Pattern**: First keystroke tracking (lead_start) provides early funnel insight
-- **Test Coverage**: Comprehensive tests (73 tests) verify tracking works on every page and instance
+- **Test Coverage**: Comprehensive tests (81 tests) verify tracking works on every page and instance
 - **Event Filtering**: Filtering undefined values prevents Vercel API errors
 - **Order Time Tracking**: SessionStorage-based duration tracking from checkout start to purchase completion
 - **Order ID Extraction**: Automatic extraction from URL parameters enables order-level analytics
 - **Time Metrics**: Purchase events include `time_spent` (seconds) for conversion analysis
+- **Spiffy API Integration**: Uses Spiffy JavaScript API (`checkout.on()`) to track form engagement accurately
+- **Engagement Metrics**: Tracks `engagement_time` (active form filling) and `field_changes` (interaction count)
+- **Engagement vs Duration**: Distinguishes between active engagement time and total checkout duration
 
 ### Spiffy.co Integration Insights
 
@@ -281,6 +284,8 @@
 - **Script Loading**: Spiffy script loaded in root layout with account "nypllc" and afterInteractive strategy
 - **Checkout URL**: Form points to `https://nypllc.spiffy.co/checkout/new-york-pllc-formation`
 - **Analytics Integration**: Checkout start tracking automatically detects when Spiffy form loads
+- **JavaScript API**: Uses Spiffy's `checkout.ready()` and `checkout.on()` API for form engagement tracking
+- **Event Tracking**: Listens to `change:field`, `change:order`, and `change:paymethod` events for engagement metrics
 - **Customer Data Collection**: Spiffy handles all customer information collection and payment processing
 - **Email Notifications**: Zapier webhooks configured to send customer confirmation and admin notification emails automatically on order completion
 - **Order Flow**: Payment → Zapier webhook triggers → Email notifications → Order confirmation page → Next steps communication

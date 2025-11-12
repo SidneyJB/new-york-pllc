@@ -101,6 +101,8 @@ export function trackPurchase(options: {
   entityType?: 'PLLC' | 'LLC'
   timeSpentSeconds?: number
   orderId?: string
+  engagementTimeSeconds?: number
+  fieldChangeCount?: number
 }) {
   const utm = getUTMParams()
   track('purchase', filterUndefined({
@@ -109,6 +111,8 @@ export function trackPurchase(options: {
     entityType: options.entityType || 'PLLC',
     time_spent: options.timeSpentSeconds,
     order_id: options.orderId,
+    engagement_time: options.engagementTimeSeconds,
+    field_changes: options.fieldChangeCount,
     ...utm,
   }))
 }

@@ -27,9 +27,10 @@
 - [x] SEO metadata domain fix - all metadata points to primary domain (nypllc.com)
 - [x] Order page messaging fix - clarified filing happens after NYSED approval
 - [x] Vercel analytics tracking implementation - lean conversion funnel tracking
-- [x] Comprehensive test suite - 73 tests covering all tracking instances
+- [x] Comprehensive test suite - 81 tests covering all tracking instances
 - [x] Spiffy.co payment form integration - checkout form embedded and running
 - [x] Enhanced analytics tracking - order time tracking and order ID extraction
+- [x] Spiffy form engagement tracking - uses Spiffy JavaScript API to track field interactions and engagement time
 
 ### 2. Core Architecture Decisions
 
@@ -139,6 +140,8 @@
 - Comprehensive test coverage ensures tracking works correctly across all pages and instances
 - Order time tracking captures duration from checkout start to purchase completion
 - Order ID extraction from URL parameters enables order-level analytics and attribution
+- Spiffy JavaScript API integration enables accurate form engagement tracking (field interactions, engagement duration)
+- Engagement metrics distinguish between active form filling time and total checkout duration
 
 ### Tailwind CSS v4 Configuration & Behavior
 
@@ -180,9 +183,9 @@
 - **Design Assets**: Need brand guidelines and color scheme
 - **Content**: FAQ content, testimonials, legal disclaimers, service descriptions ✅ (PROJ-018 complete)
 - **SEO Optimization**: Meta tags, structured data, sitemap, performance optimization ✅ (PROJ-016 complete)
-- **Analytics Tracking**: Vercel custom events for conversion funnel with time tracking ✅ (complete)
-- **Testing Infrastructure**: Vitest setup with 73 comprehensive tests ✅ (complete)
-- **Spiffy.co Integration**: Form setup and payment flow configuration ✅ (complete)
+- **Analytics Tracking**: Vercel custom events for conversion funnel with time and engagement tracking ✅ (complete)
+- **Testing Infrastructure**: Vitest setup with 81 comprehensive tests ✅ (complete)
+- **Spiffy.co Integration**: Form setup, payment flow, and JavaScript API engagement tracking ✅ (complete)
 
 ## Communication & Collaboration
 

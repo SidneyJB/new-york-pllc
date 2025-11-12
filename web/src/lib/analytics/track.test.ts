@@ -221,12 +221,35 @@ describe('Analytics Tracking', () => {
       })
     })
 
-    it('should filter out undefined time spent and order ID', () => {
+    it('should track purchase with engagement metrics', () => {
+      trackPurchase({
+        value: 885,
+        plan: 'PLLC Formation',
+        entityType: 'PLLC',
+        timeSpentSeconds: 180,
+        orderId: 'order-123',
+        engagementTimeSeconds: 120,
+        fieldChangeCount: 8,
+      })
+      expect(track).toHaveBeenCalledWith('purchase', {
+        value: 885,
+        plan: 'PLLC Formation',
+        entityType: 'PLLC',
+        time_spent: 180,
+        order_id: 'order-123',
+        engagement_time: 120,
+        field_changes: 8,
+      })
+    })
+
+    it('should filter out undefined engagement metrics', () => {
       trackPurchase({ value: 885 })
       const callArgs = vi.mocked(track).mock.calls[0]
       const properties = callArgs[1] as Record<string, unknown>
       expect(properties).not.toHaveProperty('time_spent')
       expect(properties).not.toHaveProperty('order_id')
+      expect(properties).not.toHaveProperty('engagement_time')
+      expect(properties).not.toHaveProperty('field_changes')
     })
 
     it('should include UTM parameters', () => {

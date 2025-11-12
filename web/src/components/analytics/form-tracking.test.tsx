@@ -6,6 +6,7 @@ import {
   useFormTracking,
   trackFormSubmit,
   useCheckoutTracking,
+  useSpiffyFormEngagementTracking,
 } from '@/components/analytics/form-tracking'
 import { trackLeadStart, trackLeadSubmit, trackCheckoutStart } from '@/lib/analytics/track'
 
@@ -139,6 +140,168 @@ describe('useCheckoutTracking', () => {
     const clearTimeoutSpy = vi.spyOn(global, 'clearTimeout')
     unmount()
     expect(clearTimeoutSpy).toHaveBeenCalled()
+  })
+})
+
+describe('useSpiffyFormEngagementTracking', () => {
+  beforeEach(() => {
+    vi.clearAllMocks()
+    sessionStorage.clear()
+    // Reset window.checkout
+    delete (window as any).checkout
+  })
+
+  it('should track first field interaction and store engagement metrics', () => {
+    // Mock Spiffy checkout API
+    const mockCheckout = {
+      ready: vi.fn((callback: () => void) => {
+        callback()
+      }),
+      on: vi.fn(),
+    }
+    ;(window as any).checkout = mockCheckout
+
+    renderHook(() => useSpiffyFormEngagementTracking())
+
+    // Wait for the effect to run
+    act(() => {
+      // The effect should call checkout.ready
+    })
+
+    // Verify checkout.ready was called
+    expect(mockCheckout.ready).toHaveBeenCalled()
+
+    // Simulate field change event
+    const fieldChangeCallback = mockCheckout.on.mock.calls.find(
+      (call: any[]) => call[0] === 'change:field'
+    )?.[1]
+
+    if (fieldChangeCallback) {
+      act(() => {
+        fieldChangeCallback({})
+      })
+
+      // Verify lead start was tracked
+      expect(trackLeadStart).toHaveBeenCalledWith({
+        form: 'checkout',
+        step: 'field_interaction',
+      })
+
+      // Verify session storage was updated
+      expect(sessionStorage.getItem('form_first_interaction_time')).toBeTruthy()
+      expect(sessionStorage.getItem('form_field_change_count')).toBe('1')
+      expect(sessionStorage.getItem('form_last_interaction_time')).toBeTruthy()
+    }
+  })
+
+  it('should track multiple field changes', () => {
+    const mockCheckout = {
+      ready: vi.fn((callback: () => void) => {
+        callback()
+      }),
+      on: vi.fn(),
+    }
+    ;(window as any).checkout = mockCheckout
+
+    renderHook(() => useSpiffyFormEngagementTracking())
+
+    act(() => {
+      // Find and call field change callback
+      const fieldChangeCallback = mockCheckout.on.mock.calls.find(
+        (call: any[]) => call[0] === 'change:field'
+      )?.[1]
+
+      if (fieldChangeCallback) {
+        // Simulate multiple field changes
+        fieldChangeCallback({})
+        fieldChangeCallback({})
+        fieldChangeCallback({})
+      }
+    })
+
+    // Should only track lead start once
+    expect(trackLeadStart).toHaveBeenCalledTimes(1)
+
+    // Field change count should be 3
+    expect(sessionStorage.getItem('form_field_change_count')).toBe('3')
+  })
+
+  it('should track order changes', () => {
+    const mockCheckout = {
+      ready: vi.fn((callback: () => void) => {
+        callback()
+      }),
+      on: vi.fn(),
+    }
+    ;(window as any).checkout = mockCheckout
+
+    renderHook(() => useSpiffyFormEngagementTracking())
+
+    act(() => {
+      const orderChangeCallback = mockCheckout.on.mock.calls.find(
+        (call: any[]) => call[0] === 'change:order'
+      )?.[1]
+
+      if (orderChangeCallback) {
+        orderChangeCallback({})
+      }
+    })
+
+    expect(sessionStorage.getItem('form_order_change_time')).toBeTruthy()
+  })
+
+  it('should track payment method changes', () => {
+    const mockCheckout = {
+      ready: vi.fn((callback: () => void) => {
+        callback()
+      }),
+      on: vi.fn(),
+    }
+    ;(window as any).checkout = mockCheckout
+
+    renderHook(() => useSpiffyFormEngagementTracking())
+
+    act(() => {
+      const payMethodCallback = mockCheckout.on.mock.calls.find(
+        (call: any[]) => call[0] === 'change:paymethod'
+      )?.[1]
+
+      if (payMethodCallback) {
+        payMethodCallback({})
+      }
+    })
+
+    expect(sessionStorage.getItem('form_payment_method_selected_time')).toBeTruthy()
+  })
+
+  it('should retry if Spiffy API is not ready', () => {
+    // Initially no checkout API
+    ;(window as any).checkout = undefined
+
+    const setTimeoutSpy = vi.spyOn(global, 'setTimeout')
+
+    renderHook(() => useSpiffyFormEngagementTracking())
+
+    act(() => {
+      // Should set up retry
+    })
+
+    // Should have called setTimeout to retry
+    expect(setTimeoutSpy).toHaveBeenCalled()
+
+    setTimeoutSpy.mockRestore()
+  })
+
+  it('should handle missing checkout.ready gracefully', () => {
+    ;(window as any).checkout = {
+      // Missing ready method
+      on: vi.fn(),
+    }
+
+    // Should not throw
+    expect(() => {
+      renderHook(() => useSpiffyFormEngagementTracking())
+    }).not.toThrow()
   })
 })
 

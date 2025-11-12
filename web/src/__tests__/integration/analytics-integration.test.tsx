@@ -336,6 +336,36 @@ describe('Analytics Integration Tests - All Pages', () => {
       expect(sessionStorage.getItem('checkout_start_time')).toBeNull()
     })
 
+    it('should track purchase with engagement metrics when available', async () => {
+      // Simulate checkout start time and engagement metrics
+      const startTime = Date.now() - 180000 // 3 minutes ago
+      const firstInteractionTime = Date.now() - 150000 // 2.5 minutes ago
+      const lastInteractionTime = Date.now() - 30000 // 30 seconds ago
+      
+      sessionStorage.setItem('checkout_start_time', startTime.toString())
+      sessionStorage.setItem('form_first_interaction_time', firstInteractionTime.toString())
+      sessionStorage.setItem('form_last_interaction_time', lastInteractionTime.toString())
+      sessionStorage.setItem('form_field_change_count', '8')
+      
+      render(<OrderConfirmationClient amount={885} />)
+      
+      await waitFor(() => {
+        expect(trackPurchase).toHaveBeenCalled()
+      })
+      
+      const callArgs = vi.mocked(trackPurchase).mock.calls[0][0]
+      expect(callArgs.value).toBe(885)
+      expect(callArgs.timeSpentSeconds).toBeGreaterThanOrEqual(179)
+      expect(callArgs.engagementTimeSeconds).toBeGreaterThanOrEqual(119) // ~120 seconds engagement
+      expect(callArgs.engagementTimeSeconds).toBeLessThanOrEqual(121)
+      expect(callArgs.fieldChangeCount).toBe(8)
+      
+      // Verify sessionStorage was cleaned up
+      expect(sessionStorage.getItem('form_first_interaction_time')).toBeNull()
+      expect(sessionStorage.getItem('form_last_interaction_time')).toBeNull()
+      expect(sessionStorage.getItem('form_field_change_count')).toBeNull()
+    })
+
     it('should extract order ID from URL parameters', async () => {
       // Use the test helper to set location search
       setLocationSearch('?order_id=spiffy-12345')

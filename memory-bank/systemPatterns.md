@@ -190,22 +190,24 @@ const { handleFirstInput } = useFormTracking('contact')
 // Checkout tracking
 useCheckoutTracking() // Tracks checkout_start when Spiffy form loads
 
-// Purchase tracking with time spent and order ID
+// Purchase tracking with time spent, engagement metrics, and order ID
 trackPurchase({ 
   value: 885, 
   plan: 'PLLC Formation', 
   entityType: 'PLLC',
-  timeSpentSeconds: 120, // Optional: calculated from checkout start
-  orderId: 'spiffy-12345' // Optional: extracted from URL
+  timeSpentSeconds: 180, // Optional: total checkout duration from page load
+  orderId: 'spiffy-12345', // Optional: extracted from URL
+  engagementTimeSeconds: 120, // Optional: active form engagement time
+  fieldChangeCount: 8 // Optional: number of fields interacted with
 })
 ```
 
 **Key Events Tracked**:
 - `cta_click` - CTA button clicks with location and value
-- `lead_start` - First keystroke on forms (tracked once per form)
+- `lead_start` - First keystroke on forms (tracked once per form) or first Spiffy field interaction
 - `lead_submit` - Form submissions
 - `checkout_start` - Checkout initiation (when Spiffy form loads, stores start time)
-- `purchase` - Purchase completion (on order confirmation, includes time spent and order ID)
+- `purchase` - Purchase completion (on order confirmation, includes time spent, engagement metrics, and order ID)
 - `phone_click` - Phone link clicks
 - `email_click` - Email link clicks
 
@@ -213,7 +215,7 @@ trackPurchase({
 - `cta`, `location`, `value`, `variant` (for CTA clicks)
 - `form`, `step`, `value` (for form events)
 - `plan`, `price`, `entityType` (for checkout/purchase)
-- `time_spent`, `order_id` (for purchase events - optional)
+- `time_spent`, `order_id`, `engagement_time`, `field_changes` (for purchase events - optional)
 - `utm_source`, `utm_campaign` (auto-captured from URL)
 
 **Time Tracking Implementation**:
@@ -221,6 +223,15 @@ trackPurchase({
 - Duration calculated on purchase completion (confirmation page)
 - Time spent included in purchase event as `time_spent` (seconds)
 - Order ID extracted from URL parameters (`order_id`, `id`, or `orderId`)
+
+**Spiffy Form Engagement Tracking**:
+- Uses Spiffy JavaScript API (`checkout.ready()` and `checkout.on()`)
+- Tracks first field interaction via `change:field` event (triggers `lead_start`)
+- Counts field changes to measure form engagement
+- Calculates engagement duration from first to last field interaction
+- Tracks order changes (`change:order`) and payment method selection (`change:paymethod`)
+- Engagement metrics stored in `sessionStorage` and included in purchase event
+- Distinguishes between active form filling time and total checkout duration
 
 ## Security Patterns
 

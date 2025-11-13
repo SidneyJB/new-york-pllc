@@ -5,6 +5,7 @@ import { MainLayout } from '@/components/layout'
 import { Analytics } from '@vercel/analytics/next'
 import { generateRootSchemas } from '@/lib/seo/structured-data'
 import { SEO_CONFIG } from '@/lib/seo/config'
+import { BingAdsTracking } from '@/components/analytics/bing-ads-tracking'
 import './globals.css'
 import Script from 'next/script'
 
@@ -147,6 +148,8 @@ export default function RootLayout({
           }}
         />
 
+        {/* Bing Ads Universal Event Tracking */}
+        <BingAdsTracking />
 
       </head>
       <body className={`${inter.variable} ${jetbrainsMono.variable} antialiased`}>

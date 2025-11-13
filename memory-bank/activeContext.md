@@ -31,6 +31,7 @@
 - [x] Spiffy.co payment form integration - checkout form embedded and running
 - [x] Enhanced analytics tracking - order time tracking and order ID extraction
 - [x] Spiffy form engagement tracking - uses Spiffy JavaScript API to track field interactions and engagement time
+- [x] Bing Ads Universal Event Tracking (UET) integration - conversion tracking component added
 
 ### 2. Core Architecture Decisions
 
@@ -142,6 +143,7 @@
 - Order ID extraction from URL parameters enables order-level analytics and attribution
 - Spiffy JavaScript API integration enables accurate form engagement tracking (field interactions, engagement duration)
 - Engagement metrics distinguish between active form filling time and total checkout duration
+- Bing Ads UET tracking integrated as reusable component following Next.js Script pattern
 
 ### Tailwind CSS v4 Configuration & Behavior
 

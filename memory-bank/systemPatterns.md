@@ -166,6 +166,7 @@ useCheckoutTracking() // Detects <spiffy-checkout> element and tracks checkout_s
 
 - Google Analytics for conversion tracking
 - Vercel Analytics for privacy-friendly conversion funnel tracking
+- Bing Ads Universal Event Tracking (UET) for Bing Ads conversion tracking
 - Sentry for error monitoring and reporting
 - Zapier webhooks for email notifications (triggered by Spiffy.co)
 - Static content management for admin dashboard
@@ -232,6 +233,20 @@ trackPurchase({
 - Tracks order changes (`change:order`) and payment method selection (`change:paymethod`)
 - Engagement metrics stored in `sessionStorage` and included in purchase event
 - Distinguishes between active form filling time and total checkout duration
+
+**Bing Ads UET Tracking**: Component-based implementation
+```typescript
+// Bing Ads Universal Event Tracking component
+import { BingAdsTracking } from '@/components/analytics/bing-ads-tracking'
+
+// In layout.tsx <head> section
+<BingAdsTracking />
+```
+
+- Tracks conversions and page views for Bing Ads campaigns
+- Uses Next.js Script component with `afterInteractive` strategy
+- Enables auto SPA tracking for Next.js routing
+- Tracking ID: `187221859`
 
 ## Security Patterns
 

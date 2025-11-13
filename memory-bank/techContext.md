@@ -12,7 +12,7 @@
 - **Payment Processing**: Spiffy.co forms for payment collection
 - **Email Service**: Zapier webhooks (triggered by Spiffy.co) for customer and admin notifications
 - **Error Monitoring**: Sentry for error tracking
-- **Analytics**: Google Analytics 4 (GA4) + Vercel Analytics for conversion tracking
+- **Analytics**: Google Analytics 4 (GA4) + Vercel Analytics + Bing Ads UET for conversion tracking
 - **Hosting**: Vercel (deployed and running in production)
 
 ### Development Tools

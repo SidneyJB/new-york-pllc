@@ -1,4 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import {
   AlertTriangle,
   Scale,
@@ -20,6 +21,7 @@ const LAST_UPDATED = 'October 23, 2025'
 export default function DisclaimerPage() {
   return (
     <div className="flex flex-col">
+      <ScrollTracking />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-orange-50 via-background to-orange-50/30 py-20 lg:py-32">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">

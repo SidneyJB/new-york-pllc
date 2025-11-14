@@ -23,6 +23,7 @@ vi.mock('@/lib/analytics/track', () => ({
 }))
 
 vi.mock('next/navigation', () => ({
+  usePathname: vi.fn(() => '/'),
   redirect: vi.fn(),
 }))
 

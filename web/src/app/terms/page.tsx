@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { APP_CONFIG, PRICING } from '@/lib/constants'
 import { TERMS_METADATA } from '@/lib/seo/metadata'
 
@@ -10,6 +11,7 @@ const LAST_UPDATED = 'October 23, 2025'
 export default function TermsPage() {
   return (
     <div className="flex flex-col">
+      <ScrollTracking />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-background via-muted/30 to-muted/50 py-20 lg:py-32">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">

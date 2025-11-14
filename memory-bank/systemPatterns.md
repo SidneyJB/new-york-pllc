@@ -68,8 +68,8 @@ Admin Action → Email Notification → Customer Update → Manual Processing
 - **Form Components**: Input fields, Select dropdowns, File uploads, ContactForm
 - **Display Components**: Order cards, Status badges, Progress bars
 - **Modal Components**: Document upload, Confirmation dialogs
-- **Analytics Components**: TrackedCTAButton, TrackedPhoneLink, TrackedEmailLink
-- **Tracking Hooks**: useFormTracking, useCheckoutTracking
+- **Analytics Components**: TrackedCTAButton, TrackedPhoneLink, TrackedEmailLink, ScrollTracking
+- **Tracking Hooks**: useFormTracking, useCheckoutTracking, useScrollDepthTracking
 
 ## Design Patterns
 
@@ -211,12 +211,14 @@ trackPurchase({
 - `purchase` - Purchase completion (on order confirmation, includes time spent, engagement metrics, and order ID)
 - `phone_click` - Phone link clicks
 - `email_click` - Email link clicks
+- `scroll_depth` - Scroll depth milestones (25%, 50%, 75%, 100%) with page path and time-to-depth
 
 **Event Properties** (≤8 to meet Pro plan limits):
 - `cta`, `location`, `value`, `variant` (for CTA clicks)
 - `form`, `step`, `value` (for form events)
 - `plan`, `price`, `entityType` (for checkout/purchase)
 - `time_spent`, `order_id`, `engagement_time`, `field_changes` (for purchase events - optional)
+- `page`, `depth`, `time_to_depth` (for scroll depth events)
 - `utm_source`, `utm_campaign` (auto-captured from URL)
 
 **Time Tracking Implementation**:
@@ -247,6 +249,30 @@ import { BingAdsTracking } from '@/components/analytics/bing-ads-tracking'
 - Uses Next.js Script component with `afterInteractive` strategy
 - Enables auto SPA tracking for Next.js routing
 - Tracking ID: `187221859`
+
+**Scroll Depth Tracking**: Page-level engagement tracking
+```typescript
+// Scroll depth tracking component
+import { ScrollTracking } from '@/components/analytics/scroll-tracking'
+
+// Add to any page component
+export default function Page() {
+  return (
+    <>
+      <ScrollTracking />
+      {/* page content */}
+    </>
+  )
+}
+```
+
+- Tracks scroll milestones at 25%, 50%, 75%, and 100% depth
+- Includes time-to-depth metric (seconds from page load to milestone)
+- Tracks each milestone only once per page
+- Resets tracking state when navigating to new page
+- Uses requestAnimationFrame throttling for performance
+- Implemented on all 18 pages (home, about, contact, FAQ, order, confirmation, legal pages, all profession pages)
+- Event: `scroll_depth` with properties: `page`, `depth`, `time_to_depth`, `utm_source`, `utm_campaign`
 
 ## Security Patterns
 

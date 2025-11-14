@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { ABOUT_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 
@@ -44,6 +45,7 @@ const FOUNDERS: Founder[] = [
 export default function AboutExtendedSection() {
   return (
     <>
+      <ScrollTracking />
       {/* Breadcrumb Structured Data */}
       <script
         type="application/ld+json"

@@ -49,6 +49,8 @@
 - [x] Chiropractor profession page with full SEO indexing (completed)
 - [x] Vercel deployment - site deployed and running in production (completed)
 - [x] Bing Ads Universal Event Tracking (UET) integration - conversion tracking component added (completed)
+- [x] Scroll depth tracking implementation - tracks engagement milestones (25%, 50%, 75%, 100%) on all pages (completed)
+- [x] Scroll depth tracking test suite - 21 tests covering hook, function, and component (completed)
 
 ### Legal Compliance & Content (PROJ-018 Complete)
 
@@ -155,9 +157,10 @@
 
 2. **Testing & Quality**
 
-   - [x] Analytics tracking tests (69 tests covering all instances)
+   - [x] Analytics tracking tests (101 tests covering all tracking instances including scroll depth)
    - [x] Unit tests for tracking utilities and components
    - [x] Integration tests for all pages
+   - [x] Scroll depth tracking tests (21 tests covering all milestones and edge cases)
    - Form validation testing
    - Cross-browser compatibility
    - Mobile responsiveness testing
@@ -278,6 +281,10 @@
 - **Spiffy API Integration**: Uses Spiffy JavaScript API (`checkout.on()`) to track form engagement accurately
 - **Engagement Metrics**: Tracks `engagement_time` (active form filling) and `field_changes` (interaction count)
 - **Engagement vs Duration**: Distinguishes between active engagement time and total checkout duration
+- **Scroll Depth Tracking**: Tracks 25%, 50%, 75%, and 100% scroll milestones with time-to-depth metrics
+- **Scroll Performance**: Uses requestAnimationFrame throttling for efficient scroll event handling
+- **Page-Specific Tracking**: Scroll depth resets on navigation and tracks each milestone once per page
+- **Universal Implementation**: Scroll tracking added to all 18 pages (home, about, contact, FAQ, order, confirmation, legal pages, and all 9 profession pages)
 
 ### Spiffy.co Integration Insights
 

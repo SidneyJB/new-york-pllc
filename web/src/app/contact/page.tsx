@@ -3,6 +3,7 @@ import { redirect } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { APP_CONFIG, BUSINESS_INFO } from '@/lib/constants'
 import { CONTACT_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
@@ -59,6 +60,7 @@ export default function ContactPage({
 
   return (
     <>
+      <ScrollTracking />
       {/* Breadcrumb Structured Data */}
       <script
         type="application/ld+json"

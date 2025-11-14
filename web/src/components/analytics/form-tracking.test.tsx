@@ -1,19 +1,26 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest'
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { renderHook, act } from '@testing-library/react'
+import { renderHook, act, waitFor } from '@testing-library/react'
 import {
   useFormTracking,
   trackFormSubmit,
   useCheckoutTracking,
   useSpiffyFormEngagementTracking,
+  useScrollDepthTracking,
 } from '@/components/analytics/form-tracking'
-import { trackLeadStart, trackLeadSubmit, trackCheckoutStart } from '@/lib/analytics/track'
+import { trackLeadStart, trackLeadSubmit, trackCheckoutStart, trackScrollDepth } from '@/lib/analytics/track'
+import { usePathname } from 'next/navigation'
 
 vi.mock('@/lib/analytics/track', () => ({
   trackLeadStart: vi.fn(),
   trackLeadSubmit: vi.fn(),
   trackCheckoutStart: vi.fn(),
+  trackScrollDepth: vi.fn(),
+}))
+
+vi.mock('next/navigation', () => ({
+  usePathname: vi.fn(() => '/'),
 }))
 
 describe('useFormTracking', () => {
@@ -302,6 +309,419 @@ describe('useSpiffyFormEngagementTracking', () => {
     expect(() => {
       renderHook(() => useSpiffyFormEngagementTracking())
     }).not.toThrow()
+  })
+})
+
+describe('useScrollDepthTracking', () => {
+  beforeEach(() => {
+    vi.clearAllMocks()
+    vi.mocked(usePathname).mockReturnValue('/')
+    
+    // Mock DOM properties that are read-only
+    Object.defineProperty(document.documentElement, 'scrollHeight', {
+      writable: true,
+      configurable: true,
+      value: 2000,
+    })
+    Object.defineProperty(document.documentElement, 'scrollTop', {
+      writable: true,
+      configurable: true,
+      value: 0,
+    })
+    Object.defineProperty(window, 'innerHeight', {
+      writable: true,
+      configurable: true,
+      value: 500,
+    })
+    Object.defineProperty(window, 'scrollY', {
+      writable: true,
+      configurable: true,
+      value: 0,
+    })
+    
+    // Mock requestAnimationFrame
+    global.requestAnimationFrame = vi.fn((cb) => {
+      setTimeout(cb, 0)
+      return 0
+    })
+  })
+
+  afterEach(() => {
+    vi.restoreAllMocks()
+  })
+
+  it('should track 25% scroll depth', async () => {
+    renderHook(() => useScrollDepthTracking())
+
+    // For 25%: (scrollTop + windowHeight) / scrollHeight = 0.25
+    // If scrollHeight = 2000, windowHeight = 500, then scrollTop = 0
+    // scrollPercentage = (0 + 500) / 2000 = 0.25
+    Object.defineProperty(document.documentElement, 'scrollHeight', {
+      writable: true,
+      configurable: true,
+      value: 2000,
+    })
+    Object.defineProperty(window, 'scrollY', {
+      writable: true,
+      configurable: true,
+      value: 0,
+    })
+    Object.defineProperty(window, 'innerHeight', {
+      writable: true,
+      configurable: true,
+      value: 500,
+    })
+
+    // Trigger scroll event
+    const scrollEvent = new Event('scroll')
+    window.dispatchEvent(scrollEvent)
+
+    await waitFor(() => {
+      expect(trackScrollDepth).toHaveBeenCalledWith({
+        page: '/',
+        depth: '25%',
+        timeToDepth: expect.any(Number),
+      })
+    }, { timeout: 1000 })
+  })
+
+  it('should track 50% scroll depth', async () => {
+    renderHook(() => useScrollDepthTracking())
+
+    // For 50%: (scrollTop + windowHeight) / scrollHeight = 0.5
+    // If scrollHeight = 2000, windowHeight = 500, then scrollTop = 500
+    Object.defineProperty(document.documentElement, 'scrollHeight', {
+      writable: true,
+      configurable: true,
+      value: 2000,
+    })
+    Object.defineProperty(window, 'scrollY', {
+      writable: true,
+      configurable: true,
+      value: 500,
+    })
+    Object.defineProperty(window, 'innerHeight', {
+      writable: true,
+      configurable: true,
+      value: 500,
+    })
+
+    const scrollEvent = new Event('scroll')
+    window.dispatchEvent(scrollEvent)
+
+    await waitFor(() => {
+      expect(trackScrollDepth).toHaveBeenCalledWith({
+        page: '/',
+        depth: '50%',
+        timeToDepth: expect.any(Number),
+      })
+    }, { timeout: 1000 })
+  })
+
+  it('should track 75% scroll depth', async () => {
+    renderHook(() => useScrollDepthTracking())
+
+    // For 75%: (scrollTop + windowHeight) / scrollHeight = 0.75
+    // If scrollHeight = 2000, windowHeight = 500, then scrollTop = 1000
+    Object.defineProperty(document.documentElement, 'scrollHeight', {
+      writable: true,
+      configurable: true,
+      value: 2000,
+    })
+    Object.defineProperty(window, 'scrollY', {
+      writable: true,
+      configurable: true,
+      value: 1000,
+    })
+    Object.defineProperty(window, 'innerHeight', {
+      writable: true,
+      configurable: true,
+      value: 500,
+    })
+
+    const scrollEvent = new Event('scroll')
+    window.dispatchEvent(scrollEvent)
+
+    await waitFor(() => {
+      expect(trackScrollDepth).toHaveBeenCalledWith({
+        page: '/',
+        depth: '75%',
+        timeToDepth: expect.any(Number),
+      })
+    }, { timeout: 1000 })
+  })
+
+  it('should track 100% scroll depth', async () => {
+    renderHook(() => useScrollDepthTracking())
+
+    // For 100%: (scrollTop + windowHeight) / scrollHeight >= 1.0
+    // If scrollHeight = 2000, windowHeight = 500, then scrollTop = 1500
+    Object.defineProperty(document.documentElement, 'scrollHeight', {
+      writable: true,
+      configurable: true,
+      value: 2000,
+    })
+    Object.defineProperty(window, 'scrollY', {
+      writable: true,
+      configurable: true,
+      value: 1500,
+    })
+    Object.defineProperty(window, 'innerHeight', {
+      writable: true,
+      configurable: true,
+      value: 500,
+    })
+
+    const scrollEvent = new Event('scroll')
+    window.dispatchEvent(scrollEvent)
+
+    await waitFor(() => {
+      expect(trackScrollDepth).toHaveBeenCalledWith({
+        page: '/',
+        depth: '100%',
+        timeToDepth: expect.any(Number),
+      })
+    }, { timeout: 1000 })
+  })
+
+  it('should track milestones in order', async () => {
+    renderHook(() => useScrollDepthTracking())
+
+    // Start at 0%
+    Object.defineProperty(document.documentElement, 'scrollHeight', {
+      writable: true,
+      configurable: true,
+      value: 2000,
+    })
+    Object.defineProperty(window, 'innerHeight', {
+      writable: true,
+      configurable: true,
+      value: 500,
+    })
+
+    // Scroll to 25%
+    Object.defineProperty(window, 'scrollY', {
+      writable: true,
+      configurable: true,
+      value: 0,
+    })
+    window.dispatchEvent(new Event('scroll'))
+    await waitFor(() => {
+      expect(trackScrollDepth).toHaveBeenCalledWith(
+        expect.objectContaining({ depth: '25%' })
+      )
+    }, { timeout: 1000 })
+
+    // Scroll to 50%
+    Object.defineProperty(window, 'scrollY', {
+      writable: true,
+      configurable: true,
+      value: 500,
+    })
+    window.dispatchEvent(new Event('scroll'))
+    await waitFor(() => {
+      expect(trackScrollDepth).toHaveBeenCalledWith(
+        expect.objectContaining({ depth: '50%' })
+      )
+    }, { timeout: 1000 })
+
+    // Scroll to 75%
+    Object.defineProperty(window, 'scrollY', {
+      writable: true,
+      configurable: true,
+      value: 1000,
+    })
+    window.dispatchEvent(new Event('scroll'))
+    await waitFor(() => {
+      expect(trackScrollDepth).toHaveBeenCalledWith(
+        expect.objectContaining({ depth: '75%' })
+      )
+    }, { timeout: 1000 })
+
+    // Scroll to 100%
+    Object.defineProperty(window, 'scrollY', {
+      writable: true,
+      configurable: true,
+      value: 1500,
+    })
+    window.dispatchEvent(new Event('scroll'))
+    await waitFor(() => {
+      expect(trackScrollDepth).toHaveBeenCalledWith(
+        expect.objectContaining({ depth: '100%' })
+      )
+    }, { timeout: 1000 })
+
+    expect(trackScrollDepth).toHaveBeenCalledTimes(4)
+  })
+
+  it('should only track each milestone once', async () => {
+    renderHook(() => useScrollDepthTracking())
+
+    Object.defineProperty(document.documentElement, 'scrollHeight', {
+      writable: true,
+      configurable: true,
+      value: 2000,
+    })
+    Object.defineProperty(window, 'innerHeight', {
+      writable: true,
+      configurable: true,
+      value: 500,
+    })
+
+    // Scroll to 25% multiple times
+    Object.defineProperty(window, 'scrollY', {
+      writable: true,
+      configurable: true,
+      value: 0,
+    })
+    window.dispatchEvent(new Event('scroll'))
+    window.dispatchEvent(new Event('scroll'))
+    window.dispatchEvent(new Event('scroll'))
+
+    await waitFor(() => {
+      const calls = vi.mocked(trackScrollDepth).mock.calls
+      const depth25Calls = calls.filter(call => call[0].depth === '25%')
+      expect(depth25Calls.length).toBe(1)
+    }, { timeout: 1000 })
+  })
+
+  it('should reset tracking when pathname changes', async () => {
+    const { rerender } = renderHook(() => useScrollDepthTracking())
+
+    Object.defineProperty(document.documentElement, 'scrollHeight', {
+      writable: true,
+      configurable: true,
+      value: 2000,
+    })
+    Object.defineProperty(window, 'innerHeight', {
+      writable: true,
+      configurable: true,
+      value: 500,
+    })
+
+    // Scroll to 25% on first page
+    Object.defineProperty(window, 'scrollY', {
+      writable: true,
+      configurable: true,
+      value: 0,
+    })
+    window.dispatchEvent(new Event('scroll'))
+    await waitFor(() => {
+      expect(trackScrollDepth).toHaveBeenCalledWith(
+        expect.objectContaining({ page: '/', depth: '25%' })
+      )
+    }, { timeout: 1000 })
+
+    // Change pathname
+    vi.mocked(usePathname).mockReturnValue('/order')
+    rerender()
+
+    // Scroll to 25% again - should track again because pathname changed
+    Object.defineProperty(window, 'scrollY', {
+      writable: true,
+      configurable: true,
+      value: 0,
+    })
+    window.dispatchEvent(new Event('scroll'))
+    await waitFor(() => {
+      expect(trackScrollDepth).toHaveBeenCalledWith(
+        expect.objectContaining({ page: '/order', depth: '25%' })
+      )
+    }, { timeout: 1000 })
+
+    // Should have been called twice (once per page)
+    const calls = vi.mocked(trackScrollDepth).mock.calls
+    const depth25Calls = calls.filter(call => call[0].depth === '25%')
+    expect(depth25Calls.length).toBe(2)
+  })
+
+  it('should use pathname from usePathname hook', async () => {
+    vi.mocked(usePathname).mockReturnValue('/professions/dentist')
+    renderHook(() => useScrollDepthTracking())
+
+    Object.defineProperty(document.documentElement, 'scrollHeight', {
+      writable: true,
+      configurable: true,
+      value: 2000,
+    })
+    Object.defineProperty(window, 'scrollY', {
+      writable: true,
+      configurable: true,
+      value: 0,
+    })
+    Object.defineProperty(window, 'innerHeight', {
+      writable: true,
+      configurable: true,
+      value: 500,
+    })
+
+    window.dispatchEvent(new Event('scroll'))
+
+    await waitFor(() => {
+      expect(trackScrollDepth).toHaveBeenCalledWith(
+        expect.objectContaining({ page: '/professions/dentist' })
+      )
+    }, { timeout: 1000 })
+  })
+
+  it('should use "/" as default page when pathname is null', async () => {
+    vi.mocked(usePathname).mockReturnValue(null as any)
+    renderHook(() => useScrollDepthTracking())
+
+    Object.defineProperty(document.documentElement, 'scrollHeight', {
+      writable: true,
+      configurable: true,
+      value: 2000,
+    })
+    Object.defineProperty(window, 'scrollY', {
+      writable: true,
+      configurable: true,
+      value: 0,
+    })
+    Object.defineProperty(window, 'innerHeight', {
+      writable: true,
+      configurable: true,
+      value: 500,
+    })
+
+    window.dispatchEvent(new Event('scroll'))
+
+    await waitFor(() => {
+      expect(trackScrollDepth).toHaveBeenCalledWith(
+        expect.objectContaining({ page: '/' })
+      )
+    }, { timeout: 1000 })
+  })
+
+  it('should clean up scroll listener on unmount', () => {
+    const removeEventListenerSpy = vi.spyOn(window, 'removeEventListener')
+    const { unmount } = renderHook(() => useScrollDepthTracking())
+
+    unmount()
+
+    // removeEventListener is called with the throttled function
+    // The options object is not passed to removeEventListener
+    expect(removeEventListenerSpy).toHaveBeenCalledWith(
+      'scroll',
+      expect.any(Function)
+    )
+
+    removeEventListenerSpy.mockRestore()
+  })
+
+  it('should throttle scroll events using requestAnimationFrame', async () => {
+    const rafSpy = vi.spyOn(global, 'requestAnimationFrame')
+    renderHook(() => useScrollDepthTracking())
+
+    // Dispatch multiple scroll events rapidly
+    for (let i = 0; i < 10; i++) {
+      window.dispatchEvent(new Event('scroll'))
+    }
+
+    // Should use requestAnimationFrame for throttling
+    expect(rafSpy).toHaveBeenCalled()
+
+    rafSpy.mockRestore()
   })
 })
 

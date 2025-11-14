@@ -32,6 +32,8 @@
 - [x] Enhanced analytics tracking - order time tracking and order ID extraction
 - [x] Spiffy form engagement tracking - uses Spiffy JavaScript API to track field interactions and engagement time
 - [x] Bing Ads Universal Event Tracking (UET) integration - conversion tracking component added
+- [x] Scroll depth tracking implementation - tracks 25%, 50%, 75%, and 100% milestones on all pages
+- [x] Comprehensive scroll depth test suite - 21 additional tests covering all scroll tracking functionality
 
 ### 2. Core Architecture Decisions
 
@@ -138,12 +140,15 @@
 - Vercel Analytics provides privacy-friendly conversion tracking alongside GA4
 - Lean event tracking (≤8 properties) keeps costs low while capturing key funnel metrics
 - UTM parameter auto-capture enables attribution tracking without manual implementation
-- Comprehensive test coverage ensures tracking works correctly across all pages and instances
+- Comprehensive test coverage ensures tracking works correctly across all pages and instances (101 tests total)
 - Order time tracking captures duration from checkout start to purchase completion
 - Order ID extraction from URL parameters enables order-level analytics and attribution
 - Spiffy JavaScript API integration enables accurate form engagement tracking (field interactions, engagement duration)
 - Engagement metrics distinguish between active form filling time and total checkout duration
 - Bing Ads UET tracking integrated as reusable component following Next.js Script pattern
+- Scroll depth tracking provides engagement metrics for content optimization (25%, 50%, 75%, 100% milestones)
+- Scroll tracking uses requestAnimationFrame throttling for performance and tracks time-to-depth for each milestone
+- Scroll depth tracking resets per page navigation and tracks each milestone only once per page
 
 ### Tailwind CSS v4 Configuration & Behavior
 
@@ -185,9 +190,10 @@
 - **Design Assets**: Need brand guidelines and color scheme
 - **Content**: FAQ content, testimonials, legal disclaimers, service descriptions ✅ (PROJ-018 complete)
 - **SEO Optimization**: Meta tags, structured data, sitemap, performance optimization ✅ (PROJ-016 complete)
-- **Analytics Tracking**: Vercel custom events for conversion funnel with time and engagement tracking ✅ (complete)
-- **Testing Infrastructure**: Vitest setup with 81 comprehensive tests ✅ (complete)
+- **Analytics Tracking**: Vercel custom events for conversion funnel with time, engagement, and scroll depth tracking ✅ (complete)
+- **Testing Infrastructure**: Vitest setup with 101 comprehensive tests covering all tracking functionality ✅ (complete)
 - **Spiffy.co Integration**: Form setup, payment flow, and JavaScript API engagement tracking ✅ (complete)
+- **Scroll Depth Tracking**: Implemented on all 18 pages with comprehensive test coverage ✅ (complete)
 
 ## Communication & Collaboration
 

@@ -51,3 +51,9 @@ vi.mock('next/image', () => ({
     return React.createElement('img', { src, alt, ...props })
   },
 }))
+
+// Mock Next.js navigation
+vi.mock('next/navigation', () => ({
+  usePathname: vi.fn(() => '/'),
+  redirect: vi.fn(),
+}))

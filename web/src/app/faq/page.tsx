@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { FAQ_METADATA } from '@/lib/seo/metadata'
 import { PLLC_FAQS, generateFAQSchema, generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 
@@ -11,6 +12,7 @@ export const metadata = FAQ_METADATA
 export default function FAQPage() {
   return (
     <>
+      <ScrollTracking />
       {/* FAQ Structured Data */}
       <script
         type="application/ld+json"

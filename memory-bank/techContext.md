@@ -189,6 +189,8 @@ NEXT_PUBLIC_APP_URL="http://localhost:3000"
 - Checkout initiation rates
 - Purchase completion rates
 - Phone/email click tracking
+- Scroll depth engagement (25%, 50%, 75%, 100% milestones per page)
+- Time-to-depth metrics (how long users take to reach each scroll milestone)
 - UTM attribution tracking
 - Payment success rates
 - Email delivery rates

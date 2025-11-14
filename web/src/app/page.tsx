@@ -8,6 +8,7 @@ import {
   CTASection
 } from '@/components/sections'
 import { AboutBlurbSection } from '@/components/sections/blurb'
+import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { HOME_METADATA } from '@/lib/seo/metadata'
 import {
   PLLC_SERVICE_OFFERS,
@@ -22,6 +23,7 @@ export const metadata = HOME_METADATA
 export default function Home() {
   return (
     <>
+      <ScrollTracking />
       {/* Service Structured Data */}
       <script
         type="application/ld+json"

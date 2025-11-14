@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { Shield, ClipboardList, FileCheck2, Newspaper, Stethoscope, Users, CheckCircle, ArrowRight } from 'lucide-react'
 import { PRICING, APP_CONFIG } from '@/lib/constants'
 import { generateBreadcrumbSchema, generateFAQSchema } from '@/lib/seo/structured-data'
@@ -94,6 +95,7 @@ export default function PhysicianPage() {
 
   return (
     <>
+      <ScrollTracking />
       {/* Breadcrumb Structured Data */}
       <script
         type="application/ld+json"

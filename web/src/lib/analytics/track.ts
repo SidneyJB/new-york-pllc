@@ -143,3 +143,20 @@ export function trackEmailClick(options?: {
   }))
 }
 
+/**
+ * Track scroll depth milestones
+ */
+export function trackScrollDepth(options: {
+  page: string
+  depth: '25%' | '50%' | '75%' | '100%'
+  timeToDepth?: number // seconds to reach this depth
+}) {
+  const utm = getUTMParams()
+  track('scroll_depth', filterUndefined({
+    page: options.page,
+    depth: options.depth,
+    time_to_depth: options.timeToDepth,
+    ...utm,
+  }))
+}
+

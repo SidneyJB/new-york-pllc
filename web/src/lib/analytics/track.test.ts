@@ -9,6 +9,7 @@ import {
   trackPurchase,
   trackPhoneClick,
   trackEmailClick,
+  trackScrollDepth,
 } from '@/lib/analytics/track'
 import { setLocationSearch } from '@/test/setup'
 
@@ -288,6 +289,73 @@ describe('Analytics Tracking', () => {
       trackEmailClick({ location: 'footer' })
       expect(track).toHaveBeenCalledWith('email_click', {
         location: 'footer',
+      })
+    })
+  })
+
+  describe('trackScrollDepth', () => {
+    it('should track scroll depth with required fields', () => {
+      trackScrollDepth({ page: '/', depth: '25%' })
+      expect(track).toHaveBeenCalledWith('scroll_depth', {
+        page: '/',
+        depth: '25%',
+      })
+    })
+
+    it('should track scroll depth with all milestones', () => {
+      const depths: Array<'25%' | '50%' | '75%' | '100%'> = ['25%', '50%', '75%', '100%']
+      
+      depths.forEach((depth) => {
+        trackScrollDepth({ page: '/', depth })
+      })
+
+      expect(track).toHaveBeenCalledTimes(4)
+      depths.forEach((depth, index) => {
+        expect(track).toHaveBeenNthCalledWith(index + 1, 'scroll_depth', {
+          page: '/',
+          depth,
+        })
+      })
+    })
+
+    it('should track scroll depth with time to depth', () => {
+      trackScrollDepth({ page: '/order', depth: '50%', timeToDepth: 30 })
+      expect(track).toHaveBeenCalledWith('scroll_depth', {
+        page: '/order',
+        depth: '50%',
+        time_to_depth: 30,
+      })
+    })
+
+    it('should filter out undefined time_to_depth', () => {
+      trackScrollDepth({ page: '/faq', depth: '75%' })
+      const callArgs = vi.mocked(track).mock.calls[0]
+      const properties = callArgs[1] as Record<string, unknown>
+      expect(properties).not.toHaveProperty('time_to_depth')
+    })
+
+    it('should include UTM parameters when present', () => {
+      setLocationSearch('?utm_source=google&utm_campaign=test')
+      trackScrollDepth({ page: '/', depth: '100%' })
+      expect(track).toHaveBeenCalledWith('scroll_depth', {
+        page: '/',
+        depth: '100%',
+        utm_source: 'google',
+        utm_campaign: 'test',
+      })
+    })
+
+    it('should track different pages correctly', () => {
+      trackScrollDepth({ page: '/professions/dentist', depth: '25%' })
+      trackScrollDepth({ page: '/professions/lcsw', depth: '50%' })
+      
+      expect(track).toHaveBeenNthCalledWith(1, 'scroll_depth', {
+        page: '/professions/dentist',
+        depth: '25%',
+      })
+      expect(track).toHaveBeenNthCalledWith(2, 'scroll_depth', {
+        page: '/professions/lcsw',
+        depth: '50%',
       })
     })
   })

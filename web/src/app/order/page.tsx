@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { PRICING } from '@/lib/constants'
 import { ORDER_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
@@ -12,6 +13,7 @@ export const metadata = ORDER_METADATA
 export default function OrderPage() {
   return (
     <>
+      <ScrollTracking />
       {/* Breadcrumb Structured Data */}
       <script
         type="application/ld+json"

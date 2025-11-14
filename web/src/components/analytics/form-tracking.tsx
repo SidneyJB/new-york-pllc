@@ -1,7 +1,8 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
-import { trackLeadStart, trackLeadSubmit, trackCheckoutStart } from '@/lib/analytics/track'
+import { usePathname } from 'next/navigation'
+import { trackLeadStart, trackLeadSubmit, trackCheckoutStart, trackScrollDepth } from '@/lib/analytics/track'
 import { PRICING } from '@/lib/constants'
 
 /**
@@ -122,5 +123,70 @@ export function useSpiffyFormEngagementTracking() {
     // Start checking for Spiffy API
     checkForSpiffyAPI()
   }, [])
+}
+
+/**
+ * Hook to track scroll depth milestones (25%, 50%, 75%, 100%)
+ * Tracks each milestone only once per page
+ */
+export function useScrollDepthTracking() {
+  const pathname = usePathname()
+  const trackedDepths = useRef<Set<string>>(new Set())
+  const pageStartTime = useRef<number>(Date.now())
+
+  useEffect(() => {
+    // Reset tracking when page changes
+    trackedDepths.current.clear()
+    pageStartTime.current = Date.now()
+
+    const handleScroll = () => {
+      const windowHeight = window.innerHeight
+      const documentHeight = document.documentElement.scrollHeight
+      const scrollTop = window.scrollY || document.documentElement.scrollTop
+      
+      // Calculate scroll percentage
+      const scrollPercentage = (scrollTop + windowHeight) / documentHeight
+      
+      // Determine which milestone was reached
+      let depth: '25%' | '50%' | '75%' | '100%' | null = null
+      if (scrollPercentage >= 1.0 && !trackedDepths.current.has('100%')) {
+        depth = '100%'
+      } else if (scrollPercentage >= 0.75 && !trackedDepths.current.has('75%')) {
+        depth = '75%'
+      } else if (scrollPercentage >= 0.50 && !trackedDepths.current.has('50%')) {
+        depth = '50%'
+      } else if (scrollPercentage >= 0.25 && !trackedDepths.current.has('25%')) {
+        depth = '25%'
+      }
+
+      if (depth) {
+        const timeToDepth = Math.round((Date.now() - pageStartTime.current) / 1000)
+        trackedDepths.current.add(depth)
+        trackScrollDepth({
+          page: pathname || '/',
+          depth,
+          timeToDepth,
+        })
+      }
+    }
+
+    // Throttle scroll events for performance
+    let ticking = false
+    const throttledHandleScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          handleScroll()
+          ticking = false
+        })
+        ticking = true
+      }
+    }
+
+    window.addEventListener('scroll', throttledHandleScroll, { passive: true })
+    
+    return () => {
+      window.removeEventListener('scroll', throttledHandleScroll)
+    }
+  }, [pathname])
 }
 

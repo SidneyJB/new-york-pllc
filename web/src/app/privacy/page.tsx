@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { APP_CONFIG } from '@/lib/constants'
 import { PRIVACY_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
@@ -12,6 +13,7 @@ const LAST_UPDATED = 'October 23, 2025'
 export default function PrivacyPage() {
   return (
     <>
+      <ScrollTracking />
       {/* Breadcrumb Structured Data */}
       <script
         type="application/ld+json"

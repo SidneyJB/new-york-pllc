@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { generateMetadata } from '@/lib/seo/metadata'
 import { BadgeCheck } from 'lucide-react'
 import { OrderConfirmationClient } from './confirmation-client'
@@ -40,6 +41,7 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
 
   return (
     <div className="flex flex-col">
+      <ScrollTracking />
       <OrderConfirmationClient amount={orderDetails.amount} />
       {/* Success Hero Section */}
       <section className="bg-gradient-to-br from-green-50 via-background to-green-50 py-20 lg:py-32">

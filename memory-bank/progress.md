@@ -51,6 +51,7 @@
 - [x] Bing Ads Universal Event Tracking (UET) integration - conversion tracking component added (completed)
 - [x] Scroll depth tracking implementation - tracks engagement milestones (25%, 50%, 75%, 100%) on all pages (completed)
 - [x] Scroll depth tracking test suite - 21 tests covering hook, function, and component (completed)
+- [x] DIY guide page - comprehensive guide at /how-to-form-a-pllc-in-ny with hero section, strategic CTAs, Article structured data, and link from FAQ page (completed)
 
 ### Legal Compliance & Content (PROJ-018 Complete)
 

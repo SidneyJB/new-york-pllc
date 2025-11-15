@@ -125,6 +125,18 @@ const uploadDocument = async (file: File, orderId: string) => {
 };
 ```
 
+## Page Structure
+
+### Public Pages
+- Home (`/`) - Hero, features, process, CTA
+- About (`/about`) - Company story, founders, values
+- FAQ (`/faq`) - Comprehensive PLLC questions with link to DIY guide
+- Contact (`/contact`) - Support form and contact info
+- Order (`/order`) - Spiffy checkout integration
+- DIY Guide (`/how-to-form-a-pllc-in-ny`) - Step-by-step guide with hero section, strategic CTAs, Article structured data
+- Profession pages (9 total) - Dentist, LCSW, MHC, Physical Therapist, Psychologist, SLP, Physician, Massage Therapist, Chiropractor
+- Legal pages - Privacy, Terms, Disclaimer
+
 ## Integration Patterns
 
 ### Payment Integration

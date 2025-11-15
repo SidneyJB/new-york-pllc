@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     'NY Certificate of Publication speech therapy'
   ],
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/professions/speech-language-pathologist`,
+    canonical: `${process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'}/professions/speech-language-pathologist`,
   },
 }
 
 export default function SLPPage() {
   const PRICE = PRICING.basePrice
-  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'
+  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'
   const breadcrumbJson = [
     { name: 'Home', item: siteUrl },
     { name: 'Speech-Language Pathology PLLC Formation', item: `${siteUrl}/professions/speech-language-pathologist` },

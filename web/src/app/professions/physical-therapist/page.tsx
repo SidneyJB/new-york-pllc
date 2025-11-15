@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     'NYSED State Board for Physical Therapy pre-approval'
   ],
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/professions/physical-therapist`,
+    canonical: `${process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'}/professions/physical-therapist`,
   },
 }
 
 export default function PTPage() {
   const PRICE = PRICING.basePrice
-  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'
+  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'
   const breadcrumbJson = [
     { name: 'Home', item: siteUrl },
     { name: 'Physical Therapist PLLC Formation', item: `${siteUrl}/professions/physical-therapist` },

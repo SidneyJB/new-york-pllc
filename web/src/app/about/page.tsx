@@ -51,7 +51,7 @@ export default function AboutExtendedSection() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(generateBreadcrumbSchema([
-            { name: 'About', item: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/about` }
+            { name: 'About', item: `${process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'}/about` }
           ])),
         }}
       />

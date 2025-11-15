@@ -21,13 +21,13 @@ export const metadata: Metadata = {
     'NYSED State Board for Dentistry pre-approval'
   ],
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/professions/dentist`,
+    canonical: `${process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'}/professions/dentist`,
   },
 }
 
 export default function DentistPage() {
   const PRICE = PRICING.basePrice
-  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'
+  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'
   const breadcrumbJson = [
     { name: 'Home', item: siteUrl },
     { name: 'Dental PLLC Formation', item: `${siteUrl}/professions/dentist` },

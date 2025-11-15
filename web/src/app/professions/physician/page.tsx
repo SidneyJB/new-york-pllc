@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     'NY Certificate of Publication medical practice'
   ],
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/professions/physician`,
+    canonical: `${process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'}/professions/physician`,
   },
 }
 
 export default function PhysicianPage() {
   const PRICE = PRICING.basePrice
-  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'
+  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'
   const breadcrumbJson = [
     { name: 'Home', item: siteUrl },
     { name: 'Physician PLLC Formation', item: `${siteUrl}/professions/physician` },

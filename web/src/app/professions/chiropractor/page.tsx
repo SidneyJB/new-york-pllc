@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     'NY Certificate of Publication PLLC'
   ],
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/professions/chiropractor`,
+    canonical: `${process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'}/professions/chiropractor`,
   },
 }
 
 export default function ChiropractorPage() {
   const PRICE = PRICING.basePrice
-  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'
+  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'
   const breadcrumbJson = [
     { name: 'Home', item: siteUrl },
     { name: 'Chiropractic PLLC Formation', item: `${siteUrl}/professions/chiropractor` },

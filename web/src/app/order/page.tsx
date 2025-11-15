@@ -19,7 +19,7 @@ export default function OrderPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(generateBreadcrumbSchema([
-            { name: 'Order', item: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/order` }
+            { name: 'Order', item: `${process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'}/order` }
           ])),
         }}
       />

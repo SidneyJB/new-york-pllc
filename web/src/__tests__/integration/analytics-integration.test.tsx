@@ -127,7 +127,7 @@ describe('Analytics Integration Tests - All Pages', () => {
       render(<ContactPage searchParams={{}} />)
       
       // Email link
-      const emailLink = screen.getByRole('link', { name: /contact@newyorkpllc\.com/i })
+      const emailLink = screen.getByRole('link', { name: /contact@nypllc\.com/i })
       expect(emailLink).toBeInTheDocument()
       
       // Phone links (there are multiple)
@@ -147,7 +147,7 @@ describe('Analytics Integration Tests - All Pages', () => {
       const user = userEvent.setup()
       render(<ContactPage searchParams={{}} />)
       
-      const emailLink = screen.getByRole('link', { name: /contact@newyorkpllc\.com/i })
+      const emailLink = screen.getByRole('link', { name: /contact@nypllc\.com/i })
       await user.click(emailLink)
       
       expect(trackEmailClick).toHaveBeenCalledWith({
@@ -483,7 +483,7 @@ describe('Analytics Integration Tests - All Pages', () => {
       render(<ContactPage searchParams={{}} />)
       
       // Track email click
-      const emailLink = screen.getByRole('link', { name: /contact@newyorkpllc\.com/i })
+      const emailLink = screen.getByRole('link', { name: /contact@nypllc\.com/i })
       await user.click(emailLink)
       expect(trackEmailClick).toHaveBeenCalled()
       

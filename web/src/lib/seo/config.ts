@@ -1,5 +1,5 @@
 export const SEO_CONFIG = {
-  siteUrl: process.env.NEXT_PUBLIC_APP_URL || 'https://nypllc.com',
+  siteUrl: process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com',
   siteName: 'New York PLLC Formation Service',
   defaultTitle: 'NY PLLC Formation | Professional LLC Services New York',
   defaultDescription: 'Form your New York Professional Limited Liability Company (PLLC) for $885 including all publishing requirements. Fast, simple, and compliant PLLC formation for licensed professionals.',
@@ -13,7 +13,7 @@ export const SEO_CONFIG = {
       postalCode: '10965',
     },
     phone: '646-444-2102',
-    email: 'contact@newyorkpllc.com',
+    email: 'contact@nypllc.com',
     description: 'Professional PLLC formation services for licensed professionals in New York. Complete formation including mandatory newspaper publishing.',
   },
   socialImage: '/og-image.png',

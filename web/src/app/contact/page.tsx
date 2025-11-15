@@ -66,7 +66,7 @@ export default function ContactPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(generateBreadcrumbSchema([
-            { name: 'Contact', item: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/contact` }
+            { name: 'Contact', item: `${process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'}/contact` }
           ])),
         }}
       />
@@ -405,7 +405,8 @@ export default function ContactPage({
                 cta="start-formation-contact"
                 location="contact-cta"
                 size="lg"
-                variant="secondary"
+                variant="default"
+                className="bg-background text-foreground hover:bg-background/90"
               >
                 Start Formation - $885
               </TrackedCTAButton>

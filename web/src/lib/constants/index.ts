@@ -4,7 +4,7 @@ export const APP_CONFIG = {
   tagline: 'Professional LLC Formation for Licensed Professionals',
   description: 'Complete PLLC formation service for licensed professionals in New York.',
   url: process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000',
-  supportEmail: 'contact@newyorkpllc.com',
+  supportEmail: 'contact@nypllc.com',
   phone: '646-444-2102',
 } as const
 

@@ -45,7 +45,7 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(generateBreadcrumbSchema([
-            { name: 'Home', item: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}` }
+            { name: 'Home', item: `${process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'}` }
           ])),
         }}
       />

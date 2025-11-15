@@ -28,7 +28,7 @@ export default function FAQPage() {
             generateBreadcrumbSchema([
               {
                 name: 'FAQ',
-                item: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/faq`,
+                item: `${process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'}/faq`,
               },
             ])
           ),

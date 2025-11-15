@@ -19,7 +19,7 @@ export default function PrivacyPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(generateBreadcrumbSchema([
-            { name: 'Privacy Policy', item: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/privacy` }
+            { name: 'Privacy Policy', item: `${process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'}/privacy` }
           ])),
         }}
       />

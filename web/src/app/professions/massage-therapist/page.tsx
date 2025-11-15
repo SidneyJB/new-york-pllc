@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     'NY Certificate of Publication massage therapy'
   ],
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'}/professions/massage-therapist`,
+    canonical: `${process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'}/professions/massage-therapist`,
   },
 }
 
 export default function MassageTherapyPage() {
   const PRICE = PRICING.basePrice
-  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://newyorkpllc.com'
+  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'
   const breadcrumbJson = [
     { name: 'Home', item: siteUrl },
     { name: 'Massage Therapy PLLC Formation', item: `${siteUrl}/professions/massage-therapist` },

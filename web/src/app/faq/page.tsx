@@ -53,9 +53,12 @@ export default function FAQPage() {
               <p className="mt-6 text-lg leading-8 text-muted-foreground max-w-2xl mx-auto">
                 Straight answers about forming a New York PLLC.
               </p>
-              <div className="mt-10">
+              <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Button size="lg" asChild>
                   <Link href="/order">Ready to Get Started?</Link>
+                </Button>
+                <Button variant="outline" size="lg" asChild>
+                  <Link href="/how-to-form-a-pllc-in-ny">DIY Guide</Link>
                 </Button>
               </div>
             </div>
@@ -140,6 +143,21 @@ export default function FAQPage() {
                         The additional NYSED preapproval process requires extra paperwork and documentation,
                         increasing both the time and cost compared to forming a regular LLC. This is a state requirement
                         that applies to all professional entities, not specific to any particular service provider.
+                      </p>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardHeader>
+                      <CardTitle className="text-lg">Want to form your PLLC yourself?</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-muted-foreground">
+                        We've created a comprehensive step-by-step guide covering the entire process from Office of the Professions approval through Department of State filing and the 6-week publication requirement.{' '}
+                        <Link href="/how-to-form-a-pllc-in-ny" className="text-primary underline underline-offset-2 font-medium">
+                          Read our complete DIY guide
+                        </Link>
+                        .
                       </p>
                     </CardContent>
                   </Card>

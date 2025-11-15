@@ -163,6 +163,48 @@ export function generateBreadcrumbSchema(items: BreadcrumbItem[]) {
   }
 }
 
+// Article Schema (for blog posts, guides, articles)
+export function generateArticleSchema({
+  headline,
+  description,
+  url,
+  datePublished,
+  dateModified,
+  author,
+  image,
+}: {
+  headline: string
+  description: string
+  url: string
+  datePublished: string
+  dateModified?: string
+  author?: string
+  image?: string
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline,
+    description,
+    url: url.startsWith('http') ? url : `${SEO_CONFIG.siteUrl}${url}`,
+    datePublished,
+    dateModified: dateModified || datePublished,
+    author: {
+      '@type': 'Organization',
+      name: author || SEO_CONFIG.companyInfo.name,
+      '@id': `${SEO_CONFIG.siteUrl}#organization`,
+    },
+    publisher: {
+      '@id': `${SEO_CONFIG.siteUrl}#organization`,
+    },
+    image: image || `${SEO_CONFIG.siteUrl}/og-image.png`,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': url.startsWith('http') ? url : `${SEO_CONFIG.siteUrl}${url}`,
+    },
+  }
+}
+
 // WebSite Schema (for root layout)
 export function generateWebSiteSchema() {
   return {

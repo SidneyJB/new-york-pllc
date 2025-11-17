@@ -2,19 +2,19 @@
   "redirects": [
     {
       "source": "/:path*",
-      "destination": "https://www.nypllc.com/:path*",
-      "permanent": true,
       "has": [
         { "type": "host", "value": "newyorkpllc.com" }
-      ]
+      ],
+      "destination": "https://www.nypllc.com/:path*",
+      "permanent": true
     },
     {
       "source": "/:path*",
-      "destination": "https://www.nypllc.com/:path*",
-      "permanent": true,
       "has": [
         { "type": "host", "value": "www.newyorkpllc.com" }
-      ]
+      ],
+      "destination": "https://www.nypllc.com/:path*",
+      "permanent": true
     }
   ]
 }

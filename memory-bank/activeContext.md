@@ -136,6 +136,7 @@
 - Next.js App Router excels at static site generation and SEO
 - Spiffy.co forms provide simple payment integration
 - Static sites offer excellent performance and deployment simplicity
+- Vercel Analytics purchase events confirmed working in production via server-side `track` with UTM attribution
 - SEO optimization requires comprehensive metadata, structured data, and performance configuration
 - Breadcrumb navigation enhances both UX and SEO with proper structured data
 - Open Graph images significantly improve social media sharing appearance

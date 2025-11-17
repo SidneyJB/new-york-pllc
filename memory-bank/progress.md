@@ -53,6 +53,7 @@
 - [x] Scroll depth tracking test suite - 21 tests covering hook, function, and component (completed)
 - [x] DIY guide page - comprehensive guide at /how-to-form-a-pllc-in-ny with hero section, strategic CTAs, Article structured data, and link from FAQ page (completed)
 - [x] Domain consolidation - enforced www.nypllc.com as canonical domain with Vercel redirects, canonical URLs, hardcoded siteUrl, and platform-level redirect configuration (completed)
+- [x] Vercel Analytics purchase pipeline validated end-to-end with manual ChatGPT-attributed conversion event (completed)
 
 ### Legal Compliance & Content (PROJ-018 Complete)
 

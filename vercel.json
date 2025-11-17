@@ -1,0 +1,21 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://www.nypllc.com/:path*",
+      "permanent": true,
+      "has": [
+        { "type": "host", "value": "newyorkpllc.com" }
+      ]
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://www.nypllc.com/:path*",
+      "permanent": true,
+      "has": [
+        { "type": "host", "value": "www.newyorkpllc.com" }
+      ]
+    }
+  ]
+}
+

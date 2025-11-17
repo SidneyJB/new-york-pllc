@@ -1,6 +1,9 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
+  // Domain consolidation - force all URLs to use www.nypllc.com
+  // This ensures OG images, links, and metadata always use the canonical domain
+  // Note: metadataBase is also set in layout.tsx metadata for Next.js Metadata API
   // Performance optimizations for Core Web Vitals
   compress: true,
 

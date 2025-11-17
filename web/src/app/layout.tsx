@@ -46,6 +46,9 @@ export const metadata: Metadata = {
     telephone: false,
   },
   metadataBase: new URL(SEO_CONFIG.siteUrl),
+  alternates: {
+    canonical: '/',
+  },
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },

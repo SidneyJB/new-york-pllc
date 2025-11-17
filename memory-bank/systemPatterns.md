@@ -183,6 +183,22 @@ useCheckoutTracking() // Detects <spiffy-checkout> element and tracks checkout_s
 - Zapier webhooks for email notifications (triggered by Spiffy.co)
 - Static content management for admin dashboard
 
+### Domain Consolidation Pattern
+
+**Canonical Domain Enforcement**: Site lives exclusively on `https://www.nypllc.com`
+
+**Implementation**:
+- `vercel.json` at repository root with 301 redirects for old domain variants (`newyorkpllc.com` → `www.nypllc.com`)
+- Hardcoded `siteUrl: 'https://www.nypllc.com'` in `SEO_CONFIG` (removed env var fallback)
+- Canonical URLs set via `metadataBase` and `alternates.canonical` in root layout
+- Sitemap, structured data, and all metadata use canonical domain
+- Vercel dashboard configuration: old domains set to redirect to primary domain
+
+**Key Files**:
+- `vercel.json`: Platform-level 301 redirects for old domain variants
+- `web/src/lib/seo/config.ts`: Hardcoded canonical domain
+- `web/src/app/layout.tsx`: `metadataBase` and `alternates.canonical` configuration
+
 ### Analytics Tracking Pattern
 
 **Vercel Custom Events**: Lean, privacy-friendly conversion tracking

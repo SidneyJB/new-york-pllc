@@ -261,7 +261,7 @@ export const PLLC_FAQS: FAQItem[] = [
   },
   {
     question: 'How long does the publishing process take?',
-    answer: 'The publication process takes exactly 6 weeks as required by law. We coordinate with newspapers in your county to ensure the notices run consecutively. The total timeline from filing to completion is typically 7-8 weeks, including processing time.',
+    answer: 'The publication process takes exactly 6 weeks as required by law. We coordinate with newspapers in your county to ensure the notices run consecutively. The total timeline from filing to completion is typically 14-19 weeks, including NYSED approval (8-12 weeks) and the 6-week publication period.',
   },
   {
     question: 'Why is your service $885?',
@@ -273,6 +273,6 @@ export const PLLC_FAQS: FAQItem[] = [
   },
   {
     question: 'How long does PLLC formation take?',
-    answer: 'The complete process typically takes 7-8 weeks: Weeks 1-2 for Articles of Organization filing and processing, Weeks 3-8 for the 6-week newspaper publication period, and Week 9 for final Certificate of Publication filing.',
+    answer: 'The complete process typically takes 14-19 weeks: Weeks 1-12 for NYSED approval (typically 8-12 weeks), Weeks 13-18 for the 6-week newspaper publication period, and Week 19 for final Certificate of Publication filing.',
   },
 ]

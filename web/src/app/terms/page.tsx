@@ -166,35 +166,35 @@ export default function TermsPage() {
               <CardContent>
                 <div className="space-y-4">
                   <p className="text-muted-foreground">
-                    The complete PLLC formation process typically takes 7-8 weeks:
+                    The complete PLLC formation process typically takes 14-19 weeks:
                   </p>
 
                   <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
                     <div className="text-center">
                       <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                        <span className="text-primary font-bold">1-2</span>
+                        <span className="text-primary font-bold text-xs">1-12</span>
                       </div>
-                      <h3 className="font-semibold mb-2">Weeks 1-2</h3>
+                      <h3 className="font-semibold mb-2">Weeks 1-12</h3>
                       <p className="text-sm text-muted-foreground">
-                        Articles of Organization filing and state processing
+                        NYSED approval process (typically 8-12 weeks)
                       </p>
                     </div>
 
                     <div className="text-center">
                       <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                        <span className="text-primary font-bold">3-8</span>
+                        <span className="text-primary font-bold">13-18</span>
                       </div>
-                      <h3 className="font-semibold mb-2">Weeks 3-8</h3>
+                      <h3 className="font-semibold mb-2">Weeks 13-18</h3>
                       <p className="text-sm text-muted-foreground">
-                        6-week newspaper publication period (required by law
+                        6-week newspaper publication period (required by law)
                       </p>
                     </div>
 
                     <div className="text-center">
                       <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                        <span className="text-primary font-bold">9</span>
+                        <span className="text-primary font-bold">19</span>
                       </div>
-                      <h3 className="font-semibold mb-2">Week 9</h3>
+                      <h3 className="font-semibold mb-2">Week 19</h3>
                       <p className="text-sm text-muted-foreground">
                         Final Certificate of Publication filing and document delivery
                       </p>

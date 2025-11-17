@@ -36,7 +36,7 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
     service: "PLLC Formation Package",
     amount: 885, // Standard package price
     paymentDate: new Date().toLocaleDateString(),
-    estimatedCompletion: "7-8 weeks"
+    estimatedCompletion: "14-19 weeks (8-12 weeks for NYSED approval, then 6 weeks for publishing)"
   }
 
   return (

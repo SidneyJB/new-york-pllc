@@ -130,10 +130,6 @@ export default function OrderPage() {
                 <p className="text-sm text-muted-foreground mt-2">Customer Rating</p>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">7-8</div>
-                <p className="text-sm text-muted-foreground mt-2">Week Process</p>
-              </div>
-              <div className="text-center">
                 <div className="text-3xl font-bold text-primary">$0</div>
                 <p className="text-sm text-muted-foreground mt-2">Hidden Fees</p>
               </div>

@@ -120,7 +120,7 @@ export default function OrderPage() {
           </div>
 
           <div className="mx-auto mt-16 max-w-4xl">
-            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 justify-items-center">
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary">2000+</div>
                 <p className="text-sm text-muted-foreground mt-2">PLLCs Formed</p>

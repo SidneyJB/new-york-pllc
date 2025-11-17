@@ -359,7 +359,7 @@ describe('Analytics Integration Tests - All Pages', () => {
       expect(callArgs.timeSpentSeconds).toBeGreaterThanOrEqual(179)
       expect(callArgs.engagementTimeSeconds).toBeGreaterThanOrEqual(119) // ~120 seconds engagement
       expect(callArgs.engagementTimeSeconds).toBeLessThanOrEqual(121)
-      expect(callArgs.fieldChangeCount).toBe(8)
+      // Note: fieldChangeCount removed to stay within Vercel's 8-property limit
       
       // Verify sessionStorage was cleaned up
       expect(sessionStorage.getItem('form_first_interaction_time')).toBeNull()

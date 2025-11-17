@@ -26,7 +26,6 @@ export function OrderConfirmationClient({ amount }: OrderConfirmationClientProps
     // Calculate engagement metrics from Spiffy API tracking
     const firstInteractionTime = sessionStorage.getItem('form_first_interaction_time')
     const lastInteractionTime = sessionStorage.getItem('form_last_interaction_time')
-    const fieldChangeCount = sessionStorage.getItem('form_field_change_count')
     
     let engagementTimeSeconds: number | undefined
     if (firstInteractionTime && lastInteractionTime) {
@@ -40,6 +39,7 @@ export function OrderConfirmationClient({ amount }: OrderConfirmationClientProps
     const orderId = urlParams.get('order_id') || urlParams.get('id') || urlParams.get('orderId') || undefined
     
     // Track purchase on confirmation page load with engagement metrics
+    // Note: Limited to 8 properties max (removed fieldChangeCount to stay within limit)
     trackPurchase({
       value: amount || PRICING.basePrice,
       plan: 'PLLC Formation',
@@ -47,7 +47,6 @@ export function OrderConfirmationClient({ amount }: OrderConfirmationClientProps
       timeSpentSeconds,
       orderId,
       engagementTimeSeconds,
-      fieldChangeCount: fieldChangeCount ? parseInt(fieldChangeCount, 10) : undefined,
     })
     
     // Clean up engagement tracking session storage

@@ -94,6 +94,8 @@ export function trackCheckoutStart(options?: {
 
 /**
  * Track purchase completion with time spent and order details
+ * Note: Limited to 8 properties max for Vercel Analytics Pro plan compatibility
+ * Properties: value, plan, entityType, time_spent, order_id, engagement_time, utm_source, utm_campaign
  */
 export function trackPurchase(options: {
   value: number
@@ -102,7 +104,6 @@ export function trackPurchase(options: {
   timeSpentSeconds?: number
   orderId?: string
   engagementTimeSeconds?: number
-  fieldChangeCount?: number
 }) {
   const utm = getUTMParams()
   track('purchase', filterUndefined({
@@ -112,7 +113,6 @@ export function trackPurchase(options: {
     time_spent: options.timeSpentSeconds,
     order_id: options.orderId,
     engagement_time: options.engagementTimeSeconds,
-    field_changes: options.fieldChangeCount,
     ...utm,
   }))
 }

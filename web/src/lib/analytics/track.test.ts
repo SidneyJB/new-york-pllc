@@ -230,7 +230,6 @@ describe('Analytics Tracking', () => {
         timeSpentSeconds: 180,
         orderId: 'order-123',
         engagementTimeSeconds: 120,
-        fieldChangeCount: 8,
       })
       expect(track).toHaveBeenCalledWith('purchase', {
         value: 885,
@@ -239,7 +238,6 @@ describe('Analytics Tracking', () => {
         time_spent: 180,
         order_id: 'order-123',
         engagement_time: 120,
-        field_changes: 8,
       })
     })
 
@@ -250,7 +248,6 @@ describe('Analytics Tracking', () => {
       expect(properties).not.toHaveProperty('time_spent')
       expect(properties).not.toHaveProperty('order_id')
       expect(properties).not.toHaveProperty('engagement_time')
-      expect(properties).not.toHaveProperty('field_changes')
     })
 
     it('should include UTM parameters', () => {

@@ -23,12 +23,15 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo/Brand */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="h-8 w-8 rounded-md bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">NY</span>
-              </div>
-              <span className="font-bold text-xl text-foreground">
-                {APP_CONFIG.name}
+            <Link href="/" className="flex flex-col leading-tight">
+              <span
+                className="text-[21px] sm:text-[22px] text-foreground"
+                style={{ fontFamily: 'var(--font-playfair)', letterSpacing: '-0.03em', fontWeight: 700 }}
+              >
+                Business Filing Solutions
+              </span>
+              <span className="text-[12px] sm:text-[13px] text-primary tracking-tight mt-0.5">
+                NY PLLC Formation • Family owned and operated since 2005.
               </span>
             </Link>
           </div>

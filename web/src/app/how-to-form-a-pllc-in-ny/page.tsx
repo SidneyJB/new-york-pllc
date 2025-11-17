@@ -320,7 +320,7 @@ export default function DIYGuideTestPage() {
                   We Handle the OP Approval Process
                 </h3>
                 <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                  We've handled hundreds of OP applications and know exactly what they're looking for. 
+                  We've handled thousands of OP applications and know exactly what they're looking for. 
                   Let us manage the forms, follow-ups, and coordination so you can focus on your practice.
                 </p>
                 <Button size="lg" asChild>

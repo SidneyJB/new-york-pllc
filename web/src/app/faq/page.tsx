@@ -209,7 +209,7 @@ export default function FAQPage() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-muted-foreground">
-                        Yes, your chosen name can impact approval timing. After helping form hundreds of
+                        Yes, your chosen name can impact approval timing. After helping form thousands of
                         professional entities, we've learned the specific naming conventions that help
                         avoid delays in the approval process.
                       </p>

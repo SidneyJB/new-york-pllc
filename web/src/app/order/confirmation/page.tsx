@@ -43,28 +43,52 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
     <div className="flex flex-col">
       <ScrollTracking />
       <OrderConfirmationClient amount={orderDetails.amount} />
-      {/* Success Hero Section */}
-      <section className="bg-gradient-to-br from-green-50 via-background to-green-50 py-20 lg:py-32">
+      {/* Email Confirmation Notice */}
+      <section className="bg-muted/50 py-4 lg:py-8">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-8">
-              <svg className="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="mx-auto max-w-2xl text-center">
+            {/* Payment Confirmed Badge */}
+            <div className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800 mb-6">
+              <svg className="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
+              Payment Confirmed
             </div>
-            <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl">
-              Payment{' '}
-              <span className="text-green-600">Confirmed!</span>
-            </h1>
-            <p className="mt-6 text-lg leading-8 text-muted-foreground max-w-2xl mx-auto">
-              Thank you for choosing our PLLC formation service. Your payment has been processed successfully and we're beginning your formation process.
+
+            <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+              Email Confirmation Sent
+            </h2>
+            <p className="mt-6 text-lg leading-8 text-muted-foreground">
+              We've sent a confirmation email to your registered email address with all your order details and tracking information.
             </p>
+
+            {/* Important Email Notice */}
+            <div className="mt-8 p-6 bg-amber-50 border border-amber-200 rounded-lg">
+              <div className="flex items-start">
+                <svg className="w-5 h-5 text-amber-600 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
+                </svg>
+                <div className="text-left">
+                  <h3 className="text-lg font-semibold text-amber-800 mb-2">
+                    Important: Add Our Email to Your Contacts
+                  </h3>
+                  <p className="text-amber-700 text-sm leading-relaxed">
+                    <strong>Please add <code className="bg-amber-100 px-1 py-0.5 rounded text-xs font-mono">contact@nypllc.com</code> to your email contacts</strong> to ensure you receive all important updates about your PLLC formation process. Missing these emails could delay your formation timeline.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Order Summary Section */}
-      <section className="py-20 lg:py-32">
+      <section className="py-4 lg:py-8">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl">
 
@@ -156,7 +180,7 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
                       </li>
                       <li className="flex items-start gap-2">
                         <BadgeCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" aria-hidden="true" />
-                        <span>Free first-year registered agent service with automatic renewals available</span>
+                        <span>Free first-year registered agent service</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <BadgeCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" aria-hidden="true" />
@@ -183,7 +207,7 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
                       </li>
                       <li className="flex items-start gap-2">
                         <BadgeCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" aria-hidden="true" />
-                        <span>Digital delivery of every filing receipt, affidavit, and final certificate</span>
+                        <span>Digital delivery of your proof of formation and publication</span>
                       </li>
                     </ul>
                   </div>
@@ -299,27 +323,8 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
         </div>
       </section>
 
-      {/* Email Confirmation Notice */}
-      <section className="bg-muted/50 py-20 lg:py-32">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
-            <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-            </div>
-            <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Email Confirmation Sent
-            </h2>
-            <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              We've sent a confirmation email to your registered email address with all your order details and tracking information.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
-      <section className="py-20 lg:py-32">
+      <section className="py-4 lg:py-8">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">

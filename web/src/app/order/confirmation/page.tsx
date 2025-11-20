@@ -214,69 +214,6 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
                 </div>
               </CardContent>
             </Card>
-            {/* Next Steps Timeline */}
-            {/* 
-
-            <Card className="mb-8">
-              <CardHeader>
-                <CardTitle>Next Steps</CardTitle>
-                <CardDescription>
-                  Here's what happens next in your PLLC formation process
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-6">
-                  <div className="flex items-start">
-                    <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-4 mt-1">
-                      <span className="text-primary font-bold text-sm">1</span>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold">Today - Filing Initiation</h4>
-                      <p className="text-sm text-muted-foreground">
-                        We begin processing your Articles of Organization filing with New York State. You'll receive email confirmation within 24 hours.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start">
-                    <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-4 mt-1">
-                      <span className="text-primary font-bold text-sm">2</span>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold">Week 1-2 - State Processing</h4>
-                      <p className="text-sm text-muted-foreground">
-                        New York State processes your filing. Once approved, we coordinate newspaper publication in your county.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start">
-                    <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-4 mt-1">
-                      <span className="text-primary font-bold text-sm">3</span>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold">Weeks 3-8 - Publishing Period</h4>
-                      <p className="text-sm text-muted-foreground">
-                        6-week publication period in two newspapers as required by NY law. We'll handle all coordination.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start">
-                    <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                      <span className="text-green-600 font-bold text-sm">✓</span>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-green-600">Week 9 - Completion</h4>
-                      <p className="text-sm text-muted-foreground">
-                        Final Certificate of Publication filed. All documents delivered digitally via secure email.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card> 
-            */}
 
             {/* Support Information */}
             <Card>

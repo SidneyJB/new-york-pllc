@@ -1,6 +1,6 @@
 
 import type { Metadata } from 'next'
-import { Inter, JetBrains_Mono } from 'next/font/google'
+import { Inter, JetBrains_Mono, Playfair_Display } from 'next/font/google'
 import { MainLayout } from '@/components/layout'
 import { Analytics } from '@vercel/analytics/next'
 import { generateRootSchemas } from '@/lib/seo/structured-data'
@@ -19,6 +19,12 @@ const jetbrainsMono = JetBrains_Mono({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-jetbrains-mono',
+})
+
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-playfair',
 })
 
 // Root metadata for SEO
@@ -155,7 +161,7 @@ export default function RootLayout({
         <BingAdsTracking />
 
       </head>
-      <body className={`${inter.variable} ${jetbrainsMono.variable} antialiased`}>
+      <body className={`${inter.variable} ${jetbrainsMono.variable} ${playfair.variable} antialiased`}>
         <Script
           id="spiffy-script"
           strategy="afterInteractive"

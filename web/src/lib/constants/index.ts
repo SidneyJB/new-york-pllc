@@ -51,6 +51,7 @@ export const NAVIGATION = {
     { name: 'Physician', href: '/professions/physician', shortName: 'Physician' },
     { name: 'Massage Therapist', href: '/professions/massage-therapist', shortName: 'Massage Therapist' },
     { name: 'Chiropractor', href: '/professions/chiropractor', shortName: 'Chiropractor' },
+    { name: 'Occupational Therapist', href: '/professions/occupational-therapist', shortName: 'Occupational Therapist' },
   ],
   footer: [
     { name: 'Privacy Policy', href: '/privacy' },

@@ -3,12 +3,12 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { PRICING } from '@/lib/constants'
-import { ArrowRight, ClipboardList, Newspaper, FileCheck2, BadgeCheck } from 'lucide-react'
+import { ArrowRight, ClipboardList, Newspaper, FileCheck2, BadgeCheck, ShieldCheck } from 'lucide-react'
 import { TrackedCTAButton } from '@/components/analytics/tracked-cta'
 
 export function HeroSection() {
   return (
-    <section className="relative py-8 lg:py-24" aria-labelledby="hero-heading">
+    <section className="relative py-2 lg:py-16" aria-labelledby="hero-heading">
       {/* subtle background wash */}
       <div className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-b from-primary/5 via-transparent to-transparent" />
 
@@ -72,6 +72,10 @@ export function HeroSection() {
                     </Link>{' '}
                     end-to-end)</span>
                   </li>
+                  <li className="flex items-center gap-2 rounded-md bg-primary/5 border border-primary/20 px-2 py-1 mt-2">
+                    <ShieldCheck className="h-5 w-5 text-primary flex-shrink-0" aria-hidden="true" />
+                    <span className="font-semibold text-base">Every single state filing fee, publishing fee, and processing cost is fully included in our flat price. Absolutely no hidden charges</span>
+                  </li>
                 </ul>
               </div>
 
@@ -94,7 +98,7 @@ export function HeroSection() {
               </div>
 
               <p className="text-sm text-muted-foreground">
-                ~5–7 minutes to complete • Licensed professionals only (PLLC) • No hidden fees
+                ~3–5 minutes to complete • Licensed professionals only (PLLC) • No hidden fees
               </p>
             </div>
           </div>
@@ -103,7 +107,7 @@ export function HeroSection() {
           <aside className="lg:col-span-1 lg:sticky lg:top-24" id="how-it-works">
             <Card className="border-primary/10 shadow-sm">
               <CardContent className="p-6 sm:p-7">
-              <span className="text-xl font-medium mb-3">We've formed <strong>thousands</strong> of PLLCs</span>
+              <span className="text-xl font-medium mb-3">We've formed <strong>thousands</strong> of PLLCs since 2005</span>
               <div className="mt-3 mb-3 flex items-center gap-2">
                 
                 <ClipboardList className="mt-0.5 h-8 w-7 text-primary flex-shrink-0" aria-hidden="true" />

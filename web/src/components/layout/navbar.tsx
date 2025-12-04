@@ -15,6 +15,7 @@ import { APP_CONFIG, NAVIGATION } from '@/lib/constants'
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [professionsOpen, setProfessionsOpen] = useState(false)
+  const [dropdownOpen, setDropdownOpen] = useState(false)
   const telHref = APP_CONFIG.phone.replace(/[^+\d]/g, '')
 
   return (
@@ -45,7 +46,7 @@ export function Navbar() {
               </Link>
 
               {/* Professions Dropdown */}
-              <DropdownMenu>
+              <DropdownMenu open={dropdownOpen} onOpenChange={setDropdownOpen}>
                 <DropdownMenuTrigger className="text-muted-foreground hover:text-foreground px-3 py-2 text-sm font-medium transition-colors flex items-center gap-1">
                   Professions
                   <ChevronDown className="h-4 w-4" />
@@ -72,7 +73,14 @@ export function Navbar() {
                   </div>
                   <div className="border-t pt-2 px-3 pb-2">
                     <p className="text-xs text-muted-foreground leading-tight">
-                      We serve all licensed professions in New York. The pages listed above represent a selection of the professions for which we've created dedicated resources. Additional profession-specific pages are being added regularly.
+                      We serve all licensed professions in New York. The pages listed above represent a selection of the professions for which we've created dedicated resources. Additional profession-specific pages are being added regularly.{' '}
+                      <Link 
+                        href="/contact" 
+                        className="text-primary underline underline-offset-2 hover:text-primary/80"
+                        onClick={() => setDropdownOpen(false)}
+                      >
+                        Don't see yours? Request it!
+                      </Link>
                     </p>
                   </div>
                 </DropdownMenuContent>
@@ -178,7 +186,10 @@ export function Navbar() {
                     </div>
                     <div className="px-6 pt-2 pb-2 border-t mt-2">
                       <p className="text-xs text-muted-foreground leading-tight">
-                        We serve all licensed professions in New York. The pages listed above represent a selection of the professions for which we've created dedicated resources. Additional profession-specific pages are being added regularly.
+                        We serve all licensed professions in New York. The pages listed above represent a selection of the professions for which we've created dedicated resources. Additional profession-specific pages are being added regularly.{' '}
+                        <Link href="/contact" className="text-primary underline underline-offset-2 hover:text-primary/80" onClick={() => setMobileMenuOpen(false)}>
+                          Don't see yours? Request it!
+                        </Link>
                       </p>
                     </div>
                   </>

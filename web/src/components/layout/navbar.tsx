@@ -9,11 +9,12 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
-import { ChevronDown } from 'lucide-react'
+import { ChevronDown, ChevronRight } from 'lucide-react'
 import { APP_CONFIG, NAVIGATION } from '@/lib/constants'
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [professionsOpen, setProfessionsOpen] = useState(false)
   const telHref = APP_CONFIG.phone.replace(/[^+\d]/g, '')
 
   return (
@@ -49,20 +50,31 @@ export function Navbar() {
                   Professions
                   <ChevronDown className="h-4 w-4" />
                 </DropdownMenuTrigger>
-                <DropdownMenuContent align="start" className="w-64">
-                  {NAVIGATION.professions.map((profession) => (
-                    <DropdownMenuItem key={profession.name} asChild>
-                      <Link
-                        href={profession.href}
-                        className="flex flex-col items-start gap-1 w-full"
+                <DropdownMenuContent align="start" className="w-[32rem]">
+                  <div className="grid grid-cols-2">
+                    {NAVIGATION.professions.map((profession, index) => (
+                      <DropdownMenuItem 
+                        key={profession.name} 
+                        asChild 
+                        className={`m-0 ${index % 2 === 0 ? 'border-r border-border/50' : ''}`}
                       >
-                        <span className="font-medium">{profession.shortName}</span>
-                        <span className="text-xs text-muted-foreground leading-tight">
-                          {profession.name.replace(`${profession.shortName} (`, '').replace(')', '')}
-                        </span>
-                      </Link>
-                    </DropdownMenuItem>
-                  ))}
+                        <Link
+                          href={profession.href}
+                          className="flex flex-col items-start gap-1 w-full"
+                        >
+                          <span className="font-medium">{profession.shortName}</span>
+                          <span className="text-xs text-muted-foreground leading-tight">
+                            {profession.name.replace(`${profession.shortName} (`, '').replace(')', '')}
+                          </span>
+                        </Link>
+                      </DropdownMenuItem>
+                    ))}
+                  </div>
+                  <div className="border-t pt-2 px-3 pb-2">
+                    <p className="text-xs text-muted-foreground leading-tight">
+                      We serve all licensed professions in New York. The pages listed above represent a selection of the professions for which we've created dedicated resources. Additional profession-specific pages are being added regularly.
+                    </p>
+                  </div>
                 </DropdownMenuContent>
               </DropdownMenu>
 
@@ -134,26 +146,43 @@ export function Navbar() {
 
               {/* Professions in Mobile Menu */}
               <div className="border-t pt-2 pb-1">
-                <div className="px-3 py-2 text-sm font-medium text-muted-foreground mb-2">
-                  Professions
-                </div>
-                <div className="space-y-1">
-                  {NAVIGATION.professions.map((profession) => (
-                    <Link
-                      key={profession.name}
-                      href={profession.href}
-                      className="text-muted-foreground hover:text-foreground hover:bg-muted block px-6 py-2 text-sm transition-colors"
-                      onClick={() => setMobileMenuOpen(false)}
-                    >
-                      <div className="flex flex-col">
-                        <span className="font-medium">{profession.shortName}</span>
-                        <span className="text-xs text-muted-foreground">
-                          {profession.name.replace(`${profession.shortName} (`, '').replace(')', '')}
-                        </span>
-                      </div>
-                    </Link>
-                  ))}
-                </div>
+                <button
+                  onClick={() => setProfessionsOpen(!professionsOpen)}
+                  className="w-full flex items-center justify-between px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+                >
+                  <span>Professions</span>
+                  {professionsOpen ? (
+                    <ChevronDown className="h-4 w-4" />
+                  ) : (
+                    <ChevronRight className="h-4 w-4" />
+                  )}
+                </button>
+                {professionsOpen && (
+                  <>
+                    <div className="space-y-1">
+                      {NAVIGATION.professions.map((profession) => (
+                        <Link
+                          key={profession.name}
+                          href={profession.href}
+                          className="text-muted-foreground hover:text-foreground hover:bg-muted block px-6 py-2 text-sm transition-colors"
+                          onClick={() => setMobileMenuOpen(false)}
+                        >
+                          <div className="flex flex-col">
+                            <span className="font-medium">{profession.shortName}</span>
+                            <span className="text-xs text-muted-foreground">
+                              {profession.name.replace(`${profession.shortName} (`, '').replace(')', '')}
+                            </span>
+                          </div>
+                        </Link>
+                      ))}
+                    </div>
+                    <div className="px-6 pt-2 pb-2 border-t mt-2">
+                      <p className="text-xs text-muted-foreground leading-tight">
+                        We serve all licensed professions in New York. The pages listed above represent a selection of the professions for which we've created dedicated resources. Additional profession-specific pages are being added regularly.
+                      </p>
+                    </div>
+                  </>
+                )}
               </div>
 
               <Link

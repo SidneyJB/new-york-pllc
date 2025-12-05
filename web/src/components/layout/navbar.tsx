@@ -87,6 +87,12 @@ export function Navbar() {
               </DropdownMenu>
 
               <Link
+                href="/foreign-pllc"
+                className="text-muted-foreground hover:text-foreground px-3 py-2 text-sm font-medium transition-colors"
+              >
+                Qualify an existing PLLC
+              </Link>
+              <Link
                 href="/about"
                 className="text-muted-foreground hover:text-foreground px-3 py-2 text-sm font-medium transition-colors"
               >
@@ -196,6 +202,13 @@ export function Navbar() {
                 )}
               </div>
 
+              <Link
+                href="/foreign-pllc"
+                className="text-muted-foreground hover:text-foreground hover:bg-muted block px-3 py-2 text-base font-medium transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Qualify an existing PLLC
+              </Link>
               <Link
                 href="/about"
                 className="text-muted-foreground hover:text-foreground hover:bg-muted block px-3 py-2 text-base font-medium transition-colors"

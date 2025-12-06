@@ -110,6 +110,36 @@ export default function AboutExtendedSection() {
             </div>
           </div>
 
+          {/* Our Services */}
+          <div className="mt-10">
+            <h2 className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">What we do</h2>
+            <div className="mt-4 space-y-6 text-base leading-7 text-foreground max-w-none">
+              <div>
+                <h3 className="text-lg font-medium text-foreground">New PLLC Formation</h3>
+                <p className="mt-2">
+                  Our primary service helps licensed professionals form new Professional Limited Liability Companies (PLLCs) in New York. We handle the entire process for a flat fee of $885, including all required filings and the mandatory six-week newspaper publication.
+                </p>
+                <div className="mt-3">
+                  <Link href="/order" className="text-primary underline underline-offset-2 hover:text-primary/80">
+                    Start your PLLC formation →
+                  </Link>
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-medium text-foreground">Foreign PLLC Qualification</h3>
+                <p className="mt-2">
+                  Already have a PLLC formed in another state? We can help qualify it to operate in New York. This involves obtaining NYSED authority, filing the Application for Authority, and completing the required publication process.
+                </p>
+                <div className="mt-3">
+                  <Link href="/foreign-pllc" className="text-primary underline underline-offset-2 hover:text-primary/80">
+                    Learn about foreign qualification →
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Meet the founders */}
           <div className="mt-12">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">Meet the founders</h2>

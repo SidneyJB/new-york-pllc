@@ -608,6 +608,34 @@ export default function FAQPage() {
                   </Card>
                 </div>
               </div>
+
+              {/* Foreign Qualification */}
+              <div className="mb-16">
+                <h2 className="text-3xl font-bold tracking-tight text-foreground mb-8">
+                  Foreign Qualification
+                </h2>
+
+                <div className="space-y-6">
+                  <Card>
+                    <CardHeader>
+                      <CardTitle className="text-lg">Do you help with foreign qualification of existing PLLCs?</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-muted-foreground mb-3">
+                        Yes! If you already have a PLLC formed in another state and want to qualify it to operate in New York,
+                        we can help with the entire foreign qualification process. This includes obtaining NYSED authority,
+                        filing the Application for Authority, and completing the required six-week publication.
+                      </p>
+                      <p className="text-muted-foreground">
+                        Pricing depends on your home state and required documents.{' '}
+                        <Link href="/foreign-pllc" className="text-primary underline underline-offset-2 font-medium">
+                          Learn more about foreign qualification →
+                        </Link>
+                      </p>
+                    </CardContent>
+                  </Card>
+                </div>
+              </div>
             </div>
           </div>
         </section>

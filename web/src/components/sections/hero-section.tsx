@@ -66,11 +66,7 @@ export function HeroSection() {
                   </li>
                   <li className="flex items-start gap-2">
                     <BadgeCheck className="mt-0.5 h-3 w-3 text-primary flex-shrink-0" aria-hidden="true" />
-                    <span>Everything you need to open your practice (EIN, Operating Agreement,{' '}
-                    <Link href="/faq#publishing-requirements" className="text-primary underline underline-offset-2">
-                      Required Legal Publishing
-                    </Link>{' '}
-                    end-to-end)</span>
+                    <span>Everything you need to open your practice (EIN, Operating Agreement, Required Legal Publishing end-to-end)</span>
                   </li>
                   <li className="flex items-center gap-2 rounded-md bg-primary/5 border border-primary/20 px-2 py-1 mt-2">
                     <ShieldCheck className="h-5 w-5 text-primary flex-shrink-0" aria-hidden="true" />
@@ -99,6 +95,12 @@ export function HeroSection() {
 
               <p className="text-sm text-muted-foreground">
                 ~3–5 minutes to complete • Licensed professionals only (PLLC) • No hidden fees
+              </p>
+              <p className="text-sm text-muted-foreground mt-2">
+                Already have a PLLC?{' '}
+                <Link href="/foreign-pllc" className="text-primary underline underline-offset-2 hover:text-primary/80">
+                  We can help qualify it for New York →
+                </Link>
               </p>
             </div>
           </div>

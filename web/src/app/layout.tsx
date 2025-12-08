@@ -1,6 +1,7 @@
 
 import type { Metadata } from 'next'
 import { Inter, JetBrains_Mono, Playfair_Display } from 'next/font/google'
+import { Suspense } from 'react'
 import { MainLayout } from '@/components/layout'
 import { Analytics } from '@vercel/analytics/next'
 import { generateRootSchemas } from '@/lib/seo/structured-data'
@@ -246,7 +247,9 @@ export default function RootLayout({
             __html: JSON.stringify(generateRootSchemas()),
           }}
         />
-        <MetaPixelEvents />
+        <Suspense fallback={null}>
+          <MetaPixelEvents />
+        </Suspense>
         <MainLayout>{children}</MainLayout>
         <Analytics />
       </body>

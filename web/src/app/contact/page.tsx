@@ -50,13 +50,14 @@ async function handleContactSubmit(formData: FormData) {
   redirect('/contact?submitted=1')
 }
 
-export default function ContactPage({
+export default async function ContactPage({
   searchParams,
 }: {
-  searchParams?: { submitted?: string; error?: string }
+  searchParams: Promise<{ submitted?: string; error?: string }>
 }) {
-  const submitted = searchParams?.submitted === '1'
-  const submissionError = searchParams?.error === '1'
+  const params = await searchParams
+  const submitted = params?.submitted === '1'
+  const submissionError = params?.error === '1'
 
   return (
     <>

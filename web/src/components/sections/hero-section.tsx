@@ -8,7 +8,7 @@ import { TrackedCTAButton } from '@/components/analytics/tracked-cta'
 
 export function HeroSection() {
   return (
-    <section className="relative py-2 lg:py-16" aria-labelledby="hero-heading">
+    <section className="relative py-8 lg:py-16" aria-labelledby="hero-heading">
       {/* subtle background wash */}
       <div className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-b from-primary/5 via-transparent to-transparent" />
 

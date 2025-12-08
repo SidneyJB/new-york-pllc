@@ -163,12 +163,12 @@ export function Navbar() {
         {/* Mobile Navigation Menu */}
         {mobileMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               {/* Services in Mobile Menu */}
-              <div className="border-t pt-2 pb-1">
+              <div className="pt-1 pb-1">
                 <button
                   onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
-                  className="w-full flex items-center justify-between px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+                  className="w-full flex items-center justify-between px-3 py-2 text-base font-medium text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
                 >
                   <span>Services</span>
                   {mobileServicesOpen ? (
@@ -205,10 +205,10 @@ export function Navbar() {
               </div>
 
               {/* Professions in Mobile Menu */}
-              <div className="border-t pt-2 pb-1">
+              <div className="pt-1 pb-1">
                 <button
                   onClick={() => setProfessionsOpen(!professionsOpen)}
-                  className="w-full flex items-center justify-between px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+                  className="w-full flex items-center justify-between px-3 py-2 text-base font-medium text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
                 >
                   <span>Professions</span>
                   {professionsOpen ? (

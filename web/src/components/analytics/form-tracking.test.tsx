@@ -142,6 +142,27 @@ describe('useCheckoutTracking', () => {
     expect(trackCheckoutStart).not.toHaveBeenCalled()
   })
 
+  it('should allow overriding plan, price, and entity type', () => {
+    const spiffyForm = document.createElement('spiffy-checkout')
+    document.body.appendChild(spiffyForm)
+
+    renderHook(() => useCheckoutTracking({
+      plan: 'LLC Formation',
+      price: 425,
+      entityType: 'LLC',
+    }))
+
+    act(() => {
+      // effect runs immediately
+    })
+
+    expect(trackCheckoutStart).toHaveBeenCalledWith({
+      plan: 'LLC Formation',
+      price: 425,
+      entityType: 'LLC',
+    })
+  })
+
   it('should clean up timeout on unmount', () => {
     const { unmount } = renderHook(() => useCheckoutTracking())
     const clearTimeoutSpy = vi.spyOn(global, 'clearTimeout')

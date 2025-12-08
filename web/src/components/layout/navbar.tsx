@@ -15,6 +15,7 @@ import { APP_CONFIG, NAVIGATION } from '@/lib/constants'
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [professionsOpen, setProfessionsOpen] = useState(false)
+  const [servicesOpen, setServicesOpen] = useState(false)
   const [dropdownOpen, setDropdownOpen] = useState(false)
   const telHref = APP_CONFIG.phone.replace(/[^+\d]/g, '')
 
@@ -38,12 +39,30 @@ export function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <Link
-                href="/"
-                className="text-muted-foreground hover:text-foreground px-3 py-2 text-sm font-medium transition-colors"
-              >
-                Home
-              </Link>
+              {/* Services Dropdown */}
+              <DropdownMenu open={servicesOpen} onOpenChange={setServicesOpen}>
+                <DropdownMenuTrigger className="text-muted-foreground hover:text-foreground px-3 py-2 text-sm font-medium transition-colors flex items-center gap-1">
+                  Services
+                  <ChevronDown className="h-4 w-4" />
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="start" className="w-64">
+                  <DropdownMenuItem asChild>
+                    <Link href="/order">
+                      PLLC Formation
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/order-llc">
+                      LLC Formation
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/foreign-pllc">
+                      Foreign Qualification (Existing Entity)
+                    </Link>
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
 
               {/* Professions Dropdown */}
               <DropdownMenu open={dropdownOpen} onOpenChange={setDropdownOpen}>
@@ -144,13 +163,45 @@ export function Navbar() {
         {mobileMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t">
-              <Link
-                href="/"
-                className="text-muted-foreground hover:text-foreground hover:bg-muted block px-3 py-2 text-base font-medium transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Home
-              </Link>
+              {/* Services in Mobile Menu */}
+              <div className="border-t pt-2 pb-1">
+                <button
+                  onClick={() => setServicesOpen(!servicesOpen)}
+                  className="w-full flex items-center justify-between px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+                >
+                  <span>Services</span>
+                  {servicesOpen ? (
+                    <ChevronDown className="h-4 w-4" />
+                  ) : (
+                    <ChevronRight className="h-4 w-4" />
+                  )}
+                </button>
+                {servicesOpen && (
+                  <div className="space-y-1">
+                    <Link
+                      href="/order"
+                      className="text-muted-foreground hover:text-foreground hover:bg-muted block px-6 py-2 text-sm transition-colors"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      PLLC Formation
+                    </Link>
+                    <Link
+                      href="/order-llc"
+                      className="text-muted-foreground hover:text-foreground hover:bg-muted block px-6 py-2 text-sm transition-colors"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      LLC Formation
+                    </Link>
+                    <Link
+                      href="/foreign-pllc"
+                      className="text-muted-foreground hover:text-foreground hover:bg-muted block px-6 py-2 text-sm transition-colors"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      Foreign Qualification (Existing Entity)
+                    </Link>
+                  </div>
+                )}
+              </div>
 
               {/* Professions in Mobile Menu */}
               <div className="border-t pt-2 pb-1">

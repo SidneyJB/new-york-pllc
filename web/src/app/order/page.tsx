@@ -44,9 +44,6 @@ export default function OrderPage() {
               <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
                 Complete Your New York PLLC Formation Order
               </h1>
-              <p className="mt-3 text-base text-muted-foreground">
-                Secure checkout powered by Spiffy. Licensed professionals only — no hidden fees, ever.
-              </p>
             </header>
 
             {/* Spiffy Form Placeholder */}

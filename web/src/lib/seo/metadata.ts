@@ -154,6 +154,18 @@ export const ORDER_METADATA = generateMetadata({
   canonical: '/order',
 })
 
+export const ORDER_LLC_METADATA = generateMetadata({
+  title: 'Order NY LLC Formation | Start Your New York LLC',
+  description: 'Order your New York LLC formation service. Complete the secure form to start your LLC formation including state filing and the mandatory publication requirement.',
+  keywords: [
+    'order LLC formation',
+    'buy NY LLC',
+    'start LLC formation',
+    'New York LLC service',
+  ],
+  canonical: '/order-llc',
+})
+
 export const ABOUT_METADATA = generateMetadata({
   title: 'About NY PLLC Formation | Professional LLC Experts',
   description: 'Learn about our New York PLLC formation service. We specialize in professional LLC formation for licensed professionals including doctors, lawyers, CPAs, and architects in New York.',

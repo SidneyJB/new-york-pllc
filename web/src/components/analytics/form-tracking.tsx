@@ -5,6 +5,12 @@ import { usePathname } from 'next/navigation'
 import { trackLeadStart, trackLeadSubmit, trackCheckoutStart, trackScrollDepth } from '@/lib/analytics/track'
 import { PRICING } from '@/lib/constants'
 
+export interface CheckoutTrackingOptions {
+  plan?: string
+  price?: number
+  entityType?: string
+}
+
 /**
  * Hook to track first keystroke on a form (lead_start)
  */
@@ -36,7 +42,13 @@ export function trackFormSubmit(formName: string, step?: string) {
  * Track checkout start (when Spiffy form loads)
  * Stores timestamp for duration calculation
  */
-export function useCheckoutTracking() {
+export function useCheckoutTracking(options?: CheckoutTrackingOptions) {
+  const {
+    plan = 'PLLC Formation',
+    price = PRICING.basePrice,
+    entityType = 'PLLC',
+  } = options || {}
+
   useEffect(() => {
     // Track checkout start when Spiffy form is detected
     const checkForSpiffy = () => {
@@ -47,9 +59,9 @@ export function useCheckoutTracking() {
         sessionStorage.setItem('checkout_start_time', checkoutStartTime.toString())
         
         trackCheckoutStart({
-          plan: 'PLLC Formation',
-          price: PRICING.basePrice,
-          entityType: 'PLLC',
+          plan,
+          price,
+          entityType,
         })
       }
     }
@@ -59,7 +71,7 @@ export function useCheckoutTracking() {
     const timeout = setTimeout(checkForSpiffy, 1000)
 
     return () => clearTimeout(timeout)
-  }, [])
+  }, [plan, price, entityType])
 }
 
 /**

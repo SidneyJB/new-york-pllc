@@ -3,6 +3,7 @@
 import { useEffect } from 'react'
 import { trackPurchase } from '@/lib/analytics/track'
 import { PRICING } from '@/lib/constants'
+import * as fbq from '@/lib/fbpixel'
 
 interface OrderConfirmationClientProps {
   amount?: number
@@ -47,6 +48,15 @@ export function OrderConfirmationClient({ amount }: OrderConfirmationClientProps
       timeSpentSeconds,
       orderId,
       engagementTimeSeconds,
+    })
+    
+    // Track Facebook Pixel Purchase event
+    const purchaseAmount = amount || PRICING.basePrice
+    fbq.event('Purchase', {
+      value: purchaseAmount,
+      currency: 'USD',
+      content_ids: ['pllc-formation'],
+      content_type: 'product',
     })
     
     // Clean up engagement tracking session storage

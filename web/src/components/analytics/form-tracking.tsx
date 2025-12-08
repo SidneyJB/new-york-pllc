@@ -8,7 +8,7 @@ import { PRICING } from '@/lib/constants'
 export interface CheckoutTrackingOptions {
   plan?: string
   price?: number
-  entityType?: string
+  entityType?: 'PLLC' | 'LLC'
 }
 
 /**

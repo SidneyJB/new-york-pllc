@@ -15,7 +15,8 @@ import { APP_CONFIG, NAVIGATION } from '@/lib/constants'
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [professionsOpen, setProfessionsOpen] = useState(false)
-  const [servicesOpen, setServicesOpen] = useState(false)
+  const [servicesOpen, setServicesOpen] = useState(false) // desktop services dropdown
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false) // mobile services accordion
   const [dropdownOpen, setDropdownOpen] = useState(false)
   const telHref = APP_CONFIG.phone.replace(/[^+\d]/g, '')
 
@@ -166,17 +167,17 @@ export function Navbar() {
               {/* Services in Mobile Menu */}
               <div className="border-t pt-2 pb-1">
                 <button
-                  onClick={() => setServicesOpen(!servicesOpen)}
+                  onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
                   className="w-full flex items-center justify-between px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
                 >
                   <span>Services</span>
-                  {servicesOpen ? (
+                  {mobileServicesOpen ? (
                     <ChevronDown className="h-4 w-4" />
                   ) : (
                     <ChevronRight className="h-4 w-4" />
                   )}
                 </button>
-                {servicesOpen && (
+                {mobileServicesOpen && (
                   <div className="space-y-1">
                     <Link
                       href="/order"

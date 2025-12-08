@@ -1,5 +1,6 @@
+// Facebook Pixel ID - fallback to production ID if env var not set
 export const FB_PIXEL_ID =
-  process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID ?? '';
+  process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID ?? '2917033441818560';
 
 declare global {
   interface Window {

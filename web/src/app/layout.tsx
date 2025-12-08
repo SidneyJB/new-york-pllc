@@ -8,6 +8,7 @@ import { generateRootSchemas } from '@/lib/seo/structured-data'
 import { SEO_CONFIG } from '@/lib/seo/config'
 import { BingAdsTracking } from '@/components/analytics/bing-ads-tracking'
 import { MetaPixelEvents } from '@/components/analytics/meta-pixel-events'
+import { FB_PIXEL_ID } from '@/lib/fbpixel'
 import './globals.css'
 import Script from 'next/script'
 
@@ -163,7 +164,7 @@ export default function RootLayout({
         <BingAdsTracking />
 
         {/* Meta Pixel Code */}
-        {process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID && (
+        {FB_PIXEL_ID && (
           <>
             <Script
               id="fb-pixel"
@@ -178,7 +179,7 @@ export default function RootLayout({
                   t.src=v;s=b.getElementsByTagName(e)[0];
                   s.parentNode.insertBefore(t,s)}(window, document,'script',
                   'https://connect.facebook.net/en_US/fbevents.js');
-                  fbq('init', '${process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID}');
+                  fbq('init', '${FB_PIXEL_ID}');
                   fbq('track', 'PageView');
                 `,
               }}
@@ -189,7 +190,7 @@ export default function RootLayout({
                 height="1"
                 width="1"
                 style={{ display: 'none' }}
-                src={`https://www.facebook.com/tr?id=${process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID}&ev=PageView&noscript=1`}
+                src={`https://www.facebook.com/tr?id=${FB_PIXEL_ID}&ev=PageView&noscript=1`}
               />
             </noscript>
           </>

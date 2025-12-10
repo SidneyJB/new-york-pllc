@@ -7,9 +7,17 @@ import * as fbq from '@/lib/fbpixel'
 
 interface OrderConfirmationClientProps {
   amount?: number
+  plan?: string
+  entityType?: 'PLLC' | 'LLC'
+  fbContentId?: string
 }
 
-export function OrderConfirmationClient({ amount }: OrderConfirmationClientProps) {
+export function OrderConfirmationClient({
+  amount,
+  plan = 'PLLC Formation',
+  entityType = 'PLLC',
+  fbContentId = 'pllc-formation',
+}: OrderConfirmationClientProps) {
   useEffect(() => {
     // Calculate time spent on order form
     const checkoutStartTime = sessionStorage.getItem('checkout_start_time')
@@ -43,8 +51,8 @@ export function OrderConfirmationClient({ amount }: OrderConfirmationClientProps
     // Note: Limited to 8 properties max (removed fieldChangeCount to stay within limit)
     trackPurchase({
       value: amount || PRICING.basePrice,
-      plan: 'PLLC Formation',
-      entityType: 'PLLC',
+      plan,
+      entityType,
       timeSpentSeconds,
       orderId,
       engagementTimeSeconds,
@@ -55,7 +63,7 @@ export function OrderConfirmationClient({ amount }: OrderConfirmationClientProps
     fbq.event('Purchase', {
       value: purchaseAmount,
       currency: 'USD',
-      content_ids: ['pllc-formation'],
+      content_ids: [fbContentId],
       content_type: 'product',
     })
     

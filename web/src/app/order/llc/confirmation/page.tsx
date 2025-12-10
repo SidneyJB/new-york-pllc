@@ -4,45 +4,50 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { generateMetadata } from '@/lib/seo/metadata'
 import { BadgeCheck } from 'lucide-react'
-import { OrderConfirmationClient } from './confirmation-client'
+import { OrderConfirmationClient } from '@/app/order/confirmation/confirmation-client'
 
 export const metadata = generateMetadata({
-  title: 'Order Confirmation | NY PLLC Formation Complete',
-  description: 'Your New York PLLC formation order has been confirmed. Track your order status and next steps for completing your professional LLC formation.',
+  title: 'Order Confirmation | NY LLC Formation Complete',
+  description: 'Your New York LLC formation order has been confirmed. Track your order status and next steps for completing your LLC formation and publication.',
   keywords: [
-    'PLLC order confirmation',
-    'NY PLLC status',
-    'professional LLC order',
-    'PLLC formation tracking'
+    'LLC order confirmation',
+    'NY LLC status',
+    'LLC order tracking',
+    'New York LLC formation'
   ],
-  canonical: '/order/confirmation',
+  canonical: '/order/llc/confirmation',
   robots: {
     index: false,
     follow: false,
   },
 })
 
-// This page shows order confirmation and can work with or without URL parameters
-// Example: /order/confirmation?name_first=John&name_last=Doe
-export default async function OrderConfirmationPage({ searchParams }: { searchParams: Promise<{ [key: string]: string | string[] | undefined }> }) {
-  // TODO: Connect to Spiffy webhook/order API to get real order data
+// LLC-specific confirmation page to receive Spiffy redirect parameters
+// Example: /order/llc/confirmation?name_first=John&name_last=Doe&order_id=123
+export default async function OrderLlcConfirmationPage({ searchParams }: { searchParams: Promise<{ [key: string]: string | string[] | undefined }> }) {
   const params = await searchParams
 
   const nameFirst = params.name_first as string
   const nameLast = params.name_last as string
 
   const orderDetails = {
-    customerName: (nameFirst && nameLast) ? `${nameFirst} ${nameLast}` : "Valued Customer",
-    service: "PLLC Formation Package",
-    amount: 885, // Standard package price
+    customerName: (nameFirst && nameLast) ? `${nameFirst} ${nameLast}` : 'Valued Customer',
+    service: 'LLC Formation Package',
+    amount: 595, // LLC package price
     paymentDate: new Date().toLocaleDateString(),
-    estimatedCompletion: "14-19 weeks (8-12 weeks for NYSED approval, then 6 weeks for publishing)"
+    estimatedCompletion: '7-9 weeks (state filing + 6-week publishing + certificate filing)',
   }
 
   return (
     <div className="flex flex-col">
       <ScrollTracking />
-      <OrderConfirmationClient amount={orderDetails.amount} />
+      <OrderConfirmationClient
+        amount={orderDetails.amount}
+        plan="LLC Formation"
+        entityType="LLC"
+        fbContentId="llc-formation"
+      />
+
       {/* Email Confirmation Notice */}
       <section className="bg-muted/50 py-4 lg:py-8">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -78,7 +83,7 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
                     Important: Add Our Email to Your Contacts
                   </h3>
                   <p className="text-amber-700 text-sm leading-relaxed">
-                    <strong>Please add <code className="bg-amber-100 px-1 py-0.5 rounded text-xs font-mono">contact@nypllc.com</code> to your email contacts</strong> to ensure you receive all important updates about your PLLC formation process. Missing these emails could delay your formation timeline.
+                    <strong>Please add <code className="bg-amber-100 px-1 py-0.5 rounded text-xs font-mono">contact@nypllc.com</code> to your email contacts</strong> to ensure you receive all important updates about your LLC formation process. Missing these emails could delay your formation timeline.
                   </p>
                 </div>
               </div>
@@ -158,7 +163,7 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
                   The same concierge service you saw before checkout
                 </CardTitle>
                 <CardDescription>
-                  We handle every New York PLLC requirement end-to-end—no surprise follow-up work on your side.
+                  We handle every New York LLC requirement end-to-end—no surprise follow-up work on your side.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -170,11 +175,7 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
                     <ul className="space-y-3 text-sm">
                       <li className="flex items-start gap-2">
                         <BadgeCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" aria-hidden="true" />
-                        <span>NYSED pre-approval of your PLLC name and professional license</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <BadgeCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" aria-hidden="true" />
-                        <span>PLLC Articles of Organization prepared, filed, and tracked for you</span>
+                        <span>Name availability search and Articles of Organization filed within 24 hours</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <BadgeCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" aria-hidden="true" />
@@ -251,7 +252,7 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
                   <div>
                     <h4 className="font-semibold mb-3">Document Access</h4>
                     <p className="text-sm text-muted-foreground mb-4">
-                      Once your PLLC formation is complete, you'll receive all documents via secure email.
+                      Once your LLC formation is complete, you'll receive all documents via secure email.
                     </p>
                   </div>
                 </div>
@@ -270,7 +271,7 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
               What's Next?
             </h2>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              Your PLLC formation process has begun! We'll keep you updated via email throughout the process.
+              Your LLC formation process has begun! We'll keep you updated via email throughout the process.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Button size="lg" asChild>
@@ -290,3 +291,5 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
     </div>
   )
 }
+
+

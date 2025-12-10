@@ -136,10 +136,6 @@ export default async function OrderLlcConfirmationPage({ searchParams }: { searc
                     <h3 className="font-semibold mb-3">Payment Details</h3>
                     <div className="space-y-2 text-sm">
                       <div className="flex justify-between">
-                        <span className="text-muted-foreground">Amount Paid:</span>
-                        <span className="font-medium text-green-600">${orderDetails.amount}</span>
-                      </div>
-                      <div className="flex justify-between">
                         <span className="text-muted-foreground">Payment Method:</span>
                         <span className="font-medium">Credit Card</span>
                       </div>

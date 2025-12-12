@@ -18,6 +18,15 @@ export const event = (
   options: Record<string, any> = {}
 ) => {
   if (typeof window === 'undefined' || !window.fbq) return;
-  window.fbq('track', name, options);
+
+  // Filter out blocked parameters that violate Meta's terms
+  const filteredOptions = { ...options };
+  delete filteredOptions.owner_dob;
+  delete filteredOptions.date_of_birth;
+  delete filteredOptions.dob;
+  delete filteredOptions.birth_date;
+  delete filteredOptions.birthdate;
+
+  window.fbq('track', name, filteredOptions);
 };
 

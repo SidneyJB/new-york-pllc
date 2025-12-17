@@ -51,7 +51,8 @@ export function generateOrganizationSchema() {
       availableLanguage: 'English',
     },
     sameAs: [
-      'https://www.trustpilot.com/review/cheapnewyorkllc.com',
+			"https://cheapnewyorkllc.com",
+      "https://www.trustpilot.com/review/cheapnewyorkllc.com"
     ],
     foundingDate: '2005',
     areaServed: {

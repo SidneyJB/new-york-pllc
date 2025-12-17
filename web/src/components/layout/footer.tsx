@@ -52,6 +52,14 @@ export function Footer() {
               </li>
               <li>
                 <Link
+                  href="/order-llc"
+                  className="text-muted-foreground hover:text-foreground text-sm transition-colors"
+                >
+                  LLC Formation
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/foreign-pllc"
                   className="text-muted-foreground hover:text-foreground text-sm transition-colors"
                 >
@@ -75,6 +83,16 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link
+                  href="https://www.trustpilot.com/review/cheapnewyorkllc.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-foreground text-sm transition-colors"
+                >
+                  Reviews
+                </Link>
+              </li>
             </ul>
           </div>
 

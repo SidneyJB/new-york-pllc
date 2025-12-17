@@ -17,10 +17,10 @@ type Founder = {
 
 const FOUNDERS: Founder[] = [
   {
-    name: 'Sid',
+    name: 'Sid Brodsky',
     title: 'Co-founder',
     headshotSrc: '/founder-1.jpeg', // TODO: replace with real headshot path
-    headshotAlt: 'Photo of Sid, Co-founder of New York PLLC Formation Service',
+    headshotAlt: 'Photo of Sid Brodsky, Co-founder of New York PLLC Formation Service',
     bio: [
       "I started this service after watching licensed professionals get stuck dealing with the complicated steps of New York PLLC formation. I handle the nuts and bolts, making sure every detail is right so your business gets off to a clean start.",
       "I designed and built our entire process from scratch, creating systems that handle document creation, government filings, and legal requirement checks. This cuts out the mistakes and delays that usually happen with manual work.",
@@ -29,10 +29,10 @@ const FOUNDERS: Founder[] = [
     ]
   },
   {
-    name: 'Steve',
+    name: 'Steve Charles',
     title: 'Co-founder',
     headshotSrc: '/founder-2.jpg', // TODO: replace with real headshot path
-    headshotAlt: 'Photo of Steve, Co-founder of New York PLLC Formation Service',
+    headshotAlt: 'Photo of Steve Charles, Co-founder of New York PLLC Formation Service',
     bio: [
       "I help entrepreneurs turn their ideas into reality by guiding them through one of the most important first steps: forming their business entity the right way.", 
       "With 25+ years of experience and a proven track record of assisting over 25,000 business owners, I specialize in making the LLC and corporation formation process fast, accurate, and stress-free. My expertise is especially deep in New York business law, where many national providers like Legalzoom, Bizee, Northwest, etc. fall short or spread misinformation.",
@@ -94,6 +94,11 @@ export default function AboutExtendedSection() {
               <p><strong>Clarity over complexity.</strong> We communicate like people, not policy manuals. No AI or chatbot shortcuts.</p>
               <p><strong>Promises we can keep.</strong> We'd rather under-promise than disappoint.</p>
               <p><strong>Kindness and speed.</strong> Quick replies matter when your work depends on paperwork.</p>
+              <p>
+                <Link href="https://www.trustpilot.com/review/cheapnewyorkllc.com" className="underline underline-offset-4" target="_blank" rel="noopener noreferrer">
+                  See our perfect five star rating on Trustpilot
+                </Link>.
+              </p>
             </div>
           </div>
 
@@ -122,6 +127,18 @@ export default function AboutExtendedSection() {
                 <div className="mt-3">
                   <Link href="/order" className="text-primary underline underline-offset-2 hover:text-primary/80">
                     Start your PLLC formation →
+                  </Link>
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-medium text-foreground">LLC Formation</h3>
+                <p className="mt-2">
+                  We also help form standard New York LLCs for businesses that don't require professional licensing. Our service includes state filing, the mandatory six-week newspaper publication, and all required documentation.
+                </p>
+                <div className="mt-3">
+                  <Link href="/order-llc" className="text-primary underline underline-offset-2 hover:text-primary/80">
+                    Start your LLC formation →
                   </Link>
                 </div>
               </div>

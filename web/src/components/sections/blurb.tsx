@@ -25,7 +25,9 @@ export function AboutBlurbSection() {
                   <Link href="https://www.newyorkllcpublishing.com" className="underline underline-offset-4">
                     NewYorkLLCPublishing.com
                   </Link>
-                  , this is the same crew—same no-nonsense approach, just focused on PLLCs.
+                  {' '}(<Link href="https://www.trustpilot.com/review/cheapnewyorkllc.com" className="underline underline-offset-4" target="_blank" rel="noopener noreferrer">
+                    see our perfect five star rating on Trustpilot
+                  </Link>), this is the same crew—same no-nonsense approach, just focused on PLLCs.
                 </p>
 
                 <p>

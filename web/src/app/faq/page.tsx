@@ -1,5 +1,6 @@
  
 import Link from 'next/link'
+import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
@@ -51,8 +52,22 @@ export default function FAQPage() {
                 Frequently Asked <span className="text-primary">Questions</span>
               </h1>
               <p className="mt-6 text-lg leading-8 text-muted-foreground max-w-2xl mx-auto">
-                Straight answers about forming a New York PLLC.
+                Straight answers about forming a New York PLLC.{' '}
+                <Link href="https://www.trustpilot.com/review/cheapnewyorkllc.com" className="underline underline-offset-4" target="_blank" rel="noopener noreferrer">
+                  See our perfect five star rating on Trustpilot
+                </Link>.
               </p>
+              <div className="mt-6 flex justify-center">
+                <Link href="https://www.trustpilot.com/review/cheapnewyorkllc.com" target="_blank" rel="noopener noreferrer" className="inline-block">
+                  <Image
+                    src="/trustpilot-logo.png"
+                    alt="Trustpilot Reviews"
+                    width={200}
+                    height={92}
+                    className="h-auto"
+                  />
+                </Link>
+              </div>
               <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Button size="lg" asChild>
                   <Link href="/order">Ready to Get Started?</Link>

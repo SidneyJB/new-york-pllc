@@ -51,7 +51,7 @@ export function generateOrganizationSchema() {
       availableLanguage: 'English',
     },
     sameAs: [
-      // Add social media URLs here when available
+      'https://www.trustpilot.com/review/cheapnewyorkllc.com',
     ],
     foundingDate: '2005',
     areaServed: {
@@ -95,6 +95,25 @@ export function generateLocalBusinessSchema() {
     serviceArea: {
       '@type': 'State',
       name: 'New York',
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '5',
+      bestRating: '5',
+      ratingCount: '100+',
+    },
+    review: {
+      '@type': 'Review',
+      reviewRating: {
+        '@type': 'Rating',
+        ratingValue: '5',
+        bestRating: '5',
+      },
+      author: {
+        '@type': 'Organization',
+        name: 'Trustpilot',
+      },
+      url: 'https://www.trustpilot.com/review/cheapnewyorkllc.com',
     },
   }
 }

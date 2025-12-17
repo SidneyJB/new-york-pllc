@@ -153,6 +153,7 @@
 - Scroll depth tracking provides engagement metrics for content optimization (25%, 50%, 75%, 100% milestones)
 - Scroll tracking uses requestAnimationFrame throttling for performance and tracks time-to-depth for each milestone
 - Scroll depth tracking resets per page navigation and tracks each milestone only once per page
+- **Git push requires `['all']` permissions**: When pushing to GitHub via terminal commands, use `required_permissions: ['all']` instead of `['git_write', 'network']`. Sandbox restrictions prevent git from accessing stored credentials (macOS Keychain/git credential helper), causing authentication failures. Using `['all']` disables the sandbox and allows git to access credential storage.
 
 ### Tailwind CSS v4 Configuration & Behavior
 

@@ -84,6 +84,30 @@ export default function FAQPage() {
         <section className="py-20 lg:py-8">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-4xl">
+              {/* Virtual Address Services */}
+              <div className="mb-16">
+                <h2 id="virtual-address" className="text-3xl font-bold tracking-tight text-foreground mb-8">
+                  Virtual Address Services
+                </h2>
+
+                <div className="space-y-6">
+                  <Card>
+                    <CardHeader>
+                      <CardTitle className="text-lg">What if I want to keep my address private or need a virtual address?</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-muted-foreground">
+                        If you want to keep your personal address private or need a one-stop shop for a virtual business address, 
+                        we offer virtual address services with mail forwarding and registered agent service.{' '}
+                        <Link href="/virtual-address-services" className="text-primary underline underline-offset-2 font-medium">
+                          Learn more about our virtual address services →
+                        </Link>
+                      </p>
+                    </CardContent>
+                  </Card>
+                </div>
+              </div>
+
               {/* PLLC Formation Basics */}
               <div className="mb-16">
                 <h2 id="pllc-basics" className="text-3xl font-bold tracking-tight text-foreground mb-8">
@@ -651,6 +675,7 @@ export default function FAQPage() {
                   </Card>
                 </div>
               </div>
+
             </div>
           </div>
         </section>

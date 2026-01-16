@@ -123,8 +123,8 @@ describe('Analytics Integration Tests - All Pages', () => {
   describe('Contact Page', () => {
     const mockAction = vi.fn()
 
-    it('should render all tracked elements', () => {
-      render(<ContactPage searchParams={{}} />)
+    it('should render all tracked elements', async () => {
+      render(await ContactPage({ searchParams: Promise.resolve({}) }))
       
       // Email link
       const emailLink = screen.getByRole('link', { name: /contact@nypllc\.com/i })
@@ -145,7 +145,7 @@ describe('Analytics Integration Tests - All Pages', () => {
 
     it('should track email link click', async () => {
       const user = userEvent.setup()
-      render(<ContactPage searchParams={{}} />)
+      render(await ContactPage({ searchParams: Promise.resolve({}) }))
       
       const emailLink = screen.getByRole('link', { name: /contact@nypllc\.com/i })
       await user.click(emailLink)
@@ -157,7 +157,7 @@ describe('Analytics Integration Tests - All Pages', () => {
 
     it('should track phone link click', async () => {
       const user = userEvent.setup()
-      render(<ContactPage searchParams={{}} />)
+      render(await ContactPage({ searchParams: Promise.resolve({}) }))
       
       const phoneLinks = screen.getAllByRole('link', { name: /646-444-2102/i })
       // Click the first phone link (in contact info section)
@@ -170,7 +170,7 @@ describe('Analytics Integration Tests - All Pages', () => {
 
     it('should track CTA button click', async () => {
       const user = userEvent.setup()
-      render(<ContactPage searchParams={{}} />)
+      render(await ContactPage({ searchParams: Promise.resolve({}) }))
       
       const ctaButton = screen.getByRole('link', { name: /start formation/i })
       await user.click(ctaButton)
@@ -184,7 +184,7 @@ describe('Analytics Integration Tests - All Pages', () => {
 
     it('should track phone link in CTA section', async () => {
       const user = userEvent.setup()
-      render(<ContactPage searchParams={{}} />)
+      render(await ContactPage({ searchParams: Promise.resolve({}) }))
       
       const phoneLinks = screen.getAllByRole('link', { name: /call: 646-444-2102/i })
       if (phoneLinks.length > 0) {
@@ -480,7 +480,7 @@ describe('Analytics Integration Tests - All Pages', () => {
 
     it('should verify all contact page tracked elements', async () => {
       const user = userEvent.setup()
-      render(<ContactPage searchParams={{}} />)
+      render(await ContactPage({ searchParams: Promise.resolve({}) }))
       
       // Track email click
       const emailLink = screen.getByRole('link', { name: /contact@nypllc\.com/i })

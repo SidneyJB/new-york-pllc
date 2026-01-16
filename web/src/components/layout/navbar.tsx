@@ -60,7 +60,12 @@ export function Navbar() {
                   <DropdownMenuItem asChild>
                     <Link href="/foreign-pllc">
                       Foreign Qualification (Existing Entity)
-              </Link>
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/virtual-address-services">
+                      Virtual Address Services
+                    </Link>
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
@@ -193,13 +198,20 @@ export function Navbar() {
                     >
                       LLC Formation
                     </Link>
-              <Link
+                    <Link
                       href="/foreign-pllc"
                       className="text-muted-foreground hover:text-foreground hover:bg-muted block px-6 py-2 text-sm transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
                       Foreign Qualification (Existing Entity)
-              </Link>
+                    </Link>
+                    <Link
+                      href="/virtual-address-services"
+                      className="text-muted-foreground hover:text-foreground hover:bg-muted block px-6 py-2 text-sm transition-colors"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      Virtual Address Services
+                    </Link>
                   </div>
                 )}
               </div>

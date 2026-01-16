@@ -195,3 +195,26 @@ export const DISCLAIMER_METADATA = generateMetadata({
   description: 'Important legal disclaimer for New York PLLC Formation Service. We provide administrative filing services, not legal advice.',
   canonical: '/disclaimer',
 })
+
+export const VIRTUAL_ADDRESS_SERVICES_METADATA = generateMetadata({
+  title: 'Virtual Address Services | Business Address & Registered Agent New York',
+  description: 'Professional virtual address and registered agent services for your business. Get a New York business address, weekly mail forwarding, and registered agent service for $50/month.',
+  keywords: [
+    'virtual address service',
+    'business address New York',
+    'mail forwarding service',
+    'registered agent New York',
+    'virtual mailbox',
+    'business mail forwarding',
+    'NY registered agent',
+    'mail forwarding service NY',
+    'virtual business address'
+  ],
+  canonical: '/virtual-address-services',
+})
+
+export const MAIL_FORWARDING_AGREEMENT_METADATA = generateMetadata({
+  title: 'Mail Forwarding & Registered Agent Service Agreement | Terms & Conditions',
+  description: 'Complete terms and conditions for our mail forwarding and registered agent services. Service agreement covering mail forwarding, registered agent service, fees, and billing.',
+  canonical: '/mail-forwarding-agreement',
+})

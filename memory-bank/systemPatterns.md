@@ -130,10 +130,12 @@ const uploadDocument = async (file: File, orderId: string) => {
 ### Public Pages
 - Home (`/`) - Hero, features, process, CTA
 - About (`/about`) - Company story, founders, values
-- FAQ (`/faq`) - Comprehensive PLLC questions with link to DIY guide
+- FAQ (`/faq`) - Comprehensive PLLC questions with link to DIY guide and virtual address services section
 - Contact (`/contact`) - Support form and contact info
 - Order (`/order`) - Spiffy checkout integration
 - DIY Guide (`/how-to-form-a-pllc-in-ny`) - Step-by-step guide with hero section, strategic CTAs, Article structured data
+- Virtual Address Services (`/virtual-address-services`) - Service explanation page with features, pricing, and benefits
+- Mail Forwarding Agreement (`/mail-forwarding-agreement`) - Legal agreement page with full terms and conditions
 - Profession pages (9 total) - Dentist, LCSW, MHC, Physical Therapist, Psychologist, SLP, Physician, Massage Therapist, Chiropractor
 - Legal pages - Privacy, Terms, Disclaimer
 

@@ -37,6 +37,7 @@
 - [x] DIY guide page - comprehensive step-by-step guide at /how-to-form-a-pllc-in-ny with hero section, CTAs, and Article structured data
 - [x] Domain consolidation - enforced www.nypllc.com as canonical domain with Vercel redirects, canonical URLs, and hardcoded siteUrl
 - [x] Navbar logo reversion - reverted from "Business Filing Solutions" text design back to original NY circular icon with company name
+- [x] Virtual Address Services pages - created /virtual-address-services (service explanation page) and /mail-forwarding-agreement (legal agreement page) with full SEO, breadcrumbs, and navigation integration
 
 ### 2. Core Architecture Decisions
 

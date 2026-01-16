@@ -66,6 +66,14 @@ export function Footer() {
                   Foreign PLLC Qualification
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/virtual-address-services"
+                  className="text-muted-foreground hover:text-foreground text-sm transition-colors"
+                >
+                  Virtual Address Services
+                </Link>
+              </li>
             </ul>
           </div>
 

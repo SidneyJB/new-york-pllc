@@ -19,6 +19,16 @@ export function OrderConfirmationClient({
   fbContentId = 'pllc-formation',
 }: OrderConfirmationClientProps) {
   useEffect(() => {
+    // Audit Log: Send the full URL to server logs so we can see exactly what Spiffy sends
+    fetch('/api/log-purchase', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ 
+        url: window.location.href,
+        userAgent: navigator.userAgent
+      })
+    }).catch(err => console.error('Failed to send audit log:', err))
+
     // Calculate time spent on order form
     const checkoutStartTime = sessionStorage.getItem('checkout_start_time')
     let timeSpentSeconds: number | undefined

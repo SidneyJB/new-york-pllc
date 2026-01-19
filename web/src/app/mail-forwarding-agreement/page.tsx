@@ -48,13 +48,22 @@ export default function MailForwardingAgreementPage() {
                 <h2 className="text-xl font-semibold text-foreground mb-4">1. AUTHORIZATION AND COMPLIANCE</h2>
                 <div className="space-y-3 text-foreground">
                   <div>
-                    <p className="font-medium mb-1">1.1 USPS Form 1583.</p>
+                    <p className="font-medium mb-1">1.1 Service Address.</p>
+                    <p className="leading-relaxed">
+                      The Customer acknowledges that they will be using the Provider's address at 1 Blue Hill Plaza, 
+                      Pearl River, NY 10965 as their business address. Upon signup, the Provider will designate a unique 
+                      suite number for the Customer's business. All mail sent to this address (including the designated suite 
+                      number) will be received, processed, and forwarded by the Provider in accordance with the terms of this Agreement.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="font-medium mb-1">1.2 USPS Form 1583.</p>
                     <p className="leading-relaxed">
                       Strictly pursuant to United States Postal Service (USPS) regulations, the Customer must submit a fully executed and notarized USPS Form 1583 ("Application for Delivery of Mail Through Agent"), accompanied by two forms of valid identification, prior to service activation.
                     </p>
                   </div>
                   <div>
-                    <p className="font-medium mb-1">1.2 Activation.</p>
+                    <p className="font-medium mb-1">1.3 Activation.</p>
                     <p className="leading-relaxed">
                       Business Filing Solutions LLC ("Provider") will not receive, process, or forward any mail until the required compliance documents are verified.
                     </p>

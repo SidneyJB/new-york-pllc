@@ -57,8 +57,10 @@ export default function VirtualAddressServicesPage() {
               <CardContent className="pt-6">
                 <h2 className="text-2xl font-bold mb-4 text-foreground">Your Business Address, Simplified</h2>
                 <p className="text-lg text-muted-foreground max-w-3xl">
-                  Get a professional business address without the overhead. We receive your mail, 
-                  handle important documents, and forward everything to you on a convenient weekly schedule.
+                  Get a professional business address without the overhead. You'll use our address at 
+                  1 Blue Hill Plaza, Pearl River, NY 10965 as your business address. When you sign up, we'll designate 
+                  you a unique suite number for your business. We receive your mail, handle important documents, and 
+                  forward everything to you on a convenient weekly schedule.
                 </p>
               </CardContent>
             </Card>
@@ -182,8 +184,9 @@ export default function VirtualAddressServicesPage() {
                   <div>
                     <h3 className="text-lg font-semibold text-foreground mb-2">We Receive Your Mail</h3>
                     <p className="text-muted-foreground">
-                      All mail and packages sent to your business address are received at our secure facility. 
-                      We handle registered mail, certified mail, and packages—everything is kept safe and confidential.
+                      All mail and packages sent to your business address (our address at 1 Blue Hill Plaza, Pearl River, 
+                      NY 10965, with your designated suite number) are received at our secure facility. We handle registered 
+                      mail, certified mail, and packages—everything is kept safe and confidential.
                     </p>
                   </div>
                 </div>
@@ -274,7 +277,7 @@ export default function VirtualAddressServicesPage() {
                     <svg className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    <p className="text-muted-foreground">Professional business address without office overhead</p>
+                    <p className="text-muted-foreground">Professional business address at 1 Blue Hill Plaza, Pearl River, NY 10965 (with your designated suite number) without office overhead</p>
                   </div>
                   <div className="flex items-start">
                     <svg className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">

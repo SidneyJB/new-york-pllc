@@ -19,16 +19,6 @@ export function OrderConfirmationClient({
   fbContentId = 'pllc-formation',
 }: OrderConfirmationClientProps) {
   useEffect(() => {
-    // Audit Log: Send the full URL to server logs so we can see exactly what Spiffy sends
-    fetch('/api/log-purchase', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ 
-        url: window.location.href,
-        userAgent: navigator.userAgent
-      })
-    }).catch(err => console.error('Failed to send audit log:', err))
-
     // Calculate time spent on order form
     const checkoutStartTime = sessionStorage.getItem('checkout_start_time')
     let timeSpentSeconds: number | undefined
@@ -53,12 +43,18 @@ export function OrderConfirmationClient({
       engagementTimeSeconds = Math.round((engagementEnd - engagementStart) / 1000)
     }
     
-    // Extract order ID from URL if available (Spiffy may pass this)
+    // Extract all parameters from URL to ensure full tracking coverage
     const urlParams = new URLSearchParams(window.location.search)
-    const orderId = urlParams.get('order_id') || urlParams.get('id') || urlParams.get('orderId') || undefined
+    const orderId = urlParams.get('order') || urlParams.get('order_id') || urlParams.get('id') || urlParams.get('orderId') || undefined
+    
+    // Bundle all parameters into a single JSON string to bypass Vercel property limits
+    const paramsObj: Record<string, string> = {}
+    urlParams.forEach((value, key) => {
+      paramsObj[key] = value
+    })
+    const metadata = JSON.stringify(paramsObj)
     
     // Track purchase on confirmation page load with engagement metrics
-    // Note: Limited to 8 properties max (removed fieldChangeCount to stay within limit)
     trackPurchase({
       value: amount || PRICING.basePrice,
       plan,
@@ -66,6 +62,7 @@ export function OrderConfirmationClient({
       timeSpentSeconds,
       orderId,
       engagementTimeSeconds,
+      metadata,
     })
     
     // Track Facebook Pixel Purchase event
@@ -83,7 +80,7 @@ export function OrderConfirmationClient({
     sessionStorage.removeItem('form_field_change_count')
     sessionStorage.removeItem('form_order_change_time')
     sessionStorage.removeItem('form_payment_method_selected_time')
-  }, [amount])
+  }, [amount, plan, entityType, fbContentId])
 
   return null
 }

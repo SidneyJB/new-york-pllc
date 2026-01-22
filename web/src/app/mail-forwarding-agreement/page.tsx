@@ -84,7 +84,7 @@ export default function MailForwardingAgreementPage() {
                   <div>
                     <p className="font-medium mb-1">2.2 Junk Mail.</p>
                     <p className="leading-relaxed">
-                      By default, all mail received, including "Standard," "Presort," and marketing material ("Junk Mail"), will be forwarded. The Customer acknowledges that forwarding Junk Mail increases the shipping weight and associated postage costs. The Customer may opt-out of Junk Mail forwarding in writing.
+                      By default, junk mail and marketing material ("Standard," "Presort") will NOT be forwarded to reduce shipping weight and associated postage costs. The Customer may opt-in to receive Junk Mail forwarding in writing.
                     </p>
                   </div>
                   <div>

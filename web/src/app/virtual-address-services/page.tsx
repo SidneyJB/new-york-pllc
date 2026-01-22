@@ -349,8 +349,8 @@ export default function VirtualAddressServicesPage() {
                 </p>
                 <div className="text-sm text-muted-foreground space-y-2">
                   <p>
-                    <strong>Note:</strong> By default, all mail including marketing materials will be forwarded. 
-                    You can opt-out of junk mail forwarding in writing to reduce shipping costs.
+                    <strong>Note:</strong> By default, junk mail and marketing materials will NOT be forwarded to reduce shipping costs.
+                    You can opt-in to receive junk mail forwarding in writing.
                   </p>
                   <p>
                     For complete terms and conditions, please review our{' '}

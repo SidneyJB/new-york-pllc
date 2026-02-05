@@ -53,6 +53,9 @@ export const NAVIGATION = {
     { name: 'Nurse Practitioner', href: '/professions/nurse-practitioner', shortName: 'Nurse Practitioner' },
     { name: 'Chiropractor', href: '/professions/chiropractor', shortName: 'Chiropractor' },
     { name: 'Occupational Therapist', href: '/professions/occupational-therapist', shortName: 'Occupational Therapist' },
+    { name: 'Architect', href: '/professions/architect', shortName: 'Architect' },
+    { name: 'Engineer', href: '/professions/engineer', shortName: 'Engineer' },
+    { name: 'Law Firm', href: '/professions/law', shortName: 'Law Firm' },
   ],
   footer: [
     { name: 'Privacy Policy', href: '/privacy' },

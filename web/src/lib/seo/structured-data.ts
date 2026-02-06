@@ -99,16 +99,16 @@ export function generateLocalBusinessSchema() {
     },
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: '5',
-      bestRating: '5',
-      ratingCount: '100+',
+      ratingValue: 5,
+      bestRating: 5,
+      ratingCount: 100,
     },
     review: {
       '@type': 'Review',
       reviewRating: {
         '@type': 'Rating',
-        ratingValue: '5',
-        bestRating: '5',
+        ratingValue: 5,
+        bestRating: 5,
       },
       author: {
         '@type': 'Organization',

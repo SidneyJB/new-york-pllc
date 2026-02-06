@@ -7,7 +7,7 @@ import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { Shield, ClipboardList, FileCheck2, Newspaper, Heart, Users, MessageSquare, CheckCircle, ArrowRight } from 'lucide-react'
 import { PRICING, APP_CONFIG } from '@/lib/constants'
-import { generateBreadcrumbSchema, generateFAQSchema } from '@/lib/seo/structured-data'
+import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
   title: `Form a New York LCSW PLLC (Clinical Social Work PLLC) | ${APP_CONFIG?.name || 'New York PLLC'}`,
@@ -96,6 +96,30 @@ export default function LCSWPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(generateBreadcrumbSchema(breadcrumbJson)),
+        }}
+      />
+      {/* Service Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            generateProfessionServiceSchema({
+              name: 'New York LCSW PLLC Formation Service',
+              description:
+                'PLLC formation for New York Licensed Clinical Social Workers (LCSW) including NYSED pre-approval coordination, compliant naming, precise filing, required publication, and bank-ready documents.',
+              url: '/professions/lcsw',
+              offers: [
+                {
+                  name: 'LCSW PLLC Formation Package',
+                  description:
+                    'Includes NYSED pre-approval packet coordination, six-week publication, Certificate of Publication, and formation documents for your social work practice.',
+                  price: `${PRICE}.00`,
+                  priceCurrency: 'USD',
+                  availability: 'https://schema.org/InStock',
+                },
+              ],
+            })
+          ),
         }}
       />
       {/* FAQ Structured Data */}

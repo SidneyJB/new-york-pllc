@@ -123,7 +123,7 @@
 20. Manta
 
 **Action Checklist:**
-- [ ] Create consistent NAP (Name: New York PLLC Formation Service, Address: 1 Blue Hill Plaza Ste 1509-43, Pearl River, NY 10965, Phone: 646-444-2102)
+- [ ] Create consistent NAP (Name: New York PLLC Formation Service, Address: 1 Blue Hill Plaza Ste 1509-24, Pearl River, NY 10965, Phone: 646-444-2102)
 - [ ] Use keyword-rich descriptions: "Professional PLLC formation services for licensed professionals in New York. Complete formation including mandatory newspaper publishing."
 - [ ] Add website URL to all profiles
 - [ ] Use exact match anchor text where possible: "New York PLLC Formation Service"
@@ -769,7 +769,7 @@ I'd like to add my business to your directory:
 Business Name: New York PLLC Formation Service
 Website: [URL]
 Phone: 646-444-2102
-Address: 1 Blue Hill Plaza Ste 1509-43, Pearl River, NY 10965
+Address: 1 Blue Hill Plaza Ste 1509-24, Pearl River, NY 10965
 Description: Professional PLLC formation services for licensed professionals in New York. Complete formation including mandatory newspaper publishing.
 
 Please let me know if you need any additional information.

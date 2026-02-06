@@ -19,7 +19,7 @@ import {
 } from 'lucide-react'
 import { PRICING, APP_CONFIG } from '@/lib/constants'
 import { SEO_CONFIG } from '@/lib/seo/config'
-import { generateBreadcrumbSchema, generateFAQSchema } from '@/lib/seo/structured-data'
+import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
   title: `Form a New York Architecture PLLC (Architecture & Landscape Architecture) | ${APP_CONFIG?.name || 'New York PLLC'}`,
@@ -107,6 +107,30 @@ export default function ArchitecturePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(generateBreadcrumbSchema(breadcrumbJson)),
+        }}
+      />
+      {/* Service Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            generateProfessionServiceSchema({
+              name: 'New York Architect PLLC Formation Service',
+              description:
+                'PLLC formation for New York architects including NYSED pre-approval coordination, compliant naming, precise filing, required publication, and bank-ready documents.',
+              url: '/professions/architect',
+              offers: [
+                {
+                  name: 'Architect PLLC Formation Package',
+                  description:
+                    'Includes NYSED pre-approval packet coordination, six-week publication, Certificate of Publication, and formation documents for your architecture practice.',
+                  price: `${PRICE}.00`,
+                  priceCurrency: 'USD',
+                  availability: 'https://schema.org/InStock',
+                },
+              ],
+            })
+          ),
         }}
       />
       {/* FAQ Structured Data */}

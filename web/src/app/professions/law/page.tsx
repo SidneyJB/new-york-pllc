@@ -8,7 +8,7 @@ import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { Shield, ClipboardList, FileCheck2, Newspaper, Users, CheckCircle, ArrowRight } from 'lucide-react'
 import { PRICING, APP_CONFIG } from '@/lib/constants'
 import { SEO_CONFIG } from '@/lib/seo/config'
-import { generateBreadcrumbSchema, generateFAQSchema } from '@/lib/seo/structured-data'
+import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
   title: `Form a New York Law Firm PLLC | ${APP_CONFIG?.name || 'New York PLLC'}`,
@@ -80,6 +80,30 @@ export default function LawFirmPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(generateBreadcrumbSchema(breadcrumbJson)),
+        }}
+      />
+      {/* Service Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            generateProfessionServiceSchema({
+              name: 'New York Law Firm PLLC Formation Service',
+              description:
+                'PLLC formation for New York attorneys including credential coordination, compliant naming, precise filing, required publication, and bank-ready documents.',
+              url: '/professions/law',
+              offers: [
+                {
+                  name: 'Law Firm PLLC Formation Package',
+                  description:
+                    'Includes filing coordination, six-week publication, Certificate of Publication, EIN guidance, and bank-ready formation documents.',
+                  price: `${PRICE}.00`,
+                  priceCurrency: 'USD',
+                  availability: 'https://schema.org/InStock',
+                },
+              ],
+            })
+          ),
         }}
       />
       {/* FAQ Structured Data */}

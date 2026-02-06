@@ -24,7 +24,7 @@ export const PRICING = {
 export const BUSINESS_INFO = {
   legalName: 'Business Filing Solutions LLC',
   address: {
-    street: '1 Blue Hill Plaza Ste 1509-43',
+    street: '1 Blue Hill Plaza Ste 1509-24',
     city: 'Pearl River',
     state: 'NY',
     zipCode: '10965',

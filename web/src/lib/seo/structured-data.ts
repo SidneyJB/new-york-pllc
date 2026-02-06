@@ -18,6 +18,12 @@ export interface ServiceOffer {
   availability: string
 }
 
+export interface HowToStepItem {
+  name: string
+  text: string
+  url?: string
+}
+
 // Organization Schema (for root layout)
 export function generateOrganizationSchema() {
   const address = SEO_CONFIG.companyInfo.address
@@ -150,6 +156,51 @@ export function generateServiceSchema(offers: ServiceOffer[]) {
   }
 }
 
+// Service Schema (for profession-specific pages)
+export function generateProfessionServiceSchema({
+  name,
+  description,
+  url,
+  offers,
+}: {
+  name: string
+  description: string
+  url: string
+  offers: ServiceOffer[]
+}) {
+  const absoluteUrl = url.startsWith('http') ? url : `${SEO_CONFIG.siteUrl}${url}`
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    '@id': `${absoluteUrl}#service`,
+    name,
+    description,
+    url: absoluteUrl,
+    provider: {
+      '@id': `${SEO_CONFIG.siteUrl}#organization`,
+    },
+    areaServed: {
+      '@type': 'State',
+      name: 'New York',
+    },
+    serviceType: 'Professional LLC Formation',
+    category: 'Legal Services',
+    offers: offers.map((offer) => ({
+      '@type': 'Offer',
+      name: offer.name,
+      description: offer.description,
+      price: offer.price,
+      priceCurrency: offer.priceCurrency,
+      availability: offer.availability,
+      url: absoluteUrl,
+      seller: {
+        '@id': `${SEO_CONFIG.siteUrl}#organization`,
+      },
+    })),
+  }
+}
+
 // FAQPage Schema (for FAQ page)
 export function generateFAQSchema(faqs: FAQItem[]) {
   return {
@@ -179,6 +230,44 @@ export function generateBreadcrumbSchema(items: BreadcrumbItem[]) {
       position: index + 1,
       name: item.name,
       item: item.item,
+    })),
+  }
+}
+
+// HowTo Schema (for step-by-step guides)
+export function generateHowToSchema({
+  name,
+  description,
+  url,
+  steps,
+}: {
+  name: string
+  description: string
+  url: string
+  steps: HowToStepItem[]
+}) {
+  const absoluteUrl = url.startsWith('http') ? url : `${SEO_CONFIG.siteUrl}${url}`
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name,
+    description,
+    url: absoluteUrl,
+    inLanguage: 'en-US',
+    publisher: {
+      '@id': `${SEO_CONFIG.siteUrl}#organization`,
+    },
+    step: steps.map((s, index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      name: s.name,
+      text: s.text,
+      url: s.url
+        ? s.url.startsWith('http')
+          ? s.url
+          : `${SEO_CONFIG.siteUrl}${s.url}`
+        : undefined,
     })),
   }
 }
@@ -249,6 +338,56 @@ export function generateRootSchemas() {
     generateWebSiteSchema(),
   ]
 }
+
+// HowTo data for the DIY PLLC guide
+export const DIY_PLLC_HOWTO = generateHowToSchema({
+  name: 'How to Form a New York PLLC',
+  description:
+    'Step-by-step guide to forming a New York PLLC: Office of the Professions approval, Department of State filing, and the 6-week publication requirement.',
+  url: '/how-to-form-a-pllc-in-ny',
+  steps: [
+    {
+      name: 'Choose a compliant PLLC name and confirm eligibility',
+      text: 'Pick 3–5 name options ending in “PLLC”, check distinguishability, and confirm all owners/managers are properly licensed in New York for the services you will provide.',
+    },
+    {
+      name: 'Prepare the Office of the Professions (OP) application packet',
+      text: 'Assemble the OP forms, roster/addendum, supporting documents, and a cover letter. Ensure your PLLC name and license details match everywhere to avoid deficiency letters.',
+    },
+    {
+      name: 'Track OP review and respond to any deficiencies',
+      text: 'Follow up after delivery, respond precisely to deficiency requests, and preserve the Certificate of Authority once issued (scan and store copies).',
+    },
+    {
+      name: 'Prepare Professional Service Articles of Organization for DOS',
+      text: 'Use the Professional Service Articles form (not the standard LLC form), include profession-accurate purpose language, and ensure county and service-of-process details are consistent.',
+    },
+    {
+      name: 'File with the Department of State (DOS)',
+      text: 'Submit your formation packet to DOS (often with expedite). Save your filing receipt and keep a complete copy of what you sent.',
+    },
+    {
+      name: 'Complete the 6-week, two-newspaper publication requirement',
+      text: 'Identify county-designated newspapers, approve proofs that match your DOS record exactly, monitor six consecutive weeks in both papers, and collect affidavits.',
+    },
+    {
+      name: 'File the Certificate of Publication with DOS',
+      text: 'Assemble the certificate and affidavits in the expected order, submit to DOS, and retain proof of acceptance and receipts.',
+    },
+    {
+      name: 'Obtain an EIN and open a business bank account',
+      text: 'Apply for an EIN, then open a business bank account using your formation documents and operating agreement.',
+    },
+    {
+      name: 'Adopt an Operating Agreement',
+      text: 'New York requires an operating agreement. Draft and execute one that matches your professional requirements and ownership/management structure.',
+    },
+    {
+      name: 'Stay compliant (biennial statements and ongoing updates)',
+      text: 'Calendar biennial statement deadlines, keep records organized, and keep OP/DOS information consistent when ownership or addresses change.',
+    },
+  ],
+})
 
 // Service offers for PLLC formation
 export const PLLC_SERVICE_OFFERS: ServiceOffer[] = [

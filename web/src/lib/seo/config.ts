@@ -7,7 +7,7 @@ export const SEO_CONFIG = {
   companyInfo: {
     name: 'New York PLLC Formation Service',
     address: {
-      street: '1 Blue Hill Plaza Ste 1509-43',
+      street: '1 Blue Hill Plaza Ste 1509-24',
       city: 'Pearl River',
       state: 'NY',
       postalCode: '10965',

@@ -4,7 +4,7 @@ import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { generateMetadata } from '@/lib/seo/metadata'
-import { generateBreadcrumbSchema, generateArticleSchema } from '@/lib/seo/structured-data'
+import { DIY_PLLC_HOWTO, generateBreadcrumbSchema, generateArticleSchema } from '@/lib/seo/structured-data'
 
 export const metadata = generateMetadata({
   title: 'How to Form a New York PLLC | Complete DIY Guide',
@@ -40,6 +40,13 @@ export default function DIYGuideTestPage() {
             datePublished: currentDate,
             dateModified: currentDate,
           })),
+        }}
+      />
+      {/* HowTo Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(DIY_PLLC_HOWTO),
         }}
       />
       {/* Breadcrumb Structured Data */}

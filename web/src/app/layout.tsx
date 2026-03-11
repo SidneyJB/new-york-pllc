@@ -122,14 +122,14 @@ export default function RootLayout({
         <meta name="facebook-domain-verification" content="your-facebook-code-here" />
         <meta name="linkedin-verification-id" content="your-linkedin-code-here" /> */}
 
-        {/* Google tag (gtag.js) */}
+        {/* Google Ads tag (gtag.js) */}
         <Script
-          id="gtag-src"
+          id="gtag-ads-src"
           src="https://www.googletagmanager.com/gtag/js?id=AW-17672972971"
           strategy="afterInteractive"
         />
         <Script
-          id="gtag-init"
+          id="gtag-ads-init"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
@@ -137,6 +137,25 @@ export default function RootLayout({
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', 'AW-17672972971');
+            `,
+          }}
+        />
+
+        {/* Google Analytics 4 (gtag.js) */}
+        <Script
+          id="gtag-ga4-src"
+          src="https://www.googletagmanager.com/gtag/js?id=G-X6Y3R8ZTXS"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="gtag-ga4-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-X6Y3R8ZTXS');
             `,
           }}
         />

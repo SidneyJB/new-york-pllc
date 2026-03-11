@@ -73,6 +73,23 @@ export function OrderConfirmationClient({
       content_ids: [fbContentId],
       content_type: 'product',
     })
+
+    // Track GA4 purchase event (for attribution by source: organic, direct, paid, etc.)
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'purchase', {
+        transaction_id: orderId,
+        value: purchaseAmount,
+        currency: 'USD',
+        items: [
+          {
+            item_id: fbContentId,
+            item_name: plan,
+            price: purchaseAmount,
+            quantity: 1,
+          },
+        ],
+      })
+    }
     
     // Clean up engagement tracking session storage
     sessionStorage.removeItem('form_first_interaction_time')

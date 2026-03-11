@@ -3,7 +3,7 @@
 ## Current Project Status
 
 **Phase**: Production Deployment Complete
-**Last Updated**: November 2025
+**Last Updated**: March 2026
 **Deployment**: Live on Vercel
 
 ## Immediate Focus Areas
@@ -38,6 +38,7 @@
 - [x] Domain consolidation - enforced www.nypllc.com as canonical domain with Vercel redirects, canonical URLs, and hardcoded siteUrl
 - [x] Navbar logo reversion - reverted from "Business Filing Solutions" text design back to original NY circular icon with company name
 - [x] Virtual Address Services pages - created /virtual-address-services (service explanation page) and /mail-forwarding-agreement (legal agreement page) with full SEO, breadcrumbs, and navigation integration
+- [x] GA4 purchase event tracking - gtag purchase event fires on order confirmation (PLLC and LLC flows) for source attribution (organic, direct, paid); not imported to Google Ads to avoid duplicate conversion counting
 
 ### 2. Core Architecture Decisions
 
@@ -154,6 +155,7 @@
 - Scroll depth tracking provides engagement metrics for content optimization (25%, 50%, 75%, 100% milestones)
 - Scroll tracking uses requestAnimationFrame throttling for performance and tracks time-to-depth for each milestone
 - Scroll depth tracking resets per page navigation and tracks each milestone only once per page
+- **GA4 purchase event**: Fires `gtag('event', 'purchase', {...})` on order confirmation page (OrderConfirmationClient); enables GA4 to attribute conversions by traffic source (organic, direct, paid); GA4 `purchase` is auto-marked as key event and cannot be unmarked; intentionally not imported to Google Ads to avoid duplicate conversion counting
 - **Git push requires `['all']` permissions**: When pushing to GitHub via terminal commands, use `required_permissions: ['all']` instead of `['git_write', 'network']`. Sandbox restrictions prevent git from accessing stored credentials (macOS Keychain/git credential helper), causing authentication failures. Using `['all']` disables the sandbox and allows git to access credential storage.
 
 ### Tailwind CSS v4 Configuration & Behavior
@@ -189,7 +191,7 @@
 - **Payment Forms**: Spiffy.co account setup and form configuration ✅ (complete)
 - **Email Service**: Zapier webhooks configured for customer/admin notifications ✅ (complete - triggered by Spiffy.co)
 - **Domain & Hosting**: Vercel deployment ✅ (complete - deployed and running)
-- **Analytics**: Google Analytics setup
+- **Analytics**: Google Analytics setup ✅ (GA4 base tag in layout; purchase event fires on confirmation)
 
 ### Internal Dependencies
 

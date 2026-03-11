@@ -31,7 +31,7 @@ Modern static-first web application using Next.js with external service integrat
 - **Static Generation**: Next.js SSG/ISR for optimal performance
 - **Form Handling**: Spiffy.co forms for payment processing
 - **Email Integration**: SendGrid for customer notifications
-- **Analytics**: Google Analytics for conversion tracking
+- **Analytics**: Google Analytics (GA4) for conversion tracking; purchase event fires on order confirmation for source attribution (not imported to Google Ads to avoid duplicate conversion counting)
 
 ### Data Flow Patterns
 
@@ -233,12 +233,14 @@ trackPurchase({
 })
 ```
 
+- **Confirmation Page**: All analytics events (Vercel, Meta Pixel, Google Ads conversion, GA4 purchase) fire from the same `useEffect` in `OrderConfirmationClient` when `orderId` and `order` are available—single source of truth, no duplicate events.
+
 **Key Events Tracked**:
 - `cta_click` - CTA button clicks with location and value
 - `lead_start` - First keystroke on forms (tracked once per form) or first Spiffy field interaction
 - `lead_submit` - Form submissions
 - `checkout_start` - Checkout initiation (when Spiffy form loads, stores start time)
-- `purchase` - Purchase completion (on order confirmation, includes time spent, engagement metrics, and order ID)
+- `purchase` - Purchase completion (on order confirmation, includes time spent, engagement metrics, and order ID); also sent to GA4 via `gtag('event', 'purchase', {...})` for source attribution
 - `phone_click` - Phone link clicks
 - `email_click` - Email link clicks
 - `scroll_depth` - Scroll depth milestones (25%, 50%, 75%, 100%) with page path and time-to-depth

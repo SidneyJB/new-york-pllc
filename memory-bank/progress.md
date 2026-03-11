@@ -4,7 +4,7 @@
 
 **Overall Progress**: 100% Complete (Deployed)
 **Phase**: Production Deployment Complete
-**Last Updated**: December 2024
+**Last Updated**: March 2026
 **Deployment**: Live on Vercel
 
 ## What's Working ✅
@@ -55,6 +55,7 @@
 - [x] Domain consolidation - enforced www.nypllc.com as canonical domain with Vercel redirects, canonical URLs, hardcoded siteUrl, and platform-level redirect configuration (completed)
 - [x] Vercel Analytics purchase pipeline validated end-to-end with manual ChatGPT-attributed conversion event (completed)
 - [x] Virtual Address Services - created service explanation page (/virtual-address-services) and legal agreement page (/mail-forwarding-agreement) with full SEO metadata, breadcrumbs, sitemap integration, and navigation links in navbar and footer (completed)
+- [x] GA4 purchase event tracking - fires on order confirmation for source attribution; not imported to Google Ads to avoid duplicate conversion counting (completed)
 
 ### Legal Compliance & Content (PROJ-018 Complete)
 
@@ -289,6 +290,7 @@
 - **Scroll Performance**: Uses requestAnimationFrame throttling for efficient scroll event handling
 - **Page-Specific Tracking**: Scroll depth resets on navigation and tracks each milestone once per page
 - **Universal Implementation**: Scroll tracking added to all 18 pages (home, about, contact, FAQ, order, confirmation, legal pages, and all 9 profession pages)
+- **GA4 Purchase Event**: Fires `gtag('event', 'purchase', {...})` on order confirmation; enables source attribution by traffic source in GA4; intentionally not imported to Google Ads to avoid duplicate conversion counting
 
 ### Spiffy.co Integration Insights
 

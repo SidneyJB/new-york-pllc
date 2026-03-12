@@ -75,16 +75,14 @@ export function OrderConfirmationClient({
     })
 
     // Track GA4 purchase event (for attribution by source: organic, direct, paid, etc.)
+    // No value/price - just the conversion event
     if (typeof window !== 'undefined' && window.gtag) {
       window.gtag('event', 'purchase', {
         transaction_id: orderId,
-        value: purchaseAmount,
-        currency: 'USD',
         items: [
           {
             item_id: fbContentId,
             item_name: plan,
-            price: purchaseAmount,
             quantity: 1,
           },
         ],

@@ -39,6 +39,7 @@
 - [x] Navbar logo reversion - reverted from "Business Filing Solutions" text design back to original NY circular icon with company name
 - [x] Virtual Address Services pages - created /virtual-address-services (service explanation page) and /mail-forwarding-agreement (legal agreement page) with full SEO, breadcrumbs, and navigation integration
 - [x] GA4 purchase event tracking - gtag purchase event fires on order confirmation (PLLC and LLC flows) for source attribution (organic, direct, paid); not imported to Google Ads to avoid duplicate conversion counting
+- [x] Five new profession pages added (CPA, Veterinarian, Optometrist, Pharmacist, Podiatrist) - research-backed content from NYSED official profession list, full SEO (metadata, structured data, sitemap), navigation integration
 
 ### 2. Core Architecture Decisions
 
@@ -157,6 +158,7 @@
 - Scroll depth tracking resets per page navigation and tracks each milestone only once per page
 - **GA4 purchase event**: Fires `gtag('event', 'purchase', {...})` on order confirmation page (OrderConfirmationClient); enables GA4 to attribute conversions by traffic source (organic, direct, paid); GA4 `purchase` is auto-marked as key event and cannot be unmarked; intentionally not imported to Google Ads to avoid duplicate conversion counting
 - **Git push requires `['all']` permissions**: When pushing to GitHub via terminal commands, use `required_permissions: ['all']` instead of `['git_write', 'network']`. Sandbox restrictions prevent git from accessing stored credentials (macOS Keychain/git credential helper), causing authentication failures. Using `['all']` disables the sandbox and allows git to access credential storage.
+- **Profession page content boundaries**: We do NOT coordinate with specific state boards (State Board for Dentistry, Podiatry, Veterinary Medicine, etc.), do NOT handle firm registration (e.g., CPA Form 6R), and do NOT guide dual-registration processes (e.g., pharmacy establishment registration). Profession pages should describe these as informational requirements the customer handles separately, not as services we provide. We handle PLLC formation only: NYSED pre-approval package, naming guidance, Articles filing, publication, and bank-ready documents.
 
 ### Tailwind CSS v4 Configuration & Behavior
 

@@ -56,6 +56,11 @@ export const NAVIGATION = {
     { name: 'Architect', href: '/professions/architect', shortName: 'Architect' },
     { name: 'Engineer', href: '/professions/engineer', shortName: 'Engineer' },
     { name: 'Law Firm', href: '/professions/law', shortName: 'Law Firm' },
+    { name: 'CPA (Certified Public Accountant)', href: '/professions/cpa', shortName: 'CPA' },
+    { name: 'Veterinarian', href: '/professions/veterinarian', shortName: 'Veterinarian' },
+    { name: 'Optometrist', href: '/professions/optometrist', shortName: 'Optometrist' },
+    { name: 'Pharmacist', href: '/professions/pharmacist', shortName: 'Pharmacist' },
+    { name: 'Podiatrist', href: '/professions/podiatrist', shortName: 'Podiatrist' },
   ],
   footer: [
     { name: 'Privacy Policy', href: '/privacy' },

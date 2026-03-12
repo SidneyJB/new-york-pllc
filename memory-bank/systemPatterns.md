@@ -136,7 +136,7 @@ const uploadDocument = async (file: File, orderId: string) => {
 - DIY Guide (`/how-to-form-a-pllc-in-ny`) - Step-by-step guide with hero section, strategic CTAs, Article structured data
 - Virtual Address Services (`/virtual-address-services`) - Service explanation page with features, pricing, and benefits
 - Mail Forwarding Agreement (`/mail-forwarding-agreement`) - Legal agreement page with full terms and conditions
-- Profession pages (9 total) - Dentist, LCSW, MHC, Physical Therapist, Psychologist, SLP, Physician, Massage Therapist, Chiropractor
+- Profession pages (19 total) - Dentist, LCSW, MHC, Physical Therapist, Psychologist, SLP, Physician, Massage Therapist, Chiropractor, Nurse Practitioner, Architect, Engineer, Law, Occupational Therapist, CPA, Veterinarian, Optometrist, Pharmacist, Podiatrist
 - Legal pages - Privacy, Terms, Disclaimer
 
 ## Integration Patterns

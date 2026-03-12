@@ -56,6 +56,7 @@
 - [x] Vercel Analytics purchase pipeline validated end-to-end with manual ChatGPT-attributed conversion event (completed)
 - [x] Virtual Address Services - created service explanation page (/virtual-address-services) and legal agreement page (/mail-forwarding-agreement) with full SEO metadata, breadcrumbs, sitemap integration, and navigation links in navbar and footer (completed)
 - [x] GA4 purchase event tracking - fires on order confirmation for source attribution; not imported to Google Ads to avoid duplicate conversion counting (completed)
+- [x] Five new profession pages (CPA, Veterinarian, Optometrist, Pharmacist, Podiatrist) - research-backed content from NYSED official profession list, full SEO metadata/structured data/sitemap, navigation integration (completed)
 
 ### Legal Compliance & Content (PROJ-018 Complete)
 

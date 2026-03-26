@@ -6,6 +6,7 @@ import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { PRICING } from '@/lib/constants'
 import { ORDER_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
+import { OrderFallbackCheckoutNotice } from './order-fallback-checkout-notice'
 import { OrderPageClient } from './order-client'
 
 export const metadata = ORDER_METADATA
@@ -40,20 +41,7 @@ export default function OrderPage() {
       <section className="py-4 lg:py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl">
-            <div className="mb-6 rounded-md bg-muted/50 px-4 py-2.5 text-center">
-              <p className="text-sm leading-relaxed text-muted-foreground">
-                If you&apos;re having trouble accessing the order form on this page, you can{' '}
-                <a
-                  href="https://nypllc.spiffy.co/checkout/new-york-pllc-formation"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-medium text-primary underline underline-offset-2 hover:text-primary/90"
-                >
-                  open the secure checkout directly
-                </a>
-                .
-              </p>
-            </div>
+            <OrderFallbackCheckoutNotice />
             <header className="mb-8 text-center">
               <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
                 Complete Your New York PLLC Formation Order

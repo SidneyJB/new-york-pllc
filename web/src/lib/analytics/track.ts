@@ -32,15 +32,21 @@ export function trackCTAClick(options: {
   location?: string
   value?: number
   variant?: string
+  /** Also send the same payload to GA4 as event `cta_click` (when gtag is available). */
+  reportToGA?: boolean
 }) {
   const utm = getUTMParams()
-  track('cta_click', filterUndefined({
+  const payload = filterUndefined({
     cta: options.cta,
     location: options.location,
     value: options.value,
     variant: options.variant,
     ...utm,
-  }))
+  })
+  track('cta_click', payload)
+  if (options.reportToGA && typeof window !== 'undefined' && window.gtag) {
+    window.gtag('event', 'cta_click', payload)
+  }
 }
 
 /**

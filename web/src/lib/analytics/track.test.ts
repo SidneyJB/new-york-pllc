@@ -99,6 +99,39 @@ describe('Analytics Tracking', () => {
       expect(properties).not.toHaveProperty('value')
       expect(properties).not.toHaveProperty('variant')
     })
+
+    it('should mirror CTA payload to GA4 when reportToGA is true', () => {
+      const gtagFn = vi.fn()
+      window.gtag = gtagFn
+
+      trackCTAClick({
+        cta: 'spiffy-direct-checkout',
+        location: 'order-embed-fallback',
+        value: 885,
+        reportToGA: true,
+      })
+
+      expect(track).toHaveBeenCalledWith('cta_click', {
+        cta: 'spiffy-direct-checkout',
+        location: 'order-embed-fallback',
+        value: 885,
+      })
+      expect(gtagFn).toHaveBeenCalledWith('event', 'cta_click', {
+        cta: 'spiffy-direct-checkout',
+        location: 'order-embed-fallback',
+        value: 885,
+      })
+
+      delete window.gtag
+    })
+
+    it('should not call gtag when reportToGA is omitted', () => {
+      const gtagFn = vi.fn()
+      window.gtag = gtagFn
+      trackCTAClick({ cta: 'start-now' })
+      expect(gtagFn).not.toHaveBeenCalled()
+      delete window.gtag
+    })
   })
 
   describe('trackLeadStart', () => {

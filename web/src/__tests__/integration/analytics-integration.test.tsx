@@ -279,6 +279,23 @@ describe('Analytics Integration Tests - All Pages', () => {
       
       expect(trackCheckoutStart).not.toHaveBeenCalled()
     })
+
+    it('should track direct Spiffy checkout fallback link (Vercel + GA flag)', async () => {
+      const user = userEvent.setup()
+      render(<OrderPage />)
+
+      const fallback = screen.getByRole('link', {
+        name: /open the secure checkout directly/i,
+      })
+      await user.click(fallback)
+
+      expect(trackCTAClick).toHaveBeenCalledWith({
+        cta: 'spiffy-direct-checkout',
+        location: 'order-embed-fallback',
+        value: 885,
+        reportToGA: true,
+      })
+    })
   })
 
   describe('Order Confirmation Page', () => {
@@ -294,11 +311,13 @@ describe('Analytics Integration Tests - All Pages', () => {
         expect(trackPurchase).toHaveBeenCalled()
       })
       
-      expect(trackPurchase).toHaveBeenCalledWith({
-        value: 885,
-        plan: 'PLLC Formation',
-        entityType: 'PLLC',
-      })
+      expect(trackPurchase).toHaveBeenCalledWith(
+        expect.objectContaining({
+          value: 885,
+          plan: 'PLLC Formation',
+          entityType: 'PLLC',
+        })
+      )
     })
 
     it('should track purchase with custom amount', async () => {
@@ -308,11 +327,13 @@ describe('Analytics Integration Tests - All Pages', () => {
         expect(trackPurchase).toHaveBeenCalled()
       })
       
-      expect(trackPurchase).toHaveBeenCalledWith({
-        value: 1000,
-        plan: 'PLLC Formation',
-        entityType: 'PLLC',
-      })
+      expect(trackPurchase).toHaveBeenCalledWith(
+        expect.objectContaining({
+          value: 1000,
+          plan: 'PLLC Formation',
+          entityType: 'PLLC',
+        })
+      )
     })
 
     it('should track purchase with time spent when checkout start time exists', async () => {

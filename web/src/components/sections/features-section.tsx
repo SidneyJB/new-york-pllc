@@ -103,9 +103,9 @@ export function FeaturesSection() {
               {/* Inline CTA to reduce bounce */}
               <CardFooter className="pt-2">
                 <Button asChild className="w-full" data-cta="features-start">
-                  <Link href="/order" aria-label={`Start PLLC formation for $${PRICING.basePrice}`}>
+                  <a href="/order" aria-label={`Start PLLC formation for $${PRICING.basePrice}`}>
                     Get started today
-                  </Link>
+                  </a>
                 </Button>
               </CardFooter>
             </Card>

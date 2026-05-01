@@ -107,10 +107,10 @@ export function ProcessSection() {
           {/* Inline CTA + objection handler */}
           <div className="mt-12 text-center">
             <Button size="lg" asChild data-cta="process-start">
-              <Link href="/order" aria-label={`Start PLLC formation for $${PRICING.basePrice}`}>
+              <a href="/order" aria-label={`Start PLLC formation for $${PRICING.basePrice}`}>
                 Start Formation — {'$'}{PRICING.basePrice}
                 <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
-              </Link>
+              </a>
             </Button>
             <p className="mt-3 text-xs text-muted-foreground">
               No hidden fees • Secure checkout • Humans available if you need help ·{' '}

@@ -26,6 +26,8 @@ export function TrackedCTAButton({
   className,
   asChild = true,
 }: TrackedCTAButtonProps) {
+  const requiresDocumentNavigation = href === '/order' || href === '/order-llc'
+
   const handleClick = () => {
     trackCTAClick({
       cta,
@@ -42,9 +44,7 @@ export function TrackedCTAButton({
       asChild={asChild}
       onClick={handleClick}
     >
-      <Link href={href}>
-        {children}
-      </Link>
+      {requiresDocumentNavigation ? <a href={href}>{children}</a> : <Link href={href}>{children}</Link>}
     </Button>
   )
 }

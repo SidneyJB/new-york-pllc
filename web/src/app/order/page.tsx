@@ -3,11 +3,14 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
-import { PRICING } from '@/lib/constants'
 import { ORDER_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
+import { SpiffyCheckoutEmbed } from '@/components/spiffy-checkout-embed'
 import { OrderFallbackCheckoutNotice } from './order-fallback-checkout-notice'
 import { OrderPageClient } from './order-client'
+
+const SPIFFY_PLLC_CHECKOUT_URL =
+  'https://nypllc.spiffy.co/checkout/new-york-pllc-formation'
 
 export const metadata = ORDER_METADATA
 
@@ -57,11 +60,7 @@ export default function OrderPage() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-             <div dangerouslySetInnerHTML={{
-              __html: `
-               <spiffy-checkout url="https://nypllc.spiffy.co/checkout/new-york-pllc-formation" ></spiffy-checkout>
-              `
-             }}/>
+                <SpiffyCheckoutEmbed checkoutUrl={SPIFFY_PLLC_CHECKOUT_URL} />
               </CardContent>
             </Card>
 

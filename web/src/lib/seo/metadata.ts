@@ -218,3 +218,17 @@ export const MAIL_FORWARDING_AGREEMENT_METADATA = generateMetadata({
   description: 'Complete terms and conditions for our mail forwarding and registered agent services. Service agreement covering mail forwarding, registered agent service, fees, and billing.',
   canonical: '/mail-forwarding-agreement',
 })
+
+export const PARTNERS_METADATA = generateMetadata({
+  title: 'Partner Program | NY PLLC Formation Referral & White-Label Desk',
+  description:
+    'Refer licensed professionals to our NY PLLC formation, foreign qualification, virtual address, and registered agent desk. B2B referral and white-label partnerships only.',
+  keywords: [
+    'PLLC formation partner program',
+    'white label PLLC formation',
+    'NY foreign qualification partner',
+    'professional entity formation referral',
+    'B2B PLLC formation New York',
+  ],
+  canonical: '/partners',
+})

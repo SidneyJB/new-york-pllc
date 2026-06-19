@@ -74,6 +74,14 @@ export function Footer() {
                   Virtual Address Services
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/partners"
+                  className="text-muted-foreground hover:text-foreground text-sm transition-colors"
+                >
+                  Partner Program (B2B)
+                </Link>
+              </li>
             </ul>
           </div>
 

@@ -38,6 +38,7 @@ export const NAVIGATION = {
     // Temporarily disabled: { name: 'Services', href: '/services' },
     // Temporarily disabled: { name: 'Pricing', href: '/pricing' },
     { name: 'About', href: '/about' },
+    { name: 'Partner Program', href: '/partners' },
     { name: 'FAQ', href: '/faq' },
     { name: 'Contact', href: '/contact' },
   ],

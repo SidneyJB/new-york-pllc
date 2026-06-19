@@ -79,7 +79,7 @@ export function Footer() {
                   href="/partners"
                   className="text-muted-foreground hover:text-foreground text-sm transition-colors"
                 >
-                  Partner Program (B2B)
+                  Partner Program
                 </Link>
               </li>
             </ul>

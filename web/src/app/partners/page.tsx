@@ -413,9 +413,9 @@ export default async function PartnersPage({
                 Contact us
               </Link>{' '}
               or{' '}
-              <Link href="/order" className="text-primary underline underline-offset-2">
+              <a href="/order" className="text-primary underline underline-offset-2">
                 start a formation
-              </Link>
+              </a>
               .
             </p>
           </div>

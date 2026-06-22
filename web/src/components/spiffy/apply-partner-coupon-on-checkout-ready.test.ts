@@ -2,24 +2,39 @@ import { describe, expect, it, vi } from 'vitest'
 import { applyPartnerCouponOnCheckoutReady } from './apply-partner-coupon-on-checkout-ready'
 
 describe('applyPartnerCouponOnCheckoutReady', () => {
-  it('registers a ready callback and applies the coupon', () => {
+  it('applies immediately when checkout is already available', () => {
     const checkout = vi.fn()
     const spiffy = {
-      on: vi.fn((_event: 'ready', callback: () => void) => callback()),
+      on: vi.fn(),
       checkout,
     }
 
-    const registered = applyPartnerCouponOnCheckoutReady({
+    const applied = applyPartnerCouponOnCheckoutReady({
       checkoutUrl: 'https://nypllc.spiffy.co/checkout/new-york-pllc-formation',
       coupon: 'PARTNER1',
       spiffy,
     })
 
-    expect(registered).toBe(true)
-    expect(spiffy.on).toHaveBeenCalledWith('ready', expect.any(Function))
+    expect(applied).toBe(true)
+    expect(spiffy.on).not.toHaveBeenCalled()
     expect(checkout).toHaveBeenCalledWith('https://nypllc.spiffy.co/checkout/new-york-pllc-formation', {
       coupon: 'PARTNER1',
     })
+  })
+
+  it('registers a ready callback when checkout is not available yet', () => {
+    const spiffy = {
+      on: vi.fn(),
+    }
+
+    const applied = applyPartnerCouponOnCheckoutReady({
+      checkoutUrl: 'https://nypllc.spiffy.co/checkout/new-york-pllc-formation',
+      coupon: 'PARTNER1',
+      spiffy,
+    })
+
+    expect(applied).toBe(false)
+    expect(spiffy.on).toHaveBeenCalledWith('ready', expect.any(Function))
   })
 
   it('does not register when coupon is missing', () => {

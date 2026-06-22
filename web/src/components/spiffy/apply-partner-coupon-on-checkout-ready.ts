@@ -13,6 +13,13 @@ function hasCheckout(spiffy: SpiffyApi): spiffy is SpiffyApi & Required<Pick<Spi
   return typeof spiffy.checkout === 'function'
 }
 
+function applyCoupon(spiffy: SpiffyApi, checkoutUrl: string, coupon: string): boolean {
+  if (!hasCheckout(spiffy)) return false
+
+  spiffy.checkout(checkoutUrl, { coupon })
+  return true
+}
+
 export function applyPartnerCouponOnCheckoutReady({
   checkoutUrl,
   coupon,
@@ -20,11 +27,13 @@ export function applyPartnerCouponOnCheckoutReady({
 }: ApplyPartnerCouponOptions): boolean {
   if (!coupon || !spiffy || typeof spiffy.on !== 'function') return false
 
-  spiffy.on('ready', () => {
-    if (hasCheckout(spiffy)) {
-      spiffy.checkout(checkoutUrl, { coupon })
-    }
-  })
+  const appliedImmediately = applyCoupon(spiffy, checkoutUrl, coupon)
 
-  return true
+  if (!appliedImmediately) {
+    spiffy.on('ready', () => {
+      applyCoupon(spiffy, checkoutUrl, coupon)
+    })
+  }
+
+  return appliedImmediately
 }

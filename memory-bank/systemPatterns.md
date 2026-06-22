@@ -69,6 +69,7 @@ Admin Action → Email Notification → Customer Update → Manual Processing
 - **Display Components**: Order cards, Status badges, Progress bars
 - **Modal Components**: Document upload, Confirmation dialogs
 - **Analytics Components**: TrackedCTAButton, TrackedPhoneLink, TrackedEmailLink, ScrollTracking
+- **Foreign Qualification Components**: `StateForeignQualificationPage`, `ForeignStateSelector`
 - **Tracking Hooks**: useFormTracking, useCheckoutTracking, useScrollDepthTracking
 
 ## Design Patterns
@@ -137,6 +138,7 @@ const uploadDocument = async (file: File, orderId: string) => {
 - Virtual Address Services (`/virtual-address-services`) - Service explanation page with features, pricing, and benefits
 - Mail Forwarding Agreement (`/mail-forwarding-agreement`) - Legal agreement page with full terms and conditions
 - Profession pages (19 total) - Dentist, LCSW, MHC, Physical Therapist, Psychologist, SLP, Physician, Massage Therapist, Chiropractor, Nurse Practitioner, Architect, Engineer, Law, Occupational Therapist, CPA, Veterinarian, Optometrist, Pharmacist, Podiatrist
+- Foreign qualification pages - `/foreign-pllc` hub plus state pages at `/foreign-pllc/{state}` (NJ, PA, FL, TX, CT)
 - Legal pages - Privacy, Terms, Disclaimer
 
 ## Integration Patterns

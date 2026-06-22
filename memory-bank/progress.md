@@ -4,7 +4,7 @@
 
 **Overall Progress**: 100% Complete (Deployed)
 **Phase**: Production Deployment Complete
-**Last Updated**: March 2026
+**Last Updated**: June 2026
 **Deployment**: Live on Vercel
 
 ## What's Working ✅
@@ -57,6 +57,8 @@
 - [x] Virtual Address Services - created service explanation page (/virtual-address-services) and legal agreement page (/mail-forwarding-agreement) with full SEO metadata, breadcrumbs, sitemap integration, and navigation links in navbar and footer (completed)
 - [x] GA4 purchase event tracking - fires on order confirmation for source attribution; not imported to Google Ads to avoid duplicate conversion counting (completed)
 - [x] Five new profession pages (CPA, Veterinarian, Optometrist, Pharmacist, Podiatrist) - research-backed content from NYSED official profession list, full SEO metadata/structured data/sitemap, navigation integration (completed)
+- [x] Foreign-into-NY state landing pages - NJ ($975/$945), PA ($995/$995), FL ($910/$915), TX ($910/$930), CT ($995/$995) with state-specific copy, document names, FAQs, SEO, structured data, sitemap (completed)
+- [x] Foreign state hero dropdown - `ForeignStateSelector` on main and state pages with all-states note and contact link (completed)
 
 ### Legal Compliance & Content (PROJ-018 Complete)
 
@@ -90,6 +92,10 @@
    - [x] Analytics tracking for checkout start (completed)
 
 ## What's Left to Build 📋
+
+### Foreign-Into-NY Expansion
+
+- Additional state-specific pages beyond NJ, PA, FL, TX, CT (more coming soon messaging already in dropdown)
 
 ### Phase 1: Foundation (Weeks 1-2)
 

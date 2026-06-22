@@ -3,7 +3,7 @@
 ## Current Project Status
 
 **Phase**: Production Deployment Complete
-**Last Updated**: March 2026
+**Last Updated**: June 2026
 **Deployment**: Live on Vercel
 
 ## Immediate Focus Areas
@@ -40,6 +40,13 @@
 - [x] Virtual Address Services pages - created /virtual-address-services (service explanation page) and /mail-forwarding-agreement (legal agreement page) with full SEO, breadcrumbs, and navigation integration
 - [x] GA4 purchase event tracking - gtag purchase event fires on order confirmation (PLLC and LLC flows) for source attribution (organic, direct, paid); not imported to Google Ads to avoid duplicate conversion counting
 - [x] Five new profession pages added (CPA, Veterinarian, Optometrist, Pharmacist, Podiatrist) - research-backed content from NYSED official profession list, full SEO (metadata, structured data, sitemap), navigation integration
+- [x] Foreign-into-NY state landing pages - five state-specific pages at `/foreign-pllc/{state}` (New Jersey, Pennsylvania, Florida, Texas, Connecticut) with unique copy, state-specific document names, exact PLLC/PC pricing, FAQs, SEO metadata, structured data, and sitemap entries
+- [x] Foreign state selector dropdown - hero dropdown on `/foreign-pllc` and state pages using shared `ForeignStateSelector` component and `FOREIGN_QUALIFICATION_STATES` constants; footer note that all states are handled with more pages coming soon
+
+## Current Focus
+
+- Expand foreign-into-NY state page coverage beyond the initial five states as needed
+- Monitor conversion and SEO performance on new `/foreign-pllc/{state}` pages
 
 ### 2. Core Architecture Decisions
 
@@ -159,6 +166,7 @@
 - **GA4 purchase event**: Fires `gtag('event', 'purchase', {...})` on order confirmation page (OrderConfirmationClient); enables GA4 to attribute conversions by traffic source (organic, direct, paid); GA4 `purchase` is auto-marked as key event and cannot be unmarked; intentionally not imported to Google Ads to avoid duplicate conversion counting
 - **Git push requires `['all']` permissions**: When pushing to GitHub via terminal commands, use `required_permissions: ['all']` instead of `['git_write', 'network']`. Sandbox restrictions prevent git from accessing stored credentials (macOS Keychain/git credential helper), causing authentication failures. Using `['all']` disables the sandbox and allows git to access credential storage.
 - **Profession page content boundaries**: We do NOT coordinate with specific state boards (State Board for Dentistry, Podiatry, Veterinary Medicine, etc.), do NOT handle firm registration (e.g., CPA Form 6R), and do NOT guide dual-registration processes (e.g., pharmacy establishment registration). Profession pages should describe these as informational requirements the customer handles separately, not as services we provide. We handle PLLC formation only: NYSED pre-approval package, naming guidance, Articles filing, publication, and bank-ready documents.
+- **Foreign-into-NY page pattern**: State pages live at `/foreign-pllc/{slug}` with content objects per state, shared `StateForeignQualificationPage` layout component, state-specific document checklists (not generic home-state language), hero `ForeignStateSelector` dropdown, and pricing split by foreign PLLC vs foreign PC path. Avoid em dashes in copy. Do not promise publication included unless product confirms it.
 
 ### Tailwind CSS v4 Configuration & Behavior
 

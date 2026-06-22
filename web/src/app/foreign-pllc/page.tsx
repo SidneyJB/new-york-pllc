@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { ForeignStateSelector } from './_components/foreign-state-selector'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { Shield, ClipboardList, FileCheck2, Newspaper, Users, CheckCircle, ArrowRight } from 'lucide-react'
 import { APP_CONFIG } from '@/lib/constants'
@@ -12,7 +13,7 @@ import { generateBreadcrumbSchema, generateFAQSchema } from '@/lib/seo/structure
 export const metadata: Metadata = {
   title: `Foreign-Qualify Your PLLC in New York | ${APP_CONFIG?.name || 'New York PLLC'}`,
   description:
-    'Already have a PLLC? We foreign-qualify it for New York. NYSED Certificate of Authority, DOS Application for Authority (§1306), six-week publication, and compliant naming/ownership — handled end-to-end.',
+    'Already have a PLLC? We foreign-qualify it for New York. NYSED Certificate of Authority, DOS Application for Authority (§1306), six-week publication, and compliant naming/ownership, handled end-to-end.',
   keywords: [
     'foreign qualification PLLC New York',
     'qualify out-of-state PLLC in NY',
@@ -62,7 +63,7 @@ export default function ForeignQualificationPage() {
     {
       question: 'What do I receive at the end?',
       answer:
-        'A complete compliance packet: NYSED Certificate of Authority copy, DOS Application for Authority filing receipt, certified copy (for NYSED return), and your Certificate of Publication with affidavits — bank- and credentialing-ready.',
+        'A complete compliance packet: NYSED Certificate of Authority copy, DOS Application for Authority filing receipt, certified copy (for NYSED return), and your Certificate of Publication with affidavits, bank- and credentialing-ready.',
     },
   ]
 
@@ -104,8 +105,13 @@ export default function ForeignQualificationPage() {
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
               Expand into New York without guesswork. We secure your NYSED Certificate of Authority, file your DOS
               Application for Authority, complete the required six-week publication, and deliver a bank-ready compliance
-              packet — end-to-end, with clear status updates and no hidden add-ons.
+              packet, end-to-end, with clear status updates and no hidden add-ons.
             </p>
+
+            <div className="mt-8 flex flex-col items-center gap-2">
+              <p className="text-sm text-muted-foreground">Select your home state for requirements and pricing</p>
+              <ForeignStateSelector />
+            </div>
 
             <div className="mt-6 flex flex-wrap items-center justify-center gap-2 text-xs text-muted-foreground">
               <Badge variant="outline">NYSED Certificate of Authority</Badge>
@@ -286,7 +292,7 @@ export default function ForeignQualificationPage() {
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">New York experts for professional entities</h2>
             <p className="mt-4 text-lg text-muted-foreground">
               We work directly with NYSED’s professional-entity standards and DOS’s filing and publication rules so you
-              can open accounts, sign leases, hire clinicians, and bill payors in New York — with confidence.
+              can open accounts, sign leases, hire clinicians, and bill payors in New York with confidence.
             </p>
 
             <div className="mt-10 flex justify-center gap-3">

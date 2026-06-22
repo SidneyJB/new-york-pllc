@@ -7,6 +7,7 @@ import { ORDER_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 import { OrderFallbackCheckoutNotice } from './order-fallback-checkout-notice'
 import { OrderPageClient } from './order-client'
+import { SpiffyPllcCheckout } from '@/components/spiffy/spiffy-pllc-checkout'
 
 export const metadata = ORDER_METADATA
 
@@ -47,7 +48,6 @@ export default function OrderPage() {
               </h1>
             </header>
 
-            {/* Spiffy Form Placeholder */}
             <Card className="mb-8">
               <CardHeader>
                 <CardTitle>Complete Your Order</CardTitle>
@@ -56,11 +56,7 @@ export default function OrderPage() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-             <div dangerouslySetInnerHTML={{
-              __html: `
-               <spiffy-checkout url="https://nypllc.spiffy.co/checkout/new-york-pllc-formation" ></spiffy-checkout>
-              `
-             }}/>
+                <SpiffyPllcCheckout />
               </CardContent>
             </Card>
 

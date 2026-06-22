@@ -8,6 +8,7 @@ import { generateRootSchemas } from '@/lib/seo/structured-data'
 import { SEO_CONFIG } from '@/lib/seo/config'
 import { BingAdsTracking } from '@/components/analytics/bing-ads-tracking'
 import { MetaPixelEvents } from '@/components/analytics/meta-pixel-events'
+import { PartnerReferralCapture } from '@/components/referral-attribution/partner-referral-capture'
 import { FB_PIXEL_ID } from '@/lib/fbpixel'
 import './globals.css'
 import Script from 'next/script'
@@ -255,7 +256,12 @@ export default function RootLayout({
                 }
               }(document,window);
               spiffy.SNIPPET_VERSION="1.1.0";
-              spiffy.config({ hideSidebar: false });
+              spiffy.config({
+                hideSidebar: false,
+                preserveUrlParams: true,
+                trackingEnabled: true,
+                autoIdentify: true,
+              });
               spiffy.load("nypllc");
             `,
           }}
@@ -270,6 +276,7 @@ export default function RootLayout({
         <Suspense fallback={null}>
           <MetaPixelEvents />
         </Suspense>
+        <PartnerReferralCapture />
         <MainLayout>{children}</MainLayout>
         <Analytics />
       </body>

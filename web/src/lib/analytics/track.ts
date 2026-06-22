@@ -1,6 +1,7 @@
 'use client'
 
 import { track } from '@vercel/analytics'
+import { getPartnerCodeFromCookie } from '@/lib/referral-attribution/get-partner-code-from-cookie'
 
 /**
  * Extract UTM parameters from URL search params
@@ -13,6 +14,10 @@ export function getUTMParams(): { utm_source?: string; utm_campaign?: string } {
     utm_source: params.get('utm_source') || undefined,
     utm_campaign: params.get('utm_campaign') || undefined,
   }
+}
+
+function getPartnerCode(): string | undefined {
+  return getPartnerCodeFromCookie() || undefined
 }
 
 /**
@@ -88,20 +93,21 @@ export function trackCheckoutStart(options?: {
   plan?: string
   price?: number
   entityType?: 'PLLC' | 'LLC'
+  partnerCode?: string
 }) {
   const utm = getUTMParams()
   track('checkout_start', filterUndefined({
     plan: options?.plan,
     price: options?.price,
     entityType: options?.entityType || 'PLLC',
+    partner_code: options?.partnerCode || getPartnerCode(),
     ...utm,
   }))
 }
 
 /**
  * Track purchase completion with time spent and order details
- * Note: Limited to 8 properties max for Vercel Analytics Pro plan compatibility
- * Properties: value, plan, entityType, time_spent, order_id, engagement_time, metadata (JSON), utm_source, utm_campaign
+ * Note: metadata bundles Spiffy URL params to avoid widening the analytics event too much.
  */
 export function trackPurchase(options: {
   value: number
@@ -111,6 +117,7 @@ export function trackPurchase(options: {
   orderId?: string
   engagementTimeSeconds?: number
   metadata?: string
+  partnerCode?: string
 }) {
   const utm = getUTMParams()
   track('purchase', filterUndefined({
@@ -120,6 +127,7 @@ export function trackPurchase(options: {
     time_spent: options.timeSpentSeconds,
     order_id: options.orderId,
     engagement_time: options.engagementTimeSeconds,
+    partner_code: options.partnerCode || getPartnerCode(),
     metadata: options.metadata, // All Spiffy URL params as JSON string
     ...utm,
   }))

@@ -27,13 +27,6 @@ const content: StateForeignQualificationContent = {
     'NY business address or registered agent details.',
     'Desired NY-facing assumed name, if needed.',
   ],
-  stateDocuments: [
-    'Pennsylvania Certificate of Subsistence from the Department of State.',
-    'Certified Certificate of Organization for a Pennsylvania LLC or restricted professional company.',
-    'Certified Articles of Incorporation for a Pennsylvania professional corporation.',
-    'Filed amendments, especially if they add restricted professional company or professional-purpose language.',
-    'Long certified articles or amendments that may affect Pennsylvania per-page copy costs.',
-  ],
   eligibilityNuance:
     'Pennsylvania entity vocabulary can vary, including professional LLC, restricted professional company, and professional corporation. New York focuses on whether the Pennsylvania charter supports the professional entity path, not just how the owner describes the company.',
   whatWeCheck:

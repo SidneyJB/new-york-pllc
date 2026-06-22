@@ -7,7 +7,7 @@ import { ForeignStateSelector } from './foreign-state-selector'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { SEO_CONFIG } from '@/lib/seo/config'
 import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
-import { ArrowRight, ClipboardList, FileCheck2, MapPin, Shield, Users } from 'lucide-react'
+import { ArrowRight, FileCheck2, MapPin, Shield } from 'lucide-react'
 
 export type StateForeignQualificationContent = {
   state: string
@@ -17,7 +17,6 @@ export type StateForeignQualificationContent = {
   intro: string
   whoThisIsFor: string[]
   documents: string[]
-  stateDocuments: string[]
   eligibilityNuance: string
   whatWeCheck: string
   professions: string[]
@@ -228,7 +227,7 @@ export function StateForeignQualificationPage({ content }: { content: StateForei
 
         <section className="py-20 lg:py-28">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-            <div className="grid gap-6 lg:grid-cols-3">
+            <div className="grid gap-6 lg:grid-cols-2">
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
@@ -238,23 +237,6 @@ export function StateForeignQualificationPage({ content }: { content: StateForei
                 <CardContent>
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     {content.documents.map((item) => (
-                      <li key={item} className="flex gap-2">
-                        <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" aria-hidden="true" />
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <ClipboardList className="h-5 w-5 text-primary" /> {content.state} document names
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2 text-sm text-muted-foreground">
-                    {content.stateDocuments.map((item) => (
                       <li key={item} className="flex gap-2">
                         <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" aria-hidden="true" />
                         <span>{item}</span>

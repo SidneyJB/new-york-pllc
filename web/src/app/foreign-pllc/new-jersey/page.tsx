@@ -26,12 +26,6 @@ const content: StateForeignQualificationContent = {
     'NY business address or registered agent details.',
     'Desired NY-facing assumed name, if needed.',
   ],
-  stateDocuments: [
-    'New Jersey Standing Certificate from the Division of Revenue and Enterprise Services.',
-    'Certified Certificate of Formation for a New Jersey LLC.',
-    'Certified Certificate of Incorporation or charter record for a New Jersey professional corporation.',
-    'Filed amendments showing name, purpose, ownership, or professional-service changes.',
-  ],
   eligibilityNuance:
     'New Jersey customers may call the entity a professional service corporation, professional corporation, or LLC. New York still looks at the underlying entity type and professional purpose, so a New Jersey PC stays on the foreign PC path and is not converted into a PLLC.',
   whatWeCheck:

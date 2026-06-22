@@ -23,16 +23,10 @@ const content: StateForeignQualificationContent = {
     'Certified Florida Articles of Organization for a professional LLC or PLLC.',
     'Certified Florida Articles of Incorporation for a professional corporation, P.A., or chartered entity.',
     'Any Florida amendments affecting name, purpose, owners, or professional-service language.',
+    'Florida Chapter 621 professional-purpose language in the articles or amendments, if using the foreign PLLC path.',
     'Owner, member, shareholder, officer, director, or manager license information.',
     'NY business address or registered agent details.',
     'Desired NY-facing assumed name, if needed.',
-  ],
-  stateDocuments: [
-    'Florida Certificate of Status from the Division of Corporations.',
-    'Certified Articles of Organization for a Florida professional LLC or PLLC.',
-    'Certified Articles of Incorporation for a Florida professional corporation, P.A., or chartered entity.',
-    'Sunbiz entity record showing active status, entity type, and document number.',
-    'Chapter 621 professional-purpose language in the Florida articles or amendments.',
   ],
   eligibilityNuance:
     'Florida document costs are often relatively low, but New York still performs its own review. A name or entity description accepted in Florida may need adjustment or a NY assumed name before the entity can operate under a compliant New York-facing name.',

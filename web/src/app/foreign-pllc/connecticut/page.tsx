@@ -27,13 +27,6 @@ const content: StateForeignQualificationContent = {
     'NY business address or registered agent details.',
     'Desired NY-facing assumed name, if needed.',
   ],
-  stateDocuments: [
-    'Connecticut Certificate of Legal Existence from Business Services.',
-    'Certified Certificate of Organization for a Connecticut professional LLC or PLLC.',
-    'Certified Certificate of Incorporation, articles, or charter record for a Connecticut professional corporation.',
-    'Filed amendments showing name, professional purpose, ownership, or governance changes.',
-    'Connecticut name records where NY may require clearer profession-specific wording.',
-  ],
   eligibilityNuance:
     'The Connecticut price is unified at $995 for both foreign PLLC and foreign PC paths. The practical issue is usually not distance from New York, but whether the Connecticut entity type, purpose, ownership, and name match New York professional entity rules.',
   whatWeCheck:

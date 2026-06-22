@@ -246,6 +246,19 @@ export function StateForeignQualificationPage({ content }: { content: StateForei
                         <span>{item}</span>
                       </li>
                     ))}
+                    <li className="flex gap-2">
+                      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" aria-hidden="true" />
+                      <span>
+                        NY business address or registered agent details, if you are not using your own. We also offer{' '}
+                        <Link
+                          href="/virtual-address-services"
+                          className="text-primary underline underline-offset-2 hover:text-primary/80"
+                        >
+                          virtual address and registered agent services
+                        </Link>{' '}
+                        if you need them.
+                      </span>
+                    </li>
                   </ul>
                 </CardContent>
               </Card>

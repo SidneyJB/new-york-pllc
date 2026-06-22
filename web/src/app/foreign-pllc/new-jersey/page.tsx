@@ -20,7 +20,6 @@ const content: StateForeignQualificationContent = {
     'New Jersey 10-digit business ID, if available.',
     'Entity type as you understand it (LLC, professional LLC, professional service corporation, PC, etc.).',
     'Owner, member, shareholder, officer, director, or manager license information.',
-    'NY business address or registered agent details.',
     'Desired NY-facing assumed name, if needed.',
   ],
   eligibilityNuance:

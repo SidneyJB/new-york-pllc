@@ -20,7 +20,6 @@ const content: StateForeignQualificationContent = {
     'Pennsylvania entity number, if available.',
     'Entity type as you understand it (professional LLC, restricted professional company, PC, etc.).',
     'Owner, member, manager, shareholder, officer, or director license information.',
-    'NY business address or registered agent details.',
     'Desired NY-facing assumed name, if needed.',
   ],
   eligibilityNuance:

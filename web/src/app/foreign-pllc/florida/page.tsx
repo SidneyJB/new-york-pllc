@@ -20,7 +20,6 @@ const content: StateForeignQualificationContent = {
     'Florida Sunbiz document number, if available.',
     'Entity type as you understand it (professional LLC, PLLC, P.A., professional corporation, etc.).',
     'Owner, member, shareholder, officer, director, or manager license information.',
-    'NY business address or registered agent details.',
     'Desired NY-facing assumed name, if needed.',
   ],
   eligibilityNuance:

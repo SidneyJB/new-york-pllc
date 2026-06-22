@@ -231,10 +231,14 @@ export function StateForeignQualificationPage({ content }: { content: StateForei
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
-                    <FileCheck2 className="h-5 w-5 text-primary" /> Documents we typically need
+                    <FileCheck2 className="h-5 w-5 text-primary" /> What we need from you
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
+                  <p className="mb-4 text-sm text-muted-foreground">
+                    We obtain your {content.state} standing certificate and certified formation documents. To get
+                    started, we typically need:
+                  </p>
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     {content.documents.map((item) => (
                       <li key={item} className="flex gap-2">

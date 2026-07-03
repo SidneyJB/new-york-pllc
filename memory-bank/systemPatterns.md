@@ -141,6 +141,28 @@ const uploadDocument = async (file: File, orderId: string) => {
 - Foreign qualification pages - `/foreign-pllc` hub plus state pages at `/foreign-pllc/{state}` (NJ, PA, FL, TX, CT)
 - Legal pages - Privacy, Terms, Disclaimer
 
+### Foreign Qualification Page Pattern
+
+State-specific foreign-into-NY pages use a shared layout with per-state content modules:
+
+```typescript
+// web/src/app/foreign-pllc/{state}/page.tsx
+const content: StateForeignQualificationContent = {
+  state, slug, pllcPrice, pcPrice, intro, whoThisIsFor,
+  documents, // customer-provided info only
+  eligibilityNuance, whatWeCheck, professions, stateCta, faqs,
+}
+export default function Page() {
+  return <StateForeignQualificationPage content={content} />
+}
+```
+
+**UX conventions**:
+- Hero state picker via `ForeignStateSelector` (constants in `foreign-states.ts`)
+- Two-column docs section: **What we need from you** + **What we check before filing**
+- Shared NY address/RA bullet links to `/virtual-address-services`
+- Do not list standing certificates or certified charters in customer checklist (we obtain those)
+
 ## Integration Patterns
 
 ### Payment Integration

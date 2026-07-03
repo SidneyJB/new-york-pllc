@@ -26,6 +26,7 @@ A streamlined, all-inclusive service that handles the entire PLLC formation proc
 - **Speed**: Same-day filing initiation, clear timeline management
 - **Simplicity**: One-stop service vs. juggling multiple vendors
 - **Compliance**: Built-in verification of professional license requirements
+- **Expansion Services**: Foreign qualification for out-of-state professional entities entering NY, plus virtual address and registered agent services
 
 ## User Experience Goals
 

@@ -4,116 +4,200 @@ alwaysApply: true
 
 # Cline's Memory Bank
 
-I am Cline, an expert software engineer with a unique characteristic: my memory resets completely between sessions. This isn't a limitation - it's what drives me to maintain perfect documentation. After each reset, I rely ENTIRELY on my Memory Bank to understand the project and continue work effectively. I MUST read ALL memory bank files at the start of EVERY task - this is not optional.
+I am Cline, an expert software engineer with a unique characteristic: my memory resets completely between sessions. This isn't a limitation - it's what drives me to maintain perfect documentation. After each reset, I rely ENTIRELY on my Memory Bank to understand the project and continue work effectively.
+
+## Documentation Architecture
+
+**Two-Tier Documentation System**:
+
+- **Memory Bank** (`memory-bank/`): Lean summaries and high-level context with references to detailed docs
+- **Detailed Documentation** (`docs/`): Comprehensive reference material for specific topics
+
+**Session Start Strategy**:
+
+1. **"Read memory bank"** (no task yet): read ONLY `router.md`, `projectbrief.md`, `activeContext.md` — then stop. Do not read other core files or any `features/` shards.
+2. **User gives a task**: start with step 1, then read 1–2 `memory-bank/features/*.md` per router table
+3. `productContext.md`, `systemPatterns.md`, `techContext.md`, `progress.md`, `watches/`, `ops-checklists/` — only when the task needs them
+4. `docs/` — only when a shard points to it or the task needs depth
+5. Memory bank files contain references (📖 See links) to detailed documentation
+
+This pattern keeps memory bank files concise while preserving all information in organized reference docs.
 
 ## Memory Bank Structure
 
-The Memory Bank consists of core files and optional context files, all in Markdown format. Files build upon each other in a clear hierarchy:
+The Memory Bank consists of core files, a router, feature shards, and optional context files — all Markdown. See `memory-bank/README.md`.
 
-flowchart TD
-    PB[projectbrief.md] --> PC[productContext.md]
-    PB --> SP[systemPatterns.md]
-    PB --> TC[techContext.md]
-
-    PC --> AC[activeContext.md]
-    SP --> AC
-    TC --> AC
-
-    AC --> P[progress.md]
+```
+memory-bank/
+  router.md              # Task → which files to read (start here)
+  projectbrief.md        # Scope (always)
+  activeContext.md       # Current sprint (always)
+  productContext.md      # UX (on demand)
+  systemPatterns.md      # Cross-cutting patterns (on demand)
+  techContext.md         # Stack & env (on demand)
+  progress.md            # Status & backlog (on demand)
+  features/              # Per-feature shards (~30–60 lines)
+  watches/               # Operational watch items
+  ops-checklists/        # One-time setup steps
+```
 
 ### Core Files (Required)
+
 1. `projectbrief.md`
+
    - Foundation document that shapes all other files
    - Created at project start if it doesn't exist
    - Defines core requirements and goals
    - Source of truth for project scope
 
 2. `productContext.md`
+
    - Why this project exists
    - Problems it solves
    - How it should work
    - User experience goals
 
 3. `activeContext.md`
-   - Current work focus
-   - Recent changes
-   - Next steps
-   - Active decisions and considerations
-   - Important patterns and preferences
+
+   - Current work focus (brief summary)
+   - Recent changes (summary with reference to session-history.md)
+   - Next steps (summary with reference to features-changelog.md and session history)
+   - Active decisions (summary with reference to architecture-decisions.md)
+   - Important patterns (brief patterns, detailed ones reference implementation-patterns.md)
    - Learnings and project insights
 
 4. `systemPatterns.md`
-   - System architecture
-   - Key technical decisions
-   - Design patterns in use
-   - Component relationships
-   - Critical implementation paths
+
+   - System architecture overview
+   - Key technical decisions (summary with references)
+   - Design patterns (high-level, detailed patterns reference implementation-patterns.md)
+   - Component relationships (diagram/summary)
+   - Critical implementation paths (summary with references to detailed docs)
 
 5. `techContext.md`
-   - Technologies used
-   - Development setup
-   - Technical constraints
-   - Dependencies
-   - Tool usage patterns
+
+   - Technologies used (high-level summary)
+   - Development setup (summary with reference to deployment-guide.md)
+   - Technical constraints (summary with reference to technical-gotchas.md)
+   - Dependencies (summary, see package.json for details)
+   - Tool usage patterns (brief)
 
 6. `progress.md`
-   - What works
-   - What's left to build
-   - Current status
-   - Known issues
-   - Evolution of project decisions
+   - What works (summary with reference to features-changelog.md)
+   - What's left to build (summary with reference to features-changelog.md)
+   - Current status (brief)
+   - Known issues (summary with reference to session-history and technical-gotchas)
+   - Evolution of project decisions (summary with reference to architecture-decisions.md)
 
-### Additional Context
-Create additional files/folders within memory-bank/ when they help organize:
-- Complex feature documentation
-- Integration specifications
-- API documentation
-- Testing strategies
-- Deployment procedures
+### Detailed Documentation (`docs/`)
+
+Detailed documentation lives in `docs/` and includes:
+
+- `session-history.md` - Session-by-session changes
+- `analytics-tracking.md` - Conversion funnel reference
+- `spiffy-checkout.md` - Checkout embed and engagement API
+- `seo-and-domain.md` - Canonical domain and SEO system
+- `tailwind-v4.md` - Tailwind v4 configuration patterns
+
+**Memory Bank files should reference these docs using format**: `📖 See [Doc Name](../docs/doc-name.md) for complete documentation.`
 
 ## Core Workflows
 
-### Plan Mode
+### Session Start (Required)
+
 flowchart TD
-    Start[Start] --> ReadFiles[Read Memory Bank]
-    ReadFiles --> CheckFiles{Files Complete?}
+Start[Start] --> Router[Read router.md + projectbrief + activeContext]
+Router --> Features{Task matches a feature?}
+Features -->|Yes| ReadShard[Read 1-2 features/*.md from router]
+Features -->|No| Wait[Wait for User Input]
+ReadShard --> Wait
+Wait --> ReadDocs{Need Detailed Info?}
+ReadDocs -->|Yes| ReadSpecific[Read docs/ per shard link]
+ReadDocs -->|No| Proceed[Proceed]
+ReadSpecific --> Proceed
 
-    CheckFiles -->|No| Plan[Create Plan]
-    Plan --> Document[Document in Chat]
+### Plan Mode
 
-    CheckFiles -->|Yes| Verify[Verify Context]
-    Verify --> Strategy[Develop Strategy]
-    Strategy --> Present[Present Approach]
+flowchart TD
+Start[Start] --> ReadMB[Read Memory Bank Overview]
+ReadMB --> Assess{Need Detailed Docs?}
+Assess -->|Yes| ReadDocs[Read Relevant Docs from docs/]
+Assess -->|No| Plan[Create Plan from Overview]
+ReadDocs --> Plan
+Plan --> Document[Document in Chat]
 
 ### Act Mode
+
 flowchart TD
-    Start[Start] --> Context[Check Memory Bank]
-    Context --> Update[Update Documentation]
-    Update --> Execute[Execute Task]
-    Execute --> Document[Document Changes]
+Start[Start] --> ReadMB[Read Memory Bank Overview]
+ReadMB --> Assess{Need Detailed Docs?}
+Assess -->|Yes| ReadDocs[Read Relevant Docs from docs/]
+Assess -->|No| Execute[Execute Task]
+ReadDocs --> Execute
+Execute --> Update[Update Documentation]
+Update --> Extract{Detailed Content?}
+Extract -->|Yes| CreateDoc[Create/Update Doc in docs/]
+Extract -->|No| UpdateMB[Update Memory Bank Summary]
+CreateDoc --> UpdateMB
 
 ## Documentation Updates
 
+### When to Update Memory Bank
+
 Memory Bank updates occur when:
-1. Discovering new project patterns
-2. After implementing significant changes
+
+1. Discovering new project patterns (add summary + reference to detailed doc)
+2. After implementing significant changes (update summary, extract details to docs)
 3. When user requests with **update memory bank** (MUST review ALL files)
 4. When context needs clarification
 
+### Update Process
+
 flowchart TD
-    Start[Update Process]
+Start[Update Process]
 
     subgraph Process
-        P1[Review ALL Files]
-        P2[Document Current State]
-        P3[Clarify Next Steps]
-        P4[Document Insights & Patterns]
-
-        P1 --> P2 --> P3 --> P4
+        P1[Review ALL Memory Bank Files]
+        P2[Identify Detailed Content]
+        P3{Detailed Content?}
+        P3 -->|Yes| P4[Extract to docs/]
+        P3 -->|No| P5[Update Memory Bank Summary]
+        P4 --> P6[Add Reference in Memory Bank]
+        P6 --> P5
+        P5 --> P7[Document Current State]
+        P7 --> P8[Clarify Next Steps]
     end
 
     Start --> Process
 
-Note: When triggered by **update memory bank**, I MUST review every memory bank file, even if some don't require updates. Focus particularly on activeContext.md and progress.md as they track current state.
+### Documentation Principles
 
-REMEMBER: After every memory reset, I begin completely fresh. The Memory Bank is my only link to previous work. It must be maintained with precision and clarity, as my effectiveness depends entirely on its accuracy.
+**Memory Bank Files Should**:
+
+- Be concise summaries (aim for <150 lines per file)
+- Include references to detailed docs using `📖 See [Doc Name](../docs/doc-name.md)`
+- Focus on what's needed for session start overview
+- Avoid duplicating detailed information
+
+**Detailed Docs Should**:
+
+- Live in `docs/` directory
+- Be comprehensive and complete
+- Be organized by topic/feature
+- Include all implementation details, examples, and references
+
+**When Adding New Content**:
+
+1. If it's detailed/reference material → Create/update doc in `docs/`
+2. Add brief summary to relevant memory bank file
+3. Add reference link from memory bank to detailed doc
+4. Keep memory bank files lean
+
+**When User Requests "update memory bank"**:
+
+- Review router.md, core files, and relevant `features/*.md` shards
+- Extract any detailed content to appropriate docs in `docs/`
+- Update feature shard + one-liner in activeContext.md; avoid duplicating session-history
+- Keep each file under ~150 lines (shards ~60 lines)
+
+REMEMBER: After every memory reset, I begin completely fresh. The Memory Bank provides the overview I need to start each session. Detailed documentation in `docs/` provides the depth I need when working on specific tasks. This two-tier system keeps memory bank files manageable while preserving all information in organized reference docs.

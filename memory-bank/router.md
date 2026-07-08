@@ -34,7 +34,7 @@ Listing shard filenames (e.g. via glob) is optional; reading their contents is n
 | Virtual address, mail forwarding, 1583, VA services page | [features/virtual-address-pages.md](features/virtual-address-pages.md) |
 | DIY guide, how-to-form-a-pllc | [features/diy-guide.md](features/diy-guide.md) |
 | Tailwind, CSS variables, dark mode, globals.css, design system | [features/tailwind-v4.md](features/tailwind-v4.md) |
-| Google Ads, campaigns, keywords, auction insights, ad spend, GAQL | [features/google-ads.md](features/google-ads.md) |
+| Google Ads, campaigns, keywords, auction insights, ad spend, GAQL, operating plan, tCPA, Phase 0 | [features/google-ads.md](features/google-ads.md) → [operating plan](../nypllc-google-ads-operating-plan.md) |
 
 ## Optional context
 
@@ -53,4 +53,4 @@ Listing shard filenames (e.g. via glob) is optional; reading their contents is n
 
 ## Deep reference (not memory bank)
 
-📖 [Session history](../docs/session-history.md) · [Analytics reference](../docs/analytics-tracking.md) · [Spiffy checkout](../docs/spiffy-checkout.md) · [SEO & domain](../docs/seo-and-domain.md) · [Tailwind v4](../docs/tailwind-v4.md)
+📖 [Session history](../docs/session-history.md) · [Analytics reference](../docs/analytics-tracking.md) · [Spiffy checkout](../docs/spiffy-checkout.md) · [SEO & domain](../docs/seo-and-domain.md) · [Tailwind v4](../docs/tailwind-v4.md) · [Google Ads operating plan](../nypllc-google-ads-operating-plan.md)

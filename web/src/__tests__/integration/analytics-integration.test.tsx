@@ -405,6 +405,37 @@ describe('Analytics Integration Tests - All Pages', () => {
       setLocationSearch('')
     })
 
+    it('should prefer Spiffy total= cents over hardcoded amount prop', async () => {
+      setLocationSearch('?order=2445951&total=100')
+      const gtag = vi.fn()
+      window.gtag = gtag
+
+      render(<OrderConfirmationClient amount={885} />)
+
+      await waitFor(() => {
+        expect(trackPurchase).toHaveBeenCalled()
+      })
+
+      expect(trackPurchase).toHaveBeenCalledWith(
+        expect.objectContaining({
+          value: 1,
+          orderId: '2445951',
+        }),
+      )
+      expect(gtag).toHaveBeenCalledWith(
+        'event',
+        'conversion',
+        expect.objectContaining({
+          send_to: 'AW-17672972971/w4sBCLyvmM0cEKvVkOtB',
+          value: 1,
+          currency: 'USD',
+          transaction_id: '2445951',
+        }),
+      )
+
+      setLocationSearch('')
+    })
+
     it('should track purchase only once', async () => {
       const { rerender } = render(<OrderConfirmationClient amount={885} />)
       

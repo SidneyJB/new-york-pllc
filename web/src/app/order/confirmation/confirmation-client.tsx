@@ -1,6 +1,12 @@
 'use client'
 
 import { useEffect } from 'react'
+import { trackGoogleAdsPurchase } from '@/lib/analytics/google-ads'
+import {
+  buildSafePurchaseMetadata,
+  parseSpiffyOrderId,
+  resolvePurchaseAmountDollars,
+} from '@/lib/analytics/spiffy-confirmation'
 import { trackPurchase } from '@/lib/analytics/track'
 import { PRICING } from '@/lib/constants'
 import * as fbq from '@/lib/fbpixel'
@@ -22,41 +28,40 @@ export function OrderConfirmationClient({
     // Calculate time spent on order form
     const checkoutStartTime = sessionStorage.getItem('checkout_start_time')
     let timeSpentSeconds: number | undefined
-    
+
     if (checkoutStartTime) {
       const startTime = parseInt(checkoutStartTime, 10)
       const endTime = Date.now()
       timeSpentSeconds = Math.round((endTime - startTime) / 1000) // Convert to seconds
-      
+
       // Clean up session storage
       sessionStorage.removeItem('checkout_start_time')
     }
-    
+
     // Calculate engagement metrics from Spiffy API tracking
     const firstInteractionTime = sessionStorage.getItem('form_first_interaction_time')
     const lastInteractionTime = sessionStorage.getItem('form_last_interaction_time')
-    
+
     let engagementTimeSeconds: number | undefined
     if (firstInteractionTime && lastInteractionTime) {
       const engagementStart = parseInt(firstInteractionTime, 10)
       const engagementEnd = parseInt(lastInteractionTime, 10)
       engagementTimeSeconds = Math.round((engagementEnd - engagementStart) / 1000)
     }
-    
-    // Extract all parameters from URL to ensure full tracking coverage
+
     const urlParams = new URLSearchParams(window.location.search)
-    const orderId = urlParams.get('order') || urlParams.get('order_id') || urlParams.get('id') || urlParams.get('orderId') || undefined
-    
-    // Bundle all parameters into a single JSON string to bypass Vercel property limits
-    const paramsObj: Record<string, string> = {}
-    urlParams.forEach((value, key) => {
-      paramsObj[key] = value
-    })
-    const metadata = JSON.stringify(paramsObj)
-    
+    const orderId = parseSpiffyOrderId(urlParams)
+    const purchaseAmount = resolvePurchaseAmountDollars(
+      urlParams,
+      amount ?? PRICING.basePrice,
+    )
+
+    // Allowlisted Spiffy params only (never SSN/DOB/email/address)
+    const metadata = buildSafePurchaseMetadata(urlParams)
+
     // Track purchase on confirmation page load with engagement metrics
     trackPurchase({
-      value: amount || PRICING.basePrice,
+      value: purchaseAmount,
       plan,
       entityType,
       timeSpentSeconds,
@@ -64,9 +69,8 @@ export function OrderConfirmationClient({
       engagementTimeSeconds,
       metadata,
     })
-    
+
     // Track Facebook Pixel Purchase event
-    const purchaseAmount = amount || PRICING.basePrice
     fbq.event('Purchase', {
       value: purchaseAmount,
       currency: 'USD',
@@ -90,7 +94,13 @@ export function OrderConfirmationClient({
         ],
       })
     }
-    
+
+    // Google Ads tagged purchase (secondary until flip; value from Spiffy total= cents)
+    trackGoogleAdsPurchase({
+      value: purchaseAmount,
+      transactionId: orderId,
+    })
+
     // Clean up engagement tracking session storage
     sessionStorage.removeItem('form_first_interaction_time')
     sessionStorage.removeItem('form_last_interaction_time')
@@ -101,4 +111,3 @@ export function OrderConfirmationClient({
 
   return null
 }
-

@@ -23,6 +23,7 @@ Lean conversion funnel: Vercel custom events + GA4 purchase + Bing UET + scroll 
 
 - Keep event properties **≤8** (Vercel Pro limits)
 - GA4 `purchase` is a key event; **do not** import to Google Ads (duplicate conversions)
+- Google Ads tagged purchase fires separately on confirmation (`web/src/lib/analytics/google-ads.ts`); value from Spiffy `total=` cents — see [google-ads.md](google-ads.md) / operating plan §1.1.2
 - Filter undefined props before `track`
 
 ## Docs

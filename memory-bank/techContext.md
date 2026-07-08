@@ -9,6 +9,7 @@
 - **Analytics**: GA4 + Vercel Analytics + Bing UET
 - **Hosting**: Vercel
 - **Tests**: Vitest + React Testing Library
+- **Google Ads**: Python CLI at repo root (`google_ads/`, `requirements-ads.txt`) — see [features/google-ads.md](features/google-ads.md)
 
 ## Setup
 
@@ -19,9 +20,18 @@ cp .env.example .env.local
 npm run dev
 ```
 
+Ads tooling (optional, repo root):
+
+```bash
+cd new-york-pllc
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements-ads.txt
+# GOOGLE_ADS_* in .env — see .env.example
+```
+
 ## Env (typical)
 
-`SPIFFY_CO_*` · `SENTRY_DSN` · `GA_TRACKING_ID` / measurement id · `NEXT_PUBLIC_APP_URL`
+`SPIFFY_CO_*` · `SENTRY_DSN` · `GA_TRACKING_ID` / measurement id · `NEXT_PUBLIC_APP_URL` · `GOOGLE_ADS_*` (ads CLI)
 
 Email delivery does not need SendGrid in-app (Zapier).
 

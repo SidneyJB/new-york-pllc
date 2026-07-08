@@ -34,6 +34,7 @@ Listing shard filenames (e.g. via glob) is optional; reading their contents is n
 | Virtual address, mail forwarding, 1583, VA services page | [features/virtual-address-pages.md](features/virtual-address-pages.md) |
 | DIY guide, how-to-form-a-pllc | [features/diy-guide.md](features/diy-guide.md) |
 | Tailwind, CSS variables, dark mode, globals.css, design system | [features/tailwind-v4.md](features/tailwind-v4.md) |
+| Google Ads, campaigns, keywords, auction insights, ad spend, GAQL | [features/google-ads.md](features/google-ads.md) |
 
 ## Optional context
 

@@ -1,0 +1,75 @@
+keyword,match_type,quality_score,expected_ctr,ad_relevance,landing_page_experience,impressions,clicks,conversions,cost,cpa,cvr_pct,pct_account_impressions
+pllc,BROAD,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,20592,1347,114.26,11209.05,98.1,8.48,61.11
+lcsw new york pllc,BROAD,,,,,1287,50,0.0,264.67,,0.0,3.82
+pllc new york,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,1122,109,9.5,921.4,96.99,8.72,3.33
+pllc ny,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,962,89,6.17,727.63,117.99,6.93,2.86
+pllc new york,BROAD,,,,,904,38,4.33,346.06,79.86,11.4,2.68
+ny pllc formation,PHRASE,8,AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,649,88,13.0,1059.23,81.48,14.77,1.93
+ny pllc,BROAD,,,,,594,27,5.5,320.49,58.27,20.37,1.76
+pllc,EXACT,,,,,515,14,1.0,83.52,83.52,7.14,1.53
+new york pllc formation,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,495,31,4.0,314.88,78.72,12.9,1.47
+ny pllc,PHRASE,8,AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,477,42,5.5,337.74,61.41,13.1,1.42
+pllc nys,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,477,28,1.0,184.77,184.77,3.57,1.42
+nys pllc formation,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,383,33,4.5,266.3,59.18,13.64,1.14
+pllc application ny,EXACT,4,BELOW_AVERAGE,AVERAGE,AVERAGE,295,26,4.0,260.12,65.03,15.38,0.88
+pllc nys,BROAD,,,,,294,11,0.0,80.16,,0.0,0.87
+new york pllc,BROAD,,,,,266,12,2.0,97.14,48.57,16.67,0.79
+new york pllc,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,260,13,0.0,102.17,,0.0,0.77
+form a pllc,PHRASE,5,AVERAGE,BELOW_AVERAGE,AVERAGE,252,26,0.0,185.05,,0.0,0.75
+pllc in new york,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,249,30,2.0,309.61,154.8,6.67,0.74
+how to form a pllc in new york,BROAD,,,,,242,13,0.0,104.12,,0.0,0.72
+pllc in ny,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,234,24,1.25,202.74,162.19,5.21,0.69
+new york pllc formation,BROAD,,,,,205,11,2.0,68.87,34.44,18.18,0.61
+nys pllc,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,180,8,0.0,66.0,,0.0,0.53
+pllc online,EXACT,7,ABOVE_AVERAGE,AVERAGE,AVERAGE,178,27,1.99,269.59,135.2,7.39,0.53
+nys pllc formation,BROAD,,,,,170,5,0.0,25.52,,0.0,0.5
+form a pllc in ny,PHRASE,5,AVERAGE,BELOW_AVERAGE,AVERAGE,162,16,1.5,182.8,121.87,9.38,0.48
+ny pllc formation,BROAD,,,,,159,17,1.0,153.5,153.5,5.88,0.47
+pllc formation,PHRASE,8,AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,153,23,1.5,211.19,140.8,6.52,0.45
+my pllc,PHRASE,8,AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,148,10,0.0,28.31,,0.0,0.44
+forming a pllc in ny,PHRASE,7,AVERAGE,ABOVE_AVERAGE,AVERAGE,143,28,5.0,295.02,59.0,17.86,0.42
+nys pllc formation,EXACT,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,141,9,2.0,88.05,44.02,22.22,0.42
+pllc nyc,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,133,12,1.0,70.06,70.06,8.33,0.39
+professional corporation new york,PHRASE,1,BELOW_AVERAGE,BELOW_AVERAGE,BELOW_AVERAGE,126,6,0.0,43.62,,0.0,0.37
+nypllc,EXACT,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,111,20,4.0,140.97,35.24,20.0,0.33
+pllc formation new york,EXACT,8,AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,101,11,2.5,181.64,72.66,22.73,0.3
+new york professional llc formation,PHRASE,,,,,99,3,0.0,23.33,,0.0,0.29
+how to create a pllc in ny,BROAD,,,,,86,6,0.0,36.26,,0.0,0.26
+forming a pllc,BROAD,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,83,9,1.0,50.91,50.91,11.11,0.25
+llc new york,BROAD,,,,,81,8,0.0,23.4,,0.0,0.24
+pllc nyc,BROAD,,,,,78,6,0.0,44.47,,0.0,0.23
+start pllc,PHRASE,7,AVERAGE,AVERAGE,ABOVE_AVERAGE,65,10,15.5,90.91,5.87,155.0,0.19
+pllc online,PHRASE,7,ABOVE_AVERAGE,AVERAGE,AVERAGE,58,5,0.0,39.83,,0.0,0.17
+form a pllc in ny,BROAD,,,,,57,7,2.0,96.72,48.36,28.57,0.17
+nys pllc requirements,BROAD,,,,,49,0,0.0,0.0,,0,0.15
+pllc application ny,BROAD,4,BELOW_AVERAGE,AVERAGE,AVERAGE,37,6,0.0,36.16,,0.0,0.11
+pllc new york,EXACT,,,,,31,2,0.0,26.64,,0.0,0.09
+forming a pllc,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,29,3,0.0,43.8,,0.0,0.09
+forming a pllc in new york,PHRASE,7,BELOW_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,27,2,0.0,16.97,,0.0,0.08
+get pllc,PHRASE,,,,,25,3,2.0,32.82,16.41,66.67,0.07
+form a pllc in new york,PHRASE,6,BELOW_AVERAGE,AVERAGE,ABOVE_AVERAGE,23,3,0.0,31.6,,0.0,0.07
+form pllc,PHRASE,6,AVERAGE,AVERAGE,AVERAGE,21,2,0.0,7.37,,0.0,0.06
+professional service limited liability company,BROAD,,,,,17,0,0.0,0.0,,0,0.05
+pllc nys,EXACT,,,,,17,1,0.0,4.79,,0.0,0.05
+pllc new york cost,BROAD,,,,,15,0,0.0,0.0,,0,0.04
+ny pllc,EXACT,,,,,14,1,0.0,1.33,,0.0,0.04
+new york pllc requirements,PHRASE,,,,,13,1,0.0,4.28,,0.0,0.04
+ny pllc formation,EXACT,,,,,10,0,0.0,0.0,,0,0.03
+how to form a pllc in ny,BROAD,,,,,10,1,0.0,3.22,,0.0,0.03
+start a pllc,PHRASE,6,AVERAGE,BELOW_AVERAGE,ABOVE_AVERAGE,9,3,0.0,20.81,,0.0,0.03
+how to start a pllc,BROAD,,,,,9,3,0.0,7.54,,0.0,0.03
+forming a pllc in ny,EXACT,7,AVERAGE,ABOVE_AVERAGE,AVERAGE,8,3,1.0,23.02,23.02,33.33,0.02
+pllc articles of organization,BROAD,,,,,7,0,0.0,0.0,,0,0.02
+ny pllc requirements,PHRASE,,,,,7,0,0.0,0.0,,0,0.02
+pllc formation in new york,PHRASE,8,AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,7,1,0.0,27.1,,0.0,0.02
+lcsw new york pllc,PHRASE,,,,,6,1,0.0,1.14,,0.0,0.02
+pllc nyc,EXACT,,,,,6,1,0.0,1.9,,0.0,0.02
+start pllc,BROAD,,,,,6,1,0.0,12.4,,0.0,0.02
+pllc formation in ny,PHRASE,8,AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,6,0,0.0,0.0,,0,0.02
+get a pllc,PHRASE,9,ABOVE_AVERAGE,AVERAGE,ABOVE_AVERAGE,5,0,0.0,0.0,,0,0.01
+new york pllc requirements,BROAD,,,,,4,0,0.0,0.0,,0,0.01
+pllc formation in new york,BROAD,,,,,4,0,0.0,0.0,,0,0.01
+pllc formation new york,BROAD,,,,,2,0,0.0,0.0,,0,0.01
+form a pllc in new york,BROAD,,,,,2,0,0.0,0.0,,0,0.01
+domestic professional limited liability company,BROAD,,,,,1,0,0.0,0.0,,0,0.0
+form pllc new york,BROAD,,,,,1,0,0.0,0.0,,0,0.0

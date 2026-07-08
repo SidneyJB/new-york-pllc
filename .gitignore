@@ -82,3 +82,9 @@ Thumbs.db
 
 # Yarn Integrity file
 .yarn-integrity
+
+# Google Ads secrets / Python tooling
+client_secret*.json
+google-ads.yaml
+.venv/
+__pycache__/

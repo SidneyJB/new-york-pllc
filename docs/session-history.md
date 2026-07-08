@@ -2,6 +2,15 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-07-08 — Google Ads Phase 0 (conversion + hygiene)
+
+- Operating plan v2 linked from memory bank (`nypllc-google-ads-operating-plan.md`)
+- Spiffy thank-you verified: `order=` + `total=` (full contract cents, incl. payment plans)
+- Site: confirmation reads `total`/`order`; fires tagged Ads conversion (`web/src/lib/analytics/google-ads.ts`); purchase metadata allowlisted (no SSN/DOB/PII dump)
+- Ads API: secondary Purchase action `7678072764` (`AW-17672972971/w4sBCLyvmM0cEKvVkOtB`); page-load remains primary until flip
+- §1.2 settings (Presence, Partners/Display off, observation audiences, auto-apply PAUSED); §1.3 shared negatives A–E (+ A-FQ); §1.4 asset refresh (sitemap-true sitelinks, Services snippet, Formation/VA/Foreign price); §1.5 baselines in `baseline-2026-07-08/`
+- CRM: Google `AdSpend` lifetime → $20,068.24 (`backfill-google-adspend.ts`); Customer Match CSV ready (API upload blocked)
+
 ## 2026-06 — Foreign-into-NY + partners
 
 - Foreign state landings: NJ, PA, FL, TX, CT under `/foreign-pllc/{state}` with shared module + hero selector

@@ -1,0 +1,2 @@
+campaign.id,campaign.name,campaign.status,campaign.advertising_channel_type,campaign.bidding_strategy_type,campaign_budget.amount_micros,campaign_budget.delivery_method,campaign_budget.period
+23165646939,Sales-Search-1,ENABLED,SEARCH,MAXIMIZE_CONVERSIONS,500000000,STANDARD,DAILY

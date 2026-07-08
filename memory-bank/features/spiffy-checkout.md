@@ -24,6 +24,8 @@ Payment → Spiffy webhook → Zapier (customer + admin email) → confirmation 
 - Partner coupons / `?c=CODE`: see [partner-referral.md](partner-referral.md); CRM owns partner ops
 - Apply coupon before embed mounts and when Spiffy is already ready
 - Engagement metrics in `sessionStorage` feed purchase event (`engagement_time`, `field_changes`)
+- Thank-you URL: `total=` is full contract **cents** (payment plans included); `order=` = Spiffy order id — used for Ads conversion value
+- Prefer www thank-you URL; analytics metadata allowlists safe params only (no SSN/DOB dump)
 
 ## Docs
 

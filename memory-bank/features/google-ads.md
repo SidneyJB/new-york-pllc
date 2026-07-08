@@ -17,7 +17,7 @@ Google Ads API CLI, CSV exports, and analysis scripts for NYPLLC acquisition (li
 - Package: `google_ads/` (`client.py`, `reports.py`, `pull.py`, `export.py`)
 - CLI: `google_ads_cli.py`, `google_ads_pull.py`, `google_ads_auth.py`
 - Analysis: `ads_analysis.py`, `apr23_*.py`
-- Data: `Ads - *.csv`, `ads-notes-*.md`, `google_ads_changes*.md`, `apr 23 ads reports/`
+- Data: `Ads - *.csv`, `ads-notes-*.md`, `google_ads_changes*.md`, `apr 23 ads reports/`, `baseline-2026-07-08/`
 - Deps: `requirements-ads.txt` (separate from Next.js `web/` package)
 
 ## Setup
@@ -37,6 +37,11 @@ pip install -r requirements-ads.txt
 - CRM Finances “ad spend” projections are separate (PLLC-CRM) — this repo owns campaign/keyword ops data
 - Spiffy thank-you URL `total=` is **full contracted order value in cents** (including payment plans) — see operating plan §1.1.2
 - Tagged Ads purchase (secondary until flip): action id `7678072764`, `send_to` in `web/src/lib/analytics/google-ads.ts`
+- Phase 0 §1.2 applied Jul 8 2026 on Sales-Search-1: Presence geo, Partners/Display off, observation audiences, auto-apply subs PAUSED — see operating plan
+- Phase 0 §1.3 shared negatives A–E attached to Sales-Search-1 Jul 8 2026; A-FQ ready for Foreign Qual — see operating plan §1.3 table
+- §1.4 assets: sitelinks must use real sitemap URLs only; volume claim is **thousands / 25,000+**, not 300+ — see operating plan §1.4
+- §1.4 applied Jul 8 2026 on Sales-Search-1 (add sitelinks, fix About/snippet/price, trim generic callouts; kept strong performers)
+- §1.5 baseline exports in `baseline-2026-07-08/` (Auction Insights still manual)
 
 ## Docs
 

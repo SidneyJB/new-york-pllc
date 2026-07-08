@@ -6,15 +6,16 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 ## Current sprint
 
+- **Google Ads Phase 0** (operating plan v2) — mostly done; waiting on real order to verify tagged Purchase, then flip primary/secondary. See [features/google-ads.md](features/google-ads.md) · [operating plan](../nypllc-google-ads-operating-plan.md)
 - Expand **foreign-into-NY** state page coverage beyond NJ/PA/FL/TX/CT as needed
-- Monitor conversion/SEO on `/foreign-pllc/{state}`
 - Ops fulfillment lives in **PLLC-CRM** (sibling repo) — not this codebase
 
 ## Next steps
 
-1. More foreign state landings when demand warrants — [features/foreign-into-ny.md](features/foreign-into-ny.md)
-2. Partner referral / coupon checkout changes — [features/partner-referral.md](features/partner-referral.md) + [features/spiffy-checkout.md](features/spiffy-checkout.md)
-3. Growth SEO/backlinks (`seo-backlink-strategy.md` at repo root) if tasked
+1. After next real thank-you: confirm Ads **All conversions** for `Purchase (Spiffy thank-you value)` with correct `$` → flip tagged → primary, page-load → secondary
+2. Customer Match CSV UI upload (`Ads - customer-match-emails_crm_2026-07-08.csv`) after flip
+3. Then Phase 1: portfolio tCPA + `01_Core_Exact_NY` per operating plan calendar/gates
+4. More foreign state landings / partner / SEO when tasked
 
 ## Active decisions
 
@@ -22,20 +23,23 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 - Payments: **Spiffy.co** embedded checkout (not Stripe on-site)
 - Partner coupons: apply via referral capture + Spiffy ready hooks before/when embed mounts
 - GA4 `purchase` fires on confirmation; **not** imported to Google Ads (avoid double-count)
+- Google Ads bidding still on codeless page-load Purchase until flip; tagged secondary uses Spiffy `total=` (cents) + `order=`
+- Ads volume claim: **thousands / 25,000+** NY entities (not “300+”); sitelinks only to real sitemap URLs
 - Profession / foreign pages: formation/qualification scope only — do **not** over-claim board coordination
 - Foreign checklists: customer-provided info only; we obtain standing/certified formation docs
+- Publishing-only: no paid acquisition (negative List E)
 
 ## Watches
 
 | Item | Link |
 |------|------|
-| (none yet) | — |
+| Tagged Ads purchase verify → flip | [operating plan §1.1](../nypllc-google-ads-operating-plan.md) |
 
 ## Recent changes
 
 📖 Full log: [session-history.md](../docs/session-history.md)
 
-Latest (through June 2026): foreign-into-NY state pages + selector; VA/RA cross-sell on foreign pages; B2B `/partners` + intake; partner coupon attribution on checkout; five profession pages; GA4 purchase; DIY + VA pages; domain consolidation.
+Latest (Jul 8 2026): Ads Phase 0 — conversion value wiring + secondary tagged action; settings/negatives/assets; baselines in `baseline-2026-07-08/`; CRM Google AdSpend backfill. Prior: foreign-into-NY + partners + profession pages + GA4 purchase + DIY/VA + domain consolidation.
 
 ## Session start
 

@@ -1,0 +1,199 @@
+campaign,ad_group,keyword,match_type,quality_score,search_predicted_ctr,creative_quality_score,post_click_quality_score,impressions,clicks,cost,conversions
+Sales-Search-1,NY PLLC Formation,pllc,BROAD,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,9974,612,6057.91,49.08
+Sales-Search-1,NY PLLC Formation,ny pllc formation,PHRASE,8,AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,214,38,601.21,5.0
+Sales-Search-1,NY PLLC Formation,pllc new york,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,323,32,348.88,3.67
+Sales-Search-1,NY PLLC Formation,pllc application ny,EXACT,4,BELOW_AVERAGE,AVERAGE,AVERAGE,335,30,291.71,4.0
+Sales-Search-1,NY PLLC Formation,ny pllc,PHRASE,8,AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,212,25,247.43,2.5
+Sales-Search-1,NY PLLC Formation,pllc formation new york,EXACT,8,AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,116,11,181.64,2.5
+Sales-Search-1,NY PLLC Formation,nypllc,EXACT,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,127,22,142.45,4.0
+Sales-Search-1,NY PLLC Formation,pllc formation,PHRASE,8,AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,51,9,112.49,1.0
+Sales-Search-1,NY PLLC Formation,forming a pllc in ny,PHRASE,7,AVERAGE,ABOVE_AVERAGE,AVERAGE,32,8,99.62,1.0
+Sales-Search-1,NY PLLC Formation,nys pllc formation,EXACT,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,151,10,90.13,2.0
+Sales-Search-1,NY PLLC Formation,new york pllc formation,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,106,5,69.75,1.0
+Sales-Search-1,NY PLLC Formation,pllc ny,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,125,7,65.2,0.0
+Sales-Search-1,NY PLLC Formation,pllc nys,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,93,8,61.93,1.0
+Sales-Search-1,NY PLLC Formation,pllc nyc,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,59,6,52.1,1.0
+Sales-Search-1,NY PLLC Formation,nys pllc,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,120,4,46.94,0.0
+Sales-Search-1,NY PLLC Formation,form a pllc in ny,PHRASE,5,AVERAGE,BELOW_AVERAGE,AVERAGE,36,3,44.41,0.0
+Sales-Search-1,NY PLLC Formation,pllc in new york,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,64,4,39.72,0.0
+Sales-Search-1,NY PLLC Formation,nys pllc formation,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,99,3,37.58,1.0
+Sales-Search-1,NY PLLC Formation,form a pllc in new york,PHRASE,6,BELOW_AVERAGE,AVERAGE,ABOVE_AVERAGE,15,3,31.6,0.0
+Sales-Search-1,NY PLLC Formation,pllc in ny,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,65,4,28.89,0.25
+Sales-Search-1,NY PLLC Formation,new york pllc,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,102,4,27.61,0.0
+Sales-Search-1,NY PLLC Formation,pllc formation in new york,PHRASE,8,AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,3,1,27.1,0.0
+Sales-Search-1,NY PLLC Formation,forming a pllc in ny,EXACT,7,AVERAGE,ABOVE_AVERAGE,AVERAGE,8,3,23.02,1.0
+Sales-Search-1,NY PLLC Formation,form a pllc,PHRASE,5,AVERAGE,BELOW_AVERAGE,AVERAGE,7,2,22.41,0.0
+Sales-Search-1,NY PLLC Formation,start pllc,PHRASE,7,AVERAGE,AVERAGE,ABOVE_AVERAGE,10,2,20.71,0.0
+Sales-Search-1,NY PLLC Formation,pllc online,PHRASE,7,ABOVE_AVERAGE,AVERAGE,AVERAGE,5,1,12.57,0.0
+Sales-Search-1,NY PLLC Formation,forming a pllc in new york,PHRASE,7,BELOW_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,5,1,9.74,0.0
+Sales-Search-1,NY PLLC Formation,start a pllc,PHRASE,6,AVERAGE,BELOW_AVERAGE,ABOVE_AVERAGE,6,1,3.27,0.0
+Sales-Search-1,NY PLLC Formation,my pllc,PHRASE,8,AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,2,1,0.65,0.0
+Sales-Search-1,LCSW PLLC,clinical social work,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,lcsw nyc,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,lcsw bootcamp,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,lcsw salary nyc,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,lcsw new york,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,social work in nyc,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,lmsw jobs nyc,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,new york school of social work,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,rivky weiss,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,dore sheppard,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,lcsw ceu requirements ny,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,how to become a lcsw in ny,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,lcsw r new york,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,bcsnygroup,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,mental health programs in new york,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,comprehensive counseling lcsw,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,remote lcsw,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,lmhc nys,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,how to get lcsw in ny,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,nys office of professions license,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,free social work ceus new york,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,limited permit mental health counseling ny,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,lcsw nys,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,lcsw application ny,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,lcsw study groups,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,lcsw in nyc,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,lcsw in ny,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,ny lpc,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,lcswvibes,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,licensed social worker nyc,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,ray social work,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,the room for therapy lcsw pllc,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,lcsw r nys,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,lcsw vibes community,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,LCSW PLLC,lcsw new york pllc,PHRASE,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,video,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,free,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,samples,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,guide,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,example,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,law firm,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,law firms,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,cheap,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,rules,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,how to,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,meaning,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,limited liability company,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,attorney,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,lawyers,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,attorneys,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,lawyer,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,syracuse,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,rochester,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,buffalo,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,albany,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,class,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,lp,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,guidelines,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,template,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,forms,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,legal service,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,legal services,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,document,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,documents,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,instructions,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,definition,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,course,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,laws,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,inc,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,do it yourself,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,how do i,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,business lawyers,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,registered agent,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,pdf,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,corporations,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,partnership,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,business lawyer,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,limited liability,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,dba,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,corporate lawyer,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,brooklyn lawyer,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,statute,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,what is,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,corporate attorneys,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,nyc lawyer,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,incorporated,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,sole proprietor,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,llp,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,s corp,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,legalzoom,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,501c3,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,general partnership,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,agent services,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,nonprofit,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,sole proprietorship,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,bronx lawyer,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,DIY,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,doing business as,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,step by step,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,small business attorney,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,small business attorneys,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,s-corp,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,c corp,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,llp,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,wikipedia,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,foreign llc,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,reddit,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,quora,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,domestic limited liability company,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,youtube,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,incfile,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,llc publishing,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,llc publication,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,rocket lawyer,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,rocketlawyer,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,professional service limited liability company,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,publish my llc,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,publishmyllc,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,certificate of publication,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,whats a,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,agent service,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,staten island lawyer,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,northwest registered agent,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,queens lawyer,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,new york registered agent,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,professional limited liability,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,legal small business,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,publish llc,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,manhattan law firm,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,l.l.c,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,new york registered agent,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,forming a pllc,BROAD,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,nyc corporation,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,forming a pllc,PHRASE,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,10,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,zenbusiness,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,professional corporation new york,PHRASE,1,BELOW_AVERAGE,BELOW_AVERAGE,BELOW_AVERAGE,7,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,publication requirement,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,c-corp,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,company registration in new york,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,davis polk & wardwell llp new york,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,ny registered agent,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,llc newspaper,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,pllc articles of organization,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,pllc online,EXACT,7,ABOVE_AVERAGE,AVERAGE,AVERAGE,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,pllc formation new york,PHRASE,8,AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,domestic professional limited liability company,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,top corporate law firms in new york city,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,new york professional llc formation,PHRASE,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,pllc ein,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,form pllc,PHRASE,6,AVERAGE,AVERAGE,AVERAGE,6,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,how to start a pllc,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,pllc new york cost,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,cohn legal pllc,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,ny pllc requirements,PHRASE,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,how to form a pllc in new york,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,massachusetts pllc requirements,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,how to create a pllc in ny,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,how to form a pllc in ny,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,new york pllc requirements,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,pllc application ny,BROAD,4,BELOW_AVERAGE,AVERAGE,AVERAGE,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,the new york registered agent co,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,authorization to do business in ny,EXACT,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,pllc formation in ny,PHRASE,8,AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,6,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,new york pllc requirements,PHRASE,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,get pllc,PHRASE,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,get a pllc,PHRASE,9,ABOVE_AVERAGE,AVERAGE,ABOVE_AVERAGE,2,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,nys pllc requirements,BROAD,,,,,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,pllc application ny,PHRASE,4,BELOW_AVERAGE,AVERAGE,AVERAGE,0,0,0.0,0.0
+Sales-Search-1,NY PLLC Formation,nypllc,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,0,0,0.0,0.0

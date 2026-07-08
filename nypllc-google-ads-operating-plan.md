@@ -39,7 +39,7 @@ The timing argument for restructuring immediately survives on corrected grounds:
 ### 0.3 Reconciliation items (updated Jul 5 with owner's answers)
 
 1. **222 conversions vs. 338 orders — RESOLVED.** Confirmed: the 222 are Google-attributed orders; the other ~116 came from organic, referral, and Meta retargeting. Two implications: (a) the conversion action is counting the right thing, so historical CPA figures are trustworthy; (b) **Google Search drives ~66% of lifetime order flow** — this plan operates on the majority channel, and the projection model in Part 11 uses that ratio as a soft cross-check.
-2. **CRM AdSpend ($18,958) vs. Google's $19,911 — RESOLVED as stale data.** The CRM table simply hasn't been updated with recent Google spend or Meta spend. Standing action (added to the monthly SOP, Part 7): backfill the AdSpend table monthly so `calculate-true-net-profit.ts` stops overstating profit. Note: the $536 contribution-before-ads figure in 0.4 is unaffected (it's computed pre-ad-spend); only the "true net" outputs shift, modestly.
+2. **CRM AdSpend vs Google — backfilled Jul 8 2026.** CRM `AdSpend` GOOGLE lifetime row updated to **$20,068.24** (`2006824` cents) from Ads API (account 1529880213, 2025-10-22 → 2026-07-08). Was $19,900. FACEBOOK row still $500 stub — update separately. Standing action (monthly SOP, Part 7): re-pull Google spend and update the lifetime row so `calculate-true-net-profit.ts` stays honest. Script: `PLLC-CRM/crm/scripts/backfill-google-adspend.ts`. Note: the $536 contribution-before-ads figure in 0.4 is unaffected (pre-ad-spend).
 3. **Conversion window & model:** confirm 30-day click window, data-driven attribution (not last-click), and that the Spiffy webhook and any gtag purchase event aren't double-firing (Ads conversions should track CRM orders within ~±10% on a rolling 30 days — add this check to the weekly SOP).
 
 ### 0.4 Unit economics for bidding decisions
@@ -110,17 +110,31 @@ Anything currently marked primary that isn't a paid order gets demoted to second
 
 ### 1.2 Settings & hygiene checklist (do once, audit monthly)
 
-- [ ] **Auto-apply recommendations: OFF — all categories**, especially "Add broad match keywords," "Add responsive search ads," "Remove redundant keywords," and any bidding changes. Google will otherwise quietly rebuild the exact problem you're fixing.
-- [ ] **Location option = "Presence"** (people *in* your targets), not the default "Presence or interest." For a NY-services campaign, presence-or-interest leaks budget to people worldwide reading about New York. (The Foreign Qual campaign is the deliberate exception — see 2.3.)
-- [ ] **Search Partners:** segment last 90 days. If Partner CPA > 1.3× Google Search CPA, untick.
-- [ ] **Display Expansion: OFF** on every search campaign.
-- [ ] **Ad rotation: Optimize.**
-- [ ] **Audiences in Observation (never Targeting) on all campaigns:** all-site visitors, past converters, in-market "Business Services / Legal Services," and a **Customer Match** upload of your ~340 formation customers (for observation bid data and, later, exclusions from acquisition campaigns if you want). If Customer Match isn't yet unlocked (requires account history/spend/policy standing), note it and re-check at 90 days.
-- [ ] **Call reporting on** (Google forwarding numbers) so the call asset produces measurable call conversions.
+**Done Jul 8 2026 (Sales-Search-1 via API)** unless noted:
+
+- [x] **Auto-apply recommendations: OFF** — no ENABLED subscriptions; dangerous types created as **PAUSED** (API has no DISABLED; PAUSED = not auto-applying). Especially broad match, RSA adds, Search Partners opt-in, bidding opt-ins. Re-audit monthly in UI too — some auto-apply toggles are UI-only.
+- [x] **Location option = "Presence"** — was `PRESENCE_OR_INTEREST`; set to `PRESENCE` (NY State geo unchanged). Foreign Qual later is the deliberate exception (2.3).
+- [x] **Search Partners:** already OFF; last 90d had **$0 Partner spend** (Search only). Left unticked.
+- [x] **Display Expansion: OFF** (content network false).
+- [x] **Ad rotation:** unset / default Optimize on the ad group (no OPTIMIZE_FOR_CLICKS override).
+- [x] **Audiences in Observation** (`AUDIENCE` bid_only=true): All visitors, All Converters, in-market Business Services. No separate Legal Services in-market vertical in taxonomy.
+- [ ] **Customer Match:** CRM export ready — **353** unique `Customer.email` → `Ads - customer-match-emails_crm_2026-07-08.csv`. Empty list shell created via API: `NYPLLC Formation Customers (CRM)` id `9427032745`. **Upload blocked on Google Ads API** for this developer token (`CUSTOMER_NOT_ALLOWLISTED` → use [Data Manager API](https://developers.google.com/data-manager/api/devguides/audiences/google-ads/customer-match) or **Ads UI** Tools → Shared library → Audience manager → upload CSV into that list, then keep Observation).
+- [x] **Call reporting on** (already enabled, incl. call conversion reporting).
 
 ### 1.3 Negative keyword architecture — five shared lists, applied account-wide
 
-**List A — Other states (~110 entries).** Every state name + abbreviation except NY, as phrase match: `texas`, `tx`, `florida`, `fl`, `california`, `ca`, `pennsylvania`* … (*note: PA/NJ/CT/FL/TX terms must be *excluded from this list on the Foreign Qual campaign* — build List A-FQ, a copy minus the six origin states, and apply that version there).
+**Built + attached Jul 8 2026 (Sales-Search-1).** Shared sets (phrase match unless noted). A-FQ created for Foreign Qual later — **not** attached to Sales-Search-1.
+
+| List | Shared set id | Members | On Sales-Search-1 |
+|---|---|---|---|
+| Neg A — Other states (excl NY) | `12146898907` | 103 | Yes |
+| Neg A-FQ — Other states (excl NY + FQ origins) | `12146898703` | 89 | No (for 03_ForeignQual) |
+| Neg B — Research DIY education | `12145390194` | 15 | Yes |
+| Neg C — Wrong intent lookup jobs school | `12146898706` | 17 | Yes |
+| Neg D — Freebie price-shopping junk | `12146898991` | 5 | Yes |
+| Neg E — Publishing-only intent | `12146898709` | 7 | Yes |
+
+**List A — Other states (~110 entries).** Every state name + abbreviation except NY, as phrase match: `texas`, `tx`, `florida`, `fl`, `california`, `ca`, `pennsylvania`* … (*note: PA/NJ/CT/FL/TX/CA terms must be *excluded from this list on the Foreign Qual campaign* — List A-FQ is the copy minus those six origin states).
 
 **List B — Research/DIY/education:** `what is`, `meaning`, `definition`, `vs`, `versus`, `difference between`, `template`, `sample`, `example`, `pdf`, `free download`, `diy`, `yourself`, `wiki`, `pros and cons`.
 
@@ -128,29 +142,50 @@ Anything currently marked primary that isn't a paid order gets demoted to second
 
 **List D — Freebie/price-shopping junk:** `free llc`, `free ein`†, `cheapest`, `$0`, `no cost`. († you *provide* EIN service; `free ein` searchers want the IRS's free process — junk for you.)
 
-**List E — Publishing-only intent (permanent, per the no-publishing-ads decision, Jul 5 2026):** `certificate of publication`, `affidavit of publication`, `newspaper publication`, `publication service`, `publish my llc`, `llc publishing`, `publication only`. Applied to every campaign, forever. Two cautions: (1) do **not** negative the bare word `publication` — formation buyers search "pllc publication requirement ny" while deciding, and "Publication Included" is one of your strongest selling points; leave ambiguous publication-requirement queries to weekly mining. (2) Some of the broad keyword's historical conversions may have been publishing-only orders; when List E goes live, a dip of 1–3 conversions/month versus history is possible and accepted — that's the decision working, not the account breaking.
+**List E — Publishing-only intent (permanent, per the no-publishing-ads decision, Jul 5 2026):** `certificate of publication`, `affidavit of publication`, `newspaper publication`, `publication service`, `publish my llc`, `llc publishing`, `publication only`. Applied to every campaign, forever. Two cautions: (1) do **not** negative the bare word `publication` as phrase — formation buyers search "pllc publication requirement ny" while deciding; List E uses specific publishing-only phrases only. (Account already has campaign-level **exact** negatives `publication` / `publishing` from the Jun experiment — leave those; do not broaden to phrase.) (2) Some of the broad keyword's historical conversions may have been publishing-only orders; a dip of 1–3 conversions/month versus history is possible and accepted.
 
 **The do-NOT-negative list (this is where accounts get quietly strangled):** `cost`, `price`, `fee`, `fees`, `how much`, `how to form`, `how to start`, `requirements`. These read like research but your own funnel proves they're buyers — you sell a flat fee, your best content page is /how-to-form-a-pllc-in-ny, and "pllc cost ny" is a money query. Audit rule: before any new negative goes into a shared list, check 90-day search terms — if the term family has ever converted, it doesn't get negatived, it gets its own ad group.
 
-**Process:** the 8-day negative experiment you started Jun 28 folds into these lists. From now on, negatives are only ever added to shared lists (never scattered at ad-group level), so one weekly review protects every campaign at once.
+**Process:** the 8-day negative experiment (Jun 28) campaign/ad-group negatives remain in place; new junk goes **only** into these shared lists. Weekly review: promote converters to exact in structured campaigns later; junk → shared lists.
 
 ### 1.4 Asset (extensions) build — account level
 
-Your June asset test priced this work at roughly a $23 CPA improvement. Build the full set:
+**Applied Jul 8 2026 on Sales-Search-1** (measured keep/replace, not full wipe). Kept Get Started / Start Your Order / FAQ / Contact / Call + strong callouts (NYSED, Publishing, $885, etc.). Added sitemap-true sitelinks; replaced About Us → About NYPLLC; Amenities → Services snippet; new 3-offer price (Formation $885, VA $50/mo, Foreign from $910 — API requires ≥3 offerings); unlinked generic callouts + legacy About Us + old price v3. Account/ad-group auto profession sitelinks left for a later pass.
 
-**Sitelinks (8):** Pricing — $885 Flat | How the NYSED Process Works | Foreign PLLC Into NY | S Corp Election Add-On | Reviews (Trustpilot) | PLLCs by Profession | Virtual NY Address | Talk to a Specialist. Each with two 35-char description lines (e.g., Pricing: "Everything included, one flat fee" / "State fees, publication, EIN & OA").
+Your June asset test priced this work at roughly a $23 CPA improvement. Build the full set — **only against real sitemap URLs** (`web/src/app/sitemap.ts`). No sitelink to a page that does not exist.
 
-**Callouts (10):** Publication Included · NYSED OP Specialists · Flat $885 — No Hidden Fees · EIN & Operating Agreement · Registered Agent Yr 1 Free · 300+ NY PLLCs Formed · Licensed-Professional Focused · 120-Day Deadline Managed · Deficiency Handling Included · NY-Only, All Day Every Day.
+**Volume claim (ads + site):** The business has formed **thousands** of NY entities over years (partners page uses **25,000+**); this marketing site is newer. Do **not** use “300+” in ads — that understates history. Prefer “Thousands of NY Entities” / “25,000+ NY Entities” (fit callout ≤25 chars / headline ≤30).
 
-**Structured snippets:** Services: PLLC Formation, NYSED Approval, DOS Filing, Publication, EIN, Operating Agreement, S Corp Election, Registered Agent.
+**Sitelinks (8) — sitemap-true only** (each with two ≤35-char description lines):
 
-**Price assets:** PLLC Formation $885 · S Corp Election $195 · DBA Filing $109 · Virtual Address $50/mo · Registered Agent $99/yr. (Price assets pre-qualify clicks at your $8–11 CPCs — worth more than the CTR they cost.)
+| Link text | Final URL | Notes |
+|---|---|---|
+| Start Your Order — $885 | `https://www.nypllc.com/order` | Replaces fake `/pricing` (nav pricing is disabled) |
+| How to Form a PLLC | `/how-to-form-a-pllc-in-ny` | Closest to “NYSED process” — no dedicated NYSED-only page |
+| Foreign PLLC Into NY | `/foreign-pllc` | |
+| Virtual NY Address | `/virtual-address-services` | |
+| FAQ | `/faq` | |
+| Talk to a Specialist | `/contact` | |
+| About Us | `/about` | Rewrite — drop “25,000+ businesses since 2005” if wrong brand voice; volume claim OK if accurate |
+| PLLC for Therapists | `/professions/lcsw` | Stand-in for missing professions hub; swap profession if desired |
 
-**Call asset:** business hours schedule, call reporting on. **Business name + logo assets** verified. **Image assets:** 3–4 (office/skyline/document imagery — no stock-photo handshakes).
+**Do not build sitelinks for (no page):** `/pricing`, S Corp add-on, Trustpilot/reviews on-site, professions index hub. Trustpilot may stay a **callout/headline** only if the linked review property is nypllc (today footer still points at cheapnewyorkllc.com — fix before advertising it).
+
+**Callouts (10):** Publication Included · NYSED OP Specialists · Flat $885 — No Hidden Fees · EIN & Operating Agreement · Registered Agent Yr 1 Free · Thousands of NY Entities · Licensed-Professional Focused · 120-Day Deadline Managed · Deficiency Handling Included · NY-Only, All Day Every Day.
+
+**Structured snippets:** Services: PLLC Formation, NYSED Approval, DOS Filing, Publication, EIN, Operating Agreement, S Corp Election, Registered Agent. (Snippet values do not need their own landing pages.) Replace the live wrong **Amenities** snippet.
+
+**Price assets:** Only offers with real final URLs. **Ship:** PLLC Formation $885 → `/order` · Virtual Address $50/mo → `/virtual-address-services`. **Defer** S Corp $195 / DBA $109 / RA $99/yr until those have dedicated (or clearly sectioned) landing URLs — do not invent pages. Current live price asset only restates $885 three ways; replace with the multi-offer set above when ready.
+
+**Call asset:** business hours schedule, call reporting on (already on). **Business name + logo:** verify; drop auto 32×32 if a real logo is linked. **Image assets:** 3–4 office/skyline/document imagery — no stock-photo handshakes; audit existing “group of profs” / BFS logos.
+
+**Cleanup when rebuilding:** Pause/remove weak linked sitelinks (About Us legacy copy), generic callouts (“Trusted since 2005”, “Real human support”), and the Amenities structured snippet. **Keep** converting account/ad-group auto profession sitelinks unless measured otherwise (Jul 8: they assist conversions — not mandatory cleanup).
 
 ### 1.5 Baseline snapshot (the before-photo)
 
-Export and file, dated July 2026: 90-day search terms report (full, not top-50) · per-keyword Quality Score with all three components (Exp. CTR / Ad relevance / LP experience) · Auction Insights (who you actually compete with — expect ZenBusiness/LegalZoom/Northwest/local attorneys; record overlap rate and outranking share) · device, geo (which NY metros convert), hour-of-day, and day-of-week tables · current asset performance. Every future "did it work?" question gets answered against this snapshot.
+**Pulled Jul 8 2026 →** [`baseline-2026-07-08/`](baseline-2026-07-08/) (90d: 2026-04-10 → 2026-07-08): full search terms · keywords · QS components · devices · geo · hour-of-day · day-of-week · campaigns · keyword/campaign settings · negatives · conversion actions · asset performance. See folder `README.md`.
+
+**Still manual:** Auction Insights (API unavailable for this token) — export from UI when convenient and drop into that folder.
 
 ---
 
@@ -318,7 +353,7 @@ Under tCPA, a device bid adjustment modifies the CPA *target* for that device. S
 4. Publication Included
 5. EIN & Operating Agreement Inc
 6. Registered Agent Yr 1 Free
-7. 300+ New York PLLCs Formed
+7. Thousands of NY Entities Formed
 8. We Handle the NYSED Process
 9. Done-For-You OP Packet
 10. Rated 5 Stars on Trustpilot
@@ -363,7 +398,7 @@ CVR feeds the bidder's confidence, confident bidding wins more auctions cheaper,
 - Sticky bottom CTA bar on mobile: "Start My PLLC — $885" plus a tap-to-call link.
 - Cut first-step friction: name / email / profession only, then hand off to Spiffy.
 - Tap-to-call wired to the call asset's forwarding number so calls are measured (secondary conversion).
-- Trust band above the fold: Trustpilot stars · "300+ formed" · flat-fee badge.
+- Trust band above the fold: Trustpilot stars (nypllc property only) · "thousands formed" / site’s 25,000+ claim · flat-fee badge.
 
 ### 5.2 Test backlog (one at a time, ≥2 weeks or ≥100 conversions-worth of traffic each)
 

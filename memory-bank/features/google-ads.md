@@ -46,6 +46,7 @@ pip install -r requirements-ads.txt
 - §1.5 baseline exports in `baseline-2026-07-08/` (Auction Insights still manual)
 - Phase 1–2 (Jul 9 evening): `01_Core_Exact_NY` **ENABLED** on portfolio; `02_Professions_NY` portfolio-attached **PAUSED** (~Aug 3); `03_ForeignQual_US` PAUSED unattached (Gate 1)
 - Launch hygiene (Jul 9): mobile −20% on Sales/01/02/03; Start Your Order / FAQ / Contact sitelinks → `www.nypllc.com`; observation audiences + 24 campaign assets linked onto `01` (from Sales)
+- Gap fixes (Jul 9): Observation `bid_only` on 01/02/03; audiences+full assets on 02/03; Sales RSA final URLs → www; sitelink `Start Your Order — $885` + unlinked Get Started; secondary `Begin checkout` `7678925960` + `Phone call 60s+` `7678925963` (call reporting linked); site fires Begin checkout on Spiffy detect
 - `03_ForeignQual_US`: US Presence · $15/day · negatives **A-FQ + B–E** · 6 AGs / 33 kws / 12 RSAs (`campaigns/24012757620`)
 - Portfolio **`NYPLLC Search Portfolio`** (`12148056412`) Target CPA $90 — on **`Sales-Search-1`** + **`01`** (ENABLED) + **`02`** (PAUSED)
 - Health-policy keywords (`lcsw`, mental health, psychiatric NP, physical therapy): create via API with `exempt_policy_violation_keys` (validate with `check_keyword_policy.py`)

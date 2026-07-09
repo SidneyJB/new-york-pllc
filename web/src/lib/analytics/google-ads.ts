@@ -2,12 +2,20 @@ import { hashEmailForEnhancedConversions } from './enhanced-conversions'
 
 /**
  * Google Ads conversion tag (AW-17672972971).
- * Action: "Purchase (Spiffy thank-you value)" — primary as of Jul 9 2026 flip.
- * Created via API 2026-07-08; id 7678072764.
+ * Purchase: "Purchase (Spiffy thank-you value)" — primary as of Jul 9 2026 flip (id 7678072764).
+ * Begin checkout: secondary observation only (id 7678925960) — not in Conversions / bidding.
  *
  * Enhanced Conversions: pass thank-you `email` when Spiffy includes it; hashed client-side.
  */
 export const GOOGLE_ADS_PURCHASE_SEND_TO = 'AW-17672972971/w4sBCLyvmM0cEKvVkOtB'
+export const GOOGLE_ADS_BEGIN_CHECKOUT_SEND_TO = 'AW-17672972971/dWKtCIi5zM0cEKvVkOtB'
+
+export function trackGoogleAdsBeginCheckout(): void {
+  if (typeof window === 'undefined' || !window.gtag) return
+  window.gtag('event', 'conversion', {
+    send_to: GOOGLE_ADS_BEGIN_CHECKOUT_SEND_TO,
+  })
+}
 
 export async function trackGoogleAdsPurchase(options: {
   value: number

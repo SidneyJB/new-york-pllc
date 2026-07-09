@@ -10,6 +10,7 @@ import {
   useScrollDepthTracking,
 } from '@/components/analytics/form-tracking'
 import { trackLeadStart, trackLeadSubmit, trackCheckoutStart, trackScrollDepth } from '@/lib/analytics/track'
+import { trackGoogleAdsBeginCheckout } from '@/lib/analytics/google-ads'
 import { usePathname } from 'next/navigation'
 
 vi.mock('@/lib/analytics/track', () => ({
@@ -17,6 +18,10 @@ vi.mock('@/lib/analytics/track', () => ({
   trackLeadSubmit: vi.fn(),
   trackCheckoutStart: vi.fn(),
   trackScrollDepth: vi.fn(),
+}))
+
+vi.mock('@/lib/analytics/google-ads', () => ({
+  trackGoogleAdsBeginCheckout: vi.fn(),
 }))
 
 vi.mock('next/navigation', () => ({
@@ -125,6 +130,7 @@ describe('useCheckoutTracking', () => {
       price: 885,
       entityType: 'PLLC',
     })
+    expect(trackGoogleAdsBeginCheckout).toHaveBeenCalledTimes(1)
   })
 
   it('should not track if Spiffy form is not present', () => {
@@ -140,6 +146,7 @@ describe('useCheckoutTracking', () => {
     // So it will be called if form exists, but we need to wait for the timeout
     // Let's check that it doesn't track when form doesn't exist
     expect(trackCheckoutStart).not.toHaveBeenCalled()
+    expect(trackGoogleAdsBeginCheckout).not.toHaveBeenCalled()
   })
 
   it('should allow overriding plan, price, and entity type', () => {
@@ -161,6 +168,7 @@ describe('useCheckoutTracking', () => {
       price: 425,
       entityType: 'LLC',
     })
+    expect(trackGoogleAdsBeginCheckout).toHaveBeenCalledTimes(1)
   })
 
   it('should clean up timeout on unmount', () => {

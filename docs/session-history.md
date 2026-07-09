@@ -15,6 +15,7 @@ Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus re
 - RSA refresh: **`Rated 5 Stars on Google`** on `01_Core_Exact_NY` (8 RSAs; swapped for `Built for NY Professionals`) + `02_Professions_NY` (22 RSAs; added as 13th headline). `upload_rsas.py` gained `--replace` / `--campaigns`. Not on `03_ForeignQual_US`.
 - Conversion flip + `01` enable + portfolio attach done evening Jul 9
 - Launch hygiene: mobile −20% (Sales/01/02/03); 3 sitelinks → www; observation audiences + 24 assets on `01`
+- Gap fixes: Observation on 01/02/03; audiences+assets on 02/03; Sales RSA www; `Start Your Order — $885`; Begin checkout + phone ≥60s secondaries (+ site tag)
 - Still waiting: enable `02` ~Aug 3; `03` after Gate 1; Customer Match UI; Auction Insights export
 
 ## 2026-07-08 — Google Ads Phase 0 (conversion + hygiene)

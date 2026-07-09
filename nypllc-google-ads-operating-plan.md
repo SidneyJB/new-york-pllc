@@ -90,6 +90,8 @@ Zero changes to the live campaign's bidding or keywords during this phase. Every
 | Begin checkout | Web | One | None | 7-day | Secondary/observation only |
 | Phone call ≥60s (call asset) | Call | One | None | 30-day | Secondary until you verify call quality, then consider primary at a fractional value (~$150) |
 
+**Done Jul 9 2026:** Begin checkout `7678925960` (`WEBPAGE`, `send_to` `AW-17672972971/dWKtCIi5zM0cEKvVkOtB`) — site fires on Spiffy embed detect; secondary / not in Conversions. Phone call `7678925963` (`AD_CALL`, ≥60s) — linked as customer `call_conversion_action`; secondary / not in Conversions.
+
 Anything currently marked primary that isn't a paid order gets demoted to secondary this week.
 
 **1.1.2 Revenue values.** Import the real order total from the Spiffy/Stripe webhook: $885 standard, $860 B2B-referral checkouts, $910–995 foreign qual by state, add-ons included in the total. (Publishing-only orders won't carry click IDs once List E is live, so they never enter ad conversion data.) **Payment plans: send the full contracted value on the first successful installment**, not per-installment amounts — otherwise a $885 four-pay order teaches the bidder it's worth $221.
@@ -123,7 +125,7 @@ Anything currently marked primary that isn't a paid order gets demoted to second
 - [x] **Search Partners:** already OFF; last 90d had **$0 Partner spend** (Search only). Left unticked.
 - [x] **Display Expansion: OFF** (content network false).
 - [x] **Ad rotation:** unset / default Optimize on the ad group (no OPTIMIZE_FOR_CLICKS override).
-- [x] **Audiences in Observation** (`AUDIENCE` bid_only=true): All visitors, All Converters, in-market Business Services. No separate Legal Services in-market vertical in taxonomy.
+- [x] **Audiences in Observation** (`AUDIENCE` bid_only=true): All visitors, All Converters, in-market Business Services. No separate Legal Services in-market vertical in taxonomy. **Jul 9:** set on Sales + `01`/`02`/`03` (01 was missing `bid_only` after audience copy — fixed).
 - [ ] **Customer Match:** CRM export ready — **353** unique `Customer.email` → `Ads - customer-match-emails_crm_2026-07-08.csv`. Empty list shell created via API: `NYPLLC Formation Customers (CRM)` id `9427032745`. **Upload blocked on Google Ads API** for this developer token (`CUSTOMER_NOT_ALLOWLISTED` → use [Data Manager API](https://developers.google.com/data-manager/api/devguides/audiences/google-ads/customer-match) or **Ads UI** Tools → Shared library → Audience manager → upload CSV into that list, then keep Observation).
 - [x] **Call reporting on** (already enabled, incl. call conversion reporting).
 

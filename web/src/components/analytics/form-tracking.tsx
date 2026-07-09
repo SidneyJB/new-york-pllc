@@ -3,6 +3,7 @@
 import { useEffect, useRef } from 'react'
 import { usePathname } from 'next/navigation'
 import { trackLeadStart, trackLeadSubmit, trackCheckoutStart, trackScrollDepth } from '@/lib/analytics/track'
+import { trackGoogleAdsBeginCheckout } from '@/lib/analytics/google-ads'
 import { PRICING } from '@/lib/constants'
 
 export interface CheckoutTrackingOptions {
@@ -48,21 +49,26 @@ export function useCheckoutTracking(options?: CheckoutTrackingOptions) {
     price = PRICING.basePrice,
     entityType = 'PLLC',
   } = options || {}
+  const hasTrackedCheckoutStart = useRef(false)
 
   useEffect(() => {
-    // Track checkout start when Spiffy form is detected
+    // Track checkout start when Spiffy form is detected (once per mount)
     const checkForSpiffy = () => {
+      if (hasTrackedCheckoutStart.current) return
       const spiffyForm = document.querySelector('spiffy-checkout')
       if (spiffyForm) {
+        hasTrackedCheckoutStart.current = true
         // Store checkout start time for duration calculation
         const checkoutStartTime = Date.now()
         sessionStorage.setItem('checkout_start_time', checkoutStartTime.toString())
-        
+
         trackCheckoutStart({
           plan,
           price,
           entityType,
         })
+        // Secondary Ads observation action — not used for bidding
+        trackGoogleAdsBeginCheckout()
       }
     }
 

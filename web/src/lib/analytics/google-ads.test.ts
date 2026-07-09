@@ -1,5 +1,28 @@
 import { describe, expect, it, vi, beforeEach, afterEach } from 'vitest'
-import { trackGoogleAdsPurchase } from './google-ads'
+import {
+  trackGoogleAdsBeginCheckout,
+  trackGoogleAdsPurchase,
+} from './google-ads'
+
+describe('trackGoogleAdsBeginCheckout', () => {
+  const gtag = vi.fn()
+
+  beforeEach(() => {
+    gtag.mockClear()
+    window.gtag = gtag
+  })
+
+  afterEach(() => {
+    delete window.gtag
+  })
+
+  it('fires secondary Begin checkout conversion', () => {
+    trackGoogleAdsBeginCheckout()
+    expect(gtag).toHaveBeenCalledWith('event', 'conversion', {
+      send_to: 'AW-17672972971/dWKtCIi5zM0cEKvVkOtB',
+    })
+  })
+})
 
 describe('trackGoogleAdsPurchase', () => {
   const gtag = vi.fn()

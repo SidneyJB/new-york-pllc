@@ -11,6 +11,21 @@
 
 ---
 
+## Changes on 2026-07-09 (evening) — Gap fixes (post-audit)
+
+Ignored Sales $500/day budget (soft ceiling). Skipped cosmetic callout rewording (intent covered).
+
+| Fix | Detail |
+|---|---|
+| Observation on 01/02/03 | `AUDIENCE` `bid_only=True` (was empty on drafts — 01 was live Targeting risk) |
+| Audiences on 02/03 | Same 3 Observation audiences as Sales/01 |
+| Campaign assets on 02/03 | Linked full 01 set (8 sitelinks, 12 callouts, call, price, snippet, logo) |
+| Sales RSA www | All 4 Sales RSAs → `https://www.nypllc.com…` |
+| Sitelink label | `Start Your Order — $885`; unlinked duplicate `Get Started` from Sales |
+| §1.1.1 secondaries | Created `Begin checkout (Spiffy embed)` `7678925960` (7d, secondary) + `Phone call 60s+ (call asset)` `7678925963` (AD_CALL ≥60s, linked to call reporting). Site fires Begin checkout on Spiffy embed detect. |
+
+---
+
 ## Changes on 2026-07-09 (evening) — Launch hygiene
 
 Left Sales $500/day budget alone (soft ceiling under tCPA).

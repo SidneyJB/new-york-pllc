@@ -41,21 +41,31 @@ def ad_group_map(client, cid: str) -> dict[tuple[str, str], str]:
     }
 
 
-def existing_rsa_index(client, cid: str) -> set[tuple[str, str, str]]:
-    """Existing RSAs keyed by (campaign, ad_group, ad.name)."""
+def existing_rsa_index(client, cid: str) -> dict[tuple[str, str, str], str]:
+    """Existing RSAs keyed by (campaign, ad_group, ad.name) → ad_group_ad resource_name."""
     service = client.get_service("GoogleAdsService")
     names = ", ".join(f"'{n}'" for n in DRAFT_CAMPAIGNS)
     query = f"""
-        SELECT campaign.name, ad_group.name, ad_group_ad.ad.name
+        SELECT campaign.name, ad_group.name, ad_group_ad.ad.name, ad_group_ad.resource_name
         FROM ad_group_ad
         WHERE campaign.name IN ({names})
           AND ad_group_ad.status != 'REMOVED'
           AND ad_group_ad.ad.type = 'RESPONSIVE_SEARCH_AD'
     """
     return {
-        (row.campaign.name, row.ad_group.name, row.ad_group_ad.ad.name)
+        (row.campaign.name, row.ad_group.name, row.ad_group_ad.ad.name): row.ad_group_ad.resource_name
         for row in service.search(customer_id=cid, query=query)
     }
+
+
+def remove_rsa(client, cid: str, resource_name: str, dry_run: bool) -> None:
+    if dry_run:
+        print(f"  [dry-run] remove {resource_name}")
+        return
+    service = client.get_service("AdGroupAdService")
+    operation = client.get_type("AdGroupAdOperation")
+    operation.remove = resource_name
+    service.mutate_ad_group_ads(customer_id=cid, operations=[operation])
 
 
 def create_rsa(
@@ -109,6 +119,13 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--manifest", type=Path, default=MANIFEST_PATH)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--replace", action="store_true", help="Remove existing RSA with same name, then recreate")
+    parser.add_argument(
+        "--campaigns",
+        nargs="+",
+        choices=DRAFT_CAMPAIGNS,
+        help="Only upload RSAs for these campaigns (default: all in manifest)",
+    )
     parser.add_argument("--customer-id", default=None)
     args = parser.parse_args(argv)
 
@@ -119,16 +136,23 @@ def main(argv: list[str] | None = None) -> int:
     existing = existing_rsa_index(client, cid)
 
     created = 0
+    replaced = 0
     skipped = 0
     failed = 0
     results: list[dict] = []
 
+    rsas = manifest["rsas"]
+    if args.campaigns:
+        allowed = set(args.campaigns)
+        rsas = [r for r in rsas if r["campaign_name"] in allowed]
+
     print(
-        f"Uploading {len(manifest['rsas'])} RSAs "
+        f"Uploading {len(rsas)} RSAs "
         f"{'(dry-run)' if args.dry_run else 'to account ' + cid}"
+        + (" replace" if args.replace else "")
     )
 
-    for rsa in manifest["rsas"]:
+    for rsa in rsas:
         key = (rsa["campaign_name"], rsa["ad_group_name"])
         ag_resource = groups.get(key)
         if not ag_resource:
@@ -139,12 +163,26 @@ def main(argv: list[str] | None = None) -> int:
         ad_name = f"{rsa['ad_group_name']} — {rsa['rsa_variant']}"
         index_key = (rsa["campaign_name"], rsa["ad_group_name"], ad_name)
         if index_key in existing:
-            print(
-                f"  skip existing: {rsa['campaign_name']} / "
-                f"{rsa['ad_group_name']} / {rsa['rsa_variant']}"
-            )
-            skipped += 1
-            continue
+            if args.replace:
+                try:
+                    remove_rsa(client, cid, existing[index_key], args.dry_run)
+                    del existing[index_key]
+                    replaced += 1
+                except GoogleAdsException as exc:
+                    failed += 1
+                    msgs = "; ".join(e.message for e in exc.failure.errors)
+                    print(
+                        f"  FAIL remove {rsa['campaign_name']} / "
+                        f"{rsa['ad_group_name']} / {rsa['rsa_variant']}: {msgs}"
+                    )
+                    continue
+            else:
+                print(
+                    f"  skip existing: {rsa['campaign_name']} / "
+                    f"{rsa['ad_group_name']} / {rsa['rsa_variant']}"
+                )
+                skipped += 1
+                continue
 
         try:
             resource = create_rsa(client, cid, ag_resource, rsa, args.dry_run)
@@ -162,7 +200,7 @@ def main(argv: list[str] | None = None) -> int:
                     }
                 )
                 created += 1
-                existing.add(index_key)
+                existing[index_key] = resource
             else:
                 created += 1
         except GoogleAdsException as exc:
@@ -178,6 +216,7 @@ def main(argv: list[str] | None = None) -> int:
         "dry_run": args.dry_run,
         "customer_id": cid,
         "created": created,
+        "replaced": replaced,
         "skipped": skipped,
         "failed": failed,
         "results": results,
@@ -186,7 +225,7 @@ def main(argv: list[str] | None = None) -> int:
         out_path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
         print(f"\nWrote {out_path}")
 
-    print(f"\nDone: created={created} skipped={skipped} failed={failed}")
+    print(f"\nDone: created={created} replaced={replaced} skipped={skipped} failed={failed}")
     return 1 if failed else 0
 
 

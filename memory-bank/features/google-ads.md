@@ -49,7 +49,7 @@ pip install -r requirements-ads.txt
 - Portfolio **`NYPLLC Search Portfolio`** (`12148056412`) Target CPA $90 — attached to **`Sales-Search-1` only** (Jul 9); drafts not attached yet
 - Health-policy keywords (`lcsw`, mental health, psychiatric NP, physical therapy): create via API with `exempt_policy_violation_keys` (validate with `check_keyword_policy.py`)
 - RSA gotcha: Unicode `→` is SYMBOLS **PROHIBITED** — use ASCII `-`
-- Reviews: site uses NYPLLC GBP (`BUSINESS_INFO.googleBusinessProfileUrl`); AggregateRating from `BUSINESS_INFO.googleReviews` = **5.0 / 6** (live GBP Jul 9 2026). Trustpilot RSA headline omitted; optional Google-reviews headline OK with that claim (bump count when GBP changes)
+- Reviews: site uses NYPLLC GBP (`BUSINESS_INFO.googleBusinessProfileUrl`); AggregateRating from `BUSINESS_INFO.googleReviews` = **5.0 / 6** (live GBP Jul 9 2026). RSAs use **`Rated 5 Stars on Google`** on `01`/`02` (5-star only — no review count in ad copy); keep schema in sync when GBP changes
 
 ## Docs
 

@@ -176,7 +176,7 @@ Your June asset test priced this work at roughly a $23 CPA improvement. Build th
 | About Us | `/about` | Rewrite — drop “25,000+ businesses since 2005” if wrong brand voice; volume claim OK if accurate |
 | PLLC for Therapists | `/professions/lcsw` | Stand-in for missing professions hub; swap profession if desired |
 
-**Do not build sitelinks for (no page):** `/pricing`, S Corp add-on, on-site reviews hub, professions index hub. **Reviews (Jul 9 2026):** site links + schema → NYPLLC **Google Business Profile** (not Trustpilot / not cheapnewyorkllc). Live GBP: **5.0 stars, 6 reviews** (`BUSINESS_INFO.googleReviews`). Trustpilot RSA headline omitted; optional Google-reviews headline may use that locked claim (update count when GBP changes).
+**Do not build sitelinks for (no page):** `/pricing`, S Corp add-on, on-site reviews hub, professions index hub. **Reviews (Jul 9 2026):** site links + schema → NYPLLC **Google Business Profile** (not Trustpilot / not cheapnewyorkllc). Live GBP: **5.0 stars, 6 reviews** (`BUSINESS_INFO.googleReviews`). RSAs on `01`/`02` use **`Rated 5 Stars on Google`** (5-star only in ad copy; no review count).
 
 **Callouts (10):** Publication Included · NYSED OP Specialists · Flat $885 — No Hidden Fees · EIN & Operating Agreement · Registered Agent Yr 1 Free · Thousands of NY Entities · Licensed-Professional Focused · 120-Day Deadline Managed · Deficiency Handling Included · NY-Only, All Day Every Day.
 
@@ -361,7 +361,7 @@ Under tCPA, a device bid adjustment modifies the CPA *target* for that device. S
 - Every ad group's H1 family must echo its query family — this is the ad-relevance component of Quality Score, which is a direct input to the rank-lost problem.
 - **Creative change log:** date, ad group, what changed. Ad edits reset ad-level learning; never edit ads and bids in the same window.
 
-**Assembled + uploaded Jul 9 2026:** Full RSA packages for all **21** draft ad groups (**42 RSAs**) in [`google-ads-campaign-build/rsas/`](google-ads-campaign-build/rsas/) — uploaded via `google_ads/upload_rsas.py` into paused campaigns (ads ENABLED inside PAUSED campaigns). Built from §4.1–4.3 (+ §2.3 Foreign Qual prices). Trims: headline #7 → `Thousands of NY Entities` (≤30); desc #1 and therapist descs trimmed to ≤90. **Omitted** headline #10 Trustpilot (no NYPLLC Trustpilot; site uses GBP **5★ / 6 reviews** — optional Google-reviews headline with that claim). Segment counts only where stated (70+ therapists/counselors; 50+ physicians). Foreign Qual: no `→` (SYMBOLS PROHIBITED). Enable 01/02 after conversion flip; 03 after Gate 1.
+**Assembled + uploaded Jul 9 2026:** Full RSA packages for all **21** draft ad groups (**42 RSAs**) in [`google-ads-campaign-build/rsas/`](google-ads-campaign-build/rsas/) — uploaded via `google_ads/upload_rsas.py` into paused campaigns (ads ENABLED inside PAUSED campaigns). Built from §4.1–4.3 (+ §2.3 Foreign Qual prices). Trims: headline #7 → `Thousands of NY Entities` (≤30); desc #1 and therapist descs trimmed to ≤90. **Headline #10:** `Rated 5 Stars on Trustpilot` → **`Rated 5 Stars on Google`** on `01`/`02` (uploaded Jul 9; Core swaps `Built for NY Professionals`; Professions adds 13th headline; 5-star only — no review count in copy). Segment counts only where stated (70+ therapists/counselors; 50+ physicians). Foreign Qual: no `→` (SYMBOLS PROHIBITED). Enable 01/02 after conversion flip; 03 after Gate 1.
 
 ### 4.2 Copy library (headlines ≤30 chars, descriptions ≤90 — trim in-editor)
 
@@ -375,7 +375,7 @@ Under tCPA, a device bid adjustment modifies the CPA *target* for that device. S
 7. Thousands of NY Entities Formed
 8. We Handle the NYSED Process
 9. Done-For-You OP Packet
-10. Rated 5 Stars on Trustpilot
+10. Rated 5 Stars on Google *(live on `01`/`02`; was Trustpilot in v2 draft — omitted Jul 9 AM, added Jul 9 PM)*
 11. Flat Fee — No Hidden Costs
 12. Start Your NY PLLC This Week
 13. 120-Day Publication Managed
@@ -528,7 +528,7 @@ Gates are permission slips, not deadlines. Missing a gate by two weeks costs alm
 | Week of | Actions |
 |---|---|
 | Jul 6 | ✅ Phase 0: conversion audit + fixes (1.1) · settings checklist (1.2) · build negative lists A–E (1.3) · backfill CRM AdSpend · baseline exports (1.5) — **done Jul 8** |
-| Jul 13 | ✅ Full asset build (1.4) — **done Jul 8** · ✅ draft `01` + `02` + `03_ForeignQual_US` **PAUSED** (keywords + **42 RSAs**) — **done Jul 9** · ✅ create portfolio tCPA $90 · attach `Sales-Search-1` only — **done Jul 9** · ⏳ wait Ads-attributed thank-you → conversion flip (1.1.2) before enable 01/02 |
+| Jul 13 | ✅ Full asset build (1.4) — **done Jul 8** · ✅ draft `01` + `02` + `03_ForeignQual_US` **PAUSED** (keywords + **42 RSAs**) — **done Jul 9** · ✅ create portfolio tCPA $90 · attach `Sales-Search-1` only — **done Jul 9** · ✅ Google-reviews RSA headline on `01`/`02` — **done Jul 9** · ⏳ wait Ads-attributed thank-you → conversion flip (1.1.2) before enable 01/02 |
 | Jul 20 | **Launch 01_Core_Exact** (after flip + portfolio attach + RSAs). Daily 10-min monitoring |
 | Jul 27 | First formal weekly SOP · (02 already drafted Jul 9 — polish RSAs / prep enable) |
 | Aug 3 | **Launch 02_Professions** |
@@ -581,7 +581,7 @@ Notes on reading this honestly:
 4. **GA4 (or equivalent) with funnel events on nypllc.com?** Needed to instrument CVR for Part 5; if absent, installing it is a week-1 task.
 5. **Meta retargeting inventory for the record:** monthly spend, audience definitions, creative age — for the 6.2 housekeeping pass and the CRM AdSpend backfill.
 6. **$985 price test timing** (from the broader growth plan): schedule it into a window that doesn't overlap a ladder step or January (4.4). Recommended slot: late September, between Gates 2 and 3, or defer to February.
-7. **Phase 1–2 drafts + portfolio + RSAs — DONE Jul 9 2026 (still PAUSED).** `01_Core_Exact_NY` + `02_Professions_NY` + `03_ForeignQual_US` with keywords + **42 RSAs**; portfolio `NYPLLC Search Portfolio` ($90) on `Sales-Search-1` only. **Still open:** Ads-attributed thank-you → flip primary conversion (1.1.2); attach 01/02 to portfolio; enable Core Exact; Customer Match UI upload (1.2); enable Foreign Qual after Gate 1. Site reviews → GBP (**5.0 / 6**); optional Google-reviews RSA headline with that claim.
+7. **Phase 1–2 drafts + portfolio + RSAs — DONE Jul 9 2026 (still PAUSED).** `01_Core_Exact_NY` + `02_Professions_NY` + `03_ForeignQual_US` with keywords + **42 RSAs**; portfolio `NYPLLC Search Portfolio` ($90) on `Sales-Search-1` only. Google-reviews RSA headline **`Rated 5 Stars on Google`** live on `01`/`02`. **Still open:** Ads-attributed thank-you → flip primary conversion (1.1.2); attach 01/02 to portfolio; enable Core Exact; Customer Match UI upload (1.2); enable Foreign Qual after Gate 1.
 
 ---
 

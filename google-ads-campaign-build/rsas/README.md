@@ -36,7 +36,7 @@ Assembled **Jul 9 2026** from [nypllc-google-ads-operating-plan.md](../../nypllc
 | `Thousands of NY Entities Formed` (31) | → `Thousands of NY Entities` | ≤30 chars; matches §1.4 callout form |
 | Desc #1 (93 chars) | Shortened | §4.2 “trim in-editor” |
 | Therapist descs (91–92) | Shortened | ≤90 |
-| `Rated 5 Stars on Trustpilot` | **Omitted** | No NYPLLC Trustpilot; site uses GBP **5★ / 6** — optional Google-reviews headline with that claim |
+| `Rated 5 Stars on Trustpilot` | → `Rated 5 Stars on Google` | No NYPLLC Trustpilot; GBP is 5★ — Google only, no review count. Core Exact: **swap** for `Built for NY Professionals` (15H cap). Professions: **add** as 13th headline. |
 | Segment counts | Only **70+** therapists/counselors and **50+** physicians | Per §4.3; no invented counts for other professions |
 
 ## Cost-Price (§2.1 AG3)

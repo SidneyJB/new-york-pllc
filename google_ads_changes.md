@@ -43,7 +43,7 @@ Validate-only scan (`check_keyword_policy.py`): **6 exemptible** keywords under 
 - Assembled + **uploaded** **42 RSAs** (2×21 ad groups) via `google_ads/upload_rsas.py` into paused campaigns
 - Ads **ENABLED** inside **PAUSED** campaigns (ready when campaigns are enabled)
 - Controlled RSAs pin price headline to H1; unpinned variants have no pins
-- Trustpilot headline omitted (no NYPLLC Trustpilot; site uses GBP **5★ / 6 reviews**)
+- Trustpilot headline omitted initially (no NYPLLC Trustpilot; site uses GBP **5★ / 6 reviews**)
 - Foreign Qual: replaced `→` with `-` after SYMBOLS PROHIBITED rejection
 - Result: `google-ads-campaign-build/rsas/rsa-upload-result.json`
 
@@ -55,7 +55,36 @@ Validate-only scan (`check_keyword_policy.py`): **6 exemptible** keywords under 
 
 - Attach 01/02 to portfolio + enable (wait for conversion flip)
 - Enable `03_ForeignQual_US` after Gate 1
-- Customer Match UI upload · Auction Insights export · optional Google-reviews RSA headline (claim locked: 5★ / 6)
+- Customer Match UI upload · Auction Insights export
+
+---
+
+## Changes on 2026-07-09 (later) — Google-reviews RSA headline
+
+Source: operating plan §4.2 headline #10 (Trustpilot → Google) · `google-ads-campaign-build/rsas/` · `upload_rsas.py --replace`
+
+### Headline
+
+- **`Rated 5 Stars on Google`** (24 chars) — 5-star claim only; **no review count** in ad copy (GBP verified 5.0)
+
+### `01_Core_Exact_NY` (8 RSAs re-uploaded)
+
+- Swapped for `Built for NY Professionals` (15-headline API cap)
+- All 4 ad groups: Formation-Core · Service-Intent · Cost-Price · Brand (controlled + unpinned)
+- Result: `google-ads-campaign-build/rsas/rsa-upload-result.json`
+
+### `02_Professions_NY` (22 RSAs re-uploaded)
+
+- Added as 13th headline (before `Deficiency Handling Included`)
+- All 11 profession ad groups (controlled + unpinned)
+
+### Tooling
+
+- `upload_rsas.py`: `--replace` (remove + recreate by ad name) · `--campaigns` filter
+
+### Unchanged
+
+- `03_ForeignQual_US` — foreign-qual copy only; no Google-reviews headline
 
 ---
 

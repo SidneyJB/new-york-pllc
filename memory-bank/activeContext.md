@@ -15,7 +15,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 1. **Blocked on go-live:** wait for Ads-attributed thank-you → confirm `Purchase (Spiffy thank-you value)` `$` under All conversions → **conversion flip** (tagged primary, page-load secondary)
 2. After flip: attach `01`/`02` to portfolio; enable `01_Core_Exact_NY` per calendar; then `02`; `03` after Gate 1
-3. **Parallel now (not blocked):** Customer Match UI upload (`Ads - customer-match-emails_crm_2026-07-08.csv`); Auction Insights manual export; optional mobile LP (5.1); optional Google-reviews RSA headline (locked claim: **5★ / 6 reviews**)
+3. **Parallel now (not blocked):** Customer Match UI upload (`Ads - customer-match-emails_crm_2026-07-08.csv`); Auction Insights manual export; optional mobile LP (5.1)
 4. More foreign state landings / partner / SEO when tasked
 5. **Later (deferred):** `gclid`/`wbraid`/`gbraid` → Spiffy checkout URL + CRM order storage for offline conversions — see operating plan §1.1.3 note (Jul 9 2026)
 
@@ -42,7 +42,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 📖 Full log: [session-history.md](../docs/session-history.md)
 
-Latest (Jul 9 2026): Drafts PAUSED (`01`/`02`/`03`) + **42 RSAs**; site Trustpilot → GBP reviews (**5★ / 6**); portfolio on `Sales-Search-1` only. Prior (Jul 8): Phase 0 conversion wiring + settings/negatives/assets + baselines + CRM AdSpend backfill.
+Latest (Jul 9 2026): RSA headline **`Rated 5 Stars on Google`** on `01`/`02` (live in account; Core swap / Professions add); drafts PAUSED + **42 RSAs**; site Trustpilot → GBP (**5★ / 6**); portfolio on `Sales-Search-1` only. Prior (Jul 8): Phase 0 conversion wiring + settings/negatives/assets + baselines + CRM AdSpend backfill.
 
 ## Session start
 

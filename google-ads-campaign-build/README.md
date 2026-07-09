@@ -96,5 +96,4 @@ CA exacts live in Generic (no CA state page yet). Skipped `certificate of author
 
 - Campaign enable / budget ramp
 - Discovery fence negatives on `Sales-Search-1` (§2.4 — Gate 2)
-- Google-reviews RSA headline (optional; site GBP **5★ / 6** locked Jul 9)
 - CA state landing page (CA keywords → hub for now)

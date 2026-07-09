@@ -12,10 +12,11 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 ## Next steps
 
-1. After next real thank-you: confirm Ads **All conversions** for `Purchase (Spiffy thank-you value)` with correct `$` → flip tagged → primary, page-load → secondary
+1. After next **Ads-attributed** thank-you: confirm Ads **All conversions** for `Purchase (Spiffy thank-you value)` with correct `$` → flip tagged → primary, page-load → secondary
 2. Customer Match CSV UI upload (`Ads - customer-match-emails_crm_2026-07-08.csv`) after flip
 3. Then Phase 1: portfolio tCPA + `01_Core_Exact_NY` per operating plan calendar/gates
 4. More foreign state landings / partner / SEO when tasked
+5. **Later (deferred):** `gclid`/`wbraid`/`gbraid` → Spiffy checkout URL + CRM order storage for offline conversions — see operating plan §1.1.3 note (Jul 9 2026)
 
 ## Active decisions
 

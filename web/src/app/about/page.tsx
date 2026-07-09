@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
+import { BUSINESS_INFO } from '@/lib/constants'
 import { ABOUT_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 
@@ -95,9 +96,15 @@ export default function AboutExtendedSection() {
               <p><strong>Promises we can keep.</strong> We'd rather under-promise than disappoint.</p>
               <p><strong>Kindness and speed.</strong> Quick replies matter when your work depends on paperwork.</p>
               <p>
-                <Link href="https://www.trustpilot.com/review/cheapnewyorkllc.com" className="underline underline-offset-4" target="_blank" rel="noopener noreferrer">
-                  See our perfect five star rating on Trustpilot
-                </Link>.
+                <Link
+                  href={BUSINESS_INFO.googleBusinessProfileUrl}
+                  className="underline underline-offset-4"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  See our Google reviews
+                </Link>
+                .
               </p>
             </div>
           </div>

@@ -2,14 +2,17 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
-## 2026-07-09 — Google Ads Phase 1 draft campaigns (PAUSED)
+## 2026-07-09 — Google Ads Phase 1–2 draft campaigns (PAUSED)
 
-- Built upload package `google-ads-campaign-build/` from operating plan §2.1–2.2 (`manifest.json`, CSVs)
-- API upload script: `google_ads/upload_campaigns.py` (resume + policy-exemption retry)
+- Built upload package `google-ads-campaign-build/` from operating plan §2.1–2.3 (`manifest.json`, CSVs)
+- API upload scripts: `google_ads/upload_campaigns.py` (resume + policy-exemption; geo from manifest) · `upload_rsas.py`
 - Policy check: `google_ads/check_keyword_policy.py` → `policy-check.json`
-- **Live (PAUSED):** `01_Core_Exact_NY` (4 AGs, 41 keywords, 8 RSAs) · `02_Professions_NY` (11 AGs, 34 keywords, 22 RSAs; 6 health-policy exemptions requested)
+- **Live (PAUSED):** `01_Core_Exact_NY` (4 AGs, 41 kws, 8 RSAs) · `02_Professions_NY` (11 AGs, 34 kws, 22 RSAs; 6 health exemptions) · `03_ForeignQual_US` (6 AGs, 33 kws, 12 RSAs; US Presence; A-FQ + B–E; $15/day)
 - Portfolio **`NYPLLC Search Portfolio`** ($90) created; attached to **`Sales-Search-1` only**
-- Still waiting: Ads-attributed thank-you → conversion flip; attach drafts + enable
+- RSA note: `→` rejected as SYMBOLS PROHIBITED — Foreign Qual copy uses `-`
+- API verify Jul 9: `03` PAUSED, US geo, A-FQ+B–E, 6 AGs / 33 kws / 12 RSAs, manifest parity OK
+- Site: Trustpilot/cheapnewyorkllc review links → NYPLLC Google Business Profile (`BUSINESS_INFO.googleBusinessProfileUrl`); schema AggregateRating = **5.0 / 6 reviews** (owner-confirmed live GBP Jul 9)
+- Still waiting: Ads-attributed thank-you → conversion flip; attach 01/02 + enable; FQ after Gate 1
 
 ## 2026-07-08 — Google Ads Phase 0 (conversion + hygiene)
 

@@ -14,3 +14,9 @@ campaign_name,ad_group_name,status,final_url
 02_Professions_NY,Engineers,ENABLED,https://www.nypllc.com/professions/engineer
 02_Professions_NY,Attorneys,ENABLED,https://www.nypllc.com/professions/law
 02_Professions_NY,CPAs,ENABLED,https://www.nypllc.com/professions/cpa
+03_ForeignQual_US,Generic-ForeignQual,ENABLED,https://www.nypllc.com/foreign-pllc
+03_ForeignQual_US,New-Jersey,ENABLED,https://www.nypllc.com/foreign-pllc/new-jersey
+03_ForeignQual_US,Pennsylvania,ENABLED,https://www.nypllc.com/foreign-pllc/pennsylvania
+03_ForeignQual_US,Florida,ENABLED,https://www.nypllc.com/foreign-pllc/florida
+03_ForeignQual_US,Texas,ENABLED,https://www.nypllc.com/foreign-pllc/texas
+03_ForeignQual_US,Connecticut,ENABLED,https://www.nypllc.com/foreign-pllc/connecticut

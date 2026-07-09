@@ -1,10 +1,9 @@
- 
 import Link from 'next/link'
-import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
+import { BUSINESS_INFO } from '@/lib/constants'
 import { FAQ_METADATA } from '@/lib/seo/metadata'
 import { PLLC_FAQS, generateFAQSchema, generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 
@@ -53,21 +52,16 @@ export default function FAQPage() {
               </h1>
               <p className="mt-6 text-lg leading-8 text-muted-foreground max-w-2xl mx-auto">
                 Straight answers about forming a New York PLLC.{' '}
-                <Link href="https://www.trustpilot.com/review/cheapnewyorkllc.com" className="underline underline-offset-4" target="_blank" rel="noopener noreferrer">
-                  See our perfect five star rating on Trustpilot
-                </Link>.
-              </p>
-              <div className="mt-6 flex justify-center">
-                <Link href="https://www.trustpilot.com/review/cheapnewyorkllc.com" target="_blank" rel="noopener noreferrer" className="inline-block">
-                  <Image
-                    src="/trustpilot-logo.png"
-                    alt="Trustpilot Reviews"
-                    width={200}
-                    height={92}
-                    className="h-auto"
-                  />
+                <Link
+                  href={BUSINESS_INFO.googleBusinessProfileUrl}
+                  className="underline underline-offset-4"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  See our Google reviews
                 </Link>
-              </div>
+                .
+              </p>
               <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Button size="lg" asChild>
                   <Link href="/order">Ready to Get Started?</Link>

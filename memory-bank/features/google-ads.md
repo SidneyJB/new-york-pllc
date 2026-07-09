@@ -18,7 +18,7 @@ Google Ads API CLI, CSV exports, and analysis scripts for NYPLLC acquisition (li
 - CLI: `google_ads_cli.py`, `google_ads_pull.py`, `google_ads_auth.py`
 - Analysis: `ads_analysis.py`, `apr23_*.py`
 - Data: `Ads - *.csv`, `ads-notes-*.md`, `google_ads_changes*.md`, `apr 23 ads reports/`, `baseline-2026-07-08/`
-- Phase 1 draft: `google-ads-campaign-build/` (`manifest.json`, CSVs, `policy-check.json`, `upload-result.json`, `rsas/`)
+- Phase 1–2 drafts: `google-ads-campaign-build/` (`manifest.json`, CSVs, `policy-check.json`, `upload-result.json`, `rsas/`)
 - Deps: `requirements-ads.txt` (separate from Next.js `web/` package)
 
 ## Setup
@@ -44,9 +44,12 @@ pip install -r requirements-ads.txt
 - §1.4 assets: sitelinks must use real sitemap URLs only; volume claim is **thousands / 25,000+**, not 300+ — see operating plan §1.4
 - §1.4 applied Jul 8 2026 on Sales-Search-1 (add sitelinks, fix About/snippet/price, trim generic callouts; kept strong performers)
 - §1.5 baseline exports in `baseline-2026-07-08/` (Auction Insights still manual)
-- Phase 1 drafts (Jul 9 2026, **PAUSED**): `01_Core_Exact_NY` + `02_Professions_NY` — keywords + **30 RSAs**; enable still open
+- Phase 1–2 drafts (Jul 9 2026, **PAUSED**): `01_Core_Exact_NY` + `02_Professions_NY` + `03_ForeignQual_US` — keywords + **42 RSAs**; enable still open (FQ also Gate 1)
+- `03_ForeignQual_US`: US Presence · $15/day · negatives **A-FQ + B–E** · 6 AGs / 33 kws / 12 RSAs (`campaigns/24012757620`)
 - Portfolio **`NYPLLC Search Portfolio`** (`12148056412`) Target CPA $90 — attached to **`Sales-Search-1` only** (Jul 9); drafts not attached yet
 - Health-policy keywords (`lcsw`, mental health, psychiatric NP, physical therapy): create via API with `exempt_policy_violation_keys` (validate with `check_keyword_policy.py`)
+- RSA gotcha: Unicode `→` is SYMBOLS **PROHIBITED** — use ASCII `-`
+- Reviews: site uses NYPLLC GBP (`BUSINESS_INFO.googleBusinessProfileUrl`); AggregateRating from `BUSINESS_INFO.googleReviews` = **5.0 / 6** (live GBP Jul 9 2026). Trustpilot RSA headline omitted; optional Google-reviews headline OK with that claim (bump count when GBP changes)
 
 ## Docs
 

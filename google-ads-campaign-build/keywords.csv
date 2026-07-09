@@ -74,3 +74,36 @@ campaign_name,ad_group_name,keyword_text,match_type,status
 02_Professions_NY,Attorneys,law pllc new york,EXACT,ENABLED
 02_Professions_NY,CPAs,cpa pllc new york,EXACT,ENABLED
 02_Professions_NY,CPAs,accounting pllc ny,EXACT,ENABLED
+03_ForeignQual_US,Generic-ForeignQual,foreign pllc new york,EXACT,ENABLED
+03_ForeignQual_US,Generic-ForeignQual,register out of state pllc in new york,EXACT,ENABLED
+03_ForeignQual_US,Generic-ForeignQual,application for authority new york pllc,EXACT,ENABLED
+03_ForeignQual_US,Generic-ForeignQual,ny application for authority,EXACT,ENABLED
+03_ForeignQual_US,Generic-ForeignQual,foreign qualification new york,EXACT,ENABLED
+03_ForeignQual_US,Generic-ForeignQual,foreign qualification ny,EXACT,ENABLED
+03_ForeignQual_US,Generic-ForeignQual,register my pllc in new york,EXACT,ENABLED
+03_ForeignQual_US,Generic-ForeignQual,out of state pllc new york,EXACT,ENABLED
+03_ForeignQual_US,Generic-ForeignQual,qualify pllc in new york,EXACT,ENABLED
+03_ForeignQual_US,Generic-ForeignQual,foreign pllc registration new york,EXACT,ENABLED
+03_ForeignQual_US,Generic-ForeignQual,california pllc new york,EXACT,ENABLED
+03_ForeignQual_US,Generic-ForeignQual,ca pllc doing business in new york,EXACT,ENABLED
+03_ForeignQual_US,New-Jersey,nj pllc doing business in new york,EXACT,ENABLED
+03_ForeignQual_US,New-Jersey,new jersey pllc new york,EXACT,ENABLED
+03_ForeignQual_US,New-Jersey,nj pllc new york,EXACT,ENABLED
+03_ForeignQual_US,New-Jersey,register nj pllc in new york,EXACT,ENABLED
+03_ForeignQual_US,New-Jersey,new jersey pllc doing business in new york,EXACT,ENABLED
+03_ForeignQual_US,Pennsylvania,pennsylvania pllc in new york,EXACT,ENABLED
+03_ForeignQual_US,Pennsylvania,pa pllc new york,EXACT,ENABLED
+03_ForeignQual_US,Pennsylvania,pennsylvania pllc doing business in new york,EXACT,ENABLED
+03_ForeignQual_US,Pennsylvania,register pa pllc in new york,EXACT,ENABLED
+03_ForeignQual_US,Florida,florida pllc new york,EXACT,ENABLED
+03_ForeignQual_US,Florida,fl pllc new york,EXACT,ENABLED
+03_ForeignQual_US,Florida,florida pllc doing business in new york,EXACT,ENABLED
+03_ForeignQual_US,Florida,register florida pllc in new york,EXACT,ENABLED
+03_ForeignQual_US,Texas,texas pllc new york,EXACT,ENABLED
+03_ForeignQual_US,Texas,tx pllc new york,EXACT,ENABLED
+03_ForeignQual_US,Texas,texas pllc doing business in new york,EXACT,ENABLED
+03_ForeignQual_US,Texas,register texas pllc in new york,EXACT,ENABLED
+03_ForeignQual_US,Connecticut,connecticut pllc new york,EXACT,ENABLED
+03_ForeignQual_US,Connecticut,ct pllc new york,EXACT,ENABLED
+03_ForeignQual_US,Connecticut,connecticut pllc doing business in new york,EXACT,ENABLED
+03_ForeignQual_US,Connecticut,register connecticut pllc in new york,EXACT,ENABLED

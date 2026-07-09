@@ -1,505 +1,733 @@
-campaign_name,ad_group_name,rsa_variant,final_url,asset_type,asset_text,pinned_position,status
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,NY PLLC Formation – $885 Flat,1,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Start Your NY PLLC This Week,,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,"Your PLLC, Filed Right",,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,We Handle the NYSED Process,,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Done-For-You OP Packet,,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Licensed Pro? Form Your PLLC,,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Built for NY Professionals,,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,NYSED & DOS Filing Handled,,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Publication Included,,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,EIN & Operating Agreement Inc,,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Everything Included. One Fee,,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,120-Day Publication Managed,,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Talk to a PLLC Specialist,,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,DESCRIPTION,"NY PLLC formation: NYSED approval, DOS filing, publication, EIN & OA. $885 flat.",,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,DESCRIPTION,"Includes registered agent year one, EIN, operating agreement & certificate of publication.",,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Start Your NY PLLC This Week,,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,"Your PLLC, Filed Right",,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,We Handle the NYSED Process,,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Done-For-You OP Packet,,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Licensed Pro? Form Your PLLC,,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Built for NY Professionals,,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,NYSED & DOS Filing Handled,,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Publication Included,,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,EIN & Operating Agreement Inc,,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Everything Included. One Fee,,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,120-Day Publication Managed,,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Talk to a PLLC Specialist,,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,DESCRIPTION,"NY PLLC formation: NYSED approval, DOS filing, publication, EIN & OA. $885 flat.",,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,DESCRIPTION,"Includes registered agent year one, EIN, operating agreement & certificate of publication.",,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,NY PLLC Formation – $885 Flat,1,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Everything Included. One Fee,,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,NYSED & DOS Filing Handled,,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,We Handle the NYSED Process,,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Done-For-You OP Packet,,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Talk to a PLLC Specialist,,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Deficiency Handling Included,,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Publication Included,,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,EIN & Operating Agreement Inc,,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Built for NY Professionals,,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Licensed Pro? Form Your PLLC,,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Start Your NY PLLC This Week,,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,NY Professional Entity Pros,,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,DESCRIPTION,"NY PLLC formation: NYSED approval, DOS filing, publication, EIN & OA. $885 flat.",,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,DESCRIPTION,"Includes registered agent year one, EIN, operating agreement & certificate of publication.",,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Everything Included. One Fee,,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,NYSED & DOS Filing Handled,,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,We Handle the NYSED Process,,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Done-For-You OP Packet,,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Talk to a PLLC Specialist,,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Deficiency Handling Included,,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Publication Included,,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,EIN & Operating Agreement Inc,,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Built for NY Professionals,,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Licensed Pro? Form Your PLLC,,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,Start Your NY PLLC This Week,,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,HEADLINE,NY Professional Entity Pros,,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,DESCRIPTION,"NY PLLC formation: NYSED approval, DOS filing, publication, EIN & OA. $885 flat.",,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,DESCRIPTION,"Includes registered agent year one, EIN, operating agreement & certificate of publication.",,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,HEADLINE,NY PLLC Formation – $885 Flat,1,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,HEADLINE,Everything Included. One Fee,,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,HEADLINE,Publication Included,,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,HEADLINE,EIN & Operating Agreement Inc,,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,HEADLINE,NYSED & DOS Filing Handled,,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,HEADLINE,Thousands of NY Entities,,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,HEADLINE,Start Your NY PLLC This Week,,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,HEADLINE,120-Day Publication Managed,,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,HEADLINE,Deficiency Handling Included,,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,HEADLINE,S Corp Election Available,,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,HEADLINE,Built for NY Professionals,,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,HEADLINE,Talk to a PLLC Specialist,,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,HEADLINE,"Your PLLC, Filed Right",,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,DESCRIPTION,"NY PLLC formation: NYSED approval, DOS filing, publication, EIN & OA. $885 flat.",,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,DESCRIPTION,"Includes registered agent year one, EIN, operating agreement & certificate of publication.",,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,HEADLINE,Everything Included. One Fee,,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,HEADLINE,Publication Included,,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,HEADLINE,EIN & Operating Agreement Inc,,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,HEADLINE,NYSED & DOS Filing Handled,,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,HEADLINE,Thousands of NY Entities,,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,HEADLINE,Start Your NY PLLC This Week,,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,HEADLINE,120-Day Publication Managed,,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,HEADLINE,Deficiency Handling Included,,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,HEADLINE,S Corp Election Available,,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,HEADLINE,Built for NY Professionals,,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,HEADLINE,Talk to a PLLC Specialist,,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,HEADLINE,"Your PLLC, Filed Right",,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,DESCRIPTION,"NY PLLC formation: NYSED approval, DOS filing, publication, EIN & OA. $885 flat.",,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,DESCRIPTION,"Includes registered agent year one, EIN, operating agreement & certificate of publication.",,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,HEADLINE,NY PLLC Formation – $885 Flat,1,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,HEADLINE,Talk to a PLLC Specialist,,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,HEADLINE,Built for NY Professionals,,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,HEADLINE,NY Professional Entity Pros,,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,HEADLINE,We Handle the NYSED Process,,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,HEADLINE,Everything Included. One Fee,,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,HEADLINE,Licensed Pro? Form Your PLLC,,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,HEADLINE,Thousands of NY Entities,,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,HEADLINE,NYSED & DOS Filing Handled,,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,HEADLINE,Publication Included,,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,HEADLINE,Start Your NY PLLC This Week,,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,HEADLINE,Done-For-You OP Packet,,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,HEADLINE,"Your PLLC, Filed Right",,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,HEADLINE,Deficiency Handling Included,,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,DESCRIPTION,"NY PLLC formation: NYSED approval, DOS filing, publication, EIN & OA. $885 flat.",,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,DESCRIPTION,"Includes registered agent year one, EIN, operating agreement & certificate of publication.",,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,HEADLINE,Talk to a PLLC Specialist,,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,HEADLINE,Built for NY Professionals,,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,HEADLINE,NY Professional Entity Pros,,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,HEADLINE,We Handle the NYSED Process,,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,HEADLINE,Everything Included. One Fee,,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,HEADLINE,Licensed Pro? Form Your PLLC,,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,HEADLINE,Thousands of NY Entities,,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,HEADLINE,NYSED & DOS Filing Handled,,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,HEADLINE,Publication Included,,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,HEADLINE,Start Your NY PLLC This Week,,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,HEADLINE,Done-For-You OP Packet,,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,HEADLINE,"Your PLLC, Filed Right",,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,HEADLINE,Deficiency Handling Included,,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,DESCRIPTION,"NY PLLC formation: NYSED approval, DOS filing, publication, EIN & OA. $885 flat.",,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,DESCRIPTION,"Includes registered agent year one, EIN, operating agreement & certificate of publication.",,PAUSED
-02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,HEADLINE,PLLC for NY Therapists—$885,1,PAUSED
-02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,HEADLINE,LCSW & LMHC PLLC Experts,,PAUSED
-02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,HEADLINE,Start Your Private Practice,,PAUSED
-02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,HEADLINE,Built for Private Practice,,PAUSED
-02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,DESCRIPTION,"PLLC for NY therapists: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,DESCRIPTION,Join 70+ NY therapists & counselors who formed with us. Licensed-pro specialists.,,PAUSED
-02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,HEADLINE,PLLC for NY Therapists—$885,,PAUSED
-02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,HEADLINE,LCSW & LMHC PLLC Experts,,PAUSED
-02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,HEADLINE,Start Your Private Practice,,PAUSED
-02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,HEADLINE,Built for Private Practice,,PAUSED
-02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,DESCRIPTION,"PLLC for NY therapists: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,DESCRIPTION,Join 70+ NY therapists & counselors who formed with us. Licensed-pro specialists.,,PAUSED
-02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,HEADLINE,PLLC for NY Counselors—$885,1,PAUSED
-02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,HEADLINE,LMHC & MHC PLLC Experts,,PAUSED
-02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,HEADLINE,Start Your Private Practice,,PAUSED
-02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,HEADLINE,Built for Private Practice,,PAUSED
-02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,DESCRIPTION,"PLLC for NY counselors: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,DESCRIPTION,Join 70+ NY therapists & counselors who formed with us. Licensed-pro specialists.,,PAUSED
-02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,HEADLINE,PLLC for NY Counselors—$885,,PAUSED
-02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,HEADLINE,LMHC & MHC PLLC Experts,,PAUSED
-02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,HEADLINE,Start Your Private Practice,,PAUSED
-02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,HEADLINE,Built for Private Practice,,PAUSED
-02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,DESCRIPTION,"PLLC for NY counselors: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,DESCRIPTION,Join 70+ NY therapists & counselors who formed with us. Licensed-pro specialists.,,PAUSED
-02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,HEADLINE,PLLC for NY Psychologists—$885,1,PAUSED
-02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,HEADLINE,Psychology PLLC Experts,,PAUSED
-02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,HEADLINE,Start Your Private Practice,,PAUSED
-02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,HEADLINE,Built for Private Practice,,PAUSED
-02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,DESCRIPTION,"PLLC for NY psychologists: NYSED, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,HEADLINE,PLLC for NY Psychologists—$885,,PAUSED
-02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,HEADLINE,Psychology PLLC Experts,,PAUSED
-02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,HEADLINE,Start Your Private Practice,,PAUSED
-02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,HEADLINE,Built for Private Practice,,PAUSED
-02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,DESCRIPTION,"PLLC for NY psychologists: NYSED, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,HEADLINE,PLLC for NY Physicians—$885,1,PAUSED
-02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,HEADLINE,Medical PLLC NY Experts,,PAUSED
-02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,HEADLINE,Start Your Medical Practice,,PAUSED
-02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,HEADLINE,Built for NY Physicians,,PAUSED
-02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,DESCRIPTION,"PLLC for NY physicians: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,DESCRIPTION,Join 50+ NY physicians who formed with us. Licensed-professional specialists.,,PAUSED
-02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,HEADLINE,PLLC for NY Physicians—$885,,PAUSED
-02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,HEADLINE,Medical PLLC NY Experts,,PAUSED
-02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,HEADLINE,Start Your Medical Practice,,PAUSED
-02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,HEADLINE,Built for NY Physicians,,PAUSED
-02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,DESCRIPTION,"PLLC for NY physicians: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,DESCRIPTION,Join 50+ NY physicians who formed with us. Licensed-professional specialists.,,PAUSED
-02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,PLLC for NY NPs—$885,1,PAUSED
-02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,Nurse Practitioner PLLCs,,PAUSED
-02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,Start Your Private Practice,,PAUSED
-02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,Built for Private Practice,,PAUSED
-02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,DESCRIPTION,"PLLC for NY NPs: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,PLLC for NY NPs—$885,,PAUSED
-02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,Nurse Practitioner PLLCs,,PAUSED
-02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,Start Your Private Practice,,PAUSED
-02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,Built for Private Practice,,PAUSED
-02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,DESCRIPTION,"PLLC for NY NPs: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,HEADLINE,PLLC for NY Dentists—$885,1,PAUSED
-02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,HEADLINE,Dental PLLC NY Experts,,PAUSED
-02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,HEADLINE,Start Your Dental Practice,,PAUSED
-02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,HEADLINE,Built for NY Dentists,,PAUSED
-02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,DESCRIPTION,"PLLC for NY dentists: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,HEADLINE,PLLC for NY Dentists—$885,,PAUSED
-02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,HEADLINE,Dental PLLC NY Experts,,PAUSED
-02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,HEADLINE,Start Your Dental Practice,,PAUSED
-02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,HEADLINE,Built for NY Dentists,,PAUSED
-02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,DESCRIPTION,"PLLC for NY dentists: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,HEADLINE,Physical Therapy PLLC—$885,1,PAUSED
-02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,HEADLINE,PT PLLC New York Experts,,PAUSED
-02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,HEADLINE,Start Your PT Practice,,PAUSED
-02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,HEADLINE,Built for NY PTs,,PAUSED
-02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,DESCRIPTION,"PLLC for NY PTs: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,HEADLINE,Physical Therapy PLLC—$885,,PAUSED
-02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,HEADLINE,PT PLLC New York Experts,,PAUSED
-02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,HEADLINE,Start Your PT Practice,,PAUSED
-02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,HEADLINE,Built for NY PTs,,PAUSED
-02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,DESCRIPTION,"PLLC for NY PTs: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,HEADLINE,PLLC for NY Architects—$885,1,PAUSED
-02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,HEADLINE,Architecture PLLC Experts,,PAUSED
-02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,HEADLINE,Start Your Architecture Firm,,PAUSED
-02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,HEADLINE,Built for NY Architects,,PAUSED
-02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,DESCRIPTION,"PLLC for NY architects: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,HEADLINE,PLLC for NY Architects—$885,,PAUSED
-02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,HEADLINE,Architecture PLLC Experts,,PAUSED
-02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,HEADLINE,Start Your Architecture Firm,,PAUSED
-02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,HEADLINE,Built for NY Architects,,PAUSED
-02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,DESCRIPTION,"PLLC for NY architects: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,HEADLINE,PLLC for NY Engineers—$885,1,PAUSED
-02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,HEADLINE,Engineering PLLC Experts,,PAUSED
-02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,HEADLINE,Start Your Engineering Firm,,PAUSED
-02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,HEADLINE,Built for NY Engineers,,PAUSED
-02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,DESCRIPTION,"PLLC for NY engineers: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,HEADLINE,PLLC for NY Engineers—$885,,PAUSED
-02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,HEADLINE,Engineering PLLC Experts,,PAUSED
-02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,HEADLINE,Start Your Engineering Firm,,PAUSED
-02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,HEADLINE,Built for NY Engineers,,PAUSED
-02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,DESCRIPTION,"PLLC for NY engineers: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,HEADLINE,PLLC for NY Attorneys—$885,1,PAUSED
-02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,HEADLINE,Law Firm PLLC NY Experts,,PAUSED
-02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,HEADLINE,Start Your Law Practice,,PAUSED
-02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,HEADLINE,Built for NY Attorneys,,PAUSED
-02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,DESCRIPTION,"PLLC for NY attorneys: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,HEADLINE,PLLC for NY Attorneys—$885,,PAUSED
-02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,HEADLINE,Law Firm PLLC NY Experts,,PAUSED
-02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,HEADLINE,Start Your Law Practice,,PAUSED
-02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,HEADLINE,Built for NY Attorneys,,PAUSED
-02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,DESCRIPTION,"PLLC for NY attorneys: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,HEADLINE,PLLC for NY CPAs—$885,1,PAUSED
-02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,HEADLINE,Accounting PLLC NY Experts,,PAUSED
-02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,HEADLINE,Start Your CPA Practice,,PAUSED
-02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,HEADLINE,Built for NY CPAs,,PAUSED
-02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,DESCRIPTION,"PLLC for NY CPAs: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
-02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,HEADLINE,PLLC for NY CPAs—$885,,PAUSED
-02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,HEADLINE,Accounting PLLC NY Experts,,PAUSED
-02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,HEADLINE,NYSED OP Handled for You,,PAUSED
-02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,HEADLINE,Publication & EIN Included,,PAUSED
-02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,HEADLINE,Start Your CPA Practice,,PAUSED
-02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,HEADLINE,Built for NY CPAs,,PAUSED
-02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,HEADLINE,NY PLLC Formation – $885 Flat,,PAUSED
-02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,HEADLINE,Everything Included. One Fee,,PAUSED
-02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,HEADLINE,Registered Agent Yr 1 Free,,PAUSED
-02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,HEADLINE,Flat Fee — No Hidden Costs,,PAUSED
-02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,HEADLINE,We Handle the NYSED Process,,PAUSED
-02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,HEADLINE,Deficiency Handling Included,,PAUSED
-02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,DESCRIPTION,"PLLC for NY CPAs: NYSED approval, DOS filing, publication & EIN. $885 flat.",,PAUSED
-02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,DESCRIPTION,Specialists who only do New York professional entities. No hourly attorney fees.,,PAUSED
-02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,DESCRIPTION,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",,PAUSED
-02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,DESCRIPTION,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",,PAUSED
+campaign_name,ad_group_name,rsa_variant,final_url,asset_type,text,pinned_position
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,NY PLLC Formation – $885 Flat,1
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Start Your NY PLLC This Week,
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,"Your PLLC, Filed Right",
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,We Handle the NYSED Process,
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Done-For-You OP Packet,
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Licensed Pro? Form Your PLLC,
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Built for NY Professionals,
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,NYSED & DOS Filing Handled,
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Publication Included,
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,EIN & Operating Agreement Inc,
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Everything Included. One Fee,
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,120-Day Publication Managed,
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Registered Agent Yr 1 Free,
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Flat Fee — No Hidden Costs,
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Talk to a PLLC Specialist,
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,description,"NY PLLC formation: NYSED approval, DOS filing, publication, EIN & OA. $885 flat.",
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+01_Core_Exact_NY,Formation-Core,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,description,"Includes registered agent year one, EIN, operating agreement & certificate of publication.",
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,NY PLLC Formation – $885 Flat,
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Start Your NY PLLC This Week,
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,"Your PLLC, Filed Right",
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,We Handle the NYSED Process,
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Done-For-You OP Packet,
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Licensed Pro? Form Your PLLC,
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Built for NY Professionals,
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,NYSED & DOS Filing Handled,
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Publication Included,
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,EIN & Operating Agreement Inc,
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Everything Included. One Fee,
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,120-Day Publication Managed,
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Registered Agent Yr 1 Free,
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Flat Fee — No Hidden Costs,
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Talk to a PLLC Specialist,
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,description,"NY PLLC formation: NYSED approval, DOS filing, publication, EIN & OA. $885 flat.",
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+01_Core_Exact_NY,Formation-Core,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,description,"Includes registered agent year one, EIN, operating agreement & certificate of publication.",
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,NY PLLC Formation – $885 Flat,1
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Everything Included. One Fee,
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,NYSED & DOS Filing Handled,
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,We Handle the NYSED Process,
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Done-For-You OP Packet,
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Talk to a PLLC Specialist,
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Deficiency Handling Included,
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Publication Included,
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,EIN & Operating Agreement Inc,
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Registered Agent Yr 1 Free,
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Flat Fee — No Hidden Costs,
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Built for NY Professionals,
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Licensed Pro? Form Your PLLC,
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Start Your NY PLLC This Week,
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,NY Professional Entity Pros,
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,description,"NY PLLC formation: NYSED approval, DOS filing, publication, EIN & OA. $885 flat.",
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+01_Core_Exact_NY,Service-Intent,controlled,https://www.nypllc.com/how-to-form-a-pllc-in-ny,description,"Includes registered agent year one, EIN, operating agreement & certificate of publication.",
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,NY PLLC Formation – $885 Flat,
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Everything Included. One Fee,
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,NYSED & DOS Filing Handled,
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,We Handle the NYSED Process,
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Done-For-You OP Packet,
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Talk to a PLLC Specialist,
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Deficiency Handling Included,
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Publication Included,
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,EIN & Operating Agreement Inc,
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Registered Agent Yr 1 Free,
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Flat Fee — No Hidden Costs,
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Built for NY Professionals,
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Licensed Pro? Form Your PLLC,
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,Start Your NY PLLC This Week,
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,headline,NY Professional Entity Pros,
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,description,"NY PLLC formation: NYSED approval, DOS filing, publication, EIN & OA. $885 flat.",
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+01_Core_Exact_NY,Service-Intent,unpinned,https://www.nypllc.com/how-to-form-a-pllc-in-ny,description,"Includes registered agent year one, EIN, operating agreement & certificate of publication.",
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,headline,NY PLLC Formation – $885 Flat,1
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,headline,Flat Fee — No Hidden Costs,
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,headline,Everything Included. One Fee,
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,headline,Publication Included,
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,headline,EIN & Operating Agreement Inc,
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,headline,Registered Agent Yr 1 Free,
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,headline,NYSED & DOS Filing Handled,
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,headline,Thousands of NY Entities,
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,headline,Start Your NY PLLC This Week,
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,headline,120-Day Publication Managed,
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,headline,Deficiency Handling Included,
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,headline,S Corp Election Available,
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,headline,Built for NY Professionals,
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,headline,Talk to a PLLC Specialist,
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,headline,"Your PLLC, Filed Right",
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,description,"NY PLLC formation: NYSED approval, DOS filing, publication, EIN & OA. $885 flat.",
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+01_Core_Exact_NY,Cost-Price,controlled,https://www.nypllc.com/order,description,"Includes registered agent year one, EIN, operating agreement & certificate of publication.",
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,headline,NY PLLC Formation – $885 Flat,
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,headline,Flat Fee — No Hidden Costs,
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,headline,Everything Included. One Fee,
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,headline,Publication Included,
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,headline,EIN & Operating Agreement Inc,
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,headline,Registered Agent Yr 1 Free,
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,headline,NYSED & DOS Filing Handled,
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,headline,Thousands of NY Entities,
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,headline,Start Your NY PLLC This Week,
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,headline,120-Day Publication Managed,
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,headline,Deficiency Handling Included,
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,headline,S Corp Election Available,
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,headline,Built for NY Professionals,
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,headline,Talk to a PLLC Specialist,
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,headline,"Your PLLC, Filed Right",
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,description,"NY PLLC formation: NYSED approval, DOS filing, publication, EIN & OA. $885 flat.",
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+01_Core_Exact_NY,Cost-Price,unpinned,https://www.nypllc.com/order,description,"Includes registered agent year one, EIN, operating agreement & certificate of publication.",
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,headline,NY PLLC Formation – $885 Flat,1
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,headline,Talk to a PLLC Specialist,
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,headline,Built for NY Professionals,
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,headline,NY Professional Entity Pros,
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,headline,We Handle the NYSED Process,
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,headline,Everything Included. One Fee,
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,headline,Licensed Pro? Form Your PLLC,
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,headline,Thousands of NY Entities,
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,headline,NYSED & DOS Filing Handled,
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,headline,Publication Included,
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,headline,Flat Fee — No Hidden Costs,
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,headline,Start Your NY PLLC This Week,
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,headline,Done-For-You OP Packet,
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,headline,"Your PLLC, Filed Right",
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,headline,Deficiency Handling Included,
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,description,"NY PLLC formation: NYSED approval, DOS filing, publication, EIN & OA. $885 flat.",
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+01_Core_Exact_NY,Brand,controlled,https://www.nypllc.com/,description,"Includes registered agent year one, EIN, operating agreement & certificate of publication.",
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,headline,NY PLLC Formation – $885 Flat,
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,headline,Talk to a PLLC Specialist,
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,headline,Built for NY Professionals,
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,headline,NY Professional Entity Pros,
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,headline,We Handle the NYSED Process,
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,headline,Everything Included. One Fee,
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,headline,Licensed Pro? Form Your PLLC,
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,headline,Thousands of NY Entities,
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,headline,NYSED & DOS Filing Handled,
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,headline,Publication Included,
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,headline,Flat Fee — No Hidden Costs,
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,headline,Start Your NY PLLC This Week,
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,headline,Done-For-You OP Packet,
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,headline,"Your PLLC, Filed Right",
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,headline,Deficiency Handling Included,
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,description,"NY PLLC formation: NYSED approval, DOS filing, publication, EIN & OA. $885 flat.",
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+01_Core_Exact_NY,Brand,unpinned,https://www.nypllc.com/,description,"Includes registered agent year one, EIN, operating agreement & certificate of publication.",
+02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,headline,PLLC for NY Therapists—$885,1
+02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,headline,LCSW & LMHC PLLC Experts,
+02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,headline,NYSED OP Handled for You,
+02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,headline,Publication & EIN Included,
+02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,headline,Start Your Private Practice,
+02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,headline,Built for Private Practice,
+02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,headline,Everything Included. One Fee,
+02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,headline,We Handle the NYSED Process,
+02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,headline,Deficiency Handling Included,
+02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,description,"PLLC for NY therapists: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,description,Join 70+ NY therapists & counselors who formed with us. Licensed-pro specialists.,
+02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Therapists-LCSW,controlled,https://www.nypllc.com/professions/lcsw,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,headline,PLLC for NY Therapists—$885,
+02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,headline,LCSW & LMHC PLLC Experts,
+02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,headline,NYSED OP Handled for You,
+02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,headline,Publication & EIN Included,
+02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,headline,Start Your Private Practice,
+02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,headline,Built for Private Practice,
+02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,headline,Everything Included. One Fee,
+02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,headline,We Handle the NYSED Process,
+02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,headline,Deficiency Handling Included,
+02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,description,"PLLC for NY therapists: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,description,Join 70+ NY therapists & counselors who formed with us. Licensed-pro specialists.,
+02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Therapists-LCSW,unpinned,https://www.nypllc.com/professions/lcsw,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,headline,PLLC for NY Counselors—$885,1
+02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,headline,LMHC & MHC PLLC Experts,
+02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,headline,NYSED OP Handled for You,
+02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,headline,Publication & EIN Included,
+02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,headline,Start Your Private Practice,
+02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,headline,Built for Private Practice,
+02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,headline,Everything Included. One Fee,
+02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,headline,We Handle the NYSED Process,
+02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,headline,Deficiency Handling Included,
+02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,description,"PLLC for NY counselors: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,description,Join 70+ NY therapists & counselors who formed with us. Licensed-pro specialists.,
+02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,MHC-LMHC,controlled,https://www.nypllc.com/professions/mhc,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,headline,PLLC for NY Counselors—$885,
+02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,headline,LMHC & MHC PLLC Experts,
+02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,headline,NYSED OP Handled for You,
+02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,headline,Publication & EIN Included,
+02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,headline,Start Your Private Practice,
+02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,headline,Built for Private Practice,
+02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,headline,Everything Included. One Fee,
+02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,headline,We Handle the NYSED Process,
+02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,headline,Deficiency Handling Included,
+02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,description,"PLLC for NY counselors: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,description,Join 70+ NY therapists & counselors who formed with us. Licensed-pro specialists.,
+02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,MHC-LMHC,unpinned,https://www.nypllc.com/professions/mhc,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,headline,PLLC for NY Psychologists—$885,1
+02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,headline,Psychology PLLC Experts,
+02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,headline,NYSED OP Handled for You,
+02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,headline,Publication & EIN Included,
+02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,headline,Start Your Private Practice,
+02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,headline,Built for Private Practice,
+02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,headline,Everything Included. One Fee,
+02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,headline,We Handle the NYSED Process,
+02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,headline,Deficiency Handling Included,
+02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,description,"PLLC for NY psychologists: NYSED, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Psychology,controlled,https://www.nypllc.com/professions/psychologist,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,headline,PLLC for NY Psychologists—$885,
+02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,headline,Psychology PLLC Experts,
+02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,headline,NYSED OP Handled for You,
+02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,headline,Publication & EIN Included,
+02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,headline,Start Your Private Practice,
+02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,headline,Built for Private Practice,
+02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,headline,Everything Included. One Fee,
+02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,headline,We Handle the NYSED Process,
+02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,headline,Deficiency Handling Included,
+02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,description,"PLLC for NY psychologists: NYSED, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Psychology,unpinned,https://www.nypllc.com/professions/psychologist,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,headline,PLLC for NY Physicians—$885,1
+02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,headline,Medical PLLC NY Experts,
+02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,headline,NYSED OP Handled for You,
+02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,headline,Publication & EIN Included,
+02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,headline,Start Your Medical Practice,
+02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,headline,Built for NY Physicians,
+02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,headline,Everything Included. One Fee,
+02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,headline,We Handle the NYSED Process,
+02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,headline,Deficiency Handling Included,
+02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,description,"PLLC for NY physicians: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,description,Join 50+ NY physicians who formed with us. Licensed-professional specialists.,
+02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Physicians,controlled,https://www.nypllc.com/professions/physician,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,headline,PLLC for NY Physicians—$885,
+02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,headline,Medical PLLC NY Experts,
+02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,headline,NYSED OP Handled for You,
+02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,headline,Publication & EIN Included,
+02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,headline,Start Your Medical Practice,
+02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,headline,Built for NY Physicians,
+02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,headline,Everything Included. One Fee,
+02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,headline,We Handle the NYSED Process,
+02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,headline,Deficiency Handling Included,
+02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,description,"PLLC for NY physicians: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,description,Join 50+ NY physicians who formed with us. Licensed-professional specialists.,
+02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Physicians,unpinned,https://www.nypllc.com/professions/physician,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,headline,PLLC for NY NPs—$885,1
+02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,headline,Nurse Practitioner PLLCs,
+02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,headline,NYSED OP Handled for You,
+02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,headline,Publication & EIN Included,
+02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,headline,Start Your Private Practice,
+02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,headline,Built for Private Practice,
+02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,headline,Everything Included. One Fee,
+02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,headline,We Handle the NYSED Process,
+02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,headline,Deficiency Handling Included,
+02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,description,"PLLC for NY NPs: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Nurse-Practitioners,controlled,https://www.nypllc.com/professions/nurse-practitioner,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,headline,PLLC for NY NPs—$885,
+02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,headline,Nurse Practitioner PLLCs,
+02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,headline,NYSED OP Handled for You,
+02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,headline,Publication & EIN Included,
+02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,headline,Start Your Private Practice,
+02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,headline,Built for Private Practice,
+02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,headline,Everything Included. One Fee,
+02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,headline,We Handle the NYSED Process,
+02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,headline,Deficiency Handling Included,
+02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,description,"PLLC for NY NPs: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Nurse-Practitioners,unpinned,https://www.nypllc.com/professions/nurse-practitioner,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,headline,PLLC for NY Dentists—$885,1
+02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,headline,Dental PLLC NY Experts,
+02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,headline,NYSED OP Handled for You,
+02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,headline,Publication & EIN Included,
+02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,headline,Start Your Dental Practice,
+02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,headline,Built for NY Dentists,
+02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,headline,Everything Included. One Fee,
+02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,headline,We Handle the NYSED Process,
+02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,headline,Deficiency Handling Included,
+02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,description,"PLLC for NY dentists: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Dentists,controlled,https://www.nypllc.com/professions/dentist,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,headline,PLLC for NY Dentists—$885,
+02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,headline,Dental PLLC NY Experts,
+02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,headline,NYSED OP Handled for You,
+02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,headline,Publication & EIN Included,
+02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,headline,Start Your Dental Practice,
+02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,headline,Built for NY Dentists,
+02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,headline,Everything Included. One Fee,
+02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,headline,We Handle the NYSED Process,
+02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,headline,Deficiency Handling Included,
+02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,description,"PLLC for NY dentists: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Dentists,unpinned,https://www.nypllc.com/professions/dentist,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,headline,Physical Therapy PLLC—$885,1
+02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,headline,PT PLLC New York Experts,
+02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,headline,NYSED OP Handled for You,
+02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,headline,Publication & EIN Included,
+02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,headline,Start Your PT Practice,
+02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,headline,Built for NY PTs,
+02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,headline,Everything Included. One Fee,
+02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,headline,We Handle the NYSED Process,
+02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,headline,Deficiency Handling Included,
+02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,description,"PLLC for NY PTs: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Physical-Therapy,controlled,https://www.nypllc.com/professions/physical-therapist,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,headline,Physical Therapy PLLC—$885,
+02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,headline,PT PLLC New York Experts,
+02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,headline,NYSED OP Handled for You,
+02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,headline,Publication & EIN Included,
+02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,headline,Start Your PT Practice,
+02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,headline,Built for NY PTs,
+02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,headline,Everything Included. One Fee,
+02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,headline,We Handle the NYSED Process,
+02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,headline,Deficiency Handling Included,
+02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,description,"PLLC for NY PTs: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Physical-Therapy,unpinned,https://www.nypllc.com/professions/physical-therapist,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,headline,PLLC for NY Architects—$885,1
+02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,headline,Architecture PLLC Experts,
+02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,headline,NYSED OP Handled for You,
+02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,headline,Publication & EIN Included,
+02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,headline,Start Your Architecture Firm,
+02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,headline,Built for NY Architects,
+02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,headline,Everything Included. One Fee,
+02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,headline,We Handle the NYSED Process,
+02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,headline,Deficiency Handling Included,
+02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,description,"PLLC for NY architects: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Architects,controlled,https://www.nypllc.com/professions/architect,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,headline,PLLC for NY Architects—$885,
+02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,headline,Architecture PLLC Experts,
+02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,headline,NYSED OP Handled for You,
+02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,headline,Publication & EIN Included,
+02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,headline,Start Your Architecture Firm,
+02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,headline,Built for NY Architects,
+02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,headline,Everything Included. One Fee,
+02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,headline,We Handle the NYSED Process,
+02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,headline,Deficiency Handling Included,
+02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,description,"PLLC for NY architects: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Architects,unpinned,https://www.nypllc.com/professions/architect,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,headline,PLLC for NY Engineers—$885,1
+02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,headline,Engineering PLLC Experts,
+02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,headline,NYSED OP Handled for You,
+02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,headline,Publication & EIN Included,
+02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,headline,Start Your Engineering Firm,
+02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,headline,Built for NY Engineers,
+02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,headline,Everything Included. One Fee,
+02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,headline,We Handle the NYSED Process,
+02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,headline,Deficiency Handling Included,
+02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,description,"PLLC for NY engineers: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Engineers,controlled,https://www.nypllc.com/professions/engineer,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,headline,PLLC for NY Engineers—$885,
+02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,headline,Engineering PLLC Experts,
+02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,headline,NYSED OP Handled for You,
+02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,headline,Publication & EIN Included,
+02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,headline,Start Your Engineering Firm,
+02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,headline,Built for NY Engineers,
+02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,headline,Everything Included. One Fee,
+02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,headline,We Handle the NYSED Process,
+02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,headline,Deficiency Handling Included,
+02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,description,"PLLC for NY engineers: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Engineers,unpinned,https://www.nypllc.com/professions/engineer,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,headline,PLLC for NY Attorneys—$885,1
+02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,headline,Law Firm PLLC NY Experts,
+02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,headline,NYSED OP Handled for You,
+02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,headline,Publication & EIN Included,
+02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,headline,Start Your Law Practice,
+02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,headline,Built for NY Attorneys,
+02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,headline,Everything Included. One Fee,
+02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,headline,We Handle the NYSED Process,
+02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,headline,Deficiency Handling Included,
+02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,description,"PLLC for NY attorneys: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Attorneys,controlled,https://www.nypllc.com/professions/law,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,headline,PLLC for NY Attorneys—$885,
+02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,headline,Law Firm PLLC NY Experts,
+02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,headline,NYSED OP Handled for You,
+02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,headline,Publication & EIN Included,
+02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,headline,Start Your Law Practice,
+02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,headline,Built for NY Attorneys,
+02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,headline,Everything Included. One Fee,
+02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,headline,We Handle the NYSED Process,
+02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,headline,Deficiency Handling Included,
+02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,description,"PLLC for NY attorneys: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,Attorneys,unpinned,https://www.nypllc.com/professions/law,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,headline,PLLC for NY CPAs—$885,1
+02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,headline,Accounting PLLC NY Experts,
+02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,headline,NYSED OP Handled for You,
+02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,headline,Publication & EIN Included,
+02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,headline,Start Your CPA Practice,
+02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,headline,Built for NY CPAs,
+02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,headline,Everything Included. One Fee,
+02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,headline,We Handle the NYSED Process,
+02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,headline,Deficiency Handling Included,
+02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,description,"PLLC for NY CPAs: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,CPAs,controlled,https://www.nypllc.com/professions/cpa,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,headline,PLLC for NY CPAs—$885,
+02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,headline,Accounting PLLC NY Experts,
+02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,headline,NYSED OP Handled for You,
+02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,headline,Publication & EIN Included,
+02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,headline,Start Your CPA Practice,
+02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,headline,Built for NY CPAs,
+02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,headline,NY PLLC Formation – $885 Flat,
+02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,headline,Everything Included. One Fee,
+02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,headline,Registered Agent Yr 1 Free,
+02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,headline,Flat Fee — No Hidden Costs,
+02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,headline,We Handle the NYSED Process,
+02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,headline,Deficiency Handling Included,
+02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,description,"PLLC for NY CPAs: NYSED approval, DOS filing, publication & EIN. $885 flat.",
+02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,description,"We prepare your NYSED packet, file with the DOS, and manage publication. One flat fee.",
+02_Professions_NY,CPAs,unpinned,https://www.nypllc.com/professions/cpa,description,"Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.",
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,headline,Qualify Into NY — From $910,1
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,headline,Foreign PLLC New York Help,
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,headline,Register Out-of-State PLLC,
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,headline,NY Application for Authority,
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,headline,Foreign Qual From $910,
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,headline,NY Foreign Qualification,
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,headline,Application for Authority,
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,headline,Out-of-State PLLC - NY,
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,headline,NYSED & DOS Filing Help,
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,headline,Licensed Pro Entity Pros,
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,headline,Flat Fee — No Hidden Costs,
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,headline,Talk to a PLLC Specialist,
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,headline,Built for NY Professionals,
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,headline,We Handle the NY Process,
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,headline,Qualify Your PLLC Into NY,
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,description,Qualify your out-of-state PLLC into New York. Flat fees from $910 by home state.,
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,description,"Application for Authority help for licensed pros. NJ, PA, FL, TX, CT & more.",
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,description,"Foreign PLLC into NY: Application for Authority, NYSED review help & filing support.",
+03_ForeignQual_US,Generic-ForeignQual,controlled,https://www.nypllc.com/foreign-pllc,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,headline,Qualify Into NY — From $910,
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,headline,Foreign PLLC New York Help,
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,headline,Register Out-of-State PLLC,
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,headline,NY Application for Authority,
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,headline,Foreign Qual From $910,
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,headline,NY Foreign Qualification,
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,headline,Application for Authority,
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,headline,Out-of-State PLLC - NY,
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,headline,NYSED & DOS Filing Help,
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,headline,Licensed Pro Entity Pros,
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,headline,Flat Fee — No Hidden Costs,
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,headline,Talk to a PLLC Specialist,
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,headline,Built for NY Professionals,
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,headline,We Handle the NY Process,
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,headline,Qualify Your PLLC Into NY,
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,description,Qualify your out-of-state PLLC into New York. Flat fees from $910 by home state.,
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,description,"Application for Authority help for licensed pros. NJ, PA, FL, TX, CT & more.",
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,description,"Foreign PLLC into NY: Application for Authority, NYSED review help & filing support.",
+03_ForeignQual_US,Generic-ForeignQual,unpinned,https://www.nypllc.com/foreign-pllc,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,headline,NJ PLLC - NY — $975 Flat,1
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,headline,NJ PLLC Doing Business in NY,
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,headline,New Jersey - New York Qual,
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,headline,Register NJ PLLC in New York,
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,headline,NJ Foreign Qual — $975,
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,headline,NY Foreign Qualification,
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,headline,Application for Authority,
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,headline,Out-of-State PLLC - NY,
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,headline,NYSED & DOS Filing Help,
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,headline,Licensed Pro Entity Pros,
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,headline,Flat Fee — No Hidden Costs,
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,headline,Talk to a PLLC Specialist,
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,headline,Built for NY Professionals,
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,headline,We Handle the NY Process,
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,headline,Qualify Your PLLC Into NY,
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,description,Qualify your New Jersey PLLC into New York. Flat $975 for the PLLC path.,
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,description,NJ - NY foreign qualification for licensed professionals. Start today.,
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,description,"Foreign PLLC into NY: Application for Authority, NYSED review help & filing support.",
+03_ForeignQual_US,New-Jersey,controlled,https://www.nypllc.com/foreign-pllc/new-jersey,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,headline,NJ PLLC - NY — $975 Flat,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,headline,NJ PLLC Doing Business in NY,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,headline,New Jersey - New York Qual,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,headline,Register NJ PLLC in New York,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,headline,NJ Foreign Qual — $975,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,headline,NY Foreign Qualification,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,headline,Application for Authority,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,headline,Out-of-State PLLC - NY,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,headline,NYSED & DOS Filing Help,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,headline,Licensed Pro Entity Pros,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,headline,Flat Fee — No Hidden Costs,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,headline,Talk to a PLLC Specialist,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,headline,Built for NY Professionals,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,headline,We Handle the NY Process,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,headline,Qualify Your PLLC Into NY,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,description,Qualify your New Jersey PLLC into New York. Flat $975 for the PLLC path.,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,description,NJ - NY foreign qualification for licensed professionals. Start today.,
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,description,"Foreign PLLC into NY: Application for Authority, NYSED review help & filing support.",
+03_ForeignQual_US,New-Jersey,unpinned,https://www.nypllc.com/foreign-pllc/new-jersey,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,PA PLLC - NY — $995 Flat,1
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,PA PLLC Doing Business in NY,
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Pennsylvania - New York Qual,
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Register PA PLLC in New York,
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,PA Foreign Qual — $995,
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,NY Foreign Qualification,
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Application for Authority,
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Out-of-State PLLC - NY,
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,NYSED & DOS Filing Help,
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Licensed Pro Entity Pros,
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Flat Fee — No Hidden Costs,
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Talk to a PLLC Specialist,
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Built for NY Professionals,
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,We Handle the NY Process,
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Qualify Your PLLC Into NY,
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,description,Qualify your Pennsylvania PLLC into New York. Flat $995 for either path.,
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,description,PA - NY foreign qualification for licensed professionals. Start today.,
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,description,"Foreign PLLC into NY: Application for Authority, NYSED review help & filing support.",
+03_ForeignQual_US,Pennsylvania,controlled,https://www.nypllc.com/foreign-pllc/pennsylvania,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,PA PLLC - NY — $995 Flat,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,PA PLLC Doing Business in NY,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Pennsylvania - New York Qual,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Register PA PLLC in New York,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,PA Foreign Qual — $995,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,NY Foreign Qualification,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Application for Authority,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Out-of-State PLLC - NY,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,NYSED & DOS Filing Help,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Licensed Pro Entity Pros,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Flat Fee — No Hidden Costs,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Talk to a PLLC Specialist,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Built for NY Professionals,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,We Handle the NY Process,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,headline,Qualify Your PLLC Into NY,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,description,Qualify your Pennsylvania PLLC into New York. Flat $995 for either path.,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,description,PA - NY foreign qualification for licensed professionals. Start today.,
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,description,"Foreign PLLC into NY: Application for Authority, NYSED review help & filing support.",
+03_ForeignQual_US,Pennsylvania,unpinned,https://www.nypllc.com/foreign-pllc/pennsylvania,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,headline,FL PLLC - NY — $910 Flat,1
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,headline,FL PLLC Doing Business in NY,
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,headline,Florida - New York Qual,
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,headline,Register FL PLLC in New York,
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,headline,FL Foreign Qual — $910,
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,headline,NY Foreign Qualification,
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,headline,Application for Authority,
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,headline,Out-of-State PLLC - NY,
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,headline,NYSED & DOS Filing Help,
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,headline,Licensed Pro Entity Pros,
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,headline,Flat Fee — No Hidden Costs,
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,headline,Talk to a PLLC Specialist,
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,headline,Built for NY Professionals,
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,headline,We Handle the NY Process,
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,headline,Qualify Your PLLC Into NY,
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,description,Qualify your Florida PLLC into New York. Flat fees from $910.,
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,description,FL - NY foreign qualification for licensed professionals. Start today.,
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,description,"Foreign PLLC into NY: Application for Authority, NYSED review help & filing support.",
+03_ForeignQual_US,Florida,controlled,https://www.nypllc.com/foreign-pllc/florida,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,headline,FL PLLC - NY — $910 Flat,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,headline,FL PLLC Doing Business in NY,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,headline,Florida - New York Qual,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,headline,Register FL PLLC in New York,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,headline,FL Foreign Qual — $910,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,headline,NY Foreign Qualification,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,headline,Application for Authority,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,headline,Out-of-State PLLC - NY,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,headline,NYSED & DOS Filing Help,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,headline,Licensed Pro Entity Pros,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,headline,Flat Fee — No Hidden Costs,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,headline,Talk to a PLLC Specialist,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,headline,Built for NY Professionals,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,headline,We Handle the NY Process,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,headline,Qualify Your PLLC Into NY,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,description,Qualify your Florida PLLC into New York. Flat fees from $910.,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,description,FL - NY foreign qualification for licensed professionals. Start today.,
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,description,"Foreign PLLC into NY: Application for Authority, NYSED review help & filing support.",
+03_ForeignQual_US,Florida,unpinned,https://www.nypllc.com/foreign-pllc/florida,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,headline,TX PLLC - NY — $910 Flat,1
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,headline,TX PLLC Doing Business in NY,
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,headline,Texas - New York Qual,
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,headline,Register TX PLLC in New York,
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,headline,TX Foreign Qual — $910,
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,headline,NY Foreign Qualification,
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,headline,Application for Authority,
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,headline,Out-of-State PLLC - NY,
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,headline,NYSED & DOS Filing Help,
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,headline,Licensed Pro Entity Pros,
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,headline,Flat Fee — No Hidden Costs,
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,headline,Talk to a PLLC Specialist,
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,headline,Built for NY Professionals,
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,headline,We Handle the NY Process,
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,headline,Qualify Your PLLC Into NY,
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,description,Qualify your Texas PLLC into New York. Flat fees from $910.,
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,description,TX - NY foreign qualification for licensed professionals. Start today.,
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,description,"Foreign PLLC into NY: Application for Authority, NYSED review help & filing support.",
+03_ForeignQual_US,Texas,controlled,https://www.nypllc.com/foreign-pllc/texas,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,headline,TX PLLC - NY — $910 Flat,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,headline,TX PLLC Doing Business in NY,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,headline,Texas - New York Qual,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,headline,Register TX PLLC in New York,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,headline,TX Foreign Qual — $910,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,headline,NY Foreign Qualification,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,headline,Application for Authority,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,headline,Out-of-State PLLC - NY,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,headline,NYSED & DOS Filing Help,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,headline,Licensed Pro Entity Pros,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,headline,Flat Fee — No Hidden Costs,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,headline,Talk to a PLLC Specialist,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,headline,Built for NY Professionals,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,headline,We Handle the NY Process,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,headline,Qualify Your PLLC Into NY,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,description,Qualify your Texas PLLC into New York. Flat fees from $910.,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,description,TX - NY foreign qualification for licensed professionals. Start today.,
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,description,"Foreign PLLC into NY: Application for Authority, NYSED review help & filing support.",
+03_ForeignQual_US,Texas,unpinned,https://www.nypllc.com/foreign-pllc/texas,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,headline,CT PLLC - NY — $995 Flat,1
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,headline,CT PLLC Doing Business in NY,
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,headline,Connecticut - New York Qual,
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,headline,Register CT PLLC in New York,
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,headline,CT Foreign Qual — $995,
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,headline,NY Foreign Qualification,
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,headline,Application for Authority,
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,headline,Out-of-State PLLC - NY,
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,headline,NYSED & DOS Filing Help,
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,headline,Licensed Pro Entity Pros,
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,headline,Flat Fee — No Hidden Costs,
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,headline,Talk to a PLLC Specialist,
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,headline,Built for NY Professionals,
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,headline,We Handle the NY Process,
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,headline,Qualify Your PLLC Into NY,
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,description,Qualify your Connecticut PLLC into New York. Flat $995 for either path.,
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,description,CT - NY foreign qualification for licensed professionals. Start today.,
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,description,"Foreign PLLC into NY: Application for Authority, NYSED review help & filing support.",
+03_ForeignQual_US,Connecticut,controlled,https://www.nypllc.com/foreign-pllc/connecticut,description,Specialists who only do New York professional entities. No hourly attorney fees.,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,headline,CT PLLC - NY — $995 Flat,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,headline,CT PLLC Doing Business in NY,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,headline,Connecticut - New York Qual,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,headline,Register CT PLLC in New York,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,headline,CT Foreign Qual — $995,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,headline,NY Foreign Qualification,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,headline,Application for Authority,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,headline,Out-of-State PLLC - NY,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,headline,NYSED & DOS Filing Help,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,headline,Licensed Pro Entity Pros,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,headline,Flat Fee — No Hidden Costs,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,headline,Talk to a PLLC Specialist,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,headline,Built for NY Professionals,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,headline,We Handle the NY Process,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,headline,Qualify Your PLLC Into NY,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,description,Qualify your Connecticut PLLC into New York. Flat $995 for either path.,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,description,CT - NY foreign qualification for licensed professionals. Start today.,
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,description,"Foreign PLLC into NY: Application for Authority, NYSED review help & filing support.",
+03_ForeignQual_US,Connecticut,unpinned,https://www.nypllc.com/foreign-pllc/connecticut,description,Specialists who only do New York professional entities. No hourly attorney fees.,

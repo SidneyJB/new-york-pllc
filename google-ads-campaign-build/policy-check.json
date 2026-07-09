@@ -2,13 +2,13 @@
   "customer_id": "1529880213",
   "manifest": "/Users/sidb/dev/new-york-pllc/google-ads-campaign-build/manifest.json",
   "summary": {
-    "ok": 24,
-    "already_live": 45,
-    "policy_exemptible": 6,
+    "ok": 0,
+    "already_live": 75,
+    "policy_exemptible": 0,
     "policy_blocked": 0,
     "policy_mixed": 0,
     "error": 0,
-    "skipped_no_ad_group": 0
+    "skipped_no_ad_group": 33
   },
   "results": [
     {
@@ -403,54 +403,27 @@
       "ad_group": "Therapists-LCSW",
       "keyword": "lcsw pllc",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": false,
-      "status": "policy_exemptible",
-      "exemptible": true,
-      "policy": "Health in personalized advertising",
-      "policies": [
-        {
-          "policy_name": "Health in personalized advertising",
-          "description": "Your ad violates the Personalized advertising policy by using audience targeting based on sensitive health information.",
-          "is_exemptible": true,
-          "violating_text": "lcsw pllc"
-        }
-      ]
+      "status": "already_live",
+      "exemptible": null,
+      "policy": null
     },
     {
       "campaign": "02_Professions_NY",
       "ad_group": "Therapists-LCSW",
       "keyword": "lcsw pllc new york",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": false,
-      "status": "policy_exemptible",
-      "exemptible": true,
-      "policy": "Health in personalized advertising",
-      "policies": [
-        {
-          "policy_name": "Health in personalized advertising",
-          "description": "Your ad violates the Personalized advertising policy by using audience targeting based on sensitive health information.",
-          "is_exemptible": true,
-          "violating_text": "lcsw pllc new york"
-        }
-      ]
+      "status": "already_live",
+      "exemptible": null,
+      "policy": null
     },
     {
       "campaign": "02_Professions_NY",
       "ad_group": "Therapists-LCSW",
       "keyword": "pllc for lcsw",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": false,
-      "status": "policy_exemptible",
-      "exemptible": true,
-      "policy": "Health in personalized advertising",
-      "policies": [
-        {
-          "policy_name": "Health in personalized advertising",
-          "description": "Your ad violates the Personalized advertising policy by using audience targeting based on sensitive health information.",
-          "is_exemptible": true,
-          "violating_text": "pllc for lcsw"
-        }
-      ]
+      "status": "already_live",
+      "exemptible": null,
+      "policy": null
     },
     {
       "campaign": "02_Professions_NY",
@@ -475,8 +448,7 @@
       "ad_group": "MHC-LMHC",
       "keyword": "lmhc pllc",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -485,26 +457,16 @@
       "ad_group": "MHC-LMHC",
       "keyword": "mental health counselor pllc",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "policy_exemptible",
-      "exemptible": true,
-      "policy": "Health in personalized advertising",
-      "policies": [
-        {
-          "policy_name": "Health in personalized advertising",
-          "description": "Your ad violates the Personalized advertising policy by using audience targeting based on sensitive health information.",
-          "is_exemptible": true,
-          "violating_text": "mental health counselor pllc"
-        }
-      ]
+      "status": "already_live",
+      "exemptible": null,
+      "policy": null
     },
     {
       "campaign": "02_Professions_NY",
       "ad_group": "MHC-LMHC",
       "keyword": "mhc pllc new york",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -513,8 +475,7 @@
       "ad_group": "Psychology",
       "keyword": "psychologist pllc new york",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -523,8 +484,7 @@
       "ad_group": "Psychology",
       "keyword": "psychology pllc ny",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -533,8 +493,7 @@
       "ad_group": "Physicians",
       "keyword": "medical pllc new york",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -543,8 +502,7 @@
       "ad_group": "Physicians",
       "keyword": "physician pllc",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -553,8 +511,7 @@
       "ad_group": "Physicians",
       "keyword": "pllc for doctors new york",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -563,8 +520,7 @@
       "ad_group": "Physicians",
       "keyword": "md pllc ny",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -573,8 +529,7 @@
       "ad_group": "Physicians",
       "keyword": "medical practice pllc new york",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -583,8 +538,7 @@
       "ad_group": "Nurse-Practitioners",
       "keyword": "nurse practitioner pllc new york",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -593,8 +547,7 @@
       "ad_group": "Nurse-Practitioners",
       "keyword": "np pllc ny",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -603,26 +556,16 @@
       "ad_group": "Nurse-Practitioners",
       "keyword": "psychiatric nurse practitioner pllc",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "policy_exemptible",
-      "exemptible": true,
-      "policy": "Health in personalized advertising",
-      "policies": [
-        {
-          "policy_name": "Health in personalized advertising",
-          "description": "Your ad violates the Personalized advertising policy by using audience targeting based on sensitive health information.",
-          "is_exemptible": true,
-          "violating_text": "psychiatric nurse practitioner pllc"
-        }
-      ]
+      "status": "already_live",
+      "exemptible": null,
+      "policy": null
     },
     {
       "campaign": "02_Professions_NY",
       "ad_group": "Dentists",
       "keyword": "dental pllc new york",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -631,8 +574,7 @@
       "ad_group": "Dentists",
       "keyword": "dentist pllc ny",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -641,8 +583,7 @@
       "ad_group": "Dentists",
       "keyword": "dental practice pllc",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -651,26 +592,16 @@
       "ad_group": "Physical-Therapy",
       "keyword": "physical therapy pllc new york",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "policy_exemptible",
-      "exemptible": true,
-      "policy": "Health in personalized advertising",
-      "policies": [
-        {
-          "policy_name": "Health in personalized advertising",
-          "description": "Your ad violates the Personalized advertising policy by using audience targeting based on sensitive health information.",
-          "is_exemptible": true,
-          "violating_text": "physical therapy pllc new york"
-        }
-      ]
+      "status": "already_live",
+      "exemptible": null,
+      "policy": null
     },
     {
       "campaign": "02_Professions_NY",
       "ad_group": "Physical-Therapy",
       "keyword": "pt pllc ny",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -679,8 +610,7 @@
       "ad_group": "Architects",
       "keyword": "architecture pllc new york",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -689,8 +619,7 @@
       "ad_group": "Architects",
       "keyword": "architect pllc ny",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -699,8 +628,7 @@
       "ad_group": "Engineers",
       "keyword": "engineering pllc new york",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -709,8 +637,7 @@
       "ad_group": "Engineers",
       "keyword": "pe pllc new york",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -719,8 +646,7 @@
       "ad_group": "Attorneys",
       "keyword": "law firm pllc new york",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -729,8 +655,7 @@
       "ad_group": "Attorneys",
       "keyword": "attorney pllc ny",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -739,8 +664,7 @@
       "ad_group": "Attorneys",
       "keyword": "law pllc new york",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -749,8 +673,7 @@
       "ad_group": "CPAs",
       "keyword": "cpa pllc new york",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -759,8 +682,304 @@
       "ad_group": "CPAs",
       "keyword": "accounting pllc ny",
       "match_type": "EXACT",
-      "validated_via_proxy_ad_group": true,
-      "status": "ok",
+      "status": "already_live",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Generic-ForeignQual",
+      "keyword": "foreign pllc new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Generic-ForeignQual",
+      "keyword": "register out of state pllc in new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Generic-ForeignQual",
+      "keyword": "application for authority new york pllc",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Generic-ForeignQual",
+      "keyword": "ny application for authority",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Generic-ForeignQual",
+      "keyword": "foreign qualification new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Generic-ForeignQual",
+      "keyword": "foreign qualification ny",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Generic-ForeignQual",
+      "keyword": "register my pllc in new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Generic-ForeignQual",
+      "keyword": "out of state pllc new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Generic-ForeignQual",
+      "keyword": "qualify pllc in new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Generic-ForeignQual",
+      "keyword": "foreign pllc registration new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Generic-ForeignQual",
+      "keyword": "california pllc new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Generic-ForeignQual",
+      "keyword": "ca pllc doing business in new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "New-Jersey",
+      "keyword": "nj pllc doing business in new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "New-Jersey",
+      "keyword": "new jersey pllc new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "New-Jersey",
+      "keyword": "nj pllc new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "New-Jersey",
+      "keyword": "register nj pllc in new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "New-Jersey",
+      "keyword": "new jersey pllc doing business in new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Pennsylvania",
+      "keyword": "pennsylvania pllc in new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Pennsylvania",
+      "keyword": "pa pllc new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Pennsylvania",
+      "keyword": "pennsylvania pllc doing business in new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Pennsylvania",
+      "keyword": "register pa pllc in new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Florida",
+      "keyword": "florida pllc new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Florida",
+      "keyword": "fl pllc new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Florida",
+      "keyword": "florida pllc doing business in new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Florida",
+      "keyword": "register florida pllc in new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Texas",
+      "keyword": "texas pllc new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Texas",
+      "keyword": "tx pllc new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Texas",
+      "keyword": "texas pllc doing business in new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Texas",
+      "keyword": "register texas pllc in new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Connecticut",
+      "keyword": "connecticut pllc new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Connecticut",
+      "keyword": "ct pllc new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Connecticut",
+      "keyword": "connecticut pllc doing business in new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Connecticut",
+      "keyword": "register connecticut pllc in new york",
+      "match_type": "EXACT",
+      "status": "skipped_no_ad_group",
       "exemptible": null,
       "policy": null
     }

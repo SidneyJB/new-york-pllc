@@ -1,8 +1,8 @@
-# Google Ads campaign build — Phase 1 draft
+# Google Ads campaign build — Phase 1–2 drafts
 
-Structured upload package for **`01_Core_Exact_NY`** and **`02_Professions_NY`**, extracted from [nypllc-google-ads-operating-plan.md](../nypllc-google-ads-operating-plan.md) §2.1–2.2.
+Structured upload package for **`01_Core_Exact_NY`**, **`02_Professions_NY`**, and **`03_ForeignQual_US`**, from [nypllc-google-ads-operating-plan.md](../nypllc-google-ads-operating-plan.md) §2.1–2.3.
 
-**State (Jul 9 2026):** Campaigns created in account **PAUSED**. Keywords/structure uploaded via API. Portfolio `$90` exists and is on **`Sales-Search-1` only** — do **not** enable drafts until conversion flip + attach drafts to that portfolio. RSAs still missing.
+**State (Jul 9 2026):** All three campaigns created in account **PAUSED**. Keywords + RSAs uploaded. Portfolio `$90` exists and is on **`Sales-Search-1` only** — do **not** enable drafts until conversion flip + attach to that portfolio. Foreign Qual also waits on **Gate 1**.
 
 ## Files
 
@@ -10,17 +10,18 @@ Structured upload package for **`01_Core_Exact_NY`** and **`02_Professions_NY`**
 |------|---------|
 | `campaigns.csv` | Campaign-level settings (budget, geo, negatives, portfolio tCPA) |
 | `ad_groups.csv` | Ad groups + final URLs for RSA message-match |
-| `keywords.csv` | 75 keywords across 15 ad groups |
+| `keywords.csv` | Keywords across all draft ad groups |
 | `manifest.json` | Nested JSON consumed by `google_ads/upload_campaigns.py` |
 | `policy-check.json` | Validate-only policy scan (`check_keyword_policy.py`) |
 | `upload-result.json` | Last live upload/resume result |
 
 ## Counts
 
-| Campaign | Ad groups | Keywords |
-|----------|-----------|----------|
-| `01_Core_Exact_NY` | 4 | 41 |
-| `02_Professions_NY` | 11 | 34 |
+| Campaign | Ad groups | Keywords | RSAs |
+|----------|-----------|----------|------|
+| `01_Core_Exact_NY` | 4 | 41 | 8 |
+| `02_Professions_NY` | 11 | 34 | 22 |
+| `03_ForeignQual_US` | 6 | 33 | 12 |
 
 ## Landing page mapping
 
@@ -39,13 +40,28 @@ Each ad group → `https://www.nypllc.com/professions/{slug}` (see `ad_groups.cs
 
 **Note:** Operating plan groups Architects + Engineers in one row with two landing pages. Split here into **Architects** and **Engineers** ad groups for clean query→page match.
 
+### Foreign Qual
+
+| Ad group | Final URL |
+|----------|-----------|
+| Generic-ForeignQual | `https://www.nypllc.com/foreign-pllc` |
+| New-Jersey | `…/foreign-pllc/new-jersey` |
+| Pennsylvania | `…/foreign-pllc/pennsylvania` |
+| Florida | `…/foreign-pllc/florida` |
+| Texas | `…/foreign-pllc/texas` |
+| Connecticut | `…/foreign-pllc/connecticut` |
+
+CA exacts live in Generic (no CA state page yet). Skipped `certificate of authority new york` per §2.3 (sales-tax collision).
+
 ## Campaign defaults (from operating plan)
 
-- **Geo:** New York State, Presence
-- **Budget:** Core $45/day · Professions $25/day
-- **Bidding:** Portfolio Target CPA $90 (attach both campaigns + existing `Sales-Search-1`)
-- **Networks:** Search only (Partners off, Display Expansion off)
-- **Negatives:** Shared lists A–E (`12146898907,12145390194,12146898706,12146898991,12146898709`)
+| | Core / Professions | Foreign Qual |
+|--|--------------------|--------------|
+| **Geo** | New York State, Presence | **United States**, Presence |
+| **Budget** | $45 / $25/day | **$15/day** |
+| **Bidding** | Inline Max Conv tCPA $90 until portfolio attach | Same |
+| **Networks** | Search only | Search only |
+| **Negatives** | Shared A–E | **A-FQ** + B–E (not List A) |
 
 ## Upload commands
 
@@ -53,30 +69,32 @@ Each ad group → `https://www.nypllc.com/professions/{slug}` (see `ad_groups.cs
 # Validate-only policy scan (no writes)
 .venv/bin/python -m google_ads.check_keyword_policy
 
-# Create or resume PAUSED campaigns/keywords (auto-exemption on exemptible health policies)
+# Create or resume PAUSED campaigns/keywords
 .venv/bin/python -m google_ads.upload_campaigns
-.venv/bin/python -m google_ads.upload_campaigns --only 02_Professions_NY
+.venv/bin/python -m google_ads.upload_campaigns --only 03_ForeignQual_US
+
+# RSAs
+.venv/bin/python -m google_ads.upload_rsas
 ```
 
 ## Progress (Jul 9 2026)
 
 | Item | Status |
 |------|--------|
-| `01_Core_Exact_NY` PAUSED + 4 AGs + 41 keywords | Done |
-| `02_Professions_NY` PAUSED + 11 AGs + 34 keywords | Done |
-| 6 health-policy keywords (API exemption requested) | Done — pending Google review |
+| `01_Core_Exact_NY` PAUSED + keywords + RSAs | Done |
+| `02_Professions_NY` PAUSED + keywords + RSAs | Done |
+| `03_ForeignQual_US` PAUSED + 6 AGs + 33 keywords + 12 RSAs | Done |
 | Portfolio `NYPLLC Search Portfolio` $90 on `Sales-Search-1` | Done |
-| RSA packages assembled (`rsas/`) | Done |
-| Upload RSAs to paused campaigns | **Done** (30 RSAs) |
-| Attach drafts to portfolio + enable | Blocked on conversion flip |
+| Attach drafts to portfolio + enable | Blocked on conversion flip (FQ also Gate 1) |
 
 ## Remaining API upload order
 
-1. After conversion flip verified → attach drafts to portfolio → enable `01_Core_Exact_NY`, then `02_Professions_NY` per calendar
+1. After conversion flip → attach 01/02 to portfolio → enable Core Exact, then Professions per calendar
+2. After Gate 1 → attach `03_ForeignQual_US` to portfolio → enable
 
 ## Not included (next pass)
 
-- `03_ForeignQual_US` keywords (§2.3 — Gate 1)
 - Campaign enable / budget ramp
 - Discovery fence negatives on `Sales-Search-1` (§2.4 — Gate 2)
-- Trustpilot headline (blocked until §1.4 URL fix)
+- Google-reviews RSA headline (optional; site GBP **5★ / 6** locked Jul 9)
+- CA state landing page (CA keywords → hub for now)

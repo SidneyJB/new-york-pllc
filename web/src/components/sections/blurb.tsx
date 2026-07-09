@@ -1,7 +1,7 @@
 // File: web/src/components/sections/blurb.tsx
 import Link from 'next/link'
 import { Card, CardContent } from '@/components/ui/card'
-import { PRICING } from '@/lib/constants'
+import { BUSINESS_INFO, PRICING } from '@/lib/constants'
 
 export function AboutBlurbSection() {
   return (
@@ -17,7 +17,7 @@ export function AboutBlurbSection() {
               <div className="mt-4 space-y-4 text-base leading-7 text-foreground">
                 <p>
                   We’re a small New York team that does one thing well: forming PLLCs the right way for licensed
-                  professionals. If you’ve seen our 5-star work on{' '}
+                  professionals. If you’ve seen our work on{' '}
                   <Link href="https://www.cheapnewyorkllc.com" className="underline underline-offset-4">
                     CheapNewYorkLLC.com
                   </Link>{' '}
@@ -25,9 +25,16 @@ export function AboutBlurbSection() {
                   <Link href="https://www.newyorkllcpublishing.com" className="underline underline-offset-4">
                     NewYorkLLCPublishing.com
                   </Link>
-                  {' '}(<Link href="https://www.trustpilot.com/review/cheapnewyorkllc.com" className="underline underline-offset-4" target="_blank" rel="noopener noreferrer">
-                    see our perfect five star rating on Trustpilot
-                  </Link>), this is the same crew—same no-nonsense approach, just focused on PLLCs.
+                  {' '}(
+                  <Link
+                    href={BUSINESS_INFO.googleBusinessProfileUrl}
+                    className="underline underline-offset-4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    see our Google reviews
+                  </Link>
+                  ), this is the same crew—same no-nonsense approach, just focused on PLLCs.
                 </p>
 
                 <p>

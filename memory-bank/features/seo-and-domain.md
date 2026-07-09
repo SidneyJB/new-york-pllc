@@ -19,6 +19,7 @@ Canonical **www.nypllc.com** with Next metadata API, JSON-LD, sitemap, and Verce
 
 - Do not reintroduce env-var fallback for site URL
 - Old domains must stay redirect-only in Vercel dashboard
+- Reviews: link + schema use NYPLLC **Google Business Profile** (`BUSINESS_INFO.googleBusinessProfileUrl`) — not Trustpilot / not cheapnewyorkllc. Keep `googleReviews` (rating/count) in sync with live GBP (**5.0 / 6** as of Jul 9 2026)
 
 ## Docs
 

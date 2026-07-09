@@ -1,5 +1,5 @@
 {
-  "source": "nypllc-google-ads-operating-plan.md \u00a72.1\u20132.2",
+  "source": "nypllc-google-ads-operating-plan.md \u00a72.1\u20132.3",
   "generated": "2026-07-09",
   "account_customer_id": "1529880213",
   "launch_state": "PAUSED_DRAFT",
@@ -429,11 +429,195 @@
           ]
         }
       ]
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "status": "PAUSED",
+      "budget_daily_usd": 15,
+      "geo_target": "United States",
+      "geo_option": "PRESENCE",
+      "bidding_strategy": "PORTFOLIO_TARGET_CPA",
+      "portfolio_tcpa_usd": 90,
+      "network_search": true,
+      "network_partners": false,
+      "network_display": false,
+      "language": "en",
+      "negative_shared_set_ids": "12146898703,12145390194,12146898706,12146898991,12146898709",
+      "ad_groups": [
+        {
+          "ad_group_name": "Generic-ForeignQual",
+          "final_url": "https://www.nypllc.com/foreign-pllc",
+          "keywords": [
+            {
+              "keyword_text": "foreign pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "register out of state pllc in new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "application for authority new york pllc",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "ny application for authority",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "foreign qualification new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "foreign qualification ny",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "register my pllc in new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "out of state pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "qualify pllc in new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "foreign pllc registration new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "california pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "ca pllc doing business in new york",
+              "match_type": "EXACT"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "New-Jersey",
+          "final_url": "https://www.nypllc.com/foreign-pllc/new-jersey",
+          "keywords": [
+            {
+              "keyword_text": "nj pllc doing business in new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "new jersey pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "nj pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "register nj pllc in new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "new jersey pllc doing business in new york",
+              "match_type": "EXACT"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "Pennsylvania",
+          "final_url": "https://www.nypllc.com/foreign-pllc/pennsylvania",
+          "keywords": [
+            {
+              "keyword_text": "pennsylvania pllc in new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pa pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pennsylvania pllc doing business in new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "register pa pllc in new york",
+              "match_type": "EXACT"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "Florida",
+          "final_url": "https://www.nypllc.com/foreign-pllc/florida",
+          "keywords": [
+            {
+              "keyword_text": "florida pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "fl pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "florida pllc doing business in new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "register florida pllc in new york",
+              "match_type": "EXACT"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "Texas",
+          "final_url": "https://www.nypllc.com/foreign-pllc/texas",
+          "keywords": [
+            {
+              "keyword_text": "texas pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "tx pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "texas pllc doing business in new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "register texas pllc in new york",
+              "match_type": "EXACT"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "Connecticut",
+          "final_url": "https://www.nypllc.com/foreign-pllc/connecticut",
+          "keywords": [
+            {
+              "keyword_text": "connecticut pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "ct pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "connecticut pllc doing business in new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "register connecticut pllc in new york",
+              "match_type": "EXACT"
+            }
+          ]
+        }
+      ]
     }
   ],
   "counts": {
-    "campaigns": 2,
-    "ad_groups": 15,
-    "keywords": 75
+    "campaigns": 3,
+    "ad_groups": 21,
+    "keywords": 108
   }
 }

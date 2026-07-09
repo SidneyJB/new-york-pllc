@@ -1,5 +1,5 @@
 {
-  "source": "nypllc-google-ads-operating-plan.md \u00a74.1\u20134.3",
+  "source": "nypllc-google-ads-operating-plan.md \u00a74.1\u20134.3 + \u00a72.3 ForeignQual",
   "generated": "2026-07-09",
   "rsas": [
     {
@@ -2225,6 +2225,1002 @@
         },
         {
           "text": "Flat $885 covers state fees, publication, EIN and your operating agreement. Start today."
+        }
+      ]
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Generic-ForeignQual",
+      "rsa_variant": "controlled",
+      "final_url": "https://www.nypllc.com/foreign-pllc",
+      "status": "PAUSED",
+      "headlines": [
+        {
+          "text": "Qualify Into NY \u2014 From $910",
+          "pinned_position": "1"
+        },
+        {
+          "text": "Foreign PLLC New York Help",
+          "pinned_position": null
+        },
+        {
+          "text": "Register Out-of-State PLLC",
+          "pinned_position": null
+        },
+        {
+          "text": "NY Application for Authority",
+          "pinned_position": null
+        },
+        {
+          "text": "Foreign Qual From $910",
+          "pinned_position": null
+        },
+        {
+          "text": "NY Foreign Qualification",
+          "pinned_position": null
+        },
+        {
+          "text": "Application for Authority",
+          "pinned_position": null
+        },
+        {
+          "text": "Out-of-State PLLC - NY",
+          "pinned_position": null
+        },
+        {
+          "text": "NYSED & DOS Filing Help",
+          "pinned_position": null
+        },
+        {
+          "text": "Licensed Pro Entity Pros",
+          "pinned_position": null
+        },
+        {
+          "text": "Flat Fee \u2014 No Hidden Costs",
+          "pinned_position": null
+        },
+        {
+          "text": "Talk to a PLLC Specialist",
+          "pinned_position": null
+        },
+        {
+          "text": "Built for NY Professionals",
+          "pinned_position": null
+        },
+        {
+          "text": "We Handle the NY Process",
+          "pinned_position": null
+        },
+        {
+          "text": "Qualify Your PLLC Into NY",
+          "pinned_position": null
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Qualify your out-of-state PLLC into New York. Flat fees from $910 by home state."
+        },
+        {
+          "text": "Application for Authority help for licensed pros. NJ, PA, FL, TX, CT & more."
+        },
+        {
+          "text": "Foreign PLLC into NY: Application for Authority, NYSED review help & filing support."
+        },
+        {
+          "text": "Specialists who only do New York professional entities. No hourly attorney fees."
+        }
+      ]
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Generic-ForeignQual",
+      "rsa_variant": "unpinned",
+      "final_url": "https://www.nypllc.com/foreign-pllc",
+      "status": "PAUSED",
+      "headlines": [
+        {
+          "text": "Qualify Into NY \u2014 From $910",
+          "pinned_position": null
+        },
+        {
+          "text": "Foreign PLLC New York Help",
+          "pinned_position": null
+        },
+        {
+          "text": "Register Out-of-State PLLC",
+          "pinned_position": null
+        },
+        {
+          "text": "NY Application for Authority",
+          "pinned_position": null
+        },
+        {
+          "text": "Foreign Qual From $910",
+          "pinned_position": null
+        },
+        {
+          "text": "NY Foreign Qualification",
+          "pinned_position": null
+        },
+        {
+          "text": "Application for Authority",
+          "pinned_position": null
+        },
+        {
+          "text": "Out-of-State PLLC - NY",
+          "pinned_position": null
+        },
+        {
+          "text": "NYSED & DOS Filing Help",
+          "pinned_position": null
+        },
+        {
+          "text": "Licensed Pro Entity Pros",
+          "pinned_position": null
+        },
+        {
+          "text": "Flat Fee \u2014 No Hidden Costs",
+          "pinned_position": null
+        },
+        {
+          "text": "Talk to a PLLC Specialist",
+          "pinned_position": null
+        },
+        {
+          "text": "Built for NY Professionals",
+          "pinned_position": null
+        },
+        {
+          "text": "We Handle the NY Process",
+          "pinned_position": null
+        },
+        {
+          "text": "Qualify Your PLLC Into NY",
+          "pinned_position": null
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Qualify your out-of-state PLLC into New York. Flat fees from $910 by home state."
+        },
+        {
+          "text": "Application for Authority help for licensed pros. NJ, PA, FL, TX, CT & more."
+        },
+        {
+          "text": "Foreign PLLC into NY: Application for Authority, NYSED review help & filing support."
+        },
+        {
+          "text": "Specialists who only do New York professional entities. No hourly attorney fees."
+        }
+      ]
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "New-Jersey",
+      "rsa_variant": "controlled",
+      "final_url": "https://www.nypllc.com/foreign-pllc/new-jersey",
+      "status": "PAUSED",
+      "headlines": [
+        {
+          "text": "NJ PLLC - NY \u2014 $975 Flat",
+          "pinned_position": "1"
+        },
+        {
+          "text": "NJ PLLC Doing Business in NY",
+          "pinned_position": null
+        },
+        {
+          "text": "New Jersey - New York Qual",
+          "pinned_position": null
+        },
+        {
+          "text": "Register NJ PLLC in New York",
+          "pinned_position": null
+        },
+        {
+          "text": "NJ Foreign Qual \u2014 $975",
+          "pinned_position": null
+        },
+        {
+          "text": "NY Foreign Qualification",
+          "pinned_position": null
+        },
+        {
+          "text": "Application for Authority",
+          "pinned_position": null
+        },
+        {
+          "text": "Out-of-State PLLC - NY",
+          "pinned_position": null
+        },
+        {
+          "text": "NYSED & DOS Filing Help",
+          "pinned_position": null
+        },
+        {
+          "text": "Licensed Pro Entity Pros",
+          "pinned_position": null
+        },
+        {
+          "text": "Flat Fee \u2014 No Hidden Costs",
+          "pinned_position": null
+        },
+        {
+          "text": "Talk to a PLLC Specialist",
+          "pinned_position": null
+        },
+        {
+          "text": "Built for NY Professionals",
+          "pinned_position": null
+        },
+        {
+          "text": "We Handle the NY Process",
+          "pinned_position": null
+        },
+        {
+          "text": "Qualify Your PLLC Into NY",
+          "pinned_position": null
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Qualify your New Jersey PLLC into New York. Flat $975 for the PLLC path."
+        },
+        {
+          "text": "NJ - NY foreign qualification for licensed professionals. Start today."
+        },
+        {
+          "text": "Foreign PLLC into NY: Application for Authority, NYSED review help & filing support."
+        },
+        {
+          "text": "Specialists who only do New York professional entities. No hourly attorney fees."
+        }
+      ]
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "New-Jersey",
+      "rsa_variant": "unpinned",
+      "final_url": "https://www.nypllc.com/foreign-pllc/new-jersey",
+      "status": "PAUSED",
+      "headlines": [
+        {
+          "text": "NJ PLLC - NY \u2014 $975 Flat",
+          "pinned_position": null
+        },
+        {
+          "text": "NJ PLLC Doing Business in NY",
+          "pinned_position": null
+        },
+        {
+          "text": "New Jersey - New York Qual",
+          "pinned_position": null
+        },
+        {
+          "text": "Register NJ PLLC in New York",
+          "pinned_position": null
+        },
+        {
+          "text": "NJ Foreign Qual \u2014 $975",
+          "pinned_position": null
+        },
+        {
+          "text": "NY Foreign Qualification",
+          "pinned_position": null
+        },
+        {
+          "text": "Application for Authority",
+          "pinned_position": null
+        },
+        {
+          "text": "Out-of-State PLLC - NY",
+          "pinned_position": null
+        },
+        {
+          "text": "NYSED & DOS Filing Help",
+          "pinned_position": null
+        },
+        {
+          "text": "Licensed Pro Entity Pros",
+          "pinned_position": null
+        },
+        {
+          "text": "Flat Fee \u2014 No Hidden Costs",
+          "pinned_position": null
+        },
+        {
+          "text": "Talk to a PLLC Specialist",
+          "pinned_position": null
+        },
+        {
+          "text": "Built for NY Professionals",
+          "pinned_position": null
+        },
+        {
+          "text": "We Handle the NY Process",
+          "pinned_position": null
+        },
+        {
+          "text": "Qualify Your PLLC Into NY",
+          "pinned_position": null
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Qualify your New Jersey PLLC into New York. Flat $975 for the PLLC path."
+        },
+        {
+          "text": "NJ - NY foreign qualification for licensed professionals. Start today."
+        },
+        {
+          "text": "Foreign PLLC into NY: Application for Authority, NYSED review help & filing support."
+        },
+        {
+          "text": "Specialists who only do New York professional entities. No hourly attorney fees."
+        }
+      ]
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Pennsylvania",
+      "rsa_variant": "controlled",
+      "final_url": "https://www.nypllc.com/foreign-pllc/pennsylvania",
+      "status": "PAUSED",
+      "headlines": [
+        {
+          "text": "PA PLLC - NY \u2014 $995 Flat",
+          "pinned_position": "1"
+        },
+        {
+          "text": "PA PLLC Doing Business in NY",
+          "pinned_position": null
+        },
+        {
+          "text": "Pennsylvania - New York Qual",
+          "pinned_position": null
+        },
+        {
+          "text": "Register PA PLLC in New York",
+          "pinned_position": null
+        },
+        {
+          "text": "PA Foreign Qual \u2014 $995",
+          "pinned_position": null
+        },
+        {
+          "text": "NY Foreign Qualification",
+          "pinned_position": null
+        },
+        {
+          "text": "Application for Authority",
+          "pinned_position": null
+        },
+        {
+          "text": "Out-of-State PLLC - NY",
+          "pinned_position": null
+        },
+        {
+          "text": "NYSED & DOS Filing Help",
+          "pinned_position": null
+        },
+        {
+          "text": "Licensed Pro Entity Pros",
+          "pinned_position": null
+        },
+        {
+          "text": "Flat Fee \u2014 No Hidden Costs",
+          "pinned_position": null
+        },
+        {
+          "text": "Talk to a PLLC Specialist",
+          "pinned_position": null
+        },
+        {
+          "text": "Built for NY Professionals",
+          "pinned_position": null
+        },
+        {
+          "text": "We Handle the NY Process",
+          "pinned_position": null
+        },
+        {
+          "text": "Qualify Your PLLC Into NY",
+          "pinned_position": null
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Qualify your Pennsylvania PLLC into New York. Flat $995 for either path."
+        },
+        {
+          "text": "PA - NY foreign qualification for licensed professionals. Start today."
+        },
+        {
+          "text": "Foreign PLLC into NY: Application for Authority, NYSED review help & filing support."
+        },
+        {
+          "text": "Specialists who only do New York professional entities. No hourly attorney fees."
+        }
+      ]
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Pennsylvania",
+      "rsa_variant": "unpinned",
+      "final_url": "https://www.nypllc.com/foreign-pllc/pennsylvania",
+      "status": "PAUSED",
+      "headlines": [
+        {
+          "text": "PA PLLC - NY \u2014 $995 Flat",
+          "pinned_position": null
+        },
+        {
+          "text": "PA PLLC Doing Business in NY",
+          "pinned_position": null
+        },
+        {
+          "text": "Pennsylvania - New York Qual",
+          "pinned_position": null
+        },
+        {
+          "text": "Register PA PLLC in New York",
+          "pinned_position": null
+        },
+        {
+          "text": "PA Foreign Qual \u2014 $995",
+          "pinned_position": null
+        },
+        {
+          "text": "NY Foreign Qualification",
+          "pinned_position": null
+        },
+        {
+          "text": "Application for Authority",
+          "pinned_position": null
+        },
+        {
+          "text": "Out-of-State PLLC - NY",
+          "pinned_position": null
+        },
+        {
+          "text": "NYSED & DOS Filing Help",
+          "pinned_position": null
+        },
+        {
+          "text": "Licensed Pro Entity Pros",
+          "pinned_position": null
+        },
+        {
+          "text": "Flat Fee \u2014 No Hidden Costs",
+          "pinned_position": null
+        },
+        {
+          "text": "Talk to a PLLC Specialist",
+          "pinned_position": null
+        },
+        {
+          "text": "Built for NY Professionals",
+          "pinned_position": null
+        },
+        {
+          "text": "We Handle the NY Process",
+          "pinned_position": null
+        },
+        {
+          "text": "Qualify Your PLLC Into NY",
+          "pinned_position": null
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Qualify your Pennsylvania PLLC into New York. Flat $995 for either path."
+        },
+        {
+          "text": "PA - NY foreign qualification for licensed professionals. Start today."
+        },
+        {
+          "text": "Foreign PLLC into NY: Application for Authority, NYSED review help & filing support."
+        },
+        {
+          "text": "Specialists who only do New York professional entities. No hourly attorney fees."
+        }
+      ]
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Florida",
+      "rsa_variant": "controlled",
+      "final_url": "https://www.nypllc.com/foreign-pllc/florida",
+      "status": "PAUSED",
+      "headlines": [
+        {
+          "text": "FL PLLC - NY \u2014 $910 Flat",
+          "pinned_position": "1"
+        },
+        {
+          "text": "FL PLLC Doing Business in NY",
+          "pinned_position": null
+        },
+        {
+          "text": "Florida - New York Qual",
+          "pinned_position": null
+        },
+        {
+          "text": "Register FL PLLC in New York",
+          "pinned_position": null
+        },
+        {
+          "text": "FL Foreign Qual \u2014 $910",
+          "pinned_position": null
+        },
+        {
+          "text": "NY Foreign Qualification",
+          "pinned_position": null
+        },
+        {
+          "text": "Application for Authority",
+          "pinned_position": null
+        },
+        {
+          "text": "Out-of-State PLLC - NY",
+          "pinned_position": null
+        },
+        {
+          "text": "NYSED & DOS Filing Help",
+          "pinned_position": null
+        },
+        {
+          "text": "Licensed Pro Entity Pros",
+          "pinned_position": null
+        },
+        {
+          "text": "Flat Fee \u2014 No Hidden Costs",
+          "pinned_position": null
+        },
+        {
+          "text": "Talk to a PLLC Specialist",
+          "pinned_position": null
+        },
+        {
+          "text": "Built for NY Professionals",
+          "pinned_position": null
+        },
+        {
+          "text": "We Handle the NY Process",
+          "pinned_position": null
+        },
+        {
+          "text": "Qualify Your PLLC Into NY",
+          "pinned_position": null
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Qualify your Florida PLLC into New York. Flat fees from $910."
+        },
+        {
+          "text": "FL - NY foreign qualification for licensed professionals. Start today."
+        },
+        {
+          "text": "Foreign PLLC into NY: Application for Authority, NYSED review help & filing support."
+        },
+        {
+          "text": "Specialists who only do New York professional entities. No hourly attorney fees."
+        }
+      ]
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Florida",
+      "rsa_variant": "unpinned",
+      "final_url": "https://www.nypllc.com/foreign-pllc/florida",
+      "status": "PAUSED",
+      "headlines": [
+        {
+          "text": "FL PLLC - NY \u2014 $910 Flat",
+          "pinned_position": null
+        },
+        {
+          "text": "FL PLLC Doing Business in NY",
+          "pinned_position": null
+        },
+        {
+          "text": "Florida - New York Qual",
+          "pinned_position": null
+        },
+        {
+          "text": "Register FL PLLC in New York",
+          "pinned_position": null
+        },
+        {
+          "text": "FL Foreign Qual \u2014 $910",
+          "pinned_position": null
+        },
+        {
+          "text": "NY Foreign Qualification",
+          "pinned_position": null
+        },
+        {
+          "text": "Application for Authority",
+          "pinned_position": null
+        },
+        {
+          "text": "Out-of-State PLLC - NY",
+          "pinned_position": null
+        },
+        {
+          "text": "NYSED & DOS Filing Help",
+          "pinned_position": null
+        },
+        {
+          "text": "Licensed Pro Entity Pros",
+          "pinned_position": null
+        },
+        {
+          "text": "Flat Fee \u2014 No Hidden Costs",
+          "pinned_position": null
+        },
+        {
+          "text": "Talk to a PLLC Specialist",
+          "pinned_position": null
+        },
+        {
+          "text": "Built for NY Professionals",
+          "pinned_position": null
+        },
+        {
+          "text": "We Handle the NY Process",
+          "pinned_position": null
+        },
+        {
+          "text": "Qualify Your PLLC Into NY",
+          "pinned_position": null
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Qualify your Florida PLLC into New York. Flat fees from $910."
+        },
+        {
+          "text": "FL - NY foreign qualification for licensed professionals. Start today."
+        },
+        {
+          "text": "Foreign PLLC into NY: Application for Authority, NYSED review help & filing support."
+        },
+        {
+          "text": "Specialists who only do New York professional entities. No hourly attorney fees."
+        }
+      ]
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Texas",
+      "rsa_variant": "controlled",
+      "final_url": "https://www.nypllc.com/foreign-pllc/texas",
+      "status": "PAUSED",
+      "headlines": [
+        {
+          "text": "TX PLLC - NY \u2014 $910 Flat",
+          "pinned_position": "1"
+        },
+        {
+          "text": "TX PLLC Doing Business in NY",
+          "pinned_position": null
+        },
+        {
+          "text": "Texas - New York Qual",
+          "pinned_position": null
+        },
+        {
+          "text": "Register TX PLLC in New York",
+          "pinned_position": null
+        },
+        {
+          "text": "TX Foreign Qual \u2014 $910",
+          "pinned_position": null
+        },
+        {
+          "text": "NY Foreign Qualification",
+          "pinned_position": null
+        },
+        {
+          "text": "Application for Authority",
+          "pinned_position": null
+        },
+        {
+          "text": "Out-of-State PLLC - NY",
+          "pinned_position": null
+        },
+        {
+          "text": "NYSED & DOS Filing Help",
+          "pinned_position": null
+        },
+        {
+          "text": "Licensed Pro Entity Pros",
+          "pinned_position": null
+        },
+        {
+          "text": "Flat Fee \u2014 No Hidden Costs",
+          "pinned_position": null
+        },
+        {
+          "text": "Talk to a PLLC Specialist",
+          "pinned_position": null
+        },
+        {
+          "text": "Built for NY Professionals",
+          "pinned_position": null
+        },
+        {
+          "text": "We Handle the NY Process",
+          "pinned_position": null
+        },
+        {
+          "text": "Qualify Your PLLC Into NY",
+          "pinned_position": null
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Qualify your Texas PLLC into New York. Flat fees from $910."
+        },
+        {
+          "text": "TX - NY foreign qualification for licensed professionals. Start today."
+        },
+        {
+          "text": "Foreign PLLC into NY: Application for Authority, NYSED review help & filing support."
+        },
+        {
+          "text": "Specialists who only do New York professional entities. No hourly attorney fees."
+        }
+      ]
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Texas",
+      "rsa_variant": "unpinned",
+      "final_url": "https://www.nypllc.com/foreign-pllc/texas",
+      "status": "PAUSED",
+      "headlines": [
+        {
+          "text": "TX PLLC - NY \u2014 $910 Flat",
+          "pinned_position": null
+        },
+        {
+          "text": "TX PLLC Doing Business in NY",
+          "pinned_position": null
+        },
+        {
+          "text": "Texas - New York Qual",
+          "pinned_position": null
+        },
+        {
+          "text": "Register TX PLLC in New York",
+          "pinned_position": null
+        },
+        {
+          "text": "TX Foreign Qual \u2014 $910",
+          "pinned_position": null
+        },
+        {
+          "text": "NY Foreign Qualification",
+          "pinned_position": null
+        },
+        {
+          "text": "Application for Authority",
+          "pinned_position": null
+        },
+        {
+          "text": "Out-of-State PLLC - NY",
+          "pinned_position": null
+        },
+        {
+          "text": "NYSED & DOS Filing Help",
+          "pinned_position": null
+        },
+        {
+          "text": "Licensed Pro Entity Pros",
+          "pinned_position": null
+        },
+        {
+          "text": "Flat Fee \u2014 No Hidden Costs",
+          "pinned_position": null
+        },
+        {
+          "text": "Talk to a PLLC Specialist",
+          "pinned_position": null
+        },
+        {
+          "text": "Built for NY Professionals",
+          "pinned_position": null
+        },
+        {
+          "text": "We Handle the NY Process",
+          "pinned_position": null
+        },
+        {
+          "text": "Qualify Your PLLC Into NY",
+          "pinned_position": null
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Qualify your Texas PLLC into New York. Flat fees from $910."
+        },
+        {
+          "text": "TX - NY foreign qualification for licensed professionals. Start today."
+        },
+        {
+          "text": "Foreign PLLC into NY: Application for Authority, NYSED review help & filing support."
+        },
+        {
+          "text": "Specialists who only do New York professional entities. No hourly attorney fees."
+        }
+      ]
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Connecticut",
+      "rsa_variant": "controlled",
+      "final_url": "https://www.nypllc.com/foreign-pllc/connecticut",
+      "status": "PAUSED",
+      "headlines": [
+        {
+          "text": "CT PLLC - NY \u2014 $995 Flat",
+          "pinned_position": "1"
+        },
+        {
+          "text": "CT PLLC Doing Business in NY",
+          "pinned_position": null
+        },
+        {
+          "text": "Connecticut - New York Qual",
+          "pinned_position": null
+        },
+        {
+          "text": "Register CT PLLC in New York",
+          "pinned_position": null
+        },
+        {
+          "text": "CT Foreign Qual \u2014 $995",
+          "pinned_position": null
+        },
+        {
+          "text": "NY Foreign Qualification",
+          "pinned_position": null
+        },
+        {
+          "text": "Application for Authority",
+          "pinned_position": null
+        },
+        {
+          "text": "Out-of-State PLLC - NY",
+          "pinned_position": null
+        },
+        {
+          "text": "NYSED & DOS Filing Help",
+          "pinned_position": null
+        },
+        {
+          "text": "Licensed Pro Entity Pros",
+          "pinned_position": null
+        },
+        {
+          "text": "Flat Fee \u2014 No Hidden Costs",
+          "pinned_position": null
+        },
+        {
+          "text": "Talk to a PLLC Specialist",
+          "pinned_position": null
+        },
+        {
+          "text": "Built for NY Professionals",
+          "pinned_position": null
+        },
+        {
+          "text": "We Handle the NY Process",
+          "pinned_position": null
+        },
+        {
+          "text": "Qualify Your PLLC Into NY",
+          "pinned_position": null
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Qualify your Connecticut PLLC into New York. Flat $995 for either path."
+        },
+        {
+          "text": "CT - NY foreign qualification for licensed professionals. Start today."
+        },
+        {
+          "text": "Foreign PLLC into NY: Application for Authority, NYSED review help & filing support."
+        },
+        {
+          "text": "Specialists who only do New York professional entities. No hourly attorney fees."
+        }
+      ]
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Connecticut",
+      "rsa_variant": "unpinned",
+      "final_url": "https://www.nypllc.com/foreign-pllc/connecticut",
+      "status": "PAUSED",
+      "headlines": [
+        {
+          "text": "CT PLLC - NY \u2014 $995 Flat",
+          "pinned_position": null
+        },
+        {
+          "text": "CT PLLC Doing Business in NY",
+          "pinned_position": null
+        },
+        {
+          "text": "Connecticut - New York Qual",
+          "pinned_position": null
+        },
+        {
+          "text": "Register CT PLLC in New York",
+          "pinned_position": null
+        },
+        {
+          "text": "CT Foreign Qual \u2014 $995",
+          "pinned_position": null
+        },
+        {
+          "text": "NY Foreign Qualification",
+          "pinned_position": null
+        },
+        {
+          "text": "Application for Authority",
+          "pinned_position": null
+        },
+        {
+          "text": "Out-of-State PLLC - NY",
+          "pinned_position": null
+        },
+        {
+          "text": "NYSED & DOS Filing Help",
+          "pinned_position": null
+        },
+        {
+          "text": "Licensed Pro Entity Pros",
+          "pinned_position": null
+        },
+        {
+          "text": "Flat Fee \u2014 No Hidden Costs",
+          "pinned_position": null
+        },
+        {
+          "text": "Talk to a PLLC Specialist",
+          "pinned_position": null
+        },
+        {
+          "text": "Built for NY Professionals",
+          "pinned_position": null
+        },
+        {
+          "text": "We Handle the NY Process",
+          "pinned_position": null
+        },
+        {
+          "text": "Qualify Your PLLC Into NY",
+          "pinned_position": null
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Qualify your Connecticut PLLC into New York. Flat $995 for either path."
+        },
+        {
+          "text": "CT - NY foreign qualification for licensed professionals. Start today."
+        },
+        {
+          "text": "Foreign PLLC into NY: Application for Authority, NYSED review help & filing support."
+        },
+        {
+          "text": "Specialists who only do New York professional entities. No hourly attorney fees."
         }
       ]
     }

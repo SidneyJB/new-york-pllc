@@ -19,12 +19,20 @@ def load_manifest(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+DRAFT_CAMPAIGNS = (
+    "01_Core_Exact_NY",
+    "02_Professions_NY",
+    "03_ForeignQual_US",
+)
+
+
 def ad_group_map(client, cid: str) -> dict[tuple[str, str], str]:
     service = client.get_service("GoogleAdsService")
-    query = """
+    names = ", ".join(f"'{n}'" for n in DRAFT_CAMPAIGNS)
+    query = f"""
         SELECT campaign.name, ad_group.name, ad_group.resource_name
         FROM ad_group
-        WHERE campaign.name IN ('01_Core_Exact_NY', '02_Professions_NY')
+        WHERE campaign.name IN ({names})
           AND ad_group.status != 'REMOVED'
     """
     return {
@@ -36,10 +44,11 @@ def ad_group_map(client, cid: str) -> dict[tuple[str, str], str]:
 def existing_rsa_index(client, cid: str) -> set[tuple[str, str, str]]:
     """Existing RSAs keyed by (campaign, ad_group, ad.name)."""
     service = client.get_service("GoogleAdsService")
-    query = """
+    names = ", ".join(f"'{n}'" for n in DRAFT_CAMPAIGNS)
+    query = f"""
         SELECT campaign.name, ad_group.name, ad_group_ad.ad.name
         FROM ad_group_ad
-        WHERE campaign.name IN ('01_Core_Exact_NY', '02_Professions_NY')
+        WHERE campaign.name IN ({names})
           AND ad_group_ad.status != 'REMOVED'
           AND ad_group_ad.ad.type = 'RESPONSIVE_SEARCH_AD'
     """

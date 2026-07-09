@@ -6,13 +6,13 @@
 
 - Customer: NYPLLC (`1529880213`)
 - Live: `Sales-Search-1` (ENABLED)
-- Draft (PAUSED): `01_Core_Exact_NY`, `02_Professions_NY`
+- Draft (PAUSED): `01_Core_Exact_NY`, `02_Professions_NY`, `03_ForeignQual_US`
 
 ---
 
-## Changes on 2026-07-09 — Phase 1 draft campaigns (PAUSED)
+## Changes on 2026-07-09 — Phase 1–2 draft campaigns (PAUSED)
 
-Source: operating plan §2.1–2.2 · package `google-ads-campaign-build/` · script `google_ads/upload_campaigns.py`
+Source: operating plan §2.1–2.3 · package `google-ads-campaign-build/` · scripts `upload_campaigns.py` / `upload_rsas.py`
 
 ### Created (PAUSED)
 
@@ -20,10 +20,13 @@ Source: operating plan §2.1–2.2 · package `google-ads-campaign-build/` · sc
 |---|---|---|---|---|
 | `01_Core_Exact_NY` | $45/day | NY Presence | Maximize Conversions tCPA $90 (campaign-level) | Shared A–E |
 | `02_Professions_NY` | $25/day | NY Presence | Maximize Conversions tCPA $90 (campaign-level) | Shared A–E |
+| `03_ForeignQual_US` (`24012757620`) | $15/day | **US** Presence | Maximize Conversions tCPA $90 (campaign-level) | **A-FQ** + B–E |
 
 **`01_Core_Exact_NY` ad groups:** Formation-Core · Service-Intent · Cost-Price · Brand — **41 keywords** uploaded.
 
 **`02_Professions_NY`:** 11 ad groups · **34 keywords** (6 created with health-policy exemption request).
+
+**`03_ForeignQual_US`:** Generic-ForeignQual · New-Jersey · Pennsylvania · Florida · Texas · Connecticut — **33 keywords** · state LPs for NJ/PA/FL/TX/CT; CA exacts → hub. Skipped `certificate of authority new york` per §2.3.
 
 ### Policy / exemption
 
@@ -33,20 +36,26 @@ Validate-only scan (`check_keyword_policy.py`): **6 exemptible** keywords under 
 
 - Created **`NYPLLC Search Portfolio`** (`biddingStrategies/12148056412`) — Target CPA **$90**
 - Attached **`Sales-Search-1` only** (ENABLED) — bidding type now `TARGET_CPA` via portfolio
-- Drafts `01_Core_Exact_NY` / `02_Professions_NY` still **inline** Maximize Conversions tCPA $90 — **not** attached yet
+- Drafts still **inline** Maximize Conversions tCPA $90 — **not** attached yet
 
 ### RSA packages (same day)
 
-- Assembled + **uploaded** 30 RSAs (2×15 ad groups) via `google_ads/upload_rsas.py` into paused campaigns
+- Assembled + **uploaded** **42 RSAs** (2×21 ad groups) via `google_ads/upload_rsas.py` into paused campaigns
 - Ads **ENABLED** inside **PAUSED** campaigns (ready when campaigns are enabled)
 - Controlled RSAs pin price headline to H1; unpinned variants have no pins
-- Trustpilot headline omitted pending §1.4 URL fix
+- Trustpilot headline omitted (no NYPLLC Trustpilot; site uses GBP **5★ / 6 reviews**)
+- Foreign Qual: replaced `→` with `-` after SYMBOLS PROHIBITED rejection
 - Result: `google-ads-campaign-build/rsas/rsa-upload-result.json`
+
+### API verify (same day)
+
+- Confirmed live: PAUSED · $15 · US Presence · Search only · inline tCPA $90 · unattached · A-FQ+B–E · 6 AGs · 33 EXACT keywords · 12 RSAs · no `→` · final URLs match state/hub pages · manifest keyword parity
 
 ### Not done yet
 
-- Attach drafts to portfolio + enable (wait for conversion flip)
-- `03_ForeignQual_US`
+- Attach 01/02 to portfolio + enable (wait for conversion flip)
+- Enable `03_ForeignQual_US` after Gate 1
+- Customer Match UI upload · Auction Insights export · optional Google-reviews RSA headline (claim locked: 5★ / 6)
 
 ---
 

@@ -18,9 +18,23 @@ from google_ads.client import customer_id, load_client
 BASE = Path(__file__).resolve().parent.parent
 MANIFEST_PATH = BASE / "google-ads-campaign-build" / "manifest.json"
 
-NY_GEO_TARGET_CONSTANT = "geoTargetConstants/21167"
+GEO_TARGET_CONSTANTS = {
+    "New York State": "geoTargetConstants/21167",
+    "United States": "geoTargetConstants/2840",
+}
 EN_LANGUAGE_CONSTANT = "languageConstants/1000"
 TARGET_CPA_MICROS = 90_000_000
+
+
+def geo_constant_for(spec: dict) -> str:
+    geo = spec.get("geo_target", "New York State")
+    try:
+        return GEO_TARGET_CONSTANTS[geo]
+    except KeyError as exc:
+        raise ValueError(
+            f"Unsupported geo_target {geo!r}; "
+            f"known: {', '.join(sorted(GEO_TARGET_CONSTANTS))}"
+        ) from exc
 
 
 def load_manifest(path: Path) -> dict:
@@ -146,17 +160,21 @@ def create_campaign(
 
 
 def create_campaign_criteria(
-    client, cid: str, campaign_resource: str, dry_run: bool
+    client,
+    cid: str,
+    campaign_resource: str,
+    geo_constant: str,
+    dry_run: bool,
 ) -> None:
     if dry_run:
-        print("  [dry-run] campaign criteria: NY geo + English")
+        print(f"  [dry-run] campaign criteria: {geo_constant} + English")
         return
 
     service = client.get_service("CampaignCriterionService")
     operations = []
 
     for criterion_type, constant in (
-        ("LOCATION", NY_GEO_TARGET_CONSTANT),
+        ("LOCATION", geo_constant),
         ("LANGUAGE", EN_LANGUAGE_CONSTANT),
     ):
         operation = client.get_type("CampaignCriterionOperation")
@@ -169,7 +187,7 @@ def create_campaign_criteria(
         operations.append(operation)
 
     service.mutate_campaign_criteria(customer_id=cid, operations=operations)
-    print("  campaign criteria: geo + language")
+    print(f"  campaign criteria: {geo_constant} + language")
 
 
 def attach_shared_negative_sets(
@@ -348,7 +366,13 @@ def upload_campaign(client, cid: str, spec: dict, dry_run: bool) -> dict:
         campaign_resource = create_campaign(
             client, cid, spec, budget_resource, dry_run
         )
-        create_campaign_criteria(client, cid, campaign_resource, dry_run)
+        create_campaign_criteria(
+            client,
+            cid,
+            campaign_resource,
+            geo_constant_for(spec),
+            dry_run,
+        )
         attach_shared_negative_sets(
             client, cid, campaign_resource, spec["negative_shared_set_ids"], dry_run
         )

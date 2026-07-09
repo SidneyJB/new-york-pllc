@@ -1,3 +1,4 @@
+import { BUSINESS_INFO } from '@/lib/constants'
 import { SEO_CONFIG } from './config'
 
 export interface BreadcrumbItem {
@@ -57,8 +58,8 @@ export function generateOrganizationSchema() {
       availableLanguage: 'English',
     },
     sameAs: [
-			"https://cheapnewyorkllc.com",
-      "https://www.trustpilot.com/review/cheapnewyorkllc.com"
+      'https://cheapnewyorkllc.com',
+      BUSINESS_INFO.googleBusinessProfileUrl,
     ],
     foundingDate: '2005',
     areaServed: {
@@ -105,22 +106,10 @@ export function generateLocalBusinessSchema() {
     },
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: 5,
+      ratingValue: BUSINESS_INFO.googleReviews.ratingValue,
       bestRating: 5,
-      ratingCount: 100,
-    },
-    review: {
-      '@type': 'Review',
-      reviewRating: {
-        '@type': 'Rating',
-        ratingValue: 5,
-        bestRating: 5,
-      },
-      author: {
-        '@type': 'Organization',
-        name: 'Trustpilot',
-      },
-      url: 'https://www.trustpilot.com/review/cheapnewyorkllc.com',
+      ratingCount: BUSINESS_INFO.googleReviews.reviewCount,
+      worstRating: 1,
     },
   }
 }

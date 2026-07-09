@@ -1,3 +1,4 @@
 campaign_name,status,budget_daily_usd,geo_target,geo_option,bidding_strategy,portfolio_tcpa_usd,network_search,network_partners,network_display,language,negative_shared_set_ids
 01_Core_Exact_NY,PAUSED,45,New York State,PRESENCE,PORTFOLIO_TARGET_CPA,90,True,False,False,en,"12146898907,12145390194,12146898706,12146898991,12146898709"
 02_Professions_NY,PAUSED,25,New York State,PRESENCE,PORTFOLIO_TARGET_CPA,90,True,False,False,en,"12146898907,12145390194,12146898706,12146898991,12146898709"
+03_ForeignQual_US,PAUSED,15,United States,PRESENCE,PORTFOLIO_TARGET_CPA,90,True,False,False,en,"12146898703,12145390194,12146898706,12146898991,12146898709"

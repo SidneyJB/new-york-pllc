@@ -130,16 +130,16 @@ Anything currently marked primary that isn't a paid order gets demoted to second
 
 ### 1.3 Negative keyword architecture — five shared lists, applied account-wide
 
-**Built + attached Jul 8 2026 (Sales-Search-1).** Shared sets (phrase match unless noted). A-FQ created for Foreign Qual later — **not** attached to Sales-Search-1. **Jul 9 2026:** same A–E lists also attached to paused drafts `01_Core_Exact_NY` and `02_Professions_NY`.
+**Built + attached Jul 8 2026 (Sales-Search-1).** Shared sets (phrase match unless noted). A-FQ created for Foreign Qual — **not** attached to Sales-Search-1. **Jul 9 2026:** A–E on paused drafts `01_Core_Exact_NY` / `02_Professions_NY`; **A-FQ + B–E** on paused `03_ForeignQual_US`.
 
-| List | Shared set id | Members | On Sales-Search-1 | On 01 / 02 drafts |
-|---|---|---|---|---|
-| Neg A — Other states (excl NY) | `12146898907` | 103 | Yes | Yes (Jul 9) |
-| Neg A-FQ — Other states (excl NY + FQ origins) | `12146898703` | 89 | No (for 03_ForeignQual) | No |
-| Neg B — Research DIY education | `12145390194` | 15 | Yes | Yes (Jul 9) |
-| Neg C — Wrong intent lookup jobs school | `12146898706` | 17 | Yes | Yes (Jul 9) |
-| Neg D — Freebie price-shopping junk | `12146898991` | 5 | Yes | Yes (Jul 9) |
-| Neg E — Publishing-only intent | `12146898709` | 7 | Yes | Yes (Jul 9) |
+| List | Shared set id | Members | On Sales-Search-1 | On 01 / 02 | On 03_ForeignQual |
+|---|---|---|---|---|---|
+| Neg A — Other states (excl NY) | `12146898907` | 103 | Yes | Yes (Jul 9) | No |
+| Neg A-FQ — Other states (excl NY + FQ origins) | `12146898703` | 89 | No | No | Yes (Jul 9) |
+| Neg B — Research DIY education | `12145390194` | 15 | Yes | Yes (Jul 9) | Yes (Jul 9) |
+| Neg C — Wrong intent lookup jobs school | `12146898706` | 17 | Yes | Yes (Jul 9) | Yes (Jul 9) |
+| Neg D — Freebie price-shopping junk | `12146898991` | 5 | Yes | Yes (Jul 9) | Yes (Jul 9) |
+| Neg E — Publishing-only intent | `12146898709` | 7 | Yes | Yes (Jul 9) | Yes (Jul 9) |
 
 **List A — Other states (~110 entries).** Every state name + abbreviation except NY, as phrase match: `texas`, `tx`, `florida`, `fl`, `california`, `ca`, `pennsylvania`* … (*note: PA/NJ/CT/FL/TX/CA terms must be *excluded from this list on the Foreign Qual campaign* — List A-FQ is the copy minus those six origin states).
 
@@ -176,7 +176,7 @@ Your June asset test priced this work at roughly a $23 CPA improvement. Build th
 | About Us | `/about` | Rewrite — drop “25,000+ businesses since 2005” if wrong brand voice; volume claim OK if accurate |
 | PLLC for Therapists | `/professions/lcsw` | Stand-in for missing professions hub; swap profession if desired |
 
-**Do not build sitelinks for (no page):** `/pricing`, S Corp add-on, Trustpilot/reviews on-site, professions index hub. Trustpilot may stay a **callout/headline** only if the linked review property is nypllc (today footer still points at cheapnewyorkllc.com — fix before advertising it).
+**Do not build sitelinks for (no page):** `/pricing`, S Corp add-on, on-site reviews hub, professions index hub. **Reviews (Jul 9 2026):** site links + schema → NYPLLC **Google Business Profile** (not Trustpilot / not cheapnewyorkllc). Live GBP: **5.0 stars, 6 reviews** (`BUSINESS_INFO.googleReviews`). Trustpilot RSA headline omitted; optional Google-reviews headline may use that locked claim (update count when GBP changes).
 
 **Callouts (10):** Publication Included · NYSED OP Specialists · Flat $885 — No Hidden Fees · EIN & Operating Agreement · Registered Agent Yr 1 Free · Thousands of NY Entities · Licensed-Professional Focused · 120-Day Deadline Managed · Deficiency Handling Included · NY-Only, All Day Every Day.
 
@@ -257,11 +257,13 @@ One honest flag from the QS baseline: the account's only prior profession test �
 
 ### 2.3 Campaign 03_ForeignQual_US — launches Week 4–6, Gate 1-dependent
 
+**Status (Jul 9 2026):** Created **PAUSED** via API (`campaigns/24012757620`). Budget **$15/day** · **United States** Presence · Search only · shared negatives **A-FQ + B–E** · **6 ad groups** · **33 keywords** · **12 RSAs uploaded** (controlled + unpinned; no `→` — SYMBOLS policy). Still on **inline** Maximize Conversions tCPA $90 (not on portfolio). Do **not** enable until Gate 1 + conversion flip + attach to portfolio. CA exacts → hub (no CA state page yet). Build package: [`google-ads-campaign-build/`](google-ads-campaign-build/).
+
 **Geo:** United States, Presence (this is the deliberate exception to NY-only — foreign-qual buyers by definition search from NJ/PA/FL/TX/CT/CA). **Negatives:** List A-FQ (states list minus the six origin states) instead of List A. **Budget:** $10–15/day.
 
 Keywords: [foreign pllc new york] · [register out of state pllc in new york] · [application for authority new york pllc] · [ny application for authority] · [foreign qualification new york] · [register my pllc in new york] · per-state exacts like [nj pllc doing business in new york], [pennsylvania pllc in new york], [florida pllc new york] → each to its /foreign-pllc/{state} page; generic terms → /foreign-pllc.
 
-Copy is state-specific where possible ("NJ PLLC → New York — $975 Flat"). Order values $910–995 flow to the bidder, so under value-based bidding (3.3) this campaign gets naturally favored. Skip [certificate of authority new york] — it collides with the sales-tax certificate of authority; let Discovery mining tell you if that family is worth touching.
+Copy is state-specific where possible ("NJ PLLC - NY — $975 Flat"). Order values $910–995 flow to the bidder, so under value-based bidding (3.3) this campaign gets naturally favored. Skip [certificate of authority new york] — it collides with the sales-tax certificate of authority; let Discovery mining tell you if that family is worth touching.
 
 Almost nobody bids these terms with NY-specific messaging. Volume is low; margin and competitive vacuum are the point.
 
@@ -291,7 +293,7 @@ This is your current campaign's end state. It is never deleted.
 
 Week 2: create **portfolio Target CPA = $90** → attach the *existing* campaign first and let it run 10–14 days. This is technically a bidding change on the live campaign, but to the same effective target — expect a ~1-week wobble, not a reset. Then every new campaign launches *into* the portfolio, inheriting pooled learning instead of cold-starting. Keep everything in one portfolio until the split condition in 3.2 is met.
 
-**Done Jul 9 2026 (API):** Created portfolio **`NYPLLC Search Portfolio`** (`biddingStrategies/12148056412`) — Target CPA **$90**. Attached **`Sales-Search-1` only** (ENABLED; bidding type now `TARGET_CPA` via portfolio). Drafts `01_Core_Exact_NY` / `02_Professions_NY` remain **unattached** (still inline Maximize Conversions tCPA $90) until conversion flip + enable. Expect ~1-week wobble on Sales-Search-1, not a cold relearn.
+**Done Jul 9 2026 (API):** Created portfolio **`NYPLLC Search Portfolio`** (`biddingStrategies/12148056412`) — Target CPA **$90**. Attached **`Sales-Search-1` only** (ENABLED; bidding type now `TARGET_CPA` via portfolio). Drafts `01_Core_Exact_NY` / `02_Professions_NY` / `03_ForeignQual_US` remain **unattached** (still inline Maximize Conversions tCPA $90) until conversion flip + enable (FQ also Gate 1). Expect ~1-week wobble on Sales-Search-1, not a cold relearn.
 
 ### 3.2 The escalation ladder
 
@@ -359,7 +361,7 @@ Under tCPA, a device bid adjustment modifies the CPA *target* for that device. S
 - Every ad group's H1 family must echo its query family — this is the ad-relevance component of Quality Score, which is a direct input to the rank-lost problem.
 - **Creative change log:** date, ad group, what changed. Ad edits reset ad-level learning; never edit ads and bids in the same window.
 
-**Assembled + uploaded Jul 9 2026:** Full RSA packages for all 15 draft ad groups (**30 RSAs**) in [`google-ads-campaign-build/rsas/`](google-ads-campaign-build/rsas/) — uploaded via `google_ads/upload_rsas.py` into paused campaigns (ads ENABLED inside PAUSED campaigns). Built strictly from §4.1–4.3. Trims: headline #7 → `Thousands of NY Entities` (≤30); desc #1 and therapist descs trimmed to ≤90. **Omitted** headline #10 Trustpilot until §1.4 URL fix. Segment counts only where stated (70+ therapists/counselors; 50+ physicians). Enable campaigns only after conversion flip.
+**Assembled + uploaded Jul 9 2026:** Full RSA packages for all **21** draft ad groups (**42 RSAs**) in [`google-ads-campaign-build/rsas/`](google-ads-campaign-build/rsas/) — uploaded via `google_ads/upload_rsas.py` into paused campaigns (ads ENABLED inside PAUSED campaigns). Built from §4.1–4.3 (+ §2.3 Foreign Qual prices). Trims: headline #7 → `Thousands of NY Entities` (≤30); desc #1 and therapist descs trimmed to ≤90. **Omitted** headline #10 Trustpilot (no NYPLLC Trustpilot; site uses GBP **5★ / 6 reviews** — optional Google-reviews headline with that claim). Segment counts only where stated (70+ therapists/counselors; 50+ physicians). Foreign Qual: no `→` (SYMBOLS PROHIBITED). Enable 01/02 after conversion flip; 03 after Gate 1.
 
 ### 4.2 Copy library (headlines ≤30 chars, descriptions ≤90 — trim in-editor)
 
@@ -415,7 +417,7 @@ CVR feeds the bidder's confidence, confident bidding wins more auctions cheaper,
 - Sticky bottom CTA bar on mobile: "Start My PLLC — $885" plus a tap-to-call link.
 - Cut first-step friction: name / email / profession only, then hand off to Spiffy.
 - Tap-to-call wired to the call asset's forwarding number so calls are measured (secondary conversion).
-- Trust band above the fold: Trustpilot stars (nypllc property only) · "thousands formed" / site’s 25,000+ claim · flat-fee badge.
+- Trust band above the fold: Google reviews (NYPLLC GBP **5★ / 6**) · "thousands formed" / site’s 25,000+ claim · flat-fee badge.
 
 ### 5.2 Test backlog (one at a time, ≥2 weeks or ≥100 conversions-worth of traffic each)
 
@@ -526,11 +528,11 @@ Gates are permission slips, not deadlines. Missing a gate by two weeks costs alm
 | Week of | Actions |
 |---|---|
 | Jul 6 | ✅ Phase 0: conversion audit + fixes (1.1) · settings checklist (1.2) · build negative lists A–E (1.3) · backfill CRM AdSpend · baseline exports (1.5) — **done Jul 8** |
-| Jul 13 | ✅ Full asset build (1.4) — **done Jul 8** · ✅ draft `01_Core_Exact_NY` + `02_Professions_NY` **PAUSED** (keywords + **30 RSAs**) — **done Jul 9** · ✅ create portfolio tCPA $90 · attach `Sales-Search-1` only — **done Jul 9** · ⏳ wait Ads-attributed thank-you → conversion flip (1.1.2) before enable |
+| Jul 13 | ✅ Full asset build (1.4) — **done Jul 8** · ✅ draft `01` + `02` + `03_ForeignQual_US` **PAUSED** (keywords + **42 RSAs**) — **done Jul 9** · ✅ create portfolio tCPA $90 · attach `Sales-Search-1` only — **done Jul 9** · ⏳ wait Ads-attributed thank-you → conversion flip (1.1.2) before enable 01/02 |
 | Jul 20 | **Launch 01_Core_Exact** (after flip + portfolio attach + RSAs). Daily 10-min monitoring |
 | Jul 27 | First formal weekly SOP · (02 already drafted Jul 9 — polish RSAs / prep enable) |
 | Aug 3 | **Launch 02_Professions** |
-| Aug 10 | Monitor · prep 03_ForeignQual build · mobile LP work begins (5.1) |
+| Aug 10 | Monitor · ✅ `03_ForeignQual` already drafted Jul 9 (PAUSED) — polish if needed · mobile LP work begins (5.1) |
 | Aug 17 | **Gate 1** → launch 03_ForeignQual on pass |
 | Aug 24 – Sep 6 | Accumulate data · abandoned-checkout emails ship · Microsoft Ads account created |
 | Sep 7 | Gate 2 window opens |
@@ -579,10 +581,10 @@ Notes on reading this honestly:
 4. **GA4 (or equivalent) with funnel events on nypllc.com?** Needed to instrument CVR for Part 5; if absent, installing it is a week-1 task.
 5. **Meta retargeting inventory for the record:** monthly spend, audience definitions, creative age — for the 6.2 housekeeping pass and the CRM AdSpend backfill.
 6. **$985 price test timing** (from the broader growth plan): schedule it into a window that doesn't overlap a ladder step or January (4.4). Recommended slot: late September, between Gates 2 and 3, or defer to February.
-7. **Phase 1 draft + portfolio + RSAs — DONE Jul 9 2026 (still PAUSED).** `01_Core_Exact_NY` + `02_Professions_NY` with keywords + **30 RSAs**; portfolio `NYPLLC Search Portfolio` ($90) on `Sales-Search-1` only. **Still open:** Ads-attributed thank-you → flip primary conversion (1.1.2); attach drafts to portfolio; enable Core Exact; Customer Match UI upload (1.2); Trustpilot URL fix before using headline #10.
+7. **Phase 1–2 drafts + portfolio + RSAs — DONE Jul 9 2026 (still PAUSED).** `01_Core_Exact_NY` + `02_Professions_NY` + `03_ForeignQual_US` with keywords + **42 RSAs**; portfolio `NYPLLC Search Portfolio` ($90) on `Sales-Search-1` only. **Still open:** Ads-attributed thank-you → flip primary conversion (1.1.2); attach 01/02 to portfolio; enable Core Exact; Customer Match UI upload (1.2); enable Foreign Qual after Gate 1. Site reviews → GBP (**5.0 / 6**); optional Google-reviews RSA headline with that claim.
 
 ---
 
 *Version 2 · Jul 5, 2026 · Supersedes the chat-message plan of the same date. Changes from v1: seasonality claims corrected to data-supported facts only; publishing-only advertising removed everywhere and fenced with negative List E per owner decision; reconciliation items 1–2 resolved per owner (222 = Google-attributed orders; CRM AdSpend stale); Meta retargeting inventoried as an existing channel; full build-out of keyword lists, copy library, SOPs, gates, risk register, calendar, and projections.*
 
-*Execution updates inlined Jul 8–9 2026 (Phase 0 done; Phase 1 drafts PAUSED; portfolio on Sales-Search-1). Keep status notes in-section as work lands — do not rely only on external change logs.*
+*Execution updates inlined Jul 8–9 2026 (Phase 0 done; Phase 1–2 drafts `01`/`02`/`03` PAUSED with 42 RSAs; portfolio on Sales-Search-1). Keep status notes in-section as work lands — do not rely only on external change logs.*

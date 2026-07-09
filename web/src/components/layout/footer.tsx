@@ -101,12 +101,12 @@ export function Footer() {
               ))}
               <li>
                 <Link
-                  href="https://www.trustpilot.com/review/cheapnewyorkllc.com"
+                  href={BUSINESS_INFO.googleBusinessProfileUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-foreground text-sm transition-colors"
                 >
-                  Reviews
+                  Google Reviews
                 </Link>
               </li>
             </ul>

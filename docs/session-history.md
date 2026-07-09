@@ -13,7 +13,9 @@ Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus re
 - API verify Jul 9: `03` PAUSED, US geo, A-FQ+B–E, 6 AGs / 33 kws / 12 RSAs, manifest parity OK
 - Site: Trustpilot/cheapnewyorkllc review links → NYPLLC Google Business Profile (`BUSINESS_INFO.googleBusinessProfileUrl`); schema AggregateRating = **5.0 / 6 reviews** (owner-confirmed live GBP Jul 9)
 - RSA refresh: **`Rated 5 Stars on Google`** on `01_Core_Exact_NY` (8 RSAs; swapped for `Built for NY Professionals`) + `02_Professions_NY` (22 RSAs; added as 13th headline). `upload_rsas.py` gained `--replace` / `--campaigns`. Not on `03_ForeignQual_US`.
-- Still waiting: Ads-attributed thank-you → conversion flip; attach 01/02 + enable; FQ after Gate 1
+- Conversion flip + `01` enable + portfolio attach done evening Jul 9
+- Launch hygiene: mobile −20% (Sales/01/02/03); 3 sitelinks → www; observation audiences + 24 assets on `01`
+- Still waiting: enable `02` ~Aug 3; `03` after Gate 1; Customer Match UI; Auction Insights export
 
 ## 2026-07-08 — Google Ads Phase 0 (conversion + hygiene)
 

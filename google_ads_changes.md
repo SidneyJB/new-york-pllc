@@ -5,8 +5,22 @@
 ## Account
 
 - Customer: NYPLLC (`1529880213`)
-- Live: `Sales-Search-1` (ENABLED)
-- Draft (PAUSED): `01_Core_Exact_NY`, `02_Professions_NY`, `03_ForeignQual_US`
+- Live: `Sales-Search-1` + `01_Core_Exact_NY` (ENABLED)
+- Portfolio-attached PAUSED: `02_Professions_NY`
+- Unattached PAUSED: `03_ForeignQual_US`
+
+---
+
+## Changes on 2026-07-09 (evening) — Launch hygiene
+
+Left Sales $500/day budget alone (soft ceiling under tCPA).
+
+| Fix | Scope | Detail |
+|---|---|---|
+| Mobile bid −20% | Sales + 01 + 02 + 03 | `bid_modifier=0.8` on DEVICE MOBILE |
+| www sitelinks | Shared assets (Sales + now 01) | Start Your Order / FAQ / Contact → `https://www.nypllc.com/...` |
+| Observation audiences | `01_Core_Exact_NY` | Same 2 user lists + 1 user interest as Sales (no bid adj) |
+| Campaign assets | `01_Core_Exact_NY` | Linked 24 from Sales: 8 sitelinks, 12 callouts, call, price, snippet, logo (skipped legacy Get Started) |
 
 ---
 

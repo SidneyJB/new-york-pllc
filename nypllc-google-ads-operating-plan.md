@@ -348,6 +348,8 @@ On any gate failure, hold the prior month's level — the trajectory is permissi
 
 Under tCPA, a device bid adjustment modifies the CPA *target* for that device. Stopgap now: **mobile −20%** (effective target ~$72) while the mobile LP work ships (Part 5). Remove the adjustment once mobile CVR ≥ 80% of desktop over a rolling 30 days. Never set −100%: mobile produced 63 lifetime conversions at an $88 CPA — the traffic is fine; the landing experience is the problem. Tablet: ignore entirely (1% of everything).
 
+**Done Jul 9 2026:** `bid_modifier=0.8` on MOBILE for `Sales-Search-1`, `01_Core_Exact_NY`, `02_Professions_NY`, `03_ForeignQual_US`.
+
 ---
 
 ## Part 4 — Creative system

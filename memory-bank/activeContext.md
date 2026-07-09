@@ -41,7 +41,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 📖 Full log: [session-history.md](../docs/session-history.md)
 
-Latest (Jul 9 2026): **`01_Core_Exact_NY` ENABLED** + `01`/`02` attached to portfolio; `02` stays PAUSED; conversion flip done; §1.1.3 + Enhanced Conversions shipped. Earlier Jul 9: RSA Google-reviews headline; drafts + 42 RSAs; GBP 5★/6. Prior (Jul 8): Phase 0 settings/negatives/assets + baselines + CRM AdSpend backfill.
+Latest (Jul 9 2026): Launch hygiene — mobile −20% (all 4 campaigns), 3 sitelinks → www, observation audiences + 24 assets on `01`. Earlier same day: `01` ENABLED + portfolio attach; conversion flip; click-ID + Enhanced Conversions; RSA Google-reviews; drafts. Prior (Jul 8): Phase 0 settings/negatives/assets + baselines.
 
 ## Session start
 

@@ -106,12 +106,11 @@ Anything currently marked primary that isn't a paid order gets demoted to second
 3. Nightly job (or weekly manual sheet upload to start) pushes offline conversions via Google Ads API: click ID + timestamp + value. This makes attribution exact instead of modeled.
 4. Fallback if Spiffy can't pass params: **Enhanced Conversions** — hash the customer email (SHA-256) on the thank-you page or server-side via API. Do this *anyway*; it recovers attribution that cookie loss destroys, typically +5–15% measured conversions, which at your volume is 1–4 "found" conversions/month feeding the bidder.
 
-**Spiffy capability note (Jul 9 2026 — deferred, not built):** Docs confirm this can be done programmatically with the JS we already use. Preferred path later:
-1. **Site:** cookie/session-capture `gclid`/`wbraid`/`gbraid` (+ UTMs) on landing; append on the embed URL via `buildSpiffyCheckoutUrl` (same pattern as partner `?c=`).
-2. **Optional hardening:** Spiffy checkout custom field + `checkout.set('field', …)` on `checkout.ready` (JS Interface API — already used for engagement tracking). `spiffy.checkout(url, config)` settings only support `coupon` + `customer` prefill, not arbitrary metadata.
-3. **Order persistence:** Spiffy Order model has `preserved_params` (preserved URL parameters) and expandable `fields` (`include=fields`); Zapier/webhook already flattens named custom fields onto the payload. CRM must add columns + webhook mapping.
-4. **Then** offline conversion upload (step 3 above). `preserveUrlParams: true` (already on in `layout.tsx`) only keeps params on page links — it does **not** alone put click IDs on the `<spiffy-checkout>` URL.
-5. **Verify before shipping:** one test checkout with `?gclid=test` and confirm `preserved_params` and/or `fields` on the Spiffy order (promo-scoped API key could not live-check `/v2/orders` on Jul 9).
+**§1.1.3 status (Jul 9 2026 — capture + Enhanced Conversions shipped; offline upload still deferred):**
+1. **Site (done):** `web/src/lib/click-attribution/` cookie `nypllc_click_attr` (90d) + `ClickAttributionCapture` in layout; `buildSpiffyCheckoutUrl` appends click IDs/UTMs; wired on PLLC + LLC embeds.
+2. **CRM (done):** `Order.gclid`/`wbraid`/`gbraid`/`utm*` columns; `extractSpiffyOrderAttribution` (preserved_params → fields → querystring → top-level → pageview referrer/url) on both Spiffy webhooks + import upsert. Migration `20260709210000_add_order_click_attribution`.
+3. **Enhanced Conversions (site done; Ads UI pending):** thank-you hashes Spiffy `email` → `gtag('set','user_data',{sha256_email_address})` before conversion. Account `accepted_customer_data_terms=false` as of Jul 9 — turn on in Ads UI for action `7678072764`.
+4. **Still deferred:** nightly offline conversion upload (step 3 above). Optional Spiffy `checkout.set` custom-field hardening not built.
 
 **1.1.4 De-duplication.** One source of truth per conversion action. If the webhook/API import is live, the gtag purchase event must use a shared `transaction_id` (order ID) so Google dedupes, or be removed. The weekly check: Google Ads conversions vs. CRM ad-attributed orders within ±10% on rolling 30 days.
 
@@ -575,7 +574,7 @@ Notes on reading this honestly:
 
 ## Part 12 — Open items needing your input or verification
 
-1. **Spiffy thank-you `order`/`total` — RESOLVED (Jul 8 2026).** Custom thank-you + “Send order details through URL” passes full contracted value in cents and order id (see 1.1.2). **`gclid` into order metadata (1.1.3) — docs-confirmed feasible (Jul 9 2026), deferred.** Spiffy supports URL params on the embed + Order `preserved_params` / `fields`; implement later via `buildSpiffyCheckoutUrl` + CRM webhook storage (optional `checkout.set` field). Still need a live test order to confirm params land on the order before building offline imports. Enhanced Conversions remains the always-on fallback.
+1. **Spiffy thank-you `order`/`total` — RESOLVED (Jul 8 2026).** Custom thank-you + “Send order details through URL” passes full contracted value in cents and order id (see 1.1.2). **`gclid` capture + CRM storage (1.1.3) — SHIPPED (Jul 9 2026)** (cookie → embed URL → webhook columns; Enhanced Conversions hashed email on thank-you). **Offline conversion upload still deferred.** Ads UI: accept customer data terms + enable Enhanced Conversions on tagged Purchase.
 2. **Per-keyword QS export — RESOLVED (Jul 5, from the API export).** Expected CTR is the drag: BELOW_AVERAGE on 83% of QS-scored spend (77% of impressions). Ad relevance is ABOVE_AVERAGE on 94% of spend; landing page experience is Average-or-better on 99.8%. QS priority therefore goes to Part 4 (copy, assets, tight match types) — Part 5 keeps its full CVR/mobile role but is not a QS emergency. Internal validation of the whole restructure: the account's QS-7+ keywords ran a **$54 CPA on 50 conversions** vs. **$101 on the QS-5/6 cluster**, yet received only ~6% of lifetime impressions. The rebuild's mechanical job is to route spend from the second group to the first.
 3. **Auction Insights export** — who actually shows up against you, with overlap and outranking rates, for the baseline file.
 4. **GA4 (or equivalent) with funnel events on nypllc.com?** Needed to instrument CVR for Part 5; if absent, installing it is a week-1 task.

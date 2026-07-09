@@ -1,6 +1,7 @@
 'use client'
 
 import { createElement, useEffect, useState } from 'react'
+import { resolveAndPersistClickAttribution } from '@/lib/click-attribution/resolve-click-attribution'
 import { getPartnerCodeFromCookie } from '@/lib/referral-attribution/get-partner-code-from-cookie'
 import { readPartnerCodeFromSearch } from '@/lib/referral-attribution/read-partner-code-from-search'
 import { setPartnerCodeCookie } from '@/lib/referral-attribution/set-partner-code-cookie'
@@ -20,7 +21,12 @@ export function SpiffyPllcCheckout() {
 
     if (code) setPartnerCodeCookie(code)
 
-    const resolvedCheckoutUrl = buildSpiffyCheckoutUrl(SPIFFY_PLLC_CHECKOUT_URL, code)
+    const clickAttribution = resolveAndPersistClickAttribution(window.location.search)
+    const resolvedCheckoutUrl = buildSpiffyCheckoutUrl(
+      SPIFFY_PLLC_CHECKOUT_URL,
+      code,
+      clickAttribution,
+    )
     setCheckoutUrl(resolvedCheckoutUrl)
 
     applyPartnerCouponOnCheckoutReady({

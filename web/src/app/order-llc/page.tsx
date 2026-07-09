@@ -6,6 +6,7 @@ import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { ORDER_LLC_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 import { PRICING } from '@/lib/constants'
+import { SpiffyLlcCheckout } from '@/components/spiffy/spiffy-llc-checkout'
 import { OrderPageClient } from '../order/order-client'
 
 export const metadata = ORDER_LLC_METADATA
@@ -71,13 +72,7 @@ export default function OrderLlcPage() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div
-                    dangerouslySetInnerHTML={{
-                      __html: `
-                        <spiffy-checkout url="https://nypllc.spiffy.co/checkout/new-york-llc-formation"></spiffy-checkout>
-                      `,
-                    }}
-                  />
+                  <SpiffyLlcCheckout />
                 </CardContent>
               </Card>
 

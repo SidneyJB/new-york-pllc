@@ -8,6 +8,7 @@ import { generateRootSchemas } from '@/lib/seo/structured-data'
 import { SEO_CONFIG } from '@/lib/seo/config'
 import { BingAdsTracking } from '@/components/analytics/bing-ads-tracking'
 import { MetaPixelEvents } from '@/components/analytics/meta-pixel-events'
+import { ClickAttributionCapture } from '@/components/click-attribution/click-attribution-capture'
 import { PartnerReferralCapture } from '@/components/referral-attribution/partner-referral-capture'
 import { FB_PIXEL_ID } from '@/lib/fbpixel'
 import './globals.css'
@@ -277,6 +278,7 @@ export default function RootLayout({
           <MetaPixelEvents />
         </Suspense>
         <PartnerReferralCapture />
+        <ClickAttributionCapture />
         <MainLayout>{children}</MainLayout>
         <Analytics />
       </body>

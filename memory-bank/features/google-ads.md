@@ -38,7 +38,7 @@ pip install -r requirements-ads.txt
 - CRM Finances “ad spend” projections are separate (PLLC-CRM) — this repo owns campaign/keyword ops data
 - Spiffy thank-you URL `total=` is **full contracted order value in cents** (including payment plans) — see operating plan §1.1.2
 - Tagged Ads purchase (secondary until flip): action id `7678072764`, `send_to` in `web/src/lib/analytics/google-ads.ts`
-- **Deferred:** click-ID capture onto CRM orders (§1.1.3) — Spiffy docs support embed URL params + Order `preserved_params`/`fields`; extend `buildSpiffyCheckoutUrl` + webhook later (Jul 9 2026 note in operating plan)
+- **§1.1.3 capture live (Jul 9 2026):** site `click-attribution/` cookie (90d) → `buildSpiffyCheckoutUrl` appends `gclid`/`wbraid`/`gbraid`/UTMs (PLLC + LLC embeds); thank-you Enhanced Conversions via hashed email in `google-ads.ts`. CRM `Order` columns + `extractSpiffyOrderAttribution` on both Spiffy webhooks (also parses pageview referrer). **Still deferred:** offline conversion upload. **Ads UI:** accept customer data terms + enable Enhanced Conversions on `7678072764` (API shows terms not yet accepted)
 - Phase 0 §1.2 applied Jul 8 2026 on Sales-Search-1: Presence geo, Partners/Display off, observation audiences, auto-apply subs PAUSED — see operating plan
 - Phase 0 §1.3 shared negatives A–E attached to Sales-Search-1 Jul 8 2026; A-FQ ready for Foreign Qual — see operating plan §1.3 table
 - §1.4 assets: sitelinks must use real sitemap URLs only; volume claim is **thousands / 25,000+**, not 300+ — see operating plan §1.4

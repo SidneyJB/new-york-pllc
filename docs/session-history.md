@@ -2,6 +2,15 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-07-09 — Google Ads Phase 1 draft campaigns (PAUSED)
+
+- Built upload package `google-ads-campaign-build/` from operating plan §2.1–2.2 (`manifest.json`, CSVs)
+- API upload script: `google_ads/upload_campaigns.py` (resume + policy-exemption retry)
+- Policy check: `google_ads/check_keyword_policy.py` → `policy-check.json`
+- **Live (PAUSED):** `01_Core_Exact_NY` (4 AGs, 41 keywords, 8 RSAs) · `02_Professions_NY` (11 AGs, 34 keywords, 22 RSAs; 6 health-policy exemptions requested)
+- Portfolio **`NYPLLC Search Portfolio`** ($90) created; attached to **`Sales-Search-1` only**
+- Still waiting: Ads-attributed thank-you → conversion flip; attach drafts + enable
+
 ## 2026-07-08 — Google Ads Phase 0 (conversion + hygiene)
 
 - Operating plan v2 linked from memory bank (`nypllc-google-ads-operating-plan.md`)

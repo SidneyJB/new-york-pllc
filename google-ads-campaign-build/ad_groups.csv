@@ -1,0 +1,16 @@
+campaign_name,ad_group_name,status,final_url
+01_Core_Exact_NY,Formation-Core,ENABLED,https://www.nypllc.com/how-to-form-a-pllc-in-ny
+01_Core_Exact_NY,Service-Intent,ENABLED,https://www.nypllc.com/how-to-form-a-pllc-in-ny
+01_Core_Exact_NY,Cost-Price,ENABLED,https://www.nypllc.com/order
+01_Core_Exact_NY,Brand,ENABLED,https://www.nypllc.com/
+02_Professions_NY,Therapists-LCSW,ENABLED,https://www.nypllc.com/professions/lcsw
+02_Professions_NY,MHC-LMHC,ENABLED,https://www.nypllc.com/professions/mhc
+02_Professions_NY,Psychology,ENABLED,https://www.nypllc.com/professions/psychologist
+02_Professions_NY,Physicians,ENABLED,https://www.nypllc.com/professions/physician
+02_Professions_NY,Nurse-Practitioners,ENABLED,https://www.nypllc.com/professions/nurse-practitioner
+02_Professions_NY,Dentists,ENABLED,https://www.nypllc.com/professions/dentist
+02_Professions_NY,Physical-Therapy,ENABLED,https://www.nypllc.com/professions/physical-therapist
+02_Professions_NY,Architects,ENABLED,https://www.nypllc.com/professions/architect
+02_Professions_NY,Engineers,ENABLED,https://www.nypllc.com/professions/engineer
+02_Professions_NY,Attorneys,ENABLED,https://www.nypllc.com/professions/law
+02_Professions_NY,CPAs,ENABLED,https://www.nypllc.com/professions/cpa

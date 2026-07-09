@@ -1,12 +1,52 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-07-01
+**Last updated:** 2026-07-09
 
 ## Account
 
 - Customer: NYPLLC (`1529880213`)
-- Campaign: `Sales-Search-1`
-- Primary ad group: `NY PLLC Formation`
+- Live: `Sales-Search-1` (ENABLED)
+- Draft (PAUSED): `01_Core_Exact_NY`, `02_Professions_NY`
+
+---
+
+## Changes on 2026-07-09 — Phase 1 draft campaigns (PAUSED)
+
+Source: operating plan §2.1–2.2 · package `google-ads-campaign-build/` · script `google_ads/upload_campaigns.py`
+
+### Created (PAUSED)
+
+| Campaign | Budget | Geo | Bidding | Negatives |
+|---|---|---|---|---|
+| `01_Core_Exact_NY` | $45/day | NY Presence | Maximize Conversions tCPA $90 (campaign-level) | Shared A–E |
+| `02_Professions_NY` | $25/day | NY Presence | Maximize Conversions tCPA $90 (campaign-level) | Shared A–E |
+
+**`01_Core_Exact_NY` ad groups:** Formation-Core · Service-Intent · Cost-Price · Brand — **41 keywords** uploaded.
+
+**`02_Professions_NY`:** 11 ad groups · **34 keywords** (6 created with health-policy exemption request).
+
+### Policy / exemption
+
+Validate-only scan (`check_keyword_policy.py`): **6 exemptible** keywords under “Health in personalized advertising” — `lcsw pllc`, `lcsw pllc new york`, `pllc for lcsw`, `mental health counselor pllc`, `psychiatric nurse practitioner pllc`, `physical therapy pllc new york`. Uploaded with `exempt_policy_violation_keys` (pending Google review; may not serve until approved).
+
+### Portfolio (same day)
+
+- Created **`NYPLLC Search Portfolio`** (`biddingStrategies/12148056412`) — Target CPA **$90**
+- Attached **`Sales-Search-1` only** (ENABLED) — bidding type now `TARGET_CPA` via portfolio
+- Drafts `01_Core_Exact_NY` / `02_Professions_NY` still **inline** Maximize Conversions tCPA $90 — **not** attached yet
+
+### RSA packages (same day)
+
+- Assembled + **uploaded** 30 RSAs (2×15 ad groups) via `google_ads/upload_rsas.py` into paused campaigns
+- Ads **ENABLED** inside **PAUSED** campaigns (ready when campaigns are enabled)
+- Controlled RSAs pin price headline to H1; unpinned variants have no pins
+- Trustpilot headline omitted pending §1.4 URL fix
+- Result: `google-ads-campaign-build/rsas/rsa-upload-result.json`
+
+### Not done yet
+
+- Attach drafts to portfolio + enable (wait for conversion flip)
+- `03_ForeignQual_US`
 
 ---
 

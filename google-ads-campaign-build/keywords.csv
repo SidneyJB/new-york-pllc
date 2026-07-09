@@ -1,0 +1,76 @@
+campaign_name,ad_group_name,keyword_text,match_type,status
+01_Core_Exact_NY,Formation-Core,ny pllc,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,new york pllc,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,pllc ny,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,pllc new york,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,ny pllc formation,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,new york pllc formation,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,pllc formation ny,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,pllc formation new york,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,form a pllc in ny,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,form a pllc in new york,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,forming a pllc in new york,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,forming a pllc in ny,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,start pllc,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,start a pllc,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,start a pllc in new york,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,start a pllc in ny,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,set up a pllc in ny,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,create a pllc in new york,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,file a pllc in ny,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,ny pllc filing,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,pllc application new york,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,pllc application ny,EXACT,ENABLED
+01_Core_Exact_NY,Formation-Core,open a pllc in new york,EXACT,ENABLED
+01_Core_Exact_NY,Service-Intent,pllc formation service,EXACT,ENABLED
+01_Core_Exact_NY,Service-Intent,pllc formation service ny,EXACT,ENABLED
+01_Core_Exact_NY,Service-Intent,pllc formation services new york,EXACT,ENABLED
+01_Core_Exact_NY,Service-Intent,pllc filing service,EXACT,ENABLED
+01_Core_Exact_NY,Service-Intent,best pllc formation service,EXACT,ENABLED
+01_Core_Exact_NY,Service-Intent,pllc formation company,EXACT,ENABLED
+01_Core_Exact_NY,Service-Intent,pllc formation service near me,PHRASE,ENABLED
+01_Core_Exact_NY,Cost-Price,pllc cost ny,EXACT,ENABLED
+01_Core_Exact_NY,Cost-Price,ny pllc cost,EXACT,ENABLED
+01_Core_Exact_NY,Cost-Price,how much does a pllc cost in ny,EXACT,ENABLED
+01_Core_Exact_NY,Cost-Price,cost to form a pllc in new york,EXACT,ENABLED
+01_Core_Exact_NY,Cost-Price,ny pllc filing fee,EXACT,ENABLED
+01_Core_Exact_NY,Cost-Price,pllc formation cost new york,EXACT,ENABLED
+01_Core_Exact_NY,Cost-Price,how much is a pllc in new york,EXACT,ENABLED
+01_Core_Exact_NY,Brand,nypllc,EXACT,ENABLED
+01_Core_Exact_NY,Brand,nypllc com,EXACT,ENABLED
+01_Core_Exact_NY,Brand,ny pllc com,EXACT,ENABLED
+01_Core_Exact_NY,Brand,business filing solutions,PHRASE,ENABLED
+02_Professions_NY,Therapists-LCSW,pllc for therapists,EXACT,ENABLED
+02_Professions_NY,Therapists-LCSW,therapist pllc new york,EXACT,ENABLED
+02_Professions_NY,Therapists-LCSW,lcsw pllc,EXACT,ENABLED
+02_Professions_NY,Therapists-LCSW,lcsw pllc new york,EXACT,ENABLED
+02_Professions_NY,Therapists-LCSW,pllc for lcsw,EXACT,ENABLED
+02_Professions_NY,Therapists-LCSW,social worker pllc ny,EXACT,ENABLED
+02_Professions_NY,Therapists-LCSW,private practice pllc new york,PHRASE,ENABLED
+02_Professions_NY,MHC-LMHC,lmhc pllc,EXACT,ENABLED
+02_Professions_NY,MHC-LMHC,mental health counselor pllc,EXACT,ENABLED
+02_Professions_NY,MHC-LMHC,mhc pllc new york,EXACT,ENABLED
+02_Professions_NY,Psychology,psychologist pllc new york,EXACT,ENABLED
+02_Professions_NY,Psychology,psychology pllc ny,EXACT,ENABLED
+02_Professions_NY,Physicians,medical pllc new york,EXACT,ENABLED
+02_Professions_NY,Physicians,physician pllc,EXACT,ENABLED
+02_Professions_NY,Physicians,pllc for doctors new york,EXACT,ENABLED
+02_Professions_NY,Physicians,md pllc ny,EXACT,ENABLED
+02_Professions_NY,Physicians,medical practice pllc new york,EXACT,ENABLED
+02_Professions_NY,Nurse-Practitioners,nurse practitioner pllc new york,EXACT,ENABLED
+02_Professions_NY,Nurse-Practitioners,np pllc ny,EXACT,ENABLED
+02_Professions_NY,Nurse-Practitioners,psychiatric nurse practitioner pllc,EXACT,ENABLED
+02_Professions_NY,Dentists,dental pllc new york,EXACT,ENABLED
+02_Professions_NY,Dentists,dentist pllc ny,EXACT,ENABLED
+02_Professions_NY,Dentists,dental practice pllc,EXACT,ENABLED
+02_Professions_NY,Physical-Therapy,physical therapy pllc new york,EXACT,ENABLED
+02_Professions_NY,Physical-Therapy,pt pllc ny,EXACT,ENABLED
+02_Professions_NY,Architects,architecture pllc new york,EXACT,ENABLED
+02_Professions_NY,Architects,architect pllc ny,EXACT,ENABLED
+02_Professions_NY,Engineers,engineering pllc new york,EXACT,ENABLED
+02_Professions_NY,Engineers,pe pllc new york,EXACT,ENABLED
+02_Professions_NY,Attorneys,law firm pllc new york,EXACT,ENABLED
+02_Professions_NY,Attorneys,attorney pllc ny,EXACT,ENABLED
+02_Professions_NY,Attorneys,law pllc new york,EXACT,ENABLED
+02_Professions_NY,CPAs,cpa pllc new york,EXACT,ENABLED
+02_Professions_NY,CPAs,accounting pllc ny,EXACT,ENABLED

@@ -6,17 +6,19 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 ## Current sprint
 
-- **Google Ads Phase 0** (operating plan v2) — mostly done; waiting on real order to verify tagged Purchase, then flip primary/secondary. See [features/google-ads.md](features/google-ads.md) · [operating plan](../nypllc-google-ads-operating-plan.md)
+- **Google Ads Phase 0** — mostly done; waiting on real order to verify tagged Purchase, then flip. See [features/google-ads.md](features/google-ads.md) · [operating plan](../nypllc-google-ads-operating-plan.md)
+- **Phase 1 draft (Jul 9):** `01_Core_Exact_NY` + `02_Professions_NY` **PAUSED** (keywords + **30 RSAs**). Portfolio **`NYPLLC Search Portfolio`** ($90) on **`Sales-Search-1` only**. Do not enable drafts until conversion flip + attach to portfolio.
 - Expand **foreign-into-NY** state page coverage beyond NJ/PA/FL/TX/CT as needed
 - Ops fulfillment lives in **PLLC-CRM** (sibling repo) — not this codebase
 
 ## Next steps
 
-1. After next **Ads-attributed** thank-you: confirm Ads **All conversions** for `Purchase (Spiffy thank-you value)` with correct `$` → flip tagged → primary, page-load → secondary
-2. Customer Match CSV UI upload (`Ads - customer-match-emails_crm_2026-07-08.csv`) after flip
-3. Then Phase 1: portfolio tCPA + `01_Core_Exact_NY` per operating plan calendar/gates
-4. More foreign state landings / partner / SEO when tasked
-5. **Later (deferred):** `gclid`/`wbraid`/`gbraid` → Spiffy checkout URL + CRM order storage for offline conversions — see operating plan §1.1.3 note (Jul 9 2026)
+1. Phase 1 drafts **PAUSED** with keywords + **30 RSAs**; portfolio on `Sales-Search-1` — next: wait for Ads-attributed thank-you → **conversion flip**
+2. After next **Ads-attributed** thank-you: confirm Ads **All conversions** for `Purchase (Spiffy thank-you value)` with correct `$` → flip tagged → primary, page-load → secondary
+3. Customer Match CSV UI upload (`Ads - customer-match-emails_crm_2026-07-08.csv`) after flip
+4. Then: attach drafts to portfolio; enable `01_Core_Exact_NY` per calendar
+5. More foreign state landings / partner / SEO when tasked
+6. **Later (deferred):** `gclid`/`wbraid`/`gbraid` → Spiffy checkout URL + CRM order storage for offline conversions — see operating plan §1.1.3 note (Jul 9 2026)
 
 ## Active decisions
 
@@ -40,7 +42,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 📖 Full log: [session-history.md](../docs/session-history.md)
 
-Latest (Jul 8 2026): Ads Phase 0 — conversion value wiring + secondary tagged action; settings/negatives/assets; baselines in `baseline-2026-07-08/`; CRM Google AdSpend backfill. Prior: foreign-into-NY + partners + profession pages + GA4 purchase + DIY/VA + domain consolidation.
+Latest (Jul 9 2026): Phase 1 drafts PAUSED (`01_Core_Exact_NY`, `02_Professions_NY`) with keywords + **30 RSAs uploaded**; health-keyword API exemptions; portfolio `NYPLLC Search Portfolio` ($90) on `Sales-Search-1` only; build package in `google-ads-campaign-build/`. Prior (Jul 8): Phase 0 conversion wiring + settings/negatives/assets + baselines + CRM AdSpend backfill.
 
 ## Session start
 

@@ -1,0 +1,31 @@
+{
+  "dry_run": false,
+  "customer_id": "1529880213",
+  "uploaded": [
+    {
+      "campaign_name": "02_Professions_NY",
+      "campaign_resource": "customers/1529880213/campaigns/24017629178",
+      "ad_groups_created": 10,
+      "keywords": {
+        "created": 30,
+        "exempted": 6,
+        "skipped": 4,
+        "failed": 0,
+        "failures": []
+      },
+      "final_urls": {
+        "Therapists-LCSW": "https://www.nypllc.com/professions/lcsw",
+        "MHC-LMHC": "https://www.nypllc.com/professions/mhc",
+        "Psychology": "https://www.nypllc.com/professions/psychologist",
+        "Physicians": "https://www.nypllc.com/professions/physician",
+        "Nurse-Practitioners": "https://www.nypllc.com/professions/nurse-practitioner",
+        "Dentists": "https://www.nypllc.com/professions/dentist",
+        "Physical-Therapy": "https://www.nypllc.com/professions/physical-therapist",
+        "Architects": "https://www.nypllc.com/professions/architect",
+        "Engineers": "https://www.nypllc.com/professions/engineer",
+        "Attorneys": "https://www.nypllc.com/professions/law",
+        "CPAs": "https://www.nypllc.com/professions/cpa"
+      }
+    }
+  ]
+}

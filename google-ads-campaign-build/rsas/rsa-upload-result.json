@@ -1,0 +1,99 @@
+{
+  "dry_run": false,
+  "customer_id": "1529880213",
+  "created": 15,
+  "skipped": 15,
+  "failed": 0,
+  "results": [
+    {
+      "campaign_name": "01_Core_Exact_NY",
+      "ad_group_name": "Formation-Core",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/201832402041~816207546379"
+    },
+    {
+      "campaign_name": "01_Core_Exact_NY",
+      "ad_group_name": "Service-Intent",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/201832404161~816172142763"
+    },
+    {
+      "campaign_name": "01_Core_Exact_NY",
+      "ad_group_name": "Cost-Price",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/197759908946~816207546409"
+    },
+    {
+      "campaign_name": "01_Core_Exact_NY",
+      "ad_group_name": "Brand",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/201832405641~816207641905"
+    },
+    {
+      "campaign_name": "02_Professions_NY",
+      "ad_group_name": "Therapists-LCSW",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/196018455097~816207546442"
+    },
+    {
+      "campaign_name": "02_Professions_NY",
+      "ad_group_name": "MHC-LMHC",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/196018837177~816206954599"
+    },
+    {
+      "campaign_name": "02_Professions_NY",
+      "ad_group_name": "Psychology",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/198953638235~816207546469"
+    },
+    {
+      "campaign_name": "02_Professions_NY",
+      "ad_group_name": "Physicians",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/196965163623~816207641953"
+    },
+    {
+      "campaign_name": "02_Professions_NY",
+      "ad_group_name": "Nurse-Practitioners",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/196965164343~816172065768"
+    },
+    {
+      "campaign_name": "02_Professions_NY",
+      "ad_group_name": "Dentists",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/198953638715~816207641971"
+    },
+    {
+      "campaign_name": "02_Professions_NY",
+      "ad_group_name": "Physical-Therapy",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/201112005791~816280540466"
+    },
+    {
+      "campaign_name": "02_Professions_NY",
+      "ad_group_name": "Architects",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/196965165503~816280553987"
+    },
+    {
+      "campaign_name": "02_Professions_NY",
+      "ad_group_name": "Engineers",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/193488965170~816280553996"
+    },
+    {
+      "campaign_name": "02_Professions_NY",
+      "ad_group_name": "Attorneys",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/196018838817~816280340600"
+    },
+    {
+      "campaign_name": "02_Professions_NY",
+      "ad_group_name": "CPAs",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/198953731875~816280554413"
+    }
+  ]
+}

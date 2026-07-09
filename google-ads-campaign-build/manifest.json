@@ -1,0 +1,439 @@
+{
+  "source": "nypllc-google-ads-operating-plan.md \u00a72.1\u20132.2",
+  "generated": "2026-07-09",
+  "account_customer_id": "1529880213",
+  "launch_state": "PAUSED_DRAFT",
+  "portfolio": {
+    "name": "NYPLLC Search Portfolio",
+    "target_cpa_usd": 90
+  },
+  "campaigns": [
+    {
+      "campaign_name": "01_Core_Exact_NY",
+      "status": "PAUSED",
+      "budget_daily_usd": 45,
+      "geo_target": "New York State",
+      "geo_option": "PRESENCE",
+      "bidding_strategy": "PORTFOLIO_TARGET_CPA",
+      "portfolio_tcpa_usd": 90,
+      "network_search": true,
+      "network_partners": false,
+      "network_display": false,
+      "language": "en",
+      "negative_shared_set_ids": "12146898907,12145390194,12146898706,12146898991,12146898709",
+      "ad_groups": [
+        {
+          "ad_group_name": "Formation-Core",
+          "final_url": "https://www.nypllc.com/how-to-form-a-pllc-in-ny",
+          "keywords": [
+            {
+              "keyword_text": "ny pllc",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "new york pllc",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pllc ny",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "ny pllc formation",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "new york pllc formation",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pllc formation ny",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pllc formation new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "form a pllc in ny",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "form a pllc in new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "forming a pllc in new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "forming a pllc in ny",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "start pllc",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "start a pllc",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "start a pllc in new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "start a pllc in ny",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "set up a pllc in ny",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "create a pllc in new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "file a pllc in ny",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "ny pllc filing",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pllc application new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pllc application ny",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "open a pllc in new york",
+              "match_type": "EXACT"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "Service-Intent",
+          "final_url": "https://www.nypllc.com/how-to-form-a-pllc-in-ny",
+          "keywords": [
+            {
+              "keyword_text": "pllc formation service",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pllc formation service ny",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pllc formation services new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pllc filing service",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "best pllc formation service",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pllc formation company",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pllc formation service near me",
+              "match_type": "PHRASE"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "Cost-Price",
+          "final_url": "https://www.nypllc.com/order",
+          "keywords": [
+            {
+              "keyword_text": "pllc cost ny",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "ny pllc cost",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "how much does a pllc cost in ny",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "cost to form a pllc in new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "ny pllc filing fee",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pllc formation cost new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "how much is a pllc in new york",
+              "match_type": "EXACT"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "Brand",
+          "final_url": "https://www.nypllc.com/",
+          "keywords": [
+            {
+              "keyword_text": "nypllc",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "nypllc com",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "ny pllc com",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "business filing solutions",
+              "match_type": "PHRASE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "campaign_name": "02_Professions_NY",
+      "status": "PAUSED",
+      "budget_daily_usd": 25,
+      "geo_target": "New York State",
+      "geo_option": "PRESENCE",
+      "bidding_strategy": "PORTFOLIO_TARGET_CPA",
+      "portfolio_tcpa_usd": 90,
+      "network_search": true,
+      "network_partners": false,
+      "network_display": false,
+      "language": "en",
+      "negative_shared_set_ids": "12146898907,12145390194,12146898706,12146898991,12146898709",
+      "ad_groups": [
+        {
+          "ad_group_name": "Therapists-LCSW",
+          "final_url": "https://www.nypllc.com/professions/lcsw",
+          "keywords": [
+            {
+              "keyword_text": "pllc for therapists",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "therapist pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "lcsw pllc",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "lcsw pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pllc for lcsw",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "social worker pllc ny",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "private practice pllc new york",
+              "match_type": "PHRASE"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "MHC-LMHC",
+          "final_url": "https://www.nypllc.com/professions/mhc",
+          "keywords": [
+            {
+              "keyword_text": "lmhc pllc",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "mental health counselor pllc",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "mhc pllc new york",
+              "match_type": "EXACT"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "Psychology",
+          "final_url": "https://www.nypllc.com/professions/psychologist",
+          "keywords": [
+            {
+              "keyword_text": "psychologist pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "psychology pllc ny",
+              "match_type": "EXACT"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "Physicians",
+          "final_url": "https://www.nypllc.com/professions/physician",
+          "keywords": [
+            {
+              "keyword_text": "medical pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "physician pllc",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pllc for doctors new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "md pllc ny",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "medical practice pllc new york",
+              "match_type": "EXACT"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "Nurse-Practitioners",
+          "final_url": "https://www.nypllc.com/professions/nurse-practitioner",
+          "keywords": [
+            {
+              "keyword_text": "nurse practitioner pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "np pllc ny",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "psychiatric nurse practitioner pllc",
+              "match_type": "EXACT"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "Dentists",
+          "final_url": "https://www.nypllc.com/professions/dentist",
+          "keywords": [
+            {
+              "keyword_text": "dental pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "dentist pllc ny",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "dental practice pllc",
+              "match_type": "EXACT"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "Physical-Therapy",
+          "final_url": "https://www.nypllc.com/professions/physical-therapist",
+          "keywords": [
+            {
+              "keyword_text": "physical therapy pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pt pllc ny",
+              "match_type": "EXACT"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "Architects",
+          "final_url": "https://www.nypllc.com/professions/architect",
+          "keywords": [
+            {
+              "keyword_text": "architecture pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "architect pllc ny",
+              "match_type": "EXACT"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "Engineers",
+          "final_url": "https://www.nypllc.com/professions/engineer",
+          "keywords": [
+            {
+              "keyword_text": "engineering pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "pe pllc new york",
+              "match_type": "EXACT"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "Attorneys",
+          "final_url": "https://www.nypllc.com/professions/law",
+          "keywords": [
+            {
+              "keyword_text": "law firm pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "attorney pllc ny",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "law pllc new york",
+              "match_type": "EXACT"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "CPAs",
+          "final_url": "https://www.nypllc.com/professions/cpa",
+          "keywords": [
+            {
+              "keyword_text": "cpa pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "accounting pllc ny",
+              "match_type": "EXACT"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "campaigns": 2,
+    "ad_groups": 15,
+    "keywords": 75
+  }
+}

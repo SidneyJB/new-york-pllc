@@ -51,11 +51,21 @@ Validate-only scan (`check_keyword_policy.py`): **6 exemptible** keywords under 
 
 - Confirmed live: PAUSED · $15 · US Presence · Search only · inline tCPA $90 · unattached · A-FQ+B–E · 6 AGs · 33 EXACT keywords · 12 RSAs · no `→` · final URLs match state/hub pages · manifest keyword parity
 
-### Not done yet
+### Not done yet (as of morning Jul 9)
 
-- Attach 01/02 to portfolio + enable (wait for conversion flip)
+- Attach 01/02 to portfolio + enable (wait for conversion flip) — **done evening Jul 9** (see below)
 - Enable `03_ForeignQual_US` after Gate 1
 - Customer Match UI upload · Auction Insights export
+
+---
+
+## Changes on 2026-07-09 (evening) — Portfolio attach + Core Exact launch
+
+- Attached `01_Core_Exact_NY` + `02_Professions_NY` to **`NYPLLC Search Portfolio`** (`12148056412`)
+- Enabled **`01_Core_Exact_NY`** (`24022049179`) — now ENABLED / TARGET_CPA via portfolio
+- Left **`02_Professions_NY`** PAUSED on portfolio (enable ~Aug 3 per calendar)
+- `Sales-Search-1` unchanged (ENABLED on same portfolio)
+- `03_ForeignQual_US` still PAUSED / unattached (Gate 1)
 
 ---
 

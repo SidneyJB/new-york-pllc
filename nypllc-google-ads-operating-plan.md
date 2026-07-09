@@ -97,8 +97,8 @@ Anything currently marked primary that isn't a paid order gets demoted to second
 **Verified Jul 8 2026 (Spiffy custom thank-you):** With “Send order details through URL” on, Spiffy appends `order=` (Spiffy order id) and `total=` (**full contracted order value in cents**, not the first installment). Confirmed on a $1 one-time test (`total=100`) and a $2 four-pay plan (`total=200` = four $0.50 installments). Browser-side tagged Ads conversion can therefore use `value = Number(total)/100` and `transaction_id = order`. Prefer thank-you URL `https://www.nypllc.com/order/confirmation` (canonical www). Side note: Spiffy thank-you URLs can include `owner_ssn` / `owner_dob` / contact fields — site purchase metadata now allowlists only safe keys (`order`, `total`, `code`, etc.) via `buildSafePurchaseMetadata`. Prefer turning off “Include contact details” in Spiffy if Meta/Ads warn about PII in the URL itself.
 
 **Conversion cutover (in progress Jul 8 2026):**
-- Existing primary (leave until flip): `Purchase (Page load www.nypllc.com/order/confirmation)` id `7353506045` — codeless, $1 default value.
-- New secondary (verify first): `Purchase (Spiffy thank-you value)` id `7678072764` — `send_to` `AW-17672972971/w4sBCLyvmM0cEKvVkOtB`; site fires on confirmation with Spiffy `total`/`order`. `primary_for_goal=false` until a test conversion shows correct `$` under All conversions, then flip: new → primary, page-load → secondary.
+- Page-load: `Purchase (Page load www.nypllc.com/order/confirmation)` id `7353506045` — type **`WEBPAGE_CODELESS`** (API **read-only**). $1 default. **Jul 9 2026:** demoted to **secondary** in Ads UI (`primary_for_goal=false`).
+- Tagged: `Purchase (Spiffy thank-you value)` id `7678072764` — type `WEBPAGE`; `send_to` `AW-17672972971/w4sBCLyvmM0cEKvVkOtB`. **Jul 9 2026:** verified `$885` → set **primary** via API; page-load demoted in UI. **Flip complete** — bidding/Conversions use tagged real `$` only.
 
 **1.1.3 Click ID capture (you built the CRM — use it).**
 1. Append `gclid` (and `wbraid`/`gbraid` for iOS traffic) passthrough on every ad landing page → into the Spiffy checkout URL as metadata. Verify Spiffy supports URL-param passthrough into order metadata; you already use Spiffy metadata for payment-plan tracking, so the rails exist.
@@ -109,7 +109,7 @@ Anything currently marked primary that isn't a paid order gets demoted to second
 **§1.1.3 status (Jul 9 2026 — capture + Enhanced Conversions shipped; offline upload still deferred):**
 1. **Site (done):** `web/src/lib/click-attribution/` cookie `nypllc_click_attr` (90d) + `ClickAttributionCapture` in layout; `buildSpiffyCheckoutUrl` appends click IDs/UTMs; wired on PLLC + LLC embeds.
 2. **CRM (done):** `Order.gclid`/`wbraid`/`gbraid`/`utm*` columns; `extractSpiffyOrderAttribution` (preserved_params → fields → querystring → top-level → pageview referrer/url) on both Spiffy webhooks + import upsert. Migration `20260709210000_add_order_click_attribution`.
-3. **Enhanced Conversions (site done; Ads UI pending):** thank-you hashes Spiffy `email` → `gtag('set','user_data',{sha256_email_address})` before conversion. Account `accepted_customer_data_terms=false` as of Jul 9 — turn on in Ads UI for action `7678072764`.
+3. **Enhanced Conversions (done Jul 9):** thank-you hashes Spiffy `email` → `gtag('set','user_data',{sha256_email_address})`; customer data terms accepted; Enhanced Conversions turned on (Google Tag method) in Ads UI.
 4. **Still deferred:** nightly offline conversion upload (step 3 above). Optional Spiffy `checkout.set` custom-field hardening not built.
 
 **1.1.4 De-duplication.** One source of truth per conversion action. If the webhook/API import is live, the gtag purchase event must use a shared `transaction_id` (order ID) so Google dedupes, or be removed. The weekly check: Google Ads conversions vs. CRM ad-attributed orders within ±10% on rolling 30 days.
@@ -207,7 +207,7 @@ Your June asset test priced this work at roughly a $23 CPA improvement. Build th
 
 ### 2.1 Campaign 01_Core_Exact_NY — launches Week 2–3
 
-**Status (Jul 9 2026):** Created **PAUSED** via API (`campaigns/24022049179`). Budget $45/day · NY Presence · Search only · shared negatives A–E · 4 ad groups · **41 keywords** · **8 RSAs uploaded** (controlled + unpinned per AG). Still on **inline** Maximize Conversions tCPA $90 (not yet on portfolio). Do **not** enable until conversion flip (1.1.2) + attach to portfolio (3.1). Build package: [`google-ads-campaign-build/`](google-ads-campaign-build/).
+**Status (Jul 9 2026 evening):** **ENABLED** (`campaigns/24022049179`). Budget $45/day · NY Presence · Search only · shared negatives A–E · 4 ad groups · **41 keywords** · **8 RSAs**. Attached to portfolio **`NYPLLC Search Portfolio`** tCPA $90. Build package: [`google-ads-campaign-build/`](google-ads-campaign-build/).
 
 **Geo:** New York State, Presence. **Budget:** $40–50/day at launch. **Bidding:** portfolio tCPA $90.
 
@@ -229,7 +229,7 @@ Two RSAs per ad group (see Part 4). Landing pages: homepage or /how-to-form-a-pl
 
 ### 2.2 Campaign 02_Professions_NY — launches Week 3–5
 
-**Status (Jul 9 2026):** Created **PAUSED** via API (`campaigns/24017629178`). Budget $25/day · NY Presence · Search only · shared negatives A–E · **11 ad groups** (Architects + Engineers split for message-match) · **34 keywords** · **22 RSAs uploaded** (controlled + unpinned per AG). Still **inline** Maximize Conversions tCPA $90 (not on portfolio). Do **not** enable until after Core Exact is live and Gate timing allows. Six health-policy keywords uploaded with API **exemption requests** (`HEALTH_IN_PERSONALIZED_ADS`): `lcsw pllc`, `lcsw pllc new york`, `pllc for lcsw`, `mental health counselor pllc`, `psychiatric nurse practitioner pllc`, `physical therapy pllc new york` — saved pending Google review (same pattern as prior UI appeals).
+**Status (Jul 9 2026 evening):** **PAUSED** but attached to portfolio (`campaigns/24017629178`). Budget $25/day · NY Presence · Search only · shared negatives A–E · **11 ad groups** · **34 keywords** · **22 RSAs**. Enable ~Aug 3 per calendar (Core Exact already live). Six health-policy keywords uploaded with API **exemption requests** (`HEALTH_IN_PERSONALIZED_ADS`): `lcsw pllc`, `lcsw pllc new york`, `pllc for lcsw`, `mental health counselor pllc`, `psychiatric nurse practitioner pllc`, `physical therapy pllc new york` — pending Google review.
 
 **Geo:** NY, Presence. **Budget:** $20–30/day. **Bidding:** same portfolio.
 
@@ -292,7 +292,7 @@ This is your current campaign's end state. It is never deleted.
 
 Week 2: create **portfolio Target CPA = $90** → attach the *existing* campaign first and let it run 10–14 days. This is technically a bidding change on the live campaign, but to the same effective target — expect a ~1-week wobble, not a reset. Then every new campaign launches *into* the portfolio, inheriting pooled learning instead of cold-starting. Keep everything in one portfolio until the split condition in 3.2 is met.
 
-**Done Jul 9 2026 (API):** Created portfolio **`NYPLLC Search Portfolio`** (`biddingStrategies/12148056412`) — Target CPA **$90**. Attached **`Sales-Search-1` only** (ENABLED; bidding type now `TARGET_CPA` via portfolio). Drafts `01_Core_Exact_NY` / `02_Professions_NY` / `03_ForeignQual_US` remain **unattached** (still inline Maximize Conversions tCPA $90) until conversion flip + enable (FQ also Gate 1). Expect ~1-week wobble on Sales-Search-1, not a cold relearn.
+**Done Jul 9 2026 (API):** Created portfolio **`NYPLLC Search Portfolio`** (`biddingStrategies/12148056412`) — Target CPA **$90**. **Evening Jul 9:** attached **`01_Core_Exact_NY`** (ENABLED) + **`02_Professions_NY`** (PAUSED) alongside **`Sales-Search-1`**. `03_ForeignQual_US` still unattached (Gate 1).
 
 ### 3.2 The escalation ladder
 
@@ -527,8 +527,8 @@ Gates are permission slips, not deadlines. Missing a gate by two weeks costs alm
 | Week of | Actions |
 |---|---|
 | Jul 6 | ✅ Phase 0: conversion audit + fixes (1.1) · settings checklist (1.2) · build negative lists A–E (1.3) · backfill CRM AdSpend · baseline exports (1.5) — **done Jul 8** |
-| Jul 13 | ✅ Full asset build (1.4) — **done Jul 8** · ✅ draft `01` + `02` + `03_ForeignQual_US` **PAUSED** (keywords + **42 RSAs**) — **done Jul 9** · ✅ create portfolio tCPA $90 · attach `Sales-Search-1` only — **done Jul 9** · ✅ Google-reviews RSA headline on `01`/`02` — **done Jul 9** · ⏳ wait Ads-attributed thank-you → conversion flip (1.1.2) before enable 01/02 |
-| Jul 20 | **Launch 01_Core_Exact** (after flip + portfolio attach + RSAs). Daily 10-min monitoring |
+| Jul 13 | ✅ Full asset build (1.4) — **done Jul 8** · ✅ draft `01` + `02` + `03` + RSAs — **done Jul 9** · ✅ portfolio tCPA $90 · ✅ conversion flip · ✅ attach 01/02 to portfolio · ✅ **enable `01_Core_Exact_NY`** — **done Jul 9 evening** · `02` stays PAUSED until ~Aug 3 |
+| Jul 20 | Daily 10-min monitoring on Core Exact + Sales-Search-1 |
 | Jul 27 | First formal weekly SOP · (02 already drafted Jul 9 — polish RSAs / prep enable) |
 | Aug 3 | **Launch 02_Professions** |
 | Aug 10 | Monitor · ✅ `03_ForeignQual` already drafted Jul 9 (PAUSED) — polish if needed · mobile LP work begins (5.1) |
@@ -574,13 +574,13 @@ Notes on reading this honestly:
 
 ## Part 12 — Open items needing your input or verification
 
-1. **Spiffy thank-you `order`/`total` — RESOLVED (Jul 8 2026).** Custom thank-you + “Send order details through URL” passes full contracted value in cents and order id (see 1.1.2). **`gclid` capture + CRM storage (1.1.3) — SHIPPED (Jul 9 2026)** (cookie → embed URL → webhook columns; Enhanced Conversions hashed email on thank-you). **Offline conversion upload still deferred.** Ads UI: accept customer data terms + enable Enhanced Conversions on tagged Purchase.
+1. **Spiffy thank-you `order`/`total` — RESOLVED (Jul 8 2026).** Custom thank-you + “Send order details through URL” passes full contracted value in cents and order id (see 1.1.2). **`gclid` capture + CRM storage (1.1.3) — SHIPPED (Jul 9 2026).** **Conversion flip (1.1.2) — DONE Jul 9** (tagged primary via API; page-load secondary via UI — `WEBPAGE_CODELESS` is API read-only). Enhanced Conversions on. **Offline conversion upload still deferred.**
 2. **Per-keyword QS export — RESOLVED (Jul 5, from the API export).** Expected CTR is the drag: BELOW_AVERAGE on 83% of QS-scored spend (77% of impressions). Ad relevance is ABOVE_AVERAGE on 94% of spend; landing page experience is Average-or-better on 99.8%. QS priority therefore goes to Part 4 (copy, assets, tight match types) — Part 5 keeps its full CVR/mobile role but is not a QS emergency. Internal validation of the whole restructure: the account's QS-7+ keywords ran a **$54 CPA on 50 conversions** vs. **$101 on the QS-5/6 cluster**, yet received only ~6% of lifetime impressions. The rebuild's mechanical job is to route spend from the second group to the first.
 3. **Auction Insights export** — who actually shows up against you, with overlap and outranking rates, for the baseline file.
 4. **GA4 (or equivalent) with funnel events on nypllc.com?** Needed to instrument CVR for Part 5; if absent, installing it is a week-1 task.
 5. **Meta retargeting inventory for the record:** monthly spend, audience definitions, creative age — for the 6.2 housekeeping pass and the CRM AdSpend backfill.
 6. **$985 price test timing** (from the broader growth plan): schedule it into a window that doesn't overlap a ladder step or January (4.4). Recommended slot: late September, between Gates 2 and 3, or defer to February.
-7. **Phase 1–2 drafts + portfolio + RSAs — DONE Jul 9 2026 (still PAUSED).** `01_Core_Exact_NY` + `02_Professions_NY` + `03_ForeignQual_US` with keywords + **42 RSAs**; portfolio `NYPLLC Search Portfolio` ($90) on `Sales-Search-1` only. Google-reviews RSA headline **`Rated 5 Stars on Google`** live on `01`/`02`. **Still open:** Ads-attributed thank-you → flip primary conversion (1.1.2); attach 01/02 to portfolio; enable Core Exact; Customer Match UI upload (1.2); enable Foreign Qual after Gate 1.
+7. **Phase 1 launch — DONE Jul 9 2026 evening.** `01_Core_Exact_NY` **ENABLED** on portfolio; `02_Professions_NY` portfolio-attached **PAUSED** (enable ~Aug 3); `03` still Gate 1. Conversion flip done. **Still open:** Customer Match UI upload (1.2); enable Professions ~Aug 3; Foreign Qual after Gate 1.
 
 ---
 

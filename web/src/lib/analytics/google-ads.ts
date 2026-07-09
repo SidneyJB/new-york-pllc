@@ -2,7 +2,7 @@ import { hashEmailForEnhancedConversions } from './enhanced-conversions'
 
 /**
  * Google Ads conversion tag (AW-17672972971).
- * Action: "Purchase (Spiffy thank-you value)" — secondary until flip after verify.
+ * Action: "Purchase (Spiffy thank-you value)" — primary as of Jul 9 2026 flip.
  * Created via API 2026-07-08; id 7678072764.
  *
  * Enhanced Conversions: pass thank-you `email` when Spiffy includes it; hashed client-side.

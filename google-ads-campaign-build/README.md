@@ -2,7 +2,7 @@
 
 Structured upload package for **`01_Core_Exact_NY`**, **`02_Professions_NY`**, and **`03_ForeignQual_US`**, from [nypllc-google-ads-operating-plan.md](../nypllc-google-ads-operating-plan.md) §2.1–2.3.
 
-**State (Jul 9 2026):** All three campaigns created in account **PAUSED**. Keywords + RSAs uploaded. Portfolio `$90` exists and is on **`Sales-Search-1` only** — do **not** enable drafts until conversion flip + attach to that portfolio. Foreign Qual also waits on **Gate 1**.
+**State (Jul 9 2026 evening):** `01_Core_Exact_NY` **ENABLED** on portfolio. `02_Professions_NY` portfolio-attached **PAUSED**. `03_ForeignQual_US` PAUSED / unattached (Gate 1). Portfolio `$90` also on `Sales-Search-1`.
 
 ## Files
 
@@ -81,15 +81,22 @@ CA exacts live in Generic (no CA state page yet). Skipped `certificate of author
 
 | Item | Status |
 |------|--------|
-| `01_Core_Exact_NY` PAUSED + keywords + RSAs | Done |
-| `02_Professions_NY` PAUSED + keywords + RSAs | Done |
+| `01_Core_Exact_NY` ENABLED on portfolio | **Done Jul 9 evening** |
+| `02_Professions_NY` PAUSED + keywords + RSAs (portfolio-attached) | Done |
 | `03_ForeignQual_US` PAUSED + 6 AGs + 33 keywords + 12 RSAs | Done |
-| Portfolio `NYPLLC Search Portfolio` $90 on `Sales-Search-1` | Done |
-| Attach drafts to portfolio + enable | Blocked on conversion flip (FQ also Gate 1) |
+| Portfolio `NYPLLC Search Portfolio` $90 on `Sales-Search-1` + `01` + `02` | Done |
+| Enable `02_Professions_NY` | ~Aug 3 |
+| Enable `03_ForeignQual_US` | After Gate 1 |
 
-## Remaining API upload order
+Next:
 
-1. After conversion flip → attach 01/02 to portfolio → enable Core Exact, then Professions per calendar
+1. Daily monitor Core Exact + Sales-Search-1
+2. ~Aug 3 → enable `02_Professions_NY` (already on portfolio)
+3. After Gate 1 → attach `03_ForeignQual_US` to portfolio → enable
+
+## Remaining
+
+1. ~Aug 3 → enable `02_Professions_NY`
 2. After Gate 1 → attach `03_ForeignQual_US` to portfolio → enable
 
 ## Not included (next pass)

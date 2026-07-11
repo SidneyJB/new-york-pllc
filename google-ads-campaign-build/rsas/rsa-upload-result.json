@@ -10,73 +10,73 @@
       "campaign_name": "03_ForeignQual_US",
       "ad_group_name": "Generic-ForeignQual",
       "rsa_variant": "controlled",
-      "resource_name": "customers/1529880213/adGroupAds/198691366976~816449157291"
+      "resource_name": "customers/1529880213/adGroupAds/198691366976~816558153488"
     },
     {
       "campaign_name": "03_ForeignQual_US",
       "ad_group_name": "Generic-ForeignQual",
       "rsa_variant": "unpinned",
-      "resource_name": "customers/1529880213/adGroupAds/198691366976~816449157342"
+      "resource_name": "customers/1529880213/adGroupAds/198691366976~816449877573"
     },
     {
       "campaign_name": "03_ForeignQual_US",
       "ad_group_name": "New-Jersey",
       "rsa_variant": "controlled",
-      "resource_name": "customers/1529880213/adGroupAds/198436879379~816484710139"
+      "resource_name": "customers/1529880213/adGroupAds/198436879379~816485552113"
     },
     {
       "campaign_name": "03_ForeignQual_US",
       "ad_group_name": "New-Jersey",
       "rsa_variant": "unpinned",
-      "resource_name": "customers/1529880213/adGroupAds/198436879379~816449157549"
+      "resource_name": "customers/1529880213/adGroupAds/198436879379~816485586715"
     },
     {
       "campaign_name": "03_ForeignQual_US",
       "ad_group_name": "Pennsylvania",
       "rsa_variant": "controlled",
-      "resource_name": "customers/1529880213/adGroupAds/198303001596~816484790827"
+      "resource_name": "customers/1529880213/adGroupAds/198303001596~816485564095"
     },
     {
       "campaign_name": "03_ForeignQual_US",
       "ad_group_name": "Pennsylvania",
       "rsa_variant": "unpinned",
-      "resource_name": "customers/1529880213/adGroupAds/198303001596~816449157762"
+      "resource_name": "customers/1529880213/adGroupAds/198303001596~816485564101"
     },
     {
       "campaign_name": "03_ForeignQual_US",
       "ad_group_name": "Florida",
       "rsa_variant": "controlled",
-      "resource_name": "customers/1529880213/adGroupAds/203893322128~816484779802"
+      "resource_name": "customers/1529880213/adGroupAds/203893322128~816557714312"
     },
     {
       "campaign_name": "03_ForeignQual_US",
       "ad_group_name": "Florida",
       "rsa_variant": "unpinned",
-      "resource_name": "customers/1529880213/adGroupAds/203893322128~816449157963"
+      "resource_name": "customers/1529880213/adGroupAds/203893322128~816450018951"
     },
     {
       "campaign_name": "03_ForeignQual_US",
       "ad_group_name": "Texas",
       "rsa_variant": "controlled",
-      "resource_name": "customers/1529880213/adGroupAds/198691369176~816557217998"
+      "resource_name": "customers/1529880213/adGroupAds/198691369176~816485588317"
     },
     {
       "campaign_name": "03_ForeignQual_US",
       "ad_group_name": "Texas",
       "rsa_variant": "unpinned",
-      "resource_name": "customers/1529880213/adGroupAds/198691369176~816449158056"
+      "resource_name": "customers/1529880213/adGroupAds/198691369176~816485564119"
     },
     {
       "campaign_name": "03_ForeignQual_US",
       "ad_group_name": "Connecticut",
       "rsa_variant": "controlled",
-      "resource_name": "customers/1529880213/adGroupAds/198303003036~816449158071"
+      "resource_name": "customers/1529880213/adGroupAds/198303003036~816449972286"
     },
     {
       "campaign_name": "03_ForeignQual_US",
       "ad_group_name": "Connecticut",
       "rsa_variant": "unpinned",
-      "resource_name": "customers/1529880213/adGroupAds/198303003036~816557212052"
+      "resource_name": "customers/1529880213/adGroupAds/198303003036~816485588365"
     }
   ]
 }

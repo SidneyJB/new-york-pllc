@@ -94,7 +94,7 @@ Zero changes to the live campaign's bidding or keywords during this phase. Every
 
 Anything currently marked primary that isn't a paid order gets demoted to secondary this week.
 
-**1.1.2 Revenue values.** Import the real order total from the Spiffy/Stripe webhook: $885 standard, $860 B2B-referral checkouts, $910–995 foreign qual by state, add-ons included in the total. (Publishing-only orders won't carry click IDs once List E is live, so they never enter ad conversion data.) **Payment plans: send the full contracted value on the first successful installment**, not per-installment amounts — otherwise a $885 four-pay order teaches the bidder it's worth $221.
+**1.1.2 Revenue values.** Import the real order total from the Spiffy/Stripe webhook: $885 standard, $860 B2B-referral checkouts, $915–995 foreign qual by state (flat PLLC/PC per state), add-ons included in the total. (Publishing-only orders won't carry click IDs once List E is live, so they never enter ad conversion data.) **Payment plans: send the full contracted value on the first successful installment**, not per-installment amounts — otherwise a $885 four-pay order teaches the bidder it's worth $221.
 
 **Verified Jul 8 2026 (Spiffy custom thank-you):** With “Send order details through URL” on, Spiffy appends `order=` (Spiffy order id) and `total=` (**full contracted order value in cents**, not the first installment). Confirmed on a $1 one-time test (`total=100`) and a $2 four-pay plan (`total=200` = four $0.50 installments). Browser-side tagged Ads conversion can therefore use `value = Number(total)/100` and `transaction_id = order`. Prefer thank-you URL `https://www.nypllc.com/order/confirmation` (canonical www). Side note: Spiffy thank-you URLs can include `owner_ssn` / `owner_dob` / contact fields — site purchase metadata now allowlists only safe keys (`order`, `total`, `code`, etc.) via `buildSafePurchaseMetadata`. Prefer turning off “Include contact details” in Spiffy if Meta/Ads warn about PII in the URL itself.
 
@@ -158,7 +158,7 @@ Anything currently marked primary that isn't a paid order gets demoted to second
 
 ### 1.4 Asset (extensions) build — account level
 
-**Applied Jul 8 2026 on Sales-Search-1** (measured keep/replace, not full wipe). Kept Get Started / Start Your Order / FAQ / Contact / Call + strong callouts (NYSED, Publishing, $885, etc.). Added sitemap-true sitelinks; replaced About Us → About NYPLLC; Amenities → Services snippet; new 3-offer price (Formation $885, VA $50/mo, Foreign from $910 — API requires ≥3 offerings); unlinked generic callouts + legacy About Us + old price v3. Account/ad-group auto profession sitelinks left for a later pass.
+**Applied Jul 8 2026 on Sales-Search-1** (measured keep/replace, not full wipe). Kept Get Started / Start Your Order / FAQ / Contact / Call + strong callouts (NYSED, Publishing, $885, etc.). Added sitemap-true sitelinks; replaced About Us → About NYPLLC; Amenities → Services snippet; new 3-offer price (Formation $885, VA $50/mo, Foreign from $910 — API requires ≥3 offerings); unlinked generic callouts + legacy About Us + old price v3. Account/ad-group auto profession sitelinks left for a later pass. **Jul 11 2026:** price asset replaced — Foreign floor **$915** (asset `390521246372`); linked on Sales + 01/02/03.
 
 Your June asset test priced this work at roughly a $23 CPA improvement. Build the full set — **only against real sitemap URLs** (`web/src/app/sitemap.ts`). No sitelink to a page that does not exist.
 
@@ -264,7 +264,7 @@ One honest flag from the QS baseline: the account's only prior profession test �
 
 Keywords: [foreign pllc new york] · [register out of state pllc in new york] · [application for authority new york pllc] · [ny application for authority] · [foreign qualification new york] · [register my pllc in new york] · per-state exacts like [nj pllc doing business in new york], [pennsylvania pllc in new york], [florida pllc new york] → each to its /foreign-pllc/{state} page; generic terms → /foreign-pllc.
 
-Copy is state-specific where possible ("NJ PLLC - NY — $975 Flat"). Order values $910–995 flow to the bidder, so under value-based bidding (3.3) this campaign gets naturally favored. Skip [certificate of authority new york] — it collides with the sales-tax certificate of authority; let Discovery mining tell you if that family is worth touching.
+Copy is state-specific where possible ("NJ PLLC - NY — $975 Flat"). Order values $915–995 flow to the bidder, so under value-based bidding (3.3) this campaign gets naturally favored. Skip [certificate of authority new york] — it collides with the sales-tax certificate of authority; let Discovery mining tell you if that family is worth touching.
 
 Almost nobody bids these terms with NY-specific messaging. Volume is low; margin and competitive vacuum are the point.
 

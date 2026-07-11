@@ -5,7 +5,7 @@ import { StateForeignQualificationPage, StateForeignQualificationContent } from 
 const content: StateForeignQualificationContent = {
   state: 'Texas',
   slug: 'texas',
-  pllcPrice: 910,
+  pllcPrice: 930,
   pcPrice: 930,
   intro:
     'Texas licensed practices often expand into New York for enterprise clients, hiring, telehealth, design work, or a physical NY operation. We review the Texas certificate of formation and status record to determine whether New York should treat the entity as a foreign PLLC or foreign PC, then prepare the filing when eligible.',
@@ -23,7 +23,7 @@ const content: StateForeignQualificationContent = {
     'Desired NY-facing assumed name, if needed.',
   ],
   eligibilityNuance:
-    'Texas pricing uses similar source-document assumptions for both paths, with a higher PC price because of the NY PC-side professional filing adjustment. New York reviews the Texas certificate of formation closely before treating an entity as a foreign PLLC.',
+    'Texas foreign PLLC and foreign PC packages use the same flat price. New York reviews the Texas certificate of formation closely before treating an entity as a foreign PLLC.',
   whatWeCheck:
     'Before filing, we review the Texas certificate of fact/status, certified certificate of formation, professional purpose, entity type, owner or shareholder license details, and exact name. We flag Texas names that are acceptable locally but may be too broad, misleading, or insufficiently profession-specific for New York.',
   professions: [
@@ -62,11 +62,6 @@ const content: StateForeignQualificationContent = {
         'Possibly. If the Texas legal name does not comply with New York professional naming rules, we can file a Certificate of Assumed Name. The assumed-name service is $109.',
     },
     {
-      question: 'Why is the Texas PC price different from the PLLC price?',
-      answer:
-        'The Texas foreign PLLC path starts at $910. The Texas foreign PC path starts at $930 because of the NY PC-side professional filing adjustment.',
-    },
-    {
       question: 'Does the price include publication?',
       answer:
         'We explain the publication requirement and quote any publication-related costs before filing. Publication is not included unless specifically quoted.',
@@ -82,7 +77,7 @@ const content: StateForeignQualificationContent = {
 export const metadata: Metadata = {
   title: `Texas PLLC or PC Foreign Qualification in New York`,
   description:
-    'Qualify your Texas professional LLC, PLLC, or PC to do business in New York. Foreign PLLC and foreign PC filing help for licensed professionals. Starting at $910.',
+    'Qualify your Texas professional LLC, PLLC, or PC to do business in New York. Foreign PLLC and foreign PC filing help for licensed professionals. Starting at $930.',
   keywords: [
     'Texas PLLC foreign qualification New York',
     'Texas professional LLC do business in NY',

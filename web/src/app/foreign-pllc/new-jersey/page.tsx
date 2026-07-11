@@ -6,7 +6,7 @@ const content: StateForeignQualificationContent = {
   state: 'New Jersey',
   slug: 'new-jersey',
   pllcPrice: 975,
-  pcPrice: 945,
+  pcPrice: 975,
   intro:
     'New Jersey clinicians, therapists, physicians, dentists, and other licensed professionals often expand across the Hudson before they think of it as a New York filing issue. If your New Jersey professional entity is serving NY clients, hiring in NY, or opening a New York office, we review the entity path and handle the New York foreign qualification filing when eligible.',
   whoThisIsFor: [
@@ -50,11 +50,6 @@ const content: StateForeignQualificationContent = {
       question: 'Can my New Jersey PC qualify as a New York foreign PLLC?',
       answer:
         'No. A New Jersey professional corporation or professional service corporation stays on the New York foreign PC path. Foreign qualification does not convert a PC into a PLLC.',
-    },
-    {
-      question: 'Why is the New Jersey PC price lower than the PLLC price?',
-      answer:
-        'New Jersey PC source documents are usually less expensive for this workflow than LLC source documents, so the New Jersey foreign PC starting price is $945 and the eligible PLLC path starts at $975.',
     },
     {
       question: 'What if my New Jersey entity is just a regular LLC?',

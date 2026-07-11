@@ -24,7 +24,7 @@ Assembled **Jul 9 2026** from [nypllc-google-ads-operating-plan.md](../../nypllc
 - Two RSAs per ad group: **controlled** (price headline pinned to position 1) + **unpinned**
 - Core Exact: **15 headlines**, **4 descriptions** from §4.2 library (query-family ordered)
 - Professions: **12 headlines** (6 profession-pattern + library fillers), **4 descriptions**
-- Foreign Qual: **15 headlines**, **4 descriptions** — state/hub prices ($910–$995), no $885 formation claims
+- Foreign Qual: **15 headlines**, **4 descriptions** — state/hub prices ($915–$995), no $885 formation claims
 - Price in every RSA (formation $885 or foreign-qual state price)
 - Final URLs match `ad_groups.csv` (message-match / §4.4)
 - **No `→` in ad text** — Google Ads SYMBOLS policy PROHIBITED; use `-` instead

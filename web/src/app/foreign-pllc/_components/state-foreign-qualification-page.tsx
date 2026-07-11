@@ -152,7 +152,7 @@ export function StateForeignQualificationPage({ content }: { content: StateForei
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">{content.state} to New York pricing</h2>
               <p className="mt-4 text-lg text-muted-foreground">
-                We price the NY foreign qualification work based on your home-state entity path.
+                Flat package price for {content.state} to New York — the same for foreign PLLC and foreign PC.
               </p>
             </div>
             <div className="grid gap-6 md:grid-cols-2">

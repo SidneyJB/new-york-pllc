@@ -2,11 +2,10 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Badge } from '@/components/ui/badge'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
-import { ForeignStateSelector } from './_components/foreign-state-selector'
+import { ForeignStateChooser } from './_components/foreign-state-chooser'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
-import { Shield, ClipboardList, FileCheck2, Newspaper, Users, CheckCircle, ArrowRight } from 'lucide-react'
+import { Shield, ClipboardList, FileCheck2, Newspaper, Users, CheckCircle } from 'lucide-react'
 import { APP_CONFIG } from '@/lib/constants'
 import { generateBreadcrumbSchema, generateFAQSchema } from '@/lib/seo/structured-data'
 
@@ -98,40 +97,24 @@ export default function ForeignQualificationPage() {
 
         {/* HERO */}
         <section className="bg-gradient-to-b from-primary/5 via-background to-background py-20 lg:py-32">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-4xl">
-            <h1 className="text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
-              Foreign-qualify your <span className="text-primary">existing PLLC</span> to practice in New York
-            </h1>
-            <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              Expand into New York without guesswork. We secure your NYSED Certificate of Authority, file your DOS
-              Application for Authority, complete the required six-week publication, and deliver a bank-ready compliance
-              packet, end-to-end, with clear status updates and no hidden add-ons.
-            </p>
-
-            <div className="mt-8 flex flex-col items-center gap-2">
-              <p className="text-sm text-muted-foreground">Select your home state for requirements and pricing</p>
-              <ForeignStateSelector />
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+            <div className="text-center">
+              <h1 className="text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
+                Foreign-qualify your <span className="text-primary">existing PLLC</span> to practice in New York
+              </h1>
+              <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-muted-foreground">
+                We secure your NYSED Certificate of Authority, file your DOS Application for Authority, and complete
+                the required six-week publication, end-to-end.
+              </p>
             </div>
 
-            <div className="mt-6 flex flex-wrap items-center justify-center gap-2 text-xs text-muted-foreground">
-              <Badge variant="outline">NYSED Certificate of Authority</Badge>
-              <Badge variant="outline">Application for Authority (§1306)</Badge>
-              <Badge variant="outline">Six-Week Publication Included</Badge>
-              <Badge variant="outline">Naming & Ownership Compliance</Badge>
-              <Badge variant="outline">Bank-Ready Documentation</Badge>
+            <div className="mt-10 flex justify-center">
+              <ForeignStateChooser />
             </div>
 
-            <div className="mt-10 flex justify-center gap-3">
-              <Button size="lg" asChild>
-                <Link href="/contact">
-                  Talk with us about foreign qualification
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
-            </div>
-            <p className="mt-3 text-sm text-muted-foreground">
-              Pricing depends on your home state and required documents (like Certificates of Good Standing). We’ll scope
-              your file and send an invoice. No hidden fees or upsells.
+            <p className="mx-auto mt-6 max-w-2xl text-center text-sm text-muted-foreground">
+              Pricing depends on your home state and required documents (like Certificates of Good Standing). We&apos;ll
+              scope your file and send an invoice. No hidden fees or upsells.
             </p>
           </div>
         </section>

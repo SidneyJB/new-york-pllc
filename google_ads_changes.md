@@ -1,6 +1,6 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-07-09
+**Last updated:** 2026-07-11
 
 ## Account
 
@@ -8,6 +8,17 @@
 - Live: `Sales-Search-1` + `01_Core_Exact_NY` (ENABLED)
 - Portfolio-attached PAUSED: `02_Professions_NY`
 - Unattached PAUSED: `03_ForeignQual_US`
+
+---
+
+## Changes on 2026-07-11 — Foreign qual flat prices
+
+Site unified PLLC/PC list prices per state (max of former path prices). Ads copy aligned:
+
+| Change | Detail |
+|---|---|
+| `03_ForeignQual_US` RSAs | Replaced all 12 via `upload_rsas.py --replace` — hub/FL from **$915**, TX **$930**, NJ desc “either path” |
+| Shared price asset | New asset `390521246372` (Foreign from **$915**); linked on Sales + 01/02/03; old `$910` asset unlinked |
 
 ---
 

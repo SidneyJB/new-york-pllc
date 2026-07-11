@@ -35,7 +35,10 @@ export function ForeignStateSelector({ currentSlug }: ForeignStateSelectorProps)
             >
               <span className="font-medium">{state.state}</span>
               <span className="text-xs text-muted-foreground leading-tight">
-                From ${state.pllcPrice} PLLC · ${state.pcPrice} PC
+                From ${state.pllcPrice}
+                {state.pllcPrice !== state.pcPrice
+                  ? ` PLLC · $${state.pcPrice} PC`
+                  : ' PLLC or PC'}
               </span>
             </Link>
           </DropdownMenuItem>

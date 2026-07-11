@@ -1,58 +1,82 @@
 {
   "dry_run": false,
   "customer_id": "1529880213",
-  "created": 8,
-  "replaced": 0,
+  "created": 12,
+  "replaced": 12,
   "skipped": 0,
   "failed": 0,
   "results": [
     {
-      "campaign_name": "01_Core_Exact_NY",
-      "ad_group_name": "Formation-Core",
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Generic-ForeignQual",
       "rsa_variant": "controlled",
-      "resource_name": "customers/1529880213/adGroupAds/201832402041~816213581518"
+      "resource_name": "customers/1529880213/adGroupAds/198691366976~816449157291"
     },
     {
-      "campaign_name": "01_Core_Exact_NY",
-      "ad_group_name": "Formation-Core",
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Generic-ForeignQual",
       "rsa_variant": "unpinned",
-      "resource_name": "customers/1529880213/adGroupAds/201832402041~816286133015"
+      "resource_name": "customers/1529880213/adGroupAds/198691366976~816449157342"
     },
     {
-      "campaign_name": "01_Core_Exact_NY",
-      "ad_group_name": "Service-Intent",
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "New-Jersey",
       "rsa_variant": "controlled",
-      "resource_name": "customers/1529880213/adGroupAds/201832404161~816213581680"
+      "resource_name": "customers/1529880213/adGroupAds/198436879379~816484710139"
     },
     {
-      "campaign_name": "01_Core_Exact_NY",
-      "ad_group_name": "Service-Intent",
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "New-Jersey",
       "rsa_variant": "unpinned",
-      "resource_name": "customers/1529880213/adGroupAds/201832404161~816286167770"
+      "resource_name": "customers/1529880213/adGroupAds/198436879379~816449157549"
     },
     {
-      "campaign_name": "01_Core_Exact_NY",
-      "ad_group_name": "Cost-Price",
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Pennsylvania",
       "rsa_variant": "controlled",
-      "resource_name": "customers/1529880213/adGroupAds/197759908946~816213589888"
+      "resource_name": "customers/1529880213/adGroupAds/198303001596~816484790827"
     },
     {
-      "campaign_name": "01_Core_Exact_NY",
-      "ad_group_name": "Cost-Price",
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Pennsylvania",
       "rsa_variant": "unpinned",
-      "resource_name": "customers/1529880213/adGroupAds/197759908946~816286168247"
+      "resource_name": "customers/1529880213/adGroupAds/198303001596~816449157762"
     },
     {
-      "campaign_name": "01_Core_Exact_NY",
-      "ad_group_name": "Brand",
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Florida",
       "rsa_variant": "controlled",
-      "resource_name": "customers/1529880213/adGroupAds/201832405641~816213511561"
+      "resource_name": "customers/1529880213/adGroupAds/203893322128~816484779802"
     },
     {
-      "campaign_name": "01_Core_Exact_NY",
-      "ad_group_name": "Brand",
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Florida",
       "rsa_variant": "unpinned",
-      "resource_name": "customers/1529880213/adGroupAds/201832405641~816213555055"
+      "resource_name": "customers/1529880213/adGroupAds/203893322128~816449157963"
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Texas",
+      "rsa_variant": "controlled",
+      "resource_name": "customers/1529880213/adGroupAds/198691369176~816557217998"
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Texas",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/198691369176~816449158056"
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Connecticut",
+      "rsa_variant": "controlled",
+      "resource_name": "customers/1529880213/adGroupAds/198303003036~816449158071"
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Connecticut",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/198303003036~816557212052"
     }
   ]
 }

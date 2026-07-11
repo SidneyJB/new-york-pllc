@@ -24,7 +24,9 @@ Hub + state landings for out-of-state professional entities qualifying into NY, 
 
 ## Pricing note
 
-Per-state PLLC/PC package prices differ (see page content / remote June 2026 notes: NJ/PA/FL/TX/CT).
+**Rule (Jul 2026):** One flat list price per home state for foreign PLLC **and** foreign PC — use the **higher** of the two path costs. Do not maintain separate PLLC/PC list prices when adding states. Quote unusual certified-copy page counts, NYSED per-member fees, publication, or assumed-name work separately.
+
+Current flats: NJ $975 · PA $995 · FL $915 · TX $930 · CT $995.
 
 ## Docs
 

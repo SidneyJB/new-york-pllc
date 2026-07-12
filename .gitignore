@@ -88,3 +88,7 @@ client_secret*.json
 google-ads.yaml
 .venv/
 __pycache__/
+
+# Local lab / PII exports (do not commit)
+web-vitals-lab-*/
+Ads - customer-match-emails*.csv

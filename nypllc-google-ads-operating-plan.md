@@ -90,7 +90,7 @@ Zero changes to the live campaign's bidding or keywords during this phase. Every
 | Begin checkout | Web | One | None | 7-day | Secondary/observation only |
 | Phone call ≥60s (call asset) | Call | One | None | 30-day | Secondary until you verify call quality, then consider primary at a fractional value (~$150) |
 
-**Done Jul 9 2026:** Begin checkout `7678925960` (`WEBPAGE`, `send_to` `AW-17672972971/dWKtCIi5zM0cEKvVkOtB`) — site fires on Spiffy embed detect; secondary / not in Conversions. Phone call `7678925963` (`AD_CALL`, ≥60s) — linked as customer `call_conversion_action`; secondary / not in Conversions.
+**Done Jul 9 2026:** Begin checkout `7678925960` (`WEBPAGE`, `send_to` `AW-17672972971/dWKtCIi5zM0cEKvVkOtB`) — site fires on Spiffy embed detect; secondary / not in Conversions. Phone call `7678925963` (`AD_CALL`, ≥60s) — linked as customer `call_conversion_action`; secondary / not in Conversions. **Jul 11 2026:** account goal `BEGIN_CHECKOUT`/`WEBSITE` was still `biddable=True` (UI “missing primary conversion action” on `01`) → set **`biddable=False`** (observation only); campaigns inherited. Purchase remains the only biddable website goal.
 
 Anything currently marked primary that isn't a paid order gets demoted to secondary this week.
 
@@ -138,7 +138,7 @@ Anything currently marked primary that isn't a paid order gets demoted to second
 | Neg A — Other states (excl NY) | `12146898907` | 103 | Yes | Yes (Jul 9) | No |
 | Neg A-FQ — Other states (excl NY + FQ origins) | `12146898703` | 89 | No | No | Yes (Jul 9) |
 | Neg B — Research DIY education | `12145390194` | 15 | Yes | Yes (Jul 9) | Yes (Jul 9) |
-| Neg C — Wrong intent lookup jobs school | `12146898706` | 17 | Yes | Yes (Jul 9) | Yes (Jul 9) |
+| Neg C — Wrong intent lookup jobs school | `12146898706` | 18 | Yes | Yes (Jul 9) | Yes (Jul 9) |
 | Neg D — Freebie price-shopping junk | `12146898991` | 5 | Yes | Yes (Jul 9) | Yes (Jul 9) |
 | Neg E — Publishing-only intent | `12146898709` | 7 | Yes | Yes (Jul 9) | Yes (Jul 9) |
 
@@ -146,7 +146,7 @@ Anything currently marked primary that isn't a paid order gets demoted to second
 
 **List B — Research/DIY/education:** `what is`, `meaning`, `definition`, `vs`, `versus`, `difference between`, `template`, `sample`, `example`, `pdf`, `free download`, `diy`, `yourself`, `wiki`, `pros and cons`.
 
-**List C — Wrong intent (lookup/jobs/school):** `lookup`, `look up`, `search`, `verify`, `verification`, `number`, `login`, `renewal`*, `renew`*, `salary`, `jobs`, `hiring`, `course`, `exam`, `degree`, `school`, `classes`. (*renewal terms are wrong for formation but right for future RA-renewal campaigns — keep them in a list you can detach later.)
+**List C — Wrong intent (lookup/jobs/school):** `lookup`, `look up`, `search`, `verify`, `verification`, `number`, `login`, `renewal`*, `renew`*, `salary`, `jobs`, `hiring`, `course`, `exam`, `degree`, `school`, `classes`. (*renewal terms are wrong for formation but right for future RA-renewal campaigns — keep them in a list you can detach later.) **Jul 11 2026:** added phrase `"windsor corporate services"` (competitor leak from Sales broad).
 
 **List D — Freebie/price-shopping junk:** `free llc`, `free ein`†, `cheapest`, `$0`, `no cost`. († you *provide* EIN service; `free ein` searchers want the IRS's free process — junk for you.)
 
@@ -209,12 +209,12 @@ Your June asset test priced this work at roughly a $23 CPA improvement. Build th
 
 ### 2.1 Campaign 01_Core_Exact_NY — launches Week 2–3
 
-**Status (Jul 9 2026 evening):** **ENABLED** (`campaigns/24022049179`). Budget $45/day · NY Presence · Search only · shared negatives A–E · 4 ad groups · **41 keywords** · **8 RSAs**. Attached to portfolio **`NYPLLC Search Portfolio`** tCPA $90. Build package: [`google-ads-campaign-build/`](google-ads-campaign-build/).
+**Status (Jul 9 2026 evening):** **ENABLED** (`campaigns/24022049179`). Budget $45/day · NY Presence · Search only · shared negatives A–E · 4 ad groups · **42 keywords** (was 41; +`[form pllc new york]` Jul 11) · **8 RSAs**. Attached to portfolio **`NYPLLC Search Portfolio`** tCPA $90. Build package: [`google-ads-campaign-build/`](google-ads-campaign-build/). Formation-Core RSAs still **`APPROVED_LIMITED`** (`GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES`) as of Jul 11.
 
 **Geo:** New York State, Presence. **Budget:** $40–50/day at launch. **Bidding:** portfolio tCPA $90.
 
 **AG1 — Formation-Core** (exact match):
-[ny pllc] · [new york pllc] · [pllc ny] · [pllc new york] · [ny pllc formation] · [new york pllc formation] · [pllc formation ny] · [pllc formation new york] · [form a pllc in ny] · [form a pllc in new york] · [forming a pllc in new york] · [forming a pllc in ny] · [start pllc] · [start a pllc] · [start a pllc in new york] · [start a pllc in ny] · [set up a pllc in ny] · [create a pllc in new york] · [file a pllc in ny] · [ny pllc filing] · [pllc application new york] · [pllc application ny] · [open a pllc in new york]
+[ny pllc] · [new york pllc] · [pllc ny] · [pllc new york] · [ny pllc formation] · [new york pllc formation] · [pllc formation ny] · [pllc formation new york] · [form a pllc in ny] · [form a pllc in new york] · [form pllc new york] · [forming a pllc in new york] · [forming a pllc in ny] · [start pllc] · [start a pllc] · [start a pllc in new york] · [start a pllc in ny] · [set up a pllc in ny] · [create a pllc in new york] · [file a pllc in ny] · [ny pllc filing] · [pllc application new york] · [pllc application ny] · [open a pllc in new york]
 
 *(Seed list deliberately includes every keyword family that has ever hit QS ≥7 in the account — notably the starved "start pllc" family, which converted at a $5.87 CPA on just 65 lifetime impressions, and "forming a pllc in ny" at $59/$23 CPA across match types. These proven winners get first claim on budget.)*
 
@@ -585,6 +585,7 @@ Notes on reading this honestly:
 5. **Meta retargeting inventory for the record:** monthly spend, audience definitions, creative age — for the 6.2 housekeeping pass and the CRM AdSpend backfill.
 6. **$985 price test timing** (from the broader growth plan): schedule it into a window that doesn't overlap a ladder step or January (4.4). Recommended slot: late September, between Gates 2 and 3, or defer to February.
 7. **Phase 1 launch — DONE Jul 9 2026 evening.** `01_Core_Exact_NY` **ENABLED** on portfolio; `02_Professions_NY` portfolio-attached **PAUSED** (enable ~Aug 3); `03` still Gate 1. Conversion flip done. **Still open:** Customer Match UI upload (1.2); enable Professions ~Aug 3; Foreign Qual after Gate 1.
+8. **Search-term mining — Jul 11 2026.** `[form pllc new york]` exact on `01` Formation-Core; `"windsor corporate services"` → List C. **Deferred:** exact-neg that term on `Sales-Search-1` until `01` proves delivery (cold + Formation-Core `APPROVED_LIMITED`).
 
 ---
 

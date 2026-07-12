@@ -34,6 +34,31 @@ Site unified PLLC/PC list prices per state (max of former path prices). Ads copy
 
 ---
 
+## Changes on 2026-07-11 — Search-term mining (14d pull)
+
+Pulled `ads-pull-2026-07-11/` (campaigns / keywords / search-terms / keyword-settings). Account ~22 conv / $1.7k / 30d. `01` still cold (8 impr, $0 since Jul 9 enable).
+
+| Action | Detail |
+|---|---|
+| Exact keyword | `[form pllc new york]` → `01_Core_Exact_NY` / Formation-Core (converted via Sales broad at ~$8.40) |
+| Shared negative | `"windsor corporate services"` (phrase) → List C `12146898706` (competitor leak, ~$21) |
+
+**Deferred:** exact negative `[form pllc new york]` on `Sales-Search-1` — wait until `01` proves delivery (Formation-Core RSAs still `APPROVED_LIMITED`; cold start). Revisit at Gate 2 fence or after `01` wins that query.
+
+**Also noted (no change):** Sales LCSW/PT/MHC ads `REVIEW_IN_PROGRESS`; Formation-Core + Attorneys RSAs `APPROVED_LIMITED` (`GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES`).
+
+### Same day — conversion goal fix
+
+UI warning on `01`: “targeted goal missing a primary conversion action.” Cause: account goal **Begin checkout** was `biddable=True` while action `7678925960` is secondary-only (plan §1.1.1: observation only).
+
+| Fix | Detail |
+|---|---|
+| Customer goal | `BEGIN_CHECKOUT` / `WEBSITE` → `biddable=False` |
+| Campaigns | Inherited — Sales / 01 / 02 / 03 all now `biddable=False` for Begin checkout |
+| Unchanged | Purchase goal biddable; Spiffy Purchase `7678072764` still primary + in Conversions |
+
+---
+
 ## Changes on 2026-07-09 (evening) — Gap fixes (post-audit)
 
 Ignored Sales $500/day budget (soft ceiling). Skipped cosmetic callout rewording (intent covered).

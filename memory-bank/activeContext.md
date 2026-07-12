@@ -35,13 +35,14 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 | Item | Link |
 |------|------|
-| (none active for Phase 0 flip) | — |
+| `01` Formation-Core RSAs `APPROVED_LIMITED` (gov docs policy) | [google-ads.md](features/google-ads.md) |
+| Deferred: exact-neg `[form pllc new york]` on Sales until `01` delivers | [google_ads_changes.md](../google_ads_changes.md) |
 
 ## Recent changes
 
 📖 Full log: [session-history.md](../docs/session-history.md)
 
-Latest (Jul 11 2026): Foreign qual formula pricing — `data/foreign-qualification-cogs.json` + Spiffy product catalog for all 50 states; live flats NJ/PA/FL/TX/CT aligned; ads RSAs + price asset updated. Earlier (Jul 9): Gap fixes — Observation on 01/02/03; audiences+assets on 02/03; Sales RSA www; sitelink label; Begin checkout + phone ≥60s secondaries.
+Latest (Jul 11 2026): Foreign qual formula pricing (`data/foreign-qualification-cogs.json` + Spiffy catalog; flats NJ/PA/FL/TX/CT; ads RSAs + price asset). Same day: search-term mining — `[form pllc new york]` exact on `01` Formation-Core; `"windsor corporate services"` → List C. Earlier (Jul 9): gap fixes; launch hygiene; `01` ENABLED; conversion flip.
 
 ## Session start
 

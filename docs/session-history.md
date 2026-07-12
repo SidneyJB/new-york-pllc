@@ -2,6 +2,15 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-07-11 — Google Ads search-term mining
+
+- Pulled 14d stats → `ads-pull-2026-07-11/` (~22 conv / $1.7k / 30d; `01` still 8 impr / $0)
+- Added `[form pllc new york]` exact → `01_Core_Exact_NY` / Formation-Core (Sales broad converter)
+- Added `"windsor corporate services"` phrase → shared List C `12146898706`
+- Deferred exact-neg of that term on `Sales-Search-1` until `01` delivery is proven
+- Noted: Formation-Core RSAs `APPROVED_LIMITED`; Sales profession ads still in review
+- Fixed conversion goals: `BEGIN_CHECKOUT`/`WEBSITE` → `biddable=False` (plan observation-only; cleared “missing primary” warning cause). Purchase primary unchanged.
+
 ## 2026-07-09 — Google Ads Phase 1–2 draft campaigns (PAUSED)
 
 - Built upload package `google-ads-campaign-build/` from operating plan §2.1–2.3 (`manifest.json`, CSVs)

@@ -24,9 +24,20 @@ Hub + state landings for out-of-state professional entities qualifying into NY, 
 
 ## Pricing note
 
-**Rule (Jul 2026):** One flat list price per home state for foreign PLLC **and** foreign PC — use the **higher** of the two path costs. Do not maintain separate PLLC/PC list prices when adding states. Quote unusual certified-copy page counts, NYSED per-member fees, publication, or assumed-name work separately.
+**Rule (Jul 2026):** One flat list price per home state for foreign PLLC **and** foreign PC: `round_to_5(895 + unified_doc_cogs)` where unified docs = max(PLLC path, PC path). Do not maintain separate PLLC/PC list prices when adding states. Quote unusual certified-copy page counts, NYSED per-member fees, publication, or assumed-name work separately.
 
-Current flats: NJ $975 · PA $995 · FL $915 · TX $930 · CT $995.
+Source: `data/foreign-qualification-cogs.json`. Current flats: NJ $995 · PA $995 · FL $930 · TX $930 · CT $1000.
+
+## Pricing data (all states)
+
+**Use for future expansion** — not wired to the site beyond the five live states yet.
+
+| File | Contents |
+|------|----------|
+| `data/foreign-qualification-cogs.json` | Home-state doc CoGS, NY fixed fees, `list_price_usd` per state (`round_to_5(895 + unified_doc_cogs)`), sources, confidence. 50 states + DC. |
+| `data/spiffy-foreign-qualification-products.json` | Spiffy product IDs for all 50 states (`{State} to New York Foreign Qualification`). |
+
+Regenerate list prices from CoGS when fee schedules change; Spiffy catalog is maintained separately in Spiffy + the products JSON.
 
 ## Docs
 

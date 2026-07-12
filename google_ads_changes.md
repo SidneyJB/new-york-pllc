@@ -11,6 +11,18 @@
 
 ---
 
+## Changes on 2026-07-11 — Formula list prices ($895 + docs)
+
+Aligned live site + ads to `round_to_5(895 + unified_doc_cogs)`:
+
+| Change | Detail |
+|---|---|
+| Site flats | NJ **$995** · PA **$995** · FL **$930** · TX **$930** · CT **$1000** |
+| `03_ForeignQual_US` RSAs | Replaced all 12 — hub/FL/TX from **$930**, NJ **$995**, CT **$1000** |
+| Shared price asset | New asset `390754746354` (Foreign from **$930**); linked on Sales + 01/02/03; old `$915` asset `390521246372` unlinked |
+
+---
+
 ## Changes on 2026-07-11 — Foreign qual flat prices
 
 Site unified PLLC/PC list prices per state (max of former path prices). Ads copy aligned:

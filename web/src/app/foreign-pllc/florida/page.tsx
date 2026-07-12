@@ -5,8 +5,8 @@ import { StateForeignQualificationPage, StateForeignQualificationContent } from 
 const content: StateForeignQualificationContent = {
   state: 'Florida',
   slug: 'florida',
-  pllcPrice: 915,
-  pcPrice: 915,
+  pllcPrice: 930,
+  pcPrice: 930,
   intro:
     'Florida professionals often keep a Florida entity while relocating, serving New York clients, running a snowbird practice, or adding telehealth and consulting work in NY. We review whether the Florida entity can qualify in New York and handle the foreign PLLC or foreign PC filing path when eligible.',
   whoThisIsFor: [
@@ -82,7 +82,7 @@ const content: StateForeignQualificationContent = {
 export const metadata: Metadata = {
   title: `Florida PLLC or PC Foreign Qualification in New York`,
   description:
-    'Qualify your Florida professional LLC, PLLC, or PC to do business in New York. Foreign PLLC and foreign PC filing help for licensed professionals. Starting at $915.',
+    'Qualify your Florida professional LLC, PLLC, or PC to do business in New York. Foreign PLLC and foreign PC filing help for licensed professionals. Starting at $930.',
   keywords: [
     'Florida PLLC foreign qualification New York',
     'Florida professional LLC do business in NY',

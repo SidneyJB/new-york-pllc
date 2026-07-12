@@ -1,0 +1,2480 @@
+{
+  "meta": {
+    "title": "Foreign qualification into NY \u2014 document CoGS by origin jurisdiction",
+    "retrieved": "2026-07-11",
+    "scope": "Home-state standing + certified formation copy fees; plus fixed NY filing fees. Publication and assumed-name excluded from floors.",
+    "pricing_rule": "When setting a list price for a home state, charge one flat fee for foreign PLLC and foreign PC equal to max(path costs). Quote unusual certified-copy page counts, NYSED per-member fees, publication, and assumed names separately.",
+    "assumptions": [
+      "Per-page certified-copy estimates typically assume ~2 pages unless agent noted otherwise.",
+      "Expedite fees excluded.",
+      "Online/standard processing preferred when fee schedules differ.",
+      "indicative_gov_cogs_floor_usd = unified_doc_cogs_usd + max(NY single-member PLLC filing CoGS, NY PC filing CoGS). Does not include labor, publication, or margin."
+    ],
+    "agents": [
+      {
+        "region": "northeast",
+        "id": "034b61cb-0a60-43c6-9020-698238de4992"
+      },
+      {
+        "region": "southeast",
+        "id": "0d777492-47f4-4523-b65b-24b9b6695e2b"
+      },
+      {
+        "region": "midwest",
+        "id": "e705a90c-32a0-4621-9873-1276c3653e8f"
+      },
+      {
+        "region": "west",
+        "id": "5eae168b-561d-46f1-a01f-cb775c354a60"
+      },
+      {
+        "region": "ny_fixed",
+        "id": "1af81a28-1eb3-447d-a0c0-0803b83b6fd7"
+      }
+    ],
+    "state_count": 50,
+    "includes_dc": true,
+    "missing_abbrs": [],
+    "list_price_formula": {
+      "equation": "list_price_usd = round_to_5(895 + unified_doc_cogs_usd)",
+      "base_usd": 895,
+      "rounding": "nearest_5",
+      "notes": "PC-path base ($895) + home-state unified docs (max of PLLC/PC paths). Live site prices for offered states remain in current_list_price_usd when they differ."
+    }
+  },
+  "ny_fixed_fees": {
+    "nysed_certificate_of_authority": {
+      "foreign_pllc_usd": {
+        "base": 50,
+        "per_member_usd": 10,
+        "notes": "Initial Certificate of Authority (Application of Authority consent) before DOS filing; $50 + $10 per member/manager; payable to New York State Education Department."
+      },
+      "foreign_pc_usd": {
+        "base": 50,
+        "per_member_usd": 0,
+        "notes": "Initial Certificate of Authority (Application of Authority consent) before DOS filing; flat $50; payable to New York State Education Department."
+      },
+      "sources": [
+        "https://www.op.nysed.gov/corporate/disclaimer/section-vii",
+        "https://www.op.nysed.gov/corporate/disclaimer/section-iv",
+        "https://www.op.nysed.gov/corporate/disclaimer/section-xi"
+      ]
+    },
+    "dos_application_for_authority": {
+      "foreign_professional_llc_usd": 200,
+      "foreign_professional_pc_usd": 200,
+      "notes": "Application for Authority \u2014 Professional Service (foreign PLLC under LLC Law \u00a71306; foreign PC under BCL \u00a71530); payable to Department of State.",
+      "sources": [
+        "https://dos.ny.gov/application-authority-professional-service-foreign-limited-liability-companies",
+        "https://dos.ny.gov/application-authority-professional-service-foreign-business-corporations",
+        "https://dos.ny.gov/fee-schedules"
+      ]
+    },
+    "dos_certified_copy_return_usd": 10,
+    "assumed_name_usd": null,
+    "publication": {
+      "required": true,
+      "included_in_standard_cogs": false,
+      "notes": "Required for foreign PLLCs only (LLC Law \u00a71306(d)); $50 DOS Certificate of Publication filing fee plus county-variable newspaper costs. Foreign PCs have no publication requirement."
+    },
+    "typical_fixed_ny_filing_cogs_usd": {
+      "pllc_single_member": 270,
+      "pc": 280,
+      "notes": "PLLC: NYSED $60 ($50 + $10) + DOS $200 + DOS certified copy $10. PC: NYSED $50 + DOS $200 + DOS certified copy $10 + NYSED certified-copy filing $20. Excludes publication, assumed name, and home-state documents."
+    },
+    "retrieved": "2026-07-11",
+    "confidence": "high"
+  },
+  "currently_offered": [
+    {
+      "slug": "new-jersey",
+      "list_price_usd": 995
+    },
+    {
+      "slug": "pennsylvania",
+      "list_price_usd": 995
+    },
+    {
+      "slug": "florida",
+      "list_price_usd": 930
+    },
+    {
+      "slug": "texas",
+      "list_price_usd": 930
+    },
+    {
+      "slug": "connecticut",
+      "list_price_usd": 1000
+    }
+  ],
+  "states": [
+    {
+      "state": "Alaska",
+      "abbr": "AK",
+      "slug": "alaska",
+      "standing": {
+        "llc": {
+          "fee_usd": 10,
+          "name": "Certificate of Compliance",
+          "notes": "AK equivalent of Certificate of Good Standing; online or mail."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "name": "Certificate of Compliance",
+          "notes": "AK equivalent of Certificate of Good Standing; online or mail."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": null,
+          "notes": "$10 per specified multi-page document plus $5 certification fee (AAC 3.16.080). Typical single formation document \u2248 $15."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": null,
+          "notes": "$10 per specified multi-page document plus $5 certification fee (AAC 3.16.080). Typical single formation document \u2248 $15."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 25,
+        "pc_path": 25
+      },
+      "unified_doc_cogs_usd": 25,
+      "sources": [
+        "https://www.commerce.alaska.gov/web/cbpl/Corporations/CertificateofCompliance",
+        "https://www.commerce.alaska.gov/web/cbpl/Corporations/ObtainCopies",
+        "http://akrules.elaws.us/aac/3.16.080"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 305,
+      "list_price_usd": 920,
+      "list_price_raw_usd": 920
+    },
+    {
+      "state": "Alabama",
+      "abbr": "AL",
+      "slug": "alabama",
+      "standing": {
+        "llc": {
+          "fee_usd": 25,
+          "name": "Certificate of Existence",
+          "notes": "Statute: $25 (<24 hr), $10 (24 hr+). SOS application form lists $25 standard mail processing; online immediate $27.75."
+        },
+        "corp": {
+          "fee_usd": 25,
+          "name": "Certificate of Existence",
+          "notes": "Same fee for all entity types per Ala. Code \u00a7 10A-1-4.31(7)."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 5,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1.5,
+          "notes": "$5 certification plus $1.50/page copying per Ala. Code \u00a7 10A-1-4.31(g)."
+        },
+        "corp": {
+          "fee_usd": 5,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1.5,
+          "notes": "$5 certification plus $1.50/page copying per Ala. Code \u00a7 10A-1-4.31(g)."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 34.5,
+        "pc_path": 34.5
+      },
+      "unified_doc_cogs_usd": 34.5,
+      "sources": [
+        "https://al.elaws.us/code/10a-1-4.31",
+        "https://www.sos.alabama.gov/sites/default/files/2022-09/CertificateofExistence.pdf"
+      ],
+      "confidence": "medium",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 314.5,
+      "list_price_usd": 930,
+      "list_price_raw_usd": 929.5
+    },
+    {
+      "state": "Arkansas",
+      "abbr": "AR",
+      "slug": "arkansas",
+      "standing": {
+        "llc": {
+          "fee_usd": 25,
+          "name": "Certificate of Good Standing",
+          "notes": "Online purchase adds $3 processing fee ($28 total online). Certificates of Existence are $15 by mail."
+        },
+        "corp": {
+          "fee_usd": 25,
+          "name": "Certificate of Good Standing",
+          "notes": "Online purchase adds $3 processing fee ($28 total online). Certificates of Existence are $15 by mail."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 5,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.5,
+          "notes": "$5 certification fee plus $0.50/page copy fee."
+        },
+        "corp": {
+          "fee_usd": 5,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.5,
+          "notes": "$5 certification fee plus $0.50/page copy fee."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 31.5,
+        "pc_path": 31.5
+      },
+      "unified_doc_cogs_usd": 31.5,
+      "sources": [
+        "https://www.sos.arkansas.gov/uploads/Records_Request_Form_with_Additions.pdf"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 311.5,
+      "list_price_usd": 925,
+      "list_price_raw_usd": 926.5
+    },
+    {
+      "state": "Arizona",
+      "abbr": "AZ",
+      "slug": "arizona",
+      "standing": {
+        "llc": {
+          "fee_usd": 10,
+          "name": "Certificate of Good Standing",
+          "notes": "Regular processing; expedited $45 excluded."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "name": "Certificate of Good Standing",
+          "notes": "Regular processing; expedited $45 excluded."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 5,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.5,
+          "notes": "Regular processing: $5 base plus $0.50/page per document. Typical 2-page articles \u2248 $6."
+        },
+        "corp": {
+          "fee_usd": 5,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.5,
+          "notes": "Regular processing: $5 base plus $0.50/page per document. Typical 2-page articles \u2248 $6."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 16,
+        "pc_path": 16
+      },
+      "unified_doc_cogs_usd": 16,
+      "sources": [
+        "https://azcc.gov/docs/default-source/corps-files/fee-schedules/fee-schedule-llcs.pdf",
+        "https://azcc.gov/docs/default-source/corps-files/fee-schedules/fee-schedule-corporations6def4cc74b1a47129d16c2b1c3851bda.pdf",
+        "https://www.azleg.gov/ars/10/03122.htm"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 296,
+      "list_price_usd": 910,
+      "list_price_raw_usd": 911
+    },
+    {
+      "state": "California",
+      "abbr": "CA",
+      "slug": "california",
+      "standing": {
+        "llc": {
+          "fee_usd": 5,
+          "name": "Certificate of Status",
+          "notes": "Available online via bizfileOnline; certifies current entity status."
+        },
+        "corp": {
+          "fee_usd": 5,
+          "name": "Certificate of Status",
+          "notes": "Available online via bizfileOnline; certifies current entity status."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 5,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "$5 per certified document (e.g., Articles of Organization) per BE fee schedule."
+        },
+        "corp": {
+          "fee_usd": 5,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "$5 per certified document (e.g., Articles of Incorporation) per BE fee schedule."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 10,
+        "pc_path": 10
+      },
+      "unified_doc_cogs_usd": 10,
+      "sources": [
+        "https://bpd.cdn.sos.ca.gov/pdf/be-fee-schedule-062018.pdf",
+        "https://www.sos.ca.gov/business-programs/business-entities/information-requests/",
+        "https://bpd.cdn.sos.ca.gov/ucc/ucc-online-help.pdf"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 290,
+      "list_price_usd": 905,
+      "list_price_raw_usd": 905
+    },
+    {
+      "state": "Colorado",
+      "abbr": "CO",
+      "slug": "colorado",
+      "standing": {
+        "llc": {
+          "fee_usd": 0,
+          "name": "Certificate of Good Standing",
+          "notes": "Free online download/print; mail/in-person certificates no longer issued."
+        },
+        "corp": {
+          "fee_usd": 0,
+          "name": "Certificate of Good Standing",
+          "notes": "Free online download/print; mail/in-person certificates no longer issued."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 0,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Certified copies available free online (Certificate of Document Filed / Certified Copies page)."
+        },
+        "corp": {
+          "fee_usd": 0,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Certified copies available free online (Certificate of Document Filed / Certified Copies page)."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 0,
+        "pc_path": 0
+      },
+      "unified_doc_cogs_usd": 0,
+      "sources": [
+        "https://coloradosos.gov/pubs/info_center/fees/business.html",
+        "https://www.coloradosos.gov/pubs/business/FAQs/certGoodStanding.html"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 280,
+      "list_price_usd": 895,
+      "list_price_raw_usd": 895
+    },
+    {
+      "state": "Connecticut",
+      "abbr": "CT",
+      "slug": "connecticut",
+      "standing": {
+        "llc": {
+          "fee_usd": 50,
+          "name": "Certificate of Legal Existence (short form)",
+          "notes": "Express certificate $50; long-form domestic $100 (cannot be expedited)."
+        },
+        "corp": {
+          "fee_usd": 50,
+          "name": "Certificate of Existence (express)",
+          "notes": "Express certificate $50; short-form with name changes $80; long-form domestic $120."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 55,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Per document; routine processing 3\u20135 business days."
+        },
+        "corp": {
+          "fee_usd": 55,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Per document; routine processing 3\u20135 business days."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 105,
+        "pc_path": 105
+      },
+      "unified_doc_cogs_usd": 105,
+      "sources": [
+        "https://business.ct.gov/knowledge-base/articles/submit-paper-filings",
+        "https://business.ct.gov/knowledge-base/articles/get-plain-or-certified-copies-of-my-business-records"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": true,
+      "current_list_price_usd": 1000,
+      "indicative_gov_cogs_floor_usd": 385,
+      "list_price_usd": 1000,
+      "list_price_raw_usd": 1000
+    },
+    {
+      "state": "District of Columbia",
+      "abbr": "DC",
+      "slug": "district-of-columbia",
+      "standing": {
+        "llc": {
+          "fee_usd": 50,
+          "name": "Certificate of Good Standing",
+          "notes": "Also called status certificate per DCMR 17-608."
+        },
+        "corp": {
+          "fee_usd": 50,
+          "name": "Certificate of Good Standing",
+          "notes": "Also called status certificate per DCMR 17-602."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 50,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Certified copy of filing per DCMR 17-608."
+        },
+        "corp": {
+          "fee_usd": 50,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Certified copy of filing per DCMR 17-602."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 100,
+        "pc_path": 100
+      },
+      "unified_doc_cogs_usd": 100,
+      "sources": [
+        "https://dlcp.dc.gov/node/1621921",
+        "https://dlcp.dc.gov/node/1621906",
+        "https://dcrules.elaws.us/dcmr/17-608"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 380,
+      "list_price_usd": 995,
+      "list_price_raw_usd": 995
+    },
+    {
+      "state": "Delaware",
+      "abbr": "DE",
+      "slug": "delaware",
+      "standing": {
+        "llc": {
+          "fee_usd": 50,
+          "name": "Certificate of Good Standing (short form)",
+          "notes": "Long form (domestic only) $175."
+        },
+        "corp": {
+          "fee_usd": 50,
+          "name": "Certificate of Good Standing (short form)",
+          "notes": "Long form (domestic only) $175."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 50,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 2,
+          "notes": "$50 per document plus $2/page."
+        },
+        "corp": {
+          "fee_usd": 50,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 2,
+          "notes": "$50 per document plus $2/page."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 102,
+        "pc_path": 102
+      },
+      "unified_doc_cogs_usd": 102,
+      "sources": [
+        "https://corp.delaware.gov/fee/",
+        "https://corpfiles.delaware.gov/AugustFee2024.pdf",
+        "https://corp.delaware.gov/directweb/"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 382,
+      "list_price_usd": 995,
+      "list_price_raw_usd": 997
+    },
+    {
+      "state": "Florida",
+      "abbr": "FL",
+      "slug": "florida",
+      "standing": {
+        "llc": {
+          "fee_usd": 5,
+          "name": "Certificate of Status",
+          "notes": "Florida uses 'Certificate of Status' rather than Certificate of Good Standing."
+        },
+        "corp": {
+          "fee_usd": 8.75,
+          "name": "Certificate of Status",
+          "notes": "Corporation certificate of status fee per Sunbiz fee schedule and F.S. 607.0122(19)."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 30,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Certified copy of record flat fee for LLCs."
+        },
+        "corp": {
+          "fee_usd": 8.75,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Certified copy flat fee for corporations."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 35,
+        "pc_path": 17.5
+      },
+      "unified_doc_cogs_usd": 35,
+      "sources": [
+        "https://dos.fl.gov/sunbiz/forms/fees/",
+        "https://dos.fl.gov/sunbiz/manage-business/certification/status-by-mail"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": true,
+      "current_list_price_usd": 930,
+      "indicative_gov_cogs_floor_usd": 315,
+      "list_price_usd": 930,
+      "list_price_raw_usd": 930
+    },
+    {
+      "state": "Georgia",
+      "abbr": "GA",
+      "slug": "georgia",
+      "standing": {
+        "llc": {
+          "fee_usd": 10,
+          "name": "Certificate of Existence",
+          "notes": "Online $10; paper/mail requests $20 per published fee schedule. Same for LLCs and corporations."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "name": "Certificate of Existence",
+          "notes": "Online $10; paper/mail requests $20 per published fee schedule."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 10,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Certified copy of filed document per Corporations Division fee schedule (Rule 590-7-24-.01)."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Certified copy of filed document per Corporations Division fee schedule (Rule 590-7-6-.01)."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 20,
+        "pc_path": 20
+      },
+      "unified_doc_cogs_usd": 20,
+      "sources": [
+        "https://rules.sos.ga.gov/gac/590-7-6",
+        "https://rules.sos.ga.gov/gac/590-7-24",
+        "https://ecorp.sos.ga.gov/CertificateOfExistence"
+      ],
+      "confidence": "medium",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 300,
+      "list_price_usd": 915,
+      "list_price_raw_usd": 915
+    },
+    {
+      "state": "Hawaii",
+      "abbr": "HI",
+      "slug": "hawaii",
+      "standing": {
+        "llc": {
+          "fee_usd": 5,
+          "name": "Good Standing Certificate (Certificate of Compliance)",
+          "notes": "Standard filing fee; expedited review $10 excluded."
+        },
+        "corp": {
+          "fee_usd": 5,
+          "name": "Good Standing Certificate (Certificate of Compliance)",
+          "notes": "Standard filing fee; expedited review $10 excluded."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.25,
+          "notes": "$10 certification plus $0.25/page reproduction; $1 State Archives fee on permanent records. Typical 2-page articles \u2248 $11.50."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.25,
+          "notes": "$10 certification plus $0.25/page reproduction; $1 State Archives fee on permanent records. Typical 2-page articles \u2248 $11.50."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 16.5,
+        "pc_path": 16.5
+      },
+      "unified_doc_cogs_usd": 16.5,
+      "sources": [
+        "https://files.hawaii.gov/dcca/breg/registration/forms/fee-schedule.pdf",
+        "https://cca.hawaii.gov/breg/registration/dgp/fllc-fees/",
+        "https://cca.hawaii.gov/breg/registration/fllc/"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 296.5,
+      "list_price_usd": 910,
+      "list_price_raw_usd": 911.5
+    },
+    {
+      "state": "Iowa",
+      "abbr": "IA",
+      "slug": "iowa",
+      "standing": {
+        "llc": {
+          "fee_usd": 5,
+          "name": "Certificate of Existence",
+          "notes": "Ordered online from business entity summary page."
+        },
+        "corp": {
+          "fee_usd": 5,
+          "name": "Certificate of Existence",
+          "notes": "Same $5 fee per Iowa Code \u00a7490.122(1)(ac) / \u00a7489.122(1)(x)."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 7,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "$5 certification + $1/page per Iowa Code \u00a7489.122(3). Estimate assumes 2-page Certificate of Organization."
+        },
+        "corp": {
+          "fee_usd": 7,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "$5 certification + $1/page per Iowa Code \u00a7490.122(3). Estimate assumes 2-page Articles of Incorporation."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 12,
+        "pc_path": 12
+      },
+      "unified_doc_cogs_usd": 12,
+      "sources": [
+        "https://sos.iowa.gov/businesses/certificate-existence",
+        "https://www.legis.iowa.gov/docs/code/489.122.pdf",
+        "https://www.legis.iowa.gov/docs/code/490.122.pdf"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 292,
+      "list_price_usd": 905,
+      "list_price_raw_usd": 907
+    },
+    {
+      "state": "Idaho",
+      "abbr": "ID",
+      "slug": "idaho",
+      "standing": {
+        "llc": {
+          "fee_usd": 10,
+          "name": "Certificate of Existence/Good Standing",
+          "notes": "Certificate Request form: Existence or Goodstanding \u2014 $10."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "name": "Certificate of Existence/Good Standing",
+          "notes": "Certificate Request form: Existence or Goodstanding \u2014 $10."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.25,
+          "notes": "Certified copy $10 certification plus $0.25/page (ID Stat. \u00a730-21-214). Typical 2-page articles \u2248 $10.50."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.25,
+          "notes": "Certified copy $10 certification plus $0.25/page (ID Stat. \u00a730-21-214). Typical 2-page articles \u2248 $10.50."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 20.5,
+        "pc_path": 20.5
+      },
+      "unified_doc_cogs_usd": 20.5,
+      "sources": [
+        "https://sos.idaho.gov/CORP/forms/MISC/Certificate%20Request.pdf",
+        "https://legislature.idaho.gov/statutesrules/idstat/title30/t30ch21/sect30-21-214/"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 300.5,
+      "list_price_usd": 915,
+      "list_price_raw_usd": 915.5
+    },
+    {
+      "state": "Illinois",
+      "abbr": "IL",
+      "slug": "illinois",
+      "standing": {
+        "llc": {
+          "fee_usd": 25,
+          "name": "Certificate of Good Standing",
+          "notes": "Routine certificate; $25 online or via Form LLC-50.25."
+        },
+        "corp": {
+          "fee_usd": 25,
+          "name": "Certificate of Good Standing",
+          "notes": "Routine certificate; $25 online or via Form BCA 15.15."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 25,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Routine certified copy of Articles of Organization per Form LLC-50.25 / 805 ILCS 5/15.15."
+        },
+        "corp": {
+          "fee_usd": 25,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Routine certified copy per Form BCA 15.15 / 805 ILCS 5/15.15."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 50,
+        "pc_path": 50
+      },
+      "unified_doc_cogs_usd": 50,
+      "sources": [
+        "https://www.ilsos.gov/departments/business_services/corp.html",
+        "https://www.ilsos.gov/publications/pdf_publications/llc5025.pdf",
+        "https://www.ilsos.gov/publications/pdf_publications/bca1515.pdf"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 330,
+      "list_price_usd": 945,
+      "list_price_raw_usd": 945
+    },
+    {
+      "state": "Indiana",
+      "abbr": "IN",
+      "slug": "indiana",
+      "standing": {
+        "llc": {
+          "fee_usd": 15,
+          "name": "Certificate of Existence",
+          "notes": "Indiana calls this Certificate of Existence (formerly Good Standing). Statutory electronic filing fee $15; INBiz may add payment-processor surcharge (~$21.42 total)."
+        },
+        "corp": {
+          "fee_usd": 15,
+          "name": "Certificate of Existence",
+          "notes": "Same fee and document name as LLC; $30 for non-electronic filing per IC 23-0.5-9-43."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 0,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "INBiz provides free certified copies of business entity filings online."
+        },
+        "corp": {
+          "fee_usd": 0,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "INBiz provides free certified copies of business entity filings online."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 15,
+        "pc_path": 15
+      },
+      "unified_doc_cogs_usd": 15,
+      "sources": [
+        "https://law.justia.com/codes/indiana/title-23/article-0-5/chapter-9/section-23-0-5-9-43/",
+        "https://in.gov/sos/business/files/Certificate-of-Existence-Alert-2022.pdf",
+        "https://inbiz.in.gov/"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 295,
+      "list_price_usd": 910,
+      "list_price_raw_usd": 910
+    },
+    {
+      "state": "Kansas",
+      "abbr": "KS",
+      "slug": "kansas",
+      "standing": {
+        "llc": {
+          "fee_usd": 5,
+          "name": "Certificate of Good Standing",
+          "notes": "Online only per K.A.R. 7-16-1 and 7-34-2."
+        },
+        "corp": {
+          "fee_usd": 5,
+          "name": "Certificate of Good Standing",
+          "notes": "Same $5 online fee as LLC."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 20,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "$15 certified copy (K.A.R. 7-16-1) + $5 technology fee (K.A.R. 7-16-2)."
+        },
+        "corp": {
+          "fee_usd": 20,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "$15 certified copy (K.A.R. 7-16-1) + $5 technology fee (K.A.R. 7-16-2)."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 25,
+        "pc_path": 25
+      },
+      "unified_doc_cogs_usd": 25,
+      "sources": [
+        "https://www.sos.ks.gov/businesses/copies-and-certifications.html",
+        "https://www.sos.ks.gov/publications/Register/Volume-45/Issues/Issue-07/02-12-26-53865.html"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 305,
+      "list_price_usd": 920,
+      "list_price_raw_usd": 920
+    },
+    {
+      "state": "Kentucky",
+      "abbr": "KY",
+      "slug": "kentucky",
+      "standing": {
+        "llc": {
+          "fee_usd": 10,
+          "name": "Certificate of Existence",
+          "notes": "Domestic entities receive Certificate of Existence; foreign entities receive Certificate of Authorization. Same $10 fee."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "name": "Certificate of Existence",
+          "notes": "Domestic entities receive Certificate of Existence; foreign entities receive Certificate of Authorization. Same $10 fee."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.5,
+          "notes": "$10 for up to 5 pages ($5 copy + $5 certification); $0.50 each additional page."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.5,
+          "notes": "$10 for up to 5 pages ($5 copy + $5 certification); $0.50 each additional page."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 20,
+        "pc_path": 20
+      },
+      "unified_doc_cogs_usd": 20,
+      "sources": [
+        "https://www.sos.ky.gov/bus/businessrecords/Pages/Fees.aspx",
+        "https://www.sos.ky.gov/bus/businessrecords/Pages/default.aspx"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 300,
+      "list_price_usd": 915,
+      "list_price_raw_usd": 915
+    },
+    {
+      "state": "Louisiana",
+      "abbr": "LA",
+      "slug": "louisiana",
+      "standing": {
+        "llc": {
+          "fee_usd": 20,
+          "name": "Certificate of Good Standing",
+          "notes": "Also issued as Certificate of Existence. $20 per certificate."
+        },
+        "corp": {
+          "fee_usd": 20,
+          "name": "Certificate of Good Standing",
+          "notes": "Also issued as Certificate of Existence. $20 per certificate."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 15,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "$15 for certified copy of an individual document; $25 for multiple documents or complete file."
+        },
+        "corp": {
+          "fee_usd": 15,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "$15 for certified copy of an individual document; $25 for multiple documents or complete file."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 35,
+        "pc_path": 35
+      },
+      "unified_doc_cogs_usd": 35,
+      "sources": [
+        "https://www.sos.la.gov/BusinessServices/SearchForLouisianaBusinessFilings/OrderDocumentsAndCertificates/Pages/default.aspx",
+        "https://www.sos.la.gov/business-services/how-to-order"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 315,
+      "list_price_usd": 930,
+      "list_price_raw_usd": 930
+    },
+    {
+      "state": "Massachusetts",
+      "abbr": "MA",
+      "slug": "massachusetts",
+      "standing": {
+        "llc": {
+          "fee_usd": 25,
+          "name": "Certificate of Good Standing",
+          "notes": "LLC/LLP/LP good standing is $25; Certificate of Existence (short) is $12."
+        },
+        "corp": {
+          "fee_usd": 12,
+          "name": "Certificate of Good Standing",
+          "notes": "Domestic profit and professional corporations."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 7,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 2,
+          "notes": "Certificate of Organization: $7 first page + $2/additional page. (Articles of Organization for corps is flat $12.)"
+        },
+        "corp": {
+          "fee_usd": 12,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Certified copy of Articles of Organization is flat $12."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 32,
+        "pc_path": 24
+      },
+      "unified_doc_cogs_usd": 32,
+      "sources": [
+        "https://www.sec.state.ma.us/divisions/corporations/general-information/corporations-filing-fees.htm",
+        "https://www.law.cornell.edu/regulations/massachusetts/950-CMR-112-29"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 312,
+      "list_price_usd": 925,
+      "list_price_raw_usd": 927
+    },
+    {
+      "state": "Maryland",
+      "abbr": "MD",
+      "slug": "maryland",
+      "standing": {
+        "llc": {
+          "fee_usd": 20,
+          "name": "Certificate of Status",
+          "notes": "Also called Certificate of Good Standing."
+        },
+        "corp": {
+          "fee_usd": 20,
+          "name": "Certificate of Status",
+          "notes": "Also called Certificate of Good Standing."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 20,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "$20 for first certified copy plus $1/page."
+        },
+        "corp": {
+          "fee_usd": 20,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "$20 for first certified copy plus $1/page."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 42,
+        "pc_path": 42
+      },
+      "unified_doc_cogs_usd": 42,
+      "sources": [
+        "https://dat.maryland.gov/businesses/documents/fees.pdf",
+        "https://dat.maryland.gov/businesses/pages/internet-certificate-of-status.aspx",
+        "https://egov.maryland.gov/BusinessExpress/Payment/FeesSchedule"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 322,
+      "list_price_usd": 935,
+      "list_price_raw_usd": 937
+    },
+    {
+      "state": "Maine",
+      "abbr": "ME",
+      "slug": "maine",
+      "standing": {
+        "llc": {
+          "fee_usd": 30,
+          "name": "Certificate of Existence",
+          "notes": "Same fee for LLCs, corporations, LPs, and LLPs (for-profit entities)."
+        },
+        "corp": {
+          "fee_usd": 30,
+          "name": "Certificate of Existence",
+          "notes": "Same fee for business corporations and other for-profit entities."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 5,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 2,
+          "notes": "$2/page copy fee plus $5 certification fee per document request (Title 31 \u00a71680)."
+        },
+        "corp": {
+          "fee_usd": 5,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 2,
+          "notes": "$2/page copy fee plus $5 certification fee per document request."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 39,
+        "pc_path": 39
+      },
+      "unified_doc_cogs_usd": 39,
+      "sources": [
+        "https://www.maine.gov/sos/corporations-commissions/incorporating-resources/corporations-commissions/miscellaneous-service-lists-and-bulk-data",
+        "https://legislature.maine.gov/statutes/31/title31sec1680.html"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 319,
+      "list_price_usd": 935,
+      "list_price_raw_usd": 934
+    },
+    {
+      "state": "Michigan",
+      "abbr": "MI",
+      "slug": "michigan",
+      "standing": {
+        "llc": {
+          "fee_usd": 10,
+          "name": "Certificate of Good Standing",
+          "notes": "$10 online, mail, or phone; $12.50 in person."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "name": "Certificate of Good Standing",
+          "notes": "Same fee as LLC; ordered via MiBusiness Registry Portal."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 16,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "$16 for up to 7 pages; $1 each additional page per LARA Corporations Division fee schedule."
+        },
+        "corp": {
+          "fee_usd": 16,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "$16 for up to 7 pages; $1 each additional page per LARA Corporations Division fee schedule."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 26,
+        "pc_path": 26
+      },
+      "unified_doc_cogs_usd": 26,
+      "sources": [
+        "https://www.michigan.gov/lara/bureau-list/cscl/corps/frequently-asked-questions",
+        "https://www.michigan.gov/lara/bureau-list/cscl/corps/michigan-business-roadmap"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 306,
+      "list_price_usd": 920,
+      "list_price_raw_usd": 921
+    },
+    {
+      "state": "Minnesota",
+      "abbr": "MN",
+      "slug": "minnesota",
+      "standing": {
+        "llc": {
+          "fee_usd": 5,
+          "name": "Certificate of Good Standing",
+          "notes": "Mail/in-person routine fee $5; online $15."
+        },
+        "corp": {
+          "fee_usd": 5,
+          "name": "Certificate of Good Standing",
+          "notes": "Same fee schedule as LLC."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 8,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Mail/in-person: $3 copy of original filing + $5 certification = $8. Online: $13 + $5 = $18."
+        },
+        "corp": {
+          "fee_usd": 8,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Mail/in-person: $3 copy of original filing + $5 certification = $8. Online: $13 + $5 = $18."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 13,
+        "pc_path": 13
+      },
+      "unified_doc_cogs_usd": 13,
+      "sources": [
+        "https://www.sos.mn.gov/business-liens/start-a-business/business-filing-certification-fee-schedule/",
+        "https://www.sos.mn.gov/media/2981/certificatecopyrequest.pdf"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 293,
+      "list_price_usd": 910,
+      "list_price_raw_usd": 908
+    },
+    {
+      "state": "Missouri",
+      "abbr": "MO",
+      "slug": "missouri",
+      "standing": {
+        "llc": {
+          "fee_usd": 10,
+          "name": "Certificate of Good Standing",
+          "notes": "Ordered online via Corporations Division portal."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "name": "Certificate of Good Standing",
+          "notes": "Same $10 fee as LLC."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 10,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Online certified copy flat $10. Paper: $10 certification + $0.50/page."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Online certified copy flat $10. Paper: $10 certification + $0.50/page."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 20,
+        "pc_path": 20
+      },
+      "unified_doc_cogs_usd": 20,
+      "sources": [
+        "https://www.sos.mo.gov/CMSImages/Business/fees.pdf",
+        "https://www.sos.mo.gov/business/corporations/about.asp"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 300,
+      "list_price_usd": 915,
+      "list_price_raw_usd": 915
+    },
+    {
+      "state": "Mississippi",
+      "abbr": "MS",
+      "slug": "mississippi",
+      "standing": {
+        "llc": {
+          "fee_usd": 25,
+          "name": "Certificate of Good Standing",
+          "notes": "Also called Certificate of Existence. $25 per Miss. Code \u00a7 79-4-1.22(a)(27); LLCs follow parallel LLC Act fee provisions."
+        },
+        "corp": {
+          "fee_usd": 25,
+          "name": "Certificate of Good Standing",
+          "notes": "$25 application for certificate of existence or authorization per Miss. Code \u00a7 79-4-1.22(a)(27)."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "$10 certification plus $1/page copying per Miss. Code \u00a7 79-4-1.22(c); LLC Act uses parallel copying schedule."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "$10 certification plus $1/page copying per Miss. Code \u00a7 79-4-1.22(c)."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 38,
+        "pc_path": 38
+      },
+      "unified_doc_cogs_usd": 38,
+      "sources": [
+        "https://law.justia.com/codes/mississippi/title-79/chapter-4/article-1/subarticle-b/section-79-4-1-22/",
+        "https://www.sos.ms.gov/business-services/order-documents"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 318,
+      "list_price_usd": 935,
+      "list_price_raw_usd": 933
+    },
+    {
+      "state": "Montana",
+      "abbr": "MT",
+      "slug": "montana",
+      "standing": {
+        "llc": {
+          "fee_usd": 5,
+          "name": "Certificate of Existence",
+          "notes": "Same fee for domestic and foreign LLCs."
+        },
+        "corp": {
+          "fee_usd": 5,
+          "name": "Certificate of Existence",
+          "notes": "Listed as Certificate of Existence (Domestic) on fee schedule; foreign entities use Certificate of Authority at same $5."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 10,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Certified copy of any filed document; flat $10 per SOS miscellaneous charges."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Certified copy of any filed document; flat $10 per SOS miscellaneous charges."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 15,
+        "pc_path": 15
+      },
+      "unified_doc_cogs_usd": 15,
+      "sources": [
+        "https://sosmt.gov/wp-content/uploads/business_filing_fees.pdf",
+        "https://sosmt.gov/business/fees/"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 295,
+      "list_price_usd": 910,
+      "list_price_raw_usd": 910
+    },
+    {
+      "state": "North Carolina",
+      "abbr": "NC",
+      "slug": "north-carolina",
+      "standing": {
+        "llc": {
+          "fee_usd": 10,
+          "name": "Certificate of Existence",
+          "notes": "Electronic/online $10; paper $15 (G.S. 57D-1-22). Same fee structure as corporations."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "name": "Certificate of Existence",
+          "notes": "Electronic/online $10; paper $15 (G.S. 55-1-22)."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "Electronic certification $10 plus $1/page copying (G.S. 57D-1-22). Paper certification $15 plus $1/page."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "Electronic certification $10 plus $1/page copying (G.S. 55-1-22(c)). Paper certification $15 plus $1/page."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 23,
+        "pc_path": 23
+      },
+      "unified_doc_cogs_usd": 23,
+      "sources": [
+        "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_55/GS_55-1-22.html",
+        "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_57D/GS_57D-1-22.html"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 303,
+      "list_price_usd": 920,
+      "list_price_raw_usd": 918
+    },
+    {
+      "state": "North Dakota",
+      "abbr": "ND",
+      "slug": "north-dakota",
+      "standing": {
+        "llc": {
+          "fee_usd": 20,
+          "name": "Certificate of Good Standing",
+          "notes": "$15 certificate + $5 record search per NDCC 10-32.1-92(30); FirstStop portal $20."
+        },
+        "corp": {
+          "fee_usd": 20,
+          "name": "Certificate of Good Standing",
+          "notes": "Same fee structure via FirstStop portal."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 20,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.5,
+          "notes": "NDCC 10-32.1-92(29): copy fee per 54-09-04 + $5 search; paper copies may add $0.50/page per 54-09-04(1)(e). Estimate uses typical FirstStop pricing."
+        },
+        "corp": {
+          "fee_usd": 20,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.5,
+          "notes": "Same fee structure as LLC for certified filed documents."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 40,
+        "pc_path": 40
+      },
+      "unified_doc_cogs_usd": 40,
+      "sources": [
+        "https://www.sos.nd.gov/business/business-services/maintain-registration",
+        "https://ndlegis.gov/cencode/t10c32-1.pdf"
+      ],
+      "confidence": "medium",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 320,
+      "list_price_usd": 935,
+      "list_price_raw_usd": 935
+    },
+    {
+      "state": "Nebraska",
+      "abbr": "NE",
+      "slug": "nebraska",
+      "standing": {
+        "llc": {
+          "fee_usd": 10,
+          "name": "Certificate of Good Standing",
+          "notes": "Official certificate with Secretary of State seal and signature $10; online Letter of Good Standing $6.50 (not used here)."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "name": "Certificate of Good Standing",
+          "notes": "Same $10 fee per Neb. Rev. Stat. \u00a721-1905(10)."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 12,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "$10 certificate with seal + $1/page. Estimate assumes 2-page Certificate of Organization."
+        },
+        "corp": {
+          "fee_usd": 12,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "$10 certificate with seal + $1/page. Estimate assumes 2-page Articles of Incorporation."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 22,
+        "pc_path": 22
+      },
+      "unified_doc_cogs_usd": 22,
+      "sources": [
+        "https://sos.nebraska.gov/business-services/forms-and-fee-information",
+        "https://www.nebraska.gov/sos/corp/faq.html",
+        "https://nebraskalegislature.gov/laws/statutes.php?statute=21-1905"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 302,
+      "list_price_usd": 915,
+      "list_price_raw_usd": 917
+    },
+    {
+      "state": "New Hampshire",
+      "abbr": "NH",
+      "slug": "new-hampshire",
+      "standing": {
+        "llc": {
+          "fee_usd": 5,
+          "name": "Certificate of Good Standing (short form)",
+          "notes": "Long form $10. Online QuickStart orders add $2 handling charge."
+        },
+        "corp": {
+          "fee_usd": 5,
+          "name": "Certificate of Good Standing (short form)",
+          "notes": "Applies to domestic/foreign profit and professional corporations. Long form $10."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 5,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "$5 certification charge plus $1/page per Corporation Division."
+        },
+        "corp": {
+          "fee_usd": 5,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "$5 certification charge plus $1/page."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 12,
+        "pc_path": 12
+      },
+      "unified_doc_cogs_usd": 12,
+      "sources": [
+        "https://sos.nh.gov/corporation-ucc-securities/corporation/forms-and-fees",
+        "https://quickstart.sos.nh.gov/online/Home/FillingFee"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 292,
+      "list_price_usd": 905,
+      "list_price_raw_usd": 907
+    },
+    {
+      "state": "New Jersey",
+      "abbr": "NJ",
+      "slug": "new-jersey",
+      "standing": {
+        "llc": {
+          "fee_usd": 50,
+          "name": "Short Form Standing Certificate",
+          "notes": "Long form $100. Corps/LPs use $25 standing certificate."
+        },
+        "corp": {
+          "fee_usd": 25,
+          "name": "Standing Certificate",
+          "notes": "Includes short and long form for corporations and limited partnerships."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 50,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.1,
+          "notes": "LLC certified copies $50/document plus $0.10/page photocopy fee."
+        },
+        "corp": {
+          "fee_usd": 25,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.1,
+          "notes": "Corp certified copies $25/document plus $0.10/page photocopy fee."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 100.2,
+        "pc_path": 50.2
+      },
+      "unified_doc_cogs_usd": 100.2,
+      "sources": [
+        "https://www.nj.gov/treasury/revenue/standcert.shtml",
+        "https://www.nj.gov/treasury/revenue/fees.shtml",
+        "https://www.nj.gov/treasury/revenue/copiesentities.shtml"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": true,
+      "current_list_price_usd": 995,
+      "indicative_gov_cogs_floor_usd": 380.2,
+      "list_price_usd": 995,
+      "list_price_raw_usd": 995.2
+    },
+    {
+      "state": "New Mexico",
+      "abbr": "NM",
+      "slug": "new-mexico",
+      "standing": {
+        "llc": {
+          "fee_usd": 25,
+          "name": "Certificate of Good Standing and Compliance",
+          "notes": "NMSA 53-19-63(E): certificate for any purpose not otherwise specified."
+        },
+        "corp": {
+          "fee_usd": 50,
+          "name": "Certificate of Good Standing and Compliance",
+          "notes": "NMSA 53-2-1(A)(18): profit corporation good standing certificate."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "NMSA 53-19-63(G): $1/page copy (minimum $10) plus $25 certification. Typical 2-page articles \u2248 $35 total."
+        },
+        "corp": {
+          "fee_usd": 25,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "NMSA 53-2-1(B)(2): flat $25 per certified copy."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 60,
+        "pc_path": 75
+      },
+      "unified_doc_cogs_usd": 75,
+      "sources": [
+        "https://www.sos.nm.gov/business-services/statutes-governing-business-in-nm/",
+        "https://law.justia.com/codes/new-mexico/chapter-53/article-2/section-53-2-1/",
+        "https://api.realfile.rtsclients.com/publicfiles/ee3072ab0d43456cb15a51f7d82c77a2/1c940b98-cdb8-45ad-839f-7645c176a0c7/ch53art19.pdf"
+      ],
+      "confidence": "medium",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 355,
+      "list_price_usd": 970,
+      "list_price_raw_usd": 970
+    },
+    {
+      "state": "Nevada",
+      "abbr": "NV",
+      "slug": "nevada",
+      "standing": {
+        "llc": {
+          "fee_usd": 50,
+          "name": "Certificate of Good Standing / Certificate of Existence",
+          "notes": "Short-form good standing or existence certificate."
+        },
+        "corp": {
+          "fee_usd": 50,
+          "name": "Certificate of Good Standing / Certificate of Existence",
+          "notes": "Short-form good standing or existence certificate."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 30,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 2,
+          "notes": "$30 per certification plus $2/page. Typical 2-page articles \u2248 $34."
+        },
+        "corp": {
+          "fee_usd": 30,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 2,
+          "notes": "$30 per certification plus $2/page. Typical 2-page articles \u2248 $34."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 84,
+        "pc_path": 84
+      },
+      "unified_doc_cogs_usd": 84,
+      "sources": [
+        "https://www.nvsos.gov/sos/home/showpublisheddocument/6550/638344294468270000",
+        "https://www.nvsos.gov/sos/home/showpublisheddocument/1916/638307312297670000",
+        "https://www.nvsos.gov/sos/businesses/commercial-recordings/forms-fees/customer-order-forms"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 364,
+      "list_price_usd": 980,
+      "list_price_raw_usd": 979
+    },
+    {
+      "state": "New York",
+      "abbr": "NY",
+      "slug": "new-york",
+      "standing": {
+        "llc": {
+          "fee_usd": 25,
+          "name": "Certificate of Status",
+          "notes": "Also called Certificate of Good Standing or Certificate of Existence."
+        },
+        "corp": {
+          "fee_usd": 25,
+          "name": "Certificate of Status",
+          "notes": "Same fee for corporations and other business entities."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 10,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Per certified copy of filed document (e.g., Articles of Organization)."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Per certified copy of filed document (e.g., Certificate of Incorporation)."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 35,
+        "pc_path": 35
+      },
+      "unified_doc_cogs_usd": 35,
+      "sources": [
+        "https://dos.ny.gov/certificate-status",
+        "https://dos.ny.gov/fee-schedules",
+        "https://dos.ny.gov/copies-corporation-or-business-entity-documents"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 315,
+      "list_price_usd": 930,
+      "list_price_raw_usd": 930
+    },
+    {
+      "state": "Ohio",
+      "abbr": "OH",
+      "slug": "ohio",
+      "standing": {
+        "llc": {
+          "fee_usd": 5,
+          "name": "Certificate of Good Standing (Full Force and Effect)",
+          "notes": "LLCs use Full Force and Effect certificate per Form 500; same $5 fee as corp Good Standing."
+        },
+        "corp": {
+          "fee_usd": 5,
+          "name": "Certificate of Good Standing",
+          "notes": "Standard short-form certificate; long-form available for $25 (excluded here)."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 5,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Certified copy of Articles of Organization via Form 500; plain copies free online."
+        },
+        "corp": {
+          "fee_usd": 5,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Certified copy of Articles of Incorporation via Form 500; plain copies free online."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 10,
+        "pc_path": 10
+      },
+      "unified_doc_cogs_usd": 10,
+      "sources": [
+        "https://www.ohiosos.gov/businesses/filing-forms--fee-schedule/",
+        "https://www.ohiosos.gov/publications/Form500.pdf"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 290,
+      "list_price_usd": 905,
+      "list_price_raw_usd": 905
+    },
+    {
+      "state": "Oklahoma",
+      "abbr": "OK",
+      "slug": "oklahoma",
+      "standing": {
+        "llc": {
+          "fee_usd": 20,
+          "name": "Certificate of Good Standing",
+          "notes": "Same fee for LLCs, corporations, and limited partnerships."
+        },
+        "corp": {
+          "fee_usd": 20,
+          "name": "Certificate of Good Standing",
+          "notes": "Same fee for all business entity types."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "$10 certification (28 O.S. \u00a7 111) plus $1/page copying ($2 minimum)."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "$10 certification (28 O.S. \u00a7 111) plus $1/page copying ($2 minimum)."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 33,
+        "pc_path": 33
+      },
+      "unified_doc_cogs_usd": 33,
+      "sources": [
+        "https://www.sos.ok.gov/corp/order/orderDefault.aspx",
+        "https://www.sos.ok.gov/business/fees.aspx"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 313,
+      "list_price_usd": 930,
+      "list_price_raw_usd": 928
+    },
+    {
+      "state": "Oregon",
+      "abbr": "OR",
+      "slug": "oregon",
+      "standing": {
+        "llc": {
+          "fee_usd": 10,
+          "name": "Certificate of Existence",
+          "notes": "Online order; equivalent to Certificate of Good Standing."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "name": "Certificate of Existence",
+          "notes": "Online order; equivalent to Certificate of Good Standing."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 15,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Certified copy of a specific filed document or document file."
+        },
+        "corp": {
+          "fee_usd": 15,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Certified copy of a specific filed document or document file."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 25,
+        "pc_path": 25
+      },
+      "unified_doc_cogs_usd": 25,
+      "sources": [
+        "https://sos.oregon.gov/business/pages/business-registry-certificates.aspx",
+        "https://sos.oregon.gov/business/Documents/copies-forms/302-request-for-certificate.pdf"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 305,
+      "list_price_usd": 920,
+      "list_price_raw_usd": 920
+    },
+    {
+      "state": "Pennsylvania",
+      "abbr": "PA",
+      "slug": "pennsylvania",
+      "standing": {
+        "llc": {
+          "fee_usd": 40,
+          "name": "Subsistence Certificate",
+          "notes": "Domestic entities; foreign entities use Certificate of Registration at same $40 fee."
+        },
+        "corp": {
+          "fee_usd": 40,
+          "name": "Subsistence Certificate",
+          "notes": "Domestic entities; foreign entities use Certificate of Registration at same $40 fee."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 55,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 3,
+          "notes": "Certified copy $55 plus $3/page furnished."
+        },
+        "corp": {
+          "fee_usd": 55,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 3,
+          "notes": "Certified copy $55 plus $3/page furnished."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 101,
+        "pc_path": 101
+      },
+      "unified_doc_cogs_usd": 101,
+      "sources": [
+        "https://www.pa.gov/agencies/dos/programs/business/fees-and-payments",
+        "https://hub.business.pa.gov/Home/HelpCenterDetail/PurchaseBusinessDocumentsinBFS"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": true,
+      "current_list_price_usd": 995,
+      "indicative_gov_cogs_floor_usd": 381,
+      "list_price_usd": 995,
+      "list_price_raw_usd": 996
+    },
+    {
+      "state": "Rhode Island",
+      "abbr": "RI",
+      "slug": "rhode-island",
+      "standing": {
+        "llc": {
+          "fee_usd": 20,
+          "name": "Certificate of Good Standing / Certificate of Status",
+          "notes": "Statutory mail/in-person fee $20; online orders $22."
+        },
+        "corp": {
+          "fee_usd": 20,
+          "name": "Certificate of Good Standing / Certificate of Status",
+          "notes": "Statutory mail/in-person fee $20; online orders $22."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.15,
+          "notes": "Per 7-16-65: $10 certificate fee plus $0.15/page."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.15,
+          "notes": "Per 7-12.1-117.1: $10 certificate fee plus $0.15/page."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 30.3,
+        "pc_path": 30.3
+      },
+      "unified_doc_cogs_usd": 30.3,
+      "sources": [
+        "https://www.sos.ri.gov/divisions/business-services/order-certificates",
+        "https://www.sos.ri.gov/divisions/business-services/order-certified-copies",
+        "https://law.justia.com/codes/rhode-island/title-7/chapter-7-16/section-7-16-65/"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 310.3,
+      "list_price_usd": 925,
+      "list_price_raw_usd": 925.3
+    },
+    {
+      "state": "South Carolina",
+      "abbr": "SC",
+      "slug": "south-carolina",
+      "standing": {
+        "llc": {
+          "fee_usd": 10,
+          "name": "Certificate of Existence",
+          "notes": "Same fee for LLCs and corporations via Business Entities Online."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "name": "Certificate of Existence",
+          "notes": "Same fee for LLCs and corporations via Business Entities Online."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 3,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.5,
+          "notes": "Certified copy: $3 first page, $0.50 each additional page per document."
+        },
+        "corp": {
+          "fee_usd": 3,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.5,
+          "notes": "Certified copy: $3 first page, $0.50 each additional page per document."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 14,
+        "pc_path": 14
+      },
+      "unified_doc_cogs_usd": 14,
+      "sources": [
+        "https://sos.sc.gov/online-filings/business-entities/document-request-online"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 294,
+      "list_price_usd": 910,
+      "list_price_raw_usd": 909
+    },
+    {
+      "state": "South Dakota",
+      "abbr": "SD",
+      "slug": "south-dakota",
+      "standing": {
+        "llc": {
+          "fee_usd": 20,
+          "name": "Certificate of Good Standing/Existence",
+          "notes": "Electronic online filing $20; paper filing $35 (excluded here)."
+        },
+        "corp": {
+          "fee_usd": 20,
+          "name": "Certificate of Good Standing/Existence",
+          "notes": "Same online fee as LLC."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 19,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 2,
+          "notes": "$15 certification + $2/page. Estimate assumes 2-page Articles of Organization."
+        },
+        "corp": {
+          "fee_usd": 19,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 2,
+          "notes": "$15 certification + $2/page. Estimate assumes 2-page Articles of Incorporation."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 39,
+        "pc_path": 39
+      },
+      "unified_doc_cogs_usd": 39,
+      "sources": [
+        "https://www.sdsos.gov/general-information/filing-fees.aspx",
+        "https://sosenterprise.sd.gov/BusinessServices/Business/CertOfExistenceInstr.aspx"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 319,
+      "list_price_usd": 935,
+      "list_price_raw_usd": 934
+    },
+    {
+      "state": "Tennessee",
+      "abbr": "TN",
+      "slug": "tennessee",
+      "standing": {
+        "llc": {
+          "fee_usd": 20,
+          "name": "Certificate of Existence",
+          "notes": "$20 per certificate request (Form SS-4461). Same for all entity types."
+        },
+        "corp": {
+          "fee_usd": 20,
+          "name": "Certificate of Existence",
+          "notes": "$20 per certificate request (Form SS-4461)."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 20,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "$20 per set for certified copies (Form SS-4461)."
+        },
+        "corp": {
+          "fee_usd": 20,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "$20 per set for certified copies (Form SS-4461)."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 40,
+        "pc_path": 40
+      },
+      "unified_doc_cogs_usd": 40,
+      "sources": [
+        "https://sos.tn.gov/businesses/guides/order-copies-certificates",
+        "https://sos.tn.gov/businesses/services/business-forms-fees"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 320,
+      "list_price_usd": 935,
+      "list_price_raw_usd": 935
+    },
+    {
+      "state": "Texas",
+      "abbr": "TX",
+      "slug": "texas",
+      "standing": {
+        "llc": {
+          "fee_usd": 15,
+          "name": "Certificate of Fact \u2013 Status",
+          "notes": "Texas equivalent of certificate of good standing/existence. Same fee for all entity types."
+        },
+        "corp": {
+          "fee_usd": 15,
+          "name": "Certificate of Fact \u2013 Status",
+          "notes": "Texas equivalent of certificate of good standing/existence."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 15,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "$15 per certificate plus $1/page for certified copies."
+        },
+        "corp": {
+          "fee_usd": 15,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 1,
+          "notes": "$15 per certificate plus $1/page for certified copies."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 33,
+        "pc_path": 33
+      },
+      "unified_doc_cogs_usd": 33,
+      "sources": [
+        "https://www.sos.state.tx.us/corp/forms/806_boc.pdf",
+        "https://sos.state.tx.us/corp/instructions-for-copies.shtml"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": true,
+      "current_list_price_usd": 930,
+      "indicative_gov_cogs_floor_usd": 313,
+      "list_price_usd": 930,
+      "list_price_raw_usd": 928
+    },
+    {
+      "state": "Utah",
+      "abbr": "UT",
+      "slug": "utah",
+      "standing": {
+        "llc": {
+          "fee_usd": 12,
+          "name": "Certificate of Existence (short form)",
+          "notes": "Regular short-form certificate; long form is $20."
+        },
+        "corp": {
+          "fee_usd": 12,
+          "name": "Certificate of Existence (short form)",
+          "notes": "Regular short-form certificate; long form is $20."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 12,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.3,
+          "notes": "$12 certification stamp plus $0.30/page. Typical 2-page articles \u2248 $12.60."
+        },
+        "corp": {
+          "fee_usd": 12,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.3,
+          "notes": "$12 certification stamp plus $0.30/page. Typical 2-page articles \u2248 $12.60."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 24.6,
+        "pc_path": 24.6
+      },
+      "unified_doc_cogs_usd": 24.6,
+      "sources": [
+        "https://commerce.utah.gov/corporations/ordering-in-house-documents/",
+        "https://commerce.utah.gov/wp-content/uploads/2023/04/currentfees.pdf"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 304.6,
+      "list_price_usd": 920,
+      "list_price_raw_usd": 919.6
+    },
+    {
+      "state": "Virginia",
+      "abbr": "VA",
+      "slug": "virginia",
+      "standing": {
+        "llc": {
+          "fee_usd": 6,
+          "name": "Certificate of Fact of Existence/Registration",
+          "notes": "LLCs use Certificate of Fact; corporations use Certificate of Good Standing."
+        },
+        "corp": {
+          "fee_usd": 6,
+          "name": "Certificate of Good Standing",
+          "notes": "Corporations only for good standing certificate."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 6,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Online CIS certified copy $6/request; no additional per-page fee online."
+        },
+        "corp": {
+          "fee_usd": 6,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Online CIS certified copy $6/request; no additional per-page fee online."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 12,
+        "pc_path": 12
+      },
+      "unified_doc_cogs_usd": 12,
+      "sources": [
+        "https://www.scc.virginia.gov/businesses/about-the-clerks-office/business-copies-and-certificate-documents/",
+        "https://law.lis.virginia.gov/admincode/title5/agency5/chapter40/section10/"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 292,
+      "list_price_usd": 905,
+      "list_price_raw_usd": 907
+    },
+    {
+      "state": "Vermont",
+      "abbr": "VT",
+      "slug": "vermont",
+      "standing": {
+        "llc": {
+          "fee_usd": 35,
+          "name": "Certificate of Existence",
+          "notes": "Listed as Application for Certificate of Existence under 11 V.S.A. \u00a7 4028."
+        },
+        "corp": {
+          "fee_usd": 25,
+          "name": "Certificate of Good Standing",
+          "notes": "Listed as Application for Certificate of Good Standing under 11A V.S.A. \u00a7 1.28."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 25,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Flat $25 per certified copy per 11 V.S.A. \u00a7 4012(b)(2) and SOS administrative fee schedule."
+        },
+        "corp": {
+          "fee_usd": 25,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Flat $25 per certified copy per SOS administrative fee schedule."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 60,
+        "pc_path": 50
+      },
+      "unified_doc_cogs_usd": 60,
+      "sources": [
+        "https://sos.vermont.gov/business-services/fees-statutes",
+        "https://legislature.vermont.gov/statutes/section/11/025/04012"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 340,
+      "list_price_usd": 955,
+      "list_price_raw_usd": 955
+    },
+    {
+      "state": "Washington",
+      "abbr": "WA",
+      "slug": "washington",
+      "standing": {
+        "llc": {
+          "fee_usd": 20,
+          "name": "Certificate of Existence (short form)",
+          "notes": "Also called Certificate of Good Standing; Express PDF option $20."
+        },
+        "corp": {
+          "fee_usd": 20,
+          "name": "Certificate of Existence (short form)",
+          "notes": "Also called Certificate of Good Standing; Express PDF option $20."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 20,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "$20 per certified copy per WAC 434-112-085; charter/formation documents use $20 certified copy rate."
+        },
+        "corp": {
+          "fee_usd": 20,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "$20 per certified copy per WAC 434-112-085; charter/formation documents use $20 certified copy rate."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 40,
+        "pc_path": 40
+      },
+      "unified_doc_cogs_usd": 40,
+      "sources": [
+        "https://apps.sos.wa.gov/corps/feescheduleexpeditedservice.aspx",
+        "https://www.sos.wa.gov/corporations-charities/frequently-asked-questions-faqs/certificates-certified-copies",
+        "https://app.leg.wa.gov/wac/default.aspx?cite=434-112-085"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 320,
+      "list_price_usd": 935,
+      "list_price_raw_usd": 935
+    },
+    {
+      "state": "Wisconsin",
+      "abbr": "WI",
+      "slug": "wisconsin",
+      "standing": {
+        "llc": {
+          "fee_usd": 10,
+          "name": "Certificate of Status",
+          "notes": "Wisconsin uses Certificate of Status (equivalent to Good Standing) per DFI-CCS 10.01(2)(a)."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "name": "Certificate of Status",
+          "notes": "Same $10 fee and document name as LLC."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 10,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Certified copy of filed record per DFI-CCS 10.01(1)(a)."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Certified copy of filed record per DFI-CCS 10.01(1)(a)."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 20,
+        "pc_path": 20
+      },
+      "unified_doc_cogs_usd": 20,
+      "sources": [
+        "https://docs.legis.wisconsin.gov/code/admin_code/dfi/dfi_ccs/10"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 300,
+      "list_price_usd": 915,
+      "list_price_raw_usd": 915
+    },
+    {
+      "state": "West Virginia",
+      "abbr": "WV",
+      "slug": "west-virginia",
+      "standing": {
+        "llc": {
+          "fee_usd": 10,
+          "name": "Certificate of Existence",
+          "notes": "Foreign LLCs receive Certificate of Authorization at same $10 fee."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "name": "Certificate of Good Standing",
+          "notes": "Listed as certificate of good standing for domestic/foreign corporations."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 15,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Flat $15 for formation/organizing documents; $5 each additional amendment."
+        },
+        "corp": {
+          "fee_usd": 15,
+          "fee_structure": "flat",
+          "per_page_usd": null,
+          "notes": "Flat $15 for corporate charter; $5 each additional amendment."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 25,
+        "pc_path": 25
+      },
+      "unified_doc_cogs_usd": 25,
+      "sources": [
+        "https://sos.wv.gov/certificates-existence-or-certificates-authorization",
+        "https://sos.wv.gov/certified-copies-records",
+        "https://code.wvlegislature.gov/59-1-2/"
+      ],
+      "confidence": "high",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 305,
+      "list_price_usd": 920,
+      "list_price_raw_usd": 920
+    },
+    {
+      "state": "Wyoming",
+      "abbr": "WY",
+      "slug": "wyoming",
+      "standing": {
+        "llc": {
+          "fee_usd": 0,
+          "name": "Certificate of Good Standing (electronic)",
+          "notes": "Free online at wyobiz.wyo.gov with validation number. Manually signed original certificate is $20 by mail per fee schedule/form."
+        },
+        "corp": {
+          "fee_usd": 0,
+          "name": "Certificate of Good Standing (electronic)",
+          "notes": "Free online at wyobiz.wyo.gov with validation number. Manually signed original certificate is $20 by mail per fee schedule/form."
+        }
+      },
+      "certified_formation_copy": {
+        "llc": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.15,
+          "notes": "Certified copy of initial filing \u226410 pages is $10 flat; >10 pages add $5 plus $0.15/page after page 10."
+        },
+        "corp": {
+          "fee_usd": 10,
+          "fee_structure": "flat_plus_per_page",
+          "per_page_usd": 0.15,
+          "notes": "Certified copy of initial filing \u226410 pages is $10 flat; >10 pages add $5 plus $0.15/page after page 10."
+        }
+      },
+      "doc_cogs_estimate_usd": {
+        "pllc_path": 10,
+        "pc_path": 10
+      },
+      "unified_doc_cogs_usd": 10,
+      "sources": [
+        "https://sos.wyo.gov/Business/docs/BusinessFees.pdf",
+        "https://sos.wyo.gov/Forms/Business/General/CertifiedCopy-CertificateRequest.pdf",
+        "https://sos.wyo.gov/FAQS.aspx?root=BUS"
+      ],
+      "confidence": "medium",
+      "retrieved": "2026-07-11",
+      "currently_offered": false,
+      "indicative_gov_cogs_floor_usd": 290,
+      "list_price_usd": 905,
+      "list_price_raw_usd": 905
+    }
+  ]
+}

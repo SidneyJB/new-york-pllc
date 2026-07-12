@@ -5,8 +5,8 @@ import { StateForeignQualificationPage, StateForeignQualificationContent } from 
 const content: StateForeignQualificationContent = {
   state: 'Connecticut',
   slug: 'connecticut',
-  pllcPrice: 995,
-  pcPrice: 995,
+  pllcPrice: 1000,
+  pcPrice: 1000,
   intro:
     'Connecticut professionals can be close enough to New York that the business line feels informal, especially for Fairfield County practices, NYC-adjacent clients, hybrid schedules, and cross-state professional services. Proximity does not replace New York authority when the entity is doing business in NY, so we review the Connecticut entity and handle the foreign qualification path when eligible.',
   whoThisIsFor: [
@@ -23,7 +23,7 @@ const content: StateForeignQualificationContent = {
     'Desired NY-facing assumed name, if needed.',
   ],
   eligibilityNuance:
-    'The Connecticut price is unified at $995 for both foreign PLLC and foreign PC paths. The practical issue is usually not distance from New York, but whether the Connecticut entity type, purpose, ownership, and name match New York professional entity rules.',
+    'The Connecticut price is unified at $1000 for both foreign PLLC and foreign PC paths. The practical issue is usually not distance from New York, but whether the Connecticut entity type, purpose, ownership, and name match New York professional entity rules.',
   whatWeCheck:
     'Before filing, we review the Connecticut certificate of legal existence or status, certified formation document or charter, entity type, purpose language, owner or shareholder license details, and name. We also assess whether a nearby CT practice actually needs NY authority based on NY-facing activity.',
   professions: [
@@ -82,7 +82,7 @@ const content: StateForeignQualificationContent = {
 export const metadata: Metadata = {
   title: `Connecticut PLLC or PC Foreign Qualification in New York`,
   description:
-    'Qualify your Connecticut professional LLC, PLLC, or PC to do business in New York. Foreign PLLC and foreign PC filing help for licensed professionals. Starting at $995.',
+    'Qualify your Connecticut professional LLC, PLLC, or PC to do business in New York. Foreign PLLC and foreign PC filing help for licensed professionals. Starting at $1000.',
   keywords: [
     'Connecticut PLLC foreign qualification New York',
     'Connecticut professional LLC do business in NY',

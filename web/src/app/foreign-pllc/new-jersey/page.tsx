@@ -5,8 +5,8 @@ import { StateForeignQualificationPage, StateForeignQualificationContent } from 
 const content: StateForeignQualificationContent = {
   state: 'New Jersey',
   slug: 'new-jersey',
-  pllcPrice: 975,
-  pcPrice: 975,
+  pllcPrice: 995,
+  pcPrice: 995,
   intro:
     'New Jersey clinicians, therapists, physicians, dentists, and other licensed professionals often expand across the Hudson before they think of it as a New York filing issue. If your New Jersey professional entity is serving NY clients, hiring in NY, or opening a New York office, we review the entity path and handle the New York foreign qualification filing when eligible.',
   whoThisIsFor: [
@@ -77,7 +77,7 @@ const content: StateForeignQualificationContent = {
 export const metadata: Metadata = {
   title: `New Jersey PLLC or PC Foreign Qualification in New York`,
   description:
-    'Qualify your New Jersey professional LLC, PLLC, or PC to do business in New York. Foreign PLLC and foreign PC filing help for licensed professionals. Starting at $975.',
+    'Qualify your New Jersey professional LLC, PLLC, or PC to do business in New York. Foreign PLLC and foreign PC filing help for licensed professionals. Starting at $995.',
   keywords: [
     'New Jersey PLLC foreign qualification New York',
     'New Jersey professional LLC do business in NY',

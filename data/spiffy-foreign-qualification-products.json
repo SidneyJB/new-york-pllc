@@ -1,0 +1,407 @@
+{
+  "formula": "round_to_5(895 + unified_doc_cogs_usd)",
+  "naming": "{State} to New York Foreign Qualification",
+  "count": 50,
+  "products": [
+    {
+      "id": 11193,
+      "state": "Alabama",
+      "name": "Alabama to New York Foreign Qualification",
+      "abbr": "AL",
+      "list_price_usd": 930,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11194,
+      "state": "Alaska",
+      "name": "Alaska to New York Foreign Qualification",
+      "abbr": "AK",
+      "list_price_usd": 920,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11195,
+      "state": "Arizona",
+      "name": "Arizona to New York Foreign Qualification",
+      "abbr": "AZ",
+      "list_price_usd": 910,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11196,
+      "state": "Arkansas",
+      "name": "Arkansas to New York Foreign Qualification",
+      "abbr": "AR",
+      "list_price_usd": 925,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11197,
+      "state": "California",
+      "name": "California to New York Foreign Qualification",
+      "abbr": "CA",
+      "list_price_usd": 905,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11198,
+      "state": "Colorado",
+      "name": "Colorado to New York Foreign Qualification",
+      "abbr": "CO",
+      "list_price_usd": 895,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11192,
+      "state": "Connecticut",
+      "name": "Connecticut to New York Foreign Qualification",
+      "abbr": "CT",
+      "list_price_usd": 1000,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11199,
+      "state": "Delaware",
+      "name": "Delaware to New York Foreign Qualification",
+      "abbr": "DE",
+      "list_price_usd": 995,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11190,
+      "state": "Florida",
+      "name": "Florida to New York Foreign Qualification",
+      "abbr": "FL",
+      "list_price_usd": 930,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11200,
+      "state": "Georgia",
+      "name": "Georgia to New York Foreign Qualification",
+      "abbr": "GA",
+      "list_price_usd": 915,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11201,
+      "state": "Hawaii",
+      "name": "Hawaii to New York Foreign Qualification",
+      "abbr": "HI",
+      "list_price_usd": 910,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11202,
+      "state": "Idaho",
+      "name": "Idaho to New York Foreign Qualification",
+      "abbr": "ID",
+      "list_price_usd": 915,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11203,
+      "state": "Illinois",
+      "name": "Illinois to New York Foreign Qualification",
+      "abbr": "IL",
+      "list_price_usd": 945,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11204,
+      "state": "Indiana",
+      "name": "Indiana to New York Foreign Qualification",
+      "abbr": "IN",
+      "list_price_usd": 910,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11205,
+      "state": "Iowa",
+      "name": "Iowa to New York Foreign Qualification",
+      "abbr": "IA",
+      "list_price_usd": 905,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11206,
+      "state": "Kansas",
+      "name": "Kansas to New York Foreign Qualification",
+      "abbr": "KS",
+      "list_price_usd": 920,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11207,
+      "state": "Kentucky",
+      "name": "Kentucky to New York Foreign Qualification",
+      "abbr": "KY",
+      "list_price_usd": 915,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11208,
+      "state": "Louisiana",
+      "name": "Louisiana to New York Foreign Qualification",
+      "abbr": "LA",
+      "list_price_usd": 930,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11209,
+      "state": "Maine",
+      "name": "Maine to New York Foreign Qualification",
+      "abbr": "ME",
+      "list_price_usd": 935,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11210,
+      "state": "Maryland",
+      "name": "Maryland to New York Foreign Qualification",
+      "abbr": "MD",
+      "list_price_usd": 935,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11211,
+      "state": "Massachusetts",
+      "name": "Massachusetts to New York Foreign Qualification",
+      "abbr": "MA",
+      "list_price_usd": 925,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11212,
+      "state": "Michigan",
+      "name": "Michigan to New York Foreign Qualification",
+      "abbr": "MI",
+      "list_price_usd": 920,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11213,
+      "state": "Minnesota",
+      "name": "Minnesota to New York Foreign Qualification",
+      "abbr": "MN",
+      "list_price_usd": 910,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11214,
+      "state": "Mississippi",
+      "name": "Mississippi to New York Foreign Qualification",
+      "abbr": "MS",
+      "list_price_usd": 935,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11215,
+      "state": "Missouri",
+      "name": "Missouri to New York Foreign Qualification",
+      "abbr": "MO",
+      "list_price_usd": 915,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11216,
+      "state": "Montana",
+      "name": "Montana to New York Foreign Qualification",
+      "abbr": "MT",
+      "list_price_usd": 910,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11217,
+      "state": "Nebraska",
+      "name": "Nebraska to New York Foreign Qualification",
+      "abbr": "NE",
+      "list_price_usd": 915,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11218,
+      "state": "Nevada",
+      "name": "Nevada to New York Foreign Qualification",
+      "abbr": "NV",
+      "list_price_usd": 980,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11219,
+      "state": "New Hampshire",
+      "name": "New Hampshire to New York Foreign Qualification",
+      "abbr": "NH",
+      "list_price_usd": 905,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11188,
+      "state": "New Jersey",
+      "name": "New Jersey to New York Foreign Qualification",
+      "abbr": "NJ",
+      "list_price_usd": 995,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11220,
+      "state": "New Mexico",
+      "name": "New Mexico to New York Foreign Qualification",
+      "abbr": "NM",
+      "list_price_usd": 970,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11221,
+      "state": "New York",
+      "name": "New York to New York Foreign Qualification",
+      "abbr": "NY",
+      "list_price_usd": 930,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11222,
+      "state": "North Carolina",
+      "name": "North Carolina to New York Foreign Qualification",
+      "abbr": "NC",
+      "list_price_usd": 920,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11223,
+      "state": "North Dakota",
+      "name": "North Dakota to New York Foreign Qualification",
+      "abbr": "ND",
+      "list_price_usd": 935,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11224,
+      "state": "Ohio",
+      "name": "Ohio to New York Foreign Qualification",
+      "abbr": "OH",
+      "list_price_usd": 905,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11225,
+      "state": "Oklahoma",
+      "name": "Oklahoma to New York Foreign Qualification",
+      "abbr": "OK",
+      "list_price_usd": 930,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11226,
+      "state": "Oregon",
+      "name": "Oregon to New York Foreign Qualification",
+      "abbr": "OR",
+      "list_price_usd": 920,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11189,
+      "state": "Pennsylvania",
+      "name": "Pennsylvania to New York Foreign Qualification",
+      "abbr": "PA",
+      "list_price_usd": 995,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11227,
+      "state": "Rhode Island",
+      "name": "Rhode Island to New York Foreign Qualification",
+      "abbr": "RI",
+      "list_price_usd": 925,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11228,
+      "state": "South Carolina",
+      "name": "South Carolina to New York Foreign Qualification",
+      "abbr": "SC",
+      "list_price_usd": 910,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11229,
+      "state": "South Dakota",
+      "name": "South Dakota to New York Foreign Qualification",
+      "abbr": "SD",
+      "list_price_usd": 935,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11230,
+      "state": "Tennessee",
+      "name": "Tennessee to New York Foreign Qualification",
+      "abbr": "TN",
+      "list_price_usd": 935,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11191,
+      "state": "Texas",
+      "name": "Texas to New York Foreign Qualification",
+      "abbr": "TX",
+      "list_price_usd": 930,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11231,
+      "state": "Utah",
+      "name": "Utah to New York Foreign Qualification",
+      "abbr": "UT",
+      "list_price_usd": 920,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11232,
+      "state": "Vermont",
+      "name": "Vermont to New York Foreign Qualification",
+      "abbr": "VT",
+      "list_price_usd": 955,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11233,
+      "state": "Virginia",
+      "name": "Virginia to New York Foreign Qualification",
+      "abbr": "VA",
+      "list_price_usd": 905,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11234,
+      "state": "Washington",
+      "name": "Washington to New York Foreign Qualification",
+      "abbr": "WA",
+      "list_price_usd": 935,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11235,
+      "state": "West Virginia",
+      "name": "West Virginia to New York Foreign Qualification",
+      "abbr": "WV",
+      "list_price_usd": 920,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11236,
+      "state": "Wisconsin",
+      "name": "Wisconsin to New York Foreign Qualification",
+      "abbr": "WI",
+      "list_price_usd": 915,
+      "option_amount_cents": null
+    },
+    {
+      "id": 11237,
+      "state": "Wyoming",
+      "name": "Wyoming to New York Foreign Qualification",
+      "abbr": "WY",
+      "list_price_usd": 905,
+      "option_amount_cents": null
+    }
+  ]
+}

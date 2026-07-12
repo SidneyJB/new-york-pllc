@@ -158,7 +158,7 @@ Anything currently marked primary that isn't a paid order gets demoted to second
 
 ### 1.4 Asset (extensions) build — account level
 
-**Applied Jul 8 2026 on Sales-Search-1** (measured keep/replace, not full wipe). Kept Get Started / Start Your Order / FAQ / Contact / Call + strong callouts (NYSED, Publishing, $885, etc.). Added sitemap-true sitelinks; replaced About Us → About NYPLLC; Amenities → Services snippet; new 3-offer price (Formation $885, VA $50/mo, Foreign from $910 — API requires ≥3 offerings); unlinked generic callouts + legacy About Us + old price v3. Account/ad-group auto profession sitelinks left for a later pass. **Jul 11 2026:** price asset replaced — Foreign floor **$915** (asset `390521246372`); linked on Sales + 01/02/03.
+**Applied Jul 8 2026 on Sales-Search-1** (measured keep/replace, not full wipe). Kept Get Started / Start Your Order / FAQ / Contact / Call + strong callouts (NYSED, Publishing, $885, etc.). Added sitemap-true sitelinks; replaced About Us → About NYPLLC; Amenities → Services snippet; new 3-offer price (Formation $885, VA $50/mo, Foreign from $910 — API requires ≥3 offerings); unlinked generic callouts + legacy About Us + old price v3. Account/ad-group auto profession sitelinks left for a later pass. **Jul 11 2026:** price asset replaced — Foreign floor **$915** (asset `390521246372`); linked on Sales + 01/02/03. **Later Jul 11:** Foreign floor **$930** (asset `390754746354`); `$915` asset unlinked.
 
 Your June asset test priced this work at roughly a $23 CPA improvement. Build the full set — **only against real sitemap URLs** (`web/src/app/sitemap.ts`). No sitelink to a page that does not exist.
 

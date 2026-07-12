@@ -41,7 +41,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 📖 Full log: [session-history.md](../docs/session-history.md)
 
-Latest (Jul 9 2026): Gap fixes — Observation on 01/02/03; audiences+assets on 02/03; Sales RSA www; sitelink label; Begin checkout + phone ≥60s secondaries. Earlier: launch hygiene; `01` ENABLED; conversion flip; click-ID + EC.
+Latest (Jul 11 2026): Foreign qual formula pricing — `data/foreign-qualification-cogs.json` + Spiffy product catalog for all 50 states; live flats NJ/PA/FL/TX/CT aligned; ads RSAs + price asset updated. Earlier (Jul 9): Gap fixes — Observation on 01/02/03; audiences+assets on 02/03; Sales RSA www; sitelink label; Begin checkout + phone ≥60s secondaries.
 
 ## Session start
 

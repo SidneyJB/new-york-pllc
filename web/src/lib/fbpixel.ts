@@ -8,6 +8,19 @@ declare global {
   }
 }
 
+/** Wait for Meta pixel stub/script when loaded via lazyOnload. */
+export async function waitForFbq(timeoutMs = 4000): Promise<boolean> {
+  if (typeof window === 'undefined') return false
+  if (window.fbq) return true
+
+  const started = Date.now()
+  while (Date.now() - started < timeoutMs) {
+    await new Promise((resolve) => setTimeout(resolve, 50))
+    if (window.fbq) return true
+  }
+  return false
+}
+
 export const pageview = () => {
   if (typeof window === 'undefined' || !window.fbq) return;
   window.fbq('track', 'PageView');
@@ -29,4 +42,3 @@ export const event = (
 
   window.fbq('track', name, filteredOptions);
 };
-

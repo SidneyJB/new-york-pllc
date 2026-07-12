@@ -7,6 +7,7 @@ import { ORDER_LLC_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 import { PRICING } from '@/lib/constants'
 import { SpiffyLlcCheckout } from '@/components/spiffy/spiffy-llc-checkout'
+import { SpiffyScript } from '@/components/spiffy/spiffy-script'
 import { OrderPageClient } from '../order/order-client'
 
 export const metadata = ORDER_LLC_METADATA
@@ -14,6 +15,7 @@ export const metadata = ORDER_LLC_METADATA
 export default function OrderLlcPage() {
   return (
     <>
+      <SpiffyScript />
       <ScrollTracking />
       {/* Breadcrumb Structured Data */}
       <script

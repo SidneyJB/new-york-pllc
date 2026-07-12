@@ -1,6 +1,5 @@
-
 import type { Metadata } from 'next'
-import { Inter, JetBrains_Mono, Playfair_Display } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import { Suspense } from 'react'
 import { MainLayout } from '@/components/layout'
 import { Analytics } from '@vercel/analytics/next'
@@ -8,6 +7,7 @@ import { generateRootSchemas } from '@/lib/seo/structured-data'
 import { SEO_CONFIG } from '@/lib/seo/config'
 import { BingAdsTracking } from '@/components/analytics/bing-ads-tracking'
 import { MetaPixelEvents } from '@/components/analytics/meta-pixel-events'
+import { TawkOnGesture } from '@/components/analytics/tawk-on-gesture'
 import { ClickAttributionCapture } from '@/components/click-attribution/click-attribution-capture'
 import { PartnerReferralCapture } from '@/components/referral-attribution/partner-referral-capture'
 import { FB_PIXEL_ID } from '@/lib/fbpixel'
@@ -18,18 +18,6 @@ const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-inter',
-})
-
-const jetbrainsMono = JetBrains_Mono({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-jetbrains-mono',
-})
-
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-playfair',
 })
 
 // Root metadata for SEO
@@ -162,34 +150,15 @@ export default function RootLayout({
           }}
         />
 
-        {/* Tawk.to Chat Widget */}
-        <Script
-          id="tawk-script"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-              (function(){
-                var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-                s1.async=true;
-                s1.src='https://embed.tawk.to/68f940cd511129194ce113cc/1j86qa8he';
-                s1.charset='UTF-8';
-                s1.setAttribute('crossorigin','*');
-                s0.parentNode.insertBefore(s1,s0);
-              })();
-            `,
-          }}
-        />
-
-        {/* Bing Ads Universal Event Tracking */}
+        {/* Bing Ads Universal Event Tracking — deferred past LCP */}
         <BingAdsTracking />
 
-        {/* Meta Pixel Code */}
+        {/* Meta Pixel — deferred past LCP (Purchase waits for fbq on confirmation) */}
         {FB_PIXEL_ID && (
           <>
             <Script
               id="fb-pixel"
-              strategy="afterInteractive"
+              strategy="lazyOnload"
               dangerouslySetInnerHTML={{
                 __html: `
                   !function(f,b,e,v,n,t,s)
@@ -218,55 +187,7 @@ export default function RootLayout({
         )}
 
       </head>
-      <body className={`${inter.variable} ${jetbrainsMono.variable} ${playfair.variable} antialiased`}>
-        <Script
-          id="spiffy-script"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              "use strict";
-              !function(i,t){
-                var f=t.spiffy=t.spiffy||[];
-                if(!f.init){
-                  if(f.invoked){
-                    return void (t.console && console.warn && console.warn("Spiffy Elements included twice."));
-                  }
-                  f.invoked=!0;
-                  f.methods=["identify","config","debug","off","on"];
-                  f.factory=function(i){
-                    return function(){
-                      var t=Array.prototype.slice.call(arguments);
-                      t.unshift(i);
-                      return f.push(t),f;
-                    }
-                  };
-                  f.methods.forEach(function(i){spiffy[i]=f.factory(i)});
-                  f.load=function(t,f){
-                    if(!spiffy.ACCOUNT){
-                      spiffy.ACCOUNT=t;
-                      spiffy.DOMAIN=f;
-                      var e=i.createElement("script");
-                      e.type="text/javascript";
-                      e.async=!0;
-                      e.crossorigin="anonymous";
-                      e.src="https://js.static.spiffy.co/spiffy.js?a="+t;
-                      var n=i.getElementsByTagName("script")[0];
-                      n.parentNode.insertBefore(e,n);
-                    }
-                  };
-                }
-              }(document,window);
-              spiffy.SNIPPET_VERSION="1.1.0";
-              spiffy.config({
-                hideSidebar: false,
-                preserveUrlParams: true,
-                trackingEnabled: true,
-                autoIdentify: true,
-              });
-              spiffy.load("nypllc");
-            `,
-          }}
-        />
+      <body className={`${inter.variable} antialiased`}>
         {/* Structured Data for SEO */}
         <script
           type="application/ld+json"
@@ -279,6 +200,7 @@ export default function RootLayout({
         </Suspense>
         <PartnerReferralCapture />
         <ClickAttributionCapture />
+        <TawkOnGesture />
         <MainLayout>{children}</MainLayout>
         <Analytics />
       </body>

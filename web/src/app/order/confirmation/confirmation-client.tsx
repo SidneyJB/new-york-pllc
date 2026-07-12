@@ -73,12 +73,15 @@ export function OrderConfirmationClient({
         metadata,
       })
 
-      // Track Facebook Pixel Purchase event
-      fbq.event('Purchase', {
-        value: purchaseAmount,
-        currency: 'USD',
-        content_ids: [fbContentId],
-        content_type: 'product',
+      // Track Facebook Pixel Purchase (pixel may still be lazy-loading; don't block other trackers)
+      void fbq.waitForFbq().then((ready) => {
+        if (!ready) return
+        fbq.event('Purchase', {
+          value: purchaseAmount,
+          currency: 'USD',
+          content_ids: [fbContentId],
+          content_type: 'product',
+        })
       })
 
       // Track GA4 purchase event (for attribution by source: organic, direct, paid, etc.)

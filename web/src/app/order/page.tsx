@@ -8,12 +8,14 @@ import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 import { OrderFallbackCheckoutNotice } from './order-fallback-checkout-notice'
 import { OrderPageClient } from './order-client'
 import { SpiffyPllcCheckout } from '@/components/spiffy/spiffy-pllc-checkout'
+import { SpiffyScript } from '@/components/spiffy/spiffy-script'
 
 export const metadata = ORDER_METADATA
 
 export default function OrderPage() {
   return (
     <>
+      <SpiffyScript />
       <ScrollTracking />
       {/* Breadcrumb Structured Data */}
       <script

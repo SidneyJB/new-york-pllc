@@ -14,9 +14,10 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Next steps
 
 1. Daily 10-min monitor on `01_Core_Exact_NY` + `Sales-Search-1`. Enable `02_Professions_NY` ~Aug 3 (already on portfolio). `03` after Gate 1.
-2. **Parallel:** Customer Match UI upload; Auction Insights manual export; optional mobile LP (5.1)
-3. More foreign state landings / partner / SEO when tasked
-4. **Later (deferred):** offline conversion upload from CRM-stored click IDs
+2. **Parallel:** Customer Match UI upload; Auction Insights manual export
+3. **Mobile LP (§5.1) remaining:** sticky CTA, friction cut, tap-to-call, trust band — **speed budget (LCP) shipped Jul 12**. Remove mobile −20% only after mobile CVR ≥80% of desktop (30d)
+4. More foreign state landings / partner / SEO when tasked
+5. **Later (deferred):** offline conversion upload from CRM-stored click IDs
 
 ## Active decisions
 
@@ -42,7 +43,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 📖 Full log: [session-history.md](../docs/session-history.md)
 
-Latest (Jul 11 2026): Foreign qual formula pricing (`data/foreign-qualification-cogs.json` + Spiffy catalog; flats NJ/PA/FL/TX/CT; ads RSAs + price asset). Same day: search-term mining — `[form pllc new york]` exact on `01` Formation-Core; `"windsor corporate services"` → List C. Earlier (Jul 9): gap fixes; launch hygiene; `01` ENABLED; conversion flip.
+Latest (Jul 12 2026): Mobile LP speed budget — deferred Tawk/Meta/Bing/Spiffy + merged lazy gtag; lab LCP under 2.5s on `/`, `/order`, how-to. Earlier (Jul 11): foreign qual formula pricing + search-term mining. Earlier (Jul 9): gap fixes; launch hygiene; `01` ENABLED; conversion flip.
 
 ## Session start
 

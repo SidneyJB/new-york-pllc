@@ -2,6 +2,15 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-07-12 — Mobile LP speed budget (Ads §5.1 LCP)
+
+- Lab baseline (mobile Slow 4G): `/` LCP ~10.6s, `/order` ~11.3s, how-to ~10.9s — ~94% render delay from third-party JS (Tawk / dual gtag / Meta / global Spiffy)
+- Shipped: Tawk on first gesture; Meta + Bing `lazyOnload`; Spiffy script only on `/order` + `/order-llc`; idle-defer scroll/referral/click capture; drop unused JetBrains + Playfair `next/font`
+- Shipped: merge Ads+GA4 into one gtag load (`lazyOnload`); `waitForGtag` before Purchase / Begin checkout / GA4 purchase
+- Post-deploy lab (Slow 4G): `/` **2.4s**, `/order` **2.2s**, how-to **2.2s** (how-to 6.3s run was noise; re-run confirmed)
+- §5.1 still open: sticky mobile CTA, first-step friction cut, tap-to-call, trust band; keep mobile −20% until CVR gate (§3.6)
+- Commits: `347a4d4` (defer third parties) · `94ab32e` (merge/lazy gtag)
+
 ## 2026-07-11 — Google Ads search-term mining
 
 - Pulled 14d stats → `ads-pull-2026-07-11/` (~22 conv / $1.7k / 30d; `01` still 8 impr / $0)

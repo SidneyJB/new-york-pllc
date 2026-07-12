@@ -10,10 +10,10 @@ Embedded Spiffy.co checkout for $885 PLLC formation; Zapier emails on completion
 
 ## Key paths
 
-- Script: root `layout.tsx` (afterInteractive)
-- Embed: order page `<spiffy-checkout>` via `dangerouslySetInnerHTML`
+- Script: `SpiffyScript` on `/order` + `/order-llc` only (not root layout — LCP, Jul 12 2026)
+- Embed: order page `<spiffy-checkout>` via `createElement` in `spiffy-pllc-checkout.tsx` / `spiffy-llc-checkout.tsx`
 - Tracking: `useCheckoutTracking`, Spiffy `checkout.ready()` / `checkout.on()`
-- Confirmation: URL params → order id / purchase events
+- Confirmation: URL params → order id / purchase events (no Spiffy script required)
 
 ## Flow
 

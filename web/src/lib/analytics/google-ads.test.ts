@@ -2,7 +2,24 @@ import { describe, expect, it, vi, beforeEach, afterEach } from 'vitest'
 import {
   trackGoogleAdsBeginCheckout,
   trackGoogleAdsPurchase,
+  waitForGtag,
 } from './google-ads'
+
+describe('waitForGtag', () => {
+  afterEach(() => {
+    delete window.gtag
+  })
+
+  it('resolves true when gtag is already present', async () => {
+    window.gtag = vi.fn()
+    await expect(waitForGtag(100)).resolves.toBe(true)
+  })
+
+  it('resolves false when gtag never appears', async () => {
+    delete window.gtag
+    await expect(waitForGtag(120)).resolves.toBe(false)
+  })
+})
 
 describe('trackGoogleAdsBeginCheckout', () => {
   const gtag = vi.fn()
@@ -16,12 +33,19 @@ describe('trackGoogleAdsBeginCheckout', () => {
     delete window.gtag
   })
 
-  it('fires secondary Begin checkout conversion', () => {
-    trackGoogleAdsBeginCheckout()
+  it('fires secondary Begin checkout conversion', async () => {
+    await trackGoogleAdsBeginCheckout()
     expect(gtag).toHaveBeenCalledWith('event', 'conversion', {
       send_to: 'AW-17672972971/dWKtCIi5zM0cEKvVkOtB',
     })
   })
+
+  it('no-ops when gtag never loads', async () => {
+    delete window.gtag
+    await trackGoogleAdsBeginCheckout()
+    // waitForGtag times out; no conversion fired
+    expect(gtag).not.toHaveBeenCalled()
+  }, 6000)
 })
 
 describe('trackGoogleAdsPurchase', () => {

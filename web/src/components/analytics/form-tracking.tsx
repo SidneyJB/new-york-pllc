@@ -68,7 +68,7 @@ export function useCheckoutTracking(options?: CheckoutTrackingOptions) {
           entityType,
         })
         // Secondary Ads observation action — not used for bidding
-        trackGoogleAdsBeginCheckout()
+        void trackGoogleAdsBeginCheckout()
       }
     }
 

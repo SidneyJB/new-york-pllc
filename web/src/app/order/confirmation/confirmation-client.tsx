@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react'
 import { readSpiffyThankYouEmail } from '@/lib/analytics/enhanced-conversions'
-import { trackGoogleAdsPurchase } from '@/lib/analytics/google-ads'
+import { trackGoogleAdsPurchase, waitForGtag } from '@/lib/analytics/google-ads'
 import {
   buildSafePurchaseMetadata,
   parseSpiffyOrderId,
@@ -62,6 +62,13 @@ export function OrderConfirmationClient({
       // Allowlisted Spiffy params only (never SSN/DOB/email/address)
       const metadata = buildSafePurchaseMetadata(urlParams)
 
+      // Clear engagement keys now that values are captured (don't wait on lazy tags)
+      sessionStorage.removeItem('form_first_interaction_time')
+      sessionStorage.removeItem('form_last_interaction_time')
+      sessionStorage.removeItem('form_field_change_count')
+      sessionStorage.removeItem('form_order_change_time')
+      sessionStorage.removeItem('form_payment_method_selected_time')
+
       // Track purchase on confirmation page load with engagement metrics
       trackPurchase({
         value: purchaseAmount,
@@ -84,9 +91,9 @@ export function OrderConfirmationClient({
         })
       })
 
-      // Track GA4 purchase event (for attribution by source: organic, direct, paid, etc.)
-      if (typeof window !== 'undefined' && window.gtag) {
-        window.gtag('event', 'purchase', {
+      // GA4 + Google Ads purchase (merged gtag may still be lazy-loading)
+      if (await waitForGtag()) {
+        window.gtag?.('event', 'purchase', {
           transaction_id: orderId,
           value: purchaseAmount,
           currency: 'USD',
@@ -101,19 +108,11 @@ export function OrderConfirmationClient({
         })
       }
 
-      // Google Ads tagged purchase + Enhanced Conversions (hashed email when present)
       await trackGoogleAdsPurchase({
         value: purchaseAmount,
         transactionId: orderId,
         email: thankYouEmail,
       })
-
-      // Clean up engagement tracking session storage
-      sessionStorage.removeItem('form_first_interaction_time')
-      sessionStorage.removeItem('form_last_interaction_time')
-      sessionStorage.removeItem('form_field_change_count')
-      sessionStorage.removeItem('form_order_change_time')
-      sessionStorage.removeItem('form_payment_method_selected_time')
     })()
   }, [amount, plan, entityType, fbContentId])
 

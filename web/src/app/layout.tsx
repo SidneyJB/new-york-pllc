@@ -112,40 +112,22 @@ export default function RootLayout({
         <meta name="facebook-domain-verification" content="your-facebook-code-here" />
         <meta name="linkedin-verification-id" content="your-linkedin-code-here" /> */}
 
-        {/* Google Ads tag (gtag.js) */}
+        {/* Merged Google Ads + GA4 gtag — one library load, deferred past LCP.
+            Purchase / Begin checkout wait for window.gtag before firing. */}
         <Script
-          id="gtag-ads-src"
-          src="https://www.googletagmanager.com/gtag/js?id=AW-17672972971"
-          strategy="afterInteractive"
-        />
-        <Script
-          id="gtag-ads-init"
-          strategy="afterInteractive"
+          id="gtag"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', 'AW-17672972971');
-            `,
-          }}
-        />
-
-        {/* Google Analytics 4 (gtag.js) */}
-        <Script
-          id="gtag-ga4-src"
-          src="https://www.googletagmanager.com/gtag/js?id=G-X6Y3R8ZTXS"
-          strategy="afterInteractive"
-        />
-        <Script
-          id="gtag-ga4-init"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
               gtag('config', 'G-X6Y3R8ZTXS');
+              var s = document.createElement('script');
+              s.async = true;
+              s.src = 'https://www.googletagmanager.com/gtag/js?id=AW-17672972971';
+              document.head.appendChild(s);
             `,
           }}
         />

@@ -6,12 +6,27 @@ import { hashEmailForEnhancedConversions } from './enhanced-conversions'
  * Begin checkout: secondary observation only (id 7678925960) — not in Conversions / bidding.
  *
  * Enhanced Conversions: pass thank-you `email` when Spiffy includes it; hashed client-side.
+ *
+ * Site loads a merged gtag (Ads + GA4) via lazyOnload — wait before money/funnel events.
  */
 export const GOOGLE_ADS_PURCHASE_SEND_TO = 'AW-17672972971/w4sBCLyvmM0cEKvVkOtB'
 export const GOOGLE_ADS_BEGIN_CHECKOUT_SEND_TO = 'AW-17672972971/dWKtCIi5zM0cEKvVkOtB'
 
-export function trackGoogleAdsBeginCheckout(): void {
-  if (typeof window === 'undefined' || !window.gtag) return
+/** Wait for merged gtag stub/library when loaded via lazyOnload. */
+export async function waitForGtag(timeoutMs = 4000): Promise<boolean> {
+  if (typeof window === 'undefined') return false
+  if (window.gtag) return true
+
+  const started = Date.now()
+  while (Date.now() - started < timeoutMs) {
+    await new Promise((resolve) => setTimeout(resolve, 50))
+    if (window.gtag) return true
+  }
+  return false
+}
+
+export async function trackGoogleAdsBeginCheckout(): Promise<void> {
+  if (!(await waitForGtag()) || !window.gtag) return
   window.gtag('event', 'conversion', {
     send_to: GOOGLE_ADS_BEGIN_CHECKOUT_SEND_TO,
   })
@@ -22,7 +37,7 @@ export async function trackGoogleAdsPurchase(options: {
   transactionId?: string
   email?: string | null
 }): Promise<void> {
-  if (typeof window === 'undefined' || !window.gtag) return
+  if (!(await waitForGtag()) || !window.gtag) return
 
   const hashedEmail = await hashEmailForEnhancedConversions(options.email)
   if (hashedEmail) {

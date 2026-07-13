@@ -7,7 +7,15 @@ const GESTURE_EVENTS = ['pointerdown', 'keydown', 'touchstart', 'scroll'] as con
 
 declare global {
   interface Window {
-    Tawk_API?: Record<string, unknown>
+    Tawk_API?: {
+      customStyle?: {
+        visibility?: {
+          desktop?: { position?: string; xOffset?: number; yOffset?: number }
+          mobile?: { position?: string; xOffset?: number; yOffset?: number }
+        }
+      }
+      [key: string]: unknown
+    }
     Tawk_LoadStart?: Date
   }
 }
@@ -17,6 +25,21 @@ function loadTawk(): void {
   if (document.getElementById('tawk-script')) return
 
   window.Tawk_API = window.Tawk_API || {}
+  // Sit above the mobile sticky CTA (desktop unchanged).
+  window.Tawk_API.customStyle = {
+    visibility: {
+      desktop: {
+        position: 'br',
+        xOffset: 20,
+        yOffset: 0,
+      },
+      mobile: {
+        position: 'br',
+        xOffset: 12,
+        yOffset: 72,
+      },
+    },
+  }
   window.Tawk_LoadStart = new Date()
 
   const script = document.createElement('script')

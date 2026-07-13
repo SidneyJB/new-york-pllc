@@ -92,6 +92,13 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 
+  /* Reserve space for mobile sticky CTA when --mobile-sticky-cta-h is set */
+  @media (max-width: 767px) {
+    body {
+      padding-bottom: calc(var(--mobile-sticky-cta-h, 0px) + env(safe-area-inset-bottom, 0px));
+    }
+  }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-inter);
   }

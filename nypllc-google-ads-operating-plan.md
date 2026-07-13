@@ -417,10 +417,10 @@ CVR feeds the bidder's confidence, confident bidding wins more auctions cheaper,
 ### 5.1 Mobile fix spec (6.6% → target 9%+; 28% of spend converting at 57% of desktop)
 
 - **Speed budget (LCP) — done Jul 12 2026:** Lab mobile Slow 4G LCP now **&lt;2.5s** on `/`, `/order`, `/how-to-form-a-pllc-in-ny` (was ~10–11s). Root cause was third-party main-thread work (render delay), not hero images. Changes: Tawk after first gesture; Meta/Bing `lazyOnload`; Spiffy only on checkout routes; merged Ads+GA4 gtag `lazyOnload` + `waitForGtag` on Purchase/Begin checkout; idle-defer light client chrome; drop unused fonts. INP still lab-proxy only (TBT); field CrUX TBD.
-- Sticky bottom CTA bar on mobile: "Start My PLLC — $885" plus a tap-to-call link. *(open)*
+- **Sticky bottom CTA — done Jul 12 2026:** Mobile-only bar: “Start your PLLC — $885” + Call; hidden on checkout routes; reserves `--mobile-sticky-cta-h`; Tawk `yOffset` cleared above the bar. Call uses site `APP_CONFIG.phone` (swap to Ads call-asset forwarding number when measuring calls as secondary).
+- **Trust band + hero CTA — done Jul 12 2026:** Mobile-only above-fold trust (GBP rating · thousands formed · $885 flat); hero trust/CTA ordered above Includes; dropped broken “How it works”; primary CTA full-width / taller when alone.
 - Cut first-step friction: name / email / profession only, then hand off to Spiffy. *(open)*
-- Tap-to-call wired to the call asset's forwarding number so calls are measured (secondary conversion). *(open)*
-- Trust band above the fold: Google reviews (NYPLLC GBP **5★ / 6**) · "thousands formed" / site’s 25,000+ claim · flat-fee badge. *(open)*
+- Optional: wire sticky Call to Ads call-asset forwarding number for measured secondary conversions. *(open if number ≠ site phone)*
 
 ### 5.2 Test backlog (one at a time, ≥2 weeks or ≥100 conversions-worth of traffic each)
 
@@ -535,13 +535,13 @@ Gates are permission slips, not deadlines. Missing a gate by two weeks costs alm
 | Jul 20 | Daily 10-min monitoring on Core Exact + Sales-Search-1 |
 | Jul 27 | First formal weekly SOP · (02 already drafted Jul 9 — polish RSAs / prep enable) |
 | Aug 3 | **Launch 02_Professions** |
-| Aug 10 | Monitor · ✅ `03_ForeignQual` already drafted Jul 9 (PAUSED) — polish if needed · ✅ §5.1 **LCP speed budget shipped Jul 12** (early); remaining 5.1 UX items still open |
+| Aug 10 | Monitor · ✅ `03_ForeignQual` already drafted Jul 9 (PAUSED) — polish if needed · ✅ §5.1 LCP + sticky CTA + trust/hero CTA shipped Jul 12; remaining: friction cut · optional Ads call-forward number |
 | Aug 17 | **Gate 1** → launch 03_ForeignQual on pass |
 | Aug 24 – Sep 6 | Accumulate data · abandoned-checkout emails ship · Microsoft Ads account created |
 | Sep 7 | Gate 2 window opens |
 | Sep 14 | On pass: **demote → 04_Discovery_Broad** · ladder step 1 ($100) |
 | Sep 21 | Microsoft import + UET live (campaigns 01–03 only) |
-| Sep 28 – Oct 5 | Observe step 1 (14d/15conv) · finish remaining §5.1 UX · remove device modifier when 3.6 criteria met |
+| Sep 28 – Oct 5 | Observe step 1 (14d/15conv) · finish §5.1 friction cut if still open · remove device modifier when 3.6 criteria met |
 | Oct 10 | **Gate 3** → budgets up · ladder step 2 ($115) · optional DSA test |
 | Oct 17 – Nov 14 | Step 3 if marginal holds · CRO test #2 · **last structural change Nov 14** |
 | Nov 15 – Dec 1 | **FREEZE** (budgets and emergency negatives only) · Gate 4 on Dec 1 |

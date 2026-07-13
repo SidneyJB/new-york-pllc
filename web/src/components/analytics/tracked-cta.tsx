@@ -54,9 +54,16 @@ interface TrackedPhoneLinkProps {
   children: React.ReactNode
   location?: string
   className?: string
+  'aria-label'?: string
 }
 
-export function TrackedPhoneLink({ phone, children, location, className }: TrackedPhoneLinkProps) {
+export function TrackedPhoneLink({
+  phone,
+  children,
+  location,
+  className,
+  'aria-label': ariaLabel,
+}: TrackedPhoneLinkProps) {
   const handleClick = () => {
     trackPhoneClick({ location })
   }
@@ -66,6 +73,7 @@ export function TrackedPhoneLink({ phone, children, location, className }: Track
       href={`tel:${phone}`}
       onClick={handleClick}
       className={className}
+      aria-label={ariaLabel}
     >
       {children}
     </a>

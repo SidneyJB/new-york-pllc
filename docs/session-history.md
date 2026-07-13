@@ -2,14 +2,19 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-07-12 — Mobile LP §5.1 UX (sticky CTA / trust / hero)
+
+- Sticky bottom CTA (mobile-only): “Start your PLLC — $885” + Call; hidden on `/order` + `/order-llc`; body `--mobile-sticky-cta-h`; Tawk mobile `yOffset: 72`
+- Home hero: mobile trust band (5.0 on Google · Thousands formed · $885 flat); trust + CTA above Includes via flex order; removed broken “How it works” `#how-it-works` button; primary CTA full-width / taller on mobile
+- §5.1 still open: first-step friction cut (name/email/profession → Spiffy); Ads call-asset forwarding number if different from site phone; remove mobile −20% after CVR gate (§3.6)
+
 ## 2026-07-12 — Mobile LP speed budget (Ads §5.1 LCP)
 
 - Lab baseline (mobile Slow 4G): `/` LCP ~10.6s, `/order` ~11.3s, how-to ~10.9s — ~94% render delay from third-party JS (Tawk / dual gtag / Meta / global Spiffy)
 - Shipped: Tawk on first gesture; Meta + Bing `lazyOnload`; Spiffy script only on `/order` + `/order-llc`; idle-defer scroll/referral/click capture; drop unused JetBrains + Playfair `next/font`
 - Shipped: merge Ads+GA4 into one gtag load (`lazyOnload`); `waitForGtag` before Purchase / Begin checkout / GA4 purchase
 - Post-deploy lab (Slow 4G): `/` **2.4s**, `/order` **2.2s**, how-to **2.2s** (how-to 6.3s run was noise; re-run confirmed)
-- §5.1 still open: sticky mobile CTA, first-step friction cut, tap-to-call, trust band; keep mobile −20% until CVR gate (§3.6)
-- Commits: `347a4d4` (defer third parties) · `94ab32e` (merge/lazy gtag)
+- Commits: `347a4d4` (defer third parties) · `94ab32e` (merge/lazy gtag) · docs `d6560d8`
 
 ## 2026-07-11 — Google Ads search-term mining
 

@@ -1,5 +1,6 @@
 import { Navbar } from './navbar'
 import { Footer } from './footer'
+import { MobileStickyCta } from './mobile-sticky-cta'
 import { LayoutProps } from '@/types'
 
 interface MainLayoutProps extends LayoutProps {
@@ -14,6 +15,7 @@ export function MainLayout({ children, title, description }: MainLayoutProps) {
         {children}
       </main>
       <Footer />
+      <MobileStickyCta />
     </div>
   )
 }

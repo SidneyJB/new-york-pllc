@@ -27,6 +27,14 @@ describe('TawkOnGesture', () => {
       expect(script?.src).toContain('embed.tawk.to')
     })
 
+    expect(window.Tawk_API?.customStyle).toEqual(
+      expect.objectContaining({
+        visibility: expect.objectContaining({
+          mobile: expect.objectContaining({ yOffset: 72 }),
+        }),
+      }),
+    )
+
     window.dispatchEvent(new Event('pointerdown'))
     expect(document.querySelectorAll('#tawk-script')).toHaveLength(1)
   })

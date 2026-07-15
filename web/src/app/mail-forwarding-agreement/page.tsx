@@ -146,20 +146,37 @@ export default function MailForwardingAgreementPage() {
                 <div className="space-y-3 text-foreground">
                   <div>
                     <p className="font-medium mb-1">4.1 Cancellation.</p>
-                    <p className="leading-relaxed">
-                      The Customer may terminate this Agreement at any time via written notice.
+                    <p className="leading-relaxed mb-2">
+                      The Customer may terminate this Agreement at any time via written notice; however, cancellation is not complete until the Customer has removed the Provider&apos;s address as the Customer&apos;s business and/or principal executive office address on file with the New York Department of State (&quot;NY DOS&quot;). To cancel, the Customer must complete one of the following:
+                    </p>
+                    <ol className="list-decimal list-inside ml-4 space-y-2">
+                      <li>
+                        File an address change with NY DOS reflecting a new address that is not the Provider&apos;s address, and provide proof of that filing to the Provider; or
+                      </li>
+                      <li>
+                        Have the Provider complete the NY DOS address-change filing on the Customer&apos;s behalf for a fee of $199.00.
+                      </li>
+                    </ol>
+                    <p className="leading-relaxed mt-2">
+                      Until one of the above is completed, the Customer remains responsible for the Fixed Subscription Fee and all other applicable charges under this Agreement.
                     </p>
                   </div>
                   <div>
-                    <p className="font-medium mb-1">4.2 Post-Termination Mail.</p>
+                    <p className="font-medium mb-1">4.2 Missed Payment; Default Address Change.</p>
+                    <p className="leading-relaxed">
+                      If any monthly subscription payment is missed, the Customer will have thirty (30) days from the missed payment date to do one of the following: (1) file an address change with NY DOS and provide proof to the Provider; (2) have the Provider complete the filing for $199.00; or (3) reinstate service by curing the missed payment(s) and bringing the account current. If the Customer does not complete one of these options within that thirty-day period, the Provider will, by default, file an address change with NY DOS so that the Customer&apos;s business address on file is the Customer&apos;s home address (or other personal address) on file with the Provider. The Customer authorizes the Provider to make such filing.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="font-medium mb-1">4.3 Post-Termination Mail.</p>
                     <p className="leading-relaxed">
                       Mail received after the termination date will not be immediately Returned to Sender. The Provider will hold such mail for a period of 30 days.
                     </p>
                   </div>
                   <div>
-                    <p className="font-medium mb-1">4.3 Holding Fee.</p>
+                    <p className="font-medium mb-1">4.4 Holding Fee.</p>
                     <p className="leading-relaxed">
-                      To release and forward mail received after termination, the Customer must pay a Reactivation/Holding Fee of $50.00 plus all applicable postage costs. If the fee is not paid within the 30-day holding period, mail will be discarded or returned to sender at the Provider's discretion.
+                      To release and forward mail received after termination, the Customer must pay a Reactivation/Holding Fee of $50.00 plus all applicable postage costs. If the fee is not paid within the 30-day holding period, mail will be discarded or returned to sender at the Provider&apos;s discretion.
                     </p>
                   </div>
                 </div>

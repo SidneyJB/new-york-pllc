@@ -1,0 +1,5 @@
+campaign.name,campaign.status,campaign_budget.amount_micros,campaign.bidding_strategy,bidding_strategy.name,bidding_strategy.type,campaign.target_cpa.target_cpa_micros
+Sales-Search-1,ENABLED,500000000,customers/1529880213/biddingStrategies/12148056412,NYPLLC Search Portfolio,TARGET_CPA,0
+03_ForeignQual_US,PAUSED,15000000,,,UNSPECIFIED,0
+02_Professions_NY,PAUSED,25000000,customers/1529880213/biddingStrategies/12148056412,NYPLLC Search Portfolio,TARGET_CPA,0
+01_Core_Exact_NY,ENABLED,45000000,customers/1529880213/biddingStrategies/12148056412,NYPLLC Search Portfolio,TARGET_CPA,0

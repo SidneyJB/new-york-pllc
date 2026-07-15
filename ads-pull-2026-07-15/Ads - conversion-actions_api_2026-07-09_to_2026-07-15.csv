@@ -1,0 +1,12 @@
+segments.date,campaign.name,segments.conversion_action,segments.conversion_action_name,metrics.conversions,metrics.conversions_by_conversion_date,metrics.all_conversions,metrics.conversions_value,metrics.all_conversions_value
+2026-07-09,Sales-Search-1,customers/1529880213/conversionActions/7353506045,Purchase (Page load www.nypllc.com/order/confirmation),1.0,1.0,2.0,1.0,2.0
+2026-07-09,Sales-Search-1,customers/1529880213/conversionActions/7678072764,Purchase (Spiffy thank-you value),1.0,1.0,2.0,935.0,1820.0
+2026-07-09,Sales-Search-1,customers/1529880213/conversionActions/7678925960,Begin checkout (Spiffy embed),0.0,0.0,1.0,0.0,0.0
+2026-07-11,01_Core_Exact_NY,customers/1529880213/conversionActions/7678925960,Begin checkout (Spiffy embed),0.0,0.0,1.0,0.0,0.0
+2026-07-13,Sales-Search-1,customers/1529880213/conversionActions/7678072764,Purchase (Spiffy thank-you value),0.0,1.0,0.0,0.0,0.0
+2026-07-14,Sales-Search-1,customers/1529880213/conversionActions/7353506045,Purchase (Page load www.nypllc.com/order/confirmation),0.0,0.0,1.0,0.0,1.0
+2026-07-14,Sales-Search-1,customers/1529880213/conversionActions/7678072764,Purchase (Spiffy thank-you value),1.0,1.0,1.0,885.0,885.0
+2026-07-14,Sales-Search-1,customers/1529880213/conversionActions/7678925960,Begin checkout (Spiffy embed),0.0,0.0,1.111278,0.0,0.0
+2026-07-15,Sales-Search-1,customers/1529880213/conversionActions/7353506045,Purchase (Page load www.nypllc.com/order/confirmation),0.0,0.0,1.0,0.0,1.0
+2026-07-15,Sales-Search-1,customers/1529880213/conversionActions/7678072764,Purchase (Spiffy thank-you value),1.0,1.0,1.0,885.0,885.0
+2026-07-15,Sales-Search-1,customers/1529880213/conversionActions/7678925960,Begin checkout (Spiffy embed),0.0,0.0,1.888722,0.0,0.0

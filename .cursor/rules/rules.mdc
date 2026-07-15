@@ -201,3 +201,7 @@ Start[Update Process]
 - Keep each file under ~150 lines (shards ~60 lines)
 
 REMEMBER: After every memory reset, I begin completely fresh. The Memory Bank provides the overview I need to start each session. Detailed documentation in `docs/` provides the depth I need when working on specific tasks. This two-tier system keeps memory bank files manageable while preserving all information in organized reference docs.
+
+## Clickable file links
+
+When pointing the user at a local file, always use a markdown / `file://` link — never a bare path. See `.cursor/rules/clickable-file-links.mdc`.

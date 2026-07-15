@@ -1,0 +1,20 @@
+---
+description: Always give clickable markdown links to local files, never bare paths
+alwaysApply: true
+---
+
+# Clickable file links
+
+When pointing the user at a local file (PDF, CSV, script output, generated artifact, etc.), **always** use a real markdown link they can open — never a bare path string.
+
+```markdown
+<!-- ❌ BAD -->
+web/out/report.csv
+
+<!-- ✅ GOOD -->
+[report.csv](file:///Users/sidneybrodsky/Dev/pllc-business/new-york-pllc/web/out/report.csv)
+```
+
+- Prefer `file://` absolute paths for local artifacts.
+- Repo-relative markdown links (`[label](path/from/repo)`) are fine when the client resolves them; still must be markdown links, not plain text.
+- Same rule for directories and any path you expect the user to open.

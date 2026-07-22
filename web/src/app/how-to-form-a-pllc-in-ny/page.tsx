@@ -232,7 +232,11 @@ export default function DIYGuideTestPage() {
               </li>
             </ul>
             <p className="text-base leading-7 text-foreground mb-4">
-              End-to-end, a realistic window—from starting your OP packet to having a fully formed, published PLLC with proof—can easily span several months. Any rejection or defect at any stage adds more time.
+              End-to-end, a realistic window from starting your OP packet to having a fully formed, published PLLC with proof can easily span several months. Any rejection or defect at any stage adds more time. For a dedicated 2026 timeline with live NYSED numbers, see{' '}
+              <Link href="/how-long-to-form-a-pllc-in-ny" className="text-primary underline underline-offset-2 font-medium">
+                how long it takes to form a PLLC in NY
+              </Link>
+              .
             </p>
             <p className="text-base leading-7 text-foreground">
               For current typical OP wait times from filings we handle, see{' '}

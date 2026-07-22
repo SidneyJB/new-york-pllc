@@ -10,7 +10,7 @@ Canonical **www.nypllc.com** with Next metadata API, JSON-LD, sitemap, and Verce
 
 ## Operating plan
 
-📖 [NYPLLC SEO / Content Moat — Operating Plan v1](../../nypllc-seo-content-moat-plan.md) — organic growth engine: five content pillars, first-90-days editorial map, technical foundation, links/PR, AI-search positioning, gates S1–S3 (Jul 2026 → mid-2027). Companion to [Ads Plan v2](../../nypllc-google-ads-operating-plan.md). Coordinate profession-page edits with the ads change log; no publishing-only CTAs. **No publication-cost-by-county page/tool** — all formations publish in Rockland only (that's the cheap statewide package). AI-assisted ship-fast posture; no hour/day build estimates. Shipped moat pages (local, not necessarily deployed): `/nysed-approval-times`, `/ny-pllc-cost`.
+📖 [NYPLLC SEO / Content Moat — Operating Plan v1](../../nypllc-seo-content-moat-plan.md) — organic growth engine: five content pillars, first-90-days editorial map, technical foundation, links/PR, AI-search positioning, gates S1–S3 (Jul 2026 → mid-2027). Companion to [Ads Plan v2](../../nypllc-google-ads-operating-plan.md). Coordinate profession-page edits with the ads change log; no publishing-only CTAs. **No publication-cost-by-county page/tool** — all formations publish in Rockland only (that's the cheap statewide package). AI-assisted ship-fast posture; no hour/day build estimates. Shipped moat pages: `/nysed-approval-times`, `/ny-pllc-cost`, `/how-long-to-form-a-pllc-in-ny`.
 
 ## Key paths
 

@@ -13,7 +13,7 @@
 | Title/meta pass (~25 money/foreign pages) | **Shipped** | Profession + foreign titles/descriptions; `metadata.ts` + layout title.template double-suffix fix; logged in ads change log. |
 | ★ #1 NYSED Approval Time Tracker (`/nysed-approval-times`) | **Shipped** | Manual CRM refresh via `PLLC-CRM/crm/scripts/report-nysed-approval-times.ts` → `web/src/lib/nysed-approval-times/data.ts`. Overall typical wait ~56 days (2026). Dataset + Breadcrumb schema; sitemap/footer/DIY/FAQ/cost links. No public formation counts. Monthly static regen (not live API). |
 | #3 NY PLLC Cost: Complete 2026 Breakdown (`/ny-pllc-cost`) | **Shipped** | Fee table (DOS Articles/Cert Pub **with 24-hour expedite**, certified copy **included**, DBA **$199**); Rockland cost story; competitor framing (national packages → thousands; we ~$200 cheaper). Article + FAQ + Breadcrumb schema; sitemap/footer/DIY/FAQ/NYSED links. |
-| ★ #2 How Long Does It Take to Form a PLLC in NY? | Not started | Next editorial priority after the three above. |
+| ★ #2 How Long Does It Take to Form a PLLC in NY? (`/how-long-to-form-a-pllc-in-ny`) | **Shipped** | Pulls live NYSED days from tracker data; stage table; end-to-end ~3.5–5 months; Article + FAQ schema; footer/sitemap/DIY/FAQ/cost/tracker links. |
 | Open items closed this ship | — | Tracker refresh = monthly static (item 3). Site pages ship via Next app router (item 2 confirmed in practice). |
 
 ---
@@ -46,7 +46,7 @@
 Priority order; ★ = contains proprietary data (non-negotiable for these):
 
 1. ★ NYSED PLLC Approval Times: Live Tracker — **SHIPPED Jul 22** → `/nysed-approval-times` (manual monthly data refresh; not auto-query)
-2. How Long Does It Take to Form a PLLC in NY? ★ (real 2026 numbers) — next
+2. How Long Does It Take to Form a PLLC in NY? ★ — **SHIPPED Jul 22** → `/how-long-to-form-a-pllc-in-ny` (real 2026 NYSED numbers + stage calendar)
 3. NY PLLC Cost: Complete 2026 Breakdown — **SHIPPED Jul 22** → `/ny-pllc-cost` (every fee, exact — include Rockland publication as the reason the flat fee works statewide)
 4. ★ The 10 Most Common NYSED OP Deficiencies (and fixes)
 5. PLLC vs LLC in New York for Licensed Professionals
@@ -145,8 +145,8 @@ Incrementality honesty: some organic orders would have arrived via ads anyway. J
 | Window | Actions |
 |---|---|
 | Wk of Jul 6 | GA4 + GSC verified (shared with ads plan) · indexation audit · title/meta pass begins · rank tracking on 20 terms |
-| Wk of Jul 13–22 | **Done:** title/meta pass · ★ tracker `#1` · cost breakdown `#3` shipped · post-deploy: GSC URL inspect |
-| Jul 23 – Aug 31 | 2/wk cadence starting with piece `#2` (how long to form) then `#4`+ · name checker ships · first podcast pitches ride along with B2B outreach |
+| Wk of Jul 13–22 | **Done:** title/meta pass · ★ tracker `#1` · cost `#3` · how-long `#2` · post-deploy: GSC URL inspect |
+| Jul 23 – Aug 31 | 2/wk cadence starting with piece `#4` (OP deficiencies) then `#5`+ · name checker ships · first podcast pitches ride along with B2B outreach |
 | Sep | Pieces 15–19 · S Corp calculator (shared with Revenue Levers) · first quarterly data study drafted |
 | Oct 15 | **Gate S1** · data-study PR push (20–30 pitches) |
 | Nov–Dec | Cadence continues (SEO has no freeze window — content ships right through the ads freeze) · December: formation-season content refresh ("start your practice in 2027" angles) |
@@ -160,4 +160,4 @@ Incrementality honesty: some organic orders would have arrived via ads anyway. J
 3. ~~Tracker data-refresh mechanism~~ — **monthly static** (`report-nysed-approval-times.ts` → paste into `data.ts`). Not live API.
 4. Legal-tone review pass: content explains processes and publishes data; it never gives individualized legal advice. One standing disclaimer component, applied everywhere. *(Cost + tracker pages already carry short disclaimers.)*
 5. Choose the rank-tracking tool (anything cheap; 20 terms).
-6. Post-deploy: request indexing in GSC for `/nysed-approval-times` and `/ny-pllc-cost`; spot-check rich results.
+6. Post-deploy: request indexing in GSC for `/nysed-approval-times`, `/ny-pllc-cost`, and `/how-long-to-form-a-pllc-in-ny`; spot-check rich results.

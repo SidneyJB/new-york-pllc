@@ -6,38 +6,7 @@ export function Footer() {
   return (
     <footer className="bg-muted/50 border-t">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
-          {/* Brand Column */}
-          <div className="col-span-1 md:col-span-2 lg:col-span-2">
-            <div className="flex flex-col sm:flex-row items-start gap-6">
-              <Link href="/" className="inline-block flex-shrink-0 self-start -mt-10">
-                <Image
-                  src="/logo.png"
-                  alt="Business Filing Solutions - New York PLLC formation"
-                  width={600}
-                  height={600}
-                  className="h-72 w-auto mix-blend-darken"
-                />
-              </Link>
-              <div className="text-sm text-muted-foreground">
-                <p className="font-medium text-foreground mb-1">Contact Information</p>
-                <p>{BUSINESS_INFO.legalName}</p>
-                <p>{BUSINESS_INFO.address.street}</p>
-                <p>{BUSINESS_INFO.address.city}, {BUSINESS_INFO.address.state} {BUSINESS_INFO.address.zipCode}</p>
-                <p className="mt-2">
-                  <a href={`mailto:${APP_CONFIG.supportEmail}`} className="hover:text-foreground transition-colors">
-                    {APP_CONFIG.supportEmail}
-                  </a>
-                </p>
-                <p>
-                  <a href={`tel:${APP_CONFIG.phone}`} className="hover:text-foreground transition-colors">
-                    {APP_CONFIG.phone}
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {/* Services */}
           <div>
             <h3 className="font-semibold text-foreground mb-4">Services</h3>
@@ -80,6 +49,21 @@ export function Footer() {
                   className="text-muted-foreground hover:text-foreground text-sm transition-colors"
                 >
                   Partner Program
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Resources */}
+          <div>
+            <h3 className="font-semibold text-foreground mb-4">Resources</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link
+                  href="/how-long-to-form-a-pllc-in-ny"
+                  className="text-muted-foreground hover:text-foreground text-sm transition-colors"
+                >
+                  How Long to Form a PLLC
                 </Link>
               </li>
               <li>
@@ -151,6 +135,44 @@ export function Footer() {
                 </li>
               ))}
             </ul>
+          </div>
+        </div>
+
+        {/* Logo + contact */}
+        <div className="mt-10 border-t pt-8 flex flex-col sm:flex-row items-center justify-center gap-6 text-center sm:text-left">
+          <Link href="/" className="inline-block flex-shrink-0">
+            <Image
+              src="/logo.png"
+              alt="Business Filing Solutions - New York PLLC formation"
+              width={600}
+              height={600}
+                  className="h-72 w-auto mix-blend-darken"
+            />
+          </Link>
+          <div className="text-sm text-muted-foreground">
+            <p className="font-medium text-foreground mb-1">Contact Information</p>
+            <p>{BUSINESS_INFO.legalName}</p>
+            <p>{BUSINESS_INFO.address.street}</p>
+            <p>
+              {BUSINESS_INFO.address.city}, {BUSINESS_INFO.address.state}{' '}
+              {BUSINESS_INFO.address.zipCode}
+            </p>
+            <p className="mt-2">
+              <a
+                href={`mailto:${APP_CONFIG.supportEmail}`}
+                className="hover:text-foreground transition-colors"
+              >
+                {APP_CONFIG.supportEmail}
+              </a>
+            </p>
+            <p>
+              <a
+                href={`tel:${APP_CONFIG.phone}`}
+                className="hover:text-foreground transition-colors"
+              >
+                {APP_CONFIG.phone}
+              </a>
+            </p>
           </div>
         </div>
 

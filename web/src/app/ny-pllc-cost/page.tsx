@@ -321,15 +321,22 @@ export default function NyPllcCostPage() {
           <section className="space-y-4 text-base leading-7 text-foreground">
             <h2 className="text-2xl font-bold tracking-tight">Timeline note</h2>
             <p>
-              NYSED pre-approval is usually the long wait (often 8–12 weeks in guidance; see our{' '}
+              NYSED pre-approval is usually the long wait (see our{' '}
               <Link
                 href="/nysed-approval-times"
                 className="text-primary underline underline-offset-2"
               >
                 live typical waits
               </Link>
-              ), then six weeks of publication. Starting early is the main lever if you have a practice
-              open date. Delays from defects usually mean paying a fee again.
+              ), then six weeks of publication. Full stage-by-stage calendar:{' '}
+              <Link
+                href="/how-long-to-form-a-pllc-in-ny"
+                className="text-primary underline underline-offset-2"
+              >
+                how long to form a PLLC in NY
+              </Link>
+              . Starting early is the main lever if you have a practice open date. Delays from defects
+              usually mean paying a fee again.
             </p>
           </section>
 

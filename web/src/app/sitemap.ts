@@ -223,6 +223,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/how-long-to-form-a-pllc-in-ny`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/nysed-approval-times`,
       lastModified: new Date(),
       changeFrequency: 'monthly',

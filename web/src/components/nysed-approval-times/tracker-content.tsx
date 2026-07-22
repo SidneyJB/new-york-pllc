@@ -189,6 +189,13 @@ export function TrackerContent({ data }: TrackerContentProps) {
           <p>
             Related:{' '}
               <Link
+                href="/how-long-to-form-a-pllc-in-ny"
+                className="text-primary underline underline-offset-2"
+              >
+                how long to form a PLLC in NY
+              </Link>
+              {' · '}
+              <Link
                 href="/how-to-form-a-pllc-in-ny"
                 className="text-primary underline underline-offset-2"
               >

@@ -6,12 +6,12 @@ import { Badge } from '@/components/ui/badge'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { Shield, ClipboardList, FileCheck2, Newspaper, Stethoscope, Users, CheckCircle, ArrowRight } from 'lucide-react'
-import { PRICING, APP_CONFIG } from '@/lib/constants'
+import { PRICING } from '@/lib/constants'
 import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
-  title: `Form a New York Physician PLLC (Medicine PLLC) | ${APP_CONFIG?.name || 'New York PLLC'}`,
-  description: `Physician PLLC formation for New York MD/DOs. NYSED State Board for Medicine pre-approval, telehealth-aware purpose language, MSO-friendly governance, compliant naming, precise filings, six-week publication, EIN + bank-ready docs — flat $${PRICING.basePrice}.`,
+  title: `New York Physician PLLC (MD/DO) — $${PRICING.basePrice} Flat | NYPLLC`,
+  description: `Physician PLLC formation for NY MD/DOs. NYSED pre-approval, telehealth-aware purpose language, MSO-friendly governance, six-week publication — flat $${PRICING.basePrice}.`,
   keywords: [
     'Physician PLLC New York',
     'Medicine PLLC NY',

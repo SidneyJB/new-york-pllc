@@ -7,6 +7,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Current sprint
 
 - **Google Ads Phase 0** — **conversion flip done Jul 9.** Tagged Purchase `7678072764` primary; page-load `7353506045` secondary. See [features/google-ads.md](features/google-ads.md) · [operating plan](../nypllc-google-ads-operating-plan.md)
+- **SEO / content moat** — [nypllc-seo-content-moat-plan.md](../nypllc-seo-content-moat-plan.md). **NYSED approval times** at `/nysed-approval-times` (manual CRM refresh via `report-nysed-approval-times.ts`). **Cost breakdown** at `/ny-pllc-cost` (wired Jul 22; not pushed/deployed yet). See [features/seo-and-domain.md](features/seo-and-domain.md)
 - **Phase 1 live (Jul 9):** `01_Core_Exact_NY` **ENABLED** on portfolio tCPA $90. `02_Professions_NY` on portfolio but **PAUSED** (enable ~Aug 3). `03_ForeignQual_US` PAUSED, unattached (Gate 1). `Sales-Search-1` still ENABLED on same portfolio.
 - Expand **foreign-into-NY** state page coverage beyond NJ/PA/FL/TX/CT as needed
 - Ops fulfillment lives in **PLLC-CRM** (sibling repo) — not this codebase

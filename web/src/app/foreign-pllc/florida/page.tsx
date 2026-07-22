@@ -54,7 +54,7 @@ const content: StateForeignQualificationContent = {
     {
       question: 'Can my Florida entity use the same legal name in New York?',
       answer:
-        'Sometimes, but not always. A name accepted in Florida may still fail New York professional naming rules. If needed, we can file a New York Certificate of Assumed Name for $109.',
+        'Sometimes, but not always. A name accepted in Florida may still fail New York professional naming rules. If needed, we can file a New York Certificate of Assumed Name for $199.',
     },
     {
       question: 'What if my Florida entity is just a regular LLC?',
@@ -80,9 +80,9 @@ const content: StateForeignQualificationContent = {
 }
 
 export const metadata: Metadata = {
-  title: `Florida PLLC or PC Foreign Qualification in New York`,
+  title: `Florida PLLC/PC Foreign Qualification in NY | NYPLLC`,
   description:
-    'Qualify your Florida professional LLC, PLLC, or PC to do business in New York. Foreign PLLC and foreign PC filing help for licensed professionals. Starting at $930.',
+    'Qualify your Florida professional LLC, PLLC, or PC for New York. NYSED authority, DOS filing, 6-week publication handled end-to-end. Starting at $930.',
   keywords: [
     'Florida PLLC foreign qualification New York',
     'Florida professional LLC do business in NY',

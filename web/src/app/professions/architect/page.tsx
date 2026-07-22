@@ -17,13 +17,13 @@ import {
   CheckCircle,
   ArrowRight,
 } from 'lucide-react'
-import { PRICING, APP_CONFIG } from '@/lib/constants'
+import { PRICING } from '@/lib/constants'
 import { SEO_CONFIG } from '@/lib/seo/config'
 import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
-  title: `Form a New York Architecture PLLC (Architecture & Landscape Architecture) | ${APP_CONFIG?.name || 'New York PLLC'}`,
-  description: `Architecture PLLC formation for New York firms and sole practitioners — including Landscape Architecture. NYSED pre-approval (State Board for Architecture & Landscape Architecture), compliant naming, precise Articles, required six-week publication, EIN + bank-ready docs — flat $${PRICING.basePrice}.`,
+  title: `New York Architecture PLLC — $${PRICING.basePrice} Flat | NYPLLC`,
+  description: `Architecture and landscape architecture PLLC formation for NY firms and solo practitioners. NYSED pre-approval, compliant naming, six-week publication — flat $${PRICING.basePrice}.`,
   keywords: [
     'Architecture PLLC New York',
     'Architect PLLC formation NY',

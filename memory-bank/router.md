@@ -27,7 +27,7 @@ Listing shard filenames (e.g. via glob) is optional; reading their contents is n
 |---------------|------|
 | Analytics, Vercel track, GA4, purchase, scroll depth, UTM, Bing UET | [features/analytics-tracking.md](features/analytics-tracking.md) |
 | Spiffy, checkout, order page, payment form, engagement | [features/spiffy-checkout.md](features/spiffy-checkout.md) |
-| SEO, metadata, sitemap, canonical, domain, www.nypllc.com | [features/seo-and-domain.md](features/seo-and-domain.md) |
+| SEO, metadata, sitemap, canonical, domain, www.nypllc.com, content moat, organic, GSC, Search Console | [features/seo-and-domain.md](features/seo-and-domain.md) → [SEO content moat plan](../nypllc-seo-content-moat-plan.md) |
 | Profession page, dentist, CPA, veterinarian, NYSED profession | [features/profession-pages.md](features/profession-pages.md) |
 | Foreign, foreign-into-NY, qualify into NY, /foreign-pllc | [features/foreign-into-ny.md](features/foreign-into-ny.md) |
 | Partner, B2B, referral, coupon, /partners, ?c= | [features/partner-referral.md](features/partner-referral.md) |
@@ -53,4 +53,4 @@ Listing shard filenames (e.g. via glob) is optional; reading their contents is n
 
 ## Deep reference (not memory bank)
 
-📖 [Session history](../docs/session-history.md) · [Analytics reference](../docs/analytics-tracking.md) · [Spiffy checkout](../docs/spiffy-checkout.md) · [SEO & domain](../docs/seo-and-domain.md) · [Tailwind v4](../docs/tailwind-v4.md) · [Google Ads operating plan](../nypllc-google-ads-operating-plan.md)
+📖 [Session history](../docs/session-history.md) · [Analytics reference](../docs/analytics-tracking.md) · [Spiffy checkout](../docs/spiffy-checkout.md) · [SEO & domain](../docs/seo-and-domain.md) · [Tailwind v4](../docs/tailwind-v4.md) · [Google Ads operating plan](../nypllc-google-ads-operating-plan.md) · [SEO / content moat plan](../nypllc-seo-content-moat-plan.md)

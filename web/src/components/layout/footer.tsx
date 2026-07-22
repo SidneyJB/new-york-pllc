@@ -82,6 +82,30 @@ export function Footer() {
                   Partner Program
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/nysed-approval-times"
+                  className="text-muted-foreground hover:text-foreground text-sm transition-colors"
+                >
+                  NYSED Approval Times
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/ny-pllc-cost"
+                  className="text-muted-foreground hover:text-foreground text-sm transition-colors"
+                >
+                  NY PLLC Cost Breakdown
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/how-to-form-a-pllc-in-ny"
+                  className="text-muted-foreground hover:text-foreground text-sm transition-colors"
+                >
+                  How to Form a PLLC (DIY)
+                </Link>
+              </li>
             </ul>
           </div>
 

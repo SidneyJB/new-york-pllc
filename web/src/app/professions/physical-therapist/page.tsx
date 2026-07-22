@@ -6,12 +6,12 @@ import { Badge } from '@/components/ui/badge'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { Shield, ClipboardList, FileCheck2, Newspaper, Activity, Users, CheckCircle, ArrowRight } from 'lucide-react'
-import { PRICING, APP_CONFIG } from '@/lib/constants'
+import { PRICING } from '@/lib/constants'
 import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
-  title: `Form a New York Physical Therapy PLLC (PT PLLC) | ${APP_CONFIG?.name || 'New York PLLC'}`,
-  description: `Physical Therapy PLLC formation for NY PTs. NYSED State Board for Physical Therapy pre-approval, direct-access-aware purpose language, compliant naming, precise filings, six-week publication, EIN + bank-ready docs — flat $${PRICING.basePrice}. Built for clinic, mobile/home health, or performance settings.`,
+  title: `New York Physical Therapy PLLC (PT) — $${PRICING.basePrice} | NYPLLC`,
+  description: `Physical Therapy PLLC formation for NY PTs. NYSED pre-approval, direct-access-aware purpose language, six-week publication, EIN — flat $${PRICING.basePrice}.`,
   keywords: [
     'Physical Therapy PLLC New York',
     'PT PLLC formation NY',

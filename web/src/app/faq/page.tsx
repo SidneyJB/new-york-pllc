@@ -215,6 +215,11 @@ export default function FAQPage() {
                         The New York State Education Department (NYSED) must review and approve professional
                         entities before they can be formed. This mandatory preapproval process adds 2-3 months
                         to the formation timeline and is required for most licensed professional practices.
+                        See our live tracker for{' '}
+                        <Link href="/nysed-approval-times" className="text-primary underline underline-offset-2 font-medium">
+                          typical NYSED approval times
+                        </Link>
+                        .
                       </p>
                     </CardContent>
                   </Card>
@@ -454,7 +459,7 @@ export default function FAQPage() {
                       </p>
                       <ul className="list-disc list-inside text-muted-foreground space-y-1">
                         <li>NYSED preapproval process</li>
-                        <li>PLLC formation and filing</li>
+                        <li>PLLC formation and filing (including DOS certified copy)</li>
                         <li>Federal tax ID (EIN)</li>
                         <li>Free first year registered agent service</li>
                         <li>Operating agreement (required in NY)</li>
@@ -462,6 +467,13 @@ export default function FAQPage() {
                         <li>Certificate of Publication filing</li>
                         <li>Status updates throughout the process</li>
                       </ul>
+                      <p className="mt-4 text-sm text-muted-foreground">
+                        For a fee-by-fee breakdown, see{' '}
+                        <Link href="/ny-pllc-cost" className="text-primary underline underline-offset-2 font-medium">
+                          NY PLLC cost: complete 2026 breakdown
+                        </Link>
+                        .
+                      </p>
                       <p className="mt-4 text-sm">
                         <Link href="/order" className="text-primary underline underline-offset-2 font-medium">
                           Ready to get started? Order now for $885

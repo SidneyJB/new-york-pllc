@@ -6,12 +6,12 @@ import { Badge } from '@/components/ui/badge'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { Brain, Shield, ClipboardList, FileCheck2, Newspaper, Users, CheckCircle, ArrowRight } from 'lucide-react'
-import { PRICING, APP_CONFIG } from '@/lib/constants'
+import { PRICING } from '@/lib/constants'
 import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
-  title: `Form a New York Psychology PLLC (Psychologist PLLC) | ${APP_CONFIG?.name || 'New York PLLC'}`,
-  description: `Psychology PLLC formation for NY psychologists. NYSED State Board for Psychology pre-approval, assessment/testing-aware purpose language, compliant naming, precise filings, six-week publication, EIN + bank-ready docs — flat $${PRICING.basePrice}. Built for psychotherapy, assessment, neuropsych, and telepsychology within NY.`,
+  title: `New York Psychology PLLC Formation — $${PRICING.basePrice} Flat | NYPLLC`,
+  description: `Psychology PLLC formation for NY psychologists. NYSED pre-approval, assessment/testing-aware purpose language, six-week publication, EIN — flat $${PRICING.basePrice}.`,
   keywords: [
     'Psychology PLLC New York',
     'Psychologist PLLC formation NY',

@@ -6,12 +6,12 @@ import { Badge } from '@/components/ui/badge'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { Shield, ClipboardList, FileCheck2, Newspaper, Heart, Users, MessageSquare, CheckCircle, ArrowRight } from 'lucide-react'
-import { PRICING, APP_CONFIG } from '@/lib/constants'
+import { PRICING } from '@/lib/constants'
 import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
-  title: `Form a New York LCSW PLLC (Clinical Social Work PLLC) | ${APP_CONFIG?.name || 'New York PLLC'}`,
-  description: `LCSW PLLC formation for New York therapists. NYSED State Board for Social Work pre-approval, teletherapy-friendly purpose language, supervision-ready governance, compliant naming, precise filings, six-week publication, EIN + bank-ready docs — flat $${PRICING.basePrice}.`,
+  title: `New York LCSW PLLC Formation — $${PRICING.basePrice} Flat | NYPLLC`,
+  description: `LCSW PLLC formation for NY therapists. NYSED pre-approval, teletherapy-friendly purpose language, supervision-ready governance, six-week publication — flat $${PRICING.basePrice}.`,
   keywords: [
     'LCSW PLLC New York',
     'LCSW PLLC formation NY',

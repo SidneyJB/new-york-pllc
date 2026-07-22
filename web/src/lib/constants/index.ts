@@ -10,6 +10,8 @@ export const APP_CONFIG = {
 
 export const PRICING = {
   basePrice: 885,
+  /** Certificate of Assumed Name / DBA filing service */
+  assumedNamePrice: 199,
   currency: 'USD',
   includesPublishing: true,
   features: [

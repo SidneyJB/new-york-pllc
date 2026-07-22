@@ -22,11 +22,13 @@ const inter = Inter({
 
 // Root metadata for SEO
 export const metadata: Metadata = {
-  title: {
-    default: 'NY PLLC Formation | Professional LLC Services New York',
-    template: '%s | NY PLLC Formation',
-  },
-  description: 'Form your New York Professional Limited Liability Company (PLLC) for $885 including all publishing requirements. Fast, simple, and compliant PLLC formation for licensed professionals.',
+  // NOTE (Jul 22 2026 title/meta pass): `template` intentionally omitted.
+  // Every page already sets its own full, brand-suffixed title string; a
+  // template here silently appended "| NY PLLC Formation" a second time to
+  // every child route's <title> (confirmed via rendered HTML). `default`
+  // still covers the root route and any future page that omits metadata.
+  title: 'NY PLLC Formation — $885 Flat, Publishing Included | NYPLLC',
+  description: 'Form your New York PLLC for $885 flat — DOS filing, required 6-week publication, and EIN included. Fast, compliant formation for licensed professionals.',
   keywords: [
     'NY PLLC formation',
     'New York PLLC',
@@ -69,8 +71,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     siteName: 'New York PLLC Formation Service',
-    title: 'NY PLLC Formation | Professional LLC Services New York',
-    description: 'Form your New York Professional Limited Liability Company (PLLC) for $885 including all publishing requirements. Fast, simple, and compliant PLLC formation for licensed professionals.',
+    title: 'NY PLLC Formation — $885 Flat, Publishing Included | NYPLLC',
+    description: 'Form your New York PLLC for $885 flat — DOS filing, required 6-week publication, and EIN included. Fast, compliant formation for licensed professionals.',
     images: [{
       url: new URL(SEO_CONFIG.socialImage, SEO_CONFIG.siteUrl).toString(),
       width: 1200,
@@ -80,8 +82,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NY PLLC Formation | Professional LLC Services New York',
-    description: 'Form your New York Professional Limited Liability Company (PLLC) for $885 including all publishing requirements.',
+    title: 'NY PLLC Formation — $885 Flat, Publishing Included | NYPLLC',
+    description: 'Form your New York PLLC for $885 flat — DOS filing, required 6-week publication, and EIN included.',
     images: [new URL(SEO_CONFIG.socialImage, SEO_CONFIG.siteUrl).toString()],
     creator: '@nypllc',
   },

@@ -18,13 +18,13 @@ import {
   CheckCircle,
   ArrowRight,
 } from 'lucide-react'
-import { PRICING, APP_CONFIG } from '@/lib/constants'
+import { PRICING } from '@/lib/constants'
 import { SEO_CONFIG } from '@/lib/seo/config'
 import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
-  title: `Form a New York Engineering PLLC (Professional Engineer PLLC) | ${APP_CONFIG?.name || 'New York PLLC'}`,
-  description: `Engineering PLLC formation for New York Professional Engineers (PE). NYSED State Board for Engineering & Land Surveying pre-approval, discipline-accurate purpose language, compliant naming, precise Articles, required six-week publication, EIN + bank-ready documents — flat $${PRICING.basePrice}.`,
+  title: `New York Engineering PLLC (PE) — $${PRICING.basePrice} Flat | NYPLLC`,
+  description: `Engineering PLLC formation for NY Professional Engineers (PE). NYSED pre-approval, discipline-accurate purpose language, six-week publication, EIN — flat $${PRICING.basePrice}.`,
   keywords: [
     'Engineering PLLC New York',
     'Professional Engineer PLLC NY',

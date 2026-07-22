@@ -6,12 +6,12 @@ import { Badge } from '@/components/ui/badge'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { Shield, ClipboardList, FileCheck2, Newspaper, Heart, Users, CheckCircle, ArrowRight } from 'lucide-react'
-import { PRICING, APP_CONFIG } from '@/lib/constants'
+import { PRICING } from '@/lib/constants'
 import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
-  title: `Form a New York Dental PLLC | ${APP_CONFIG?.name || 'New York PLLC'}`,
-  description: `Dental PLLC formation built for dentists. NYSED pre-approval, specialty-accurate naming, precise filings, six-week publishing, EIN + bank-ready docs — all for $${PRICING.basePrice}.`,
+  title: `New York Dental PLLC Formation — $${PRICING.basePrice} Flat | NYPLLC`,
+  description: `Dental PLLC formation for NY dentists. NYSED pre-approval, specialty-accurate naming, precise filings, six-week publishing, EIN — flat $${PRICING.basePrice}.`,
   keywords: [
     'dental PLLC formation',
     'New York dentist PLLC',

@@ -4,6 +4,7 @@
 **Prepared:** July 5, 2026
 **Horizon:** July 2026 → February 2027 (through first full high season), with standing systems that continue after
 **Prime directive:** The existing campaign is never deleted and never paused without a gate decision. Everything in this plan is additive and reversible.
+**Companion:** [SEO / Content Moat Plan v1](nypllc-seo-content-moat-plan.md) — organic co-lead engine; coordinate LP/profession-page edits via shared change log.
 
 ---
 
@@ -183,7 +184,7 @@ Your June asset test priced this work at roughly a $23 CPA improvement. Build th
 
 **Structured snippets:** Services: PLLC Formation, NYSED Approval, DOS Filing, Publication, EIN, Operating Agreement, S Corp Election, Registered Agent. (Snippet values do not need their own landing pages.) Replace the live wrong **Amenities** snippet.
 
-**Price assets:** Only offers with real final URLs. **Ship:** PLLC Formation $885 → `/order` · Virtual Address $50/mo → `/virtual-address-services`. **Defer** S Corp $195 / DBA $109 / RA $99/yr until those have dedicated (or clearly sectioned) landing URLs — do not invent pages. Current live price asset only restates $885 three ways; replace with the multi-offer set above when ready.
+**Price assets:** Only offers with real final URLs. **Ship:** PLLC Formation $885 → `/order` · Virtual Address $50/mo → `/virtual-address-services`. **Defer** S Corp $195 / DBA $199 / RA $99/yr until those have dedicated (or clearly sectioned) landing URLs — do not invent pages. Current live price asset only restates $885 three ways; replace with the multi-offer set above when ready.
 
 **Call asset:** business hours schedule, call reporting on (already on). **Business name + logo:** verify; drop auto 32×32 if a real logo is linked. **Image assets:** 3–4 office/skyline/document imagery — no stock-photo handshakes; audit existing “group of profs” / BFS logos.
 

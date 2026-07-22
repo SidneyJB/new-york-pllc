@@ -6,12 +6,12 @@ import { Badge } from '@/components/ui/badge'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { Shield, ClipboardList, FileCheck2, Newspaper, Heart, Users, CheckCircle, ArrowRight } from 'lucide-react'
-import { PRICING, APP_CONFIG } from '@/lib/constants'
+import { PRICING } from '@/lib/constants'
 import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
-  title: `Form a New York Massage Therapy PLLC (LMT PLLC) | ${APP_CONFIG?.name || 'New York PLLC'}`,
-  description: `Massage Therapy PLLC formation for New York LMTs. NYSED State Board for Massage Therapy pre-approval, mobile/on-site friendly purpose language, compliant naming, precise filings, six-week publication, EIN + bank-ready docs — flat $${PRICING.basePrice}.`,
+  title: `New York Massage Therapy PLLC (LMT) — $${PRICING.basePrice} | NYPLLC`,
+  description: `Massage Therapy PLLC formation for NY LMTs. NYSED pre-approval, mobile/on-site friendly purpose language, six-week publication, EIN — flat $${PRICING.basePrice}.`,
   keywords: [
     'Massage Therapy PLLC New York',
     'LMT PLLC NY',

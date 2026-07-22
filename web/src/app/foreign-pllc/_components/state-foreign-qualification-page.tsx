@@ -5,6 +5,7 @@ import { Badge } from '@/components/ui/badge'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ForeignStateSelector } from './foreign-state-selector'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
+import { PRICING } from '@/lib/constants'
 import { SEO_CONFIG } from '@/lib/seo/config'
 import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
 import { ArrowRight, FileCheck2, MapPin, Shield } from 'lucide-react'
@@ -288,7 +289,8 @@ export function StateForeignQualificationPage({ content }: { content: StateForei
                   operate under a compliant NY-facing name.
                 </p>
                 <p>
-                  DBA / Certificate of Assumed Name: <strong className="text-foreground">$109</strong>. This is not
+                  DBA / Certificate of Assumed Name:{' '}
+                  <strong className="text-foreground">{`$${PRICING.assumedNamePrice}`}</strong>. This is not
                   included in the foreign qualification price unless specifically quoted.
                 </p>
               </CardContent>

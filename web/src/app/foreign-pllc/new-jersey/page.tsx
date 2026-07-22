@@ -59,7 +59,7 @@ const content: StateForeignQualificationContent = {
     {
       question: 'Will I need a DBA or assumed name in New York?',
       answer:
-        'Possibly. If the New Jersey legal name does not comply with New York professional naming rules, we can file a New York Certificate of Assumed Name. The assumed-name service is $109.',
+        'Possibly. If the New Jersey legal name does not comply with New York professional naming rules, we can file a New York Certificate of Assumed Name. The assumed-name service is $199.',
     },
     {
       question: 'Does the price include publication?',
@@ -75,9 +75,9 @@ const content: StateForeignQualificationContent = {
 }
 
 export const metadata: Metadata = {
-  title: `New Jersey PLLC or PC Foreign Qualification in New York`,
+  title: `New Jersey PLLC/PC Foreign Qualification in NY | NYPLLC`,
   description:
-    'Qualify your New Jersey professional LLC, PLLC, or PC to do business in New York. Foreign PLLC and foreign PC filing help for licensed professionals. Starting at $995.',
+    'Qualify your New Jersey professional LLC, PLLC, or PC for New York. NYSED authority, DOS filing, 6-week publication handled end-to-end. Starting at $995.',
   keywords: [
     'New Jersey PLLC foreign qualification New York',
     'New Jersey professional LLC do business in NY',

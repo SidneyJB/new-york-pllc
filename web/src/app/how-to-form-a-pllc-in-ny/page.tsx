@@ -7,8 +7,8 @@ import { generateMetadata } from '@/lib/seo/metadata'
 import { DIY_PLLC_HOWTO, generateBreadcrumbSchema, generateArticleSchema } from '@/lib/seo/structured-data'
 
 export const metadata = generateMetadata({
-  title: 'How to Form a New York PLLC | Complete DIY Guide',
-  description: 'Complete do-it-yourself guide to forming a New York PLLC including Office of the Professions approval, Department of State filing, and the 6-week publication requirement. Step-by-step instructions for licensed professionals.',
+  title: 'How to Form a PLLC in New York (2026 Guide) | NYPLLC',
+  description: 'Step-by-step DIY guide to forming a New York PLLC: NYSED Office of the Professions approval, DOS filing, and the 6-week publication requirement.',
   keywords: [
     'New York PLLC DIY guide',
     'how to form NY PLLC',
@@ -198,7 +198,11 @@ export default function DIYGuideTestPage() {
               </li>
             </ul>
             <p className="text-base leading-7 text-foreground">
-              Our flat $885 service saves you significant money compared to DIY, especially when you factor in publication costs that can exceed $1,000 in some counties. Beyond the cost savings, you also avoid the risk of re-paying for rejected filings or rerun publication, and the cost of delays to your practice.
+              Our flat $885 service saves you significant money compared to DIY, especially when you factor in publication costs that can exceed $1,000 in some counties. Beyond the cost savings, you also avoid the risk of re-paying for rejected filings or rerun publication, and the cost of delays to your practice. For a full fee-by-fee breakdown, see{' '}
+              <Link href="/ny-pllc-cost" className="text-primary underline underline-offset-2 font-medium">
+                NY PLLC cost: complete 2026 breakdown
+              </Link>
+              .
             </p>
           </section>
 
@@ -227,8 +231,15 @@ export default function DIYGuideTestPage() {
                 </ul>
               </li>
             </ul>
-            <p className="text-base leading-7 text-foreground">
+            <p className="text-base leading-7 text-foreground mb-4">
               End-to-end, a realistic window—from starting your OP packet to having a fully formed, published PLLC with proof—can easily span several months. Any rejection or defect at any stage adds more time.
+            </p>
+            <p className="text-base leading-7 text-foreground">
+              For current typical OP wait times from filings we handle, see{' '}
+              <Link href="/nysed-approval-times" className="text-primary underline underline-offset-2 font-medium">
+                how long NYSED takes to approve a PLLC
+              </Link>
+              .
             </p>
           </section>
 

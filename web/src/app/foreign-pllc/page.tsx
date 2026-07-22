@@ -6,13 +6,12 @@ import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ForeignStateChooser } from './_components/foreign-state-chooser'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { Shield, ClipboardList, FileCheck2, Newspaper, Users, CheckCircle } from 'lucide-react'
-import { APP_CONFIG } from '@/lib/constants'
 import { generateBreadcrumbSchema, generateFAQSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
-  title: `Foreign-Qualify Your PLLC in New York | ${APP_CONFIG?.name || 'New York PLLC'}`,
+  title: `Foreign-Qualify Your PLLC in New York | NYPLLC`,
   description:
-    'Already have a PLLC? We foreign-qualify it for New York. NYSED Certificate of Authority, DOS Application for Authority (§1306), six-week publication, and compliant naming/ownership, handled end-to-end.',
+    'Already formed out of state? We foreign-qualify your PLLC for New York — NYSED authority, DOS filing, compliant naming, required publication, end-to-end.',
   keywords: [
     'foreign qualification PLLC New York',
     'qualify out-of-state PLLC in NY',

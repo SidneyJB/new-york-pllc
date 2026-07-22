@@ -1,6 +1,6 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-07-11
+**Last updated:** 2026-07-22
 
 ## Account
 
@@ -8,6 +8,23 @@
 - Live: `Sales-Search-1` + `01_Core_Exact_NY` (ENABLED)
 - Portfolio-attached PAUSED: `02_Professions_NY`
 - Unattached PAUSED: `03_ForeignQual_US`
+
+---
+
+## Changes on 2026-07-22 — Site title/meta pass (SEO/content-moat plan, no ad copy changes)
+
+Source: [nypllc-seo-title-meta-pass-proposals.md](../nypllc-seo-title-meta-pass-proposals.md) audit + implementation. **Metadata-only** — `<title>` and meta description tags. **No on-page body copy, headlines, CTAs, or ad creative changed.** Logged here because the profession pages and `/foreign-pllc` (hub + 5 states) are live ad-group landing pages (`02_Professions_NY`, `03_ForeignQual_US`).
+
+| Change | Detail |
+|---|---|
+| Bug fix | Root layout `title.template` was silently appending `"\| NY PLLC Formation"` a **second time** to every non-home page's rendered `<title>` (e.g. LCSW page rendered `...\| NY PLLC Formation \| NY PLLC Formation`). Removed the template; each page's own title now renders as authored. |
+| Brand suffix standardized | `"\| NY PLLC Formation"` / no-suffix → `"\| NYPLLC"` site-wide (shorter, matches plan's stated house style, leaves more character budget before SERP truncation). |
+| Descriptions shortened | Nearly every page's meta description was well past Google's ~155–160 char snippet limit (home 215, DIY guide 224, profession pages avg. ~230, some 250–283) — meaning `$885` was being truncated out of the visible snippet on most profession pages. All rewritten to ~130–160 chars with the price preserved near the front. |
+| Profession pages (19) | `web/src/app/professions/*/page.tsx` — new titles pattern `"{Profession} PLLC — $885 [Flat] \| NYPLLC"`; new descriptions keep NYSED pre-approval / naming / publication / EIN language, all $885 pulled from `PRICING.basePrice` (no hardcoded price literals added). Removed now-unused `APP_CONFIG` import (was only used for the old title suffix). |
+| Foreign-qual pages (6) | `web/src/app/foreign-pllc/{page.tsx,connecticut,florida,new-jersey,pennsylvania,texas}/page.tsx` — added missing `\| NYPLLC` brand suffix; descriptions tightened. **Per-state prices unchanged and verified**: CT $1000, NJ $995, PA $995, FL $930, TX $930 — hub and state pages do **not** mention $885 (that's the NY-formation price, not foreign-qualification pricing). |
+| Other pages | `web/src/lib/seo/metadata.ts` (home, about, FAQ, contact, order, order-llc, virtual-address-services, mail-forwarding-agreement, partners, privacy, terms, disclaimer) and `web/src/app/how-to-form-a-pllc-in-ny/page.tsx` — titles/descriptions updated per the same proposals file. `web/src/app/layout.tsx` root `openGraph`/`twitter` defaults updated to match new home title/description. |
+| Verified | `tsc --noEmit` clean; `next lint` clean (no new warnings); dev-server curl check confirmed rendered `<title>`/`<meta name="description">` on home, FAQ, LCSW, architect, Texas foreign-qual, and foreign-pllc hub match proposals with no double-suffix and no $885 leakage onto foreign-qual pages. |
+| Not changed | Page body copy, on-page headlines, CTAs, ad RSAs/assets in the Google Ads account, `/nysed-approval-times` draft, `drafts/ny-pllc-cost-complete-2026-breakdown.md`. |
 
 ---
 

@@ -15,13 +15,13 @@ import {
   CheckCircle,
   ArrowRight,
 } from 'lucide-react'
-import { PRICING, APP_CONFIG } from '@/lib/constants'
+import { PRICING } from '@/lib/constants'
 import { SEO_CONFIG } from '@/lib/seo/config'
 import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
-  title: `Form a New York Pharmacy PLLC | ${APP_CONFIG?.name || 'New York PLLC'}`,
-  description: `Pharmacy PLLC formation built for New York pharmacists. NYSED pre-approval, practice-specific naming, precise filings, six-week publishing, EIN + bank-ready docs — all for $${PRICING.basePrice}.`,
+  title: `New York Pharmacy PLLC Formation — $${PRICING.basePrice} Flat | NYPLLC`,
+  description: `Pharmacy PLLC formation for NY pharmacists. NYSED pre-approval, practice-specific naming, precise filings, six-week publishing, EIN — flat $${PRICING.basePrice}.`,
   keywords: [
     'pharmacy PLLC formation New York',
     'New York pharmacist PLLC',

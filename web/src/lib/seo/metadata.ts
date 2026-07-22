@@ -102,8 +102,8 @@ export function generateMetadata({
 
 // Page-specific metadata configurations
 export const HOME_METADATA = generateMetadata({
-  title: 'NY PLLC Formation | Professional LLC Services New York',
-  description: 'Form your New York Professional Limited Liability Company (PLLC) for $885 including all publishing requirements. Fast, simple, and compliant PLLC formation for licensed professionals like doctors, lawyers, and CPAs.',
+  title: 'NY PLLC Formation — $885 Flat, Publishing Included | NYPLLC',
+  description: 'Form your New York PLLC for $885 flat — DOS filing, required 6-week publication, and EIN included. Fast, compliant formation for licensed professionals.',
   keywords: [
     'NY PLLC formation',
     'New York PLLC',
@@ -118,8 +118,8 @@ export const HOME_METADATA = generateMetadata({
 
 
 export const FAQ_METADATA = generateMetadata({
-  title: 'PLLC Formation FAQ | New York Professional LLC Questions',
-  description: 'Complete guide to New York PLLC formation questions. Learn about publishing requirements, professional licenses, timelines, and costs for forming your professional LLC in NY.',
+  title: 'New York PLLC Formation FAQ | NYPLLC',
+  description: 'Answers to the most common New York PLLC questions: publishing requirements, professional licensing, timelines, and the $885 flat cost.',
   keywords: [
     'PLLC formation FAQ',
     'New York PLLC questions',
@@ -131,8 +131,8 @@ export const FAQ_METADATA = generateMetadata({
 })
 
 export const CONTACT_METADATA = generateMetadata({
-  title: 'Contact NY PLLC Formation | Professional LLC Support',
-  description: 'Get help with your New York PLLC formation. Contact our professional support team for questions about PLLC requirements, publishing, and professional licensing in New York.',
+  title: 'Contact NYPLLC | NY PLLC Formation Support',
+  description: 'Questions about NY PLLC formation, NYSED approval, publishing, or your order? Contact our support team — we reply fast and know the process cold.',
   keywords: [
     'PLLC formation contact',
     'NY PLLC support',
@@ -143,8 +143,8 @@ export const CONTACT_METADATA = generateMetadata({
 })
 
 export const ORDER_METADATA = generateMetadata({
-  title: 'Order NY PLLC Formation | Start Your Professional LLC',
-  description: 'Order your New York PLLC formation service for $885. Complete the secure form to start your professional LLC formation including all required publishing and state filings.',
+  title: 'Order Your NY PLLC — $885 Flat | NYPLLC',
+  description: 'Start your New York PLLC formation for $885 flat — DOS filing, required publication, and EIN included. Secure order form, no hidden fees.',
   keywords: [
     'order PLLC formation',
     'buy NY PLLC',
@@ -155,8 +155,8 @@ export const ORDER_METADATA = generateMetadata({
 })
 
 export const ORDER_LLC_METADATA = generateMetadata({
-  title: 'Order NY LLC Formation | Start Your New York LLC',
-  description: 'Order your New York LLC formation service. Complete the secure form to start your LLC formation including state filing and the mandatory publication requirement.',
+  title: 'Order Your NY LLC Formation | NYPLLC',
+  description: 'Start your New York LLC formation online. Secure order form covers state filing and the mandatory 6-week publication requirement.',
   keywords: [
     'order LLC formation',
     'buy NY LLC',
@@ -167,8 +167,8 @@ export const ORDER_LLC_METADATA = generateMetadata({
 })
 
 export const ABOUT_METADATA = generateMetadata({
-  title: 'About NY PLLC Formation | Professional LLC Experts',
-  description: 'Learn about our New York PLLC formation service. We specialize in professional LLC formation for licensed professionals including doctors, lawyers, CPAs, and architects in New York.',
+  title: 'About NYPLLC | NY PLLC Formation Experts',
+  description: 'NYPLLC specializes in New York professional LLC (PLLC) formation for doctors, lawyers, CPAs, architects, and other licensed professionals statewide.',
   keywords: [
     'about PLLC formation',
     'NY PLLC service',
@@ -179,26 +179,26 @@ export const ABOUT_METADATA = generateMetadata({
 })
 
 export const PRIVACY_METADATA = generateMetadata({
-  title: 'Privacy Policy | NY PLLC Formation Service',
-  description: 'Privacy policy for New York PLLC Formation Service. Learn how we protect your personal information during the PLLC formation process.',
+  title: 'Privacy Policy | NYPLLC',
+  description: 'How NYPLLC collects, uses, and protects your personal information during New York PLLC formation. Read our full privacy policy.',
   canonical: '/privacy',
 })
 
 export const TERMS_METADATA = generateMetadata({
-  title: 'Terms of Service | NY PLLC Formation',
-  description: 'Terms of service for New York PLLC Formation Service. Read our service terms, guarantees, and conditions for professional LLC formation in New York.',
+  title: 'Terms of Service | NYPLLC',
+  description: 'Terms of service for NYPLLC formation orders: service scope, guarantees, refunds, and conditions for New York PLLC formation.',
   canonical: '/terms',
 })
 
 export const DISCLAIMER_METADATA = generateMetadata({
-  title: 'Legal Disclaimer | NY PLLC Formation Service',
-  description: 'Important legal disclaimer for New York PLLC Formation Service. We provide administrative filing services, not legal advice.',
+  title: 'Legal Disclaimer | NYPLLC',
+  description: 'NYPLLC provides administrative filing services, not legal advice. Read our full legal disclaimer before ordering PLLC formation.',
   canonical: '/disclaimer',
 })
 
 export const VIRTUAL_ADDRESS_SERVICES_METADATA = generateMetadata({
-  title: 'Virtual Address Services | Business Address & Registered Agent New York',
-  description: 'Professional virtual address and registered agent services for your business. Get a New York business address, weekly mail forwarding, and registered agent service for $50/month.',
+  title: 'NY Virtual Address & Registered Agent — $50/mo | NYPLLC',
+  description: 'Get a New York business address, weekly mail forwarding, and registered agent service for $50/month. Built for PLLC and LLC owners statewide.',
   keywords: [
     'virtual address service',
     'business address New York',
@@ -214,15 +214,15 @@ export const VIRTUAL_ADDRESS_SERVICES_METADATA = generateMetadata({
 })
 
 export const MAIL_FORWARDING_AGREEMENT_METADATA = generateMetadata({
-  title: 'Mail Forwarding & Registered Agent Service Agreement | Terms & Conditions',
-  description: 'Complete terms and conditions for our mail forwarding and registered agent services. Service agreement covering mail forwarding, registered agent service, fees, and billing.',
+  title: 'Mail Forwarding & Registered Agent Agreement | NYPLLC',
+  description: 'Terms and conditions for NYPLLC mail forwarding and registered agent services, including fees, billing, and forwarding schedule.',
   canonical: '/mail-forwarding-agreement',
 })
 
 export const PARTNERS_METADATA = generateMetadata({
-  title: 'Partner Program | NY PLLC Formation Referral & White-Label Desk',
+  title: 'Partner Program | Referral & White-Label Desk | NYPLLC',
   description:
-    'Refer licensed professionals to our NY PLLC formation, foreign qualification, virtual address, and registered agent desk. B2B referral and white-label partnerships only.',
+    'Refer licensed professionals to our NY PLLC formation, foreign qualification, and virtual address desk. B2B referral and white-label partnerships.',
   keywords: [
     'PLLC formation partner program',
     'white label PLLC formation',

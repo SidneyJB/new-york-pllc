@@ -6,12 +6,12 @@ import { Badge } from '@/components/ui/badge'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { Shield, ClipboardList, FileCheck2, Newspaper, Heart, Users, MessageSquare, CheckCircle, ArrowRight } from 'lucide-react'
-import { PRICING, APP_CONFIG } from '@/lib/constants'
+import { PRICING } from '@/lib/constants'
 import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
-  title: `Form a New York LMHC PLLC (Mental Health Counselor PLLC) | ${APP_CONFIG?.name || 'New York PLLC'}`,
-  description: `LMHC PLLC formation in New York for Licensed Mental Health Counselors. NYSED pre-approval (Mental Health Practitioners), compliant naming, precise Articles, six-week publication, EIN + operating agreement — flat $${PRICING.basePrice}. Built for private practice and teletherapy in NY.`,
+  title: `New York LMHC PLLC Formation — $${PRICING.basePrice} Flat | NYPLLC`,
+  description: `LMHC PLLC formation for NY Mental Health Counselors. NYSED pre-approval, compliant naming, six-week publication, EIN + operating agreement — flat $${PRICING.basePrice}.`,
   keywords: [
     'LMHC PLLC formation New York',
     'MHC PLLC formation NY',

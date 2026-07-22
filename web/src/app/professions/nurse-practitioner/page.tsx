@@ -6,13 +6,13 @@ import { Badge } from '@/components/ui/badge'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { Shield, ClipboardList, FileCheck2, Newspaper, Stethoscope, Users, CheckCircle, ArrowRight, HeartPulse } from 'lucide-react'
-import { PRICING, APP_CONFIG } from '@/lib/constants'
+import { PRICING } from '@/lib/constants'
 import { SEO_CONFIG } from '@/lib/seo/config'
 import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
-  title: `Form a New York Nurse Practitioner PLLC (NP PLLC) | ${APP_CONFIG?.name || 'New York PLLC'}`,
-  description: `NP PLLC formation for New York Nurse Practitioners — Family Health, Psychiatry/Mental Health, Adult-Gerontology, Pediatrics, Women’s Health, Acute Care, and more. NYSED pre-approval, compliant naming, precise filings, six-week publication, EIN + bank-ready docs — flat $${PRICING.basePrice}.`,
+  title: `New York Nurse Practitioner PLLC (NP) — $${PRICING.basePrice} | NYPLLC`,
+  description: `NP PLLC formation for NY Nurse Practitioners — Family, Psych/MH, Adult-Geri, Pediatric, and more. NYSED pre-approval, six-week publication, EIN — flat $${PRICING.basePrice}.`,
   keywords: [
     'Nurse Practitioner PLLC New York',
     'NP PLLC NY',

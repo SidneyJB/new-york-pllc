@@ -6,12 +6,12 @@ import { Badge } from '@/components/ui/badge'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { Shield, ClipboardList, FileCheck2, Newspaper, Heart, Users, MessageSquare, CheckCircle, ArrowRight } from 'lucide-react'
-import { PRICING, APP_CONFIG } from '@/lib/constants'
+import { PRICING } from '@/lib/constants'
 import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
-  title: `Form a New York Speech-Language Pathology PLLC (SLP PLLC) | ${APP_CONFIG?.name || 'New York PLLC'}`,
-  description: `SLP PLLC formation for New York speech-language pathologists. NYSED State Board for Speech-Language Pathology & Audiology pre-approval, telepractice-friendly purpose language, compliant naming, precise filings, six-week publication, EIN + bank-ready docs — flat $${PRICING.basePrice}.`,
+  title: `NY Speech-Language Pathology PLLC — $${PRICING.basePrice} | NYPLLC`,
+  description: `SLP PLLC formation for NY speech-language pathologists. NYSED pre-approval, telepractice-friendly purpose language, six-week publication, EIN — flat $${PRICING.basePrice}.`,
   keywords: [
     'SLP PLLC New York',
     'Speech-Language Pathology PLLC NY',

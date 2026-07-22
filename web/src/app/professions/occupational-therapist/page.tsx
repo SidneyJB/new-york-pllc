@@ -6,12 +6,12 @@ import { Badge } from '@/components/ui/badge'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { Shield, ClipboardList, FileCheck2, Newspaper, Activity, Users, CheckCircle, ArrowRight, Heart } from 'lucide-react'
-import { PRICING, APP_CONFIG } from '@/lib/constants'
+import { PRICING } from '@/lib/constants'
 import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceSchema } from '@/lib/seo/structured-data'
 
 export const metadata: Metadata = {
-  title: `Form a New York Occupational Therapy PLLC (OT PLLC) | ${APP_CONFIG?.name || 'New York PLLC'}`,
-  description: `Occupational Therapy PLLC formation for New York OTs. NYSED State Board for Occupational Therapy pre-approval, OTA supervision-aware governance, telepractice/home-based friendly purpose language, compliant naming, precise filings, six-week publication, EIN + bank-ready docs — flat $${PRICING.basePrice}.`,
+  title: `New York Occupational Therapy PLLC (OT) — $${PRICING.basePrice} | NYPLLC`,
+  description: `Occupational Therapy PLLC formation for NY OTs. NYSED pre-approval, OTA supervision-aware governance, telepractice-friendly language, EIN — flat $${PRICING.basePrice}.`,
   keywords: [
     'Occupational Therapy PLLC New York',
     'OT PLLC NY',

@@ -2,6 +2,12 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-07-28 — Google Ads first formal weekly SOP (§7.1)
+
+- Due Jul 27; ran Jul 28. Pull + writeup: `ads-pull-2026-07-28-weekly-sop/` · dashboard row: `ads-weekly-dashboard.csv`
+- 30d: $1,540 / 16 conv / CPA **$96**; budget-lost IS **0%**; `01` IS ~53% / 0 conv; Ads Spiffy Purchase **9** = CRM click-ID **9**
+- Actions: `[nys pllc formation]` exact → `01`/Formation-Core; List C +`pllc name availability` +`check llc availability`; `02` confirmed ready for Aug 3 enable
+
 ## 2026-07-12 — Mobile LP §5.1 UX (sticky CTA / trust / hero)
 
 - Sticky bottom CTA (mobile-only): “Start your PLLC — $885” + Call; hidden on `/order` + `/order-llc`; body `--mobile-sticky-cta-h`; Tawk mobile `yOffset: 72`

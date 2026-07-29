@@ -139,7 +139,7 @@ Anything currently marked primary that isn't a paid order gets demoted to second
 | Neg A — Other states (excl NY) | `12146898907` | 103 | Yes | Yes (Jul 9) | No |
 | Neg A-FQ — Other states (excl NY + FQ origins) | `12146898703` | 89 | No | No | Yes (Jul 9) |
 | Neg B — Research DIY education | `12145390194` | 15 | Yes | Yes (Jul 9) | Yes (Jul 9) |
-| Neg C — Wrong intent lookup jobs school | `12146898706` | 18 | Yes | Yes (Jul 9) | Yes (Jul 9) |
+| Neg C — Wrong intent lookup jobs school | `12146898706` | 27 (Jul 28 SOP; was 18 at build) | Yes | Yes (Jul 9) | Yes (Jul 9) |
 | Neg D — Freebie price-shopping junk | `12146898991` | 5 | Yes | Yes (Jul 9) | Yes (Jul 9) |
 | Neg E — Publishing-only intent | `12146898709` | 7 | Yes | Yes (Jul 9) | Yes (Jul 9) |
 
@@ -534,7 +534,7 @@ Gates are permission slips, not deadlines. Missing a gate by two weeks costs alm
 | Jul 6 | ✅ Phase 0: conversion audit + fixes (1.1) · settings checklist (1.2) · build negative lists A–E (1.3) · backfill CRM AdSpend · baseline exports (1.5) — **done Jul 8** |
 | Jul 13 | ✅ Full asset build (1.4) — **done Jul 8** · ✅ draft `01` + `02` + `03` + RSAs — **done Jul 9** · ✅ portfolio tCPA $90 · ✅ conversion flip · ✅ attach 01/02 to portfolio · ✅ **enable `01_Core_Exact_NY`** — **done Jul 9 evening** · `02` stays PAUSED until ~Aug 3 |
 | Jul 20 | Daily 10-min monitoring on Core Exact + Sales-Search-1 |
-| Jul 27 | First formal weekly SOP · (02 already drafted Jul 9 — polish RSAs / prep enable) |
+| Jul 27 | ✅ First formal weekly SOP — **ran Jul 28** ([writeup](ads-pull-2026-07-28-weekly-sop/WEEKLY-SOP.md) · [dashboard](ads-weekly-dashboard.csv)): 30d CPA $96 / 16 conv; `01` IS ~53% / 0 conv; Ads↔CRM primary 9=9; +`[nys pllc formation]` on `01`; List C +2 LLC-availability phrases; `02` RSA policy OK → enable Aug 3 |
 | Aug 3 | **Launch 02_Professions** |
 | Aug 10 | Monitor · ✅ `03_ForeignQual` already drafted Jul 9 (PAUSED) — polish if needed · ✅ §5.1 LCP + sticky CTA + trust/hero CTA shipped Jul 12; remaining: friction cut · optional Ads call-forward number |
 | Aug 17 | **Gate 1** → launch 03_ForeignQual on pass |

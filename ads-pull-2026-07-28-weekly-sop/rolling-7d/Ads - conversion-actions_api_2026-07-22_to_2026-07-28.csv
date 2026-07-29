@@ -1,0 +1,8 @@
+segments.date,campaign.name,segments.conversion_action,segments.conversion_action_name,metrics.conversions,metrics.conversions_by_conversion_date,metrics.all_conversions,metrics.conversions_value,metrics.all_conversions_value
+2026-07-22,01_Core_Exact_NY,customers/1529880213/conversionActions/7678925960,Begin checkout (Spiffy embed),0.0,0.0,1.018791,0.0,0.0
+2026-07-22,Sales-Search-1,customers/1529880213/conversionActions/7678072764,Purchase (Spiffy thank-you value),0.0,1.0,0.0,0.0,0.0
+2026-07-22,Sales-Search-1,customers/1529880213/conversionActions/7678925960,Begin checkout (Spiffy embed),0.0,0.0,2.0,0.0,0.0
+2026-07-23,Sales-Search-1,customers/1529880213/conversionActions/7678925960,Begin checkout (Spiffy embed),0.0,0.0,1.981209,0.0,0.0
+2026-07-24,Sales-Search-1,customers/1529880213/conversionActions/7678925960,Begin checkout (Spiffy embed),0.0,0.0,1.0,0.0,0.0
+2026-07-25,Sales-Search-1,customers/1529880213/conversionActions/7678925960,Begin checkout (Spiffy embed),0.0,0.0,1.0,0.0,0.0
+2026-07-27,01_Core_Exact_NY,customers/1529880213/conversionActions/7678925960,Begin checkout (Spiffy embed),0.0,0.0,1.0,0.0,0.0

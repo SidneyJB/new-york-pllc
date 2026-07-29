@@ -1,6 +1,6 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-07-22
+**Last updated:** 2026-07-28
 
 ## Account
 
@@ -8,6 +8,28 @@
 - Live: `Sales-Search-1` + `01_Core_Exact_NY` (ENABLED)
 - Portfolio-attached PAUSED: `02_Professions_NY`
 - Unattached PAUSED: `03_ForeignQual_US`
+
+---
+
+## Changes on 2026-07-28 — First formal weekly SOP (§7.1; due Jul 27)
+
+Pull: [`ads-pull-2026-07-28-weekly-sop/`](ads-pull-2026-07-28-weekly-sop/) · writeup [`WEEKLY-SOP.md`](ads-pull-2026-07-28-weekly-sop/WEEKLY-SOP.md) · dashboard [`ads-weekly-dashboard.csv`](ads-weekly-dashboard.csv)
+
+| Metric (window) | Result |
+|---|---|
+| Budget-lost IS | **0%** Sales + `01` |
+| 7d (Jul 22–28) | $277 / 0 click-attr conv (1 by-date) — soft week |
+| 30d CPA | **$96** (16 click-attr / $1,540) — under ≤$110 |
+| `01` IS (since enable) | **~53%** · $165 / 24 clicks / **0** conv |
+| Ads↔CRM 30d | Spiffy Purchase **9** = CRM click-ID orders **9** |
+| Mobile CVR (Jul 9–28) | 2.8% vs desktop 9.8% — keep −20% |
+
+| Action | Detail |
+|---|---|
+| Exact keyword | `[nys pllc formation]` → `01_Core_Exact_NY` / Formation-Core (Sales converter) |
+| Shared negatives | `"pllc name availability"`, `"check llc availability"` (phrase) → List C `12146898706` (now 27 members) |
+| `02` prep | RSAs mostly APPROVED; Attorneys `APPROVED_LIMITED` (gov docs) — **ready to enable ~Aug 3** |
+| Deferred | Sales exact-neg fence for terms `01` should own; offline conversion upload; Auction Insights (not 1st-of-month) |
 
 ---
 

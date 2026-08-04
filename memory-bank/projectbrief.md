@@ -15,7 +15,18 @@ Licensed professionals in New York who need to establish a PLLC:
 - **Service**: Complete PLLC formation + publishing package
 - **Price Point**: $885 flat fee (all-inclusive)
 - **Differentiation**: Includes mandatory NY publishing requirement that competitors often charge extra for
-- **Reference Site**: CheapNewYorkLLC.com (LLC formation) - replicate for PLLC market
+- **Sister company**: CheapNewYorkLLC.com (plain LLC formation) — the model this site replicates for the PLLC market, **and a company we deliberately do not compete with.**
+
+## Scope boundary — plain LLC is out of scope
+
+**Plain (non-professional) LLC formation belongs to the sister company. We never pursue it.**
+
+- `/order-llc` exists **only to take orders** from people who arrive already wanting an LLC. It is **never an SEO target** and gets no ranking work, content, or internal-link equity.
+- Plain-LLC queries are excluded by name from the SEO target list ([`seo-target-list-2026-08-04.md`](../seo-target-list-2026-08-04.md) keeps them in a standing "Out of scope" section, and `seo_target_list.py` enforces it) so a future refresh can't re-derive them as an opportunity. 74 queries / 1,720 impressions / $331yr are parked there on purpose.
+- The same applies to LLC **publication** queries — not a content gap, not a new page.
+- **Unresolved:** we currently pay ~$331/yr for plain-LLC clicks in Google Ads. If CheapNewYorkLLC bids on the same terms we are bidding against ourselves. Check the sister account before treating this as either fine or as negative-keyword candidates.
+
+If an analysis surfaces plain-LLC terms as an opportunity, the analysis is wrong about scope, not right about strategy.
 
 ## Success Criteria
 1. **Conversion**: Achieve 5% visitor-to-customer conversion rate

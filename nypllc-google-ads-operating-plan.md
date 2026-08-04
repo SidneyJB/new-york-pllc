@@ -75,6 +75,79 @@ The timing argument for restructuring immediately survives on corrected grounds:
 
 **Two weekly numbers tell you if the thesis is working:** Core Exact campaign impression share (should climb from ~13% toward 50–70% on the terms that matter) and account conversions per rolling 30 days (26 → 35 → 45 → 60+). Everything else is diagnostics.
 
+### 0.6 Incrementality — the assumption this whole model rests on (added Aug 4 2026)
+
+Every projection above counts **Ads conversions**. That is not the same thing as **additional orders**, and the difference is the difference between the model working and the model being theatre. Evidence gathered Aug 4 2026 while diagnosing the negative-list incident:
+
+**The uncomfortable observation.** Paid clicks roughly halved with no matching fall in orders:
+
+| | Apr 2026 | Jul 2026 | Change |
+|---|---:|---:|---:|
+| Ads clicks | 320 | 169 | **−47%** |
+| Ads spend | $2,931 | $1,389 | −53% |
+| CRM orders | 49 | 47 | **−4%** |
+
+If paid clicks drove purchases one-for-one, ~9 orders should have disappeared. Two did.
+
+Across all nine months with both datasets, the correlation between monthly paid clicks and monthly orders is **r = 0.06** — effectively zero. Treat that as weak evidence on its own (n = 9, and a strong upward time trend sits underneath), but it points the same way as the April/July comparison. Orders per 100 paid clicks rose steadily from **8.1** (Nov) to **27.8** (Jul), which is what growth from non-paid sources looks like.
+
+| Month | Paid clicks | CRM orders | Orders / 100 clicks |
+|---|---:|---:|---:|
+| Nov 2025 | 296 | 24 | 8.1 |
+| Dec 2025 | 368 | 32 | 8.7 |
+| Jan 2026 | 318 | 51 | 16.0 |
+| Feb 2026 | 212 | 35 | 16.5 |
+| Mar 2026 | 218 | 39 | 17.9 |
+| Apr 2026 | 320 | 49 | 15.3 |
+| May 2026 | 354 | 57 | 16.1 |
+| Jun 2026 | 219 | 47 | 21.5 |
+| Jul 2026 | 169 | 47 | 27.8 |
+
+> Order counts use `Order.orderCreatedAt` (the Spiffy checkout timestamp — the correct business date), excluding `isVmOnly` and `[TEST]` records. An earlier pass in this session used `createdAt` with no filtering and reported Apr 48 / May 65; those figures are superseded. Reproduce with `PLLC-CRM/crm/scripts/orders-attribution.ts --monthly --since 2025-09-01`.
+
+**Attribution reality.** Of 42 orders between Jul 9 (click-ID capture going live) and Aug 4: **31% carried a Google click ID**, 12% carried another UTM — *all five of those from `chatgpt.com`* — and **57% were untagged**. Untagged is a residual, **not** a synonym for organic: it also holds direct, word of mouth, returning visitors, referrals, and ad clicks whose click ID was lost to cross-device or cookie expiry.
+
+**Brand is not the explanation.** An earlier read of this claimed brand search was cannibalising up to 50% of ad conversions. That was wrong and is corrected here. The brand bucket is a single query, `nypllc` — **$529 of ~$21,000 lifetime spend (2.5%)**, with conversions flat at 3–4/month (May 3.0 · Jun 4.0 · Jul 3.0). Its *share* rose only because generic conversions collapsed from 12.0 to 3.0 during the incident. Its CVR (18.2%) sits only modestly above generic terms (12–15%), which is not the signature of traffic that had already chosen us. Do not build a separate brand campaign for $529.
+
+**Cannibalization — MEASURED Aug 4 2026, and the answer is ~zero.** Search Console queries (2025-10-27 → 2026-08-02, 954 queries) joined against paid search terms over the identical window via [`ads_incrementality.py cannibalization`](ads_incrementality.py):
+
+| Bucket | Queries | Paid spend | % spend | Reading |
+|---|---:|---:|---:|---|
+| Rank 1–3 (overlap) | 6 | $534 | 6.8% | **$504 of this is the single brand term `nypllc`** |
+| Rank 4–10 | 14 | $557 | 7.1% | partial overlap |
+| **Rank 11+** | **90** | **$6,032** | **76.4%** | median organic position **32** — paid is doing all the work |
+| No organic presence | 930 | $774 | 9.8% | fully incremental |
+
+**Non-brand cannibalization is $30 of $7,897 — 0.38%.** We do not rank for a single commercial term:
+
+| Query | Organic position | Organic clicks | Paid clicks | Paid spend |
+|---|---:|---:|---:|---:|
+| `pllc formation new york` | **26.5** | 1 | 101 | $1,298 |
+| `ny pllc formation` | **28.9** | 6 | 96 | $1,160 |
+| `pllc new york` | **35.9** | 1 | 71 | $694 |
+| `new york pllc formation` | **25.1** | 3 | 23 | $216 |
+| `ny pllc` | **20.4** | 1 | 48 | $381 |
+| `pllc ny` | **44.8** | 1 | 22 | $162 |
+
+Scale: organic delivered **590 clicks in 281 days (~63/month)** against ~275/month from paid — with 4,123 organic impressions/month converting at **1.53% CTR**, because page 3–4 placement doesn't get clicked. The only page-1 organic presence is brand (`nypllc`, `nypllc.com reviews`).
+
+**Consequences.** (1) The "ads eat our organic traffic" hypothesis is dead — there is no organic on commercial terms to eat, so paid is doing genuinely additive work there. (2) The SEO plan's premise is validated with real numbers: **$6,032 of paid spend, 76% of the total, goes to queries where we sit at position ~32.** That table is the SEO target list, ranked by what we currently pay Google for the same traffic. (3) The structural tension still applies *later* — as SEO wins these terms, paid on them becomes progressively less incremental and should be planned to shrink. It is simply not the situation today.
+
+**Revised uplift estimate after the cannibalization measurement.** With organic substitution ruled out, the flat-orders observation is best explained by **non-paid channels growing to fill the gap** — ChatGPT alone contributed 5 orders in under a month, and word of mouth compounds off 338+ lifetime formations. That growth does not disappear when paid recovers, so recovery should be additive.
+
+The size depends on *which* clicks come back, and this is the part that resists a clean number. In April, **257 of 320 paid clicks (80%) were the broad `pllc` keyword** — high volume, low intent. By July that was 63 of 169 (37%), because the negative lists had filtered the junk. So April's clicks were individually worth less than July's. Restoring April's *volume* would not restore April's economics, and the Aug 4 fix specifically unblocked **exact-match commercial keywords** on `01_Core_Exact_NY`, which is the higher-value case.
+
+Reasonable range: **+6 to +14 orders/month** at full recovery. Wide, and deliberately so.
+
+**What we still cannot conclude.** Order counts run 24–57/month, so noise is large. Attribution before Jul 9 does not exist, so the historical paid share is unknowable — the April paid-order figure above is inferred from CVR, not measured. Seasonality is unmeasured. And formation purchases lag, so July's orders were partly driven by May/June clicks and **the incident's damage may not have fully landed**; Aug/Sep could still drop.
+
+**Tooling (built Aug 4 2026):** [`ads_incrementality.py`](ads_incrementality.py) — `cannibalization` joins a Search Console query export against paid search terms to size the overlap; `recovery` tracks weekly eligible auction volume against the CRM attribution split. CRM side: `PLLC-CRM/crm/scripts/orders-attribution.ts`.
+
+**The decision rule.** As delivery recovers, watch the untagged bucket:
+
+- Total orders rise **and** untagged holds → paid is genuinely incremental; scale spend.
+- Google-attributed rises **while** untagged falls → we are re-attributing orders we already had; the dashboard ROAS is fiction and spend should not scale on it.
+
 ---
 
 ## Part 1 — Phase 0: Measurement & account foundation (Weeks 1–2)
@@ -122,7 +195,7 @@ Anything currently marked primary that isn't a paid order gets demoted to second
 **Done Jul 8 2026 (Sales-Search-1 via API)** unless noted:
 
 - [x] **Auto-apply recommendations: OFF** — no ENABLED subscriptions; dangerous types created as **PAUSED** (API has no DISABLED; PAUSED = not auto-applying). Especially broad match, RSA adds, Search Partners opt-in, bidding opt-ins. Re-audit monthly in UI too — some auto-apply toggles are UI-only.
-- [x] **Location option = "Presence"** — was `PRESENCE_OR_INTEREST`; set to `PRESENCE` (NY State geo unchanged). Foreign Qual later is the deliberate exception (2.3).
+- [x] **Location option = "Presence"** — was `PRESENCE_OR_INTEREST`; set to `PRESENCE` (NY State geo unchanged). Foreign Qual later is the deliberate exception (2.3). **Reverted to `PRESENCE_OR_INTEREST` on Sales-Search-1 Aug 4 2026** — it landed the same day as the List A stop-word negatives and compounded the eligible-volume collapse. Forming a NY PLLC is something out-of-state professionals actively search for, so "interest" is legitimate demand here, not leakage. `01` and `02` remain on `PRESENCE` pending a read on Sales.
 - [x] **Search Partners:** already OFF; last 90d had **$0 Partner spend** (Search only). Left unticked.
 - [x] **Display Expansion: OFF** (content network false).
 - [x] **Ad rotation:** unset / default Optimize on the ad group (no OPTIMIZE_FOR_CLICKS override).
@@ -136,18 +209,24 @@ Anything currently marked primary that isn't a paid order gets demoted to second
 
 | List | Shared set id | Members | On Sales-Search-1 | On 01 / 02 | On 03_ForeignQual |
 |---|---|---|---|---|---|
-| Neg A — Other states (excl NY) | `12146898907` | 103 | Yes | Yes (Jul 9) | No |
-| Neg A-FQ — Other states (excl NY + FQ origins) | `12146898703` | 89 | No | No | Yes (Jul 9) |
+| Neg A — Other states (excl NY) | `12146898907` | 53 (Aug 4 fix; was 103) | Yes | Yes (Jul 9) | No |
+| Neg A-FQ — Other states (excl NY + FQ origins) | `12146898703` | 45 (Aug 4 fix; was 89) | No | No | Yes (Jul 9) |
 | Neg B — Research DIY education | `12145390194` | 15 | Yes | Yes (Jul 9) | Yes (Jul 9) |
 | Neg C — Wrong intent lookup jobs school | `12146898706` | 27 (Jul 28 SOP; was 18 at build) | Yes | Yes (Jul 9) | Yes (Jul 9) |
 | Neg D — Freebie price-shopping junk | `12146898991` | 5 | Yes | Yes (Jul 9) | Yes (Jul 9) |
 | Neg E — Publishing-only intent | `12146898709` | 7 | Yes | Yes (Jul 9) | Yes (Jul 9) |
 
-**List A — Other states (~110 entries).** Every state name + abbreviation except NY, as phrase match: `texas`, `tx`, `florida`, `fl`, `california`, `ca`, `pennsylvania`* … (*note: PA/NJ/CT/FL/TX/CA terms must be *excluded from this list on the Foreign Qual campaign* — List A-FQ is the copy minus those six origin states).
+**List A — Other states.** Full state names only, as phrase match: `texas`, `florida`, `california`, `pennsylvania`* … (*note: PA/NJ/CT/FL/TX/CA terms must be *excluded from this list on the Foreign Qual campaign* — List A-FQ is the copy minus those six origin states).
+
+> ⚠️ **Never add two-letter state abbreviations as phrase negatives.** This spec originally said "state name + abbreviation," which was executed literally on Jul 8–9 2026 and put `in` (Indiana), `or` (Oregon), `me` (Maine), `ok`, `la`, `ca`, `pa`, `co`, `de`, `hi`, `id`, `ma`, `mo`, `ne`, `va`, `wa` … into Lists A and A-FQ as phrase match. A one-word phrase negative blocks **any query containing that word**, so `in` blocked every query with the word "in" in it — including our own exact keywords `[form a pllc in new york]`, `[start a pllc in ny]`, `[cost to form a pllc in new york]`, `[pllc in ny]`, and `[pllc formation service near me]` (killed by `me`).
+>
+> Blast radius before the fix: **14 of 44** enabled keywords in `01_Core_Exact_NY`, **21 of 33** in `03_ForeignQual_US`, **9 of 40** in `Sales-Search-1` were self-blocked. Eligible auction volume on Sales-Search-1 fell from ~5,072/week (week of Jul 6) to ~1,602/week (week of Jul 27) while budget stayed at $500/day and budget-lost IS stayed at 0%. **Removed Aug 4 2026** (50 from List A, 44 from List A-FQ). Wrong-state traffic is still fenced by the full state names.
+>
+> Rule going forward: a negative keyword that is a common English word, or shorter than three characters, does not belong in a phrase-match list. Audit with the self-block check in §7.1.
 
 **List B — Research/DIY/education:** `what is`, `meaning`, `definition`, `vs`, `versus`, `difference between`, `template`, `sample`, `example`, `pdf`, `free download`, `diy`, `yourself`, `wiki`, `pros and cons`.
 
-**List C — Wrong intent (lookup/jobs/school):** `lookup`, `look up`, `search`, `verify`, `verification`, `number`, `login`, `renewal`*, `renew`*, `salary`, `jobs`, `hiring`, `course`, `exam`, `degree`, `school`, `classes`. (*renewal terms are wrong for formation but right for future RA-renewal campaigns — keep them in a list you can detach later.) **Jul 11 2026:** added phrase `"windsor corporate services"` (competitor leak from Sales broad).
+**List C — Wrong intent (lookup/jobs/school):** `lookup`, `look up`, `search`, `verify`, `verification`, `number`, `login`, `renewal`*, `renew`*, `salary`, `jobs`, `hiring`, `course`, `exam`, `degree`, `school`, `classes`. (*renewal terms are wrong for formation but right for future RA-renewal campaigns — keep them in a list you can detach later.) **Jul 11 2026:** added phrase `"windsor corporate services"` (competitor leak from Sales broad). **Jul 22 2026:** added phrases `llc availability`, `llc name availability`, `check llc`, `blumberg`, `usa corp`, `corporate book`, `corporate seal` (Sales broad LLC name-check / competitor / kit junk from daily pull). **Jul 28 2026 (weekly SOP):** added phrases `pllc name availability`, `check llc availability` (List C → 27 members).
 
 **List D — Freebie/price-shopping junk:** `free llc`, `free ein`†, `cheapest`, `$0`, `no cost`. († you *provide* EIN service; `free ein` searchers want the IRS's free process — junk for you.)
 
@@ -232,7 +311,7 @@ Two RSAs per ad group (see Part 4). Landing pages: homepage or /how-to-form-a-pl
 
 ### 2.2 Campaign 02_Professions_NY — launches Week 3–5
 
-**Status (Jul 9 2026 evening):** **PAUSED** but attached to portfolio (`campaigns/24017629178`). Budget $25/day · NY Presence · Search only · shared negatives A–E · **11 ad groups** · **34 keywords** · **22 RSAs**. Enable ~Aug 3 per calendar (Core Exact already live). Six health-policy keywords uploaded with API **exemption requests** (`HEALTH_IN_PERSONALIZED_ADS`): `lcsw pllc`, `lcsw pllc new york`, `pllc for lcsw`, `mental health counselor pllc`, `psychiatric nurse practitioner pllc`, `physical therapy pllc new york` — pending Google review.
+**Status (Aug 4 2026):** **ENABLED** (`campaigns/24017629178`) — calendar launch Aug 3, enabled one day late. Budget $25/day · NY Presence · Search only · shared negatives A–E · **11 ad groups** · **34 keywords** · **22 RSAs**. Attached to portfolio **`NYPLLC Search Portfolio`** tCPA $90. Pre-enable RSA policy: 20 APPROVED · 2 APPROVED_LIMITED (Attorneys). Six health-policy keywords uploaded Jul 9 with API **exemption requests** (`HEALTH_IN_PERSONALIZED_ADS`): `lcsw pllc`, `lcsw pllc new york`, `pllc for lcsw`, `mental health counselor pllc`, `psychiatric nurse practitioner pllc`, `physical therapy pllc new york`.
 
 **Geo:** NY, Presence. **Budget:** $20–30/day. **Bidding:** same portfolio.
 
@@ -295,7 +374,7 @@ This is your current campaign's end state. It is never deleted.
 
 Week 2: create **portfolio Target CPA = $90** → attach the *existing* campaign first and let it run 10–14 days. This is technically a bidding change on the live campaign, but to the same effective target — expect a ~1-week wobble, not a reset. Then every new campaign launches *into* the portfolio, inheriting pooled learning instead of cold-starting. Keep everything in one portfolio until the split condition in 3.2 is met.
 
-**Done Jul 9 2026 (API):** Created portfolio **`NYPLLC Search Portfolio`** (`biddingStrategies/12148056412`) — Target CPA **$90**. **Evening Jul 9:** attached **`01_Core_Exact_NY`** (ENABLED) + **`02_Professions_NY`** (PAUSED) alongside **`Sales-Search-1`**. `03_ForeignQual_US` still unattached (Gate 1).
+**Done Jul 9 2026 (API):** Created portfolio **`NYPLLC Search Portfolio`** (`biddingStrategies/12148056412`) — Target CPA **$90**. **Evening Jul 9:** attached **`01_Core_Exact_NY`** (ENABLED) + **`02_Professions_NY`** alongside **`Sales-Search-1`**. **Aug 4:** `02` ENABLED. `03_ForeignQual_US` still unattached (Gate 1).
 
 ### 3.2 The escalation ladder
 
@@ -464,15 +543,17 @@ Confirmed running as of Jul 5. It compounds with this plan: every new Google cli
 ### 7.1 Weekly SOP (~40 minutes, same day every week)
 
 1. Search terms review — Discovery first, then all campaigns: promote converters/high-intent to exact in the right campaign (and negative them in Discovery); junk → shared lists; check nothing on the do-not-negative list got added.
-2. Budget-lost IS = 0% everywhere (any nonzero value is either a raise-the-budget signal or a deliberate cap you can name).
-3. 7-day and 28-day CPA vs. target; compute marginal CPA if inside a ladder step.
-4. **The two thesis metrics:** Core Exact impression share, and rolling-30-day account conversions.
-5. Pacing vs. monthly budget.
-6. Tracking sanity: Google Ads conversions vs. CRM ad-attributed orders, ±10% on rolling 30 days.
-7. Update the dashboard row and the change log.
-8. Confirm Microsoft auto-sync ran (once live).
-9. First week of each month: Auction Insights glance — new entrants, overlap shifts.
-10. Screenshot IS/rank-lost monthly for the era table you already keep.
+2. **Self-block check** — for every campaign, test each enabled keyword against the negative lists actually attached to it (plus its campaign-level negatives). Expected result is zero. Any hit means a negative is cannibalising your own inventory. See the Aug 4 2026 incident in §1.3.
+3. **Eligible auction volume** — `impressions ÷ search impression share`, by week, **per campaign**. This is the number that reveals exclusion damage; impression share alone hides it, because shrinking the pool makes IS go *up*. A week-over-week fall of >25% with budget-lost IS at 0% means something changed in targeting or negatives, not in the auction. **Only compare this within a single campaign** — each campaign's IS is measured over a different auction set, so summing across campaigns produces an approximation, not a real count. The Aug 4 incident was diagnosed on `Sales-Search-1` alone for exactly this reason.
+4. Budget-lost IS = 0% everywhere (any nonzero value is either a raise-the-budget signal or a deliberate cap you can name). Note this is near-useless as a constraint signal under Target CPA — a throttling bidder shows up as rank-lost, never budget-lost.
+5. 7-day and 28-day CPA vs. target; compute marginal CPA if inside a ladder step.
+6. **The two thesis metrics:** Core Exact impression share, and rolling-30-day account conversions.
+7. Pacing vs. monthly budget.
+8. Tracking sanity: Google Ads conversions vs. CRM ad-attributed orders, ±10% on rolling 30 days.
+9. Update the dashboard row and the change log.
+10. Confirm Microsoft auto-sync ran (once live).
+11. First week of each month: Auction Insights glance — new entrants, overlap shifts.
+12. Screenshot IS/rank-lost monthly for the era table you already keep.
 
 ### 7.2 Monthly SOP (~60 minutes)
 
@@ -535,8 +616,8 @@ Gates are permission slips, not deadlines. Missing a gate by two weeks costs alm
 | Jul 13 | ✅ Full asset build (1.4) — **done Jul 8** · ✅ draft `01` + `02` + `03` + RSAs — **done Jul 9** · ✅ portfolio tCPA $90 · ✅ conversion flip · ✅ attach 01/02 to portfolio · ✅ **enable `01_Core_Exact_NY`** — **done Jul 9 evening** · `02` stays PAUSED until ~Aug 3 |
 | Jul 20 | Daily 10-min monitoring on Core Exact + Sales-Search-1 |
 | Jul 27 | ✅ First formal weekly SOP — **ran Jul 28** ([writeup](ads-pull-2026-07-28-weekly-sop/WEEKLY-SOP.md) · [dashboard](ads-weekly-dashboard.csv)): 30d CPA $96 / 16 conv; `01` IS ~53% / 0 conv; Ads↔CRM primary 9=9; +`[nys pllc formation]` on `01`; List C +2 LLC-availability phrases; `02` RSA policy OK → enable Aug 3 |
-| Aug 3 | **Launch 02_Professions** |
-| Aug 10 | Monitor · ✅ `03_ForeignQual` already drafted Jul 9 (PAUSED) — polish if needed · ✅ §5.1 LCP + sticky CTA + trust/hero CTA shipped Jul 12; remaining: friction cut · optional Ads call-forward number |
+| Aug 3 | ✅ **Launch 02_Professions** — **enabled Aug 4** (`24017629178` PAUSED→ENABLED; already on portfolio tCPA $90) · ✅ weekly SOP ran Aug 4 ([writeup](ads-pull-2026-08-04-weekly-sop/WEEKLY-SOP.md)): 7d CPA $91 / 3 conv; 30d CPA $118 / 11 conv; `01` IS ~50% / 0 conv; Ads 10 vs CRM 13; +`[pllc new york formation]` on `01` |
+| Aug 10 | Monitor · ✅ `03_ForeignQual` already drafted Jul 9 (PAUSED) — polish if needed · ✅ §5.1 LCP + sticky CTA + trust/hero CTA shipped Jul 12; remaining: friction cut · optional Ads call-forward number · Auction Insights manual export still open |
 | Aug 17 | **Gate 1** → launch 03_ForeignQual on pass |
 | Aug 24 – Sep 6 | Accumulate data · abandoned-checkout emails ship · Microsoft Ads account created |
 | Sep 7 | Gate 2 window opens |
@@ -585,7 +666,7 @@ Notes on reading this honestly:
 4. **GA4 (or equivalent) with funnel events on nypllc.com?** Needed to instrument CVR for Part 5; if absent, installing it is a week-1 task.
 5. **Meta retargeting inventory for the record:** monthly spend, audience definitions, creative age — for the 6.2 housekeeping pass and the CRM AdSpend backfill.
 6. **$985 price test timing** (from the broader growth plan): schedule it into a window that doesn't overlap a ladder step or January (4.4). Recommended slot: late September, between Gates 2 and 3, or defer to February.
-7. **Phase 1 launch — DONE Jul 9 2026 evening.** `01_Core_Exact_NY` **ENABLED** on portfolio; `02_Professions_NY` portfolio-attached **PAUSED** (enable ~Aug 3); `03` still Gate 1. Conversion flip done. **Still open:** Customer Match UI upload (1.2); enable Professions ~Aug 3; Foreign Qual after Gate 1.
+7. **Phase 1 launch — DONE Jul 9 2026 evening.** `01_Core_Exact_NY` **ENABLED** on portfolio. **`02_Professions_NY` ENABLED Aug 4** (calendar Aug 3). `03` still Gate 1. Conversion flip done. **Still open:** Customer Match UI upload (1.2); Foreign Qual after Gate 1.
 8. **Search-term mining — Jul 11 2026.** `[form pllc new york]` exact on `01` Formation-Core; `"windsor corporate services"` → List C. **Deferred:** exact-neg that term on `Sales-Search-1` until `01` proves delivery (cold + Formation-Core `APPROVED_LIMITED`).
 
 ---

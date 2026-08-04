@@ -68,5 +68,10 @@ def parse_date_range(
 
 
 def run_query(client: GoogleAdsClient, customer_id: str, query: str):
+    # The service must stay referenced for as long as the stream is consumed;
+    # if it is collected the gRPC channel is torn down mid-iteration and the
+    # stream fails with CANCELLED "Channel deallocated!".
     service = client.get_service("GoogleAdsService")
-    return service.search_stream(customer_id=customer_id, query=query)
+    stream = service.search_stream(customer_id=customer_id, query=query)
+    for batch in stream:
+        yield batch

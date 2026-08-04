@@ -39,6 +39,7 @@ Paste the full `http://localhost:8080/?code=...` redirect URL when prompted.
 | `google_ads_pull.py` | Shortcut: `core` preset, 30 days, `--compat` |
 | `google_ads_auth.py` | One-time OAuth refresh token |
 | `ads_analysis.py` | Analyze deduped keyword/search-term CSVs |
+| `ads_incrementality.py` | Cannibalization (GSC vs paid) + delivery-recovery tracking |
 
 Package layout: `google_ads/` (`client.py`, `reports.py`, `pull.py`, `export.py`).
 
@@ -121,6 +122,55 @@ Note: `ads_analysis.py` currently looks for `Ads - kw_daily (1).csv` / `(2).csv`
 ```bash
 .venv/bin/python google_ads_cli.py pull change-history --days 14
 ```
+
+## Incrementality analysis (`ads_incrementality.py`)
+
+Answers "are paid conversions actually *additional* orders?" — see operating plan §0.6.
+
+```bash
+# Is delivery recovering after the 2026-08-04 negative-list fix?
+.venv/bin/python ads_incrementality.py recovery --weeks 16
+
+# Same, with the CRM attribution split alongside (the real incrementality test)
+cd ../PLLC-CRM/crm && npx tsx scripts/orders-attribution.ts --weekly --csv /tmp/orders.csv && cd -
+.venv/bin/python ads_incrementality.py recovery --weeks 16 --orders /tmp/orders.csv
+
+# How much paid spend goes to queries we already rank for organically?
+.venv/bin/python ads_incrementality.py cannibalization --gsc "gsc/Queries.csv" --days 90 --out cann.csv
+```
+
+**`recovery` reads:** `eligible` = impressions ÷ impression share = auctions we were allowed to enter. This is the column the negative-list bug destroyed — watch it before impressions or clicks. Impression share alone *hides* exclusion damage, because shrinking the pool makes IS go up.
+
+**Only compare `eligible` within one campaign.** Each campaign's IS is measured over a different auction set, so summing across campaigns is an approximation. The Aug 4 incident was diagnosed on `Sales-Search-1` alone for this reason.
+
+**The incrementality test:** as `gClick` rises, does `untagged` hold or fall? Holds → genuinely new demand. Falls → re-attributing orders we'd have won anyway.
+
+**`cannibalization` needs a manual Search Console export** (no GSC API wired up):
+
+1. [Search Console](https://search.google.com/search-console) → property `www.nypllc.com`
+2. Performance → Search results → set a custom date range matching `--days`
+3. Select the **Queries** tab below the chart
+4. Export (top right) → Download CSV → unzip → use `Queries.csv`
+
+GSC caps exports at 1,000 rows, and Google only reports paid search terms clearing a privacy threshold — so both sides of the join are incomplete for low-volume queries. Treat output as directional.
+
+## SEO target list (`seo_target_list.py`)
+
+Turns the `cannibalization` output into a prioritised SEO work queue — which pages to rank, ordered by organic impressions × current paid cost × winnability. Downstream of the tool above; needs no API access.
+
+```bash
+.venv/bin/python seo_target_list.py \
+  --cannibalization cannibalization-2026-08-04.csv \
+  --gsc gsc/Queries_2025-10-27_to_2026-08-02.csv \
+  --out-csv seo-target-list-2026-08-04.csv \
+  --out-md  seo-target-list-2026-08-04.md
+```
+
+Both inputs are required: the cannibalization CSV has paid cost and organic position, but **only the raw GSC export has organic impressions**, which is how the prize gets sized.
+
+**Plain-LLC queries are held out of scope on purpose** (`OUT_OF_SCOPE_LLC`) — that market belongs to the sister company CheapNewYorkLLC and `/order-llc` is never an SEO target. They are rendered in a separate "Out of scope" section and excluded from all headline totals, so they stay visible without being re-derived as an opportunity. **Do not "fix" this** — see `memory-bank/projectbrief.md` § Scope boundary.
+
+Suggested target URLs are pattern-matched against real routes in `web/src/app/`. When pages are added or renamed, update the patterns near the top of the file or new pages will show up as `GAP — no page`.
 
 ## Adding a new report
 

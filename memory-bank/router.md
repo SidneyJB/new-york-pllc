@@ -27,7 +27,8 @@ Listing shard filenames (e.g. via glob) is optional; reading their contents is n
 |---------------|------|
 | Analytics, Vercel track, GA4, purchase, scroll depth, UTM, Bing UET | [features/analytics-tracking.md](features/analytics-tracking.md) |
 | Spiffy, checkout, order page, payment form, engagement | [features/spiffy-checkout.md](features/spiffy-checkout.md) |
-| SEO, metadata, sitemap, canonical, domain, www.nypllc.com, content moat, organic, GSC, Search Console | [features/seo-and-domain.md](features/seo-and-domain.md) → [SEO content moat plan](../nypllc-seo-content-moat-plan.md) |
+| SEO, metadata, sitemap, canonical, domain, www.nypllc.com, content moat, organic, GSC, Search Console, rank tracking, target list, cannibalization | [features/seo-and-domain.md](features/seo-and-domain.md) → [SEO content moat plan](../nypllc-seo-content-moat-plan.md) + [target list](../seo-target-list-2026-08-04.md) |
+| Plain LLC, `/order-llc`, CheapNewYorkLLC, sister company, LLC publication | **[projectbrief.md](projectbrief.md) § Scope boundary — out of scope, do not pursue** |
 | Profession page, dentist, CPA, veterinarian, NYSED profession | [features/profession-pages.md](features/profession-pages.md) |
 | Foreign, foreign-into-NY, qualify into NY, /foreign-pllc | [features/foreign-into-ny.md](features/foreign-into-ny.md) |
 | Partner, B2B, referral, coupon, /partners, ?c= | [features/partner-referral.md](features/partner-referral.md) |
@@ -54,3 +55,13 @@ Listing shard filenames (e.g. via glob) is optional; reading their contents is n
 ## Deep reference (not memory bank)
 
 📖 [Session history](../docs/session-history.md) · [Analytics reference](../docs/analytics-tracking.md) · [Spiffy checkout](../docs/spiffy-checkout.md) · [SEO & domain](../docs/seo-and-domain.md) · [Tailwind v4](../docs/tailwind-v4.md) · [Google Ads operating plan](../nypllc-google-ads-operating-plan.md) · [SEO / content moat plan](../nypllc-seo-content-moat-plan.md)
+
+## Measurement tooling (repo root)
+
+| Tool | What it does |
+|------|--------------|
+| [`seo_target_list.py`](../seo_target_list.py) → [`seo-target-list-2026-08-04.md`](../seo-target-list-2026-08-04.md) | Ranked SEO work queue from GSC + paid terms. **Enforces the plain-LLC scope exclusion.** |
+| [`ads_incrementality.py`](../ads_incrementality.py) | `cannibalization` (GSC × paid overlap) and `recovery` (weekly delivery vs CRM attribution) |
+| `PLLC-CRM/crm/scripts/orders-attribution.ts` | CRM orders by attribution channel, weekly/monthly |
+
+GSC exports live in `gsc/`. Both tools take a manual Search Console Queries export — see the [google-ads-cli skill](../.cursor/skills/google-ads-cli/SKILL.md).

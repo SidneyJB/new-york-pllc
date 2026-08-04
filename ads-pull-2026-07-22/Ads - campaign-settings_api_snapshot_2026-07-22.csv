@@ -1,0 +1,5 @@
+campaign.id,campaign.name,campaign.status,campaign.advertising_channel_type,campaign.bidding_strategy_type,campaign_budget.amount_micros,campaign_budget.delivery_method,campaign_budget.period
+24022049179,01_Core_Exact_NY,ENABLED,SEARCH,TARGET_CPA,45000000,STANDARD,DAILY
+24017629178,02_Professions_NY,PAUSED,SEARCH,TARGET_CPA,25000000,STANDARD,DAILY
+24012757620,03_ForeignQual_US,PAUSED,SEARCH,MAXIMIZE_CONVERSIONS,15000000,STANDARD,DAILY
+23165646939,Sales-Search-1,ENABLED,SEARCH,TARGET_CPA,500000000,STANDARD,DAILY

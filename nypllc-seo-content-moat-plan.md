@@ -6,7 +6,11 @@
 **Base-case promise this plan must beat:** organic/referral holding ~34% channel share passively. Attack target: organic as an independently growing engine — 0.3 orders/day by mid-2027, 200–350 orders in 2028.
 **Build posture:** AI-drafted + founder-edited; ship fast. Do not gate on legacy hour/day estimates — velocity is the default.
 
-### Progress (as of Jul 22, 2026)
+### Progress (as of Aug 4, 2026)
+
+> **Aug 4 2026 — commercial target set measured and saved.** Search Console joined against paid search terms: we rank **position 20–45 on every commercial term** while **76% of paid spend ($6,032) goes to those same queries at median position 32**. This defines the "20 tracked terms" Part 7 and Gate S1 had left unspecified, and raises a sequencing question about money pages sitting at #11–15 in the editorial map. See **Part 1.5** and [`seo-target-list-2026-08-04.md`](seo-target-list-2026-08-04.md).
+
+### Earlier progress (as of Jul 22, 2026)
 
 | Item | Status | Notes |
 |---|---|---|
@@ -38,6 +42,68 @@
 3. **Decision content:** PLLC vs LLC vs PC by profession · S Corp election math (+ the calculator from Revenue Levers Phase 2) · foreign qualification vs. forming new · Headway/Alma vs. own panels (exists via CAQH plan) · "do I need to publish?" (educational; CTA → full formation only). Explain Rockland-only publication as *why* the all-in package is cheap statewide — never as a county shopping guide or publishing-only offer.
 4. **Journey content:** one piece per pipeline stage's natural anxiety — PPE affidavit explained, what OP Submitted means, the 120-day publication clock, SS-4 walkthrough, biennial statement guide (feeds the compliance plan). You have perfect knowledge of what customers ask at each stage; the Gmail archive is a content-ideas database.
 5. **Tools (ungated, with soft email capture — "email me my results"):** PLLC name-availability checker (DOS search wrapper — no official API, so build with a cached/rate-limited scrape and a manual-verify disclaimer), NYSED license-lookup helper, S Corp savings calculator. Tools earn links and rank for "checker/calculator" queries that content can't. *(No publication-cost-by-county tool — we publish only in Rockland County for every formation.)*
+
+---
+
+## Part 1.5 — The commercial target set (measured Aug 4 2026)
+
+Until now this plan asserted that money pages "mostly exist — optimize don't create," and Part 7 / Gate S1 referenced "20 tracked terms" that were never actually chosen. Both gaps are now closed with real data.
+
+**What we measured.** Search Console queries (2025-10-27 → 2026-08-02) joined against Google Ads paid search terms over the identical window — see ads plan §0.6 and [`ads_incrementality.py`](ads_incrementality.py).
+
+**We rank nowhere on commercial intent.** Every term that drives revenue sits on page 3–5:
+
+| Query | Organic position | Organic clicks | Annual paid cost |
+|---|---:|---:|---:|
+| `pllc formation new york` | **26.5** | 1 | ~$1,686 |
+| `ny pllc formation` | **28.9** | 6 | ~$1,507 |
+| `pllc new york` | **35.9** | 1 | ~$901 |
+| `ny pllc` | **20.4** | 1 | ~$495 |
+| `new york pllc formation` | **25.1** | 3 | ~$281 |
+| `pllc ny` | **44.8** | 1 | ~$210 |
+
+**76% of all paid search spend ($6,032 in the window) goes to queries where our median organic position is 32.** Organic delivers ~63 clicks/month against ~275 from paid; we earn 4,123 organic impressions/month and convert them at **1.53%**, because page 3 doesn't get clicked. Our only page-one organic presence is the brand name.
+
+> **Two spend figures appear in this section; they answer different questions.** **$6,032** is the window cost of queries where we *already rank but rank badly* (organic position 11+) — the cannibalisation-exposure number, 76% of the $7,897 total. **$9,440/yr** is the annualised cost of the full commercially-filtered target set, which also includes queries we pay for and have **no** organic presence on at all. The first sizes what bad rankings cost us; the second sizes the whole prize. Neither is a savings estimate — see the timeline caveat below.
+
+**This is the thesis, priced.** Part 0 argues "every ranking earned is a permanent bid of $0." That was an argument; this is the invoice. The full ranked work queue lives in [`seo-target-list-2026-08-04.md`](seo-target-list-2026-08-04.md) (regenerate with `seo_target_list.py`), prioritised by organic impressions × current paid cost × winnability. **These are the 20 tracked terms** Part 7 and Gate S1 depend on.
+
+### The work is a handful of pages, not 259 queries
+
+259 actionable commercial queries survive filtering — 10,878 organic impressions and ~$9,109/yr of annualised paid spend. They collapse onto a few URLs, and the concentration is extreme:
+
+| Target page | Queries | Organic impr | Annual paid $ | State |
+|---|---:|---:|---:|---|
+| `/` (homepage) | 113 | 5,997 | **$7,984** | Exists; ranks 20–45 |
+| `/how-to-form-a-pllc-in-ny` | 27 | 1,572 | $760 | Exists |
+| `/virtual-address-services` | 30 | 892 | $57 | Exists |
+| `/foreign-pllc` | 24 | — | — | Exists |
+| profession pages | 45 | — | — | Exist |
+| `GAP — no page` | 14 | 317 | $99 | Content commissions |
+
+**The homepage alone carries 88% of the paid value.** Its 113 queries are near-identical intent variants (`pllc formation new york`, `ny pllc formation`, `pllc new york`, `ny pllc`, `pllc ny`), so this is one ranking problem wearing many costumes — not 113 pieces of work.
+
+### Plain LLC is out of scope — permanently
+
+A further **74 queries (1,720 impressions, $331/yr paid)** are plain-LLC formation. **These are deliberately not pursued: plain LLC is ceded to the sister company (cheapnewyorkllc), and `/order-llc` exists to take orders, not to rank.** They are excluded from every number above and listed in a standing "Out of scope" section of the target list so a future refresh doesn't re-derive them as an opportunity. Any tooling that regenerates this list must preserve that exclusion.
+
+This also covers the LLC-publication cluster (15 queries): not a content gap, not a new publication page — out of scope, and Part 1's standing directive against publishing-only offers still holds regardless.
+
+**Open question for the ads side, not the SEO side:** we are paying ~$331/yr for plain-LLC clicks. That may be intentional (capture the searcher, sell them the LLC product), but if cheapnewyorkllc also bids on those terms we are bidding against ourselves and inflating both CPCs. Worth checking against the sister account before deciding whether these become negative keywords.
+
+### The sequencing question this raises
+
+Part 2's editorial map puts money-page work (items 11–15, the profession refreshes) *after* ten pieces of new informational content — while money pages are where 76% of paid spend rides. That ordering deserves to be a deliberate choice rather than a default.
+
+The case for keeping the current order: commercial head terms are the hardest thing to rank, we are competing with LegalZoom and Northwest on them, and the data/authority pillar is what builds the domain authority that makes money-page ranking possible at all. Optimising a page with no authority behind it moves position 32 to position 28 and nothing happens.
+
+The case for moving money pages up: they already exist, they already earn 4,123 impressions/month, and they are the only pages with revenue attached.
+
+**Recommended split:** keep the ★ data pieces as the authority engine, but pull the money-page work forward to run *in parallel* rather than queued behind it. The batch table above is why this is cheap to say yes to — with plain LLC out of scope it is essentially **one page (homepage depth, schema, internal linking) plus a title/meta sweep across the profession and foreign pages**, not a content programme. It doesn't compete with drafting the ★ pieces for the same hours.
+
+### Timeline realism — read this before treating the annual costs as savings
+
+Moving from position 26–45 to top 3 on commercial formation terms is a **6–18 month** effort against well-funded incumbents, and on the head terms it may never fully land. The target list is a **prioritisation input, not a paid-search exit plan**. Paid stays on these terms until organic actually holds page 1, and the ads plan's §0.6 measurement decides when that trade becomes real. Nothing here justifies cutting ad spend on the strength of a ranking we do not yet have.
 
 ---
 
@@ -114,7 +180,9 @@ Ship tools (tracker automation, name checker, S Corp calculator) with the same A
 
 The honest curve, so nobody panics in October: months 1–3 ≈ nothing visible; months 4–6, first long-tail impressions and clicks; months 6–12, 0.1–0.3 orders/day attributable; months 12–18, 0.5–1.0/day. **2028 target: 200–350 organic orders** (the number already in the financial base case's channel mix).
 
-Track weekly in the shared dashboard: GSC impressions and clicks by pillar · average position on 20 tracked terms · indexed-page count · referring domains · tool usage · "how did you hear" attribution + last-touch organic orders. Leading indicators (impressions, positions, domains) govern decisions for the first 9 months; order attribution takes over after.
+Track weekly in the shared dashboard: GSC impressions and clicks by pillar · average position on the **20 tracked terms — now defined in Part 1.5** ([`seo-target-list-2026-08-04.md`](seo-target-list-2026-08-04.md)) · indexed-page count · referring domains · tool usage · "how did you hear" attribution + last-touch organic orders. Leading indicators (impressions, positions, domains) govern decisions for the first 9 months; order attribution takes over after.
+
+**Aug 4 2026 baseline for those 20 terms:** median organic position **32**, ~63 organic clicks/month total, 1.53% CTR on 4,123 monthly impressions. Every future position reading is measured against that.
 
 Incrementality honesty: some organic orders would have arrived via ads anyway. Judge the channel on *blended CAC trending down* and *total orders trending up*, not on a pure-incremental fantasy.
 

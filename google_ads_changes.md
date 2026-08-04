@@ -1,13 +1,143 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-07-28
+**Last updated:** 2026-08-04
 
 ## Account
 
 - Customer: NYPLLC (`1529880213`)
-- Live: `Sales-Search-1` + `01_Core_Exact_NY` (ENABLED)
-- Portfolio-attached PAUSED: `02_Professions_NY`
+- Live: `Sales-Search-1` + `01_Core_Exact_NY` + `02_Professions_NY` (ENABLED)
 - Unattached PAUSED: `03_ForeignQual_US`
+
+---
+
+## Changes on 2026-08-04 — INCIDENT: stop-word negatives strangling the account
+
+**Root cause of the conversion collapse.** Investigating why conversions fell while CRM order volume held flat (47 in June, 47 in July), the eligible auction pool — `impressions ÷ search impression share` — turned out to have collapsed ~90% on `Sales-Search-1` while budget sat untouched at $500/day and budget-lost IS at 0%. Impression share *rose* (10% → 21%) because we were winning a larger share of a pool we had shrunk ourselves.
+
+Lists **A** and **A-FQ** had been built per plan §1.3 as "every state name + abbreviation, phrase match." The two-letter abbreviations include ordinary English words. A one-word phrase negative blocks **any query containing that word**:
+
+| Negative | State | Blocks |
+|---|---|---|
+| `in` | Indiana | every query containing "in" — `form a pllc in new york`, `start a pllc in ny`, `how much does a pllc cost in ny` |
+| `or` | Oregon | every query containing "or" |
+| `me` | Maine | `pllc formation service near me` |
+| `ok` `la` `ca` `pa` `co` `de` `hi` `id` `ma` `mo` `ne` `va` `wa` … | various | assorted common tokens |
+
+Self-blocked enabled keywords before the fix:
+
+| Campaign | Blocked | Notes |
+|---|---|---|
+| `01_Core_Exact_NY` | **14 of 44** | why it had 0 conversions in a month at ~50% IS |
+| `03_ForeignQual_US` | **21 of 33** | whole thesis is "*X* pllc doing business **in** new york" |
+| `Sales-Search-1` | **9 of 40** | incl. `[pllc in ny]`, `[pllc in new york]` |
+| `02_Professions_NY` | 1 of 34 | `[md pllc ny]` |
+
+Eligible auction volume, `Sales-Search-1` (budget $500/day, budget-lost 0% throughout):
+
+| Week | Eligible impressions |
+|---|---:|
+| May 4 | 12,030 |
+| Jul 6 | 5,072 |
+| Jul 13 (first full week after Lists A/A-FQ attached Jul 8–9) | 2,748 |
+| Jul 27 | 1,602 |
+| Aug 3 | 576 |
+
+| Action | Detail |
+|---|---|
+| Neg A (`12146898907`) | Removed **50** two-letter abbreviations → 103 → **53** members |
+| Neg A-FQ (`12146898703`) | Removed **44** two-letter abbreviations → 89 → **45** members |
+| `Sales-Search-1` geo | `PRESENCE` → **`PRESENCE_OR_INTEREST`** (the other Jul 8 change; out-of-state professionals forming NY PLLCs are real demand) |
+| Verified | Self-block check re-run per campaign against actual attachments + campaign-level negatives: **0 of 44 / 0 of 34 / 0 of 33 / 0 of 40** |
+| Plan §1.3 | Spec corrected — full state names only, with an explicit prohibition on two-letter abbreviations |
+| Plan §7.1 | Added weekly self-block check and eligible-auction-volume tracking |
+| `google_ads/client.py` | `run_query` now holds its service reference; the gRPC channel was being collected mid-stream (`CANCELLED "Channel deallocated!"`), which aborted a mutation halfway through |
+
+Wrong-state traffic is still fenced by the full state names, so the exclusion intent is preserved.
+
+**Not yet explained:** eligible volume also fell ~12,030 → ~4,000/week during **June**, before either Jul 8 change. That predates the Jun 28 negative experiment too. The API only retains 30 days of change history — needs the UI change log to close out.
+
+**Open:** `01` and `02` are still on `PRESENCE` geo. Decide after a week of Sales data.
+
+---
+
+## Changes on 2026-08-04 — Incrementality read + measurement tooling
+
+Question: with the bug fixed, should we expect a large uplift in purchases? **No — expect attributed conversions to jump and total purchases to rise modestly.**
+
+| Evidence | Reading |
+|---|---|
+| Apr 320 clicks → **49** orders; Jul 169 clicks → **47** orders (clicks **−47%**, orders **−4%**) | Paid is not driving purchases one-for-one |
+| Monthly clicks vs orders across 9 months: **r = 0.06** | Effectively no relationship (weak on its own — n=9 with a time trend) |
+| Orders per 100 paid clicks: **8.1** (Nov) → **27.8** (Jul) | Growth is coming from non-paid sources |
+| 42 orders since Jul 9: **31%** Google click ID · **12%** other UTM (all `chatgpt.com`) · **57%** untagged | Most orders arrive without a paid click; untagged ≠ organic (also direct/WOM/referral/lost click IDs) |
+| Brand (`nypllc`): **$529 of ~$21k lifetime**, conv flat 3–4/mo | Brand cannibalization is immaterial — **corrects an earlier overstatement** |
+| No rank tracking on the 20 commercial terms | Cannibalization exposure is currently unmeasurable |
+| Formation purchase lag | July orders partly from May/June clicks — damage may not have fully landed |
+
+**Correction logged.** An earlier read in this session claimed brand search accounted for ~50% of ad conversions. That was an artifact of a collapsing denominator (generic fell 12.0 → 3.0 while brand held at 3–4). Brand CVR (18.2%) is only modestly above generic (12–15%), which is not what pre-decided traffic looks like. The proposal to split brand into its own campaign is withdrawn — it isn't worth the structure at 2.5% of spend.
+
+| Built | Detail |
+|---|---|
+| [`ads_incrementality.py`](ads_incrementality.py) | `cannibalization --gsc <Queries.csv>` buckets paid spend by organic rank (needs a manual Search Console export; steps in `--help`). `recovery --weeks N [--orders csv]` tracks weekly eligible auction volume against the CRM attribution split |
+| `PLLC-CRM/crm/scripts/orders-attribution.ts` | Read-only CRM orders by attribution bucket, weekly/monthly, emits the CSV the `recovery` command consumes |
+| Plan **§0.6 Incrementality** | States the assumption the whole projection model rests on, the structural tension with the SEO plan (both chase the same finite pool, so cannibalization grows as SEO wins), and the decision rule |
+
+**Data correction.** Order counts above use `Order.orderCreatedAt` (Spiffy checkout timestamp) excluding `isVmOnly` and `[TEST]` records. An earlier pass in this session used `createdAt` unfiltered and reported Apr 48 / May 65; corrected to **Apr 49 / May 57**. The direction of the finding is unchanged — slightly strengthened. All 8 VM-only orders fall in Feb–May 2026; there were no `[TEST]` orders in the window.
+
+**Decision rule going forward:** total orders rise **and** untagged holds → paid is incremental, scale it. Google-attributed rises **while** untagged falls → we're re-attributing demand we already had, and dashboard ROAS is fiction.
+
+### Cannibalization measured (same day, after GSC export)
+
+GSC queries 2025-10-27 → 2026-08-02 (954 queries) joined to paid search terms over the identical window:
+
+| Bucket | Queries | Spend | % |
+|---|---:|---:|---:|
+| Rank 1–3 | 6 | $534 | 6.8% |
+| Rank 4–10 | 14 | $557 | 7.1% |
+| **Rank 11+** | **90** | **$6,032** | **76.4%** |
+| No organic presence | 930 | $774 | 9.8% |
+
+**Non-brand cannibalization: $30 of $7,897 = 0.38%.** Of the $534 top-3 overlap, **$504 is the single brand term `nypllc`**.
+
+We rank nowhere on commercial terms — `pllc formation new york` **26.5** · `ny pllc formation` **28.9** · `pllc new york` **35.9** · `new york pllc formation` **25.1** · `pllc ny` **44.8**. Organic delivers ~63 clicks/month vs ~275 paid; 4,123 organic impressions/month at **1.53% CTR**.
+
+**Conclusions:** (1) "Ads cannibalize organic" is disproven — paid is additive on commercial queries. (2) Uplift estimate revised **up to +6 to +14 orders/month**, wide because April's clicks were 80% low-intent broad `pllc` while the Aug 4 fix restored *exact-match* commercial inventory. (3) The rank-11+ table is the **SEO target list ranked by current paid spend**.
+
+**Open:** 20-term rank tracking still not set up; `chatgpt.com` is an unmanaged channel worth watching (5 orders since Jul 9).
+
+---
+
+## Changes on 2026-08-04 — Weekly SOP §7.1 (week ending Aug 4)
+
+Pull: [`ads-pull-2026-08-04-weekly-sop/`](ads-pull-2026-08-04-weekly-sop/) · writeup [`WEEKLY-SOP.md`](ads-pull-2026-08-04-weekly-sop/WEEKLY-SOP.md) · dashboard [`ads-weekly-dashboard.csv`](ads-weekly-dashboard.csv)
+
+| Metric (window) | Result |
+|---|---|
+| Budget-lost IS | **0%** Sales + `01` |
+| 7d (Jul 29–Aug 4) | $272 / **3** click-attr / CPA **$91** |
+| 30d CPA | **$118** (11 click-attr / $1,299) — over ≤$110, under ≤$130 |
+| `01` IS (30d) | **~50%** · $231 / 35 clicks / **0** conv |
+| Ads↔CRM 30d | Spiffy Purchase **10** vs CRM click-ID **13** (**+30%** — outside ±10%; offline upload still deferred) |
+| Mobile CVR (Jul 9–Aug 4) | 4.1% vs desktop 9.5% — keep −20% |
+
+| Action | Detail |
+|---|---|
+| Exact keyword | `[pllc new york formation]` → `01_Core_Exact_NY` / Formation-Core (Sales word-order of converting family) |
+| `02` | Enabled earlier same day (see below) |
+| Deferred | Sales exact-neg fence; `ny pllc checklist` watch (2nd week); Auction Insights manual export (1st week of Aug) |
+| Gate 1 | Hold — `01` 0 conv · account 11/30d (need ≥28) |
+
+---
+
+## Changes on 2026-08-04 — Enable `02_Professions_NY` (calendar Aug 3)
+
+| Action | Detail |
+|---|---|
+| Campaign status | `02_Professions_NY` (`24017629178`) **PAUSED → ENABLED** via API |
+| Bidding | Already on portfolio **`NYPLLC Search Portfolio`** (`12148056412`) Target CPA $90 — unchanged |
+| Budget / geo | $25/day · NY Presence · Search only · shared negatives A–E — unchanged |
+| RSA policy (pre-enable) | 20 **APPROVED** · 2 **APPROVED_LIMITED** (Attorneys — gov docs; accepted) |
+| Still PAUSED | `03_ForeignQual_US` until Gate 1 (~Aug 17) |
 
 ---
 
@@ -47,6 +177,18 @@ Source: [nypllc-seo-title-meta-pass-proposals.md](../nypllc-seo-title-meta-pass-
 | Other pages | `web/src/lib/seo/metadata.ts` (home, about, FAQ, contact, order, order-llc, virtual-address-services, mail-forwarding-agreement, partners, privacy, terms, disclaimer) and `web/src/app/how-to-form-a-pllc-in-ny/page.tsx` — titles/descriptions updated per the same proposals file. `web/src/app/layout.tsx` root `openGraph`/`twitter` defaults updated to match new home title/description. |
 | Verified | `tsc --noEmit` clean; `next lint` clean (no new warnings); dev-server curl check confirmed rendered `<title>`/`<meta name="description">` on home, FAQ, LCSW, architect, Texas foreign-qual, and foreign-pllc hub match proposals with no double-suffix and no $885 leakage onto foreign-qual pages. |
 | Not changed | Page body copy, on-page headlines, CTAs, ad RSAs/assets in the Google Ads account, `/nysed-approval-times` draft, `drafts/ny-pllc-cost-complete-2026-breakdown.md`. |
+
+---
+
+## Changes on 2026-07-22 — Daily check junk → List C
+
+Pulled `ads-pull-2026-07-22/`. Account ~22 conv / $1.7k / 30d; 7d CPA soft ($144); `01` still $107 / 0 purchases. Budget-lost 0%.
+
+| Action | Detail |
+|---|---|
+| Shared negatives (phrase) → List C `12146898706` | `llc availability`, `llc name availability`, `check llc`, `blumberg`, `usa corp`, `corporate book`, `corporate seal` — covers Sales broad burn on `check llc availability` (~$23) + zero-cost LLC/competitor/kit junk |
+
+Phrase `llc …` does not match token `pllc`. Did **not** negative bare `llc formation` (leave for weekly SOP if it keeps leaking).
 
 ---
 

@@ -22,9 +22,24 @@ Hub + state landings for out-of-state professional entities qualifying into NY, 
 - Cross-sell `/virtual-address-services` for NY address + registered agent
 - Avoid duplicate document cards
 
+## Publication copy (HARD — Aug 10 2026)
+
+**We handle six-week legal notice publication end-to-end** (two county newspapers → affidavits → Certificate of Publication). Flat foreign package copy must say that.
+
+**Forbidden on any foreign page / FAQ / process step / pricing blurb:**
+
+- “publication guidance”
+- “we explain the NY publication step”
+- “publication is not included unless specifically quoted”
+- listing “publication handling” as an add-on we merely quote separately
+
+Assumed name / DBA ($199) and unusual certified-copy / extra-owner work remain separately quoted. Do not conflate those with publication.
+
+Hub `/foreign-pllc` already stated end-to-end publication; state shared module + FAQs must stay consistent with the hub.
+
 ## Pricing note
 
-**Rule (Jul 2026):** One flat list price per home state for foreign PLLC **and** foreign PC: `round_to_5(895 + unified_doc_cogs)` where unified docs = max(PLLC path, PC path). Do not maintain separate PLLC/PC list prices when adding states. Quote unusual certified-copy page counts, NYSED per-member fees, publication, or assumed-name work separately.
+**Rule (Jul 2026):** One flat list price per home state for foreign PLLC **and** foreign PC: `round_to_5(895 + unified_doc_cogs)` where unified docs = max(PLLC path, PC path). Do not maintain separate PLLC/PC list prices when adding states. Quote unusual certified-copy page counts, NYSED per-member fees, or assumed-name work separately — **not** standard publication (included).
 
 Source: `data/foreign-qualification-cogs.json`. Current flats: NJ $995 · PA $995 · FL $930 · TX $930 · CT $1000.
 

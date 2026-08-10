@@ -64,7 +64,7 @@ const content: StateForeignQualificationContent = {
     {
       question: 'Does the price include publication?',
       answer:
-        'We explain the publication requirement and quote any publication-related costs before filing. Publication is not included unless specifically quoted.',
+        'Yes. The flat package includes end-to-end six-week legal notice publication (two county newspapers and Certificate of Publication filing). We handle the newspapers, affidavits, and filing for you.',
     },
     {
       question: 'Do I still need a New York professional license?',

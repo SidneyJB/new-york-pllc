@@ -39,7 +39,7 @@ export function StateForeignQualificationPage({ content }: { content: StateForei
     'We obtain or review home-state good-standing and certified formation documents.',
     'We prepare the NY Application for Authority and professional filings.',
     'If the legal name does not comply in NY, we prepare a Certificate of Assumed Name.',
-    'We explain the NY publication step and quote any publication-related costs before filing.',
+    'We handle the required six-week legal notice publication end-to-end (two newspapers through Certificate of Publication).',
   ]
 
   return (
@@ -181,9 +181,10 @@ export function StateForeignQualificationPage({ content }: { content: StateForei
               </Card>
             </div>
             <p className="mt-8 text-sm text-muted-foreground">
-              Pricing includes our NY foreign qualification handling and standard home-state document assumptions. If your
-              filing requires unusual certified copies, additional owners, publication handling, or a NY assumed name, we
-              will quote that before filing.
+              Pricing includes NYSED authority, the New York Application for Authority filing, and end-to-end six-week
+              legal notice publication through Certificate of Publication, plus standard home-state document assumptions.
+              If your filing requires unusual certified copies, additional owners, or a NY assumed name, we will quote
+              that before filing.
             </p>
           </div>
         </section>

@@ -10,7 +10,7 @@ Google Ads API CLI, CSV exports, and analysis scripts for NYPLLC acquisition (li
 
 ## Operating plan
 
-📖 [NYPLLC Google Ads Operating Plan v2](../../nypllc-google-ads-operating-plan.md) — account strategy, Phase 0 conversion architecture, campaign rebuild, gates, SOPs (Jul 2026 → Feb 2027). **Keep execution status inlined in the plan** as work lands (same pattern as Phase 0 “Done Jul 8” notes). Companion organic plan: [SEO / content moat](../../nypllc-seo-content-moat-plan.md).
+📖 [NYPLLC Google Ads Operating Plan v2](../../nypllc-google-ads-operating-plan.md) — account strategy, Phase 0 conversion architecture, campaign rebuild, gates, SOPs (Jul 2026 → Feb 2027). **Keep execution status inlined in the plan** as work lands (same pattern as Phase 0 “Done Jul 8” notes). Companion plans: [SEO / content moat](../../nypllc-seo-content-moat-plan.md) · [Revenue levers](../../nypllc-revenue-levers-plan.md) ($985 test slotting §4.4).
 
 ## Key paths
 

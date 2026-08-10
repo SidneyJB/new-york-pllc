@@ -36,6 +36,7 @@ Listing shard filenames (e.g. via glob) is optional; reading their contents is n
 | DIY guide, how-to-form-a-pllc | [features/diy-guide.md](features/diy-guide.md) |
 | Tailwind, CSS variables, dark mode, globals.css, design system | [features/tailwind-v4.md](features/tailwind-v4.md) |
 | Google Ads, campaigns, keywords, auction insights, ad spend, GAQL, operating plan, tCPA, Phase 0 | [features/google-ads.md](features/google-ads.md) → [operating plan](../nypllc-google-ads-operating-plan.md) |
+| Revenue levers, shelf SKU, banking affiliate, payroll affiliate, S Corp calculator, $985 price test, expedite SKU, RA renewal disclosure, Compliance Plan, AOV, checkout bump, Practice Launch bundle | [features/revenue-levers.md](features/revenue-levers.md) → [revenue levers plan](../nypllc-revenue-levers-plan.md) |
 
 ## Optional context
 
@@ -54,7 +55,7 @@ Listing shard filenames (e.g. via glob) is optional; reading their contents is n
 
 ## Deep reference (not memory bank)
 
-📖 [Session history](../docs/session-history.md) · [Analytics reference](../docs/analytics-tracking.md) · [Spiffy checkout](../docs/spiffy-checkout.md) · [SEO & domain](../docs/seo-and-domain.md) · [Tailwind v4](../docs/tailwind-v4.md) · [Google Ads operating plan](../nypllc-google-ads-operating-plan.md) · [SEO / content moat plan](../nypllc-seo-content-moat-plan.md)
+📖 [Session history](../docs/session-history.md) · [Analytics reference](../docs/analytics-tracking.md) · [Spiffy checkout](../docs/spiffy-checkout.md) · [SEO & domain](../docs/seo-and-domain.md) · [Tailwind v4](../docs/tailwind-v4.md) · [Google Ads operating plan](../nypllc-google-ads-operating-plan.md) · [SEO / content moat plan](../nypllc-seo-content-moat-plan.md) · [Revenue levers plan](../nypllc-revenue-levers-plan.md)
 
 ## Measurement tooling (repo root)
 

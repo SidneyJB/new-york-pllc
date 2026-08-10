@@ -27,6 +27,11 @@ Payment → Spiffy webhook → Zapier (customer + admin email) → confirmation 
 - Thank-you URL: `total=` is full contract **cents** (payment plans included); `order=` = Spiffy order id — used for Ads conversion value
 - Prefer www thank-you URL; analytics metadata allowlists safe params only (no SSN/DOB dump)
 
+## Revenue levers (open)
+
+- **Checkout bumps** (sales-tax authority, DBA) and **Practice Launch bundle** depend on Spiffy bump/post-purchase-upsell support — verify once per [revenue levers plan](../../nypllc-revenue-levers-plan.md) Lever 4C (shared open item with CAQH plan).
+- **$985 price test** (late Sep): sitewide price + all ad assets same day — ads plan §4.4.
+
 ## Docs
 
-📖 [Spiffy checkout](../../docs/spiffy-checkout.md)
+📖 [Spiffy checkout](../../docs/spiffy-checkout.md) · [Revenue levers plan](../../nypllc-revenue-levers-plan.md)

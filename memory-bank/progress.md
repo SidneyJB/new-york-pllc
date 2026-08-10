@@ -22,6 +22,7 @@
 - Static admin dashboard (orders still via Spiffy + CRM)
 - Optional headless CMS for content
 - Growth: backlinks / SEO campaigns (see repo-root strategy docs)
+- **Revenue levers (site):** banking + payroll affiliate links, shelf SKU pages/checkouts, expedite add-on, VM checkout copy, S Corp calculator, $985 test prep — 📖 [revenue levers plan](../nypllc-revenue-levers-plan.md) · [features/revenue-levers.md](features/revenue-levers.md)
 
 ## Known issues & risks
 

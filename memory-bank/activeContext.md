@@ -16,20 +16,24 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 - **Foreign publication copy (HARD — Aug 10 2026):** flat package **includes** end-to-end six-week publication. Never “guidance” / “not included unless quoted.” See [features/foreign-into-ny.md](features/foreign-into-ny.md).
 - Ops fulfillment lives in **PLLC-CRM** (sibling repo) — not this codebase
 
-## Next steps
+## Expansion priorities (next 4 weeks)
 
-1. **Watch recovery from the Aug 4 negative fix** — eligible auction volume, impressions, and clicks on Sales + `01`. Expect `01` to start delivering on the 14 previously-blocked keywords. Re-baseline Gate 1 once a clean week exists.
-2. **Close out the June mystery** — eligible volume also fell ~12,030 → ~4,000/week during June, before either Jul 8 change. Needs the **UI change log** (API retains only 30 days).
-3. ~~Feed the SEO plan the paid-spend-ranked target list~~ **Done Aug 4** — saved as [`seo-target-list-2026-08-04.md`](../seo-target-list-2026-08-04.md) (regen: `seo_target_list.py`) and wired into SEO plan **Part 1.5** + Part 7. 259 actionable queries collapse onto essentially **one page**: `/` carries 88% of the paid value. **Open decision for the user:** money-page optimisation sits at #11–15 in the Part 2 editorial map while carrying 76% of paid spend — Part 1.5 recommends running it in parallel with the ★ data pieces rather than queued behind them.
-   - **Scope rule added:** plain LLC out of scope (sister company). Now in [projectbrief.md](projectbrief.md) § Scope boundary + router, because projectbrief previously called CheapNewYorkLLC a "reference site to replicate," which read as *copy it* rather than *stay out of its market*.
-   - **New ads question:** we pay ~$331/yr for plain-LLC clicks. If CheapNewYorkLLC bids the same terms we're bidding against ourselves — check the sister account before deciding on negative keywords.
-4. **Set up the 20-term rank tracking** — the terms are now defined (Part 1.5 target list; baseline median position 32, Aug 4). Just needs a tracker wired up to measure movement.
-5. Decide whether `01` / `02` should also move to `PRESENCE_OR_INTEREST` (Sales moved Aug 4; `01`/`02` still `PRESENCE`).
-6. Daily 10-min on Sales + `01` + `02`. `03` after Gate 1 (~Aug 17 — currently short on account 30d volume + `01` convs).
-7. **Parallel:** Customer Match UI upload; Auction Insights manual export (1st week of Aug)
-8. **Mobile LP (§5.1) remaining:** first-step friction cut (lead form → Spiffy); optional Ads call-forwarding number on sticky Call (today uses `APP_CONFIG.phone`). **Shipped Jul 12:** LCP speed budget; sticky CTA + Call; mobile trust band; hero CTA alone/full-width. Remove mobile −20% only after mobile CVR ≥80% of desktop (30d) — still ~29% of desktop
-9. More foreign state landings / partner / SEO when tasked
-10. **Later (deferred):** offline conversion upload from CRM-stored click IDs
+📖 Full narrative + Sep–Jan calendar: [expansion-next-steps.md](expansion-next-steps.md) (Aug 10, 2026)
+
+1. **CAQH payment + email past healthcare clients** — job #1 (**PLLC-CRM**)
+2. **RA auto-renewal build by Sep 15** — T-30 ~Sep 22, charges Oct; only hard calendar risk (**PLLC-CRM**)
+3. **Close EXP Credentialing** by email — they're waiting (**PLLC-CRM**)
+4. **Two affiliate links** — banking + payroll; ~two afternoons (**site**)
+5. **Ads mostly hands-off** — recovery + daily SOP; verdict early Sep
+6. **1 SEO piece/week** — next: OP deficiencies `#4`
+7. **Big B2B outreach paused** — advocate side keeps running
+
+## Ads ops (maintenance — not expansion sprint)
+
+1. Watch Aug 4 negative-fix recovery; re-baseline Gate 1 after a clean week
+2. Daily 10-min on Sales + `01` + `02`; `03` after early-Sep verdict if Gate 1 passes
+3. Open: 20-term rank tracker; Customer Match upload; Auction Insights export; June volume mystery (UI change log)
+4. **Deferred:** offline conversion upload; mobile LP §5.1 friction cut; `01`/`02` geo test
 
 ## Active decisions
 
@@ -63,6 +67,8 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 | Revenue levers week-one slips: banking affiliate + S Corp payroll link (planned Jul 6) | [revenue levers plan](../nypllc-revenue-levers-plan.md) |
 | $985 price test — late Sep only (ads plan §4.4); never during ladder step or January | [revenue levers plan](../nypllc-revenue-levers-plan.md) · [ads plan §4.4](../nypllc-google-ads-operating-plan.md) |
 | Spiffy bump / post-purchase upsell — verify once (Lever 4C + CAQH) | [revenue levers plan](../nypllc-revenue-levers-plan.md) |
+| **Sep 15 RA renewal build** — only hard calendar risk before Oct charges | [expansion-next-steps.md](expansion-next-steps.md) |
+| Big B2B professional outreach **paused** until CAQH + RA + EXP + affiliates done | [expansion-next-steps.md](expansion-next-steps.md) |
 
 ## Recent changes
 

@@ -53,6 +53,24 @@ const nextConfig: NextConfig = {
         ],
       },
       {
+        source: '/change-registered-agent',
+        headers: [
+          {
+            key: 'X-Robots-Tag',
+            value: 'noindex, nofollow, noarchive',
+          },
+        ],
+      },
+      {
+        source: '/change-registered-agent/',
+        headers: [
+          {
+            key: 'X-Robots-Tag',
+            value: 'noindex, nofollow, noarchive',
+          },
+        ],
+      },
+      {
         source: '/sitemap.xml',
         headers: [
           {

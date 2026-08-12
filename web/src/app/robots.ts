@@ -14,6 +14,8 @@ export default function robots(): MetadataRoute.Robots {
         '/api/',
         '/_next/',
         '/node_modules/',
+        '/change-registered-agent',
+        '/change-registered-agent/',
       ],
     },
     sitemap: `${baseUrl}/sitemap.xml`,

@@ -190,12 +190,22 @@ export const TERMS_METADATA = generateMetadata({
   canonical: '/terms',
 })
 
+/** Direct-link only (renewal emails). Not for organic discovery. */
 export const CHANGE_REGISTERED_AGENT_METADATA = generateMetadata({
   title: 'Change Registered Agent | NYPLLC',
   description:
     'End NYPLLC registered agent service by filing a NY DOS Certificate of Change yourself, or pay $99 all-in for us to file.',
   canonical: '/change-registered-agent',
-  robots: { index: false, follow: true },
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
 })
 
 export const DISCLAIMER_METADATA = generateMetadata({

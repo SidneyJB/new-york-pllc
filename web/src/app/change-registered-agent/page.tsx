@@ -1,41 +1,17 @@
 import Link from 'next/link'
-import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { CHANGE_REGISTERED_AGENT_METADATA } from '@/lib/seo/metadata'
-import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
-import { SEO_CONFIG } from '@/lib/seo/config'
 
 export const metadata = CHANGE_REGISTERED_AGENT_METADATA
 
 /**
- * Draft page for RA offboarding (CoC cancel). Linked from renewal emails.
- * Do not treat as live marketing until Sid approves the test T-30 email.
+ * Direct-link only (renewal emails / ops). Not listed in nav or sitemap;
+ * robots noindex + Disallow.
  */
 export default function ChangeRegisteredAgentPage() {
-  const siteUrl = SEO_CONFIG.siteUrl
-
   return (
     <div className="flex flex-col">
       <ScrollTracking />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            generateBreadcrumbSchema([
-              { name: 'Home', item: siteUrl },
-              {
-                name: 'Change Registered Agent',
-                item: `${siteUrl}/change-registered-agent`,
-              },
-            ]),
-          ),
-        }}
-      />
-      <div className="border-b bg-background/95">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <Breadcrumb items={[{ label: 'Change Registered Agent' }]} />
-        </div>
-      </div>
 
       <section className="py-12 lg:py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">

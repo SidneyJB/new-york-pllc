@@ -144,11 +144,12 @@ export default function TermsPage() {
                       To end service you must change the registered agent on file
                       with NY DOS by either (1) filing a Certificate of Change yourself, or (2) paying
                       a one-time <strong>$99 all-in</strong> fee for us to file it. Billing stops only
-                      after DOS no longer lists us. See{' '}
-                      <Link href="/change-registered-agent" className="text-primary underline">
-                        Change Registered Agent
-                      </Link>
-                      .
+                      after DOS no longer lists us. Step-by-step instructions are linked from your
+                      renewal email (or email{' '}
+                      <a className="text-primary underline" href="mailto:contact@nypllc.com">
+                        contact@nypllc.com
+                      </a>
+                      ).
                     </p>
                     <p className="text-sm text-muted-foreground">
                       Virtual mail customers who need an address change use the separate $199 Certificate of Change

@@ -2,6 +2,12 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-08-12 — Affiliate partner picks: Mercury + Gusto Impact
+
+Research (not applied, links not live). **Banking: Mercury** incorporator/affiliate; Relay is the stronger practice *product* but Partner exclusivity likely blocks a dual paid partnership; neither is IOLTA. **Payroll: Gusto via Impact** (~$200+ on first paid payroll, 120-day cookie); Gusto Pro is CPA-only; ADP PartnerStack’s 3-payrolls-in-45-days bar is a poor fit for owner-only S Corps.
+
+Saved: [`docs/affiliate-partners.md`](affiliate-partners.md). Linked from [features/revenue-levers.md](../memory-bank/features/revenue-levers.md), [expansion-next-steps.md](../memory-bank/expansion-next-steps.md), [activeContext.md](../memory-bank/activeContext.md), [router.md](../memory-bank/router.md), and the revenue levers plan.
+
 ## 2026-08-04 — INCIDENT: stop-word negatives; root cause of the conversion collapse
 
 Investigated why Google Ads conversions fell hard while CRM order volume stayed flat (47 in June, 47 in July — demand was never the problem).

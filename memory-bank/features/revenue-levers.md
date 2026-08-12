@@ -15,8 +15,8 @@ Post-formation monetization: RA auto-renewal + Compliance Plan, shelf SKUs, S Co
 | Lever | Site/Spiffy role | CRM role (sibling repo) |
 |-------|------------------|-------------------------|
 | **1 — RA auto-renewal + Compliance Plan ($249/yr)** | Checkout + confirmation **auto-renewal disclosure** copy | T-30/T-7 notices, Stripe retries, cancel flow, dispute template — **hard deadline Sep 15** (first T-30 ~Sep 22) |
-| **2 — Long-tail shelf** | Spiffy checkouts + `/services` index + SEO pages per SKU | DOS filing automation for amendments, etc. |
-| **3 — S Corp monetization** | Payroll affiliate in S-Corp pipeline email + product page; S Corp calculator (SEO tool) | S-Corp-Docs-Faxed email pipeline |
+| **2 — Long-tail shelf** | Spiffy checkouts + `/services` index + SEO pages per SKU; **banking = Mercury** (EIN email) | DOS filing automation for amendments, etc. |
+| **3 — S Corp monetization** | **Gusto Impact** payroll affiliate in S-Corp pipeline email + product page; S Corp calculator (SEO tool) | S-Corp-Docs-Faxed email pipeline |
 | **4 — AOV suite** | $985 price test (late Sep), expedite SKU, checkout bumps, Practice Launch bundle, VM copy | — |
 
 **Companion plans:** [Ads v2](../../nypllc-google-ads-operating-plan.md) · [SEO moat](../../nypllc-seo-content-moat-plan.md) · CAQH v1 · B2B v1 (CRM).
@@ -25,8 +25,8 @@ Post-formation monetization: RA auto-renewal + Compliance Plan, shelf SKUs, S Co
 
 | Item | Plan says | Aug 10 status |
 |------|---------|---------------|
-| Banking affiliate (Relay/Mercury in EIN email + backlist) | Ship this week | **Not verified on site** |
-| S Corp Phase 1 (Gusto/ADP-class payroll partner link) | ~4 hrs | **Not verified** |
+| Banking affiliate (EIN email + backlist) | Ship this week | **Pick: Mercury** (Aug 12). Not applied / not live. 📖 [affiliate-partners.md](../../docs/affiliate-partners.md) |
+| S Corp Phase 1 payroll partner | ~4 hrs | **Pick: Gusto via Impact** (not Gusto Pro, not ADP default). Not applied / not live. Same doc. |
 | Spiffy bump / post-purchase upsell capability | Verify once (shared with CAQH plan) | **Open** |
 
 ## Key cross-deps (website)
@@ -47,7 +47,8 @@ Post-formation monetization: RA auto-renewal + Compliance Plan, shelf SKUs, S Co
 
 - Oct–Dec **2025 formation cohort** (~56 renewals Oct–Dec 2026) is the Compliance Plan + auto-renewal **pilot** — checkout disclosure for that cohort may need audit (plan open item in status reports).
 - Spiffy bump support unverified — blocks checkout bumps (Lever 4C) and CAQH upsell motion.
+- **Do not sign Relay Partner** while Mercury is the banking pick — Relay Partner exclusivity may block similar bank referrals. Neither bank is IOLTA.
 
 ## Docs
 
-📖 [Revenue levers plan](../../nypllc-revenue-levers-plan.md) · [Spiffy checkout](spiffy-checkout.md) · [SEO moat plan](../../nypllc-seo-content-moat-plan.md) · [Google Ads plan](../../nypllc-google-ads-operating-plan.md)
+📖 [Revenue levers plan](../../nypllc-revenue-levers-plan.md) · [Affiliate partners (Mercury + Gusto)](../../docs/affiliate-partners.md) · [Spiffy checkout](spiffy-checkout.md) · [SEO moat plan](../../nypllc-seo-content-moat-plan.md) · [Google Ads plan](../../nypllc-google-ads-operating-plan.md)

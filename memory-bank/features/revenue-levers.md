@@ -6,7 +6,9 @@ Post-formation monetization: RA auto-renewal + Compliance Plan, shelf SKUs, S Co
 
 ## Status
 
-**Plan in repo (Aug 10 2026).** Most levers **not shipped** on nypllc.com as of Aug 10; CRM build items (RA renewal system) live in **PLLC-CRM** when tasked.
+**Plan in repo (Aug 10 2026).** Lever 1 CRM build landed Aug 12 (CoC cancel, no 1-click). **HARD GATE:** do not ship site/Spiffy/cohort emails live until Sid confirms test email to `cowboysintvland@gmail.com`.
+
+Site draft: `/change-registered-agent`, Terms RA renew section, confirmation copy, [Spiffy disclosure draft](../../docs/spiffy-ra-renewal-disclosure-draft.md).
 
 ## Operating plan
 

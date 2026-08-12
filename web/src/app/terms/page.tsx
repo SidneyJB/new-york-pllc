@@ -6,7 +6,7 @@ import { APP_CONFIG, PRICING } from '@/lib/constants'
 import { TERMS_METADATA } from '@/lib/seo/metadata'
 
 export const metadata = TERMS_METADATA
-const LAST_UPDATED = 'October 23, 2025'
+const LAST_UPDATED = 'August 12, 2026'
 
 export default function TermsPage() {
   return (
@@ -129,6 +129,34 @@ export default function TermsPage() {
                     <p className="text-muted-foreground">
                       Our service fee is ${PRICING.basePrice} (all-inclusive). This includes all state filing fees, 
                       publication costs, and administrative services. No hidden fees or additional charges.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h3 className="font-semibold mb-2">Registered Agent (year 1 and renewals)</h3>
+                    <p className="text-muted-foreground mb-2">
+                      Formation packages include one free year of registered agent / process-address service.
+                      After the first year, service continues at <strong>$99 per year</strong> (or <strong>$249 per year</strong>
+                      if you elect the Compliance Plan) and auto-renews on your anniversary while we remain
+                      listed as your registered agent with the New York Department of State.
+                    </p>
+                    <p className="text-muted-foreground mb-2">
+                      To end service you must change the registered agent on file
+                      with NY DOS by either (1) filing a Certificate of Change yourself, or (2) paying
+                      a one-time <strong>$99 all-in</strong> fee for us to file it. Billing stops only
+                      after DOS no longer lists us. See{' '}
+                      <Link href="/change-registered-agent" className="text-primary underline">
+                        Change Registered Agent
+                      </Link>
+                      .
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                      Virtual mail customers who need an address change use the separate $199 Certificate of Change
+                      path in the{' '}
+                      <Link href="/mail-forwarding-agreement" className="text-primary underline">
+                        Mail Forwarding &amp; Registered Agent Agreement
+                      </Link>
+                      .
                     </p>
                   </div>
 

@@ -179,7 +179,7 @@ export default async function OrderLlcConfirmationPage({ searchParams }: { searc
                       </li>
                       <li className="flex items-start gap-2">
                         <BadgeCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" aria-hidden="true" />
-                        <span>Free first-year registered agent service</span>
+                        <span>Free first-year registered agent service ($99/yr thereafter while we remain your registered agent; end service via NY DOS Certificate of Change — self-file or $99)</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <BadgeCheck className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" aria-hidden="true" />

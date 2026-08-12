@@ -203,7 +203,6 @@ export const CHANGE_REGISTERED_AGENT_METADATA = generateMetadata({
     googleBot: {
       index: false,
       follow: false,
-      noimageindex: true,
     },
   },
 })

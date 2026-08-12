@@ -6,9 +6,11 @@ Post-formation monetization: RA auto-renewal + Compliance Plan, shelf SKUs, S Co
 
 ## Status
 
-**Plan in repo (Aug 10 2026).** Lever 1 CRM build landed Aug 12 (CoC cancel, no 1-click). **HARD GATE:** do not ship site/Spiffy/cohort emails live until Sid confirms test email to `cowboysintvland@gmail.com`.
+**Lever 1 site + CRM shipped Aug 12 2026** (CoC cancel, no 1-click). Test email approved. `/change-registered-agent` is **direct-link only** (noindex + robots Disallow).
 
-Site draft: `/change-registered-agent`, Terms RA renew section, confirmation copy, [Spiffy disclosure draft](../../docs/spiffy-ra-renewal-disclosure-draft.md).
+**Before cohort emails:** CRM must still E2E the **Compliance Plan $249 upgrade**, then Sid flips `DIRECT_RA_NOTICES_LIVE`. 📖 [CRM launch status](../../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
+
+Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spiffy RA renew disclosure was already live.
 
 ## Operating plan
 

@@ -46,7 +46,7 @@ Post-formation life events (amendments, dissolutions, certificates, banking) are
 
 | SKU | Price | State fee (COGS) | Build effort | Notes |
 |---|---|---|---|---|
-| Banking affiliate (**Mercury** — decided Aug 12; Relay product-led only, do not sign Partner exclusivity) | $50–100/funded acct to you (negotiate; Mercury CPA unpublished) | — | Apply + EIN email. 📖 [affiliate-partners.md](docs/affiliate-partners.md) | Zero-risk, pure margin |
+| Banking affiliate (**Mercury** — applied Aug 14, awaiting response; Relay product-led only, do not sign Partner exclusivity) | $50–100/funded acct to you (negotiate; Mercury CPA unpublished) | — | Wait for terms + link, then EIN email. 📖 [affiliate-partners.md](docs/affiliate-partners.md) | Zero-risk, pure margin |
 | Certificate of Good Standing (Status) | $99 | ~$25 | Days | Cross-sell inside CAQH flow — payers and banks request it |
 | Certified copies | $99 | ~$10–25 | Days | Same retrieval pipeline |
 | Articles of Amendment (name/address/purpose) | $249 | $60 | ~1 wk | Reuses DOS filing automation; compliance-plan members get 20% off |
@@ -69,7 +69,7 @@ One SKU per week or two through Aug–Oct inside engineering slack; no gates —
 Every S Corp election you sell ($195, 17.3% attach, 34+ clients) creates two mandatory downstream purchases you currently monetize at $0: payroll (reasonable-salary compliance) and the 1120-S return. Capture both via partners — and hold the line on identity: **default is partner, don't build.** In-house payroll/tax would be the first un-automatable product in the company; the burden of proof sits entirely on the in-house option.
 
 ## Phase 1 — this week (~4 hours)
-1. Join **Gusto Impact Affiliate** (not Gusto Pro, not ADP as default) — decided Aug 12. 📖 [affiliate-partners.md](docs/affiliate-partners.md). Expect ~$200+ on first paid payroll; 120-day cookie.
+1. Join **Gusto Impact Affiliate** (not Gusto Pro, not ADP as default) — **applied Aug 14**, awaiting approval. 📖 [affiliate-partners.md](docs/affiliate-partners.md). Expect ~$200+ on first paid payroll; 120-day cookie.
 2. Insert the recommendation into the S-Corp-Docs-Faxed pipeline email (reasonable-salary / first W-2 — do not promise a literal 20-minute first payroll) and the S Corp product page.
 3. One backlist email to the 34+ existing S Corp clients. Even 8–12 activations is $1–3K found money and validates the flow.
 

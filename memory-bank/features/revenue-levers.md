@@ -29,8 +29,8 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 
 | Item | Plan says | Aug 10 status |
 |------|---------|---------------|
-| Banking affiliate (EIN email + backlist) | Ship this week | **Pick: Mercury** (Aug 12). Not applied / not live. 📖 [affiliate-partners.md](../../docs/affiliate-partners.md) |
-| S Corp Phase 1 payroll partner | ~4 hrs | **Pick: Gusto via Impact** (not Gusto Pro, not ADP default). Not applied / not live. Same doc. |
+| Banking affiliate (EIN email + backlist) | Ship this week | **Mercury applied Aug 14** — waiting on response. Links not live. 📖 [affiliate-partners.md](../../docs/affiliate-partners.md) |
+| S Corp Phase 1 payroll partner | ~4 hrs | **Gusto Impact applied Aug 14** — waiting on approval. Links not live. Same doc. |
 | Spiffy bump / post-purchase upsell capability | Verify once (shared with CAQH plan) | **Open** |
 
 ## Key cross-deps (website)

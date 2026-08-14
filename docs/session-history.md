@@ -2,6 +2,10 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-08-14 — Mercury partnership applied
+
+Sid applied to Mercury incorporator/affiliate **and Gusto Impact** (gusto.com/affiliates — not the in-product customer referral). **Waiting on both responses.** Links not live. Next after approval: tracking URLs → EIN email / S-Corp-Docs-Faxed + backlist + S Corp page. Noted in [affiliate-partners.md](affiliate-partners.md).
+
 ## 2026-08-12 — Affiliate partner picks: Mercury + Gusto Impact
 
 Research (not applied, links not live). **Banking: Mercury** incorporator/affiliate; Relay is the stronger practice *product* but Partner exclusivity likely blocks a dual paid partnership; neither is IOLTA. **Payroll: Gusto via Impact** (~$200+ on first paid payroll, 120-day cookie); Gusto Pro is CPA-only; ADP PartnerStack’s 3-payrolls-in-45-days bar is a poor fit for owner-only S Corps.

@@ -32,7 +32,7 @@ Anything that **takes money** (build + launch):
 | **1** | **CAQH payment + email past healthcare clients** | **PLLC-CRM** (payment path, intake) + site if checkout copy needed | Still **job #1** |
 | **2** | **RA auto-renewal system** | **PLLC-CRM** | **Hard deadline Sep 15** — T-30 notices ~Sep 22, charges start **October**. Only calendar date that can actually hurt you. See [revenue levers plan](../nypllc-revenue-levers-plan.md) · [CRM shard](../../PLLC-CRM/memory-bank/features/revenue-levers.md) |
 | **3** | **Close EXP Credentialing** | **PLLC-CRM** ops email | They're waiting |
-| **4** | **Two affiliate links** (banking + payroll) | **Site** lifecycle email + backlist / S Corp page | **Picks (Aug 12, not live):** Mercury · Gusto Impact. Next: apply + drop links. 📖 [affiliate-partners.md](../docs/affiliate-partners.md) · [Revenue levers plan](../nypllc-revenue-levers-plan.md) Lever 2–3 |
+| **4** | **Two affiliate links** (banking + payroll) | **Site** lifecycle email + backlist / S Corp page | **Mercury + Gusto Impact applied Aug 14** (awaiting responses). Links not live. 📖 [affiliate-partners.md](../docs/affiliate-partners.md) · [Revenue levers plan](../nypllc-revenue-levers-plan.md) Lever 2–3 |
 | **5** | **Ads — mostly hands-off** | **new-york-pllc** | Let recovery run; **verdict early September**. Daily SOP only — no new structure changes |
 | **6** | **SEO — 1 piece/week** | **new-york-pllc** | Next editorial: OP deficiencies `#4`. [SEO plan](../nypllc-seo-content-moat-plan.md) |
 | **7** | **Big B2B outreach — paused on purpose** | **PLLC-CRM** | Advocate/referral side keeps running; scaled professional outreach waits until 1–4 are done |

@@ -2,6 +2,14 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-08-14 — Attorneys RSA rewrite (gov-docs disapproval)
+
+`02` Attorneys — controlled DISAPPROVED (`GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES`); unpinned APPROVED_LIMITED. Copy claimed NYSED/OP on `/professions/law` (not an NYSED flow). Replaced both RSAs with Rule 7.5 / attorney-only ownership copy. New ads `820969348495` / `820969348510` in review. See [google_ads_changes.md](../google_ads_changes.md).
+
+## 2026-08-14 — Weekly Ads SOP §7.1
+
+Ran 10 days after Aug 4 (calendar due Aug 10). 7d CPA **$97** / 5 conv; 30d **$112** / 14 conv. **`01_Core_Exact_NY` first two purchases.** Self-block 0. Added `[create pllc]` exact on Formation-Core. Ads Spiffy 14 vs CRM 19 (+36%). Gate 1 hold. Writeup: `ads-pull-2026-08-14-weekly-sop/WEEKLY-SOP.md`.
+
 ## 2026-08-14 — Removed “No upsells” site copy
 
 Dropped CTA/FAQ/foreign language that claimed no upsells, now that S Corp and sales-tax checkboxes are live. FAQ: optional extras are opt-in at checkout.

@@ -313,6 +313,8 @@ Two RSAs per ad group (see Part 4). Landing pages: homepage or /how-to-form-a-pl
 
 **Status (Aug 4 2026):** **ENABLED** (`campaigns/24017629178`) — calendar launch Aug 3, enabled one day late. Budget $25/day · NY Presence · Search only · shared negatives A–E · **11 ad groups** · **34 keywords** · **22 RSAs**. Attached to portfolio **`NYPLLC Search Portfolio`** tCPA $90. Pre-enable RSA policy: 20 APPROVED · 2 APPROVED_LIMITED (Attorneys). Six health-policy keywords uploaded Jul 9 with API **exemption requests** (`HEALTH_IN_PERSONALIZED_ADS`): `lcsw pllc`, `lcsw pllc new york`, `pllc for lcsw`, `mental health counselor pllc`, `psychiatric nurse practitioner pllc`, `physical therapy pllc new york`.
 
+**Attorneys RSA rewrite (Aug 14 2026):** controlled DISAPPROVED (`GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES`) — NYSED/OP copy on a non-NYSED law page. Replaced both Attorneys RSAs with Rule 7.5 / attorney-only ownership copy (`820969348495` / `820969348510`, in review). Other profession RSAs unchanged.
+
 **Geo:** NY, Presence. **Budget:** $20–30/day. **Bidding:** same portfolio.
 
 One ad group per profession, each pointed at the live profession landing page you already built. Start exact; add phrase per group after 2 weeks if that group gets <10 impressions/day.
@@ -617,7 +619,7 @@ Gates are permission slips, not deadlines. Missing a gate by two weeks costs alm
 | Jul 20 | Daily 10-min monitoring on Core Exact + Sales-Search-1 |
 | Jul 27 | ✅ First formal weekly SOP — **ran Jul 28** ([writeup](ads-pull-2026-07-28-weekly-sop/WEEKLY-SOP.md) · [dashboard](ads-weekly-dashboard.csv)): 30d CPA $96 / 16 conv; `01` IS ~53% / 0 conv; Ads↔CRM primary 9=9; +`[nys pllc formation]` on `01`; List C +2 LLC-availability phrases; `02` RSA policy OK → enable Aug 3 |
 | Aug 3 | ✅ **Launch 02_Professions** — **enabled Aug 4** (`24017629178` PAUSED→ENABLED; already on portfolio tCPA $90) · ✅ weekly SOP ran Aug 4 ([writeup](ads-pull-2026-08-04-weekly-sop/WEEKLY-SOP.md)): 7d CPA $91 / 3 conv; 30d CPA $118 / 11 conv; `01` IS ~50% / 0 conv; Ads 10 vs CRM 13; +`[pllc new york formation]` on `01` |
-| Aug 10 | Monitor · ✅ `03_ForeignQual` already drafted Jul 9 (PAUSED) — polish if needed · ✅ §5.1 LCP + sticky CTA + trust/hero CTA shipped Jul 12; remaining: friction cut · optional Ads call-forward number · Auction Insights manual export still open |
+| Aug 10 | ✅ Weekly SOP **ran Aug 14** ([writeup](ads-pull-2026-08-14-weekly-sop/WEEKLY-SOP.md)): 7d CPA $97 / 5 conv; 30d CPA $112 / 14 conv; **`01` first 2 purchases**; +`[create pllc]` on `01`; Ads 14 vs CRM 19 (+36%); Gate 1 hold · Auction Insights manual export still open |
 | Aug 17 | **Gate 1** → launch 03_ForeignQual on pass |
 | Aug 24 – Sep 6 | Accumulate data · abandoned-checkout emails ship · Microsoft Ads account created |
 | Sep 7 | Gate 2 window opens |

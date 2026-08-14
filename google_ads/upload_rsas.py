@@ -126,6 +126,11 @@ def main(argv: list[str] | None = None) -> int:
         choices=DRAFT_CAMPAIGNS,
         help="Only upload RSAs for these campaigns (default: all in manifest)",
     )
+    parser.add_argument(
+        "--ad-groups",
+        nargs="+",
+        help="Only upload RSAs for these ad group names (default: all in manifest)",
+    )
     parser.add_argument("--customer-id", default=None)
     args = parser.parse_args(argv)
 
@@ -145,6 +150,9 @@ def main(argv: list[str] | None = None) -> int:
     if args.campaigns:
         allowed = set(args.campaigns)
         rsas = [r for r in rsas if r["campaign_name"] in allowed]
+    if args.ad_groups:
+        allowed_ag = set(args.ad_groups)
+        rsas = [r for r in rsas if r["ad_group_name"] in allowed_ag]
 
     print(
         f"Uploading {len(rsas)} RSAs "

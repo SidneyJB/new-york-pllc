@@ -1,0 +1,142 @@
+campaign.name,ad_group.name,ad_group_criterion.criterion_id,ad_group_criterion.negative,ad_group_criterion.keyword.text,ad_group_criterion.keyword.match_type,ad_group_criterion.status
+Sales-Search-1,LCSW PLLC,568504227,True,clinical social work,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,299785987380,True,lcsw nyc,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,339037099655,True,lcsw bootcamp,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,342354758584,True,lcsw salary nyc,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,348475434389,True,lcsw new york,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,390533539429,True,social work in nyc,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,393969467711,True,lmsw jobs nyc,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,394623560327,True,new york school of social work,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,467643972884,True,rivky weiss,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,573837979643,True,dore sheppard,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,811395064539,True,lcsw ceu requirements ny,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,866516531459,True,how to become a lcsw in ny,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,871675599247,True,lcsw r new york,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,885272038776,True,bcsnygroup,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,893687102821,True,mental health programs in new york,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,901073842216,True,comprehensive counseling lcsw,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,955958962515,True,remote lcsw,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,1085499904232,True,lmhc nys,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,1282634777513,True,how to get lcsw in ny,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,1413683492377,True,nys office of professions license,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,1611110419895,True,free social work ceus new york,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,1871752089303,True,limited permit mental health counseling ny,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,1928383727227,True,lcsw nys,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,1961021487261,True,lcsw application ny,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,2171685330670,True,lcsw study groups,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,2231103373833,True,lcsw in nyc,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,2231420630577,True,lcsw in ny,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,2418107307723,True,ny lpc,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,2418408927043,True,lcswvibes,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,2430828875444,True,licensed social worker nyc,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,2433382989831,True,ray social work,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,2438311772101,True,the room for therapy lcsw pllc,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,2453300063273,True,lcsw r nys,EXACT,ENABLED
+Sales-Search-1,LCSW PLLC,2456316221901,True,lcsw vibes community,EXACT,ENABLED
+Sales-Search-1,NY PLLC Formation,10000120,True,video,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10001471,True,free,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10001841,True,samples,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10009891,True,guide,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10013851,True,example,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10018086,True,law firm,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10018096,True,law firms,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10018371,True,cheap,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10022371,True,rules,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10023311,True,how to,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10026161,True,meaning,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10036951,True,limited liability company,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10044220,True,attorney,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10044290,True,lawyers,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10044390,True,attorneys,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10044500,True,lawyer,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10063101,True,syracuse,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10065061,True,rochester,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10065261,True,buffalo,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10066241,True,albany,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10082360,True,class,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10082361,True,lp,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10099221,True,guidelines,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10099241,True,template,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10099931,True,forms,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10102926,True,legal service,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10102956,True,legal services,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10118081,True,document,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10118241,True,documents,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10119881,True,instructions,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10154371,True,definition,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10169890,True,course,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10191841,True,laws,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10255461,True,inc,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10274391,True,do it yourself,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10317241,True,how do i,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10335281,True,business lawyers,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10337561,True,registered agent,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10444811,True,pdf,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10544721,True,corporations,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10547501,True,partnership,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10703611,True,business lawyer,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,10865221,True,limited liability,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,11092761,True,dba,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,11124530,True,corporate lawyer,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,11161560,True,brooklyn lawyer,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,11181731,True,statute,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,11234341,True,what is,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,11297721,True,corporate attorneys,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,11346780,True,nyc lawyer,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,11377330,True,incorporated,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,12063661,True,sole proprietor,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,12328481,True,llp,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,12335691,True,s corp,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,12846671,True,legalzoom,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,13292570,True,501c3,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,14264643,True,general partnership,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,14340361,True,agent services,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,14671151,True,nonprofit,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,15061771,True,sole proprietorship,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,15162340,True,bronx lawyer,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,18093120,True,DIY,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,19458583,True,doing business as,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,19487791,True,step by step,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,21615076,True,small business attorney,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,21615086,True,small business attorneys,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,23868496,True,s-corp,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,25379450,True,c corp,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,25461280,True,llp,EXACT,ENABLED
+Sales-Search-1,NY PLLC Formation,95584885,True,wikipedia,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,144116199,True,foreign llc,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,329532753,True,reddit,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,346891350,True,quora,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,374310360,True,domestic limited liability company,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,417393029,True,youtube,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,1272869690,True,incfile,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,1890875242,True,llc publishing,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,1890876262,True,llc publication,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,3028382844,True,rocket lawyer,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,3915228638,True,rocketlawyer,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,39272964031,True,publish my llc,EXACT,ENABLED
+Sales-Search-1,NY PLLC Formation,131065181604,True,publishmyllc,EXACT,ENABLED
+Sales-Search-1,NY PLLC Formation,296826391190,True,certificate of publication,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,296948351016,True,whats a,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,298060288205,True,agent service,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,298128903315,True,staten island lawyer,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,298497630159,True,northwest registered agent,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,298825230378,True,queens lawyer,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,298853526458,True,new york registered agent,EXACT,ENABLED
+Sales-Search-1,NY PLLC Formation,303522402368,True,legal small business,EXACT,ENABLED
+Sales-Search-1,NY PLLC Formation,312083299400,True,publish llc,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,316142858791,True,manhattan law firm,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,321627845454,True,l.l.c,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,326536247034,True,new york registered agent,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,332446167764,True,nyc corporation,EXACT,ENABLED
+Sales-Search-1,NY PLLC Formation,338841948196,True,zenbusiness,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,360625181741,True,publication requirement,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,366618179477,True,c-corp,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,461837920060,True,company registration in new york,EXACT,ENABLED
+Sales-Search-1,NY PLLC Formation,470298114210,True,davis polk & wardwell llp new york,EXACT,ENABLED
+Sales-Search-1,NY PLLC Formation,493770667872,True,ny registered agent,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,814520546320,True,llc newspaper,BROAD,ENABLED
+Sales-Search-1,NY PLLC Formation,901944598793,True,top corporate law firms in new york city,EXACT,ENABLED
+Sales-Search-1,NY PLLC Formation,1945066114202,True,cohn legal pllc,EXACT,ENABLED
+Sales-Search-1,NY PLLC Formation,2289889733209,True,massachusetts pllc requirements,EXACT,ENABLED
+Sales-Search-1,NY PLLC Formation,2447830548235,True,the new york registered agent co,EXACT,ENABLED
+Sales-Search-1,NY PLLC Formation,2452344786465,True,authorization to do business in ny,EXACT,ENABLED

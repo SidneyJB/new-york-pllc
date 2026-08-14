@@ -8,7 +8,8 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 - **Google Ads Phase 0** — **conversion flip done Jul 9.** Tagged Purchase `7678072764` primary; page-load `7353506045` secondary. See [features/google-ads.md](features/google-ads.md) · [operating plan](../nypllc-google-ads-operating-plan.md)
 - **🔴 Stop-word negative incident — found + fixed Aug 4.** Root cause of the conversion collapse: Lists A/A-FQ contained two-letter state abbreviations as **phrase** negatives, so `in` (Indiana) blocked every query containing "in" (also `or`, `me`). Self-blocked 14/44 of `01`'s keywords, 21/33 of `03`, 9/40 of Sales. Eligible auction volume on Sales fell 12,030 → 576/week with budget untouched at $500/day. Removed 94 abbreviations; reverted Sales geo to `PRESENCE_OR_INTEREST`; verified 0 self-blocked. See [google_ads_changes.md](../google_ads_changes.md).
-- **Weekly SOP** — latest §7.1 **done Aug 4**: [WEEKLY-SOP.md](../ads-pull-2026-08-04-weekly-sop/WEEKLY-SOP.md) · [ads-weekly-dashboard.csv](../ads-weekly-dashboard.csv). 7d CPA **$91** / 3 conv; 30d CPA **$118** / 11 conv; `01` IS ~50% / 0 conv; Ads Spiffy 10 vs CRM click-ID 13 (+30%).
+- **Weekly SOP** — latest §7.1 **done Aug 14** (due Aug 10): [WEEKLY-SOP.md](../ads-pull-2026-08-14-weekly-sop/WEEKLY-SOP.md) · [ads-weekly-dashboard.csv](../ads-weekly-dashboard.csv). 7d CPA **$97** / 5 conv; 30d CPA **$112** / 14 conv; **`01` first 2 purchases**; Ads Spiffy 14 vs CRM 19 (+36%); Gate 1 hold.
+- **`02` Attorneys RSA rewrite (Aug 14)** — controlled DISAPPROVED (gov-docs). Replaced both RSAs; in review. See [google_ads_changes.md](../google_ads_changes.md)
 - **SEO / content moat** — [nypllc-seo-content-moat-plan.md](../nypllc-seo-content-moat-plan.md). Shipped: `/nysed-approval-times`, `/ny-pllc-cost`, `/how-long-to-form-a-pllc-in-ny` (Jul 22). Next editorial: OP deficiencies `#4`. See [features/seo-and-domain.md](features/seo-and-domain.md)
 - **Revenue levers (website surface)** — [nypllc-revenue-levers-plan.md](../nypllc-revenue-levers-plan.md). **Mercury + Gusto Impact applied Aug 14** (waiting). Spiffy checkboxes live: **S Corp $195** + **sales tax Certificate of Authority $195** (Aug 14). Remaining: DBA, CAQH, expedite, VM copy, $985 prep (late Sep). RA renewal build is **PLLC-CRM**. See [features/revenue-levers.md](features/revenue-levers.md)
 - **Phase 1 live:** `Sales-Search-1` + `01_Core_Exact_NY` (Jul 9) + **`02_Professions_NY` (ENABLED Aug 4)** on portfolio tCPA $90. `03_ForeignQual_US` PAUSED, unattached (Gate 1).
@@ -53,8 +54,9 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 | Item | Link |
 |------|------|
 | `01` Formation-Core RSAs `APPROVED_LIMITED` (gov docs policy) | [google-ads.md](features/google-ads.md) |
+| `02` Attorneys RSAs rewritten Aug 14 — watch review → Eligible (not DISAPPROVED) | [google_ads_changes.md](../google_ads_changes.md) |
 | Deferred: exact-neg `[form pllc new york]` on Sales until `01` delivers | [google_ads_changes.md](../google_ads_changes.md) |
-| Gate 1 (~Aug 17): need `01` ≥15 conv + account ≥28/30d — currently 0 / 11. **Re-baseline** — the 0 on `01` was largely the stop-word block, not demand | [operating plan](../nypllc-google-ads-operating-plan.md) |
+| Gate 1 (~Aug 17): need `01` ≥15 conv + account ≥28/30d — currently **2** / **14**. Hold `03`. Re-baseline after Aug 4 stop-word fix | [operating plan](../nypllc-google-ads-operating-plan.md) |
 | Recovery after Aug 4 negative fix: eligible volume + clicks on Sales / `01` | [google_ads_changes.md](../google_ads_changes.md) |
 | June eligible-volume drop (~12,030 → ~4,000/wk) still unexplained — needs UI change log | [google_ads_changes.md](../google_ads_changes.md) |
 | Never phrase-negative a common English word or a <3-char token (Aug 4 incident) | [operating plan §1.3](../nypllc-google-ads-operating-plan.md) |
@@ -74,7 +76,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 📖 Full log: [session-history.md](../docs/session-history.md)
 
-Latest (Aug 14 2026): **Sales tax Certificate of Authority $195** live as Spiffy checkbox. **Mercury + Gusto Impact applied** — waiting on responses. Earlier (Aug 12): affiliate picks. Earlier (Aug 4): **stop-word negative incident found + fixed**; Weekly SOP §7.1 + enabled `02_Professions_NY`. Earlier (Jul 28): First formal weekly Ads SOP. Earlier (Jul 12): §5.1 mobile UX + LCP. Earlier (Jul 11): foreign qual formula pricing + search-term mining. Earlier (Jul 9): gap fixes; launch hygiene; `01` ENABLED; conversion flip.
+Latest (Aug 14 2026): **`02` Attorneys RSAs rewritten** (gov-docs disapproval; in review). Weekly Ads SOP — `01` first 2 purchases; 30d CPA $112 / 14 conv; +`[create pllc]`. **Sales tax Certificate of Authority $195** live. **Mercury + Gusto Impact applied** — waiting. Earlier (Aug 4): stop-word negative incident found + fixed; `02` ENABLED. Earlier (Jul 28): first weekly SOP. Earlier (Jul 9): `01` ENABLED; conversion flip.
 
 ## Session start
 

@@ -1,12 +1,53 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-08-04
+**Last updated:** 2026-08-14
 
 ## Account
 
 - Customer: NYPLLC (`1529880213`)
 - Live: `Sales-Search-1` + `01_Core_Exact_NY` + `02_Professions_NY` (ENABLED)
 - Unattached PAUSED: `03_ForeignQual_US`
+
+---
+
+## Changes on 2026-08-14 — Attorneys RSA rewrite (gov-docs disapproval)
+
+Google emailed **1 disapproved ad** in `02_Professions_NY` (`campaigns/24017629178`): **Attorneys — controlled** (`816177572142`) → `GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES`. Twin **Attorneys — unpinned** was `APPROVED_LIMITED` with the same copy. NYSED/OP lines are approved on other `02` RSAs; the Attorneys ads were claiming an NYSED OP packet on `/professions/law`, which is **not** an NYSED flow (Appellate Division CGS + Rule 7.5).
+
+Replaced **both** Attorneys RSAs (controlled + unpinned). New copy keeps the profession RSA skeleton (price pinned H1, publication/EIN/RA/5-star) and swaps NYSED/OP/deficiency lines for Rule 7.5 naming + attorney-only ownership. No CGS / certificate-of-publication claims in the ad.
+
+| Action | Detail |
+|---|---|
+| Removed | `816177572142` (controlled, DISAPPROVED) · `816177690675` (unpinned, APPROVED_LIMITED) |
+| Uploaded | controlled `820969348495` · unpinned `820969348510` — both ENABLED, `REVIEW_IN_PROGRESS` |
+| Final URL | `https://www.nypllc.com/professions/law` |
+| Source | [`rsa_manifest.json`](google-ads-campaign-build/rsas/rsa_manifest.json) · `upload_rsas.py --campaigns 02_Professions_NY --ad-groups Attorneys --replace` |
+
+Attorneys may not serve until review clears (usually ≤1 business day). Rest of `02` unchanged.
+
+---
+
+## Changes on 2026-08-14 — Weekly SOP §7.1 (week ending Aug 14; due Aug 10)
+
+Pull: [`ads-pull-2026-08-14-weekly-sop/`](ads-pull-2026-08-14-weekly-sop/) · writeup [`WEEKLY-SOP.md`](ads-pull-2026-08-14-weekly-sop/WEEKLY-SOP.md) · dashboard [`ads-weekly-dashboard.csv`](ads-weekly-dashboard.csv)
+
+| Metric (window) | Result |
+|---|---|
+| Self-block | **0** of 44 / 34 / 33 / 39. Lists A 53 · C 27 unchanged |
+| Budget-lost IS | **0%** Sales + `01` + `02` |
+| 7d (Aug 8–14) | $487 / **5** click-attr / CPA **$97** |
+| 28d CPA | **$111** (13 / $1,444) |
+| 30d CPA | **$112** (14 / $1,565) — over ≤$110, under ≤$130 |
+| `01` | **First 2 purchases** (Aug 11 `ny pllc formation` · Aug 14 `pllc new york`). 30d IS **~46%** · $294 / 49 clicks |
+| Ads↔CRM 30d | Spiffy Purchase **14** vs CRM click-ID **19** (**+36%** — still outside ±10%; offline upload deferred) |
+| Eligible (Sales) | Week Aug 3 **3,480** · Aug 10 **2,798** vs incident ~576 |
+
+| Action | Detail |
+|---|---|
+| Exact keyword | `[create pllc]` → `01_Core_Exact_NY` / Formation-Core (`201832402041~623413122122`) |
+| Deferred | Sales exact-neg fence; `ny pllc checklist` watch (3rd week); `nysed pllc` / convert-LLC watch; Auction Insights manual export overdue; **Gate 1 hold** (`01` 2 conv · account 14/30d) |
+
+Same-day daily SOP: [`ads-pull-2026-08-14-daily-sop/DAILY-SOP.md`](ads-pull-2026-08-14-daily-sop/DAILY-SOP.md)
 
 ---
 

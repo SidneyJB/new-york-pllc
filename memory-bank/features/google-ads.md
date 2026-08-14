@@ -59,8 +59,10 @@ pip install -r requirements-ads.txt
 - Daily junk (Jul 22): List C +7 phrases (`llc availability`, `llc name availability`, `check llc`, `blumberg`, `usa corp`, `corporate book`, `corporate seal`). Pull: `ads-pull-2026-07-22/`
 - First weekly SOP (Jul 28, due Jul 27): `[nys pllc formation]` exact → `01` Formation-Core; List C +`pllc name availability` +`check llc availability` (27 members). Writeup: `ads-pull-2026-07-28-weekly-sop/WEEKLY-SOP.md`
 - Weekly SOP (Aug 4): `[pllc new york formation]` exact → `01` Formation-Core; `02` ENABLED. 7d CPA $91 / 30d CPA $118 / 11 conv; Ads Spiffy 10 vs CRM 13 (+30%). Writeup: `ads-pull-2026-08-04-weekly-sop/WEEKLY-SOP.md` · `ads-weekly-dashboard.csv`
+- Weekly SOP (Aug 14, due Aug 10): `[create pllc]` exact → `01` Formation-Core. **`01` first 2 purchases.** 7d CPA $97 / 5 conv; 30d CPA $112 / 14 conv; Ads Spiffy 14 vs CRM 19 (+36%); self-block 0; Gate 1 hold. Writeup: `ads-pull-2026-08-14-weekly-sop/WEEKLY-SOP.md`
 - `run_query` gotcha (fixed Aug 4): it returned a stream while dropping the service reference, so the gRPC channel got collected mid-iteration → `CANCELLED "Channel deallocated!"`. It aborted a mutation halfway. Now a generator that holds the service.
 - Policy note (Jul 11): Formation-Core + Attorneys RSAs `APPROVED_LIMITED` (`GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES`); Sales LCSW/PT/MHC ads still `REVIEW_IN_PROGRESS`
+- **Attorneys RSA rewrite (Aug 14):** controlled DISAPPROVED (same gov-docs policy). NYSED/OP copy was wrong for `/professions/law`. Replaced both Attorneys RSAs with Rule 7.5 / attorney-only ownership; new ads in review (`820969348495` / `820969348510`). `upload_rsas.py` gained `--ad-groups`.
 - Conversion goals (Jul 11): account `BEGIN_CHECKOUT`/`WEBSITE` → `biddable=False` (was true; caused “missing primary” UI warning). Matches §1.1.1 observation-only. Purchase still sole biddable website goal.
 - `03_ForeignQual_US`: US Presence · $15/day · negatives **A-FQ + B–E** · 6 AGs / 33 kws / 12 RSAs (`campaigns/24012757620`)
 - Portfolio **`NYPLLC Search Portfolio`** (`12148056412`) Target CPA $90 — on **`Sales-Search-1`** + **`01`** + **`02`** (all ENABLED)

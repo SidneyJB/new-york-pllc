@@ -46,3 +46,5 @@ Controlled RSA pins `NY PLLC Formation – $885 Flat` (plan: lead with “$885 F
 ## Profession pattern (§4.3)
 
 Therapist/LCSW uses plan example headlines. Other groups follow the same pattern (profession noun swap). Physicians use plan’s **50+** count; LCSW/MHC use **70+** band.
+
+**Attorneys exception (Aug 14 2026):** do **not** use NYSED/OP/deficiency headlines. Law practices are not NYSED-reviewed. Use Rule 7.5 naming + attorney-only ownership; never put Certificate of Good Standing in the RSA.

@@ -27,9 +27,9 @@ Payment → Spiffy webhook → Zapier (customer + admin email) → confirmation 
 - Thank-you URL: `total=` is full contract **cents** (payment plans included); `order=` = Spiffy order id — used for Ads conversion value
 - Prefer www thank-you URL; analytics metadata allowlists safe params only (no SSN/DOB dump)
 
-## Revenue levers (open)
+## Revenue levers
 
-- **Checkout bumps** (sales-tax authority, DBA) and **Practice Launch bundle** depend on Spiffy bump/post-purchase-upsell support — verify once per [revenue levers plan](../../nypllc-revenue-levers-plan.md) Lever 4C (shared open item with CAQH plan).
+- **Live checkbox SKUs:** S Corp election $195 · NY Sales Tax Certificate of Authority $195 (launched Aug 14). Remaining: DBA, CAQH, expedite. After-pay offer wall not required.
 - **$985 price test** (late Sep): sitewide price + all ad assets same day — ads plan §4.4.
 
 ## Docs

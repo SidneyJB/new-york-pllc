@@ -2,6 +2,18 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-08-14 — Removed “No upsells” site copy
+
+Dropped CTA/FAQ/foreign language that claimed no upsells, now that S Corp and sales-tax checkboxes are live. FAQ: optional extras are opt-in at checkout.
+
+## 2026-08-14 — Sales tax Certificate of Authority live ($195)
+
+Sid launched **NY Sales Tax Certificate of Authority** as a formation-checkout checkbox at **$195**, recommended copy (file after EIN; skip if services-only). Live alongside S Corp $195. Remaining bumps: DBA, CAQH, expedite.
+
+## 2026-08-14 — Spiffy order bumps confirmed
+
+Sid: optional SKUs as **checkboxes** already work — that is how **S Corp election** is set up. Closes the “verify Spiffy bump / post-purchase upsell once” open item for Lever 4C + CAQH. Remaining work is adding SKUs in Spiffy (DBA, sales-tax, CAQH, expedite), not a capability check. After-pay upsell is unused and not required.
+
 ## 2026-08-14 — Mercury partnership applied
 
 Sid applied to Mercury incorporator/affiliate **and Gusto Impact** (gusto.com/affiliates — not the in-product customer referral). **Waiting on both responses.** Links not live. Next after approval: tracking URLs → EIN email / S-Corp-Docs-Faxed + backlist + S Corp page. Noted in [affiliate-partners.md](affiliate-partners.md).

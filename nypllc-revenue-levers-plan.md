@@ -98,8 +98,8 @@ Revisit in-house "S Corp compliance MRR" only if: referral volume proves demand 
 ## Component B — expedited filing SKU (ship anytime)
 "Expedited DOS Filing — $149" (24-hr; $25 state fee) and "Rush — $299" (same-day; $75 fee). Checkout add-on plus a triggered email at the pre-DOS pipeline stage. At 10% attach on 2027 volume: ~$15K/yr at ~83% margin.
 
-## Component C — order bumps (ship anytime, pending Spiffy capability)
-Sales-tax authority ($195) and DBA ($109) as visible checkout bumps — their invisibility in attach data suggests under-merchandising, not low demand. **Shared open item with the CAQH plan: verify Spiffy's bump/post-purchase-upsell support once, for both plans.**
+## Component C — order bumps (ship anytime)
+**Live Aug 14 2026:** NY Sales Tax Certificate of Authority — **$195** checkbox (copy: file after EIN; skip if services-only / no taxable goods). Same Spiffy mechanism as **S Corp election $195**. Still to add: DBA ($109), CAQH, expedite. After-pay upsell not required.
 
 ## Component D — Practice Launch bundle
 **$1,485:** formation + S Corp election + 6 months VM + expedited filing + $100 CAQH credit (stated value ~$1,630). Presented as the right column of a two-option pricing block; its second job is anchoring $885 as the reasonable choice. Target take-rate 8–12% → +$50–70 blended AOV. Healthcare professions see the CAQH credit emphasized.
@@ -116,7 +116,7 @@ At 2027 base volume, fully landed: price test +$60–80K (direct orders only), e
 
 | Window | Lever work |
 |---|---|
-| Wk of Jul 6 | S Corp Phase 1 (afternoon) · banking affiliate (afternoon) · Spiffy bump-capability check |
+| Wk of Jul 6 | S Corp Phase 1 (afternoon) · banking affiliate (afternoon) · Spiffy bump-capability check (**done Aug 14** — checkbox SKUs) |
 | Jul–Aug | Shelf SKUs 2–4 in engineering slack · VM checkout copy · expedite SKU · S Corp calculator |
 | August | RA auto-renewal system + Compliance-plan build (20–25 hrs) — **hard deadline Sep 15**, first T-30 notices go ~Sep 22, first auto-renewals fire in October |
 | Sep | Bundle live · price-test prep · CPA tax-partner recruitment via B2B pipeline |
@@ -132,4 +132,4 @@ Added load: ~8–12 hrs/wk for six weeks, then ~2–3 hrs/wk maintenance — fit
 - S Corp calculator + shelf pages ↔ SEO plan content map.
 - Good-standing SKU ↔ CAQH flow cross-sell.
 - CPA tax partners ↔ B2B plan segment 3 outreach list.
-- Spiffy bump capability ↔ CAQH plan open item 4 (verify once).
+- Spiffy checkbox SKUs (S Corp already live) ↔ CAQH / DBA / sales-tax / expedite merchandising.

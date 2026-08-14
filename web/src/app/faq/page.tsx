@@ -487,12 +487,13 @@ export default function FAQPage() {
 
                   <Card>
                     <CardHeader>
-                      <CardTitle className="text-lg">Any hidden fees or upsells?</CardTitle>
+                      <CardTitle className="text-lg">Any hidden fees?</CardTitle>
                     </CardHeader>
                     <CardContent>
                       <p className="text-muted-foreground">
-                        No. If you ask for optional extras (for example, special expedited state services), we'll
-                        spell out the cost before you decide. Otherwise, the price you see is the price you pay.
+                        No. The $885 package covers formation, publication, and EIN. Optional extras (S Corp election,
+                        NY sales tax registration, and similar) are checkboxes at checkout — you only pay them if you
+                        opt in.
                       </p>
                     </CardContent>
                   </Card>

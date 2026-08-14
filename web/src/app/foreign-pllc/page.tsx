@@ -113,7 +113,7 @@ export default function ForeignQualificationPage() {
 
             <p className="mx-auto mt-6 max-w-2xl text-center text-sm text-muted-foreground">
               Pricing depends on your home state and required documents (like Certificates of Good Standing). We&apos;ll
-              scope your file and send an invoice. No hidden fees or upsells.
+              scope your file and send an invoice. No hidden fees.
             </p>
           </div>
         </section>

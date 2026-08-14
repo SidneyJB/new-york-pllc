@@ -159,7 +159,7 @@ export default function LawFirmPage() {
               </Button>
             </div>
             <p className="mt-3 text-sm text-muted-foreground">
-              Attorneys only • Secure checkout • No upsells
+              Attorneys only • Secure checkout
             </p>
           </div>
         </section>

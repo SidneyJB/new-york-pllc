@@ -10,7 +10,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 - **🔴 Stop-word negative incident — found + fixed Aug 4.** Root cause of the conversion collapse: Lists A/A-FQ contained two-letter state abbreviations as **phrase** negatives, so `in` (Indiana) blocked every query containing "in" (also `or`, `me`). Self-blocked 14/44 of `01`'s keywords, 21/33 of `03`, 9/40 of Sales. Eligible auction volume on Sales fell 12,030 → 576/week with budget untouched at $500/day. Removed 94 abbreviations; reverted Sales geo to `PRESENCE_OR_INTEREST`; verified 0 self-blocked. See [google_ads_changes.md](../google_ads_changes.md).
 - **Weekly SOP** — latest §7.1 **done Aug 4**: [WEEKLY-SOP.md](../ads-pull-2026-08-04-weekly-sop/WEEKLY-SOP.md) · [ads-weekly-dashboard.csv](../ads-weekly-dashboard.csv). 7d CPA **$91** / 3 conv; 30d CPA **$118** / 11 conv; `01` IS ~50% / 0 conv; Ads Spiffy 10 vs CRM click-ID 13 (+30%).
 - **SEO / content moat** — [nypllc-seo-content-moat-plan.md](../nypllc-seo-content-moat-plan.md). Shipped: `/nysed-approval-times`, `/ny-pllc-cost`, `/how-long-to-form-a-pllc-in-ny` (Jul 22). Next editorial: OP deficiencies `#4`. See [features/seo-and-domain.md](features/seo-and-domain.md)
-- **Revenue levers (website surface)** — [nypllc-revenue-levers-plan.md](../nypllc-revenue-levers-plan.md) in repo Aug 10. **Mercury + Gusto Impact applied Aug 14** (waiting on responses). Links not live. See [docs/affiliate-partners.md](../docs/affiliate-partners.md). Remaining site backlog: shelf SKU pages/checkouts, expedite add-on, VM checkout copy, $985 test prep (late Sep). CRM-owned RA renewal build is **PLLC-CRM**, not this repo. See [features/revenue-levers.md](features/revenue-levers.md)
+- **Revenue levers (website surface)** — [nypllc-revenue-levers-plan.md](../nypllc-revenue-levers-plan.md). **Mercury + Gusto Impact applied Aug 14** (waiting). Spiffy checkboxes live: **S Corp $195** + **sales tax Certificate of Authority $195** (Aug 14). Remaining: DBA, CAQH, expedite, VM copy, $985 prep (late Sep). RA renewal build is **PLLC-CRM**. See [features/revenue-levers.md](features/revenue-levers.md)
 - **Phase 1 live:** `Sales-Search-1` + `01_Core_Exact_NY` (Jul 9) + **`02_Professions_NY` (ENABLED Aug 4)** on portfolio tCPA $90. `03_ForeignQual_US` PAUSED, unattached (Gate 1).
 - Expand **foreign-into-NY** state page coverage beyond NJ/PA/FL/TX/CT as needed
 - **Foreign publication copy (HARD — Aug 10 2026):** flat package **includes** end-to-end six-week publication. Never “guidance” / “not included unless quoted.” See [features/foreign-into-ny.md](features/foreign-into-ny.md).
@@ -66,7 +66,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 | Auction Insights manual export (1st week of Aug) | [operating plan](../nypllc-google-ads-operating-plan.md) |
 | Revenue levers: **Mercury + Gusto Impact applied Aug 14** (awaiting responses); links not live | [affiliate-partners.md](../docs/affiliate-partners.md) |
 | $985 price test — late Sep only (ads plan §4.4); never during ladder step or January | [revenue levers plan](../nypllc-revenue-levers-plan.md) · [ads plan §4.4](../nypllc-google-ads-operating-plan.md) |
-| Spiffy bump / post-purchase upsell — verify once (Lever 4C + CAQH) | [revenue levers plan](../nypllc-revenue-levers-plan.md) |
+| Spiffy checkboxes live: S Corp + **sales tax $195**; remaining DBA / CAQH / expedite | [revenue levers plan](../nypllc-revenue-levers-plan.md) |
 | **Sep 15 RA renewal build** — only hard calendar risk before Oct charges | [expansion-next-steps.md](expansion-next-steps.md) |
 | Big B2B professional outreach **paused** until CAQH + RA + EXP + affiliates done | [expansion-next-steps.md](expansion-next-steps.md) |
 
@@ -74,7 +74,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 📖 Full log: [session-history.md](../docs/session-history.md)
 
-Latest (Aug 14 2026): **Mercury + Gusto Impact applied** — waiting on responses. Earlier (Aug 12): affiliate picks — [affiliate-partners.md](../docs/affiliate-partners.md). Earlier (Aug 4): **stop-word negative incident found + fixed**; Weekly SOP §7.1 + enabled `02_Professions_NY`. Earlier (Jul 28): First formal weekly Ads SOP. Earlier (Jul 12): §5.1 mobile UX + LCP. Earlier (Jul 11): foreign qual formula pricing + search-term mining. Earlier (Jul 9): gap fixes; launch hygiene; `01` ENABLED; conversion flip.
+Latest (Aug 14 2026): **Sales tax Certificate of Authority $195** live as Spiffy checkbox. **Mercury + Gusto Impact applied** — waiting on responses. Earlier (Aug 12): affiliate picks. Earlier (Aug 4): **stop-word negative incident found + fixed**; Weekly SOP §7.1 + enabled `02_Professions_NY`. Earlier (Jul 28): First formal weekly Ads SOP. Earlier (Jul 12): §5.1 mobile UX + LCP. Earlier (Jul 11): foreign qual formula pricing + search-term mining. Earlier (Jul 9): gap fixes; launch hygiene; `01` ENABLED; conversion flip.
 
 ## Session start
 

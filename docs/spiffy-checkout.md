@@ -14,6 +14,10 @@ Depth extracted from legacy memory bank. Shard: `memory-bank/features/spiffy-che
 - Events: `change:field` (lead_start), `change:order`, `change:paymethod`
 - Metrics stored in `sessionStorage` for purchase event
 
+## Optional SKUs (order bumps)
+
+Spiffy checkout supports **checkbox add-on SKUs** on the formation checkout. Live: **S Corp election ($195)** · **NY Sales Tax Certificate of Authority ($195)** (Aug 14 2026). Same pattern for DBA, CAQH, expedite. Not a post-purchase (after-pay) offer wall.
+
 ## Post-payment / thank-you
 
 - Spiffy → Zapier → customer confirmation + admin notification

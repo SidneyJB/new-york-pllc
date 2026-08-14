@@ -176,7 +176,7 @@ export default function PTPage() {
                 <Link href="/contact">Talk to us first</Link>
               </Button>
             </div>
-            <p className="mt-3 text-sm text-muted-foreground">Licensed professionals only • Secure checkout • No upsells</p>
+            <p className="mt-3 text-sm text-muted-foreground">Licensed professionals only • Secure checkout</p>
           </div>
         </section>
 

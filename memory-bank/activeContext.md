@@ -19,9 +19,9 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 ## Expansion priorities (next 4 weeks)
 
-📖 Full narrative + Sep–Jan calendar: [expansion-next-steps.md](expansion-next-steps.md) (Aug 10, 2026)
+📖 Full narrative + Sep–Jan calendar: [expansion-next-steps.md](expansion-next-steps.md) (updated Aug 16, 2026)
 
-1. **CAQH payment + email past healthcare clients** — job #1 (**PLLC-CRM**)
+1. **CAQH payment + email past healthcare clients** — job #1 (**PLLC-CRM**; customer intake wizard shipped Aug 16, payment still open)
 2. **RA auto-renewal build by Sep 15** — T-30 ~Sep 22, charges Oct; only hard calendar risk (**PLLC-CRM**)
 3. **Close EXP Credentialing** by email — they're waiting (**PLLC-CRM**)
 4. **Two affiliate links** — **Mercury + Gusto Impact applied Aug 14** (awaiting responses) — [affiliate-partners.md](../docs/affiliate-partners.md)

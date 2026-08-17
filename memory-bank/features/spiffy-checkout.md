@@ -29,7 +29,7 @@ Payment → Spiffy webhook → Zapier (customer + admin email) → confirmation 
 
 ## Revenue levers
 
-- **Live checkbox SKUs:** S Corp election $195 · NY Sales Tax Certificate of Authority $195 (launched Aug 14). Remaining: DBA, CAQH, expedite. After-pay offer wall not required.
+- **Live checkbox SKUs:** S Corp election $195 · NY Sales Tax Certificate of Authority $195 (launched Aug 14). Remaining: DBA, CAQH. After-pay offer wall not required.
 - **$985 price test** (late Sep): sitewide price + all ad assets same day — ads plan §4.4.
 
 ## Docs

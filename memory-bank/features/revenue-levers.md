@@ -21,7 +21,7 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 | **1 — RA auto-renewal + Compliance Plan ($249/yr)** | Checkout + confirmation **auto-renewal disclosure** copy | T-30/T-7 notices, Stripe retries, cancel flow, dispute template — **hard deadline Sep 15** (first T-30 ~Sep 22) |
 | **2 — Long-tail shelf** | Spiffy checkouts + `/services` index + SEO pages per SKU; **banking = Mercury** (EIN email) | DOS filing automation for amendments, etc. |
 | **3 — S Corp monetization** | **Gusto Impact** payroll affiliate in S-Corp pipeline email + product page; S Corp calculator (SEO tool) | S-Corp-Docs-Faxed email pipeline |
-| **4 — AOV suite** | $985 price test (late Sep), expedite SKU, **sales-tax checkbox live**, DBA/CAQH bumps, Practice Launch bundle, VM copy | — |
+| **4 — AOV suite** | $985 price test (late Sep), **sales-tax checkbox live**, DBA/CAQH bumps, Practice Launch bundle, VM copy | — |
 
 **Companion plans:** [Ads v2](../../nypllc-google-ads-operating-plan.md) · [SEO moat](../../nypllc-seo-content-moat-plan.md) · CAQH v1 · B2B v1 (CRM).
 
@@ -31,7 +31,7 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 |------|---------|---------------|
 | Banking affiliate (EIN email + backlist) | Ship this week | **Mercury applied Aug 14** — waiting on response. Links not live. 📖 [affiliate-partners.md](../../docs/affiliate-partners.md) |
 | S Corp Phase 1 payroll partner | ~4 hrs | **Gusto Impact applied Aug 14** — waiting on approval. Links not live. Same doc. |
-| Spiffy order-bump (checkbox SKUs) | Verify once | **Done Aug 14.** Live checkboxes: **S Corp $195** · **NY Sales Tax Certificate of Authority $195**. Remaining: DBA, CAQH, expedite. |
+| Spiffy order-bump (checkbox SKUs) | Verify once | **Done Aug 14.** Live checkboxes: **S Corp $195** · **NY Sales Tax Certificate of Authority $195**. Remaining: DBA, CAQH. |
 
 ## Key cross-deps (website)
 
@@ -50,7 +50,7 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 ## Gotchas
 
 - Oct–Dec **2025 formation cohort** (~56 renewals Oct–Dec 2026) is the Compliance Plan + auto-renewal **pilot** — checkout disclosure for that cohort may need audit (plan open item in status reports).
-- Spiffy checkboxes live: S Corp + sales tax. Remaining bumps: DBA, CAQH, expedite.
+- Spiffy checkboxes live: S Corp + sales tax. Remaining bumps: DBA, CAQH. Expedite SKU removed Aug 17 (24-hr DOS expedite already in $885).
 - **Do not sign Relay Partner** while Mercury is the banking pick — Relay Partner exclusivity may block similar bank referrals. Neither bank is IOLTA.
 
 ## Docs

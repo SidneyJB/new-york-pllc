@@ -50,7 +50,7 @@ Post-formation life events (amendments, dissolutions, certificates, banking) are
 | Certificate of Good Standing (Status) | $99 | ~$25 | Days | Cross-sell inside CAQH flow — payers and banks request it |
 | Certified copies | $99 | ~$10–25 | Days | Same retrieval pipeline |
 | Articles of Amendment (name/address/purpose) | $249 | $60 | ~1 wk | Reuses DOS filing automation; compliance-plan members get 20% off |
-| Standalone DBA / Assumed Name | $109 (exists as add-on) | $45 | Trivial | Just needs its own checkout + page |
+| Standalone DBA / Assumed Name | $199 | $45 | Trivial | Just needs its own checkout + page |
 | Dissolution | $299 | ~$60 + NYSED consent handling | ~1 wk | Professional-entity dissolutions have extra steps — price reflects it |
 | Foreign-qual origin-state expansion (add ~8–10 states beyond NJ/PA/FL/TX/CT/CA) | Per formula | Per state | Rolling | Feeds SEO programmatic pages + the ads FQ campaign keyword list |
 | Trademark filing | $499–650 + USPTO fees | — | **Parked** | Non-attorney filing-service UPL considerations: needs counsel review or an attorney-partner rev-share (a B2B plan segment-5 reciprocity play). Do not ship without one of those. |
@@ -95,20 +95,21 @@ Revisit in-house "S Corp compliance MRR" only if: referral volume proves demand 
 **The pre-registered math:** standard-order contribution goes $513 → $613 (+19.5%), so the contribution-basis breakeven is CVR retention of 83.7%. Decision rule: retention ≥90% → adopt $985; 84–90% → extend 2 weeks; <84% → revert same-day. Even a 15% CVR drop is roughly profit-neutral — the test is heavily asymmetric in your favor.
 **Rollout list if adopted:** ads assets, partner materials (B2B referral checkout moves $860 → $960 or the discount deepens — decide before launch), site, bundle math below.
 
-## Component B — expedited filing SKU (ship anytime)
-"Expedited DOS Filing — $149" (24-hr; $25 state fee) and "Rush — $299" (same-day; $75 fee). Checkout add-on plus a triggered email at the pre-DOS pipeline stage. At 10% attach on 2027 volume: ~$15K/yr at ~83% margin.
+## Removed — expedited filing SKU (Aug 17 2026)
 
-## Component C — order bumps (ship anytime)
-**Live Aug 14 2026:** NY Sales Tax Certificate of Authority — **$195** checkbox (copy: file after EIN; skip if services-only / no taxable goods). Same Spiffy mechanism as **S Corp election $195**. Still to add: DBA ($109), CAQH, expedite. After-pay upsell not required.
+24-hour DOS expedite on Articles and Certificate of Publication is **already included** in the $885 flat fee (see `/ny-pllc-cost`, `/how-long-to-form-a-pllc-in-ny`). A checkout upsell would double-charge for something every customer already gets. Do not re-add.
 
-## Component D — Practice Launch bundle
-**$1,485:** formation + S Corp election + 6 months VM + expedited filing + $100 CAQH credit (stated value ~$1,630). Presented as the right column of a two-option pricing block; its second job is anchoring $885 as the reasonable choice. Target take-rate 8–12% → +$50–70 blended AOV. Healthcare professions see the CAQH credit emphasized.
+## Component B — order bumps (ship anytime)
+**Live Aug 14 2026:** NY Sales Tax Certificate of Authority — **$195** checkbox (copy: file after EIN; skip if services-only / no taxable goods). Same Spiffy mechanism as **S Corp election $195**. Still to add: DBA ($199), CAQH. After-pay upsell not required.
 
-## Component E — VM checkout copy
+## Component C — Practice Launch bundle
+**$1,485:** formation + S Corp election + 6 months VM + $100 CAQH credit (stated value ~$1,480). Presented as the right column of a two-option pricing block; its second job is anchoring $885 as the reasonable choice. Target take-rate 8–12% → +$50–70 blended AOV. Healthcare professions see the CAQH credit emphasized.
+
+## Component D — VM checkout copy
 Move the "get your NY business address *before* the DOS filing" framing earlier and more prominently in checkout. Target attach 27% → 32%; each point ≈ 12–13 subs/yr at 2027 volume ≈ ~$7K lifetime value per point. One copy change; measure over 60 days.
 
 ## Suite economics
-At 2027 base volume, fully landed: price test +$60–80K (direct orders only), expedite +$15K, bumps +$10–20K, bundle +$40–60K, VM copy +$15–35K LTV — a **$100–170K/yr aggregate** for a few weeks of build and one carefully-slotted test. Every component except A ships on no particular calendar.
+At 2027 base volume, fully landed: price test +$60–80K (direct orders only), bumps +$10–20K, bundle +$40–60K, VM copy +$15–35K LTV — a **$85–155K/yr aggregate** for a few weeks of build and one carefully-slotted test. Every component except A ships on no particular calendar.
 
 ---
 
@@ -117,7 +118,7 @@ At 2027 base volume, fully landed: price test +$60–80K (direct orders only), e
 | Window | Lever work |
 |---|---|
 | Wk of Jul 6 | S Corp Phase 1 (afternoon) · banking affiliate (afternoon) · Spiffy bump-capability check (**done Aug 14** — checkbox SKUs) |
-| Jul–Aug | Shelf SKUs 2–4 in engineering slack · VM checkout copy · expedite SKU · S Corp calculator |
+| Jul–Aug | Shelf SKUs 2–4 in engineering slack · VM checkout copy · S Corp calculator |
 | August | RA auto-renewal system + Compliance-plan build (20–25 hrs) — **hard deadline Sep 15**, first T-30 notices go ~Sep 22, first auto-renewals fire in October |
 | Sep | Bundle live · price-test prep · CPA tax-partner recruitment via B2B pipeline |
 | Late Sep | **$985 test window** (3 weeks, ads-calendar permitting) |
@@ -132,4 +133,4 @@ Added load: ~8–12 hrs/wk for six weeks, then ~2–3 hrs/wk maintenance — fit
 - S Corp calculator + shelf pages ↔ SEO plan content map.
 - Good-standing SKU ↔ CAQH flow cross-sell.
 - CPA tax partners ↔ B2B plan segment 3 outreach list.
-- Spiffy checkbox SKUs (S Corp already live) ↔ CAQH / DBA / sales-tax / expedite merchandising.
+- Spiffy checkbox SKUs (S Corp already live) ↔ CAQH / DBA / sales-tax merchandising.

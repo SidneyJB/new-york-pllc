@@ -22,7 +22,7 @@ Anything that **takes money** (build + launch):
 
 - **CAQH** still can't accept a payment (intake collection is shipped).
 - **Professional B2B** outreach = 5 emails only.
-- **Affiliate links**, **RA renewal build**, **expedite SKU** — none started.
+- **Affiliate links**, **RA renewal build** — none started. (Expedite SKU removed Aug 17 — already in $885.)
 
 ---
 

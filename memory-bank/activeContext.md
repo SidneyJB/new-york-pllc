@@ -11,7 +11,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 - **Weekly SOP** — latest §7.1 **done Aug 14** (due Aug 10): [WEEKLY-SOP.md](../ads-pull-2026-08-14-weekly-sop/WEEKLY-SOP.md) · [ads-weekly-dashboard.csv](../ads-weekly-dashboard.csv). 7d CPA **$97** / 5 conv; 30d CPA **$112** / 14 conv; **`01` first 2 purchases**; Ads Spiffy 14 vs CRM 19 (+36%); Gate 1 hold.
 - **`02` Attorneys RSA rewrite (Aug 14)** — controlled DISAPPROVED (gov-docs). Replaced both RSAs; in review. See [google_ads_changes.md](../google_ads_changes.md)
 - **SEO / content moat** — [nypllc-seo-content-moat-plan.md](../nypllc-seo-content-moat-plan.md). Shipped: `/nysed-approval-times`, `/ny-pllc-cost`, `/how-long-to-form-a-pllc-in-ny` (Jul 22). Next editorial: OP deficiencies `#4`. See [features/seo-and-domain.md](features/seo-and-domain.md)
-- **Revenue levers (website surface)** — [nypllc-revenue-levers-plan.md](../nypllc-revenue-levers-plan.md). **Mercury + Gusto Impact applied Aug 14** (waiting). Spiffy checkboxes live: **S Corp $195** + **sales tax Certificate of Authority $195** (Aug 14). Remaining: DBA, CAQH, expedite, VM copy, $985 prep (late Sep). RA renewal build is **PLLC-CRM**. See [features/revenue-levers.md](features/revenue-levers.md)
+- **Revenue levers (website surface)** — [nypllc-revenue-levers-plan.md](../nypllc-revenue-levers-plan.md). **Mercury + Gusto Impact applied Aug 14** (waiting). Spiffy checkboxes live: **S Corp $195** + **sales tax Certificate of Authority $195** (Aug 14). Remaining: DBA, CAQH, VM copy, $985 prep (late Sep). Expedite SKU **removed Aug 17** (already in $885). RA renewal build is **PLLC-CRM**. See [features/revenue-levers.md](features/revenue-levers.md)
 - **Phase 1 live:** `Sales-Search-1` + `01_Core_Exact_NY` (Jul 9) + **`02_Professions_NY` (ENABLED Aug 4)** on portfolio tCPA $90. `03_ForeignQual_US` PAUSED, unattached (Gate 1).
 - Expand **foreign-into-NY** state page coverage beyond NJ/PA/FL/TX/CT as needed
 - **Foreign publication copy (HARD — Aug 10 2026):** flat package **includes** end-to-end six-week publication. Never “guidance” / “not included unless quoted.” See [features/foreign-into-ny.md](features/foreign-into-ny.md).
@@ -68,7 +68,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 | Auction Insights manual export (1st week of Aug) | [operating plan](../nypllc-google-ads-operating-plan.md) |
 | Revenue levers: **Mercury + Gusto Impact applied Aug 14** (awaiting responses); links not live | [affiliate-partners.md](../docs/affiliate-partners.md) |
 | $985 price test — late Sep only (ads plan §4.4); never during ladder step or January | [revenue levers plan](../nypllc-revenue-levers-plan.md) · [ads plan §4.4](../nypllc-google-ads-operating-plan.md) |
-| Spiffy checkboxes live: S Corp + **sales tax $195**; remaining DBA / CAQH / expedite | [revenue levers plan](../nypllc-revenue-levers-plan.md) |
+| Spiffy checkboxes live: S Corp + **sales tax $195**; remaining DBA / CAQH | [revenue levers plan](../nypllc-revenue-levers-plan.md) |
 | **Sep 15 RA renewal build** — only hard calendar risk before Oct charges | [expansion-next-steps.md](expansion-next-steps.md) |
 | Big B2B professional outreach **paused** until CAQH + RA + EXP + affiliates done | [expansion-next-steps.md](expansion-next-steps.md) |
 

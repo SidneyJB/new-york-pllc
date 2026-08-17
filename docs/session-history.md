@@ -2,6 +2,10 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-08-17 — Removed expedited filing SKU from revenue levers plan
+
+24-hour DOS expedite on Articles and Certificate of Publication is already included in the $885 flat fee and live site copy (`/ny-pllc-cost`, `/how-long-to-form-a-pllc-in-ny`). Struck Component B (expedite/Rush checkout upsell), renumbered Lever 4 components, dropped "expedited filing" from Practice Launch bundle line items, and updated suite economics. Memory bank + docs synced. DBA price in plan updated to **$199** (matches site `PRICING.assumedNamePrice` and foreign-qual pages; retired stale $109).
+
 ## 2026-08-14 — Attorneys RSA rewrite (gov-docs disapproval)
 
 `02` Attorneys — controlled DISAPPROVED (`GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES`); unpinned APPROVED_LIMITED. Copy claimed NYSED/OP on `/professions/law` (not an NYSED flow). Replaced both RSAs with Rule 7.5 / attorney-only ownership copy. New ads `820969348495` / `820969348510` in review. See [google_ads_changes.md](../google_ads_changes.md).
@@ -16,11 +20,11 @@ Dropped CTA/FAQ/foreign language that claimed no upsells, now that S Corp and sa
 
 ## 2026-08-14 — Sales tax Certificate of Authority live ($195)
 
-Sid launched **NY Sales Tax Certificate of Authority** as a formation-checkout checkbox at **$195**, recommended copy (file after EIN; skip if services-only). Live alongside S Corp $195. Remaining bumps: DBA, CAQH, expedite.
+Sid launched **NY Sales Tax Certificate of Authority** as a formation-checkout checkbox at **$195**, recommended copy (file after EIN; skip if services-only). Live alongside S Corp $195. Remaining bumps: DBA, CAQH.
 
 ## 2026-08-14 — Spiffy order bumps confirmed
 
-Sid: optional SKUs as **checkboxes** already work — that is how **S Corp election** is set up. Closes the “verify Spiffy bump / post-purchase upsell once” open item for Lever 4C + CAQH. Remaining work is adding SKUs in Spiffy (DBA, sales-tax, CAQH, expedite), not a capability check. After-pay upsell is unused and not required.
+Sid: optional SKUs as **checkboxes** already work — that is how **S Corp election** is set up. Closes the “verify Spiffy bump / post-purchase upsell once” open item for Lever 4C + CAQH. Remaining work is adding SKUs in Spiffy (DBA, sales-tax, CAQH), not a capability check. After-pay upsell is unused and not required.
 
 ## 2026-08-14 — Mercury partnership applied
 

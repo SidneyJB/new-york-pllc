@@ -2,6 +2,10 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-08-18 — Sales tax Certificate of Authority off Spiffy checkout
+
+Sid removed **NY Sales Tax Certificate of Authority ($195)** from Spiffy formation checkout — insanely low take rate; order-form friction not worth it. Launched Aug 14, pulled Aug 18. CRM staff add-on remains in PLLC-CRM; possible post-formation upsell later. Site FAQ + structured data updated (S Corp only at checkout).
+
 ## 2026-08-17 — Removed expedited filing SKU from revenue levers plan
 
 24-hour DOS expedite on Articles and Certificate of Publication is already included in the $885 flat fee and live site copy (`/ny-pllc-cost`, `/how-long-to-form-a-pllc-in-ny`). Struck Component B (expedite/Rush checkout upsell), renumbered Lever 4 components, dropped "expedited filing" from Practice Launch bundle line items, and updated suite economics. Memory bank + docs synced. DBA price in plan updated to **$199** (matches site `PRICING.assumedNamePrice` and foreign-qual pages; retired stale $109).

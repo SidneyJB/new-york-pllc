@@ -417,7 +417,7 @@ export const PLLC_FAQS: FAQItem[] = [
   },
   {
     question: 'Are there any hidden fees?',
-    answer: 'No hidden fees. The $885 includes all state filing fees, publication costs, and our service fees. Optional extras such as S Corp election or NY sales tax registration are checkboxes at checkout — you only pay them if you opt in.',
+    answer: 'No hidden fees. The $885 includes all state filing fees, publication costs, and our service fees. Optional extras such as S Corp election are checkboxes at checkout — you only pay them if you opt in.',
   },
   {
     question: 'How long does PLLC formation take?',

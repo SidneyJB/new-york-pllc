@@ -491,9 +491,8 @@ export default function FAQPage() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-muted-foreground">
-                        No. The $885 package covers formation, publication, and EIN. Optional extras (S Corp election,
-                        NY sales tax registration, and similar) are checkboxes at checkout — you only pay them if you
-                        opt in.
+                        No. The $885 package covers formation, publication, and EIN. Optional extras (such as S Corp
+                        election) are checkboxes at checkout — you only pay them if you opt in.
                       </p>
                     </CardContent>
                   </Card>

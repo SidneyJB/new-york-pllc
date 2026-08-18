@@ -16,7 +16,7 @@ Depth extracted from legacy memory bank. Shard: `memory-bank/features/spiffy-che
 
 ## Optional SKUs (order bumps)
 
-Spiffy checkout supports **checkbox add-on SKUs** on the formation checkout. Live: **S Corp election ($195)** · **NY Sales Tax Certificate of Authority ($195)** (Aug 14 2026). Same pattern for DBA, CAQH. Not a post-purchase (after-pay) offer wall.
+Spiffy checkout supports **checkbox add-on SKUs** on the formation checkout. Live: **S Corp election ($195)**. **Removed Aug 18 2026:** NY Sales Tax Certificate of Authority ($195) — low take rate, checkout friction; possible post-formation upsell later (CRM staff add-on only). Same pattern for DBA, CAQH. Not a post-purchase (after-pay) offer wall.
 
 ## Post-payment / thank-you
 

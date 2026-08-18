@@ -100,7 +100,9 @@ Revisit in-house "S Corp compliance MRR" only if: referral volume proves demand 
 24-hour DOS expedite on Articles and Certificate of Publication is **already included** in the $885 flat fee (see `/ny-pllc-cost`, `/how-long-to-form-a-pllc-in-ny`). A checkout upsell would double-charge for something every customer already gets. Do not re-add.
 
 ## Component B — order bumps (ship anytime)
-**Live Aug 14 2026:** NY Sales Tax Certificate of Authority — **$195** checkbox (copy: file after EIN; skip if services-only / no taxable goods). Same Spiffy mechanism as **S Corp election $195**. Still to add: DBA ($199), CAQH. After-pay upsell not required.
+**Live:** S Corp election — **$195** checkbox on Spiffy checkout.
+
+**Removed Aug 18 2026:** NY Sales Tax Certificate of Authority — **$195** was live Aug 14–18; pulled from Spiffy checkout (insanely low take rate; order-form friction). CRM staff add-on in PLLC-CRM remains; possible **post-formation upsell** later. Still to add on checkout: DBA ($199), CAQH. After-pay upsell not required.
 
 ## Component C — Practice Launch bundle
 **$1,485:** formation + S Corp election + 6 months VM + $100 CAQH credit (stated value ~$1,480). Presented as the right column of a two-option pricing block; its second job is anchoring $885 as the reasonable choice. Target take-rate 8–12% → +$50–70 blended AOV. Healthcare professions see the CAQH credit emphasized.
@@ -133,4 +135,4 @@ Added load: ~8–12 hrs/wk for six weeks, then ~2–3 hrs/wk maintenance — fit
 - S Corp calculator + shelf pages ↔ SEO plan content map.
 - Good-standing SKU ↔ CAQH flow cross-sell.
 - CPA tax partners ↔ B2B plan segment 3 outreach list.
-- Spiffy checkbox SKUs (S Corp already live) ↔ CAQH / DBA / sales-tax merchandising.
+- Spiffy checkbox SKUs (S Corp live; sales tax removed Aug 18) ↔ CAQH / DBA merchandising.

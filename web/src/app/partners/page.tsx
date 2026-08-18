@@ -59,7 +59,7 @@ const OFFERINGS = [
   {
     icon: Building2,
     title: 'NY PLLC formation',
-    description: `$${PRICING.basePrice} all-inclusive. We handle filing, the NYSED workflow, and six-week publication end to end.`,
+    description: `$${PRICING.basePrice} all-inclusive. We handle filing, the professional application, and six-week publication end to end.`,
   },
   {
     icon: Globe2,
@@ -91,8 +91,8 @@ const IDEAL_PARTNERS = [
 const PARTNER_STATS = [
   { value: '25,000+', label: 'NY entities formed' },
   { value: '5/5', label: 'Client rating' },
-  { value: 'Same-day', label: 'Filing on NYSED approval' },
-  { value: '20 min', label: 'Average partner response' },
+  { value: 'Typically 1 day', label: 'DOS after professional approval' },
+  { value: '3–5 days', label: 'Partner application reply' },
 ]
 
 const WHY_PARTNER = [
@@ -111,7 +111,7 @@ const WHY_PARTNER = [
     icon: Clock,
     title: 'Fast, hands-off fulfillment',
     description:
-      'We file same-day once NYSED approves and run intake, payment, and document delivery, so it stays off your plate.',
+      'We typically file with DOS within one business day after professional approval and complete filing readiness, and we run intake and document delivery so it stays off your plate.',
   },
   {
     icon: TrendingUp,
@@ -294,8 +294,9 @@ export default async function PartnersPage({
                     checkout or submit leads, and we fulfill and keep you updated.
                   </p>
                   <p>
-                    <strong className="text-foreground">White-label:</strong> We operate as your
-                    backend filing desk under your client relationship, with status updates you can
+                    <strong className="text-foreground">White-label:</strong> You bill the client
+                    and check out with us at wholesale. Checkout, confirmation emails, and document
+                    delivery may identify NY PLLC Formation. We send status updates you can
                     forward.
                   </p>
                   <p className="text-xs">
@@ -314,8 +315,8 @@ export default async function PartnersPage({
               <div className="lg:col-span-2">
                 <h2 className="text-3xl font-bold tracking-tight">Partner application</h2>
                 <p className="mt-4 text-muted-foreground">
-                  Tell us about your firm and referral volume. We reply in about 20 minutes during
-                  business hours to confirm fit and next steps.
+                  Tell us about your firm and referral volume. We reply in 3–5 business days to
+                  confirm fit and next steps.
                 </p>
 
                 <div className="mt-8 space-y-4 text-sm">
@@ -345,8 +346,8 @@ export default async function PartnersPage({
                 {submitted && (
                   <Card className="mb-6 border-green-200 bg-green-50">
                     <CardContent className="py-4 text-sm text-green-900">
-                      Thanks, your application is in. We&apos;ll review it and reach out in about 20
-                      minutes during business hours.
+                      Thanks, your application is in. We&apos;ll review it and reach out in 3–5
+                      business days.
                     </CardContent>
                   </Card>
                 )}
@@ -399,8 +400,8 @@ export default async function PartnersPage({
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <p className="text-sm text-orange-800 max-w-3xl mx-auto text-center">
               <strong>Important:</strong> We provide administrative filing services for professional
-              entity formation in New York. This is not legal advice. Partner programs are subject
-              to separate agreement and applicable referral-fee rules.
+              entity formation in New York. This is not legal advice. Program participation is
+              subject to the signed agreement, including applicable referral-fee rules.
             </p>
           </div>
         </section>

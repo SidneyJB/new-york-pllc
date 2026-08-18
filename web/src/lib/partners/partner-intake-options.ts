@@ -48,17 +48,17 @@ export const PARTNER_FAQ = [
   {
     question: 'Do you offer white-label fulfillment?',
     answer:
-      'Yes. We can operate as your backend filing desk under your client relationship, with status updates you can forward. Partnership structure depends on volume and compliance requirements.',
+      'Yes. You bill the client and check out with us at wholesale. Checkout, confirmation emails, and document delivery may identify NY PLLC Formation. Partnership structure depends on volume and compliance requirements.',
   },
   {
     question: 'What does a typical referral look like?',
     answer:
-      'A licensed professional needs a New York PLLC, foreign qualification of an existing entity, a NY business address, or registered agent service. You send the client to us or submit their details, and we run intake, payment, and fulfillment.',
+      'A licensed professional needs a New York PLLC, foreign qualification of an existing entity, a NY business address, or registered agent service. You send the client to us or submit their details, and we run intake and fulfillment.',
   },
   {
     question: 'How fast do you respond to partner inquiries?',
     answer:
-      'We reply to partner applications in about 20 minutes during business hours and schedule a short intro call to confirm fit and referral workflow.',
+      'We reply to partner applications in 3–5 business days and then confirm fit and referral workflow.',
   },
   {
     question: 'Is there a referral fee?',

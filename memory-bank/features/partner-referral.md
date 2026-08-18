@@ -18,6 +18,8 @@ B2B `/partners` landing + intake form; `?c=` / cookie attribution applies Spiffy
 
 ## Gotchas
 
+- Partner applications: public `/partners` page promises a reply in **3–5 business days**
+- White-label is wholesale fulfillment; checkout/emails/docs may identify NY PLLC Formation
 - Partner ops / payouts / CRM `B2bPartner` live in **PLLC-CRM**
 - Order links must force document navigation so Spiffy embed loads
 - Footer/order CTA href builders must preserve referral params

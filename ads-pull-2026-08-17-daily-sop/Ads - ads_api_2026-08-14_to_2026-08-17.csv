@@ -1,0 +1,16 @@
+segments.date,campaign.name,ad_group.name,ad_group_ad.ad.id,ad_group_ad.ad.type,ad_group_ad.ad.name,ad_group_ad.status,ad_group_ad.ad.final_urls,metrics.impressions,metrics.clicks,metrics.ctr,metrics.average_cpc,metrics.cost_micros,metrics.conversions
+2026-08-14,01_Core_Exact_NY,Cost-Price,816213589888,RESPONSIVE_SEARCH_AD,Cost-Price — controlled,ENABLED,['https://www.nypllc.com/order'],2,0,0.0,0.0,0,0.0
+2026-08-14,01_Core_Exact_NY,Formation-Core,816213581518,RESPONSIVE_SEARCH_AD,Formation-Core — controlled,ENABLED,['https://www.nypllc.com/how-to-form-a-pllc-in-ny'],5,1,0.2,12210000.0,12210000,1.0
+2026-08-14,01_Core_Exact_NY,Formation-Core,816286133015,RESPONSIVE_SEARCH_AD,Formation-Core — unpinned,ENABLED,['https://www.nypllc.com/how-to-form-a-pllc-in-ny'],22,1,0.045454545454545456,770000.0,770000,0.0
+2026-08-14,01_Core_Exact_NY,Service-Intent,816286167770,RESPONSIVE_SEARCH_AD,Service-Intent — unpinned,ENABLED,['https://www.nypllc.com/how-to-form-a-pllc-in-ny'],1,0,0.0,0.0,0,0.0
+2026-08-14,Sales-Search-1,NY PLLC Formation,780467444330,RESPONSIVE_SEARCH_AD,,ENABLED,['https://www.nypllc.com'],78,6,0.07692307692307693,13670000.0,82020000,0.0
+2026-08-15,01_Core_Exact_NY,Formation-Core,816286133015,RESPONSIVE_SEARCH_AD,Formation-Core — unpinned,ENABLED,['https://www.nypllc.com/how-to-form-a-pllc-in-ny'],8,0,0.0,0.0,0,0.0
+2026-08-15,01_Core_Exact_NY,Service-Intent,816286167770,RESPONSIVE_SEARCH_AD,Service-Intent — unpinned,ENABLED,['https://www.nypllc.com/how-to-form-a-pllc-in-ny'],1,0,0.0,0.0,0,0.0
+2026-08-15,Sales-Search-1,NY PLLC Formation,780467444330,RESPONSIVE_SEARCH_AD,,ENABLED,['https://www.nypllc.com'],43,2,0.046511627906976744,4745000.0,9490000,0.0
+2026-08-16,01_Core_Exact_NY,Formation-Core,816213581518,RESPONSIVE_SEARCH_AD,Formation-Core — controlled,ENABLED,['https://www.nypllc.com/how-to-form-a-pllc-in-ny'],1,1,1.0,3123072.0,3123072,0.0
+2026-08-16,01_Core_Exact_NY,Formation-Core,816286133015,RESPONSIVE_SEARCH_AD,Formation-Core — unpinned,ENABLED,['https://www.nypllc.com/how-to-form-a-pllc-in-ny'],4,0,0.0,0.0,0,0.0
+2026-08-16,Sales-Search-1,NY PLLC Formation,780467444330,RESPONSIVE_SEARCH_AD,,ENABLED,['https://www.nypllc.com'],40,3,0.075,11023952.333333334,33071857,0.0
+2026-08-17,01_Core_Exact_NY,Formation-Core,816213581518,RESPONSIVE_SEARCH_AD,Formation-Core — controlled,ENABLED,['https://www.nypllc.com/how-to-form-a-pllc-in-ny'],1,0,0.0,0.0,0,0.0
+2026-08-17,01_Core_Exact_NY,Formation-Core,816286133015,RESPONSIVE_SEARCH_AD,Formation-Core — unpinned,ENABLED,['https://www.nypllc.com/how-to-form-a-pllc-in-ny'],8,2,0.25,5910000.0,11820000,0.0
+2026-08-17,01_Core_Exact_NY,Service-Intent,816286167770,RESPONSIVE_SEARCH_AD,Service-Intent — unpinned,ENABLED,['https://www.nypllc.com/how-to-form-a-pllc-in-ny'],3,0,0.0,0.0,0,0.0
+2026-08-17,Sales-Search-1,NY PLLC Formation,780467444330,RESPONSIVE_SEARCH_AD,,ENABLED,['https://www.nypllc.com'],58,5,0.08620689655172414,11342388.8,56711944,0.0

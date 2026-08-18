@@ -1,0 +1,195 @@
+change_event.change_date_time,change_event.user_email,change_event.client_type,change_event.change_resource_type,change_event.resource_change_operation,change_event.changed_fields,change_event.old_resource,change_event.new_resource,change_event.campaign,change_event.ad_group
+2026-08-14 13:39:53.8687,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_CRITERION,CREATE,"paths: ""ad_group""
+paths: ""criterion_id""
+paths: ""keyword.match_type""
+paths: ""keyword.text""
+paths: ""negative""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_criterion {
+}
+","ad_group_criterion {
+  resource_name: ""customers/1529880213/adGroupCriteria/201832402041~623413122122""
+  status: ENABLED
+  keyword {
+    match_type: EXACT
+    text: ""create pllc""
+  }
+  criterion_id: 623413122122
+  ad_group: ""customers/1529880213/adGroups/201832402041""
+  negative: false
+}
+",customers/1529880213/campaigns/24022049179,customers/1529880213/adGroups/201832402041
+2026-08-14 19:42:40.155183,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,UPDATE,"paths: ""ad""
+paths: ""status""
+","ad_group_ad {
+  status: ENABLED
+  ad {
+  }
+}
+","ad_group_ad {
+  status: REMOVED
+  ad {
+  }
+}
+",customers/1529880213/campaigns/24017629178,customers/1529880213/adGroups/196018838817
+2026-08-14 19:42:40.788975,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,CREATE,"paths: ""ad""
+paths: ""ad_group""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_ad {
+  ad {
+  }
+}
+","ad_group_ad {
+  resource_name: ""customers/1529880213/adGroupAds/196018838817~820969348495""
+  status: ENABLED
+  ad {
+    responsive_search_ad {
+      headlines {
+        pinned_field: HEADLINE_1
+        text: ""PLLC for NY Attorneys—$885""
+      }
+      headlines {
+        text: ""Law Firm PLLC NY Experts""
+      }
+      headlines {
+        text: ""Rule 7.5 Names Reviewed""
+      }
+      headlines {
+        text: ""Publication & EIN Included""
+      }
+      headlines {
+        text: ""Start Your Law Practice""
+      }
+      headlines {
+        text: ""Built for NY Attorneys""
+      }
+      headlines {
+        text: ""NY PLLC Formation – $885 Flat""
+      }
+      headlines {
+        text: ""Everything Included. One Fee""
+      }
+      headlines {
+        text: ""Registered Agent Yr 1 Free""
+      }
+      headlines {
+        text: ""Flat Fee — No Hidden Costs""
+      }
+      headlines {
+        text: ""Attorney-Only Ownership""
+      }
+      headlines {
+        text: ""Rated 5 Stars on Google""
+      }
+      headlines {
+        text: ""Name Screening Included""
+      }
+      descriptions {
+        text: ""PLLC for NY attorneys: naming review, publication, EIN & operating agreement. $885 flat.""
+      }
+      descriptions {
+        text: ""Specialists who only do New York professional entities. No hourly attorney fees.""
+      }
+      descriptions {
+        text: ""We screen Rule 7.5 names, prepare your filing, and manage publication. One flat fee.""
+      }
+      descriptions {
+        text: ""Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.""
+      }
+    }
+    resource_name: ""customers/1529880213/ads/820969348495""
+    id: 820969348495
+    final_urls: ""https://www.nypllc.com/professions/law""
+    name: ""Attorneys — controlled""
+  }
+  ad_group: ""customers/1529880213/adGroups/196018838817""
+}
+",customers/1529880213/campaigns/24017629178,customers/1529880213/adGroups/196018838817
+2026-08-14 19:42:41.204079,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,UPDATE,"paths: ""ad""
+paths: ""status""
+","ad_group_ad {
+  status: ENABLED
+  ad {
+  }
+}
+","ad_group_ad {
+  status: REMOVED
+  ad {
+  }
+}
+",customers/1529880213/campaigns/24017629178,customers/1529880213/adGroups/196018838817
+2026-08-14 19:42:41.818687,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,CREATE,"paths: ""ad""
+paths: ""ad_group""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_ad {
+  ad {
+  }
+}
+","ad_group_ad {
+  resource_name: ""customers/1529880213/adGroupAds/196018838817~820969348510""
+  status: ENABLED
+  ad {
+    responsive_search_ad {
+      headlines {
+        text: ""PLLC for NY Attorneys—$885""
+      }
+      headlines {
+        text: ""Law Firm PLLC NY Experts""
+      }
+      headlines {
+        text: ""Rule 7.5 Names Reviewed""
+      }
+      headlines {
+        text: ""Publication & EIN Included""
+      }
+      headlines {
+        text: ""Start Your Law Practice""
+      }
+      headlines {
+        text: ""Built for NY Attorneys""
+      }
+      headlines {
+        text: ""NY PLLC Formation – $885 Flat""
+      }
+      headlines {
+        text: ""Everything Included. One Fee""
+      }
+      headlines {
+        text: ""Registered Agent Yr 1 Free""
+      }
+      headlines {
+        text: ""Flat Fee — No Hidden Costs""
+      }
+      headlines {
+        text: ""Attorney-Only Ownership""
+      }
+      headlines {
+        text: ""Rated 5 Stars on Google""
+      }
+      headlines {
+        text: ""Name Screening Included""
+      }
+      descriptions {
+        text: ""PLLC for NY attorneys: naming review, publication, EIN & operating agreement. $885 flat.""
+      }
+      descriptions {
+        text: ""Specialists who only do New York professional entities. No hourly attorney fees.""
+      }
+      descriptions {
+        text: ""We screen Rule 7.5 names, prepare your filing, and manage publication. One flat fee.""
+      }
+      descriptions {
+        text: ""Flat $885 covers state fees, publication, EIN and your operating agreement. Start today.""
+      }
+    }
+    resource_name: ""customers/1529880213/ads/820969348510""
+    id: 820969348510
+    final_urls: ""https://www.nypllc.com/professions/law""
+    name: ""Attorneys — unpinned""
+  }
+  ad_group: ""customers/1529880213/adGroups/196018838817""
+}
+",customers/1529880213/campaigns/24017629178,customers/1529880213/adGroups/196018838817

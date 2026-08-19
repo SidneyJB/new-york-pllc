@@ -199,7 +199,6 @@ export const CHANGE_REGISTERED_AGENT_METADATA = generateMetadata({
   robots: {
     index: false,
     follow: false,
-    nocache: true,
     googleBot: {
       index: false,
       follow: false,

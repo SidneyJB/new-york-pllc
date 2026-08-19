@@ -2,6 +2,10 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-08-19 — Weekly Ads SOP §7.1
+
+Ran 5 days after Aug 14 (calendar due Aug 17 / Gate 1). 7d CPA **$373** / 1 conv (quiet stretch); 30d **$123** / 13 conv. Self-block 0. Added `[form a pllc]` exact on Formation-Core. Ads Spiffy 13 vs CRM 18 (+38%). **Gate 1 fail / hold** (`01` 2 · account 13/30d). `02` Attorneys RSAs DISAPPROVED. Writeup: `ads-pull-2026-08-19-weekly-sop/WEEKLY-SOP.md`.
+
 ## 2026-08-18 — Sales tax Certificate of Authority off Spiffy checkout
 
 Sid removed **NY Sales Tax Certificate of Authority ($195)** from Spiffy formation checkout — insanely low take rate; order-form friction not worth it. Launched Aug 14, pulled Aug 18. CRM staff add-on remains in PLLC-CRM; possible post-formation upsell later. Site FAQ + structured data updated (S Corp only at checkout).

@@ -620,7 +620,7 @@ Gates are permission slips, not deadlines. Missing a gate by two weeks costs alm
 | Jul 27 | ✅ First formal weekly SOP — **ran Jul 28** ([writeup](ads-pull-2026-07-28-weekly-sop/WEEKLY-SOP.md) · [dashboard](ads-weekly-dashboard.csv)): 30d CPA $96 / 16 conv; `01` IS ~53% / 0 conv; Ads↔CRM primary 9=9; +`[nys pllc formation]` on `01`; List C +2 LLC-availability phrases; `02` RSA policy OK → enable Aug 3 |
 | Aug 3 | ✅ **Launch 02_Professions** — **enabled Aug 4** (`24017629178` PAUSED→ENABLED; already on portfolio tCPA $90) · ✅ weekly SOP ran Aug 4 ([writeup](ads-pull-2026-08-04-weekly-sop/WEEKLY-SOP.md)): 7d CPA $91 / 3 conv; 30d CPA $118 / 11 conv; `01` IS ~50% / 0 conv; Ads 10 vs CRM 13; +`[pllc new york formation]` on `01` |
 | Aug 10 | ✅ Weekly SOP **ran Aug 14** ([writeup](ads-pull-2026-08-14-weekly-sop/WEEKLY-SOP.md)): 7d CPA $97 / 5 conv; 30d CPA $112 / 14 conv; **`01` first 2 purchases**; +`[create pllc]` on `01`; Ads 14 vs CRM 19 (+36%); Gate 1 hold · Auction Insights manual export still open |
-| Aug 17 | **Gate 1** → launch 03_ForeignQual on pass |
+| Aug 17 | **Gate 1** — ✅ checked Aug 19 ([writeup](ads-pull-2026-08-19-weekly-sop/WEEKLY-SOP.md)): **fail / hold** (`01` 2 conv · account 13/30d · 30d CPA $123). +`[form a pllc]` on `01`; `03` stays PAUSED |
 | Aug 24 – Sep 6 | Accumulate data · abandoned-checkout emails ship · Microsoft Ads account created |
 | Sep 7 | Gate 2 window opens |
 | Sep 14 | On pass: **demote → 04_Discovery_Broad** · ladder step 1 ($100) |

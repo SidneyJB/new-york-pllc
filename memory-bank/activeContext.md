@@ -11,7 +11,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 - **Weekly SOP** — latest §7.1 **done Aug 19** (due Aug 17): [WEEKLY-SOP.md](../ads-pull-2026-08-19-weekly-sop/WEEKLY-SOP.md) · [ads-weekly-dashboard.csv](../ads-weekly-dashboard.csv). 7d CPA **$373** / 1 conv (quiet stretch); 30d CPA **$123** / 13 conv; `01` still **2** purchases; Ads Spiffy 13 vs CRM 18 (+38%); **Gate 1 fail / hold**. `02` Attorneys RSAs DISAPPROVED.
 - **`02` Attorneys RSA rewrite (Aug 14)** — new ads **DISAPPROVED** (gov-docs). Needs another rewrite. See [google_ads_changes.md](../google_ads_changes.md)
 - **SEO / content moat** — [nypllc-seo-content-moat-plan.md](../nypllc-seo-content-moat-plan.md). Shipped: `/nysed-approval-times`, `/ny-pllc-cost`, `/how-long-to-form-a-pllc-in-ny` (Jul 22). Next editorial: OP deficiencies `#4`. See [features/seo-and-domain.md](features/seo-and-domain.md)
-- **Revenue levers (website surface)** — [nypllc-revenue-levers-plan.md](../nypllc-revenue-levers-plan.md). **Direct-RA notices live Aug 25** (`DIRECT_RA_NOTICES_LIVE` on CRM Production). **Mercury + Gusto Impact applied Aug 14** (waiting). Spiffy checkbox live: **S Corp $195**. Sales tax Certificate of Authority **removed from checkout Aug 18** (low take rate). Remaining: DBA, CAQH, VM copy, $985 prep (late Sep). Expedite SKU **removed Aug 17** (already in $885). See [features/revenue-levers.md](features/revenue-levers.md)
+- **Revenue levers (website surface)** — [nypllc-revenue-levers-plan.md](../nypllc-revenue-levers-plan.md). **Direct-RA notices live Aug 25** (`DIRECT_RA_NOTICES_LIVE` on CRM Production). **CAQH pilot outreach sent Aug 25** (manual Stripe invoice $499 on interest; Spiffy SKU later). **Mercury + Gusto Impact applied Aug 14** (waiting). Spiffy checkbox live: **S Corp $195**. Sales tax Certificate of Authority **removed from checkout Aug 18** (low take rate). Remaining: DBA, CAQH Spiffy bump, VM copy, $985 prep (late Sep). Expedite SKU **removed Aug 17** (already in $885). See [features/revenue-levers.md](features/revenue-levers.md)
 - **Phase 1 live:** `Sales-Search-1` + `01_Core_Exact_NY` (Jul 9) + **`02_Professions_NY` (ENABLED Aug 4)** on portfolio tCPA $90. `03_ForeignQual_US` PAUSED, unattached (Gate 1).
 - Expand **foreign-into-NY** state page coverage beyond NJ/PA/FL/TX/CT as needed
 - **Foreign publication copy (HARD — Aug 10 2026):** flat package **includes** end-to-end six-week publication. Never “guidance” / “not included unless quoted.” See [features/foreign-into-ny.md](features/foreign-into-ny.md).
@@ -21,7 +21,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 📖 Full narrative + Sep–Jan calendar: [expansion-next-steps.md](expansion-next-steps.md) (updated Aug 16, 2026)
 
-1. **CAQH payment + email past healthcare clients** — job #1 (**PLLC-CRM**; customer intake wizard shipped Aug 16, payment still open)
+1. **CAQH pilot — outreach sent Aug 25** — Aaron Zitouni + Esther Olajide; await replies → Stripe invoice $499 → kickoff + intake (**PLLC-CRM**). 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md)
 2. **RA auto-renewal** — **live Aug 25 2026** (CRM `DIRECT_RA_NOTICES_LIVE=true`); watch first T-30s ~Sep 22 and Oct charges
 3. **Close EXP Credentialing** by email — they're waiting (**PLLC-CRM**)
 4. **Two affiliate links** — **Mercury + Gusto Impact applied Aug 14** (awaiting responses) — [affiliate-partners.md](../docs/affiliate-partners.md)
@@ -68,7 +68,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 | Auction Insights manual export (1st week of Aug) | [operating plan](../nypllc-google-ads-operating-plan.md) |
 | Revenue levers: **Mercury + Gusto Impact applied Aug 14** (awaiting responses); links not live | [affiliate-partners.md](../docs/affiliate-partners.md) |
 | $985 price test — late Sep only (ads plan §4.4); never during ladder step or January | [revenue levers plan](../nypllc-revenue-levers-plan.md) · [ads plan §4.4](../nypllc-google-ads-operating-plan.md) |
-| Spiffy checkbox live: S Corp $195; sales tax **off checkout Aug 18**; remaining DBA / CAQH | [revenue levers plan](../nypllc-revenue-levers-plan.md) |
+| Spiffy checkbox live: S Corp $195; sales tax **off checkout Aug 18**; CAQH pilot outreach **Aug 25** (invoice on interest); Spiffy CAQH bump after pilots | [revenue levers plan](../nypllc-revenue-levers-plan.md) |
 | Direct-RA T-30 cron live — first cohort ~Sep 22; Oct auto-charges | [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) |
 | Big B2B professional outreach **paused** until CAQH + RA + EXP + affiliates done | [expansion-next-steps.md](expansion-next-steps.md) |
 
@@ -76,7 +76,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 📖 Full log: [session-history.md](../docs/session-history.md)
 
-Latest (Aug 25 2026): Direct-RA notices live — CRM `DIRECT_RA_NOTICES_LIVE=true`; daily Ads SOP (7d CPA $123 / 4 conv; tracking gap 0%). Earlier (Aug 19): Weekly Ads SOP — +`[form a pllc]`; Gate 1 fail/hold; `02` Attorneys RSAs DISAPPROVED.
+Latest (Aug 25 2026): **CAQH pilot outreach launched** — interest emails to Aaron Zitouni + Esther Olajide ($499 manual Stripe invoice on interest). Direct-RA notices live — CRM `DIRECT_RA_NOTICES_LIVE=true`; daily Ads SOP (7d CPA $123 / 4 conv; tracking gap 0%). Earlier (Aug 19): Weekly Ads SOP — +`[form a pllc]`; Gate 1 fail/hold; `02` Attorneys RSAs DISAPPROVED.
 
 ## Session start
 

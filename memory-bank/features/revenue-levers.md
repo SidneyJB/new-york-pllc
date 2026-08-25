@@ -31,7 +31,7 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 |------|---------|---------------|
 | Banking affiliate (EIN email + backlist) | Ship this week | **Mercury applied Aug 14** — waiting on response. Links not live. 📖 [affiliate-partners.md](../../docs/affiliate-partners.md) |
 | S Corp Phase 1 payroll partner | ~4 hrs | **Gusto Impact applied Aug 14** — waiting on approval. Links not live. Same doc. |
-| Spiffy order-bump (checkbox SKUs) | Verify once | **Done Aug 14.** Live: **S Corp $195**. Sales tax $195 **removed Aug 18** (low take rate). Remaining: DBA, CAQH. |
+| Spiffy order-bump (checkbox SKUs) | Verify once | **Done Aug 14.** Live: **S Corp $195**. Sales tax $195 **removed Aug 18** (low take rate). CAQH: **pilot outreach Aug 25** (manual Stripe invoice $499); Spiffy bump after 2–3 pilots. Remaining: DBA. |
 
 ## Key cross-deps (website)
 

@@ -2,7 +2,9 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
-## 2026-08-25 — Direct-RA notices live + daily Ads SOP
+## 2026-08-25 — CAQH pilot outreach + Direct-RA live + daily Ads SOP
+
+**CAQH pilot launched:** Interest emails sent from `contact@nypllc.com` to Aaron Zitouni (Aaron Paul Zitouni LCSW PLLC) and Esther Olajide (Clear Guide Counseling LCSW PLLC). Offer: $499 assisted CAQH ProView setup; payment via manual Stripe invoice on interest (Spiffy SKU deferred). Awaiting replies. 📖 [PLLC-CRM caqh-pilot-launch](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md)
 
 CRM: flipped `DIRECT_RA_NOTICES_LIVE=true` on Vercel Production — T-30/T-7/receipt cron active for Oct–Dec 2025 formation cohort (first T-30s ~Sep 22). Lever 1 build shipped Aug 12. 📖 [PLLC-CRM direct-ra-launch-status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
 

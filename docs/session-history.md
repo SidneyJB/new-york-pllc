@@ -2,6 +2,12 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-08-25 — Direct-RA notices live + daily Ads SOP
+
+CRM: flipped `DIRECT_RA_NOTICES_LIVE=true` on Vercel Production — T-30/T-7/receipt cron active for Oct–Dec 2025 formation cohort (first T-30s ~Sep 22). Lever 1 build shipped Aug 12. 📖 [PLLC-CRM direct-ra-launch-status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
+
+Ads daily SOP: 7d CPA **$123** / 4 conv; 30d **$108** / 17 conv; Ads↔CRM tracking **0% gap**. No account changes. Writeup: `ads-pull-2026-08-25-daily-sop/DAILY-SOP.md`.
+
 ## 2026-08-19 — Weekly Ads SOP §7.1
 
 Ran 5 days after Aug 14 (calendar due Aug 17 / Gate 1). 7d CPA **$373** / 1 conv (quiet stretch); 30d **$123** / 13 conv. Self-block 0. Added `[form a pllc]` exact on Formation-Core. Ads Spiffy 13 vs CRM 18 (+38%). **Gate 1 fail / hold** (`01` 2 · account 13/30d). `02` Attorneys RSAs DISAPPROVED. Writeup: `ads-pull-2026-08-19-weekly-sop/WEEKLY-SOP.md`.

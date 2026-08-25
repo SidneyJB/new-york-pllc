@@ -6,9 +6,9 @@ Post-formation monetization: RA auto-renewal + Compliance Plan, shelf SKUs, S Co
 
 ## Status
 
-**Lever 1 site + CRM shipped Aug 12 2026** (CoC cancel, no 1-click). Test email approved. `/change-registered-agent` is **direct-link only** (noindex + robots Disallow).
+**Lever 1 live Aug 25 2026** — CRM `DIRECT_RA_NOTICES_LIVE=true` on Production; T-30/T-7/receipt cron active. Site + CoC cancel shipped Aug 12. `/change-registered-agent` is **direct-link only** (noindex + robots Disallow).
 
-**Before cohort emails:** CRM must still E2E the **Compliance Plan $249 upgrade**, then Sid flips `DIRECT_RA_NOTICES_LIVE`. 📖 [CRM launch status](../../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
+📖 [CRM launch status](../../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
 
 Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spiffy RA renew disclosure was already live.
 
@@ -18,7 +18,7 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 
 | Lever | Site/Spiffy role | CRM role (sibling repo) |
 |-------|------------------|-------------------------|
-| **1 — RA auto-renewal + Compliance Plan ($249/yr)** | Checkout + confirmation **auto-renewal disclosure** copy | T-30/T-7 notices, Stripe retries, cancel flow, dispute template — **hard deadline Sep 15** (first T-30 ~Sep 22) |
+| **1 — RA auto-renewal + Compliance Plan ($249/yr)** | Checkout + confirmation **auto-renewal disclosure** copy | **Live Aug 25 2026** — T-30/T-7 notices, Stripe retries, cancel flow; first cohort T-30s ~Sep 22 |
 | **2 — Long-tail shelf** | Spiffy checkouts + `/services` index + SEO pages per SKU; **banking = Mercury** (EIN email) | DOS filing automation for amendments, etc. |
 | **3 — S Corp monetization** | **Gusto Impact** payroll affiliate in S-Corp pipeline email + product page; S Corp calculator (SEO tool) | S-Corp-Docs-Faxed email pipeline |
 | **4 — AOV suite** | $985 price test (late Sep), S Corp checkbox live, DBA/CAQH bumps, Practice Launch bundle, VM copy | — |

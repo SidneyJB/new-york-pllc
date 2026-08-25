@@ -22,8 +22,8 @@
 - Static admin dashboard (orders still via Spiffy + CRM)
 - Optional headless CMS for content
 - Growth: backlinks / SEO campaigns (see repo-root strategy docs)
-- **Expansion priorities (Aug 10):** CAQH payment #1, RA renewal by Sep 15, EXP close-out, affiliate links, ads recovery, 1 SEO/wk, B2B outreach paused — 📖 [expansion-next-steps.md](expansion-next-steps.md)
-- **Revenue levers (site):** **Mercury + Gusto Impact applied Aug 14** (awaiting responses); Spiffy checkbox live: **S Corp $195** (sales tax **off checkout Aug 18**); remaining DBA / CAQH, VM copy, $985 prep — 📖 [revenue levers plan](../nypllc-revenue-levers-plan.md) · [features/revenue-levers.md](features/revenue-levers.md)
+- **Expansion priorities (Aug 10):** CAQH payment #1; **direct-RA live Aug 25**; EXP close-out, affiliate links, ads recovery, 1 SEO/wk, B2B outreach paused — 📖 [expansion-next-steps.md](expansion-next-steps.md)
+- **Revenue levers (site):** **Direct-RA live Aug 25** (CRM); **Mercury + Gusto Impact applied Aug 14** (awaiting responses); Spiffy checkbox live: **S Corp $195** (sales tax **off checkout Aug 18**); remaining DBA / CAQH, VM copy, $985 prep — 📖 [revenue levers plan](../nypllc-revenue-levers-plan.md) · [features/revenue-levers.md](features/revenue-levers.md)
 
 ## Known issues & risks
 

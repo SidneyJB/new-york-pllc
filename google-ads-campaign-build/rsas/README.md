@@ -47,4 +47,4 @@ Controlled RSA pins `NY PLLC Formation – $885 Flat` (plan: lead with “$885 F
 
 Therapist/LCSW uses plan example headlines. Other groups follow the same pattern (profession noun swap). Physicians use plan’s **50+** count; LCSW/MHC use **70+** band.
 
-**Attorneys exception (Aug 14 2026):** do **not** use NYSED/OP/deficiency headlines. Law practices are not NYSED-reviewed. Use Rule 7.5 naming + attorney-only ownership; never put Certificate of Good Standing in the RSA.
+**Attorneys exception (Aug 25 2026):** law ads trip `GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES` harder than other professions. Do **not** use NYSED/OP/deficiency, Rule 7.5, naming-screening, attorney-only ownership, CGS, or “prepare your filing” lines. Use **commercial-only** copy (publication, EIN, OA, RA, flat fee, practice launch) — same skeleton as other `02` RSAs but swap regulatory H10/H12/H13 for §4.2 fillers (`Six-Week Publication Done`, `Operating Agreement Included`, `Your PLLC, Filed Right`). Aug 14 Rule 7.5 rewrite was **DISAPPROVED**; unpinned NYSED copy was only `APPROVED_LIMITED`.

@@ -1,12 +1,27 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-08-19
+**Last updated:** 2026-08-25
 
 ## Account
 
 - Customer: NYPLLC (`1529880213`)
 - Live: `Sales-Search-1` + `01_Core_Exact_NY` + `02_Professions_NY` (ENABLED)
 - Unattached PAUSED: `03_ForeignQual_US`
+
+---
+
+## Changes on 2026-08-25 — Attorneys RSA rewrite v3 (commercial-only)
+
+Aug 14 Rule 7.5 / attorney-only rewrite (`820969348495` / `820969348510`) **DISAPPROVED** on both RSAs (`GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES`). Original NYSED copy had unpinned `APPROVED_LIMITED` only.
+
+Third rewrite: **commercial-only** — no NYSED, Rule 7.5, naming-screening, attorney-only ownership, or filing-prep lines. Keeps price-pinned skeleton + publication/EIN/OA/RA/5-star; regulatory slots → `Six-Week Publication Done`, `Operating Agreement Included`, `Your PLLC, Filed Right`.
+
+| Action | Detail |
+|---|---|
+| Removed | `820969348495` (controlled) · `820969348510` (unpinned) — both DISAPPROVED |
+| Uploaded | controlled `822145210776` · unpinned `822189177055` — both ENABLED, `REVIEW_IN_PROGRESS` |
+| Final URL | `https://www.nypllc.com/professions/law` |
+| Source | [`rsa_manifest.json`](google-ads-campaign-build/rsas/rsa_manifest.json) · `upload_rsas.py --campaigns 02_Professions_NY --ad-groups Attorneys --replace` |
 
 ---
 
@@ -29,7 +44,7 @@ Pull: [`ads-pull-2026-08-19-weekly-sop/`](ads-pull-2026-08-19-weekly-sop/) · wr
 | Action | Detail |
 |---|---|
 | Exact keyword | `[form a pllc]` → `01_Core_Exact_NY` / Formation-Core (`201832402041~860592117526`) |
-| Deferred | Sales exact-neg fence; `ny pllc checklist` watch (4th week); `nysed pllc` / convert-LLC watch; Auction Insights manual export overdue; **`02` Attorneys RSA rewrite** (new ads DISAPPROVED) |
+| Deferred | Sales exact-neg fence; `ny pllc checklist` watch (4th week); `nysed pllc` / convert-LLC watch; Auction Insights manual export overdue |
 
 Same-day daily SOP: [`ads-pull-2026-08-19-daily-sop/DAILY-SOP.md`](ads-pull-2026-08-19-daily-sop/DAILY-SOP.md)
 

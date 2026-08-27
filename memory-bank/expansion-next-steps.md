@@ -1,9 +1,9 @@
 # Expansion — next steps (Aug 10, 2026)
 
-**As of:** Aug 26, 2026.  
+**As of:** Aug 27, 2026.  
 **Owner:** Cross-cutting expansion strategy lives here (website memory bank). CRM builds link from [PLLC-CRM/memory-bank/features/](../../PLLC-CRM/memory-bank/features/).
 
-Companion operating plans: [Ads v2](../nypllc-google-ads-operating-plan.md) · [SEO moat](../nypllc-seo-content-moat-plan.md) · [Revenue levers v1](../nypllc-revenue-levers-plan.md) · CAQH v1 · B2B v1 (CRM).
+Companion operating plans: [Ads v2](../nypllc-google-ads-operating-plan.md) · [SEO moat](../nypllc-seo-content-moat-plan.md) · [Revenue levers v1](../nypllc-revenue-levers-plan.md) · CAQH v1 · B2B v1 (CRM). **MSO package:** [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md). License filing + credentialing packet research still in [PLLC-CRM catalog](../../PLLC-CRM/business%20ideas.md).
 
 ---
 
@@ -41,6 +41,7 @@ Anything that **takes money** (build + launch) — still open:
 | **5** | **Ads — mostly hands-off** | **new-york-pllc** | Let recovery run; **verdict early September**. Daily SOP only |
 | **6** | **SEO — 1 piece/week** | **new-york-pllc** | Next editorial: OP deficiencies `#4`. [SEO plan](../nypllc-seo-content-moat-plan.md) |
 | **7** | **Big B2B outreach — paused** | **PLLC-CRM** | Advocate/referral side keeps running until 1–4 are done |
+| **8** | **MSO package pilot** | **new-york-pllc** + ops | Up-front product after a short pilot: **PLLC/PC + LLC** all-in at **~$1,500–$1,800** (our charge; filings + publication both entities); **Jonah Brodsky** reviews/revises the MSA and bills the customer. 📖 [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md) |
 
 ---
 
@@ -54,6 +55,17 @@ Anything that **takes money** (build + launch) — still open:
 | **December** | Load up for **January** |
 | **January** | Peak season — whole ballgame; first January with a working machine |
 | **After Jan** | Scale what worked; decide on payer enrollment, wholesale partners, maybe **New Jersey** |
+
+---
+
+## Other product-line research
+
+NY-specialist wedges still in research (not the MSO package). Catalog: [PLLC-CRM business ideas](../../PLLC-CRM/business%20ideas.md).
+
+| Track | Status | Docs |
+|-------|--------|------|
+| NYSED personal license filing | Research complete Aug 7 2026; not built | [PLLC-CRM synthesis](../../PLLC-CRM/business-ideas-nysed-personal-license-filing-synthesis.md) |
+| NY credentialing packet | Research synthesis done; CAQH **pilot** is a separate live SKU | [PLLC-CRM synthesis](../../PLLC-CRM/business-ideas-ny-credentialing-packet-synthesis.md) |
 
 ---
 

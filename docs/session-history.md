@@ -2,6 +2,18 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-08-27 — NY MSO package (pilot + up-front offer)
+
+**MSO package** is a NYPLLC product: customer buys **PLLC or PC + ordinary LLC** formation from us, then we refer the MSA to **Jonah Brodsky**.
+
+- **Our charge (pencil):** **~$1,500–$1,800** all-in for both entities (filings, publication, state fees). Charged by us to the customer.
+- **Jonah Brodsky:** reviews and/or revises the MSA template; bills the customer on his end. Not included in our formation price.
+- After a short **pilot**, the same package is an **up-front** first-purchase offer (not a post-formation add-on).
+- **Synthesis:** [`docs/business-ideas-ny-mso-msa-synthesis.md`](business-ideas-ny-mso-msa-synthesis.md)
+- **Packet:** snowflake spec, blank fill-in MSA (md + PDF), worked example Harmony Counseling LCSW PLLC / Jordan Admin LLC (md + PDF). Example **$1,800/mo** is the *inter-entity* Management Fee, **not FMV** and not our SKU.
+- Linked from [expansion-next-steps.md](../memory-bank/expansion-next-steps.md) (4-week table row 8), [revenue levers plan](../nypllc-revenue-levers-plan.md) Lever 2, router, progress, activeContext.
+- Standalone plain-LLC SEO stays CheapNewYorkLLC; this SKU is the MSO package, not a competing LLC landing page.
+
 ## 2026-08-26 — Weekly Ads SOP §7.1 + Direct-RA ops + CAQH interest checkbox
 
 Ran 7 days after Aug 19 (calendar due Aug 24). 7d CPA **$240** / 2 conv; 30d **$111** / 17 conv. Self-block 0. Added `[pllc in new york]` + `[pllc nys]` exact on Formation-Core. Ads Spiffy 17 vs CRM 17 (**0%**). **Gate 1 fail / hold** (`01` 2 · account 17/30d). Attorneys RSA v3 still DISAPPROVED; **v4 uploaded** (dropped law-practice / filed / six-week lines). Writeup: `ads-pull-2026-08-26-weekly-sop/WEEKLY-SOP.md`.

@@ -23,6 +23,7 @@
 - Optional headless CMS for content
 - Growth: backlinks / SEO campaigns (see repo-root strategy docs)
 - **Expansion priorities (Aug 26):** CAQH pilots (Aaron declined; Esther / Jonathan / Shanel outreach), direct-RA live, EXP close-out, affiliate links, ads recovery, 1 SEO/wk, B2B outreach paused — 📖 [expansion-next-steps.md](expansion-next-steps.md)
+- **MSO package:** PLLC/PC + LLC all-in **~$1,500–$1,800** (pencil); MSA via **Jonah Brodsky** (he bills). Pilot, then up-front offer — [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md). NYSED license filing + credentialing packet research still in [PLLC-CRM catalog](../../PLLC-CRM/business%20ideas.md)
 - **Revenue levers (site):** Direct-RA live Aug 25; CAQH pilot outreach Aug 25–26; **Mercury + Gusto Impact applied Aug 14** (awaiting responses); Spiffy checkbox live: **S Corp $195** (sales tax **off checkout Aug 18**); remaining DBA / CAQH Spiffy SKU, VM copy, $985 prep — 📖 [revenue levers plan](../nypllc-revenue-levers-plan.md) · [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md)
 
 ## Known issues & risks

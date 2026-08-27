@@ -54,6 +54,7 @@ Post-formation life events (amendments, dissolutions, certificates, banking) are
 | Dissolution | $299 | ~$60 + NYSED consent handling | ~1 wk | Professional-entity dissolutions have extra steps — price reflects it |
 | Foreign-qual origin-state expansion (add ~8–10 states beyond NJ/PA/FL/TX/CT/CA) | Per formula | Per state | Rolling | Feeds SEO programmatic pages + the ads FQ campaign keyword list |
 | Trademark filing | $499–650 + USPTO fees | — | **Parked** | Non-attorney filing-service UPL considerations: needs counsel review or an attorney-partner rev-share (a B2B plan segment-5 reciprocity play). Do not ship without one of those. |
+| **NY MSO package** (Practice PLLC/PC + ordinary admin LLC; MSA via Jonah Brodsky) | **~$1,500–$1,800** (pencil, our charge) | Both entities’ filing + publication fees (inside the price) | Pilot, then up-front checkout | We form **both** entities all-in. **Jonah Brodsky** reviews/revises the MSA and bills the customer separately. Not a $99 shelf SKU. Do not SEO as standalone plain LLC (CheapNewYorkLLC). 📖 [MSO synthesis](docs/business-ideas-ny-mso-msa-synthesis.md) |
 
 ## Distribution
 Self-serve Spiffy checkouts + a /services index page; each SKU's page doubles as an SEO target ("certificate of good standing NY," "amend NY PLLC articles"); lifecycle emails at natural moments (good standing pitched inside CAQH; amendments pitched on address-change signals from VM). Malpractice-broker referrals stay in the B2B plan where they live.

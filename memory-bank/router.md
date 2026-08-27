@@ -39,6 +39,7 @@ Listing shard filenames (e.g. via glob) is optional; reading their contents is n
 | Revenue levers, shelf SKU, banking affiliate, payroll affiliate, Mercury, Relay, Gusto, ADP, S Corp calculator, $985 price test, RA renewal disclosure, Compliance Plan, AOV, checkout bump, Practice Launch bundle | [features/revenue-levers.md](features/revenue-levers.md) → [revenue levers plan](../nypllc-revenue-levers-plan.md) + [affiliate partners](../docs/affiliate-partners.md) |
 | CAQH pilot, credentialing intake, Spiffy CAQH SKU | [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) · outreach [formed-along](../../PLLC-CRM/crm/docs/credentialing-caqh-pilot-outreach-formed-along.md) · [already-formed](../../PLLC-CRM/crm/docs/credentialing-caqh-pilot-outreach-already-formed.md) · [CRM caqh shard](../../PLLC-CRM/memory-bank/features/caqh-credentialing.md) |
 | Expansion priorities, next expansion steps, growth calendar, what's next after Jul 6, Sep–Jan roadmap, B2B paused, CAQH #1 | [expansion-next-steps.md](expansion-next-steps.md) |
+| MSO, management services, micro-MSO, MSA, two-entity, spouse LLC, CPOM, fee-splitting, Jonah Brodsky | [expansion-next-steps.md](expansion-next-steps.md) → [MSO package synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md) |
 
 ## Optional context
 
@@ -57,7 +58,7 @@ Listing shard filenames (e.g. via glob) is optional; reading their contents is n
 
 ## Deep reference (not memory bank)
 
-📖 [Session history](../docs/session-history.md) · [Analytics reference](../docs/analytics-tracking.md) · [Spiffy checkout](../docs/spiffy-checkout.md) · [SEO & domain](../docs/seo-and-domain.md) · [Tailwind v4](../docs/tailwind-v4.md) · [Google Ads operating plan](../nypllc-google-ads-operating-plan.md) · [SEO / content moat plan](../nypllc-seo-content-moat-plan.md) · [Revenue levers plan](../nypllc-revenue-levers-plan.md) · [Affiliate partners](../docs/affiliate-partners.md) · [Expansion next steps](expansion-next-steps.md)
+📖 [Session history](../docs/session-history.md) · [Analytics reference](../docs/analytics-tracking.md) · [Spiffy checkout](../docs/spiffy-checkout.md) · [SEO & domain](../docs/seo-and-domain.md) · [Tailwind v4](../docs/tailwind-v4.md) · [Google Ads operating plan](../nypllc-google-ads-operating-plan.md) · [SEO / content moat plan](../nypllc-seo-content-moat-plan.md) · [Revenue levers plan](../nypllc-revenue-levers-plan.md) · [Affiliate partners](../docs/affiliate-partners.md) · [Expansion next steps](expansion-next-steps.md) · [NY MSO package](../docs/business-ideas-ny-mso-msa-synthesis.md)
 
 ## Measurement tooling (repo root)
 

@@ -19,7 +19,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 ## Expansion priorities (next 4 weeks)
 
-📖 Full narrative + Sep–Jan calendar: [expansion-next-steps.md](expansion-next-steps.md) (updated Aug 26, 2026)
+📖 Full narrative + Sep–Jan calendar: [expansion-next-steps.md](expansion-next-steps.md) (updated Aug 27, 2026). **MSO package** (PLLC/PC + LLC all-in ~$1,500–$1,800; Jonah Brodsky on the MSA): [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md).
 
 1. **CAQH pilots** — interest checkbox **live Aug 26** (Spiffy, no charge). Aaron declined; awaiting Esther / Jonathan / Shanel; on interest → Stripe invoice $499 → intake → fulfill; **paid** Spiffy SKU after 2–3 deliveries (**PLLC-CRM**) · [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md)
 2. **Direct-RA Lever 1 — LIVE (Aug 25)** — checkout disclosure **audited**; staff **$99 CoC** + Compliance Plan **$249** support paths confirmed. First T-30 ~Sep 22; first charges Oct ([CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md))
@@ -28,6 +28,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 5. **Ads mostly hands-off** — recovery + daily SOP; verdict early Sep
 6. **1 SEO piece/week** — next: OP deficiencies `#4`
 7. **Big B2B outreach paused** — advocate side keeps running until CAQH + EXP + affiliates done
+8. **MSO package pilot** — form both entities at **~$1,500–$1,800** all-in; refer MSA to **Jonah Brodsky** (he bills the customer); then up-front checkout offer · [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md)
 
 ## Ads ops (maintenance — not expansion sprint)
 
@@ -73,12 +74,13 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 | **CAQH pilot** — Aaron declined; Esther / Jonathan / Shanel outreach Aug 25–26 | [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
 | **Direct-RA notices live (Aug 25)** — checkout disclosure **audited Aug 26**; staff **$99 CoC** + **$249 Compliance Plan** paths confirmed. First T-30s ~Sep 22; Oct charges | [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) |
 | Big B2B professional outreach **paused** until CAQH + EXP + affiliates done | [expansion-next-steps.md](expansion-next-steps.md) |
+| **NY MSO package** — PLLC/PC + LLC all-in ~$1,500–$1,800 (pencil); Jonah Brodsky on the MSA | [MSO synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md) |
 
 ## Recent changes
 
 📖 Full log: [session-history.md](../docs/session-history.md)
 
-Latest (Aug 26 2026): Weekly Ads SOP — 30d CPA $111 / 17 conv; Ads↔CRM 0%; Attorneys RSA v4 uploaded. Direct-RA checkout disclosure audited; staff $99 CoC + $249 Compliance Plan paths confirmed. CAQH outreach templates in repo; Jonathan Shedlo + Shanel Boyce pilot emails sent. Aaron declined. Memory bank synced with CRM. Earlier (Aug 25): CAQH pilot outreach to Aaron + Esther; Direct-RA `DIRECT_RA_NOTICES_LIVE=true`; `02` Attorneys RSA v3 uploaded. Earlier (Aug 19): Weekly Ads SOP — Gate 1 fail/hold. Earlier (Aug 18): sales tax **off checkout**. Earlier (Aug 14): Mercury + Gusto applied. Earlier (Aug 4): stop-word negative fix; `02` ENABLED. Earlier (Jul 9): `01` ENABLED; conversion flip.
+Latest (Aug 27 2026): **NY MSO package** — up-front product (short pilot first): PLLC/PC + LLC formation all-in **~$1,500–$1,800** charged by us; **Jonah Brodsky** reviews/revises the MSA and bills the customer. Packet in `docs/`. 📖 [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md). Latest (Aug 26 2026): Weekly Ads SOP — 30d CPA $111 / 17 conv; Ads↔CRM 0%; Attorneys RSA v4 uploaded. Direct-RA checkout disclosure audited; staff $99 CoC + $249 Compliance Plan paths confirmed. CAQH outreach templates in repo; Jonathan Shedlo + Shanel Boyce pilot emails sent. Aaron declined. Memory bank synced with CRM. Earlier (Aug 25): CAQH pilot outreach to Aaron + Esther; Direct-RA `DIRECT_RA_NOTICES_LIVE=true`; `02` Attorneys RSA v3 uploaded. Earlier (Aug 19): Weekly Ads SOP — Gate 1 fail/hold. Earlier (Aug 18): sales tax **off checkout**. Earlier (Aug 14): Mercury + Gusto applied. Earlier (Aug 4): stop-word negative fix; `02` ENABLED. Earlier (Jul 9): `01` ENABLED; conversion flip.
 
 ## Session start
 

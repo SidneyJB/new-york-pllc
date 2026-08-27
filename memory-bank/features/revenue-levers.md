@@ -46,6 +46,7 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 - **Direct-client** RA renewals auto-charge on card-on-file; **Metro partner** cohort stays invoice-only (dispute history).
 - No outbound calls. No publishing-only offers.
 - Trademark shelf SKU **parked** until counsel or attorney-partner rev-share.
+- **NY MSO package** — PLLC/PC + LLC all-in **~$1,500–$1,800** (pencil); MSA referral to **Jonah Brodsky** (he bills the customer). Pilot, then up-front offer. 📖 [synthesis](../../docs/business-ideas-ny-mso-msa-synthesis.md)
 
 ## Gotchas
 
@@ -55,4 +56,4 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 
 ## Docs
 
-📖 [Revenue levers plan](../../nypllc-revenue-levers-plan.md) · [Affiliate partners (Mercury + Gusto)](../../docs/affiliate-partners.md) · [Spiffy checkout](spiffy-checkout.md) · [SEO moat plan](../../nypllc-seo-content-moat-plan.md) · [Google Ads plan](../../nypllc-google-ads-operating-plan.md)
+📖 [Revenue levers plan](../../nypllc-revenue-levers-plan.md) · [Affiliate partners (Mercury + Gusto)](../../docs/affiliate-partners.md) · [Spiffy checkout](spiffy-checkout.md) · [SEO moat plan](../../nypllc-seo-content-moat-plan.md) · [Google Ads plan](../../nypllc-google-ads-operating-plan.md) · [NY MSO package](../../docs/business-ideas-ny-mso-msa-synthesis.md)

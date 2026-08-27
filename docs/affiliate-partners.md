@@ -1,7 +1,7 @@
 # Affiliate partners — banking + payroll
 
 **Decision date:** Aug 12, 2026  
-**Status:** **Mercury + Gusto Impact both applied Aug 14, 2026** — waiting on responses. Links not live.  
+**Status:** **Mercury + Gusto Impact both applied Aug 14, 2026** — follow-up sent **Aug 26, 2026** from `contact@nypllc.com`. Links not live yet.  
 **Owner surface:** EIN email + backlist (CRM) · S-Corp-Docs-Faxed email (CRM) · S Corp product page (this site)
 
 Picks: **Mercury** (banking) · **Gusto via Impact** (payroll). Do not sign Relay Partner until exclusivity is confirmed not to block Mercury.
@@ -68,8 +68,8 @@ Picks: **Mercury** (banking) · **Gusto via Impact** (payroll). Do not sign Rela
 
 ## Apply checklist
 
-1. **Mercury — applied Aug 14 2026.** Waiting on response. Incorporator/affiliate (NY PLLC formation). Next: terms/CPA + tracking link, then EIN email + backlist.
-2. **Gusto Impact — applied Aug 14 2026.** Waiting on approval (site/traffic review). Publisher / business-services via gusto.com/affiliates. Next: tracking URL → S-Corp-Docs-Faxed + S Corp page + backlist. Do not use the in-product customer-referral link.
+1. **Mercury — applied Aug 14 2026.** Follow-up sent Aug 26 to `partnerships@mercury.com`. Waiting on response. Incorporator/affiliate (NY PLLC formation). Next: terms/CPA + tracking link, then EIN email + backlist.
+2. **Gusto Impact — applied Aug 14 2026.** Follow-up sent Aug 26 (reply on Aug 14 Impact confirmation thread to `affiliates@gusto.com`). Waiting on approval (site/traffic review). Publisher / business-services via gusto.com/affiliates. Next: tracking URL → S-Corp-Docs-Faxed + S Corp page + backlist. Do not use the in-product customer-referral link.
 3. Do **not** sign Relay Partner until exclusivity vs Mercury is explicit.
 4. FTC-style disclosure on emails + S Corp page.
 5. CRM: EIN-obtained + S-Corp-Docs-Faxed + two backlist sends (all EIN clients; 34+ S Corp clients).

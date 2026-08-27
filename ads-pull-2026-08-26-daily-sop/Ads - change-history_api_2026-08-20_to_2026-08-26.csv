@@ -1,0 +1,174 @@
+change_event.change_date_time,change_event.user_email,change_event.client_type,change_event.change_resource_type,change_event.resource_change_operation,change_event.changed_fields,change_event.old_resource,change_event.new_resource,change_event.campaign,change_event.ad_group
+2026-08-25 16:16:49.787887,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,UPDATE,"paths: ""ad""
+paths: ""status""
+","ad_group_ad {
+  status: ENABLED
+  ad {
+  }
+}
+","ad_group_ad {
+  status: REMOVED
+  ad {
+  }
+}
+",customers/1529880213/campaigns/24017629178,customers/1529880213/adGroups/196018838817
+2026-08-25 16:16:50.412383,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,CREATE,"paths: ""ad""
+paths: ""ad_group""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_ad {
+  ad {
+  }
+}
+","ad_group_ad {
+  resource_name: ""customers/1529880213/adGroupAds/196018838817~822145210776""
+  status: ENABLED
+  ad {
+    responsive_search_ad {
+      headlines {
+        pinned_field: HEADLINE_1
+        text: ""PLLC for NY Attorneys—$885""
+      }
+      headlines {
+        text: ""Law PLLC NY Experts""
+      }
+      headlines {
+        text: ""Publication & EIN Included""
+      }
+      headlines {
+        text: ""Start Your Law Practice""
+      }
+      headlines {
+        text: ""Built for NY Attorneys""
+      }
+      headlines {
+        text: ""NY PLLC Formation – $885 Flat""
+      }
+      headlines {
+        text: ""Everything Included. One Fee""
+      }
+      headlines {
+        text: ""Registered Agent Yr 1 Free""
+      }
+      headlines {
+        text: ""Flat Fee — No Hidden Costs""
+      }
+      headlines {
+        text: ""Six-Week Publication Done""
+      }
+      headlines {
+        text: ""Rated 5 Stars on Google""
+      }
+      headlines {
+        text: ""Operating Agreement Included""
+      }
+      headlines {
+        text: ""Your PLLC, Filed Right""
+      }
+      descriptions {
+        text: ""PLLC for NY attorneys: publication, EIN, operating agreement & RA year one. $885 flat.""
+      }
+      descriptions {
+        text: ""Flat $885 covers publication, EIN, operating agreement and registered agent year one.""
+      }
+      descriptions {
+        text: ""Start your New York law practice PLLC. Everything included - one flat fee.""
+      }
+      descriptions {
+        text: ""Specialists in NY professional entity formation. Licensed-professional focus.""
+      }
+    }
+    resource_name: ""customers/1529880213/ads/822145210776""
+    id: 822145210776
+    final_urls: ""https://www.nypllc.com/professions/law""
+    name: ""Attorneys — controlled""
+  }
+  ad_group: ""customers/1529880213/adGroups/196018838817""
+}
+",customers/1529880213/campaigns/24017629178,customers/1529880213/adGroups/196018838817
+2026-08-25 16:16:50.838127,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,UPDATE,"paths: ""ad""
+paths: ""status""
+","ad_group_ad {
+  status: ENABLED
+  ad {
+  }
+}
+","ad_group_ad {
+  status: REMOVED
+  ad {
+  }
+}
+",customers/1529880213/campaigns/24017629178,customers/1529880213/adGroups/196018838817
+2026-08-25 16:16:51.415279,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,CREATE,"paths: ""ad""
+paths: ""ad_group""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_ad {
+  ad {
+  }
+}
+","ad_group_ad {
+  resource_name: ""customers/1529880213/adGroupAds/196018838817~822189177055""
+  status: ENABLED
+  ad {
+    responsive_search_ad {
+      headlines {
+        text: ""PLLC for NY Attorneys—$885""
+      }
+      headlines {
+        text: ""Law PLLC NY Experts""
+      }
+      headlines {
+        text: ""Publication & EIN Included""
+      }
+      headlines {
+        text: ""Start Your Law Practice""
+      }
+      headlines {
+        text: ""Built for NY Attorneys""
+      }
+      headlines {
+        text: ""NY PLLC Formation – $885 Flat""
+      }
+      headlines {
+        text: ""Everything Included. One Fee""
+      }
+      headlines {
+        text: ""Registered Agent Yr 1 Free""
+      }
+      headlines {
+        text: ""Flat Fee — No Hidden Costs""
+      }
+      headlines {
+        text: ""Six-Week Publication Done""
+      }
+      headlines {
+        text: ""Rated 5 Stars on Google""
+      }
+      headlines {
+        text: ""Operating Agreement Included""
+      }
+      headlines {
+        text: ""Your PLLC, Filed Right""
+      }
+      descriptions {
+        text: ""PLLC for NY attorneys: publication, EIN, operating agreement & RA year one. $885 flat.""
+      }
+      descriptions {
+        text: ""Flat $885 covers publication, EIN, operating agreement and registered agent year one.""
+      }
+      descriptions {
+        text: ""Start your New York law practice PLLC. Everything included - one flat fee.""
+      }
+      descriptions {
+        text: ""Specialists in NY professional entity formation. Licensed-professional focus.""
+      }
+    }
+    resource_name: ""customers/1529880213/ads/822189177055""
+    id: 822189177055
+    final_urls: ""https://www.nypllc.com/professions/law""
+    name: ""Attorneys — unpinned""
+  }
+  ad_group: ""customers/1529880213/adGroups/196018838817""
+}
+",customers/1529880213/campaigns/24017629178,customers/1529880213/adGroups/196018838817

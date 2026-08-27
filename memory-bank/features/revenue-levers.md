@@ -6,9 +6,9 @@ Post-formation monetization: RA auto-renewal + Compliance Plan, shelf SKUs, S Co
 
 ## Status
 
-**Lever 1 live Aug 25 2026** — CRM `DIRECT_RA_NOTICES_LIVE=true` on Production; T-30/T-7/receipt cron active. Site + CoC cancel shipped Aug 12. `/change-registered-agent` is **direct-link only** (noindex + robots Disallow).
+**Lever 1 LIVE (Aug 25 2026).** `DIRECT_RA_NOTICES_LIVE=true` on CRM Production — T-30/T-7/receipt cron sends cohort emails. Build shipped Aug 12; Compliance Plan $249 upgrade verified. `/change-registered-agent` is **direct-link only** (noindex + robots Disallow). First T-30s ~Sep 22; first auto-charges October.
 
-📖 [CRM launch status](../../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
+📖 [CRM launch status](../../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) · [CRM revenue-levers shard](../../../PLLC-CRM/memory-bank/features/revenue-levers.md)
 
 Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spiffy RA renew disclosure was already live.
 
@@ -18,7 +18,7 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 
 | Lever | Site/Spiffy role | CRM role (sibling repo) |
 |-------|------------------|-------------------------|
-| **1 — RA auto-renewal + Compliance Plan ($249/yr)** | Checkout + confirmation **auto-renewal disclosure** copy | **Live Aug 25 2026** — T-30/T-7 notices, Stripe retries, cancel flow; first cohort T-30s ~Sep 22 |
+| **1 — RA auto-renewal + Compliance Plan ($249/yr)** | Checkout + confirmation **auto-renewal disclosure** copy | **LIVE Aug 25** — T-30/T-7/receipt cron; Stripe retries, CoC cancel, Compliance upgrade. Monitor ~Sep 22 T-30s |
 | **2 — Long-tail shelf** | Spiffy checkouts + `/services` index + SEO pages per SKU; **banking = Mercury** (EIN email) | DOS filing automation for amendments, etc. |
 | **3 — S Corp monetization** | **Gusto Impact** payroll affiliate in S-Corp pipeline email + product page; S Corp calculator (SEO tool) | S-Corp-Docs-Faxed email pipeline |
 | **4 — AOV suite** | $985 price test (late Sep), S Corp checkbox live, DBA/CAQH bumps, Practice Launch bundle, VM copy | — |
@@ -31,7 +31,7 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 |------|---------|---------------|
 | Banking affiliate (EIN email + backlist) | Ship this week | **Mercury applied Aug 14** — waiting on response. Links not live. 📖 [affiliate-partners.md](../../docs/affiliate-partners.md) |
 | S Corp Phase 1 payroll partner | ~4 hrs | **Gusto Impact applied Aug 14** — waiting on approval. Links not live. Same doc. |
-| Spiffy order-bump (checkbox SKUs) | Verify once | **Done Aug 14.** Live: **S Corp $195**. Sales tax $195 **removed Aug 18** (low take rate). CAQH: **pilot outreach Aug 25** (manual Stripe invoice $499); Spiffy bump after 2–3 pilots. Remaining: DBA. |
+| Spiffy order-bump (checkbox SKUs) | Verify once | **Done Aug 14.** Live: **S Corp $195**. Sales tax $195 **removed Aug 18** (low take rate). CAQH: pilot outreach Aug 25–26 ([templates in CRM docs](../../../PLLC-CRM/crm/docs/credentialing-caqh-pilot-outreach-formed-along.md)); invoice on interest; Spiffy bump after 2–3 pilots. Remaining: DBA. |
 
 ## Key cross-deps (website)
 

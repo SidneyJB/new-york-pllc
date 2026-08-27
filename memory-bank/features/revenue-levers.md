@@ -6,7 +6,7 @@ Post-formation monetization: RA auto-renewal + Compliance Plan, shelf SKUs, S Co
 
 ## Status
 
-**Lever 1 LIVE (Aug 25 2026).** `DIRECT_RA_NOTICES_LIVE=true` on CRM Production — T-30/T-7/receipt cron sends cohort emails. Build shipped Aug 12; Compliance Plan $249 upgrade verified. `/change-registered-agent` is **direct-link only** (noindex + robots Disallow). First T-30s ~Sep 22; first auto-charges October.
+**Lever 1 LIVE (Aug 25 2026).** `DIRECT_RA_NOTICES_LIVE=true` on CRM Production — T-30/T-7/receipt cron sends cohort emails. Build shipped Aug 12; Compliance Plan $249 upgrade verified. Checkout disclosure **audited Aug 26**; staff **$99 CoC** + **$249 Compliance Plan** paths confirmed. `/change-registered-agent` is **direct-link only** (noindex + robots Disallow). First T-30s ~Sep 22; first auto-charges October.
 
 📖 [CRM launch status](../../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) · [CRM revenue-levers shard](../../../PLLC-CRM/memory-bank/features/revenue-levers.md)
 
@@ -49,7 +49,7 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 
 ## Gotchas
 
-- Oct–Dec **2025 formation cohort** (~56 renewals Oct–Dec 2026) is the Compliance Plan + auto-renewal **pilot** — checkout disclosure for that cohort may need audit (plan open item in status reports).
+- Oct–Dec **2025 formation cohort** (~56 renewals Oct–Dec 2026) is the Compliance Plan + auto-renewal **pilot**. **Checkout disclosure audited Aug 26.** Staff confirmed **$99 CoC** and **$249 Compliance Plan** upgrade paths for support replies.
 - Spiffy checkboxes live: S Corp only (sales tax **removed Aug 18** — low take rate, checkout friction). Remaining bumps: DBA, CAQH. Expedite SKU removed Aug 17 (24-hr DOS expedite already in $885).
 - **Do not sign Relay Partner** while Mercury is the banking pick — Relay Partner exclusivity may block similar bank referrals. Neither bank is IOLTA.
 

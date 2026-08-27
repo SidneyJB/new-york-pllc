@@ -313,7 +313,7 @@ Two RSAs per ad group (see Part 4). Landing pages: homepage or /how-to-form-a-pl
 
 **Status (Aug 4 2026):** **ENABLED** (`campaigns/24017629178`) — calendar launch Aug 3, enabled one day late. Budget $25/day · NY Presence · Search only · shared negatives A–E · **11 ad groups** · **34 keywords** · **22 RSAs**. Attached to portfolio **`NYPLLC Search Portfolio`** tCPA $90. Pre-enable RSA policy: 20 APPROVED · 2 APPROVED_LIMITED (Attorneys). Six health-policy keywords uploaded Jul 9 with API **exemption requests** (`HEALTH_IN_PERSONALIZED_ADS`): `lcsw pllc`, `lcsw pllc new york`, `pllc for lcsw`, `mental health counselor pllc`, `psychiatric nurse practitioner pllc`, `physical therapy pllc new york`.
 
-**Attorneys RSA rewrite (Aug 14 2026):** controlled DISAPPROVED (`GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES`) — NYSED/OP copy on a non-NYSED law page. Replaced both Attorneys RSAs with Rule 7.5 / attorney-only ownership copy (`820969348495` / `820969348510`, in review). Other profession RSAs unchanged.
+**Attorneys RSA rewrite (Aug 14 2026):** controlled DISAPPROVED (`GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES`) — NYSED/OP copy on a non-NYSED law page. Rule 7.5 rewrite (Aug 14) and commercial-only v3 (Aug 25) also DISAPPROVED. **v4 (Aug 26):** dropped “law practice” / “filed” / “six-week” lines (`822412227500` / `822340024756`, in review). Other profession RSAs unchanged.
 
 **Geo:** NY, Presence. **Budget:** $20–30/day. **Bidding:** same portfolio.
 
@@ -621,6 +621,7 @@ Gates are permission slips, not deadlines. Missing a gate by two weeks costs alm
 | Aug 3 | ✅ **Launch 02_Professions** — **enabled Aug 4** (`24017629178` PAUSED→ENABLED; already on portfolio tCPA $90) · ✅ weekly SOP ran Aug 4 ([writeup](ads-pull-2026-08-04-weekly-sop/WEEKLY-SOP.md)): 7d CPA $91 / 3 conv; 30d CPA $118 / 11 conv; `01` IS ~50% / 0 conv; Ads 10 vs CRM 13; +`[pllc new york formation]` on `01` |
 | Aug 10 | ✅ Weekly SOP **ran Aug 14** ([writeup](ads-pull-2026-08-14-weekly-sop/WEEKLY-SOP.md)): 7d CPA $97 / 5 conv; 30d CPA $112 / 14 conv; **`01` first 2 purchases**; +`[create pllc]` on `01`; Ads 14 vs CRM 19 (+36%); Gate 1 hold · Auction Insights manual export still open |
 | Aug 17 | **Gate 1** — ✅ checked Aug 19 ([writeup](ads-pull-2026-08-19-weekly-sop/WEEKLY-SOP.md)): **fail / hold** (`01` 2 conv · account 13/30d · 30d CPA $123). +`[form a pllc]` on `01`; `03` stays PAUSED |
+| Aug 24 | ✅ Weekly SOP **ran Aug 26** ([writeup](ads-pull-2026-08-26-weekly-sop/WEEKLY-SOP.md)): 7d CPA $240 / 2 conv; 30d CPA $111 / 17 conv; Ads↔CRM **0%**; +`[pllc in new york]` +`[pllc nys]` on `01`; Attorneys RSA **v4** in review; Gate 1 fail/hold · Auction Insights still overdue |
 | Aug 24 – Sep 6 | Accumulate data · abandoned-checkout emails ship · Microsoft Ads account created |
 | Sep 7 | Gate 2 window opens |
 | Sep 14 | On pass: **demote → 04_Discovery_Broad** · ladder step 1 ($100) |

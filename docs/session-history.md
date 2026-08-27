@@ -2,6 +2,12 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-08-26 — Weekly Ads SOP §7.1 + Direct-RA ops notes
+
+Ran 7 days after Aug 19 (calendar due Aug 24). 7d CPA **$240** / 2 conv; 30d **$111** / 17 conv. Self-block 0. Added `[pllc in new york]` + `[pllc nys]` exact on Formation-Core. Ads Spiffy 17 vs CRM 17 (**0%**). **Gate 1 fail / hold** (`01` 2 · account 17/30d). Attorneys RSA v3 still DISAPPROVED; **v4 uploaded** (dropped law-practice / filed / six-week lines). Writeup: `ads-pull-2026-08-26-weekly-sop/WEEKLY-SOP.md`.
+
+Direct-RA: checkout disclosure **audited**; staff **$99 CoC** and Compliance Plan **$249** upgrade paths confirmed for support replies.
+
 ## 2026-08-25 — CAQH pilot outreach + Direct-RA live + daily Ads SOP
 
 **CAQH pilot launched:** Interest emails sent from `contact@nypllc.com` to Aaron Zitouni (Aaron Paul Zitouni LCSW PLLC) and Esther Olajide (Clear Guide Counseling LCSW PLLC). Offer: $499 assisted CAQH ProView setup; payment via manual Stripe invoice on interest (Spiffy SKU deferred). Awaiting replies. 📖 [PLLC-CRM caqh-pilot-launch](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md)

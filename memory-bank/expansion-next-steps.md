@@ -34,7 +34,7 @@ Anything that **takes money** (build + launch) — still open:
 | # | Item | Repo / owner | Notes |
 |---|------|--------------|-------|
 | **1** | **CAQH — close pilots + Spiffy SKU** | **PLLC-CRM** (+ site checkout when SKU ships) | Aaron declined. Awaiting Esther / Jonathan / Shanel → invoice on interest → intake → fulfill. 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
-| **2** | **Direct-RA ops watch** | **PLLC-CRM** | **Live Aug 25.** Monitor first T-30 sends (~Sep 22) and October auto-charges. 📖 [direct-ra-launch-status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) |
+| **2** | **Direct-RA ops** | **PLLC-CRM** | **Live Aug 25.** Checkout disclosure **audited**; staff **$99 CoC** + **$249 Compliance Plan** support paths **confirmed**. First T-30s ~Sep 22; October auto-charges. 📖 [direct-ra-launch-status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) |
 | **3** | **Close EXP Credentialing** | **PLLC-CRM** ops email | They're waiting |
 | **4** | **Two affiliate links** (banking + payroll) | **Site** lifecycle email + backlist / S Corp page | **Mercury + Gusto Impact applied Aug 14** (awaiting responses). Links not live. 📖 [affiliate-partners.md](../docs/affiliate-partners.md) |
 | **5** | **Ads — mostly hands-off** | **new-york-pllc** | Let recovery run; **verdict early September**. Daily SOP only |

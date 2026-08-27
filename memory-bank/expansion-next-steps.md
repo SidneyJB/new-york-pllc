@@ -15,6 +15,7 @@ Companion operating plans: [Ads v2](../nypllc-google-ads-operating-plan.md) · [
 - **Business held** — **47–49 orders/mo** even with ads down; virtual mail grew.
 - **ChatGPT** — 5 orders; brand-new channel showing up on its own.
 - **CAQH customer intake** — document-first wizard shipped in PLLC-CRM (Aug 16).
+- **CAQH interest checkbox (Spiffy)** — **live Aug 26 2026** on formation order form (interest only, no charge). CRM persists `Order.caqhInterest` from webhook; staff **CAQH Interest** badge on PLLC list + header.
 - **CAQH pilot outreach** — Gmail templates (no price in email): [formed-along](../../PLLC-CRM/crm/docs/credentialing-caqh-pilot-outreach-formed-along.md) · [already-formed](../../PLLC-CRM/crm/docs/credentialing-caqh-pilot-outreach-already-formed.md). Sent Aug 25–26; Aaron **declined** (has CAQH); awaiting Esther / Jonathan / Shanel. 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md)
 - **Direct-RA / Lever 1 live (Aug 25 2026)** — `DIRECT_RA_NOTICES_LIVE=true` on CRM Production. T-30/T-7/receipt cron active; Compliance Plan $249 verified. Build shipped Aug 12. 📖 [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
 
@@ -22,7 +23,7 @@ Companion operating plans: [Ads v2](../nypllc-google-ads-operating-plan.md) · [
 
 Anything that **takes money** (build + launch) — still open:
 
-- **CAQH** — awaiting pilot replies → **$499** Stripe invoice on interest → first paid delivery. Spiffy SKU after 2–3 pilots.
+- **CAQH** — awaiting pilot replies → **$499** Stripe invoice on interest → first paid delivery. **Interest checkbox live Aug 26** (Spiffy, no charge; CRM badge). **Paid Spiffy SKU** after 2–3 pilots.
 - **CAQH segmented email** — second wave to LCSW cohort after pilots.
 - **Professional B2B** outreach = 5 emails only.
 - **Affiliate links** — Mercury + Gusto applied Aug 14; links not live. (Expedite SKU removed Aug 17 — already in $885.)
@@ -33,7 +34,7 @@ Anything that **takes money** (build + launch) — still open:
 
 | # | Item | Repo / owner | Notes |
 |---|------|--------------|-------|
-| **1** | **CAQH — close pilots + Spiffy SKU** | **PLLC-CRM** (+ site checkout when SKU ships) | Aaron declined. Awaiting Esther / Jonathan / Shanel → invoice on interest → intake → fulfill. 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
+| **1** | **CAQH — close pilots + paid Spiffy SKU** | **PLLC-CRM** (+ site checkout when SKU ships) | **Interest checkbox live Aug 26** (no charge). Aaron declined. Awaiting Esther / Jonathan / Shanel → invoice on interest → intake → fulfill. **$499 paid SKU** after 2–3 pilots. 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
 | **2** | **Direct-RA ops** | **PLLC-CRM** | **Live Aug 25.** Checkout disclosure **audited**; staff **$99 CoC** + **$249 Compliance Plan** support paths **confirmed**. First T-30s ~Sep 22; October auto-charges. 📖 [direct-ra-launch-status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) |
 | **3** | **Close EXP Credentialing** | **PLLC-CRM** ops email | They're waiting |
 | **4** | **Two affiliate links** (banking + payroll) | **Site** lifecycle email + backlist / S Corp page | **Mercury + Gusto Impact applied Aug 14** (awaiting responses). Links not live. 📖 [affiliate-partners.md](../docs/affiliate-partners.md) |

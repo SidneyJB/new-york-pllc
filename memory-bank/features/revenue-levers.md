@@ -31,7 +31,7 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 |------|---------|---------------|
 | Banking affiliate (EIN email + backlist) | Ship this week | **Mercury applied Aug 14** — waiting on response. Links not live. 📖 [affiliate-partners.md](../../docs/affiliate-partners.md) |
 | S Corp Phase 1 payroll partner | ~4 hrs | **Gusto Impact applied Aug 14** — waiting on approval. Links not live. Same doc. |
-| Spiffy order-bump (checkbox SKUs) | Verify once | **Done Aug 14.** Live: **S Corp $195**. Sales tax $195 **removed Aug 18** (low take rate). CAQH: pilot outreach Aug 25–26 ([templates in CRM docs](../../../PLLC-CRM/crm/docs/credentialing-caqh-pilot-outreach-formed-along.md)); invoice on interest; Spiffy bump after 2–3 pilots. Remaining: DBA. |
+| Spiffy order-bump (checkbox SKUs) | Verify once | **S Corp $195 live Aug 14.** **CAQH interest checkbox live Aug 26** (no charge; CRM `caqhInterest` + staff badge). Sales tax **removed Aug 18**. Pilot outreach Aug 25–26; invoice on interest; **paid CAQH SKU** after 2–3 pilots. Remaining: DBA. |
 
 ## Key cross-deps (website)
 
@@ -50,7 +50,7 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 ## Gotchas
 
 - Oct–Dec **2025 formation cohort** (~56 renewals Oct–Dec 2026) is the Compliance Plan + auto-renewal **pilot**. **Checkout disclosure audited Aug 26.** Staff confirmed **$99 CoC** and **$249 Compliance Plan** upgrade paths for support replies.
-- Spiffy checkboxes live: S Corp only (sales tax **removed Aug 18** — low take rate, checkout friction). Remaining bumps: DBA, CAQH. Expedite SKU removed Aug 17 (24-hr DOS expedite already in $885).
+- Spiffy checkboxes live: **S Corp $195**; **CAQH interest** (Aug 26 — no charge, signals credentialing interest to CRM). Sales tax **removed Aug 18**. Remaining bumps: DBA, **CAQH paid SKU** ($499 after pilots). Expedite SKU removed Aug 17 (24-hr DOS expedite already in $885).
 - **Do not sign Relay Partner** while Mercury is the banking pick — Relay Partner exclusivity may block similar bank referrals. Neither bank is IOLTA.
 
 ## Docs

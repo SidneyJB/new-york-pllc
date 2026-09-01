@@ -10,25 +10,26 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 - **🔴 Stop-word negative incident — found + fixed Aug 4.** Root cause of the conversion collapse: Lists A/A-FQ contained two-letter state abbreviations as **phrase** negatives, so `in` (Indiana) blocked every query containing "in" (also `or`, `me`). Self-blocked 14/44 of `01`'s keywords, 21/33 of `03`, 9/40 of Sales. Eligible auction volume on Sales fell 12,030 → 576/week with budget untouched at $500/day. Removed 94 abbreviations; reverted Sales geo to `PRESENCE_OR_INTEREST`; verified 0 self-blocked. See [google_ads_changes.md](../google_ads_changes.md).
 - **Weekly SOP** — latest §7.1 **done Aug 26** (due Aug 24): [WEEKLY-SOP.md](../ads-pull-2026-08-26-weekly-sop/WEEKLY-SOP.md) · [ads-weekly-dashboard.csv](../ads-weekly-dashboard.csv). 7d CPA **$240** / 2 conv; 30d CPA **$111** / 17 conv; `01` still **2** purchases; Ads Spiffy 17 vs CRM 17 (**0%**); **Gate 1 fail / hold**. Attorneys RSA **v4** in review.
 - **`02` Attorneys RSA rewrite v4 (Aug 26)** — v3 still DISAPPROVED (gov-docs). Uploaded no-law-practice copy (`822412227500` / `822340024756`). See [google_ads_changes.md](../google_ads_changes.md)
-- **SEO / content moat** — [nypllc-seo-content-moat-plan.md](../nypllc-seo-content-moat-plan.md). Shipped: `/nysed-approval-times`, `/ny-pllc-cost`, `/how-long-to-form-a-pllc-in-ny` (Jul 22). Next editorial: OP deficiencies `#4`. See [features/seo-and-domain.md](features/seo-and-domain.md)
+- **SEO / content moat** — [nypllc-seo-content-moat-plan.md](../nypllc-seo-content-moat-plan.md). Shipped: `/nysed-approval-times`, `/ny-pllc-cost`, `/how-long-to-form-a-pllc-in-ny` (Jul 22). Editorial queue: OP deficiencies `#4` **and** MSO page as a **September SEO slot** (no ads). See [features/seo-and-domain.md](features/seo-and-domain.md) · [features/mso-msa.md](features/mso-msa.md)
 - **Revenue levers (website surface)** — [nypllc-revenue-levers-plan.md](../nypllc-revenue-levers-plan.md). **Direct-RA Lever 1 LIVE Aug 25** (`DIRECT_RA_NOTICES_LIVE` on CRM Production). **CAQH pilot** — Aaron declined (has CAQH); outreach Aug 25–26 to Esther, Jonathan, Shanel (no price in email; invoice on interest). **CAQH interest checkbox live Aug 26** on Spiffy (no charge; CRM `caqhInterest` + staff badge). **Mercury + Gusto Impact applied Aug 14** (waiting). Spiffy checkbox live: **S Corp $195**. Sales tax Certificate of Authority **removed from checkout Aug 18** (low take rate). Remaining: DBA, CAQH **paid** SKU, VM copy, $985 prep (late Sep). Expedite SKU **removed Aug 17** (already in $885). See [features/revenue-levers.md](features/revenue-levers.md) · [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) · [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md)
 - **Phase 1 live:** `Sales-Search-1` + `01_Core_Exact_NY` (Jul 9) + **`02_Professions_NY` (ENABLED Aug 4)** on portfolio tCPA $90. `03_ForeignQual_US` PAUSED, unattached (Gate 1).
 - Expand **foreign-into-NY** state page coverage beyond NJ/PA/FL/TX/CT as needed
 - **Foreign publication copy (HARD — Aug 10 2026):** flat package **includes** end-to-end six-week publication. Never “guidance” / “not included unless quoted.” See [features/foreign-into-ny.md](features/foreign-into-ny.md).
 - Ops fulfillment lives in **PLLC-CRM** (sibling repo) — not this codebase
+- **MSO path (offer locked Aug 31 2026)** — PLLC + management LLC **$1,770** (Spiffy; invoice if asked). Counsel MSA **$945** (unnamed on site; $0 referral; intro at **DOS filing**). Pair RA **$149/yr** after year 1; pair VM **$85/mo**. No medspa. **Ads campaign waits.** Implement Sep 1. [features/mso-msa.md](features/mso-msa.md)
 
 ## Expansion priorities (next 4 weeks)
 
-📖 Full narrative + Sep–Jan calendar: [expansion-next-steps.md](expansion-next-steps.md) (updated Aug 27, 2026). **MSO package** (PLLC/PC + LLC all-in ~$1,500–$1,800; Jonah Brodsky on the MSA): [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md).
+📖 Full narrative + Sep–Jan calendar: [expansion-next-steps.md](expansion-next-steps.md) (updated Aug 31, 2026). **MSO path** (offer locked): [features/mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md).
 
 1. **CAQH pilots** — interest checkbox **live Aug 26** (Spiffy, no charge). Aaron declined; awaiting Esther / Jonathan / Shanel; on interest → Stripe invoice $499 → intake → fulfill; **paid** Spiffy SKU after 2–3 deliveries (**PLLC-CRM**) · [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md)
 2. **Direct-RA Lever 1 — LIVE (Aug 25)** — checkout disclosure **audited**; staff **$99 CoC** + Compliance Plan **$249** support paths confirmed. First T-30 ~Sep 22; first charges Oct ([CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md))
 3. **Close EXP Credentialing** by email — they're waiting (**PLLC-CRM**)
 4. **Two affiliate links** — **Mercury + Gusto Impact applied Aug 14** (awaiting responses) — [affiliate-partners.md](../docs/affiliate-partners.md)
 5. **Ads mostly hands-off** — recovery + daily SOP; verdict early Sep
-6. **1 SEO piece/week** — next: OP deficiencies `#4`
+6. **1 SEO piece/week** — OP deficiencies `#4` **and** MSO page (September slot; no ads) — [features/mso-msa.md](features/mso-msa.md)
 7. **Big B2B outreach paused** — advocate side keeps running until CAQH + EXP + affiliates done
-8. **MSO package pilot** — form both entities at **~$1,500–$1,800** all-in; refer MSA to **Jonah Brodsky** (he bills the customer); then up-front checkout offer · [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md)
+8. **MSO path** — offer locked **$1,770** + counsel **$945**; page + Spiffy Sep 1; **no ads**; do not name Jonah on site · [features/mso-msa.md](features/mso-msa.md)
 
 ## Ads ops (maintenance — not expansion sprint)
 
@@ -48,6 +49,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 - Ads volume claim: **thousands / 25,000+** NY entities (not “300+”); sitelinks only to real sitemap URLs
 - Reviews: NYPLLC **GBP** only (not Trustpilot); live **5.0 / 6 reviews** (Jul 9 2026) — keep `BUSINESS_INFO.googleReviews` in sync
 - Profession / foreign pages: formation/qualification scope only — do **not** over-claim board coordination
+- **MSO:** print $1,770 + $945; **do not name Jonah** on site/ads; intro at DOS only; CheapNewYorkLLC not the public face of the management LLC
 - Foreign checklists: customer-provided info only; we obtain standing/certified formation docs
 - Publishing-only: no paid acquisition (negative List E)
 
@@ -74,13 +76,13 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 | **CAQH pilot** — Aaron declined; Esther / Jonathan / Shanel outreach Aug 25–26 | [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
 | **Direct-RA notices live (Aug 25)** — checkout disclosure **audited Aug 26**; staff **$99 CoC** + **$249 Compliance Plan** paths confirmed. First T-30s ~Sep 22; Oct charges | [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) |
 | Big B2B professional outreach **paused** until CAQH + EXP + affiliates done | [expansion-next-steps.md](expansion-next-steps.md) |
-| **NY MSO package** — PLLC/PC + LLC all-in ~$1,500–$1,800 (pencil); Jonah Brodsky on the MSA | [MSO synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md) |
+| **MSO path** — offer locked; page + Spiffy Sep 1; **no ads campaign**; do not name Jonah on site | [features/mso-msa.md](features/mso-msa.md) |
 
 ## Recent changes
 
 📖 Full log: [session-history.md](../docs/session-history.md)
 
-Latest (Aug 27 2026): **NY MSO package** — up-front product (short pilot first): PLLC/PC + LLC formation all-in **~$1,500–$1,800** charged by us; **Jonah Brodsky** reviews/revises the MSA and bills the customer. Packet in `docs/`. 📖 [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md). Latest (Aug 26 2026): Weekly Ads SOP — 30d CPA $111 / 17 conv; Ads↔CRM 0%; Attorneys RSA v4 uploaded. Direct-RA checkout disclosure audited; staff $99 CoC + $249 Compliance Plan paths confirmed. CAQH outreach templates in repo; Jonathan Shedlo + Shanel Boyce pilot emails sent. Aaron declined. Memory bank synced with CRM. Earlier (Aug 25): CAQH pilot outreach to Aaron + Esther; Direct-RA `DIRECT_RA_NOTICES_LIVE=true`; `02` Attorneys RSA v3 uploaded. Earlier (Aug 19): Weekly Ads SOP — Gate 1 fail/hold. Earlier (Aug 18): sales tax **off checkout**. Earlier (Aug 14): Mercury + Gusto applied. Earlier (Aug 4): stop-word negative fix; `02` ENABLED. Earlier (Jul 9): `01` ENABLED; conversion flip.
+Latest (Aug 31 2026): **MSO path offer locked** — $1,770 pair (Spiffy), counsel $945 unnamed / intro at DOS, pair RA $149/yr + VM $85/mo, no medspa, ads wait. Implement Sep 1. [features/mso-msa.md](features/mso-msa.md). Packet (Harmony example, snowflake MSA) landed Aug 27 — [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md). Earlier (Aug 26): Weekly Ads SOP — 30d CPA $111 / 17 conv; Ads↔CRM 0%; Attorneys RSA v4 uploaded. Direct-RA checkout disclosure audited; staff $99 CoC + $249 Compliance Plan paths confirmed. CAQH outreach templates in repo; Jonathan Shedlo + Shanel Boyce pilot emails sent. Aaron declined. Memory bank synced with CRM. Earlier (Aug 25): CAQH pilot outreach to Aaron + Esther; Direct-RA `DIRECT_RA_NOTICES_LIVE=true`; `02` Attorneys RSA v3 uploaded. Earlier (Aug 19): Weekly Ads SOP — Gate 1 fail/hold. Earlier (Aug 18): sales tax **off checkout**. Earlier (Aug 14): Mercury + Gusto applied. Earlier (Aug 4): stop-word negative fix; `02` ENABLED. Earlier (Jul 9): `01` ENABLED; conversion flip.
 
 ## Session start
 

@@ -21,6 +21,7 @@ We handle **PLLC formation only** (NYSED pre-approval package, naming, Articles,
 
 - Content must stay within formation scope (see boundary above)
 - New pages need metadata, structured data, sitemap, nav
+- **MSO (Aug 31 2026):** physician (and similar) pages must not claim we craft MSO/MSA documents. Point to the MSO path page when it ships. [mso-msa.md](mso-msa.md)
 
 ## Docs
 

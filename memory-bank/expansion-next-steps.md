@@ -1,9 +1,9 @@
 # Expansion — next steps (Aug 10, 2026)
 
-**As of:** Aug 27, 2026.  
+**As of:** Aug 31, 2026.  
 **Owner:** Cross-cutting expansion strategy lives here (website memory bank). CRM builds link from [PLLC-CRM/memory-bank/features/](../../PLLC-CRM/memory-bank/features/).
 
-Companion operating plans: [Ads v2](../nypllc-google-ads-operating-plan.md) · [SEO moat](../nypllc-seo-content-moat-plan.md) · [Revenue levers v1](../nypllc-revenue-levers-plan.md) · CAQH v1 · B2B v1 (CRM). **MSO package:** [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md). License filing + credentialing packet research still in [PLLC-CRM catalog](../../PLLC-CRM/business%20ideas.md).
+Companion operating plans: [Ads v2](../nypllc-google-ads-operating-plan.md) · [SEO moat](../nypllc-seo-content-moat-plan.md) · [Revenue levers v1](../nypllc-revenue-levers-plan.md) · CAQH v1 · B2B v1 (CRM). **MSO path (offer locked):** [mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md). License filing + credentialing packet research still in [PLLC-CRM catalog](../../PLLC-CRM/business%20ideas.md).
 
 ---
 
@@ -39,9 +39,9 @@ Anything that **takes money** (build + launch) — still open:
 | **3** | **Close EXP Credentialing** | **PLLC-CRM** ops email | They're waiting |
 | **4** | **Two affiliate links** (banking + payroll) | **Site** lifecycle email + backlist / S Corp page | **Mercury + Gusto Impact applied Aug 14** (awaiting responses). Links not live. 📖 [affiliate-partners.md](../docs/affiliate-partners.md) |
 | **5** | **Ads — mostly hands-off** | **new-york-pllc** | Let recovery run; **verdict early September**. Daily SOP only |
-| **6** | **SEO — 1 piece/week** | **new-york-pllc** | Next editorial: OP deficiencies `#4`. [SEO plan](../nypllc-seo-content-moat-plan.md) |
+| **6** | **SEO — 1 piece/week** | **new-york-pllc** | OP deficiencies `#4`. **MSO page = September SEO slot** (no ads campaign). [mso-msa.md](features/mso-msa.md) · [SEO plan](../nypllc-seo-content-moat-plan.md) |
 | **7** | **Big B2B outreach — paused** | **PLLC-CRM** | Advocate/referral side keeps running until 1–4 are done |
-| **8** | **MSO package pilot** | **new-york-pllc** + ops | Up-front product after a short pilot: **PLLC/PC + LLC** all-in at **~$1,500–$1,800** (our charge; filings + publication both entities); **Jonah Brodsky** reviews/revises the MSA and bills the customer. 📖 [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md) |
+| **8** | **MSO path** | **new-york-pllc** + CRM | Offer locked: **$1,770** pair (Spiffy) + counsel **$945** (unnamed on site; intro at DOS). Pair RA **$149/yr** / VM **$85/mo**. No medspa. **No ads campaign.** Page = September SEO slot. 📖 [mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md) |
 
 ---
 
@@ -49,7 +49,7 @@ Anything that **takes money** (build + launch) — still open:
 
 | When | What |
 |------|------|
-| **September** | Ads verdict; launch **foreign-qualification** campaign (`03`) if Gate 1 passes; **restart partner outreach** properly; **$985 price test** if stable |
+| **September** | Ads verdict; launch **foreign-qualification** campaign (`03`) if Gate 1 passes; **restart partner outreach** properly; **$985 price test** if stable; **MSO page + Spiffy $1,770** (counsel $945 unnamed; intro at DOS; **no MSO ads campaign**) — [mso-msa.md](features/mso-msa.md) |
 | **October** | First **renewal charges** land; **compliance-plan** test on Oct–Dec 2025 cohort; ads get **first bid raise** |
 | **November** | Last ads changes, then **freeze** |
 | **December** | Load up for **January** |

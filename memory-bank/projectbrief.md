@@ -28,6 +28,8 @@ Licensed professionals in New York who need to establish a PLLC:
 
 If an analysis surfaces plain-LLC terms as an opportunity, the analysis is wrong about scope, not right about strategy.
 
+**MSO pair is in scope (Aug 31 2026):** a licensed professional who needs a **practice PLLC + management LLC** is an NYPLLC customer. That management LLC is **not** a CheapNewYorkLLC SEO/ads product and must not rank `/order-llc`. Sell it only on the MSO path (or as an already-formed PLLC add-on). SoT: [features/mso-msa.md](features/mso-msa.md).
+
 ## Success Criteria
 1. **Conversion**: Achieve 5% visitor-to-customer conversion rate
 2. **Volume**: Convert 300+ customers in first year

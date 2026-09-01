@@ -2,16 +2,18 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-08-31 — MSO path offer locked (memory bank only)
+
+Offer for practice PLLC + management LLC: **$1,770** Spiffy (invoice if asked); independent counsel MSA **$945** (do not name Jonah on site/ads; $0 referral; intro at **DOS filing**); year-1 RA on both then **$149/yr for the pair**; optional VM **$85/mo for the pair**; no medspa/aesthetics/IV/ketamine; already-formed PLLC = $885 LLC + $945; default PLLC; CheapNewYorkLLC not in this product; **ads campaign waits**. September SEO page + Spiffy; first CRM pairs manual. Implement Sep 1. 📖 [mso-msa.md](../memory-bank/features/mso-msa.md) · [CRM ops](../../PLLC-CRM/memory-bank/features/mso-msa.md) · Packet/research: [synthesis](business-ideas-ny-mso-msa-synthesis.md)
+
 ## 2026-08-27 — NY MSO package (pilot + up-front offer)
 
 **MSO package** is a NYPLLC product: customer buys **PLLC or PC + ordinary LLC** formation from us, then we refer the MSA to **Jonah Brodsky**.
 
-- **Our charge (pencil):** **~$1,500–$1,800** all-in for both entities (filings, publication, state fees). Charged by us to the customer.
-- **Jonah Brodsky:** reviews and/or revises the MSA template; bills the customer on his end. Not included in our formation price.
-- After a short **pilot**, the same package is an **up-front** first-purchase offer (not a post-formation add-on).
+- **Our charge (pencil, superseded Aug 31):** **~$1,500–$1,800** all-in. Locked offer is **$1,770** + counsel **$945**.
+- **Jonah Brodsky:** reviews and/or revises the MSA template; bills the customer on his end. Not named on site/ads.
 - **Synthesis:** [`docs/business-ideas-ny-mso-msa-synthesis.md`](business-ideas-ny-mso-msa-synthesis.md)
 - **Packet:** snowflake spec, blank fill-in MSA (md + PDF), worked example Harmony Counseling LCSW PLLC / Jordan Admin LLC (md + PDF). Example **$1,800/mo** is the *inter-entity* Management Fee, **not FMV** and not our SKU.
-- Linked from [expansion-next-steps.md](../memory-bank/expansion-next-steps.md) (4-week table row 8), [revenue levers plan](../nypllc-revenue-levers-plan.md) Lever 2, router, progress, activeContext.
 - Standalone plain-LLC SEO stays CheapNewYorkLLC; this SKU is the MSO package, not a competing LLC landing page.
 
 ## 2026-08-26 — Weekly Ads SOP §7.1 + Direct-RA ops + CAQH interest checkbox

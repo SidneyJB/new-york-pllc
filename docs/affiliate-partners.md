@@ -1,7 +1,7 @@
 # Affiliate partners — banking + payroll
 
 **Decision date:** Aug 12, 2026  
-**Status:** **Mercury + Gusto Impact both applied Aug 14, 2026** — follow-up sent **Aug 26, 2026** from `contact@nypllc.com`. Links not live yet.  
+**Status:** **Mercury + Gusto Impact both applied Aug 14, 2026** — follow-ups Aug 26. **Third ping sent Sep 1** from `contact@nypllc.com`. Links not live.  
 **Owner surface:** EIN email + backlist (CRM) · S-Corp-Docs-Faxed email (CRM) · S Corp product page (this site)
 
 Picks: **Mercury** (banking) · **Gusto via Impact** (payroll). Do not sign Relay Partner until exclusivity is confirmed not to block Mercury.
@@ -68,8 +68,14 @@ Picks: **Mercury** (banking) · **Gusto via Impact** (payroll). Do not sign Rela
 
 ## Apply checklist
 
-1. **Mercury — applied Aug 14 2026.** Follow-up sent Aug 26 to `partnerships@mercury.com`. Waiting on response. Incorporator/affiliate (NY PLLC formation). Next: terms/CPA + tracking link, then EIN email + backlist.
-2. **Gusto Impact — applied Aug 14 2026.** Follow-up sent Aug 26 (reply on Aug 14 Impact confirmation thread to `affiliates@gusto.com`). Waiting on approval (site/traffic review). Publisher / business-services via gusto.com/affiliates. Next: tracking URL → S-Corp-Docs-Faxed + S Corp page + backlist. Do not use the in-product customer-referral link.
+1. **Mercury — applied Aug 14 2026.** Follow-ups Aug 26 and **Sep 1** to `partnerships@mercury.com`. Waiting on response.
+2. **Gusto Impact — applied Aug 14 2026.** Follow-ups Aug 26 and **Sep 1** (Impact confirmation thread to `affiliates@gusto.com`). Waiting on approval.
+
+### Sep 1 third ping (**sent**)
+
+**Mercury** (`partnerships@mercury.com`) — Gmail `1a05fcd4ba4ab36d`, thread `1a040a5008bef8c8`.
+
+**Gusto Impact** (`affiliates@gusto.com`) — Gmail `1a05fcd53998a8e8`, thread `1a001419a24fd66a`.
 3. Do **not** sign Relay Partner until exclusivity vs Mercury is explicit.
 4. FTC-style disclosure on emails + S Corp page.
 5. CRM: EIN-obtained + S-Corp-Docs-Faxed + two backlist sends (all EIN clients; 34+ S Corp clients).

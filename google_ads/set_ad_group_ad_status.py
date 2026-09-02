@@ -1,0 +1,60 @@
+"""Set ENABLED/PAUSED on RSAs by campaign + ad group + ad name."""
+
+from __future__ import annotations
+
+import argparse
+import sys
+
+from google.ads.googleads.errors import GoogleAdsException
+
+from google_ads.client import customer_id, load_client
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--campaign", required=True)
+    parser.add_argument("--ad-group", required=True)
+    parser.add_argument("--ad-name", required=True, help='Exact ad_group_ad.ad.name, e.g. "Formation-Core — unpinned"')
+    parser.add_argument("--status", required=True, choices=("PAUSED", "ENABLED"))
+    parser.add_argument("--dry-run", action="store_true")
+    args = parser.parse_args(argv)
+
+    client = load_client()
+    cid = customer_id()
+    ga = client.get_service("GoogleAdsService")
+    query = f"""
+        SELECT ad_group_ad.resource_name, ad_group_ad.status, ad_group_ad.ad.name
+        FROM ad_group_ad
+        WHERE campaign.name = '{args.campaign}'
+          AND ad_group.name = '{args.ad_group}'
+          AND ad_group_ad.ad.name = '{args.ad_name}'
+          AND ad_group_ad.status != 'REMOVED'
+    """
+    rows = list(ga.search(customer_id=cid, query=query))
+    if not rows:
+        print(f"FAIL no ad: {args.campaign} / {args.ad_group} / {args.ad_name}")
+        return 1
+    for row in rows:
+        current = row.ad_group_ad.status.name
+        resource = row.ad_group_ad.resource_name
+        print(f"{resource} {current} → {args.status}")
+        if args.dry_run:
+            continue
+        service = client.get_service("AdGroupAdService")
+        op = client.get_type("AdGroupAdOperation")
+        ad = op.update
+        ad.resource_name = resource
+        ad.status = getattr(client.enums.AdGroupAdStatusEnum, args.status)
+        from google.protobuf import field_mask_pb2
+        op.update_mask.CopyFrom(field_mask_pb2.FieldMask(paths=["status"]))
+        try:
+            service.mutate_ad_group_ads(customer_id=cid, operations=[op])
+        except GoogleAdsException as exc:
+            msgs = "; ".join(e.message for e in exc.failure.errors)
+            print(f"FAIL {msgs}")
+            return 1
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

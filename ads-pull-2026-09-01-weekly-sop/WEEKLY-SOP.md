@@ -20,7 +20,7 @@
 | 8 | Tracking sanity Ads vs CRM ±10% (30d) | Primary Spiffy Purchase **16** · CRM click-ID **16** — **0%**. 7d **2 = 2** |
 | 9 | Dashboard + change log | `ads-weekly-dashboard.csv` + `google_ads_changes.md` |
 | 10 | Microsoft auto-sync | N/A (Bing not live) |
-| 11 | Auction Insights (1st week of month) | **Overdue** — manual UI export still required |
+| 11 | Auction Insights (1st week of month) | **Overdue** — manual UI export. API token cannot pull insights. Ads UI → Sales-Search-1 → last 90d CSV into repo |
 | 12 | Screenshot IS/rank-lost for era table | Logged numerically below |
 
 ---

@@ -28,6 +28,16 @@ const nextConfig: NextConfig = {
     },
   },
 
+  // Keep unpublished MSO checkout off the public site until Sid launches.
+  async rewrites() {
+    return [
+      { source: '/ny-mso', destination: '/404' },
+      { source: '/ny-mso/:path*', destination: '/404' },
+      { source: '/pllc-and-mso', destination: '/404' },
+      { source: '/pllc-and-mso/:path*', destination: '/404' },
+    ]
+  },
+
   // Headers for performance and security
   async headers() {
     return [

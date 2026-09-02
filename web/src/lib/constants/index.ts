@@ -12,6 +12,11 @@ export const PRICING = {
   basePrice: 885,
   /** Certificate of Assumed Name / DBA filing service */
   assumedNamePrice: 199,
+  sCorpPrice: 195,
+  msoPairPrice: 1770,
+  msoCounselPrice: 945,
+  msoPairRaYearTwo: 149,
+  msoPairVmMonthly: 85,
   currency: 'USD',
   includesPublishing: true,
   features: [

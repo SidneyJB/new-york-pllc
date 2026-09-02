@@ -6,7 +6,7 @@ NYPLLC forms a practice **PLLC** and a management **LLC** ($1,770). Independent 
 
 ## Status
 
-**Offer locked Aug 31 2026.** Not built. Implementation starts Sep 1. **No ads campaign** until later (Gate 1 / September ads verdict; do not attach to the $90 Purchase portfolio).
+**Offer locked Aug 31 2026.** Page draft **unpublished** Sep 1 (`web/src/unpublished/ny-mso/`). **Not a live route.** Vercel rewrites `/ny-mso` and `/pllc-and-mso` to 404. **No ads campaign.** Do not attach to the $90 Purchase portfolio. Do not add sitemap/footer until launch.
 
 CRM ops: [PLLC-CRM mso-msa shard](../../../PLLC-CRM/memory-bank/features/mso-msa.md). Expansion calendar: [expansion-next-steps.md](../expansion-next-steps.md).
 
@@ -46,12 +46,13 @@ CRM ops: [PLLC-CRM mso-msa shard](../../../PLLC-CRM/memory-bank/features/mso-msa
 
 **In-scope MSA:** simple two-entity setup (licensed owners on the PLLC; spouse or other unlicensed person on the LLC). Not OA rewrites, investor docs, or extra professions.
 
-## Page + checkout (Sep SEO slot)
+## Page + checkout (unpublished until Sid launches)
 
-- Slug TBD at implement: `/pllc-and-mso` (plain) vs `/ny-mso` (search). Footer + sitemap; **no main nav**; **no sitelinks / price assets / ads**.
-- CTA = Spiffy embed (Sid builds the form), same thank-you/`total=` pattern as `/order`. Secondary: already-formed PLLC; PLLC-only.
-- **Print $1,770 and $945 on the page.** Do **not** name Jonah (he must not get shopper calls). Say independent NY counsel, billed separately, intro **after the professional entity is filed with DOS**.
-- Strip physician (and sibling) copy that claims “MSO-friendly governance” / “we craft MSO agreements.” One honest paragraph + link here.
+- Draft slug `/ny-mso` (also block `/pllc-and-mso`). **No main nav, no sitemap, no footer, no sitelinks, no ads.**
+- Source: [`web/src/unpublished/ny-mso/`](../../web/src/unpublished/ny-mso/) — **outside** `src/app`, so Next does not serve it. Vercel.json rewrites those URLs to 404 even if someone later copies the folder into `app/`.
+- CTA = Spiffy embed URL `https://nypllc.spiffy.co/checkout/ny-pllc-and-management-llc` (Sid still creates the product). Secondary: already-formed PLLC `/order-llc`; PLLC-only `/order`.
+- **Print $1,770 and $945 on the page** when live. Do **not** name Jonah. Intro **after DOS filing**.
+- Physician page: stripped “MSO-friendly governance” / “we craft MSO agreements” (Sep 1). No public MSO link.
 - Not legal advice. Not a CPOM opinion.
 
 Spiffy form should collect: PLLC name + licensed members; LLC name + members; profession; spouse/unlicensed-partner; address; VM $85 checkbox; optional S Corp/DBA **not** in $1,770. Disclose RA $149/yr for both starting year 2; VM $85/mo for both if selected; counsel $945 after DOS.
@@ -60,8 +61,8 @@ Spiffy form should collect: PLLC name + licensed members; LLC name + members; pr
 
 Do not bid `msa`, lawyer/attorney terms, templates, PE, or generic LLC. If a campaign ever exists: isolated (`05` or similar), lead conversion **not** Purchase, **not** on `NYPLLC Search Portfolio` tCPA $90, $10–15/day, exact match, NY presence. **Campaign waits.**
 
-## Implementation order (Sep 1)
+## Implementation order (when Sid launches)
 
-1. Sid: Spiffy $1,770 checkout URL.
-2. Site: page + embed + profession-page copy + sitemap/footer.
+1. Sid: Spiffy $1,770 checkout URL (product must exist).
+2. Copy `web/src/unpublished/ny-mso/` → `web/src/app/ny-mso/`, remove Vercel 404 rewrites, add sitemap/footer.
 3. CRM: first pairs **manual** (see CRM shard). Do not block the page on pair-subscription schema.

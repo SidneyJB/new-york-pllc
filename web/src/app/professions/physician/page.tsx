@@ -11,7 +11,7 @@ import { generateBreadcrumbSchema, generateFAQSchema, generateProfessionServiceS
 
 export const metadata: Metadata = {
   title: `New York Physician PLLC (MD/DO) — $${PRICING.basePrice} Flat | NYPLLC`,
-  description: `Physician PLLC formation for NY MD/DOs. NYSED pre-approval, telehealth-aware purpose language, MSO-friendly governance, six-week publication — flat $${PRICING.basePrice}.`,
+  description: `Physician PLLC formation for NY MD/DOs. NYSED pre-approval, telehealth-aware purpose language, six-week publication — flat $${PRICING.basePrice}.`,
   keywords: [
     'Physician PLLC New York',
     'Medicine PLLC NY',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'MD DO PLLC formation',
     'telemedicine New York physician',
     'corporate practice of medicine NY',
-    'MSO management services agreement NY',
+    'management LLC New York physician',
     'multispecialty group PLLC New York',
     'NYSED State Board for Medicine pre-approval',
     'NY Certificate of Publication medical practice'
@@ -49,9 +49,9 @@ export default function PhysicianPage() {
         'Ownership and professional control are generally limited to appropriately licensed physicians (MD or DO). Cross-profession ownership is tightly restricted. We help structure members/managers to align with New York’s professional practice rules.',
     },
     {
-      question: 'Can I use an MSO to handle non-clinical operations?',
+      question: 'Can I use a management company for non-clinical operations?',
       answer:
-        'Many New York medical groups contract with a Management Services Organization (MSO) for non-clinical services (admin, billing, HR, space). MSO contracts are separate from ownership — non-physicians do not own the PLLC. We craft governance that plays nicely with MSO agreements; for complex models, consult legal counsel.',
+        'Some New York medical groups use a separate management LLC for non-clinical work (admin, billing, HR, space). That LLC does not own the PLLC, and we do not draft management-services agreements. If you want both entities formed together, email contact@nypllc.com — we do not publish a public MSO checkout. Independent NY counsel handles any agreement after DOS filing.',
     },
     {
       question: 'What naming issues commonly delay physician approvals?',
@@ -147,7 +147,7 @@ export default function PhysicianPage() {
         <section className="bg-gradient-to-b from-primary/5 via-background to-background py-20 lg:py-32">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-4xl">
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
-              Form your <span className="text-primary">Physician PLLC</span> in New York — compliant, telehealth-ready & MSO-friendly
+              Form your <span className="text-primary">Physician PLLC</span> in New York — compliant and telehealth-ready
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
               Built for New York MDs and DOs — solo, group, multispecialty, in-person and telemedicine. We manage{' '}
@@ -159,7 +159,7 @@ export default function PhysicianPage() {
             <div className="mt-6 flex flex-wrap items-center justify-center gap-2 text-xs text-muted-foreground">
               <Badge variant="outline">State Board for Medicine</Badge>
               <Badge variant="outline">Telehealth-Aware Purpose</Badge>
-              <Badge variant="outline">MSO-Friendly Governance</Badge>
+              <Badge variant="outline">Professional Ownership Rules</Badge>
               <Badge variant="outline">Publishing Included</Badge>
               <Badge variant="outline">EIN + Bank-Ready Docs</Badge>
             </div>
@@ -186,7 +186,7 @@ export default function PhysicianPage() {
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Purpose-built for New York physicians</h2>
               <p className="mt-4 text-lg text-muted-foreground">
                 Physician entities face heightened scrutiny: State Board pre-approval, strict naming, county publication, bank/credentialing documentation,
-                and careful alignment with corporate practice of medicine principles — especially when using MSOs. We form PLLCs that reflect medical scope,
+                and careful alignment with corporate practice of medicine principles. We form PLLCs that reflect medical scope,
                 support telemedicine within NY, and scale as you add clinicians, services, or locations.
               </p>
             </div>
@@ -265,7 +265,7 @@ export default function PhysicianPage() {
                   <CardTitle className="flex items-center gap-2"><Users className="h-5 w-5 text-primary" /> Operating Agreement</CardTitle>
                 </CardHeader>
                 <CardContent className="text-sm text-muted-foreground">
-                  A physician-focused Operating Agreement for solo, group, or multispecialty practices — MSO-friendly and ready for lender/hospital review.
+                  A physician-focused Operating Agreement for solo, group, or multispecialty practices — ready for lender and hospital review. We do not draft management-services agreements.
                 </CardContent>
               </Card>
               <Card>

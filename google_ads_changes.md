@@ -10,6 +10,21 @@
 
 ---
 
+## Changes on 2026-09-01 — Core Exact audit + Attorneys v5 + June drop closed
+
+Funnel audit: [`ads-pull-2026-09-01-weekly-sop/CORE-EXACT-FUNNEL-AUDIT.md`](ads-pull-2026-09-01-weekly-sop/CORE-EXACT-FUNNEL-AUDIT.md)
+
+| Action | Detail |
+|---|---|
+| `01` Formation-Core unpinned | **PAUSED** (`816286133015`) — 50 clicks / $306 / 0 purchases vs controlled 27 / $174 / 3.50. Do not raise bids. |
+| Attorneys RSA **v5** | Uploaded `--replace` **Sep 1**: controlled `823134166556` · unpinned `823134166682`. No attorney/law-practice/filed/six-week copy; land `/professions/law`. In review. If DISAPPROVED at next weekly SOP (~Sep 8), **pause Attorneys ad group** and stop copy churn. |
+| June eligible-volume drop | **Closed.** Not a broad→exact change. Bare `pllc` stayed BROAD (`48929560`) all June. Cliff is **Jun 7 tCPA $110→$90** (spend $129→$55/day; `pllc` broad throttled $98→$23/day). Jun 28 publication negatives are a later, smaller effect. |
+| Gate 2 (~Sep 12) | Treat as **permission slip only** — volume cannot hit 35/30d (need ~2.45 purchases/day vs ~0.3–0.4 recent). Re-evaluate after Aug 3–13 conversions age out. |
+| Holds | `03` paused; no Microsoft scale; no MSO ads; **$985 deferred to February** unless a clean ladder-free window appears before Nov 14. |
+| Auction Insights | Still **manual UI** — API token cannot pull insights. Next weekly SOP: export Sales last 90d. |
+
+---
+
 ## Changes on 2026-09-01 — Weekly SOP §7.1 (week ending Sep 1; due Aug 31)
 
 Pull: [`ads-pull-2026-09-01-weekly-sop/`](ads-pull-2026-09-01-weekly-sop/) · writeup [`WEEKLY-SOP.md`](ads-pull-2026-09-01-weekly-sop/WEEKLY-SOP.md) · dashboard [`ads-weekly-dashboard.csv`](ads-weekly-dashboard.csv)
@@ -185,7 +200,7 @@ Eligible auction volume, `Sales-Search-1` (budget $500/day, budget-lost 0% throu
 
 Wrong-state traffic is still fenced by the full state names, so the exclusion intent is preserved.
 
-**Not yet explained:** eligible volume also fell ~12,030 → ~4,000/week during **June**, before either Jul 8 change. That predates the Jun 28 negative experiment too. The API only retains 30 days of change history — needs the UI change log to close out.
+**June drop closed Sep 1:** eligible volume ~12,030 → ~4,000/week was **Jun 7 tCPA $110→$90**, not a `pllc` match-type change (stayed BROAD `48929560`) and not the Jun 28 publication negatives.
 
 **Open:** `01` and `02` are still on `PRESENCE` geo. Decide after a week of Sales data.
 

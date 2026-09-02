@@ -623,9 +623,10 @@ Gates are permission slips, not deadlines. Missing a gate by two weeks costs alm
 | Aug 17 | **Gate 1** — ✅ checked Aug 19 ([writeup](ads-pull-2026-08-19-weekly-sop/WEEKLY-SOP.md)): **fail / hold** (`01` 2 conv · account 13/30d · 30d CPA $123). +`[form a pllc]` on `01`; `03` stays PAUSED |
 | Aug 24 | ✅ Weekly SOP **ran Aug 26** ([writeup](ads-pull-2026-08-26-weekly-sop/WEEKLY-SOP.md)): 7d CPA $240 / 2 conv; 30d CPA $111 / 17 conv; Ads↔CRM **0%**; +`[pllc in new york]` +`[pllc nys]` on `01`; Attorneys RSA **v4** in review; Gate 1 fail/hold · Auction Insights still overdue |
 | Aug 31 | ✅ Weekly SOP **ran Sep 1** ([writeup](ads-pull-2026-09-01-weekly-sop/WEEKLY-SOP.md)): 7d CPA $237 / 2 conv (both Sep 1); 30d CPA $128 / 16 conv; Ads↔CRM **0%**; no account changes; Attorneys RSA **v4** DISAPPROVED (v5 needed); Gate 1 fail/hold · Auction Insights still overdue |
+| Sep 1 (same day, post-SOP) | ✅ Core Exact audit ([writeup](ads-pull-2026-09-01-weekly-sop/CORE-EXACT-FUNNEL-AUDIT.md)): pause Formation-Core unpinned; Attorneys **v5** uploaded (`823134166556` / `823134166682`). June drop closed (tCPA, not match-type). **Gate 2 will fail on volume** — permission slip only; do not demote or ladder on Sep 12/14. $985 → February. |
 | Aug 24 – Sep 6 | Accumulate data · abandoned-checkout emails ship · Microsoft Ads account created |
-| Sep 7 | Gate 2 window opens |
-| Sep 14 | On pass: **demote → 04_Discovery_Broad** · ladder step 1 ($100) |
+| Sep 7 | Gate 2 window opens — **expect fail** (need 27 purchases in 11 days). Hold `03`, Discovery demotion, ladder. |
+| Sep 14 | On pass: **demote → 04_Discovery_Broad** · ladder step 1 ($100). **On fail (expected):** keep Sales full budget; no ladder. |
 | Sep 21 | Microsoft import + UET live (campaigns 01–03 only) |
 | Sep 28 – Oct 5 | Observe step 1 (14d/15conv) · finish §5.1 friction cut if still open · remove device modifier when 3.6 criteria met |
 | Oct 10 | **Gate 3** → budgets up · ladder step 2 ($115) · optional DSA test |

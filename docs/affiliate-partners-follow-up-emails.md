@@ -76,7 +76,7 @@ contact@nypllc.com
 
 ## Send checklist
 
-- [x] Mercury → `partnerships@mercury.com` — sent Aug 26, 2026 (Gmail `1a040a5008bef8c8`)
-- [x] Gusto → reply on Impact thread to `affiliates@gusto.com` — sent Aug 26, 2026 (Gmail `1a040a51639e054b`, thread `1a001419a24fd66a`)
+- [x] Mercury → `partnerships@mercury.com` — sent Aug 26, 2026 (Gmail `1a040a5008bef8c8`); **third ping Sep 1** (`1a05fcd4ba4ab36d`)
+- [x] Gusto → reply on Impact thread to `affiliates@gusto.com` — sent Aug 26, 2026 (Gmail `1a040a51639e054b`, thread `1a001419a24fd66a`); **third ping Sep 1** (`1a05fcd53998a8e8`)
 - [x] Log send date in [affiliate-partners.md](./affiliate-partners.md) § Apply checklist
 - [ ] On approval: drop links into EIN email, S-Corp-Docs-Faxed email, S Corp page, and CRM backlist (see affiliate-partners.md § Apply checklist steps 1–2)

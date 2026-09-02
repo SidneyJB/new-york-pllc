@@ -21,7 +21,7 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 | **1 — RA auto-renewal + Compliance Plan ($249/yr)** | Checkout + confirmation **auto-renewal disclosure** copy | **LIVE Aug 25** — T-30/T-7/receipt cron; Stripe retries, CoC cancel, Compliance upgrade. Monitor ~Sep 22 T-30s |
 | **2 — Long-tail shelf** | Spiffy checkouts + `/services` index + SEO pages per SKU; **banking = Mercury** (EIN email) | DOS filing automation for amendments, etc. |
 | **3 — S Corp monetization** | **Gusto Impact** payroll affiliate in S-Corp pipeline email + product page; S Corp calculator (SEO tool) | S-Corp-Docs-Faxed email pipeline |
-| **4 — AOV suite** | $985 price test (late Sep), S Corp checkbox live, DBA/CAQH bumps, Practice Launch bundle, VM copy | — |
+| **4 — AOV suite** | $985 price test **deferred to Feb** (Sep 1); S Corp checkbox live, DBA/CAQH bumps, Practice Launch bundle, VM copy | — |
 
 **Companion plans:** [Ads v2](../../nypllc-google-ads-operating-plan.md) · [SEO moat](../../nypllc-seo-content-moat-plan.md) · CAQH v1 · B2B v1 (CRM).
 
@@ -29,8 +29,8 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 
 | Item | Plan says | Aug 10 status |
 |------|---------|---------------|
-| Banking affiliate (EIN email + backlist) | Ship this week | **Mercury applied Aug 14** — waiting on response. Links not live. 📖 [affiliate-partners.md](../../docs/affiliate-partners.md) |
-| S Corp Phase 1 payroll partner | ~4 hrs | **Gusto Impact applied Aug 14** — waiting on approval. Links not live. Same doc. |
+| Banking affiliate (EIN email + backlist) | Ship this week | **Mercury applied Aug 14** — follow-ups Aug 26 + **Sep 1**. Links not live. 📖 [affiliate-partners.md](../../docs/affiliate-partners.md) |
+| S Corp Phase 1 payroll partner | ~4 hrs | **Gusto Impact applied Aug 14** — follow-ups Aug 26 + **Sep 1**. Links not live. Same doc. |
 | Spiffy order-bump (checkbox SKUs) | Verify once | **S Corp $195 live Aug 14.** **CAQH interest checkbox live Aug 26** (no charge; CRM `caqhInterest` + staff badge). Sales tax **removed Aug 18**. Pilot outreach Aug 25–26; invoice on interest; **paid CAQH SKU** after 2–3 pilots. Remaining: DBA. |
 
 ## Key cross-deps (website)
@@ -46,7 +46,7 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 - **Direct-client** RA renewals auto-charge on card-on-file; **Metro partner** cohort stays invoice-only (dispute history).
 - No outbound calls. No publishing-only offers.
 - Trademark shelf SKU **parked** until counsel or attorney-partner rev-share.
-- **NY MSO package** — PLLC/PC + LLC all-in **~$1,500–$1,800** (pencil); MSA referral to **Jonah Brodsky** (he bills the customer). Pilot, then up-front offer. 📖 [synthesis](../../docs/business-ideas-ny-mso-msa-synthesis.md)
+- **NY MSO package** — PLLC + management LLC **$1,770** locked; MSA counsel **$945**. Page **unpublished** until Sid launches. 📖 [mso-msa.md](mso-msa.md)
 
 ## Gotchas
 

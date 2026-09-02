@@ -2,6 +2,10 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-09-02 — PLLC vs LLC `#5` unpublished
+
+Editorial map piece `#5` drafted under [`web/src/unpublished/pllc-vs-llc/`](../web/src/unpublished/pllc-vs-llc/). Same launch lock as MSO: not in `app/`; Vercel + `next.config.ts` 404 `/pllc-vs-llc`; `robots` noindex. Unique data: OP median wait from [`NYSED_APPROVAL_TIMES`](../web/src/lib/nysed-approval-times/data.ts) (56 days as of 2026-07-22; PT 78 / LCSW 54). No `/order-llc` CTA (plain LLC stays CheapNewYorkLLC). No sitemap/footer. Do not copy into `app/` until Sid launches.
+
 ## 2026-08-31 — MSO path offer locked (memory bank only)
 
 Offer for practice PLLC + management LLC: **$1,770** Spiffy (invoice if asked); independent counsel MSA **$945** (do not name Jonah on site/ads; $0 referral; intro at **DOS filing**); year-1 RA on both then **$149/yr for the pair**; optional VM **$85/mo for the pair**; no medspa/aesthetics/IV/ketamine; already-formed PLLC = $885 LLC + $945; default PLLC; CheapNewYorkLLC not in this product; **ads campaign waits**. September SEO page + Spiffy; first CRM pairs manual. Implement Sep 1. 📖 [mso-msa.md](../memory-bank/features/mso-msa.md) · [CRM ops](../../PLLC-CRM/memory-bank/features/mso-msa.md) · Packet/research: [synthesis](business-ideas-ny-mso-msa-synthesis.md)

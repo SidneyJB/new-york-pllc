@@ -28,7 +28,7 @@ const nextConfig: NextConfig = {
     },
   },
 
-  // Keep unpublished MSO checkout and OP deficiencies page off the public site until Sid launches.
+  // Keep unpublished MSO, OP deficiencies, and PLLC vs LLC pages off the public site until Sid launches.
   async rewrites() {
     return [
       { source: '/ny-mso', destination: '/404' },
@@ -37,6 +37,8 @@ const nextConfig: NextConfig = {
       { source: '/pllc-and-mso/:path*', destination: '/404' },
       { source: '/nysed-op-deficiencies', destination: '/404' },
       { source: '/nysed-op-deficiencies/:path*', destination: '/404' },
+      { source: '/pllc-vs-llc', destination: '/404' },
+      { source: '/pllc-vs-llc/:path*', destination: '/404' },
     ]
   },
 

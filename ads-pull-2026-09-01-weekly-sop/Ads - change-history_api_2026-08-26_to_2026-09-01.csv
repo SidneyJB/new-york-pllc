@@ -1,0 +1,279 @@
+change_event.change_date_time,change_event.user_email,change_event.client_type,change_event.change_resource_type,change_event.resource_change_operation,change_event.changed_fields,change_event.old_resource,change_event.new_resource,change_event.campaign,change_event.ad_group
+2026-08-26 21:48:07.463359,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,UPDATE,"paths: ""ad""
+paths: ""status""
+","ad_group_ad {
+  status: ENABLED
+  ad {
+  }
+}
+","ad_group_ad {
+  status: REMOVED
+  ad {
+  }
+}
+",customers/1529880213/campaigns/24017629178,customers/1529880213/adGroups/196018838817
+2026-08-26 21:48:08.058559,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,CREATE,"paths: ""ad""
+paths: ""ad_group""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_ad {
+  ad {
+  }
+}
+","ad_group_ad {
+  resource_name: ""customers/1529880213/adGroupAds/196018838817~822412227500""
+  status: ENABLED
+  ad {
+    responsive_search_ad {
+      headlines {
+        pinned_field: HEADLINE_1
+        text: ""PLLC for NY Attorneys—$885""
+      }
+      headlines {
+        text: ""Start Your NY PLLC This Week""
+      }
+      headlines {
+        text: ""Publication & EIN Included""
+      }
+      headlines {
+        text: ""Licensed Pro? Form Your PLLC""
+      }
+      headlines {
+        text: ""Built for NY Attorneys""
+      }
+      headlines {
+        text: ""NY PLLC Formation – $885 Flat""
+      }
+      headlines {
+        text: ""Everything Included. One Fee""
+      }
+      headlines {
+        text: ""Registered Agent Yr 1 Free""
+      }
+      headlines {
+        text: ""Flat Fee — No Hidden Costs""
+      }
+      headlines {
+        text: ""EIN & Operating Agreement Inc""
+      }
+      headlines {
+        text: ""Rated 5 Stars on Google""
+      }
+      headlines {
+        text: ""Publication Included""
+      }
+      headlines {
+        text: ""Talk to a PLLC Specialist""
+      }
+      descriptions {
+        text: ""PLLC for NY attorneys: publication, EIN, operating agreement & RA year one. $885 flat.""
+      }
+      descriptions {
+        text: ""Flat $885 covers publication, EIN, operating agreement and registered agent year one.""
+      }
+      descriptions {
+        text: ""Form your New York attorney PLLC. Everything included - one flat fee.""
+      }
+      descriptions {
+        text: ""Specialists in NY professional entity formation. Licensed-professional focus.""
+      }
+    }
+    resource_name: ""customers/1529880213/ads/822412227500""
+    id: 822412227500
+    final_urls: ""https://www.nypllc.com/professions/law""
+    name: ""Attorneys — controlled""
+  }
+  ad_group: ""customers/1529880213/adGroups/196018838817""
+}
+",customers/1529880213/campaigns/24017629178,customers/1529880213/adGroups/196018838817
+2026-08-26 21:48:08.394047,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,UPDATE,"paths: ""ad""
+paths: ""status""
+","ad_group_ad {
+  status: ENABLED
+  ad {
+  }
+}
+","ad_group_ad {
+  status: REMOVED
+  ad {
+  }
+}
+",customers/1529880213/campaigns/24017629178,customers/1529880213/adGroups/196018838817
+2026-08-26 21:48:08.905471,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,CREATE,"paths: ""ad""
+paths: ""ad_group""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_ad {
+  ad {
+  }
+}
+","ad_group_ad {
+  resource_name: ""customers/1529880213/adGroupAds/196018838817~822340024756""
+  status: ENABLED
+  ad {
+    responsive_search_ad {
+      headlines {
+        text: ""PLLC for NY Attorneys—$885""
+      }
+      headlines {
+        text: ""Start Your NY PLLC This Week""
+      }
+      headlines {
+        text: ""Publication & EIN Included""
+      }
+      headlines {
+        text: ""Licensed Pro? Form Your PLLC""
+      }
+      headlines {
+        text: ""Built for NY Attorneys""
+      }
+      headlines {
+        text: ""NY PLLC Formation – $885 Flat""
+      }
+      headlines {
+        text: ""Everything Included. One Fee""
+      }
+      headlines {
+        text: ""Registered Agent Yr 1 Free""
+      }
+      headlines {
+        text: ""Flat Fee — No Hidden Costs""
+      }
+      headlines {
+        text: ""EIN & Operating Agreement Inc""
+      }
+      headlines {
+        text: ""Rated 5 Stars on Google""
+      }
+      headlines {
+        text: ""Publication Included""
+      }
+      headlines {
+        text: ""Talk to a PLLC Specialist""
+      }
+      descriptions {
+        text: ""PLLC for NY attorneys: publication, EIN, operating agreement & RA year one. $885 flat.""
+      }
+      descriptions {
+        text: ""Flat $885 covers publication, EIN, operating agreement and registered agent year one.""
+      }
+      descriptions {
+        text: ""Form your New York attorney PLLC. Everything included - one flat fee.""
+      }
+      descriptions {
+        text: ""Specialists in NY professional entity formation. Licensed-professional focus.""
+      }
+    }
+    resource_name: ""customers/1529880213/ads/822340024756""
+    id: 822340024756
+    final_urls: ""https://www.nypllc.com/professions/law""
+    name: ""Attorneys — unpinned""
+  }
+  ad_group: ""customers/1529880213/adGroups/196018838817""
+}
+",customers/1529880213/campaigns/24017629178,customers/1529880213/adGroups/196018838817
+2026-08-26 21:48:10.353245,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_CRITERION,CREATE,"paths: ""ad_group""
+paths: ""criterion_id""
+paths: ""keyword.match_type""
+paths: ""keyword.text""
+paths: ""negative""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_criterion {
+}
+","ad_group_criterion {
+  resource_name: ""customers/1529880213/adGroupCriteria/201832402041~908998121433""
+  status: ENABLED
+  keyword {
+    match_type: EXACT
+    text: ""pllc in new york""
+  }
+  criterion_id: 908998121433
+  ad_group: ""customers/1529880213/adGroups/201832402041""
+  negative: false
+}
+",customers/1529880213/campaigns/24022049179,customers/1529880213/adGroups/201832402041
+2026-08-26 21:48:10.667505,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_CRITERION,CREATE,"paths: ""ad_group""
+paths: ""criterion_id""
+paths: ""keyword.match_type""
+paths: ""keyword.text""
+paths: ""negative""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_criterion {
+}
+","ad_group_criterion {
+  resource_name: ""customers/1529880213/adGroupCriteria/201832402041~850614785999""
+  status: ENABLED
+  keyword {
+    match_type: EXACT
+    text: ""pllc nys""
+  }
+  criterion_id: 850614785999
+  ad_group: ""customers/1529880213/adGroups/201832402041""
+  negative: false
+}
+",customers/1529880213/campaigns/24022049179,customers/1529880213/adGroups/201832402041
+2026-08-30 20:24:20.338879,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/415103633555""
+  id: 415103633555
+}
+",,
+2026-08-30 20:24:21.492015,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/415103638328""
+  id: 415103638328
+}
+",,
+2026-08-30 20:24:22.515631,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/415103637602""
+  id: 415103637602
+}
+",,
+2026-08-30 20:24:23.918223,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/415103639237""
+  id: 415103639237
+}
+",,
+2026-08-30 20:24:25.119903,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/415103639966""
+  id: 415103639966
+}
+",,
+2026-08-30 20:24:26.029295,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/415211843686""
+  id: 415211843686
+}
+",,
+2026-08-30 20:24:27.571055,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/415211846194""
+  id: 415211846194
+}
+",,

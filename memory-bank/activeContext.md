@@ -8,7 +8,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 - **Google Ads Phase 0** — **conversion flip done Jul 9.** Tagged Purchase `7678072764` primary; page-load `7353506045` secondary. See [features/google-ads.md](features/google-ads.md) · [operating plan](../nypllc-google-ads-operating-plan.md)
 - **🔴 Stop-word negative incident — found + fixed Aug 4.** Root cause of the conversion collapse: Lists A/A-FQ contained two-letter state abbreviations as **phrase** negatives, so `in` (Indiana) blocked every query containing "in" (also `or`, `me`). Self-blocked 14/44 of `01`'s keywords, 21/33 of `03`, 9/40 of Sales. Eligible auction volume on Sales fell 12,030 → 576/week with budget untouched at $500/day. Removed 94 abbreviations; reverted Sales geo to `PRESENCE_OR_INTEREST`; verified 0 self-blocked. See [google_ads_changes.md](../google_ads_changes.md).
-- **Weekly SOP** — latest §7.1 **done Aug 26** (due Aug 24): [WEEKLY-SOP.md](../ads-pull-2026-08-26-weekly-sop/WEEKLY-SOP.md) · [ads-weekly-dashboard.csv](../ads-weekly-dashboard.csv). 7d CPA **$240** / 2 conv; 30d CPA **$111** / 17 conv; `01` still **2** purchases; Ads Spiffy 17 vs CRM 17 (**0%**); **Gate 1 fail / hold**. Attorneys RSA **v4** in review.
+- **Weekly SOP** — latest §7.1 **done Sep 1** (due Aug 31): [WEEKLY-SOP.md](../ads-pull-2026-09-01-weekly-sop/WEEKLY-SOP.md) · [ads-weekly-dashboard.csv](../ads-weekly-dashboard.csv). 7d CPA **$237** / 2 conv (both Sep 1); 30d CPA **$128** / 16 conv; `01` **~3.5** lifetime purchases; Ads Spiffy 16 vs CRM 16 (**0%**); **Gate 1 fail / hold**. Attorneys RSA **v4** DISAPPROVED — **v5 needed**.
 - **`02` Attorneys RSA rewrite v4 (Aug 26)** — v3 still DISAPPROVED (gov-docs). Uploaded no-law-practice copy (`822412227500` / `822340024756`). See [google_ads_changes.md](../google_ads_changes.md)
 - **SEO / content moat** — [nypllc-seo-content-moat-plan.md](../nypllc-seo-content-moat-plan.md). Shipped: `/nysed-approval-times`, `/ny-pllc-cost`, `/how-long-to-form-a-pllc-in-ny` (Jul 22). Editorial queue: OP deficiencies `#4` **and** MSO page as a **September SEO slot** (no ads). See [features/seo-and-domain.md](features/seo-and-domain.md) · [features/mso-msa.md](features/mso-msa.md)
 - **Revenue levers (website surface)** — [nypllc-revenue-levers-plan.md](../nypllc-revenue-levers-plan.md). **Direct-RA Lever 1 LIVE Aug 25** (`DIRECT_RA_NOTICES_LIVE` on CRM Production). **CAQH pilot** — Aaron declined (has CAQH); outreach Aug 25–26 to Esther, Jonathan, Shanel (no price in email; invoice on interest). **CAQH interest checkbox live Aug 26** on Spiffy (no charge; CRM `caqhInterest` + staff badge). **Mercury + Gusto Impact applied Aug 14** (waiting). Spiffy checkbox live: **S Corp $195**. Sales tax Certificate of Authority **removed from checkout Aug 18** (low take rate). Remaining: DBA, CAQH **paid** SKU, VM copy, $985 prep (late Sep). Expedite SKU **removed Aug 17** (already in $885). See [features/revenue-levers.md](features/revenue-levers.md) · [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) · [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md)
@@ -37,7 +37,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 2. Daily 10-min on Sales + `01` + `02`; `03` after early-Sep verdict if Gate 1 passes
 3. Open: 20-term rank tracker; Customer Match upload; Auction Insights export; June volume mystery (UI change log)
 4. **Deferred:** offline conversion upload; mobile LP §5.1 friction cut; `01`/`02` geo test
-5. **Weekly SOP Aug 26 done** — next due ~Sep 2
+5. **Weekly SOP Sep 1 done** — next due ~Sep 8
 
 ## Active decisions
 
@@ -58,9 +58,9 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 | Item | Link |
 |------|------|
 | `01` Formation-Core RSAs `APPROVED_LIMITED` (gov docs policy) | [google-ads.md](features/google-ads.md) |
-| `02` Attorneys RSAs — commercial v4 in review (Aug 26); v3 DISAPPROVED | [google_ads_changes.md](../google_ads_changes.md) |
+| `02` Attorneys RSAs — v4 **DISAPPROVED** (gov-docs); v5 copy strategy needed | [google_ads_changes.md](../google_ads_changes.md) |
 | Deferred: exact-neg `[form pllc new york]` on Sales until `01` delivers | [google_ads_changes.md](../google_ads_changes.md) |
-| Gate 1 (~Aug 17, checked Aug 19): need `01` ≥15 conv + account ≥28/30d — currently **2** / **13**. **Fail / hold `03`.** Re-baseline after Aug 4 stop-word fix | [operating plan](../nypllc-google-ads-operating-plan.md) |
+| Gate 1 (~Aug 17, checked Sep 1): need `01` ≥15 conv + account ≥28/30d — currently **~3.5** / **16**. **Fail / hold `03`.** Re-baseline after Aug 4 stop-word fix | [operating plan](../nypllc-google-ads-operating-plan.md) |
 | Recovery after Aug 4 negative fix: eligible volume + clicks on Sales / `01` | [google_ads_changes.md](../google_ads_changes.md) |
 | June eligible-volume drop (~12,030 → ~4,000/wk) still unexplained — needs UI change log | [google_ads_changes.md](../google_ads_changes.md) |
 | Never phrase-negative a common English word or a <3-char token (Aug 4 incident) | [operating plan §1.3](../nypllc-google-ads-operating-plan.md) |
@@ -68,7 +68,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 | 20-term rank tracking still not set up — terms now defined (Part 1.5), baseline median position 32; needs a tracker to measure movement | [SEO plan](../nypllc-seo-content-moat-plan.md) |
 | Money pages rank 20–45 on every commercial term. Ranking them is 6–18mo vs LegalZoom/Northwest — **do not treat the target list as a paid-search exit plan** | [SEO plan Part 1.5](../nypllc-seo-content-moat-plan.md) |
 | `chatgpt.com` emerging as an unmanaged channel (5 of 43 orders since Jul 9) | [operating plan §0.6](../nypllc-google-ads-operating-plan.md) |
-| Ads↔CRM ±10% gap — **closed Aug 26 weekly** (17 vs 17 / 0%) | [WEEKLY-SOP.md](../ads-pull-2026-08-26-weekly-sop/WEEKLY-SOP.md) |
+| Ads↔CRM ±10% gap — **closed Sep 1 weekly** (16 vs 16 / 0%) | [WEEKLY-SOP.md](../ads-pull-2026-09-01-weekly-sop/WEEKLY-SOP.md) |
 | Auction Insights manual export (1st week of Aug) | [operating plan](../nypllc-google-ads-operating-plan.md) |
 | Revenue levers: **Mercury + Gusto Impact applied Aug 14** (awaiting responses); links not live | [affiliate-partners.md](../docs/affiliate-partners.md) |
 | $985 price test — late Sep only (ads plan §4.4); never during ladder step or January | [revenue levers plan](../nypllc-revenue-levers-plan.md) · [ads plan §4.4](../nypllc-google-ads-operating-plan.md) |
@@ -82,7 +82,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 📖 Full log: [session-history.md](../docs/session-history.md)
 
-Latest (Aug 31 2026): **MSO path offer locked** — $1,770 pair (Spiffy), counsel $945 unnamed / intro at DOS, pair RA $149/yr + VM $85/mo, no medspa, ads wait. Implement Sep 1. [features/mso-msa.md](features/mso-msa.md). Packet (Harmony example, snowflake MSA) landed Aug 27 — [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md). Earlier (Aug 26): Weekly Ads SOP — 30d CPA $111 / 17 conv; Ads↔CRM 0%; Attorneys RSA v4 uploaded. Direct-RA checkout disclosure audited; staff $99 CoC + $249 Compliance Plan paths confirmed. CAQH outreach templates in repo; Jonathan Shedlo + Shanel Boyce pilot emails sent. Aaron declined. Memory bank synced with CRM. Earlier (Aug 25): CAQH pilot outreach to Aaron + Esther; Direct-RA `DIRECT_RA_NOTICES_LIVE=true`; `02` Attorneys RSA v3 uploaded. Earlier (Aug 19): Weekly Ads SOP — Gate 1 fail/hold. Earlier (Aug 18): sales tax **off checkout**. Earlier (Aug 14): Mercury + Gusto applied. Earlier (Aug 4): stop-word negative fix; `02` ENABLED. Earlier (Jul 9): `01` ENABLED; conversion flip.
+Latest (Sep 1 2026): **Weekly Ads SOP** — 7d CPA $237 / 2 conv (both Sep 1); 30d CPA $128 / 16 conv; Ads↔CRM 0%; no account changes; Attorneys v4 still DISAPPROVED (v5 needed). Gate 1 fail/hold. [WEEKLY-SOP.md](../ads-pull-2026-09-01-weekly-sop/WEEKLY-SOP.md). Earlier (Aug 31 2026): **MSO path offer locked** — $1,770 pair (Spiffy), counsel $945 unnamed / intro at DOS, pair RA $149/yr + VM $85/mo, no medspa, ads wait. Implement Sep 1. [features/mso-msa.md](features/mso-msa.md). Packet (Harmony example, snowflake MSA) landed Aug 27 — [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md). Earlier (Aug 26): Weekly Ads SOP — 30d CPA $111 / 17 conv; Ads↔CRM 0%; Attorneys RSA v4 uploaded. Direct-RA checkout disclosure audited; staff $99 CoC + $249 Compliance Plan paths confirmed. CAQH outreach templates in repo; Jonathan Shedlo + Shanel Boyce pilot emails sent. Aaron declined. Memory bank synced with CRM. Earlier (Aug 25): CAQH pilot outreach to Aaron + Esther; Direct-RA `DIRECT_RA_NOTICES_LIVE=true`; `02` Attorneys RSA v3 uploaded. Earlier (Aug 19): Weekly Ads SOP — Gate 1 fail/hold. Earlier (Aug 18): sales tax **off checkout**. Earlier (Aug 14): Mercury + Gusto applied. Earlier (Aug 4): stop-word negative fix; `02` ENABLED. Earlier (Jul 9): `01` ENABLED; conversion flip.
 
 ## Session start
 

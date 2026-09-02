@@ -1,12 +1,36 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-08-26
+**Last updated:** 2026-09-01
 
 ## Account
 
 - Customer: NYPLLC (`1529880213`)
 - Live: `Sales-Search-1` + `01_Core_Exact_NY` + `02_Professions_NY` (ENABLED)
 - Unattached PAUSED: `03_ForeignQual_US`
+
+---
+
+## Changes on 2026-09-01 — Weekly SOP §7.1 (week ending Sep 1; due Aug 31)
+
+Pull: [`ads-pull-2026-09-01-weekly-sop/`](ads-pull-2026-09-01-weekly-sop/) · writeup [`WEEKLY-SOP.md`](ads-pull-2026-09-01-weekly-sop/WEEKLY-SOP.md) · dashboard [`ads-weekly-dashboard.csv`](ads-weekly-dashboard.csv)
+
+| Metric (window) | Result |
+|---|---|
+| Self-block | **0** of 48 / 34 / 40. Lists A 53 · A-FQ 45 · C 27 unchanged |
+| Budget-lost IS | **0%** Sales + `01` + `02` |
+| 7d (Aug 26–Sep 1) | $474 / **2** click-attr / CPA **$237** (both conv Sep 1) |
+| 28d CPA | **$128** (15 / $1,926) |
+| 30d CPA | **$128** (16 / $2,052) — over ≤$110, under ≤$130 |
+| `01` | **~3.5** lifetime purchases (fractional DDA). 7d IS **~33%** · 30d IS **~47%** · $404 / 65 clicks |
+| Ads↔CRM 30d | Spiffy Purchase **16** vs CRM click-ID **16** (**0%**) |
+| Eligible (Sales) | Week Aug 24 **3,213** · Aug 31 **3,521** — stable vs incident ~576 |
+| Gate 1 | **Fail / hold** — `01` ~3.5 conv · account 16/30d. Do not launch `03` |
+
+| Action | Detail |
+|---|---|
+| Account changes | **None** — no new promotes; List C unchanged |
+| Attorneys RSA v4 | `822412227500` / `822340024756` still **DISAPPROVED** (gov-docs). **v5 copy strategy needed** |
+| Deferred | Sales exact-neg fence; `nysed pllc` / `pllc filing` watch; Auction Insights manual export overdue |
 
 ---
 

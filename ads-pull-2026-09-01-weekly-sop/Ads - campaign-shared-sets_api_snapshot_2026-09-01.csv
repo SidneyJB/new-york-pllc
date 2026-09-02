@@ -1,0 +1,21 @@
+campaign.name,shared_set.name,shared_set.id,shared_set.member_count
+Sales-Search-1,Neg B — Research DIY education,12145390194,15
+03_ForeignQual_US,Neg B — Research DIY education,12145390194,15
+02_Professions_NY,Neg B — Research DIY education,12145390194,15
+01_Core_Exact_NY,Neg B — Research DIY education,12145390194,15
+03_ForeignQual_US,Neg A-FQ — Other states (excl NY + FQ origins),12146898703,45
+Sales-Search-1,Neg C — Wrong intent lookup jobs school,12146898706,27
+03_ForeignQual_US,Neg C — Wrong intent lookup jobs school,12146898706,27
+02_Professions_NY,Neg C — Wrong intent lookup jobs school,12146898706,27
+01_Core_Exact_NY,Neg C — Wrong intent lookup jobs school,12146898706,27
+Sales-Search-1,Neg E — Publishing-only intent,12146898709,7
+03_ForeignQual_US,Neg E — Publishing-only intent,12146898709,7
+02_Professions_NY,Neg E — Publishing-only intent,12146898709,7
+01_Core_Exact_NY,Neg E — Publishing-only intent,12146898709,7
+Sales-Search-1,Neg A — Other states (excl NY),12146898907,53
+02_Professions_NY,Neg A — Other states (excl NY),12146898907,53
+01_Core_Exact_NY,Neg A — Other states (excl NY),12146898907,53
+Sales-Search-1,Neg D — Freebie price-shopping junk,12146898991,5
+03_ForeignQual_US,Neg D — Freebie price-shopping junk,12146898991,5
+02_Professions_NY,Neg D — Freebie price-shopping junk,12146898991,5
+01_Core_Exact_NY,Neg D — Freebie price-shopping junk,12146898991,5

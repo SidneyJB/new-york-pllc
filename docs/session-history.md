@@ -16,6 +16,12 @@ Offer for practice PLLC + management LLC: **$1,770** Spiffy (invoice if asked); 
 - **Packet:** snowflake spec, blank fill-in MSA (md + PDF), worked example Harmony Counseling LCSW PLLC / Jordan Admin LLC (md + PDF). Example **$1,800/mo** is the *inter-entity* Management Fee, **not FMV** and not our SKU.
 - Standalone plain-LLC SEO stays CheapNewYorkLLC; this SKU is the MSO package, not a competing LLC landing page.
 
+## 2026-09-01 — Weekly Ads SOP §7.1
+
+Ran 6 days after Aug 26 (calendar due Aug 31). 7d CPA **$237** / 2 conv (both landed Sep 1). 30d **$128** / 16 conv. Self-block 0. No account changes. Ads Spiffy 16 vs CRM 16 (**0%**). **Gate 1 fail / hold** (`01` ~3.5 · account 16/30d). Attorneys RSA v4 still DISAPPROVED; v5 copy strategy needed. Writeup: `ads-pull-2026-09-01-weekly-sop/WEEKLY-SOP.md`.
+
+---
+
 ## 2026-08-26 — Weekly Ads SOP §7.1 + Direct-RA ops + CAQH interest checkbox
 
 Ran 7 days after Aug 19 (calendar due Aug 24). 7d CPA **$240** / 2 conv; 30d **$111** / 17 conv. Self-block 0. Added `[pllc in new york]` + `[pllc nys]` exact on Formation-Core. Ads Spiffy 17 vs CRM 17 (**0%**). **Gate 1 fail / hold** (`01` 2 · account 17/30d). Attorneys RSA v3 still DISAPPROVED; **v4 uploaded** (dropped law-practice / filed / six-week lines). Writeup: `ads-pull-2026-08-26-weekly-sop/WEEKLY-SOP.md`.

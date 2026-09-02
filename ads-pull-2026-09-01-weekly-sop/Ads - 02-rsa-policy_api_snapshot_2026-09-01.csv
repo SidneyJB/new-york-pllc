@@ -1,0 +1,23 @@
+campaign.name,ad_group.name,ad_group_ad.ad.id,ad_group_ad.ad.name,ad_group_ad.status,ad_group_ad.policy_summary.approval_status,ad_group_ad.policy_summary.review_status
+02_Professions_NY,MHC-LMHC,816177571800,MHC-LMHC — controlled,ENABLED,APPROVED,REVIEWED
+02_Professions_NY,Physicians,816177572094,Physicians — controlled,ENABLED,APPROVED,REVIEWED
+02_Professions_NY,Architects,816177572130,Architects — unpinned,ENABLED,APPROVED,REVIEWED
+02_Professions_NY,Therapists-LCSW,816177627501,Therapists-LCSW — unpinned,ENABLED,APPROVED_LIMITED,REVIEWED
+02_Professions_NY,Psychology,816177627516,Psychology — unpinned,ENABLED,APPROVED,REVIEWED
+02_Professions_NY,Dentists,816177627579,Dentists — unpinned,ENABLED,APPROVED_LIMITED,REVIEWED
+02_Professions_NY,Therapists-LCSW,816177653268,Therapists-LCSW — controlled,ENABLED,APPROVED_LIMITED,REVIEWED
+02_Professions_NY,Nurse-Practitioners,816177654126,Nurse-Practitioners — unpinned,ENABLED,APPROVED_LIMITED,REVIEWED
+02_Professions_NY,Psychology,816177690477,Psychology — controlled,ENABLED,APPROVED,REVIEWED
+02_Professions_NY,Engineers,816177690660,Engineers — controlled,ENABLED,APPROVED,REVIEWED
+02_Professions_NY,Engineers,816177690663,Engineers — unpinned,ENABLED,APPROVED,REVIEWED
+02_Professions_NY,CPAs,816177690696,CPAs — unpinned,ENABLED,APPROVED,REVIEWED
+02_Professions_NY,Physicians,816177715371,Physicians — unpinned,ENABLED,APPROVED,REVIEWED
+02_Professions_NY,Architects,816177715404,Architects — controlled,ENABLED,APPROVED,REVIEWED
+02_Professions_NY,Dentists,816212947660,Dentists — controlled,ENABLED,APPROVED,REVIEWED
+02_Professions_NY,Nurse-Practitioners,816213137482,Nurse-Practitioners — controlled,ENABLED,APPROVED,REVIEWED
+02_Professions_NY,Physical-Therapy,816213137656,Physical-Therapy — controlled,ENABLED,APPROVED_LIMITED,REVIEWED
+02_Professions_NY,Physical-Therapy,816213137665,Physical-Therapy — unpinned,ENABLED,APPROVED,REVIEWED
+02_Professions_NY,CPAs,816213183748,CPAs — controlled,ENABLED,APPROVED,REVIEWED
+02_Professions_NY,MHC-LMHC,816285615071,MHC-LMHC — unpinned,ENABLED,APPROVED,REVIEWED
+02_Professions_NY,Attorneys,822340024756,Attorneys — unpinned,ENABLED,DISAPPROVED,REVIEWED
+02_Professions_NY,Attorneys,822412227500,Attorneys — controlled,ENABLED,DISAPPROVED,REVIEWED

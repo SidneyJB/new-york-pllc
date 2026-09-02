@@ -622,6 +622,7 @@ Gates are permission slips, not deadlines. Missing a gate by two weeks costs alm
 | Aug 10 | ✅ Weekly SOP **ran Aug 14** ([writeup](ads-pull-2026-08-14-weekly-sop/WEEKLY-SOP.md)): 7d CPA $97 / 5 conv; 30d CPA $112 / 14 conv; **`01` first 2 purchases**; +`[create pllc]` on `01`; Ads 14 vs CRM 19 (+36%); Gate 1 hold · Auction Insights manual export still open |
 | Aug 17 | **Gate 1** — ✅ checked Aug 19 ([writeup](ads-pull-2026-08-19-weekly-sop/WEEKLY-SOP.md)): **fail / hold** (`01` 2 conv · account 13/30d · 30d CPA $123). +`[form a pllc]` on `01`; `03` stays PAUSED |
 | Aug 24 | ✅ Weekly SOP **ran Aug 26** ([writeup](ads-pull-2026-08-26-weekly-sop/WEEKLY-SOP.md)): 7d CPA $240 / 2 conv; 30d CPA $111 / 17 conv; Ads↔CRM **0%**; +`[pllc in new york]` +`[pllc nys]` on `01`; Attorneys RSA **v4** in review; Gate 1 fail/hold · Auction Insights still overdue |
+| Aug 31 | ✅ Weekly SOP **ran Sep 1** ([writeup](ads-pull-2026-09-01-weekly-sop/WEEKLY-SOP.md)): 7d CPA $237 / 2 conv (both Sep 1); 30d CPA $128 / 16 conv; Ads↔CRM **0%**; no account changes; Attorneys RSA **v4** DISAPPROVED (v5 needed); Gate 1 fail/hold · Auction Insights still overdue |
 | Aug 24 – Sep 6 | Accumulate data · abandoned-checkout emails ship · Microsoft Ads account created |
 | Sep 7 | Gate 2 window opens |
 | Sep 14 | On pass: **demote → 04_Discovery_Broad** · ladder step 1 ($100) |

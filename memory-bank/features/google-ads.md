@@ -14,7 +14,7 @@ Google Ads API CLI, CSV exports, and analysis scripts for NYPLLC acquisition (li
 
 ## Key paths
 
-- Package: `google_ads/` (`client.py`, `reports.py`, `pull.py`, `export.py`, `upload_campaigns.py`, `upload_rsas.py`, `check_keyword_policy.py`)
+- Package: `google_ads/` (`client.py`, `reports.py`, `pull.py`, `export.py`, `upload_campaigns.py`, `upload_rsas.py`, `check_keyword_policy.py`, `set_portfolio_tcpa.py`, `set_ad_group_ad_status.py`, `set_ad_group_status.py`)
 - CLI: `google_ads_cli.py`, `google_ads_pull.py`, `google_ads_auth.py`
 - Analysis: `ads_analysis.py`, `apr23_*.py`
 - Data: `Ads - *.csv`, `ads-notes-*.md`, `google_ads_changes*.md`, `apr 23 ads reports/`, `baseline-2026-07-08/`
@@ -65,12 +65,13 @@ pip install -r requirements-ads.txt
 - Weekly SOP (Aug 19, due Aug 17): `[form a pllc]` exact → `01` Formation-Core. 7d CPA $373 / 1 conv; 30d CPA $123 / 13 conv; Ads Spiffy 13 vs CRM 18 (+38%); self-block 0; **Gate 1 fail / hold**. `02` Attorneys RSAs DISAPPROVED. Writeup: `ads-pull-2026-08-19-weekly-sop/WEEKLY-SOP.md`
 - `run_query` gotcha (fixed Aug 4): it returned a stream while dropping the service reference, so the gRPC channel got collected mid-iteration → `CANCELLED "Channel deallocated!"`. It aborted a mutation halfway. Now a generator that holds the service.
 - Policy note (Jul 11): Formation-Core + Attorneys RSAs `APPROVED_LIMITED` (`GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES`); Sales LCSW/PT/MHC ads still `REVIEW_IN_PROGRESS`
-- **Attorneys RSA rewrite (Aug 14):** controlled DISAPPROVED (same gov-docs policy). NYSED/OP copy was wrong for `/professions/law`. Replaced both Attorneys RSAs with Rule 7.5 / attorney-only ownership (`820969348495` / `820969348510`). **Aug 17 daily:** still DISAPPROVED. **Aug 25 v3** commercial-only (`822145210776` / `822189177055`) still DISAPPROVED. **Aug 26 v4** dropped law-practice / filed / six-week lines (`822412227500` / `822340024756`, DISAPPROVED). **Sep 1 v5** no attorney/law/filed/six-week copy (`823134166556` / `823134166682`, in review). If v5 DISAPPROVED: pause Attorneys AG, stop copy churn. `upload_rsas.py` gained `--ad-groups`.
-- **Sep 1 Core Exact audit:** checkout→purchase leak (~17 begin-checkout vs 3.5 purchases). **Paused** Formation-Core unpinned (`816286133015`) — 0 purchases vs controlled 3.50. Writeup: `ads-pull-2026-09-01-weekly-sop/CORE-EXACT-FUNNEL-AUDIT.md`. Do not raise bids. Gate 2 (~Sep 12) is a permission slip — volume cannot hit 35/30d.
+- **Attorneys RSA rewrite (Aug 14):** controlled DISAPPROVED (same gov-docs policy). NYSED/OP copy was wrong for `/professions/law`. Replaced both Attorneys RSAs with Rule 7.5 / attorney-only ownership (`820969348495` / `820969348510`). **Aug 17 daily:** still DISAPPROVED. **Aug 25 v3** commercial-only (`822145210776` / `822189177055`) still DISAPPROVED. **Aug 26 v4** dropped law-practice / filed / six-week lines (`822412227500` / `822340024756`, DISAPPROVED). **Sep 1 v5** no attorney/law/filed/six-week copy (`823134166556` / `823134166682`). **Sep 2: v5 DISAPPROVED** — **paused Attorneys AG** `196018838817`. Stop copy churn. `upload_rsas.py` gained `--ad-groups`.
+- **Sep 1 Core Exact audit:** checkout→purchase leak (~17 begin-checkout vs 3.5 purchases). **Paused** Formation-Core unpinned (`816286133015`) — 0 purchases vs controlled 3.50. **Pinned-price win is permanent** — do not revive unpinned. Writeup: `ads-pull-2026-09-01-weekly-sop/CORE-EXACT-FUNNEL-AUDIT.md`. Gate 2 (~Sep 12) is a permission slip — still **no `03` / Discovery / Bing**.
+- **Sep 2 diagnostic:** portfolio tCPA **$90 → $105** (`google_ads/set_portfolio_tcpa.py`). Judge Sales eligible toward 4.5–5k/wk in ≥14 days; revert if flat. $90 deadlock documented in operating plan §0.5.
 - Daily SOP (Aug 17): 7d CPA $119 / 4 conv; 30d CPA $123 / 13 conv; Aug MTD $94 / 11; Sales eligible ~3.4k; no List C adds. Writeup: `ads-pull-2026-08-17-daily-sop/DAILY-SOP.md`
 - Conversion goals (Jul 11): account `BEGIN_CHECKOUT`/`WEBSITE` → `biddable=False` (was true; caused “missing primary” UI warning). Matches §1.1.1 observation-only. Purchase still sole biddable website goal.
 - `03_ForeignQual_US`: US Presence · $15/day · negatives **A-FQ + B–E** · 6 AGs / 33 kws / 12 RSAs (`campaigns/24012757620`)
-- Portfolio **`NYPLLC Search Portfolio`** (`12148056412`) Target CPA $90 — on **`Sales-Search-1`** + **`01`** + **`02`** (all ENABLED)
+- Portfolio **`NYPLLC Search Portfolio`** (`12148056412`) Target CPA **$105** (Sep 2 diagnostic; was $90) — on **`Sales-Search-1`** + **`01`** + **`02`** (all ENABLED)
 - Health-policy keywords (`lcsw`, mental health, psychiatric NP, physical therapy): create via API with `exempt_policy_violation_keys` (validate with `check_keyword_policy.py`)
 - RSA gotcha: Unicode `→` is SYMBOLS **PROHIBITED** — use ASCII `-`
 - Reviews: site uses NYPLLC GBP (`BUSINESS_INFO.googleBusinessProfileUrl`); AggregateRating from `BUSINESS_INFO.googleReviews` = **5.0 / 6** (live GBP Jul 9 2026). RSAs use **`Rated 5 Stars on Google`** on `01`/`02` (5-star only — no review count in ad copy); keep schema in sync when GBP changes

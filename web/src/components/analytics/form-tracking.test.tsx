@@ -24,6 +24,10 @@ vi.mock('@/lib/analytics/google-ads', () => ({
   trackGoogleAdsBeginCheckout: vi.fn(),
 }))
 
+vi.mock('@/lib/checkout-abandonment/report-checkout-abandonment', () => ({
+  reportCheckoutAbandonment: vi.fn(),
+}))
+
 vi.mock('next/navigation', () => ({
   usePathname: vi.fn(() => '/'),
 }))

@@ -28,13 +28,15 @@ const nextConfig: NextConfig = {
     },
   },
 
-  // Keep unpublished MSO checkout off the public site until Sid launches.
+  // Keep unpublished MSO checkout and OP deficiencies page off the public site until Sid launches.
   async rewrites() {
     return [
       { source: '/ny-mso', destination: '/404' },
       { source: '/ny-mso/:path*', destination: '/404' },
       { source: '/pllc-and-mso', destination: '/404' },
       { source: '/pllc-and-mso/:path*', destination: '/404' },
+      { source: '/nysed-op-deficiencies', destination: '/404' },
+      { source: '/nysed-op-deficiencies/:path*', destination: '/404' },
     ]
   },
 

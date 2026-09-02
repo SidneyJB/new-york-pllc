@@ -3,7 +3,9 @@
     { "source": "/ny-mso", "destination": "/404" },
     { "source": "/ny-mso/:path*", "destination": "/404" },
     { "source": "/pllc-and-mso", "destination": "/404" },
-    { "source": "/pllc-and-mso/:path*", "destination": "/404" }
+    { "source": "/pllc-and-mso/:path*", "destination": "/404" },
+    { "source": "/nysed-op-deficiencies", "destination": "/404" },
+    { "source": "/nysed-op-deficiencies/:path*", "destination": "/404" }
   ],
   "redirects": [
     {

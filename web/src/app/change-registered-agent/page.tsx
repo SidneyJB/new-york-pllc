@@ -1,6 +1,8 @@
 import Link from 'next/link'
+import { Suspense } from 'react'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { CHANGE_REGISTERED_AGENT_METADATA } from '@/lib/seo/metadata'
+import { StoppedRenewalBanner } from './stopped-renewal-banner'
 
 export const metadata = CHANGE_REGISTERED_AGENT_METADATA
 
@@ -15,6 +17,9 @@ export default function ChangeRegisteredAgentPage() {
 
       <section className="py-12 lg:py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+          <Suspense>
+            <StoppedRenewalBanner />
+          </Suspense>
           <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             Change your registered agent
           </h1>

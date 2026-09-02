@@ -7,13 +7,14 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Current sprint
 
 - **Google Ads Phase 0** — **conversion flip done Jul 9.** Tagged Purchase `7678072764` primary; page-load `7353506045` secondary. See [features/google-ads.md](features/google-ads.md) · [operating plan](../nypllc-google-ads-operating-plan.md)
-- **Weekly SOP** — latest §7.1 **done Sep 1** (due Aug 31): [WEEKLY-SOP.md](../ads-pull-2026-09-01-weekly-sop/WEEKLY-SOP.md) · [ads-weekly-dashboard.csv](../ads-weekly-dashboard.csv). 7d CPA **$237** / 2 conv (both Sep 1); 30d CPA **$128** / 16 conv; `01` **~3.5** lifetime purchases; Ads Spiffy 16 vs CRM 16 (**0%**); **Gate 1 fail / hold**. **Gate 2 (~Sep 12) expected fail on volume** — permission slip only.
-- **Sep 1 recovery actions** — Core Exact audit: checkout→purchase leak; **paused** Formation-Core unpinned. Attorneys RSA **v5** uploaded (`823134166556` / `823134166682`) — in review; pause AG if DISAPPROVED. June drop **closed** (Jun 7 tCPA, not match-type). [CORE-EXACT-FUNNEL-AUDIT.md](../ads-pull-2026-09-01-weekly-sop/CORE-EXACT-FUNNEL-AUDIT.md)
+- **Weekly SOP** — latest §7.1 **done Sep 1** (due Aug 31): [WEEKLY-SOP.md](../ads-pull-2026-09-01-weekly-sop/WEEKLY-SOP.md) · [ads-weekly-dashboard.csv](../ads-weekly-dashboard.csv). 7d CPA **$237** / 2 conv (both Sep 1); 30d CPA **$128** / 16 conv; `01` **~3.5** lifetime purchases; Ads Spiffy 16 vs CRM 16 (**0%**); **Gate 1 fail / hold**. **Gate 2 (~Sep 12) expected fail on volume** — permission slip only (**no `03` / Discovery / Bing**).
+- **Sep 2 tCPA diagnostic** — portfolio **$90 → $105**. Judge Sales eligible toward 4.5–5k/wk in ≥14 days; revert if flat. $90 deadlock: volume follows the bid target.
+- **Sep 1 recovery actions** — Core Exact audit: checkout→purchase leak; **paused** Formation-Core unpinned. Attorneys RSA **v5** later **DISAPPROVED** (Sep 2); AG paused. June drop **closed** (Jun 7 tCPA, not match-type). [CORE-EXACT-FUNNEL-AUDIT.md](../ads-pull-2026-09-01-weekly-sop/CORE-EXACT-FUNNEL-AUDIT.md)
 - **🔴 Stop-word negative incident — found + fixed Aug 4.** Root cause of the conversion collapse: Lists A/A-FQ contained two-letter state abbreviations as **phrase** negatives, so `in` (Indiana) blocked every query containing "in" (also `or`, `me`). Self-blocked 14/44 of `01`'s keywords, 21/33 of `03`, 9/40 of Sales. Eligible auction volume on Sales fell 12,030 → 576/week with budget untouched at $500/day. Removed 94 abbreviations; reverted Sales geo to `PRESENCE_OR_INTEREST`; verified 0 self-blocked. See [google_ads_changes.md](../google_ads_changes.md).
-- **`02` Attorneys RSA v5 (Sep 1)** — v4 DISAPPROVED. Uploaded no-attorney/law-practice copy (`823134166556` / `823134166682`). Pause AG if v5 DISAPPROVED. See [google_ads_changes.md](../google_ads_changes.md)
-- **SEO / content moat** — [nypllc-seo-content-moat-plan.md](../nypllc-seo-content-moat-plan.md). Shipped: `/nysed-approval-times`, `/ny-pllc-cost`, `/how-long-to-form-a-pllc-in-ny` (Jul 22). Editorial queue: OP deficiencies `#4`. MSO page **built unpublished** (not in `app/`; Vercel 404s `/ny-mso`). 20-term tracker: [`seo-rank-tracker.csv`](../seo-rank-tracker.csv). See [features/seo-and-domain.md](features/seo-and-domain.md) · [features/mso-msa.md](features/mso-msa.md)
+- **`02` Attorneys RSA v5 (Sep 2)** — **DISAPPROVED**. Ad group **PAUSED** (`196018838817`). Stop copy churn. See [google_ads_changes.md](../google_ads_changes.md)
+- **SEO / content moat** — [nypllc-seo-content-moat-plan.md](../nypllc-seo-content-moat-plan.md). Shipped: `/nysed-approval-times`, `/ny-pllc-cost`, `/how-long-to-form-a-pllc-in-ny` (Jul 22). OP deficiencies `#4` **built unpublished** (`web/src/unpublished/nysed-op-deficiencies/`; Vercel 404s `/nysed-op-deficiencies`). MSO page **built unpublished** (not in `app/`; Vercel 404s `/ny-mso`). 20-term tracker: [`seo-rank-tracker.csv`](../seo-rank-tracker.csv). See [features/seo-and-domain.md](features/seo-and-domain.md) · [features/mso-msa.md](features/mso-msa.md)
 - **Revenue levers (website surface)** — [nypllc-revenue-levers-plan.md](../nypllc-revenue-levers-plan.md). **Direct-RA Lever 1 LIVE Aug 25** (`DIRECT_RA_NOTICES_LIVE` on CRM Production). **CAQH pilot** — Aaron declined (has CAQH); outreach Aug 25–26; **follow-up sent Sep 1** (8 awaiting). **CAQH interest checkbox live Aug 26** on Spiffy (no charge; CRM `caqhInterest` + staff badge). **Mercury + Gusto Impact applied Aug 14**; **third ping Sep 1**. Spiffy checkbox live: **S Corp $195**. Sales tax Certificate of Authority **removed from checkout Aug 18** (low take rate). Remaining: DBA, CAQH **paid** SKU, VM copy. **$985 deferred to February.** Expedite SKU **removed Aug 17** (already in $885). See [features/revenue-levers.md](features/revenue-levers.md) · [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) · [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md)
-- **Phase 1 live:** `Sales-Search-1` + `01_Core_Exact_NY` (Jul 9) + **`02_Professions_NY` (ENABLED Aug 4)** on portfolio tCPA $90. `03_ForeignQual_US` PAUSED, unattached (Gate 1).
+- **Phase 1 live:** `Sales-Search-1` + `01_Core_Exact_NY` (Jul 9) + **`02_Professions_NY` (ENABLED Aug 4)** on portfolio tCPA **$105** (Sep 2 diagnostic). `03_ForeignQual_US` PAUSED, unattached (Gate 1).
 - Expand **foreign-into-NY** state page coverage beyond NJ/PA/FL/TX/CT as needed
 - **Foreign publication copy (HARD — Aug 10 2026):** flat package **includes** end-to-end six-week publication. Never “guidance” / “not included unless quoted.” See [features/foreign-into-ny.md](features/foreign-into-ny.md).
 - Ops fulfillment lives in **PLLC-CRM** (sibling repo) — not this codebase
@@ -23,22 +24,22 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 📖 Full narrative + Sep–Jan calendar: [expansion-next-steps.md](expansion-next-steps.md) (updated Sep 1, 2026). **MSO path** (offer locked, page unpublished): [features/mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md).
 
-1. **CAQH pilots** — interest checkbox **live Aug 26**. **Follow-up sent Sep 1** (8 awaiting, skip Aaron). Invoice on interest. **Paid SKU after 2–3 deliveries** (**PLLC-CRM**)
+1. **CAQH pilots** — interest checkbox **live Aug 26**. **Follow-up sent Sep 1** (8 awaiting, skip Aaron). If still silent ~Sep 8: healthcare backlist with **$499 + pay link** (**PLLC-CRM**)
 2. **Direct-RA Lever 1 — LIVE** — first T-30 ~Sep 22; Oct charges. Pre-send checklist in [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
 3. **EXP Credentialing** — Sep 1 close-out **sent**; waiting on their model choice (**PLLC-CRM**)
 4. **Affiliate follow-ups** — **third ping sent Sep 1** (Mercury + Gusto). Links not live. [affiliate-partners.md](../docs/affiliate-partners.md)
-5. **Ads** — Gate 2 expected fail; do not launch `03` / ladder / Bing. Watch Attorneys v5 + unpinned pause
-6. **SEO** — OP deficiencies `#4` next; 20-term tracker file live; **do not publish MSO URL**
+5. **Ads** — **$105 diagnostic**; Gate 2 expected fail; do not launch `03` / Discovery / Bing. Attorneys AG **paused** (v5 DISAPPROVED). Unpinned RSA stays paused.
+6. **SEO** — OP deficiencies `#4` **built unpublished**; 20-term tracker file live; **do not publish MSO or deficiencies URL**
 7. **Big B2B outreach paused**
 8. **MSO** — unpublished draft only; **no Vercel public route**; no ads
 
 ## Ads ops (maintenance — not expansion sprint)
 
-1. Watch Aug 4 negative-fix recovery; re-baseline Gate 1 after a clean week. **Do not treat Sep 12 as a scale date.**
+1. Watch **$105 eligible-volume test** (Sales toward 4.5–5k/wk). **Do not treat Sep 12 as a scale date.**
 2. Daily 10-min on Sales + `01` + `02`; `03` only if Gate 1 actually passes
 3. Open: Customer Match upload; Auction Insights **manual UI export** (still overdue)
 4. **Deferred:** offline conversion upload; mobile LP §5.1 friction cut; `01`/`02` geo test; **$985 until February**
-5. **Weekly SOP next ~Sep 8** — check Attorneys v5 policy; if DISAPPROVED, pause AG
+5. **Weekly SOP next ~Sep 8** — Attorneys AG already paused (v5 DISAPPROVED); do not churn copy
 6. **Last structural ads change Nov 14 → freeze Nov 15–Dec 1**
 
 ## Active decisions
@@ -60,7 +61,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 | Item | Link |
 |------|------|
 | `01` Formation-Core RSAs `APPROVED_LIMITED` (gov docs policy) | [google-ads.md](features/google-ads.md) |
-| `02` Attorneys RSAs — **v5 in review** (`823134166556` / `823134166682`); pause AG if DISAPPROVED | [google_ads_changes.md](../google_ads_changes.md) |
+| `02` Attorneys RSAs — **v5 DISAPPROVED Sep 2**; **ad group PAUSED** (`196018838817`); stop copy churn | [google_ads_changes.md](../google_ads_changes.md) |
 | Deferred: exact-neg `[form pllc new york]` on Sales until `01` delivers | [google_ads_changes.md](../google_ads_changes.md) |
 | Gate 1 (~Aug 17, checked Sep 1): need `01` ≥15 conv + account ≥28/30d — currently **~3.5** / **16**. **Fail / hold `03`.** Re-baseline after Aug 4 stop-word fix | [operating plan](../nypllc-google-ads-operating-plan.md) |
 | Recovery after Aug 4 negative fix: eligible volume + clicks on Sales / `01` | [google_ads_changes.md](../google_ads_changes.md) |
@@ -83,6 +84,8 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Recent changes
 
 📖 Full log: [session-history.md](../docs/session-history.md)
+
+Latest (Sep 2 2026): **Sid amendment** — portfolio tCPA **$105** diagnostic; abandoned-checkout emails; RA stop-charge vs CoC split; OP deficiencies `#4` **unpublished**; CAQH $499+link pulled to mid-Sep. [operating plan §0.5](../nypllc-google-ads-operating-plan.md).
 
 Latest (Sep 1 2026, later): **Follow-ups sent** — CAQH (8, skip Aaron), EXP close-out, Mercury + Gusto third ping. **Recovery plan** — Core Exact unpinned paused; Attorneys v5 uploaded; June tCPA diagnosis; Gate 2 treated as permission slip; $985→Feb; MSO page built **unpublished**. [CORE-EXACT-FUNNEL-AUDIT.md](../ads-pull-2026-09-01-weekly-sop/CORE-EXACT-FUNNEL-AUDIT.md). Earlier same day: **Weekly Ads SOP** — 7d CPA $237 / 2 conv; 30d CPA $128 / 16 conv; Ads↔CRM 0%; Gate 1 fail/hold. [WEEKLY-SOP.md](../ads-pull-2026-09-01-weekly-sop/WEEKLY-SOP.md).
 

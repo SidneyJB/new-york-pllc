@@ -24,7 +24,7 @@ Bottleneck is **post-click / RSA mix / mobile**, not eligible volume.
 | Formation-Core — **unpinned** | 437 | 50 | $306 | **0** |
 | All other `01` RSAs | — | 20 | $146 | 0 |
 
-Google is serving the unpinned RSA more than the converting controlled RSA. **Paused Sep 1** (`Formation-Core — unpinned`, ad `816286133015`). Do not raise tCPA.
+Google is serving the unpinned RSA more than the converting controlled RSA. **Paused Sep 1** (`Formation-Core — unpinned`, ad `816286133015`). Keep it paused. tCPA was raised **$90 → $105 on Sep 2** as a separate portfolio diagnostic (not this RSA).
 
 ## Keywords that convert vs spend
 

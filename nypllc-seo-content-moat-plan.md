@@ -114,7 +114,7 @@ Priority order; ★ = contains proprietary data (non-negotiable for these):
 1. ★ NYSED PLLC Approval Times: Live Tracker — **SHIPPED Jul 22** → `/nysed-approval-times` (manual monthly data refresh; not auto-query)
 2. How Long Does It Take to Form a PLLC in NY? ★ — **SHIPPED Jul 22** → `/how-long-to-form-a-pllc-in-ny` (real 2026 NYSED numbers + stage calendar)
 3. NY PLLC Cost: Complete 2026 Breakdown — **SHIPPED Jul 22** → `/ny-pllc-cost` (every fee, exact — include Rockland publication as the reason the flat fee works statewide)
-4. ★ The 10 Most Common NYSED OP Deficiencies (and fixes)
+4. ★ The 10 Most Common NYSED OP Deficiencies (and fixes) — **BUILT Sep 2 2026 (unpublished)** → `web/src/unpublished/nysed-op-deficiencies/` (Vercel 404s `/nysed-op-deficiencies`; do not copy into `app/` until Sid launches)
 5. PLLC vs LLC in New York for Licensed Professionals
 6. PLLC vs PC in New York
 7. S Corp Election for NY PLLCs: The Actual Math (+ calculator)

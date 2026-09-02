@@ -1,12 +1,23 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-09-01
+**Last updated:** 2026-09-02
 
 ## Account
 
 - Customer: NYPLLC (`1529880213`)
 - Live: `Sales-Search-1` + `01_Core_Exact_NY` + `02_Professions_NY` (ENABLED)
 - Unattached PAUSED: `03_ForeignQual_US`
+
+---
+
+## Changes on 2026-09-02 — Diagnostic tCPA $90 → $105 (Sid amendment)
+
+| Action | Detail |
+|---|---|
+| Portfolio **NYPLLC Search Portfolio** `12148056412` | Target CPA **$90 → $105** (`target_cpa_micros = 105000000`). Script: `google_ads/set_portfolio_tcpa.py`. One variable; no budget/keyword/LP change in this window. |
+| Why | $90 caps eligible ~3.3–3.7k/wk on Sales (~16–25 conv/30d). Ladder needing 40/month before a raise is a deadlock. May $110 ≈ ~29/mo at ~$130 CPA is the near-term ceiling. |
+| Judgment | ≥14 days. Success = Sales eligible toward **4,500–5,000+/week**. Expected CPA **$130–140**. Failure = eligible still ~3.3–3.7k → **revert to $90**. ~17% step is a one-time diagnostic, not a new ladder habit. |
+| Attorneys v5 | **DISAPPROVED**; **paused** Attorneys AG `196018838817`. Stop copy churn. Script: `google_ads/set_ad_group_status.py`. |
 
 ---
 
@@ -17,7 +28,7 @@ Funnel audit: [`ads-pull-2026-09-01-weekly-sop/CORE-EXACT-FUNNEL-AUDIT.md`](ads-
 | Action | Detail |
 |---|---|
 | `01` Formation-Core unpinned | **PAUSED** (`816286133015`) — 50 clicks / $306 / 0 purchases vs controlled 27 / $174 / 3.50. Do not raise bids. |
-| Attorneys RSA **v5** | Uploaded `--replace` **Sep 1**: controlled `823134166556` · unpinned `823134166682`. No attorney/law-practice/filed/six-week copy; land `/professions/law`. In review. If DISAPPROVED at next weekly SOP (~Sep 8), **pause Attorneys ad group** and stop copy churn. |
+| Attorneys RSA **v5** | **DISAPPROVED** (Sep 2). **Paused** Attorneys ad group `196018838817`. Stop copy churn. |
 | June eligible-volume drop | **Closed.** Not a broad→exact change. Bare `pllc` stayed BROAD (`48929560`) all June. Cliff is **Jun 7 tCPA $110→$90** (spend $129→$55/day; `pllc` broad throttled $98→$23/day). Jun 28 publication negatives are a later, smaller effect. |
 | Gate 2 (~Sep 12) | Treat as **permission slip only** — volume cannot hit 35/30d (need ~2.45 purchases/day vs ~0.3–0.4 recent). Re-evaluate after Aug 3–13 conversions age out. |
 | Holds | `03` paused; no Microsoft scale; no MSO ads; **$985 deferred to February** unless a clean ladder-free window appears before Nov 14. |

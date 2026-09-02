@@ -4,6 +4,8 @@ import { useEffect, useRef } from 'react'
 import { usePathname } from 'next/navigation'
 import { trackLeadStart, trackLeadSubmit, trackCheckoutStart, trackScrollDepth } from '@/lib/analytics/track'
 import { trackGoogleAdsBeginCheckout } from '@/lib/analytics/google-ads'
+import { extractEmailFromCheckoutFieldEvent } from '@/lib/checkout-abandonment/extract-email-from-checkout-field-event'
+import { reportCheckoutAbandonment } from '@/lib/checkout-abandonment/report-checkout-abandonment'
 import { PRICING } from '@/lib/constants'
 
 export interface CheckoutTrackingOptions {
@@ -98,6 +100,8 @@ export function useSpiffyFormEngagementTracking() {
           let fieldChangeCount = 0
           let lastFieldChangeTime: number | null = null
           
+          let lastAbandonmentEmail = ''
+
           // Track when user first interacts with form
           checkout.on('change:field', (ev: any) => {
             const now = Date.now()
@@ -118,6 +122,12 @@ export function useSpiffyFormEngagementTracking() {
             // Store engagement metrics
             sessionStorage.setItem('form_field_change_count', fieldChangeCount.toString())
             sessionStorage.setItem('form_last_interaction_time', now.toString())
+
+            const email = extractEmailFromCheckoutFieldEvent(ev)
+            if (email && email !== lastAbandonmentEmail) {
+              lastAbandonmentEmail = email
+              void reportCheckoutAbandonment(email)
+            }
           })
           
           // Track order changes (progress through checkout)

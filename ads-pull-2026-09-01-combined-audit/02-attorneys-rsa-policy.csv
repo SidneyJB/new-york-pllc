@@ -1,0 +1,3 @@
+campaign.name,ad_group.name,ad_group_ad.ad.id,ad_group_ad.ad.name,ad_group_ad.status,ad_group_ad.policy_summary.approval_status,ad_group_ad.policy_summary.review_status
+02_Professions_NY,Attorneys,823134166556,Attorneys — controlled,ENABLED,UNKNOWN,REVIEW_IN_PROGRESS
+02_Professions_NY,Attorneys,823134166682,Attorneys — unpinned,ENABLED,UNKNOWN,REVIEW_IN_PROGRESS

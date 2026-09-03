@@ -2,9 +2,11 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
-## 2026-09-03 — Daily Ads SOP
+## 2026-09-03 — Ads calendar override + $1M mix
 
-7d CPA **$260** / 2 conv (both Sep 1); 30d **$143** / 15 conv (over freeze $130 — not 3 consecutive weeks). Tracking 7d **0%**, 30d **~7%**. $105 diagnostic **day 2** — Sales eligible week Aug 31 still partial. No account changes. Writeup: [`ads-pull-2026-09-03-daily-sop/DAILY-SOP.md`](../ads-pull-2026-09-03-daily-sop/DAILY-SOP.md).
+Owner: account **small, not broken**. **Sep 15** $105 eligible readout; **Sep 15–22 enable `03` + Bing**; **Oct 1** tCPA ~$120 if mCPA <$160; Oct mobile + pub-cost calculator on LPs; **Nov 1** 30–40 vs 20–25 paid (no goalpost move); Dec–Jan freeze/surge. $1M: paid 50–60/mo stretch; frozen rate ~$400–550K without B2B. January n=1 hedge. 📖 [expansion-next-steps.md](../memory-bank/expansion-next-steps.md) · [operating plan §0.5](../nypllc-google-ads-operating-plan.md).
+
+Daily SOP same day: 7d CPA **$260** / 2 conv; 30d **$143** / 15. [DAILY-SOP.md](../ads-pull-2026-09-03-daily-sop/DAILY-SOP.md).
 
 ## 2026-09-02 — PLLC vs LLC `#5` unpublished
 

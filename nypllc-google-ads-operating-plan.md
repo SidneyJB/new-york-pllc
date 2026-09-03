@@ -16,9 +16,9 @@ The prior plan claimed July/August were "your weakest weeks." That was wrong. Th
 
 What the data actually supports on seasonality:
 
-- **January 2026 is the only proven high season.** 46 conversions, $50 CPA, 18.8% IS, 14.5% CVR, rank-lost down to 79.8% — every metric peaked simultaneously.
-- **Q1's headline strength is a January artifact.** Feb '26 was $113 CPA (second-worst month ever); Mar was $79. Do not plan around "Q1 is strong" — plan around "January is strong."
-- **Summer is unknown.** Jul–Aug 2026 is your first summer. This plan treats it as a baseline-measurement period: log weekly volume, CPC, and CVR now so that in 2027 you have a real seasonal curve instead of an assumption.
+- **January 2026 is a candidate season with n=1**, not a proven law. Ads dashboard peaked (46 conv, $50 CPA, 18.8% IS, 14.5% CVR). CRM orders were **51 in Jan vs 57 in May**; orders per 100 paid clicks were **16.0 vs 16.1**. Treat Jan as ops-hedge (freeze, no price test), not as a volume forecast.
+- **Q1's headline strength is a January artifact.** Feb '26 was $113 CPA (second-worst month ever); Mar was $79.
+- **Summer is unknown** as a clean seasonal read (self-inflicted delivery damage Jun–Aug). Log weekly volume, CPC, and CVR so 2027 has a curve.
 
 The timing argument for restructuring immediately survives on corrected grounds: (1) every structural change carries a 2–6 week stabilization cost, and January is ~25 weeks away — the runway is finite; (2) whatever summer turns out to be, the current run-rate (~$45–70/day) means changes now are cheap to observe; (3) the account must be frozen and stable by Dec 1 to enter January with a confident bidder.
 
@@ -49,7 +49,7 @@ The timing argument for restructuring immediately survives on corrected grounds:
 - Floor case — a bare standard domestic order: $885 − ($10 OP + $50 notices + $50 cert pub + $235 AoO + ~$27 Stripe) ≈ **$513**.
 - Recurring tail not in the above: RA renewals ($99/yr from month 13), VM at 26% attach × $50/mo. Conservatively +$150–350 LTV per order.
 - **Decision rules derived from this:**
-  - Target blended CPA: **≤$110** through October, **≤$130** acceptable at scale.
+  - Target blended CPA: **≤$130** acceptable at scale; **marginal ≤$160** is the extra-order test (Sep 3 calendar). Average-CPA “≤$110 through October” is superseded while the $105→$120 diagnostic runs.
   - **Marginal CPA ceiling: $160** (preserves ~3.3:1 on first transaction alone, ignoring the tail).
   - **Never-exceed line: $200 marginal.** Above this, junk-traffic risk historically dominates (your $120 tCPA experiment is the proof).
   - **Publishing-only: no paid acquisition, ever** (owner decision, Jul 5 2026). No campaign, no ad group, no publishing sitelinks or price assets, and negative List E (1.3) fences broad match off those queries account-wide.
@@ -81,7 +81,18 @@ The Jul volume table assumed the *addressable* pool was mostly QS/structure. Sep
 
 Near-term ceiling is May’s read, not the original 60–90/month model: **~$110 tCPA bought ~29/month at ~$130 CPA**. Still ~4:1 on $536 contribution.
 
-**Diagnostic (one step, reversible):** portfolio tCPA **$90 → $105** (NYPLLC Search Portfolio `12148056412`). Judgment is **Sales eligible auctions**, not Gate 1/2 volume math: success = climbing toward **4,500–5,000+/week within two weeks**; expected CPA **$130–140**. Failure = stuck ~3.3–3.7k/week → **revert to $90**. This move is ~17% (over the old ≤15% ladder rule) — **one-time diagnostic, not a new habit**. Do not also change budgets, keywords, or LPs in the same window. Gate 2 (~Sep 12) still does **not** launch `03`, Discovery, or Bing.
+**Diagnostic (one step, reversible):** portfolio tCPA **$90 → $105** (NYPLLC Search Portfolio `12148056412`). Judgment is **Sales eligible auctions**, not Gate 1/2 volume math: success = climbing toward **4,500–5,000+/week**. Failure = spend up, auctions flat (**May pattern**: +38% spend / +5% impressions) → paid is **capped**; say so; do not keep raising into the same pool.
+
+**Sep 3 2026 owner calendar (supersedes Gate 2/3 holds on `03` + Bing):** Account is **small, not broken** (tracking ±10%, structure in place). Waiting on `03`/Bing was to avoid scaling a broken account — that reason is retired.
+
+| Date | Call |
+|------|------|
+| **Sep 15** | $105 readout: Sales eligible **~3,500 → 4,500–5,000**? If yes, keep. If May pattern, **paid capped**. |
+| **Sep 15–22** | **Enable `03_ForeignQual_US`** (attach portfolio) **and Microsoft clone** of live Search campaigns. New customers (out-of-state FQ, second engine) — not more money for the same NY auctions. **Still no** Sales→Discovery demotion. |
+| **Oct 1** | If **marginal CPA of extra Sep orders <$160** ($536 contribution), raise portfolio tCPA to **~$120** (May-era bid that bought ~29/mo, now on better structure). |
+| **Through Oct** | Mobile CVR (recent 7d: **21 mobile clicks, 0 conv**) + **publication-cost calculator on LPs** (anxiety killer; **not** a publishing-only offer or county-shopping CTA — List E / Rockland-only package). CVR is the free volume lever. |
+| **Nov 1** | **Verdict.** Oct **30–40 paid orders** → original 50–60/mo path still alive; January can finish. Oct **20–25** after the above → **50–60 regular months do not exist at prices worth paying.** Do not move the goalposts. |
+| **Dec–Jan** | Freeze, preload budgets, run January at full force. |
 
 ### 0.6 Incrementality — the assumption this whole model rests on (added Aug 4 2026)
 
@@ -348,7 +359,7 @@ One honest flag from the QS baseline: the account's only prior profession test �
 
 ### 2.3 Campaign 03_ForeignQual_US — launches Week 4–6, Gate 1-dependent
 
-**Status (Jul 9 2026):** Created **PAUSED** via API (`campaigns/24012757620`). Budget **$15/day** · **United States** Presence · Search only · shared negatives **A-FQ + B–E** · **6 ad groups** · **33 keywords** · **12 RSAs uploaded** (controlled + unpinned; no `→` — SYMBOLS policy). Still on **inline** Maximize Conversions tCPA $90 (not on portfolio). Do **not** enable until Gate 1 + conversion flip + attach to portfolio. CA exacts → hub (no CA state page yet). Build package: [`google-ads-campaign-build/`](google-ads-campaign-build/).
+**Status (Jul 9 2026):** Created **PAUSED** via API (`campaigns/24012757620`). Budget **$15/day** · **United States** Presence · Search only · shared negatives **A-FQ + B–E** · **6 ad groups** · **33 keywords** · **12 RSAs**. **Sep 3 override:** enable **Sep 15–22** (attach portfolio). Do not wait for Gate 1 volume.
 
 **Geo:** United States, Presence (this is the deliberate exception to NY-only — foreign-qual buyers by definition search from NJ/PA/FL/TX/CT/CA). **Negatives:** List A-FQ (states list minus the six origin states) instead of List A. **Budget:** $10–15/day.
 
@@ -390,9 +401,9 @@ Week 2: create **portfolio Target CPA = $90** → attach the *existing* campaign
 
 **Preconditions to start the *regular* ladder:** Gate 2 passed · ≥40 pooled conversions/30 days · account CPA ≤$100.
 
-**Sep 2 diagnostic is not the ladder.** $90 created a deadlock (need 40/month to raise bids; $90 caps you at 16–25). The $105 step is judged by **Sales eligible volume** (§0.5). Do not treat it as “ladder step 1” and do not continue to $115 unless eligible actually expands and the 14-day/15-conversion rules later allow.
+**Sep 2/3 diagnostics are not the old Gate-2 ladder.** $90 created a deadlock (need 40/month to raise bids; $90 caps you at 16–25). $105 is judged by **Sales eligible**. **Oct 1** may go to **~$120** only if extra-order marginal CPA **<$160** and Sep 15 was not the May pattern.
 
-**Steps (after the diagnostic holds):** $105 → $115 → $130 → ($145 maximum in 2026). Historical planned steps $90 → $100 are superseded.
+**Steps (if Nov 1 verdict is “alive”):** $105 → ~$120 → then only if eligible and marginal still hold. Historical $90 → $100 and Gate-2 “no $115 until 40/mo” are superseded by the Sep 3 calendar.
 
 **Rules:**
 - One step at a time; never more than ~15% per move (20%+ re-triggers learning periods — your era table is the museum of what that costs).
@@ -516,7 +527,7 @@ CVR feeds the bidder's confidence, confident bidding wins more auctions cheaper,
 
 ### 5.2 Test backlog (one at a time, ≥2 weeks or ≥100 conversions-worth of traffic each)
 
-1. **Publication-cost anxiety killer:** a county-based publication cost explainer/calculator with "included in your $885" framing. Publication cost is the scariest unknown in this purchase.
+1. **Publication-cost anxiety killer (Oct 2026 — owner calendar):** calculator / explainer on money LPs with "included in your $885" framing. **Not** a publishing-only offer, **not** a county-shopping CTA (List E; Rockland-only package). Publication cost is the scariest unknown in this purchase.
 2. **"Book a 15-minute call" secondary CTA** for fence-sitters (tracked as secondary conversion; watch whether call-bookers convert at higher rates and value calls accordingly).
 3. **Abandoned-checkout email sequence** — you already have Stripe events and Gmail integration; trigger at 1h / 24h / 72h. Nearly free to build, pure recovery.
 4. Profession-matched testimonials on each profession landing page.
@@ -530,7 +541,7 @@ The CRO change log and the ads change log are the same document. A landing-page 
 
 ## Part 6 — Other channels
 
-### 6.1 Microsoft Ads clone (Weeks 6–8)
+### 6.1 Microsoft Ads clone (**Sep 15–22 2026** — pulled forward from Gate 3)
 
 - Use **Microsoft Import from Google Ads**; import campaigns 01–03 only — *not* Discovery (broad match on Bing without your weekly mining cadence is just a leak). Set weekly auto-sync so keyword and negative changes propagate automatically.
 - Install the UET tag; import Google conversions (or fire a duplicate webhook conversion).
@@ -594,8 +605,8 @@ Sixteen columns, one row a week, and every future argument with yourself gets se
 | Gate | When | Pass criteria | On pass | On fail |
 |---|---|---|---|---|
 | **1** | End of week 4 (~Aug 15) | Core Exact ≥15 conv at ≤$110 **and** account ≥28 conv/30d at ≤$105 | Launch 03_ForeignQual; budgets +20% | Hold budgets; QS + search-term audit; re-check in 2 weeks |
-| **2** | End of week 8 (~Sep 12) | Account ≥35 conv/30d at ≤$100 **and** Core Exact IS ≥35% | Demote old campaign → 04_Discovery (2.4); *regular* ladder (not the Sep 2 $105 diagnostic) | **Expected fail on volume** even if $105 expands eligible. **Permission slip only:** do **not** demote Sales, launch `03`, start Discovery, or Bing. Core Exact IS already ~47% — IS is not the blocker. |
-| **3** | Week 12 (~Oct 10) | ≥45 conv/30d · Core Exact IS ≥50% · marginal CPA ≤$160 | Bing clone live; budgets to Oct level; DSA/competitor tests unlocked | Optimize, don't scale |
+| **2** | End of week 8 (~Sep 12) | Account ≥35 conv/30d at ≤$100 **and** Core Exact IS ≥35% | Demote old campaign → 04_Discovery (2.4) | **Volume fail expected.** **Sep 3 override:** do **not** wait on this gate to launch **`03` + Bing** (Sep 15–22). Still **do not** demote Sales → Discovery. Core Exact IS already ~47% — IS is not the blocker. |
+| **3** | **Nov 1 verdict** (was ~Oct 10) | October **paid orders 30–40** | Original 50–60/mo path alive; January can finish; optional further bid only if marginal still <$160 | October **20–25** after $105, `03`, Bing, ~$120, mobile/LP work → **50–60/mo does not exist at prices worth paying.** State that. No DSA/competitor unlock on a capped pool. |
 | **4** | Dec 1 | 3 stable weeks at ≤$110 CPA; tracking sane | Freeze + surge protocol (3.5) | Enter January at whatever level is stable; surge budgets only, not targets |
 
 Gates are permission slips, not deadlines. Missing a gate by two weeks costs almost nothing; scaling through a failed gate costs a learning-period spiral in your one proven season.
@@ -633,16 +644,18 @@ Gates are permission slips, not deadlines. Missing a gate by two weeks costs alm
 | Aug 17 | **Gate 1** — ✅ checked Aug 19 ([writeup](ads-pull-2026-08-19-weekly-sop/WEEKLY-SOP.md)): **fail / hold** (`01` 2 conv · account 13/30d · 30d CPA $123). +`[form a pllc]` on `01`; `03` stays PAUSED |
 | Aug 24 | ✅ Weekly SOP **ran Aug 26** ([writeup](ads-pull-2026-08-26-weekly-sop/WEEKLY-SOP.md)): 7d CPA $240 / 2 conv; 30d CPA $111 / 17 conv; Ads↔CRM **0%**; +`[pllc in new york]` +`[pllc nys]` on `01`; Attorneys RSA **v4** in review; Gate 1 fail/hold · Auction Insights still overdue |
 | Aug 31 | ✅ Weekly SOP **ran Sep 1** ([writeup](ads-pull-2026-09-01-weekly-sop/WEEKLY-SOP.md)): 7d CPA $237 / 2 conv (both Sep 1); 30d CPA $128 / 16 conv; Ads↔CRM **0%**; no account changes; Attorneys RSA **v4** DISAPPROVED (v5 needed); Gate 1 fail/hold · Auction Insights still overdue |
-| Sep 1 (same day, post-SOP) | ✅ Core Exact audit ([writeup](ads-pull-2026-09-01-weekly-sop/CORE-EXACT-FUNNEL-AUDIT.md)): pause Formation-Core unpinned; Attorneys **v5** uploaded (`823134166556` / `823134166682`). June drop closed (tCPA, not match-type). **Gate 2 will fail on volume** — permission slip only; do not demote Sales / `03` / Discovery / Bing on Sep 12/14. $985 → February. |
-| Sep 2 | ✅ **Diagnostic tCPA $90 → $105** on portfolio `12148056412` (Sid amendment). Judge **Sales eligible** toward 4.5–5k/wk in ≥14 days; revert if flat. Abandoned-checkout email ships (off-page; allowed in this window). |
-| Aug 24 – Sep 6 | Accumulate data · abandoned-checkout emails ship · Microsoft Ads account created (**do not scale Bing**) |
-| Sep 7 | Gate 2 window opens — **expect fail** (need 27 purchases in 11 days). Hold `03`, Discovery demotion, Bing. Watch eligible after $105. |
-| Sep 14 | **On fail (expected):** keep Sales full budget; **no** `03` / Discovery / Bing. Eligible-volume readout on the $105 diagnostic (not a ladder unlock). |
-| Sep 21 | Microsoft import + UET live (campaigns 01–03 only) |
-| Sep 28 – Oct 5 | Observe step 1 (14d/15conv) · finish §5.1 friction cut if still open · remove device modifier when 3.6 criteria met |
-| Oct 10 | **Gate 3** → budgets up · ladder step 2 ($115) · optional DSA test |
-| Oct 17 – Nov 14 | Step 3 if marginal holds · CRO test #2 · **last structural change Nov 14** |
-| Nov 15 – Dec 1 | **FREEZE** (budgets and emergency negatives only) · Gate 4 on Dec 1 |
+| Sep 1 (same day, post-SOP) | ✅ Core Exact audit ([writeup](ads-pull-2026-09-01-weekly-sop/CORE-EXACT-FUNNEL-AUDIT.md)): pause Formation-Core unpinned; Attorneys **v5** uploaded. June drop closed. Gate 2 volume fail expected. **`03`/Bing hold superseded Sep 3.** $985 → February. |
+| Sep 2 | ✅ **Diagnostic tCPA $90 → $105**. Eligible toward 4.5–5k/wk. Abandoned-checkout email. |
+| Aug 24 – Sep 6 | Accumulate data · Microsoft account created (scale **Sep 15–22**) |
+| Sep 7 | Gate 2 window — volume fail expected. **Sep 3 override:** `03` + Bing still launch **Sep 15–22** (account small, not broken). Watch eligible after $105. |
+| **Sep 15** | **$105 eligible readout** (Sales ~3.5k → 4.5–5k?). May pattern = paid capped. |
+| **Sep 15–22** | **Enable `03`** + **Bing clone**. No Discovery demotion. |
+| Sep 21 | Microsoft import + UET (campaigns 01–03). |
+| **Oct 1** | If extra-Sep **mCPA <$160** → portfolio tCPA **~$120**. |
+| Oct | Mobile CVR + publication-cost calculator on LPs (not publishing-only / not county shop). |
+| **Nov 1** | **Verdict:** Oct 30–40 paid vs 20–25. |
+| Oct 17 – Nov 14 | Last structural change **Nov 14** unless Nov 1 already called paid capped |
+| Nov 15 – Dec 1 | **FREEZE** · Gate 4 on Dec 1 |
 | Dec 26–28 | Surge budgets + target staged (3.5) |
 | Jan 2–31 | Surge protocol, daily cadence |
 | Feb 1–10 | Step-down 20–25%/week |

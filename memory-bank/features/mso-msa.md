@@ -21,7 +21,7 @@ CRM ops: [PLLC-CRM mso-msa shard](../../../PLLC-CRM/memory-bank/features/mso-msa
 | Customer cash if they do both | — | **$2,715** + optional VM / S Corp / DBA |
 
 - **$0 referral fee.** Intro only. Engagement is customer ↔ counsel.
-- **Default PLLC.** PC only if counsel says so for that profession after intro.
+- **Default PLLC.** PC only if counsel says so for that profession after intro. Domestic NY **PC** manual quote (MSO-ready, Practice entity only): **$1,285** — see [domestic-ny-pc.md](domestic-ny-pc.md). Not the $1,770 pair; customer may form Delaware C Corp MSO separately.
 - **CheapNewYorkLLC is not in this product.** The management LLC is sold only as part of this licensed-professional pair (or as the already-formed add-on below). Never SEO or ads for generic LLC. `/order-llc` stays order-taking only.
 - **Not included in $1,770:** MSA, S Corp ($195/entity), DBA ($199), FMV, medical director, CAQH, HIPAA pack.
 

@@ -30,6 +30,7 @@ Listing shard filenames (e.g. via glob) is optional; reading their contents is n
 | SEO, metadata, sitemap, canonical, domain, www.nypllc.com, content moat, organic, GSC, Search Console, rank tracking, target list, cannibalization | [features/seo-and-domain.md](features/seo-and-domain.md) → [SEO content moat plan](../nypllc-seo-content-moat-plan.md) + [target list](../seo-target-list-2026-08-04.md) |
 | Plain LLC, `/order-llc`, CheapNewYorkLLC, sister company, LLC publication | **[projectbrief.md](projectbrief.md) § Scope boundary — out of scope, do not pursue** |
 | MSO, MSA, management LLC, management services, PLLC + LLC pair, Jonah, $1770 bundle | [features/mso-msa.md](features/mso-msa.md) → [CRM ops](../../PLLC-CRM/memory-bank/features/mso-msa.md) · [expansion-next-steps.md](expansion-next-steps.md) |
+| Domestic NY PC, professional corporation formation, MSO-ready PC, $1285 PC quote | [features/domestic-ny-pc.md](features/domestic-ny-pc.md) |
 | Profession page, dentist, CPA, veterinarian, NYSED profession | [features/profession-pages.md](features/profession-pages.md) |
 | Foreign, foreign-into-NY, qualify into NY, /foreign-pllc | [features/foreign-into-ny.md](features/foreign-into-ny.md) |
 | Partner, B2B, referral, coupon, /partners, ?c= | [features/partner-referral.md](features/partner-referral.md) |

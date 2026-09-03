@@ -1,0 +1,267 @@
+change_event.change_date_time,change_event.user_email,change_event.client_type,change_event.change_resource_type,change_event.resource_change_operation,change_event.changed_fields,change_event.old_resource,change_event.new_resource,change_event.campaign,change_event.ad_group
+2026-08-30 20:24:20.338879,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/415103633555""
+  id: 415103633555
+}
+",,
+2026-08-30 20:24:21.492015,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/415103638328""
+  id: 415103638328
+}
+",,
+2026-08-30 20:24:22.515631,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/415103637602""
+  id: 415103637602
+}
+",,
+2026-08-30 20:24:23.918223,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/415103639237""
+  id: 415103639237
+}
+",,
+2026-08-30 20:24:25.119903,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/415103639966""
+  id: 415103639966
+}
+",,
+2026-08-30 20:24:26.029295,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/415211843686""
+  id: 415211843686
+}
+",,
+2026-08-30 20:24:27.571055,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/415211846194""
+  id: 415211846194
+}
+",,
+2026-09-01 21:36:01.835295,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,UPDATE,"paths: ""ad""
+paths: ""status""
+","ad_group_ad {
+  status: ENABLED
+  ad {
+  }
+}
+","ad_group_ad {
+  status: PAUSED
+  ad {
+  }
+}
+",customers/1529880213/campaigns/24022049179,customers/1529880213/adGroups/201832402041
+2026-09-01 21:36:59.207455,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,UPDATE,"paths: ""ad""
+paths: ""status""
+","ad_group_ad {
+  status: ENABLED
+  ad {
+  }
+}
+","ad_group_ad {
+  status: REMOVED
+  ad {
+  }
+}
+",customers/1529880213/campaigns/24017629178,customers/1529880213/adGroups/196018838817
+2026-09-01 21:36:59.933391,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,CREATE,"paths: ""ad""
+paths: ""ad_group""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_ad {
+  ad {
+  }
+}
+","ad_group_ad {
+  resource_name: ""customers/1529880213/adGroupAds/196018838817~823134166556""
+  status: ENABLED
+  ad {
+    responsive_search_ad {
+      headlines {
+        pinned_field: HEADLINE_1
+        text: ""NY PLLC Formation – $885 Flat""
+      }
+      headlines {
+        text: ""Start Your NY PLLC This Week""
+      }
+      headlines {
+        text: ""Publication & EIN Included""
+      }
+      headlines {
+        text: ""Licensed Pro? Form Your PLLC""
+      }
+      headlines {
+        text: ""Built for NY Professionals""
+      }
+      headlines {
+        text: ""Everything Included. One Fee""
+      }
+      headlines {
+        text: ""Registered Agent Yr 1 Free""
+      }
+      headlines {
+        text: ""Flat Fee - No Hidden Costs""
+      }
+      headlines {
+        text: ""EIN & Operating Agreement Inc""
+      }
+      headlines {
+        text: ""Rated 5 Stars on Google""
+      }
+      headlines {
+        text: ""Publication Included""
+      }
+      headlines {
+        text: ""Talk to a PLLC Specialist""
+      }
+      headlines {
+        text: ""No Hidden Add-On Fees""
+      }
+      descriptions {
+        text: ""Form a New York PLLC: publication, EIN, operating agreement and RA year one. $885 flat.""
+      }
+      descriptions {
+        text: ""Flat $885 covers publication, EIN, operating agreement and registered agent year one.""
+      }
+      descriptions {
+        text: ""Start your New York PLLC today. Everything included - one flat fee.""
+      }
+      descriptions {
+        text: ""Specialists in NY professional entity formation. Licensed-professional focus.""
+      }
+    }
+    resource_name: ""customers/1529880213/ads/823134166556""
+    id: 823134166556
+    final_urls: ""https://www.nypllc.com/professions/law""
+    name: ""Attorneys — controlled""
+  }
+  ad_group: ""customers/1529880213/adGroups/196018838817""
+}
+",customers/1529880213/campaigns/24017629178,customers/1529880213/adGroups/196018838817
+2026-09-01 21:37:00.336031,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,UPDATE,"paths: ""ad""
+paths: ""status""
+","ad_group_ad {
+  status: ENABLED
+  ad {
+  }
+}
+","ad_group_ad {
+  status: REMOVED
+  ad {
+  }
+}
+",customers/1529880213/campaigns/24017629178,customers/1529880213/adGroups/196018838817
+2026-09-01 21:37:00.867391,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,CREATE,"paths: ""ad""
+paths: ""ad_group""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_ad {
+  ad {
+  }
+}
+","ad_group_ad {
+  resource_name: ""customers/1529880213/adGroupAds/196018838817~823134166682""
+  status: ENABLED
+  ad {
+    responsive_search_ad {
+      headlines {
+        text: ""NY PLLC Formation – $885 Flat""
+      }
+      headlines {
+        text: ""Start Your NY PLLC This Week""
+      }
+      headlines {
+        text: ""Publication & EIN Included""
+      }
+      headlines {
+        text: ""Licensed Pro? Form Your PLLC""
+      }
+      headlines {
+        text: ""Built for NY Professionals""
+      }
+      headlines {
+        text: ""Everything Included. One Fee""
+      }
+      headlines {
+        text: ""Registered Agent Yr 1 Free""
+      }
+      headlines {
+        text: ""Flat Fee - No Hidden Costs""
+      }
+      headlines {
+        text: ""EIN & Operating Agreement Inc""
+      }
+      headlines {
+        text: ""Rated 5 Stars on Google""
+      }
+      headlines {
+        text: ""Publication Included""
+      }
+      headlines {
+        text: ""Talk to a PLLC Specialist""
+      }
+      headlines {
+        text: ""No Hidden Add-On Fees""
+      }
+      descriptions {
+        text: ""Form a New York PLLC: publication, EIN, operating agreement and RA year one. $885 flat.""
+      }
+      descriptions {
+        text: ""Flat $885 covers publication, EIN, operating agreement and registered agent year one.""
+      }
+      descriptions {
+        text: ""Start your New York PLLC today. Everything included - one flat fee.""
+      }
+      descriptions {
+        text: ""Specialists in NY professional entity formation. Licensed-professional focus.""
+      }
+    }
+    resource_name: ""customers/1529880213/ads/823134166682""
+    id: 823134166682
+    final_urls: ""https://www.nypllc.com/professions/law""
+    name: ""Attorneys — unpinned""
+  }
+  ad_group: ""customers/1529880213/adGroups/196018838817""
+}
+",customers/1529880213/campaigns/24017629178,customers/1529880213/adGroups/196018838817
+2026-09-02 12:23:37.452703,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP,UPDATE,"paths: ""status""
+","ad_group {
+  status: ENABLED
+}
+","ad_group {
+  status: PAUSED
+}
+",customers/1529880213/campaigns/24017629178,customers/1529880213/adGroups/196018838817
+2026-09-03 16:03:10.295455,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/416850013727""
+  id: 416850013727
+}
+",,

@@ -2,6 +2,10 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-09-03 — Daily Ads SOP
+
+7d CPA **$260** / 2 conv (both Sep 1); 30d **$143** / 15 conv (over freeze $130 — not 3 consecutive weeks). Tracking 7d **0%**, 30d **~7%**. $105 diagnostic **day 2** — Sales eligible week Aug 31 still partial. No account changes. Writeup: [`ads-pull-2026-09-03-daily-sop/DAILY-SOP.md`](../ads-pull-2026-09-03-daily-sop/DAILY-SOP.md).
+
 ## 2026-09-02 — PLLC vs LLC `#5` unpublished
 
 Editorial map piece `#5` drafted under [`web/src/unpublished/pllc-vs-llc/`](../web/src/unpublished/pllc-vs-llc/). Same launch lock as MSO: not in `app/`; Vercel + `next.config.ts` 404 `/pllc-vs-llc`; `robots` noindex. Unique data: OP median wait from [`NYSED_APPROVAL_TIMES`](../web/src/lib/nysed-approval-times/data.ts) (56 days as of 2026-07-22; PT 78 / LCSW 54). No `/order-llc` CTA (plain LLC stays CheapNewYorkLLC). No sitemap/footer. Do not copy into `app/` until Sid launches.

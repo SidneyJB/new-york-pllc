@@ -36,8 +36,8 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 ## Ads ops (maintenance — not expansion sprint)
 
-1. Watch **$105 eligible-volume test** (Sales toward 4.5–5k/wk). **Do not treat Sep 12 as a scale date.**
-2. Daily 10-min on Sales + `01` + `02`; `03` only if Gate 1 actually passes
+1. Watch **$105 eligible-volume test** (Sales toward 4.5–5k/wk; **day 2 as of Sep 3**). **Do not treat Sep 12 as a scale date.**
+2. Daily 10-min on Sales + `01` + `02`; `03` only if Gate 1 actually passes. Latest: [DAILY-SOP.md](../ads-pull-2026-09-03-daily-sop/DAILY-SOP.md) — 7d CPA **$260** / 2 conv; 30d **$143** / 15 (over freeze, not 3 weeks yet); Ads↔CRM 7d 0% / 30d ~7%
 3. Open: Customer Match upload; Auction Insights **manual UI export** (still overdue)
 4. **Deferred:** offline conversion upload; mobile LP §5.1 friction cut; `01`/`02` geo test; **$985 until February**
 5. **Weekly SOP next ~Sep 8** — Attorneys AG already paused (v5 DISAPPROVED); do not churn copy
@@ -85,6 +85,8 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Recent changes
 
 📖 Full log: [session-history.md](../docs/session-history.md)
+
+Latest (Sep 3 2026): **Daily Ads SOP** — 7d CPA $260 / 2 conv; 30d $143 / 15; tracking 7d 0% / 30d ~7%; $105 day 2; no account changes. [DAILY-SOP.md](../ads-pull-2026-09-03-daily-sop/DAILY-SOP.md).
 
 Latest (Sep 2 2026, later): PLLC vs LLC `#5` **built unpublished** (`web/src/unpublished/pllc-vs-llc/`; Vercel 404s `/pllc-vs-llc`; noindex; no `/order-llc` CTA). Next editorial `#6` PLLC vs PC.
 

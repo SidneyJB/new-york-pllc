@@ -83,7 +83,7 @@ January = **frozen machine at full force**, not a rebuild. **Nov 1** is the paid
 
 | Date | Rule |
 |------|------|
-| **Every weekly SOP** | Search terms, self-block, **Sales eligible**, mCPA vs $160, Ads↔CRM ±10%. tCPA **$105** until Oct 1. |
+| **Every weekly SOP** | Search terms, self-block, **Sales eligible**, mCPA vs $160, Ads↔CRM ±10%. tCPA **$105** until Oct 1. **Latest: Sep 5** — 7d CPA $122 / 6; 30d $144 / 16; Sales eligible 7d 3,431. |
 | **Sep 15** | Eligible **~3,500 → 4,500–5,000**? Spend-up/auctions-flat = **May pattern → paid capped**. |
 | **Sep 15–22** | **Enable `03` + Bing clone.** No Sales→Discovery. Attorneys AG stays paused. |
 | **~Sep 22** | Direct-RA first T-30s (CRM). |

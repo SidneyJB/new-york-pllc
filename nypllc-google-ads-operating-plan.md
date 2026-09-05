@@ -219,7 +219,7 @@ Anything currently marked primary that isn't a paid order gets demoted to second
 - [x] **Display Expansion: OFF** (content network false).
 - [x] **Ad rotation:** unset / default Optimize on the ad group (no OPTIMIZE_FOR_CLICKS override).
 - [x] **Audiences in Observation** (`AUDIENCE` bid_only=true): All visitors, All Converters, in-market Business Services. No separate Legal Services in-market vertical in taxonomy. **Jul 9:** set on Sales + `01`/`02`/`03` (01 was missing `bid_only` after audience copy — fixed).
-- [ ] **Customer Match:** CRM export ready — **353** unique `Customer.email` → `Ads - customer-match-emails_crm_2026-07-08.csv`. Empty list shell created via API: `NYPLLC Formation Customers (CRM)` id `9427032745`. **Upload blocked on Google Ads API** for this developer token (`CUSTOMER_NOT_ALLOWLISTED` → use [Data Manager API](https://developers.google.com/data-manager/api/devguides/audiences/google-ads/customer-match) or **Ads UI** Tools → Shared library → Audience manager → upload CSV into that list, then keep Observation).
+- [x] **Customer Match:** **UI upload Sep 5 2026** — new list `NYPLLC Formation Customers (CRM) Sep 2026` id `9465911299` (`CONTACT_INFO`, OPEN, 540d). CRM export **430** unique purchaser emails (`Ads - customer-match-emails_crm_2026-09-05.csv`, gitignored). Offline job `64631877404` **RUNNING** (Ads API still `CUSTOMER_NOT_ALLOWLISTED` for this token). Size still **0** until match finishes (hours). **Not attached to campaigns** (correct — do not Targeting). Old empty shell `9427032745` unused. After size populates, attach **Observation** (`bid_only`) only if we want the signal.
 - [x] **Call reporting on** (already enabled, incl. call conversion reporting).
 
 ### 1.3 Negative keyword architecture — five shared lists, applied account-wide
@@ -644,6 +644,7 @@ Gates are permission slips, not deadlines. Missing a gate by two weeks costs alm
 | Aug 17 | **Gate 1** — ✅ checked Aug 19 ([writeup](ads-pull-2026-08-19-weekly-sop/WEEKLY-SOP.md)): **fail / hold** (`01` 2 conv · account 13/30d · 30d CPA $123). +`[form a pllc]` on `01`; `03` stays PAUSED |
 | Aug 24 | ✅ Weekly SOP **ran Aug 26** ([writeup](ads-pull-2026-08-26-weekly-sop/WEEKLY-SOP.md)): 7d CPA $240 / 2 conv; 30d CPA $111 / 17 conv; Ads↔CRM **0%**; +`[pllc in new york]` +`[pllc nys]` on `01`; Attorneys RSA **v4** in review; Gate 1 fail/hold · Auction Insights still overdue |
 | Aug 31 | ✅ Weekly SOP **ran Sep 1** ([writeup](ads-pull-2026-09-01-weekly-sop/WEEKLY-SOP.md)): 7d CPA $237 / 2 conv (both Sep 1); 30d CPA $128 / 16 conv; Ads↔CRM **0%**; no account changes; Attorneys RSA **v4** DISAPPROVED (v5 needed); Gate 1 fail/hold · Auction Insights still overdue |
+| Sep 5 | ✅ Weekly SOP **ran Sep 5** (due Sep 8) ([writeup](ads-pull-2026-09-05-weekly-sop/WEEKLY-SOP.md)): 7d CPA $122 / 6 conv; 30d CPA $144 / 16 conv; Ads↔CRM **+6.7%**; self-block 0; tCPA $105 day 4; Sales eligible 7d 3,431; no account changes; `03`+Bing still Sep 15–22 · ✅ Auction Insights UI CSV (You IS 13.81%) |
 | Sep 1 (same day, post-SOP) | ✅ Core Exact audit ([writeup](ads-pull-2026-09-01-weekly-sop/CORE-EXACT-FUNNEL-AUDIT.md)): pause Formation-Core unpinned; Attorneys **v5** uploaded. June drop closed. Gate 2 volume fail expected. **`03`/Bing hold superseded Sep 3.** $985 → February. |
 | Sep 2 | ✅ **Diagnostic tCPA $90 → $105**. Eligible toward 4.5–5k/wk. Abandoned-checkout email. |
 | Aug 24 – Sep 6 | Accumulate data · Microsoft account created (scale **Sep 15–22**) |
@@ -695,7 +696,7 @@ Notes on reading this honestly:
 4. **GA4 (or equivalent) with funnel events on nypllc.com?** Needed to instrument CVR for Part 5; if absent, installing it is a week-1 task.
 5. **Meta retargeting inventory for the record:** monthly spend, audience definitions, creative age — for the 6.2 housekeeping pass and the CRM AdSpend backfill.
 6. **$985 price test timing** (from the broader growth plan): schedule it into a window that doesn't overlap a ladder step or January (4.4). Recommended slot: late September, between Gates 2 and 3, or defer to February.
-7. **Phase 1 launch — DONE Jul 9 2026 evening.** `01_Core_Exact_NY` **ENABLED** on portfolio. **`02_Professions_NY` ENABLED Aug 4** (calendar Aug 3). `03` still Gate 1. Conversion flip done. **Still open:** Customer Match UI upload (1.2); Foreign Qual after Gate 1.
+7. **Phase 1 launch — DONE Jul 9 2026 evening.** `01_Core_Exact_NY` **ENABLED** on portfolio. **`02_Professions_NY` ENABLED Aug 4** (calendar Aug 3). `03` still Gate 1. Conversion flip done. **Customer Match UI upload Sep 5** (1.2; matching in progress). Foreign Qual enable **Sep 15–22**.
 8. **Search-term mining — Jul 11 2026.** `[form pllc new york]` exact on `01` Formation-Core; `"windsor corporate services"` → List C. **Deferred:** exact-neg that term on `Sales-Search-1` until `01` proves delivery (cold + Formation-Core `APPROVED_LIMITED`).
 
 ---

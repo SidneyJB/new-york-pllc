@@ -2,6 +2,12 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-09-05 — Weekly Ads SOP §7.1
+
+Ran 4 days after Sep 1 (calendar due Sep 8). 7d CPA **$122** / 6 conv; 30d **$144** / 16 conv (week 1 over freeze $130). Self-block 0. Ads Spiffy 16 vs CRM 15 (**+6.7%**). No account changes. tCPA $105 day 4; Sales eligible 7d **3,431**. Attorneys AG stays paused. Writeup: [`WEEKLY-SOP.md`](../ads-pull-2026-09-05-weekly-sop/WEEKLY-SOP.md).
+
+**Customer Match:** UI list `NYPLLC Formation Customers (CRM) Sep 2026` (`9465911299`); job RUNNING; not campaign-attached. Email CSV gitignored.
+
 ## 2026-09-04 — OP deficiencies `#4` and PLLC vs LLC `#5` launched
 
 Moved into `web/src/app/`, removed Vercel/`next.config` 404 rewrites, indexed (`index, follow`), article + FAQ + breadcrumb schema, sitemap + footer, internal links from DIY / cost / timeline / approval-times. No `/order-llc` CTA. MSO stays unpublished.

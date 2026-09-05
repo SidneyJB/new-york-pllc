@@ -1,12 +1,48 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-09-02
+**Last updated:** 2026-09-05
 
 ## Account
 
 - Customer: NYPLLC (`1529880213`)
 - Live: `Sales-Search-1` + `01_Core_Exact_NY` + `02_Professions_NY` (ENABLED)
 - Unattached PAUSED: `03_ForeignQual_US`
+
+---
+
+## Changes on 2026-09-05 — Weekly SOP §7.1 (week ending Sep 5; due Sep 8)
+
+Pull: [`ads-pull-2026-09-05-weekly-sop/`](ads-pull-2026-09-05-weekly-sop/) · writeup [`WEEKLY-SOP.md`](ads-pull-2026-09-05-weekly-sop/WEEKLY-SOP.md) · dashboard [`ads-weekly-dashboard.csv`](ads-weekly-dashboard.csv)
+
+| Metric (window) | Result |
+|---|---|
+| Self-block | **0** of 48 / 31 / 33 / 39. Lists A 53 · A-FQ 45 · C 27 unchanged. Attorneys AG paused |
+| Budget-lost IS | **0%** Sales + `01` + `02` |
+| 7d (Aug 30–Sep 5) | $730 / **6** click-attr / CPA **$122** |
+| 28d CPA | **$139** (16 / $2,216) |
+| 30d CPA | **$144** (16 / $2,298) — over freeze ≤$130 (**week 1**; tripwire is 3 weeks) |
+| `01` | **3.50** lifetime purchases. 7d IS **~34%** · 30d IS **~46%** · $489 / 66 clicks |
+| Ads↔CRM 30d | Spiffy Purchase **16** vs CRM click-ID **15** (**+6.7%**) |
+| Eligible (Sales) | Week Aug 24 **3,283** · Aug 31 **3,182** (through Sep 5) · this 7d **3,431**. $105 diagnostic day 4 — Sep 15 readout |
+| Gate 1 | Still fail (`01` 3.50 · account 16/30d). **`03` + Bing still Sep 15–22** (Sep 3 override) |
+
+| Action | Detail |
+|---|---|
+| Account changes | **None** — no new promotes; List C unchanged; Attorneys stay paused; unpinned Core Exact stays paused |
+| Auction Insights | **Exported Sep 5** — Sales-Search-1, 90d Jun 8–Sep 5. You IS 13.81%. CSV: [`ads-pull-2026-09-05-weekly-sop/Ads - auction-insights_ui_Sales-Search-1_2026-06-08_to_2026-09-05.csv`](ads-pull-2026-09-05-weekly-sop/Ads%20-%20auction-insights_ui_Sales-Search-1_2026-06-08_to_2026-09-05.csv) |
+| Deferred | Sales exact-neg fence |
+
+---
+
+## Changes on 2026-09-05 — Customer Match UI upload
+
+| Action | Detail |
+|---|---|
+| New list | `NYPLLC Formation Customers (CRM) Sep 2026` id **`9465911299`**. 430 CRM purchaser emails (formation only; not VM-only / `[TEST]`). CSV gitignored. |
+| Job | OfflineUserDataJob `64631877404` **RUNNING** (`CUSTOMER_MATCH_USER_LIST`). API upload still blocked (`CUSTOMER_NOT_ALLOWLISTED`). |
+| Size | Search/Display **0**; `size_range_for_search` LESS_THAN_FIVE_HUNDRED; match rate 0 — expected until Google finishes matching (hours, up to ~48h). |
+| Campaigns | **Not attached** (Sales / `01` / `02` still Observation on All visitors + All converters only). Do **not** set Targeting. |
+| Unused | Empty Jul 8 shell `9427032745` left at size 0. |
 
 ---
 

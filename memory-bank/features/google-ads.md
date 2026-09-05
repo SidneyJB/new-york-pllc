@@ -51,7 +51,7 @@ pip install -r requirements-ads.txt
 - **`chatgpt.com` is an emerging channel** — 5 of 43 orders since Jul 9, unbid and unmanaged. Worth watching.
 - §1.4 assets: sitelinks must use real sitemap URLs only; volume claim is **thousands / 25,000+**, not 300+ — see operating plan §1.4
 - §1.4 applied Jul 8 2026 on Sales-Search-1 (add sitelinks, fix About/snippet/price, trim generic callouts; kept strong performers)
-- §1.5 baseline exports in `baseline-2026-07-08/` (Auction Insights still manual)
+- §1.5 baseline exports in `baseline-2026-07-08/` · Auction Insights **UI CSV Sep 5** (Sales 90d Jun 8–Sep 5; You IS 13.81%) — `ads-pull-2026-09-05-weekly-sop/`
 - Phase 1–2: `01` ENABLED Jul 9; **`02` ENABLED Aug 4**; **`03` enable Sep 15–22** (Sep 3 override — was Gate 1 hold)
 - Launch hygiene (Jul 9): mobile −20% on Sales/01/02/03; Start Your Order / FAQ / Contact sitelinks → `www.nypllc.com`; observation audiences + 24 campaign assets linked onto `01` (from Sales)
 - Gap fixes (Jul 9): Observation `bid_only` on 01/02/03; audiences+full assets on 02/03; Sales RSA final URLs → www; sitelink `Start Your Order — $885` + unlinked Get Started; secondary `Begin checkout` `7678925960` + `Phone call 60s+` `7678925963` (call reporting linked); site fires Begin checkout on Spiffy detect
@@ -60,6 +60,8 @@ pip install -r requirements-ads.txt
 - First weekly SOP (Jul 28, due Jul 27): `[nys pllc formation]` exact → `01` Formation-Core; List C +`pllc name availability` +`check llc availability` (27 members). Writeup: `ads-pull-2026-07-28-weekly-sop/WEEKLY-SOP.md`
 - Weekly SOP (Aug 4): `[pllc new york formation]` exact → `01` Formation-Core; `02` ENABLED. 7d CPA $91 / 30d CPA $118 / 11 conv; Ads Spiffy 10 vs CRM 13 (+30%). Writeup: `ads-pull-2026-08-04-weekly-sop/WEEKLY-SOP.md` · `ads-weekly-dashboard.csv`
 - Weekly SOP (Aug 14, due Aug 10): `[create pllc]` exact → `01` Formation-Core. **`01` first 2 purchases.** 7d CPA $97 / 5 conv; 30d CPA $112 / 14 conv; Ads Spiffy 14 vs CRM 19 (+36%); self-block 0; Gate 1 hold. Writeup: `ads-pull-2026-08-14-weekly-sop/WEEKLY-SOP.md`
+- Weekly SOP (Sep 5, due Sep 8): no account changes. 7d CPA $122 / 6 conv; 30d CPA $144 / 16 conv; Ads Spiffy 16 vs CRM 15 (+6.7%); self-block 0; tCPA $105 day 4; Sales eligible 7d 3,431; Attorneys AG paused; Gate 1 fail / **`03`+Bing still Sep 15–22**. Writeup: `ads-pull-2026-09-05-weekly-sop/WEEKLY-SOP.md`
+- **Customer Match (Sep 5):** UI list `NYPLLC Formation Customers (CRM) Sep 2026` `9465911299`; job `64631877404` RUNNING; **not** campaign-attached. Ads API still cannot upload (`CUSTOMER_NOT_ALLOWLISTED`). Old empty list `9427032745` unused.
 - Weekly SOP (Sep 1, due Aug 31): no account changes. 7d CPA $237 / 2 conv (both Sep 1); 30d CPA $128 / 16 conv; Ads Spiffy 16 vs CRM 16 (0%); self-block 0; **Gate 1 fail / hold**. Attorneys RSA **v4** DISAPPROVED (v5 needed). Writeup: `ads-pull-2026-09-01-weekly-sop/WEEKLY-SOP.md`
 - Weekly SOP (Aug 26, due Aug 24): `[pllc in new york]` + `[pllc nys]` exact → `01` Formation-Core. 7d CPA $240 / 2 conv; 30d CPA $111 / 17 conv; Ads Spiffy 17 vs CRM 17 (0%); self-block 0; **Gate 1 fail / hold**. Attorneys RSA **v4** in review (v3 still DISAPPROVED). Writeup: `ads-pull-2026-08-26-weekly-sop/WEEKLY-SOP.md`
 - Weekly SOP (Aug 19, due Aug 17): `[form a pllc]` exact → `01` Formation-Core. 7d CPA $373 / 1 conv; 30d CPA $123 / 13 conv; Ads Spiffy 13 vs CRM 18 (+38%); self-block 0; **Gate 1 fail / hold**. `02` Attorneys RSAs DISAPPROVED. Writeup: `ads-pull-2026-08-19-weekly-sop/WEEKLY-SOP.md`

@@ -7,7 +7,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Current sprint
 
 - **Google Ads Phase 0** — **conversion flip done Jul 9.** Tagged Purchase `7678072764` primary; page-load `7353506045` secondary. See [features/google-ads.md](features/google-ads.md) · [operating plan](../nypllc-google-ads-operating-plan.md)
-- **Weekly SOP** — latest §7.1 **done Sep 1**; daily **Sep 3**: [DAILY-SOP.md](../ads-pull-2026-09-03-daily-sop/DAILY-SOP.md). 7d CPA **$260** / 2; 30d **$143** / 15; Ads↔CRM 7d 0% / 30d ~7%. `01` **~3.5** lifetime purchases.
+- **Weekly SOP** — latest §7.1 **done Sep 5** (due Sep 8): [WEEKLY-SOP.md](../ads-pull-2026-09-05-weekly-sop/WEEKLY-SOP.md). 7d CPA **$122** / 6; 30d **$144** / 16; Ads↔CRM 30d **+6.7%**. `01` **3.50** lifetime. Sales eligible 7d **3,431**. tCPA $105 day 4. Prior daily **Sep 3**: [DAILY-SOP.md](../ads-pull-2026-09-03-daily-sop/DAILY-SOP.md).
 - **Sep 3 owner calendar** — **supersedes Gate 2/3 hold on `03` + Bing.** Sep 15 eligible readout; **Sep 15–22 enable `03` + Bing**; Oct 1 tCPA ~$120 if mCPA <$160; Nov 1 paid verdict (30–40 vs 20–25). Still **no** Discovery demotion. [expansion-next-steps.md](expansion-next-steps.md) · [operating plan §0.5](../nypllc-google-ads-operating-plan.md)
 - **Sep 2 tCPA diagnostic** — portfolio **$90 → $105**. Sales eligible toward 4.5–5k/wk. May pattern (spend up, auctions flat) = **paid capped**.
 - **$1M mix** — paid 50–60/mo is **stretch**; current rate ≈ **$400–550K** 2028-type year without B2B/CAQH/RA landing. 📖 [expansion-next-steps.md](expansion-next-steps.md)
@@ -39,10 +39,10 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Ads ops
 
 1. **Sep 15:** Sales eligible ~3.5k → 4.5–5k? May pattern → say paid capped.
-2. **Sep 15–22:** enable `03` + Bing. Daily on Sales + `01` + `02` + `03`. Latest: [DAILY-SOP.md](../ads-pull-2026-09-03-daily-sop/DAILY-SOP.md)
-3. Open: Customer Match; Auction Insights **manual UI export** (overdue)
+2. **Sep 15–22:** enable `03` + Bing. Daily on Sales + `01` + `02` + `03`. Latest weekly: [WEEKLY-SOP.md](../ads-pull-2026-09-05-weekly-sop/WEEKLY-SOP.md)
+3. Customer Match **uploaded Sep 5** (`9465911299`; job RUNNING; size 0 until match). Auction Insights **done Sep 5**. Do **not** Targeting-attach.
 4. **Oct:** mobile LP + publication-cost calculator on LPs (not publishing-only). **$985 until February**
-5. **Weekly SOP next ~Sep 8**; Attorneys AG paused; no copy churn
+5. **Weekly SOP done Sep 5**; next ~Sep 12. Attorneys AG paused; no copy churn
 6. **Nov 1 verdict** → freeze **Nov 15–Dec 1** → January full force
 
 ## Active decisions
@@ -75,7 +75,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 | Money pages rank 20–45 on every commercial term. Ranking them is 6–18mo vs LegalZoom/Northwest — **do not treat the target list as a paid-search exit plan** | [SEO plan Part 1.5](../nypllc-seo-content-moat-plan.md) |
 | `chatgpt.com` emerging as an unmanaged channel (5 of 43 orders since Jul 9) | [operating plan §0.6](../nypllc-google-ads-operating-plan.md) |
 | Ads↔CRM ±10% gap — **closed Sep 1 weekly** (16 vs 16 / 0%) | [WEEKLY-SOP.md](../ads-pull-2026-09-01-weekly-sop/WEEKLY-SOP.md) |
-| Auction Insights manual export (1st week of Aug) | [operating plan](../nypllc-google-ads-operating-plan.md) |
+| Auction Insights — **filed Sep 5** (Sales 90d, You IS 13.81%) | [CSV](../ads-pull-2026-09-05-weekly-sop/Ads%20-%20auction-insights_ui_Sales-Search-1_2026-06-08_to_2026-09-05.csv) |
 | Revenue levers: **Mercury + Gusto Impact applied Aug 14**; **third ping Sep 1**; links not live | [affiliate-partners.md](../docs/affiliate-partners.md) |
 | $985 price test — **deferred to February** | [revenue levers plan](../nypllc-revenue-levers-plan.md) |
 | Spiffy checkbox live: S Corp $195; sales tax **off checkout Aug 18**; CAQH Spiffy SKU after pilots | [revenue levers plan](../nypllc-revenue-levers-plan.md) |
@@ -87,6 +87,8 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Recent changes
 
 📖 Full log: [session-history.md](../docs/session-history.md)
+
+Latest (Sep 5 2026): **Weekly Ads SOP §7.1** — 7d CPA **$122** / 6 conv; 30d **$144** / 16 (week 1 over freeze $130). Self-block 0. Ads Spiffy 16 vs CRM 15 (+6.7%). No account changes. $105 day 4; Sales eligible **3,431**. [WEEKLY-SOP.md](../ads-pull-2026-09-05-weekly-sop/WEEKLY-SOP.md).
 
 Latest (Sep 4 2026): OP deficiencies `#4` (`/nysed-op-deficiencies`) and PLLC vs LLC `#5` (`/pllc-vs-llc`) **launched**. Sitemap, footer, article/FAQ/breadcrumb schema, indexable. No `/order-llc` CTA. Next editorial `#6` PLLC vs PC. MSO stays unpublished.
 

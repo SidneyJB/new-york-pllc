@@ -360,7 +360,12 @@ export default function DIYGuideTestPage() {
             <h3 className="text-2xl font-semibold tracking-tight text-foreground mb-3 mt-6">What to do</h3>
             <ul className="list-disc pl-6 mb-4 space-y-2 text-base leading-7 text-foreground">
               <li>Set a calendar reminder to check status about two weeks after delivery. Have your PLLC name, profession, and mailing date ready when you call. Be prepared for hold times.</li>
-              <li>If OP sends you a deficiency letter, respond precisely to what they are asking for. Reference their letter date in your reply. Deficiency responses that include extra information or changes beyond what was requested can create new issues.</li>
+              <li>If OP sends you a deficiency letter, respond precisely to what they are asking for. Reference their letter date in your reply. Deficiency responses that include extra information or changes beyond what was requested can create new issues. See{' '}
+                <Link href="/nysed-op-deficiencies" className="text-primary underline underline-offset-2 font-medium">
+                  common NYSED OP deficiencies
+                </Link>
+                .
+              </li>
               <li>When OP issues your Certificate of Authority (a sealed document), make at least two scans: one for your records and one for your DOS filing packet. Keep the original in pristine condition—any damage to the seal can cause problems later.</li>
             </ul>
             <h3 className="text-2xl font-semibold tracking-tight text-foreground mb-3 mt-6">What typically goes wrong</h3>
@@ -647,7 +652,11 @@ Purpose: Practice of [Profession] and any lawful activities authorized for a PLL
               <div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Do I really need a PLLC, or can I use a regular LLC in New York?</h3>
                 <p className="text-base leading-7 text-foreground">
-                  If you are practicing a licensed profession regulated by the state (for example, many Title VIII professions), you are generally required to use a professional entity such as a PLLC or PC. A generic LLC is often not acceptable for practicing the profession itself.
+                  If you are practicing a licensed profession regulated by the state (for example, many Title VIII professions), you are generally required to use a professional entity such as a PLLC or PC. A generic LLC is often not acceptable for practicing the profession itself. See our{' '}
+                  <Link href="/pllc-vs-llc" className="text-primary underline underline-offset-2 font-medium">
+                    PLLC vs LLC guide
+                  </Link>
+                  .
                 </p>
               </div>
               <div>

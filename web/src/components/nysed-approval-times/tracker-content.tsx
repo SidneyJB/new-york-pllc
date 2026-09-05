@@ -209,6 +209,20 @@ export function TrackerContent({ data }: TrackerContentProps) {
                 PLLC cost breakdown
               </Link>
               {' · '}
+              <Link
+                href="/nysed-op-deficiencies"
+                className="text-primary underline underline-offset-2"
+              >
+                NYSED OP deficiencies
+              </Link>
+              {' · '}
+              <Link
+                href="/pllc-vs-llc"
+                className="text-primary underline underline-offset-2"
+              >
+                PLLC vs LLC
+              </Link>
+              {' · '}
               <Link href="/order" className="text-primary underline underline-offset-2">
                 Start your PLLC for $885
               </Link>

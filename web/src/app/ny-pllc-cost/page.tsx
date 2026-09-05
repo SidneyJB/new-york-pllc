@@ -335,6 +335,13 @@ export default function NyPllcCostPage() {
               >
                 how long to form a PLLC in NY
               </Link>
+              . Common reasons NYSED returns an application:{' '}
+              <Link
+                href="/nysed-op-deficiencies"
+                className="text-primary underline underline-offset-2"
+              >
+                NYSED OP deficiencies
+              </Link>
               . Starting early is the main lever if you have a practice open date. Delays from defects
               usually mean paying a fee again.
             </p>

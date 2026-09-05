@@ -51,12 +51,13 @@ export const metadata = generateMetadata({
     'New York professional LLC vs LLC',
   ],
   canonical: PATH,
-  robots: { index: false, follow: false },
+  openGraph: { type: 'article' },
 })
 
 export default function PllcVsLlcPage() {
   const baseUrl = SEO_CONFIG.siteUrl
   const published = '2026-09-02'
+  const dateModified = '2026-09-04'
 
   return (
     <>
@@ -70,7 +71,7 @@ export default function PllcVsLlcPage() {
               description: DESCRIPTION,
               url: PATH,
               datePublished: published,
-              dateModified: published,
+              dateModified: dateModified,
             }),
           ),
         }}
@@ -91,7 +92,7 @@ export default function PllcVsLlcPage() {
         }}
       />
 
-      <div className="border-b bg-background/95 backdrop-filter">
+      <div className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Breadcrumb items={[{ label: 'PLLC vs LLC' }]} />
         </div>

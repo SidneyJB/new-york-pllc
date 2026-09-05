@@ -1,6 +1,6 @@
 # Expansion — next steps (Aug 10, 2026)
 
-**As of:** Sep 3, 2026.
+**As of:** Sep 4, 2026.
 **Owner:** Cross-cutting expansion strategy lives here (website memory bank). CRM builds link from [PLLC-CRM/memory-bank/features/](../../PLLC-CRM/memory-bank/features/).
 
 Companion operating plans: [Ads v2](../nypllc-google-ads-operating-plan.md) · [SEO moat](../nypllc-seo-content-moat-plan.md) · [Revenue levers v1](../nypllc-revenue-levers-plan.md) · CAQH v1 · B2B v1 (CRM). **MSO path (offer locked):** [mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md). License filing + credentialing packet research still in [PLLC-CRM catalog](../../PLLC-CRM/business%20ideas.md).
@@ -57,7 +57,7 @@ Anything that **takes money** (build + launch) — still open:
 | **3** | **EXP Credentialing** | **PLLC-CRM** ops email | **Sep 1 close-out sent.** If silent **~Sep 8**, default **referral** (`scripts/provision-exp-referral-partner.ts --confirm`) and send `?c=` code. |
 | **4** | **Two affiliate links** (banking + payroll) | **Site** lifecycle email + backlist / S Corp page | **Mercury + Gusto Impact applied Aug 14**; **third ping Sep 1**. Links not live. 📖 [affiliate-partners.md](../docs/affiliate-partners.md) |
 | **5** | **Ads — Sep 3 calendar** | **new-york-pllc** | **Sep 15:** $105 eligible ~3.5k → 4.5–5k (May pattern = paid capped). **Sep 15–22: enable `03` + Bing** (small ≠ broken). **Oct 1:** mCPA <$160 → tCPA **~$120**. Oct: mobile + pub-cost calculator on LPs. **Nov 1 verdict:** 30–40 vs 20–25 paid. Freeze Dec–Jan. Still **no** Discovery demotion. $985 → **February**. |
-| **6** | **SEO — 1 piece/week** | **new-york-pllc** | OP deficiencies `#4` and PLLC vs LLC `#5` **built unpublished** (Vercel 404s `/nysed-op-deficiencies`, `/pllc-vs-llc`). **MSO page built unpublished** (Vercel 404s `/ny-mso`). Next editorial: `#6` PLLC vs PC. 20-term tracker: [`seo-rank-tracker.csv`](../seo-rank-tracker.csv) |
+| **6** | **SEO — 1 piece/week** | **new-york-pllc** | OP deficiencies `#4` and PLLC vs LLC `#5` **live Sep 4** (`/nysed-op-deficiencies`, `/pllc-vs-llc`; sitemap + footer). **MSO page built unpublished** (Vercel 404s `/ny-mso`). Next editorial: `#6` PLLC vs PC. 20-term tracker: [`seo-rank-tracker.csv`](../seo-rank-tracker.csv) |
 | **7** | **Big B2B outreach — paused** | **PLLC-CRM** | Advocate/referral side keeps running until 1–4 are done |
 | **8** | **MSO path** | **new-york-pllc** + CRM | Offer locked. **Do not launch public checkout.** Draft at [`web/src/unpublished/ny-mso/`](../web/src/unpublished/ny-mso/). No ads. 📖 [mso-msa.md](features/mso-msa.md) |
 
@@ -67,7 +67,7 @@ Anything that **takes money** (build + launch) — still open:
 
 | When | What |
 |------|------|
-| **September** | Ads **Sep 15** eligible readout; **`03` + Bing Sep 15–22**; CAQH real offer **mid-September**; **restart partner outreach** after CAQH+EXP+affiliates; **$985 → February**; MSO / `#4` / `#5` unpublished until Sid launches |
+| **September** | Ads **Sep 15** eligible readout; **`03` + Bing Sep 15–22**; CAQH real offer **mid-September**; **restart partner outreach** after CAQH+EXP+affiliates; **$985 → February**; OP deficiencies `#4` and PLLC vs LLC `#5` **launched Sep 4**; **MSO stays unpublished** until Sid launches |
 | **October** | First **renewal charges**; compliance-plan test; **Oct 1** tCPA ~$120 if mCPA <$160; mobile + LP calculator |
 | **Nov 1** | Paid-volume **verdict** (30–40 vs 20–25) |
 | **November** | Last ads changes **by Nov 14** (unless already capped), then **freeze** through Dec 1 |

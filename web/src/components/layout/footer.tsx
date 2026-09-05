@@ -84,6 +84,22 @@ export function Footer() {
               </li>
               <li>
                 <Link
+                  href="/nysed-op-deficiencies"
+                  className="text-muted-foreground hover:text-foreground text-sm transition-colors"
+                >
+                  NYSED OP Deficiencies
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/pllc-vs-llc"
+                  className="text-muted-foreground hover:text-foreground text-sm transition-colors"
+                >
+                  PLLC vs LLC
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/how-to-form-a-pllc-in-ny"
                   className="text-muted-foreground hover:text-foreground text-sm transition-colors"
                 >

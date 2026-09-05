@@ -1,7 +1,5 @@
-# NYSED OP deficiencies — unpublished
+# NYSED OP deficiencies — launched
 
-Do **not** move this folder into `src/app/`. Next.js only serves routes under `app/`, so this page is **not** a production URL.
+Live route: [`src/app/nysed-op-deficiencies/page.tsx`](../../app/nysed-op-deficiencies/page.tsx) at `/nysed-op-deficiencies`.
 
-Vercel also 404s `/nysed-op-deficiencies` in repo-root `vercel.json`, `web/vercel.json`, and `web/next.config.ts` rewrites. Do not remove those until Sid explicitly launches.
-
-To go live later: copy this directory to `src/app/nysed-op-deficiencies/`, add sitemap/footer links, remove the Vercel rewrites, then ship.
+This folder is an archive of the pre-launch draft. Edit the `app/` page for production changes.

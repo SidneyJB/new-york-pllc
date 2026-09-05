@@ -152,7 +152,14 @@ export default function HowLongToFormPllcPage() {
               </li>
             </ul>
             <p>
-              With a complete packet and no deficiency letter, the process commonly takes about{' '}
+              With a complete packet and no{' '}
+              <Link
+                href="/nysed-op-deficiencies"
+                className="text-primary underline underline-offset-2"
+              >
+                NYSED deficiency letter
+              </Link>
+              , the process commonly takes about{' '}
               <strong>3.5 to 5 months</strong>. A name issue, a deficiency letter, or a publication
               notice that does not match the DOS record can add time.
             </p>

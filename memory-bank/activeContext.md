@@ -14,7 +14,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 - **Sep 1 recovery actions** — Core Exact audit: checkout→purchase leak; **paused** Formation-Core unpinned. Attorneys RSA **v5** later **DISAPPROVED** (Sep 2); AG paused. June drop **closed** (Jun 7 tCPA, not match-type). [CORE-EXACT-FUNNEL-AUDIT.md](../ads-pull-2026-09-01-weekly-sop/CORE-EXACT-FUNNEL-AUDIT.md)
 - **🔴 Stop-word negative incident — found + fixed Aug 4.** Root cause of the conversion collapse: Lists A/A-FQ contained two-letter state abbreviations as **phrase** negatives, so `in` (Indiana) blocked every query containing "in" (also `or`, `me`). Self-blocked 14/44 of `01`'s keywords, 21/33 of `03`, 9/40 of Sales. Eligible auction volume on Sales fell 12,030 → 576/week with budget untouched at $500/day. Removed 94 abbreviations; reverted Sales geo to `PRESENCE_OR_INTEREST`; verified 0 self-blocked. See [google_ads_changes.md](../google_ads_changes.md).
 - **`02` Attorneys RSA v5 (Sep 2)** — **DISAPPROVED**. Ad group **PAUSED** (`196018838817`). Stop copy churn. See [google_ads_changes.md](../google_ads_changes.md)
-- **SEO / content moat** — [nypllc-seo-content-moat-plan.md](../nypllc-seo-content-moat-plan.md). Shipped: `/nysed-approval-times`, `/ny-pllc-cost`, `/how-long-to-form-a-pllc-in-ny` (Jul 22). OP deficiencies `#4` and PLLC vs LLC `#5` **built unpublished** (Vercel 404s `/nysed-op-deficiencies`, `/pllc-vs-llc`). MSO page **built unpublished** (not in `app/`; Vercel 404s `/ny-mso`). 20-term tracker: [`seo-rank-tracker.csv`](../seo-rank-tracker.csv). See [features/seo-and-domain.md](features/seo-and-domain.md) · [features/mso-msa.md](features/mso-msa.md)
+- **SEO / content moat** — [nypllc-seo-content-moat-plan.md](../nypllc-seo-content-moat-plan.md). Shipped: `/nysed-approval-times`, `/ny-pllc-cost`, `/how-long-to-form-a-pllc-in-ny` (Jul 22); OP deficiencies `#4` `/nysed-op-deficiencies` and PLLC vs LLC `#5` `/pllc-vs-llc` (**live Sep 4**). MSO page **built unpublished** (not in `app/`; Vercel 404s `/ny-mso`). 20-term tracker: [`seo-rank-tracker.csv`](../seo-rank-tracker.csv). See [features/seo-and-domain.md](features/seo-and-domain.md) · [features/mso-msa.md](features/mso-msa.md)
 - **Revenue levers (website surface)** — [nypllc-revenue-levers-plan.md](../nypllc-revenue-levers-plan.md). **Direct-RA Lever 1 LIVE Aug 25** (`DIRECT_RA_NOTICES_LIVE` on CRM Production). **CAQH pilot** — Aaron declined (has CAQH); outreach Aug 25–26; **follow-up sent Sep 1** (8 awaiting). **CAQH interest checkbox live Aug 26** on Spiffy (no charge; CRM `caqhInterest` + staff badge). **Mercury + Gusto Impact applied Aug 14**; **third ping Sep 1**. Spiffy checkbox live: **S Corp $195**. Sales tax Certificate of Authority **removed from checkout Aug 18** (low take rate). Remaining: DBA, CAQH **paid** SKU, VM copy. **$985 deferred to February.** Expedite SKU **removed Aug 17** (already in $885). See [features/revenue-levers.md](features/revenue-levers.md) · [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) · [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md)
 - **Phase 1 live:** `Sales-Search-1` + `01_Core_Exact_NY` + **`02_Professions_NY`** on portfolio tCPA **$105**. **`03` enable Sep 15–22** (was Gate 1 hold).
 - Expand **foreign-into-NY** state page coverage beyond NJ/PA/FL/TX/CT as needed
@@ -25,14 +25,14 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 ## Expansion priorities (next 4 weeks)
 
-📖 Full narrative + Sep–Jan calendar: [expansion-next-steps.md](expansion-next-steps.md) (updated **Sep 3, 2026**). **MSO path** (offer locked, page unpublished): [features/mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md).
+📖 Full narrative + Sep–Jan calendar: [expansion-next-steps.md](expansion-next-steps.md) (updated **Sep 4, 2026**). **MSO path** (offer locked, page unpublished): [features/mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md).
 
 1. **CAQH pilots** — interest checkbox **live Aug 26**. **Follow-up sent Sep 1** (8 awaiting, skip Aaron). If still silent ~Sep 8: healthcare backlist with **$499 + pay link** (**PLLC-CRM**)
 2. **Direct-RA Lever 1 — LIVE** — first T-30 ~Sep 22; Oct charges. Pre-send checklist in [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
 3. **EXP Credentialing** — Sep 1 close-out **sent**; waiting on their model choice (**PLLC-CRM**)
 4. **Affiliate follow-ups** — **third ping sent Sep 1** (Mercury + Gusto). Links not live. [affiliate-partners.md](../docs/affiliate-partners.md)
 5. **Ads** — Sep 15 eligible; **`03` + Bing Sep 15–22**; Oct 1 ~$120 if mCPA <$160; **Nov 1 verdict**. Attorneys AG **paused**. Unpinned RSA stays paused.
-6. **SEO** — OP deficiencies `#4` and PLLC vs LLC `#5` **built unpublished**; 20-term tracker file live; **do not publish MSO, deficiencies, or `/pllc-vs-llc`**
+6. **SEO** — OP deficiencies `#4` and PLLC vs LLC `#5` **live Sep 4**; 20-term tracker file live; **do not publish MSO**
 7. **Big B2B outreach paused**
 8. **MSO** — unpublished draft only; **no Vercel public route**; no ads
 
@@ -88,9 +88,11 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 📖 Full log: [session-history.md](../docs/session-history.md)
 
+Latest (Sep 4 2026): OP deficiencies `#4` (`/nysed-op-deficiencies`) and PLLC vs LLC `#5` (`/pllc-vs-llc`) **launched**. Sitemap, footer, article/FAQ/breadcrumb schema, indexable. No `/order-llc` CTA. Next editorial `#6` PLLC vs PC. MSO stays unpublished.
+
 Latest (Sep 3 2026, later): **Owner ads calendar + $1M mix.** `03`+Bing **Sep 15–22**; Nov 1 paid verdict; January n=1 hedge. [expansion-next-steps.md](expansion-next-steps.md). Daily SOP earlier same day.
 
-Latest (Sep 2 2026, later): PLLC vs LLC `#5` **built unpublished** (`web/src/unpublished/pllc-vs-llc/`; Vercel 404s `/pllc-vs-llc`; noindex; no `/order-llc` CTA). Next editorial `#6` PLLC vs PC.
+Latest (Sep 2 2026, later): PLLC vs LLC `#5` drafted (later launched Sep 4).
 
 Latest (Sep 2 2026): **Sid amendment** — portfolio tCPA **$105** diagnostic; abandoned-checkout emails; RA stop-charge vs CoC split; OP deficiencies `#4` **unpublished**; CAQH $499+link pulled to mid-Sep. [operating plan §0.5](../nypllc-google-ads-operating-plan.md).
 

@@ -6,7 +6,7 @@ Post-formation monetization: RA auto-renewal + Compliance Plan, shelf SKUs, S Co
 
 ## Status
 
-**Lever 1 LIVE (Aug 25 2026).** `DIRECT_RA_NOTICES_LIVE=true` on CRM Production — T-30/T-7/receipt cron sends cohort emails. Build shipped Aug 12; Compliance Plan $249 upgrade verified. Checkout disclosure **audited Aug 26**; staff **$99 CoC** + **$249 Compliance Plan** paths confirmed. `/change-registered-agent` is **direct-link only** (noindex + robots Disallow). First T-30s ~Sep 22; first auto-charges October.
+**Lever 1 LIVE (Aug 25 2026).** `DIRECT_RA_NOTICES_LIVE=true` on CRM Production — T-30/T-7/receipt cron sends cohort emails. Build shipped Aug 12; Compliance Plan $249 upgrade verified. Checkout disclosure **audited Aug 26**; staff **$99 CoC** + **$249 Compliance Plan** paths confirmed. `/change-registered-agent` is **direct-link only** (noindex + robots Disallow). First T-30s ~Sep 22; first auto-charges October. **Pilot:** ~28/arm is a smoke detector. Mid-January kill the upgrade block only if treatment cancels or disputes are clearly worse. Keep 50/50 into 2027 (~150–200 by March). Do not declare a winner on 56.
 
 📖 [CRM launch status](../../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) · [CRM revenue-levers shard](../../../PLLC-CRM/memory-bank/features/revenue-levers.md)
 

@@ -1,12 +1,34 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-09-05
+**Last updated:** 2026-09-08
 
 ## Account
 
 - Customer: NYPLLC (`1529880213`)
 - Live: `Sales-Search-1` + `01_Core_Exact_NY` + `02_Professions_NY` (ENABLED)
 - Unattached PAUSED: `03_ForeignQual_US`
+
+---
+
+## Changes on 2026-09-08 — Daily SOP (Sep 2–8)
+
+Pull: [`ads-pull-2026-09-08-daily-sop/`](ads-pull-2026-09-08-daily-sop/) · writeup [`DAILY-SOP.md`](ads-pull-2026-09-08-daily-sop/DAILY-SOP.md)
+
+| Metric (window) | Result |
+|---|---|
+| 7d (Sep 2–8) | $592 / **2.8** click-attr / CPA **$214** |
+| 30d (Aug 10–Sep 8) | $2,307 / **17** / CPA **$136** |
+| Sep MTD | $723 / **6** / CPA **$120** |
+| `01` lifetime | **~4.5** purchases (+1.0 Sep 6) |
+| Ads↔CRM | 7d **2.8 vs 4** (−30%, small-n) · 30d **17 vs 14** (+21%) |
+| Eligible (Sales) | ISO week Aug 31 **3,477** · this 7d **3,106**. $105 diagnostic day 7 |
+| Change history | Sep 2 Attorneys AG PAUSED (already logged); Sep 3/5/7 `INTERNAL_TOOL` assets only |
+
+| Action | Detail |
+|---|---|
+| Account changes | **None** |
+
+Same-day weekly §7.1 already filed Sep 5 (due Sep 8): [`WEEKLY-SOP.md`](ads-pull-2026-09-05-weekly-sop/WEEKLY-SOP.md).
 
 ---
 

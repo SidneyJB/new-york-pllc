@@ -2,6 +2,10 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-09-08 — Daily Ads SOP
+
+Same day as weekly §7.1 due date (weekly filed Sep 5). 7d CPA **$214** / 2.8 conv; 30d **$136** / 17 conv; Sep MTD **$120** / 6 conv. `01` **~4.5** lifetime (+1 Sep 6). Ads↔CRM 7d −30% / 30d +21% (small-n / shifted window). No account changes. $105 day 7; Sales eligible 7d **3,106**. Writeup: [`DAILY-SOP.md`](../ads-pull-2026-09-08-daily-sop/DAILY-SOP.md).
+
 ## 2026-09-05 — Weekly Ads SOP §7.1
 
 Ran 4 days after Sep 1 (calendar due Sep 8). 7d CPA **$122** / 6 conv; 30d **$144** / 16 conv (week 1 over freeze $130). Self-block 0. Ads Spiffy 16 vs CRM 15 (**+6.7%**). No account changes. tCPA $105 day 4; Sales eligible 7d **3,431**. Attorneys AG stays paused. Writeup: [`WEEKLY-SOP.md`](../ads-pull-2026-09-05-weekly-sop/WEEKLY-SOP.md).

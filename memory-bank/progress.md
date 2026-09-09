@@ -24,7 +24,7 @@
 - Growth: backlinks / SEO campaigns (see repo-root strategy docs)
 - **Expansion priorities (Sep 4):** SEO `#4` `/nysed-op-deficiencies` and `#5` `/pllc-vs-llc` **live**; MSO **unpublished**; next editorial `#6` PLLC vs PC. Ads calendar remains Sep 3 (`03`+Bing Sep 15–22). — 📖 [expansion-next-steps.md](expansion-next-steps.md) · [mso-msa.md](features/mso-msa.md)
 - **MSO path:** offer locked **$1,770** + counsel **$945** — [mso-msa.md](features/mso-msa.md). Packet/research — [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md). NYSED license filing + credentialing packet research still in [PLLC-CRM catalog](../../PLLC-CRM/business%20ideas.md)
-- **Revenue levers (site):** Direct-RA live Aug 25; CAQH follow-up **Sep 1**; **Mercury + Gusto third ping Sep 1** (links not live); Spiffy checkbox live: **S Corp $195** (sales tax **off checkout Aug 18**); remaining DBA / CAQH Spiffy SKU, VM copy; **$985 deferred to Feb** — 📖 [revenue levers plan](../nypllc-revenue-levers-plan.md) · [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md)
+- **Revenue levers (site):** Direct-RA live Aug 25; CAQH **Sep 9 next 20 queued not sent**; **Mercury + Gusto third ping Sep 1** (links not live); Spiffy checkbox live: **S Corp $195** (sales tax **off checkout Aug 18**); remaining DBA / CAQH Spiffy SKU, VM copy; **$985 deferred to Feb** — 📖 [revenue levers plan](../nypllc-revenue-levers-plan.md) · [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md)
 
 ## Known issues & risks
 

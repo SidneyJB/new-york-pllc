@@ -27,7 +27,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 📖 Full narrative + Sep–Jan calendar: [expansion-next-steps.md](expansion-next-steps.md) (updated **Sep 4, 2026**). **MSO path** (offer locked, page unpublished): [features/mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md).
 
-1. **CAQH pilots** — interest checkbox **live Aug 26**. **Follow-up sent Sep 1** (8 awaiting, skip Aaron). If still silent ~Sep 8: healthcare backlist with **$499 + pay link** (**PLLC-CRM**)
+1. **CAQH** — **20 FORMATION_COMPLETE queued, not emailed** (Sep 9). Send from OAuth machine: `send-caqh-healthcare-backlist.ts --status FORMATION_COMPLETE --limit 20 --confirm`. List is OP_APPROVED+, no correction-needed (**125** remaining before this wave). (**PLLC-CRM**)
 2. **Direct-RA Lever 1 — LIVE** — first T-30 ~Sep 22; Oct charges. Pre-send checklist in [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
 3. **EXP Credentialing** — Sep 1 close-out **sent**; waiting on their model choice (**PLLC-CRM**)
 4. **Affiliate follow-ups** — **third ping sent Sep 1** (Mercury + Gusto). Links not live. [affiliate-partners.md](../docs/affiliate-partners.md)
@@ -79,7 +79,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 | Revenue levers: **Mercury + Gusto Impact applied Aug 14**; **third ping Sep 1**; links not live | [affiliate-partners.md](../docs/affiliate-partners.md) |
 | $985 price test — **deferred to February** | [revenue levers plan](../nypllc-revenue-levers-plan.md) |
 | Spiffy checkbox live: S Corp $195; sales tax **off checkout Aug 18**; CAQH Spiffy SKU after pilots | [revenue levers plan](../nypllc-revenue-levers-plan.md) |
-| **CAQH pilot** — Aaron declined; **Sep 1 follow-up sent** to 8 awaiting | [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
+| **CAQH pilot** — Aaron declined; Sep 1 follow-up + Sep 4 $499 wave sent; **Sep 9 next 20 queued (not sent)** | [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
 | **Direct-RA notices live (Aug 25)** — checkout disclosure **audited Aug 26**; staff **$99 CoC** + **$249 Compliance Plan** paths confirmed. First T-30s ~Sep 22; Oct charges | [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) |
 | Big B2B professional outreach **paused** until CAQH + EXP + affiliates done | [expansion-next-steps.md](expansion-next-steps.md) |
 | **MSO path** — offer locked; **page unpublished** (not in `app/`; Vercel 404 `/ny-mso`); **no ads**; do not name Jonah | [features/mso-msa.md](features/mso-msa.md) |
@@ -87,6 +87,8 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Recent changes
 
 📖 Full log: [session-history.md](../docs/session-history.md)
+
+Latest (Sep 9 2026): **CAQH backlist queued** — 20 FORMATION_COMPLETE `$499` emails **not sent** (Gmail OAuth on other machine). Script in PLLC-CRM. 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md).
 
 Latest (Sep 8 2026): **Daily Ads SOP** — 7d CPA **$214** / 2.8 conv; 30d **$136** / 17 conv; Sep MTD **$120** / 6. `01` **~4.5** lifetime. No account changes. $105 day 7; Sales eligible 7d **3,106**. [DAILY-SOP.md](../ads-pull-2026-09-08-daily-sop/DAILY-SOP.md).
 

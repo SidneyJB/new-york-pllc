@@ -2,6 +2,10 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-09-09 — CAQH healthcare backlist queued (not sent)
+
+CRM script `send-caqh-healthcare-backlist.ts`: OP_APPROVED+, drop DOS correction-needed, skip pilots/Sep 4/DNS (**125**). First **20 FORMATION_COMPLETE** listed; emails **not sent** (Gmail OAuth on the other machine). Local `--confirm` failed `invalid_client`. Check Stripe for orphan `source=caqh-healthcare-backlist` before re-run. 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md).
+
 ## 2026-09-08 — Daily Ads SOP
 
 Same day as weekly §7.1 due date (weekly filed Sep 5). 7d CPA **$214** / 2.8 conv; 30d **$136** / 17 conv; Sep MTD **$120** / 6 conv. `01` **~4.5** lifetime (+1 Sep 6). Ads↔CRM 7d −30% / 30d +21% (small-n / shifted window). No account changes. $105 day 7; Sales eligible 7d **3,106**. Writeup: [`DAILY-SOP.md`](../ads-pull-2026-09-08-daily-sop/DAILY-SOP.md).

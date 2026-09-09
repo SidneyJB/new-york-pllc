@@ -1,6 +1,6 @@
 # Expansion — next steps (Aug 10, 2026)
 
-**As of:** Sep 4, 2026.
+**As of:** Sep 9, 2026.
 **Owner:** Cross-cutting expansion strategy lives here (website memory bank). CRM builds link from [PLLC-CRM/memory-bank/features/](../../PLLC-CRM/memory-bank/features/).
 
 Companion operating plans: [Ads v2](../nypllc-google-ads-operating-plan.md) · [SEO moat](../nypllc-seo-content-moat-plan.md) · [Revenue levers v1](../nypllc-revenue-levers-plan.md) · CAQH v1 · B2B v1 (CRM). **MSO path (offer locked):** [mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md). License filing + credentialing packet research still in [PLLC-CRM catalog](../../PLLC-CRM/business%20ideas.md).
@@ -52,7 +52,7 @@ Anything that **takes money** (build + launch) — still open:
 
 | # | Item | Repo / owner | Notes |
 |---|------|--------------|-------|
-| **1** | **CAQH — close pilots + paid Spiffy SKU** | **PLLC-CRM** (+ site checkout when SKU ships) | **Interest checkbox live Aug 26**. Aaron declined. **Follow-up sent Sep 1** (8 awaiting). Invoice on interest → intake → fulfill. **$499 paid SKU** after 2–3 pilots. 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
+| **1** | **CAQH — queued 20 FORMATION_COMPLETE (not sent)** | **PLLC-CRM** | Sep 9 list: OP_APPROVED+, no correction-needed, skip prior outreach (**125**). Next: `send-caqh-healthcare-backlist.ts --status FORMATION_COMPLETE --limit 20 --confirm` on the Gmail OAuth machine. Then remaining complete. **$499 paid SKU** after 2–3 pilots. 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
 | **2** | **Direct-RA ops** | **PLLC-CRM** | **Live Aug 25.** Checkout disclosure **audited**; staff **$99 CoC** + **$249 Compliance Plan** support paths **confirmed**. First T-30s ~Sep 22; October auto-charges. 📖 [direct-ra-launch-status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) |
 | **3** | **EXP Credentialing** | **PLLC-CRM** ops email | **Sep 1 close-out sent.** If silent **~Sep 8**, default **referral** (`scripts/provision-exp-referral-partner.ts --confirm`) and send `?c=` code. |
 | **4** | **Two affiliate links** (banking + payroll) | **Site** lifecycle email + backlist / S Corp page | **Mercury + Gusto Impact applied Aug 14**; **third ping Sep 1**. Links not live. 📖 [affiliate-partners.md](../docs/affiliate-partners.md) |

@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "title": "NY entity outbound foreign qualification — cash CoGS and list",
+    "retrieved": "2026-09-10",
+    "notes": "Qualify an existing NY PLLC/LLC into another state. Not foreign-into-NY website SKUs."
+  },
+  "routes": [
+    {
+      "origin": "NY",
+      "destination": "NJ",
+      "filing": "Certificate of registration for a foreign LLC",
+      "cash_cogs_usd": 100,
+      "profit_usd": 300,
+      "list_price_usd": 415,
+      "profit_note": "List rounded so profit is at least $300 after Stripe 3%+$0.30",
+      "crm": "crm/lib/pricing/foreign-qualification/ny-to-nj-outbound-foreign-qual.ts",
+      "fees_url": "https://www.nj.gov/treasury/revenue/fees.shtml"
+    },
+    {
+      "origin": "NY",
+      "destination": "CO",
+      "filing": "Statement of Foreign Entity Authority",
+      "cash_cogs_usd": 100,
+      "profit_usd": 400,
+      "list_price_usd": 500,
+      "profit_note": "List = $100 SOS + $400 profit. Colorado does not require home-state good standing. RA and $25 annual periodic report not included.",
+      "crm": "crm/lib/pricing/foreign-qualification/ny-to-co-outbound-foreign-qual.ts",
+      "fees_url": "https://coloradosos.gov/pubs/info_center/fees/business.html",
+      "process_url": "https://coloradosos.gov/pubs/business/FAQs/foreigns.html"
+    }
+  ]
+}

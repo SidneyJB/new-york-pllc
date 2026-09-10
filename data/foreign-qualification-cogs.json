@@ -105,6 +105,10 @@
     {
       "slug": "connecticut",
       "list_price_usd": 1000
+    },
+    {
+      "slug": "colorado",
+      "list_price_usd": 895
     }
   ],
   "states": [
@@ -380,8 +384,9 @@
         "https://www.coloradosos.gov/pubs/business/FAQs/certGoodStanding.html"
       ],
       "confidence": "high",
-      "retrieved": "2026-07-11",
-      "currently_offered": false,
+      "retrieved": "2026-09-10",
+      "currently_offered": true,
+      "current_list_price_usd": 895,
       "indicative_gov_cogs_floor_usd": 280,
       "list_price_usd": 895,
       "list_price_raw_usd": 895

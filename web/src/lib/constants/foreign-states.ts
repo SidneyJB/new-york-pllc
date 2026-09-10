@@ -29,6 +29,12 @@ export const FOREIGN_QUALIFICATION_STATES = [
     pllcPrice: 1000,
     pcPrice: 1000,
   },
+  {
+    state: 'Colorado',
+    slug: 'colorado',
+    pllcPrice: 895,
+    pcPrice: 895,
+  },
 ] as const
 
 /**

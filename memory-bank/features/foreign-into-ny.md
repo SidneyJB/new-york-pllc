@@ -6,7 +6,7 @@ Hub + state landings for out-of-state professional entities qualifying into NY, 
 
 ## Status
 
-**Live.** States: NJ, PA, FL, TX, CT. Expand coverage as needed.
+**Live.** States: NJ, PA, FL, TX, CT, CO. Expand coverage as needed.
 
 ## Key paths
 
@@ -41,11 +41,13 @@ Hub `/foreign-pllc` already stated end-to-end publication; state shared module +
 
 **Rule (Jul 2026):** One flat list price per home state for foreign PLLC **and** foreign PC: `round_to_5(895 + unified_doc_cogs)` where unified docs = max(PLLC path, PC path). Do not maintain separate PLLC/PC list prices when adding states. Quote unusual certified-copy page counts, NYSED per-member fees, or assumed-name work separately — **not** standard publication (included).
 
-Source: `data/foreign-qualification-cogs.json`. Current flats: NJ $995 · PA $995 · FL $930 · TX $930 · CT $1000.
+Source: `data/foreign-qualification-cogs.json`. Current flats: NJ $995 · PA $995 · FL $930 · TX $930 · CT $1000 · CO $895.
+
+**NY entity qualifying out of state (HARD — Sep 10 2026):** Chart: [`data/ny-outbound-foreign-qualification.json`](../data/ny-outbound-foreign-qualification.json). That file is **outbound** (NY PLLC into NJ or CO). Colorado **into** New York is **$895** on this page and in CRM (`getForeignIntoNyListPriceCents('CO')`).
 
 ## Pricing data (all states)
 
-**Use for future expansion** — not wired to the site beyond the five live states yet.
+**Use for future expansion** — remaining states are in the CoGS JSON; live pages are the six launch states.
 
 | File | Contents |
 |------|----------|

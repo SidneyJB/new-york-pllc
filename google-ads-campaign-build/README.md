@@ -50,6 +50,7 @@ Each ad group → `https://www.nypllc.com/professions/{slug}` (see `ad_groups.cs
 | Florida | `…/foreign-pllc/florida` |
 | Texas | `…/foreign-pllc/texas` |
 | Connecticut | `…/foreign-pllc/connecticut` |
+| Colorado | `…/foreign-pllc/colorado` |
 
 CA exacts live in Generic (no CA state page yet). Skipped `certificate of authority new york` per §2.3 (sales-tax collision).
 

@@ -1,0 +1,105 @@
+segments.date,campaign.name,ad_group.name,search_term_view.search_term,search_term_view.status,segments.search_term_match_type,metrics.impressions,metrics.clicks,metrics.ctr,metrics.average_cpc,metrics.cost_micros,metrics.conversions
+2026-09-03,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,1,2,2.0,9480000.0,18960000,0.0
+2026-09-03,01_Core_Exact_NY,Formation-Core,ny pllc formation,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-03,01_Core_Exact_NY,Formation-Core,pllc new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-03,01_Core_Exact_NY,Formation-Core,pllc ny,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-03,01_Core_Exact_NY,Formation-Core,pllc nys,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-03,01_Core_Exact_NY,Formation-Core,how to start a pllc in new york,NONE,NEAR_EXACT,3,0,0.0,0.0,0,0.0
+2026-09-03,01_Core_Exact_NY,Formation-Core,nys pllc requirements,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-03,02_Professions_NY,Therapists-LCSW,lcsw pllc,ADDED,EXACT,2,1,0.5,3900000.0,3900000,0.0
+2026-09-03,Sales-Search-1,NY PLLC Formation,new york pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-03,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-09-03,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-03,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,4,1,0.25,8430000.0,8430000,0.0
+2026-09-03,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-09-03,Sales-Search-1,NY PLLC Formation,pllc in ny,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-03,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-03,Sales-Search-1,NY PLLC Formation,pllc nyc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-03,Sales-Search-1,NY PLLC Formation,zen business pllc,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-09-03,Sales-Search-1,NY PLLC Formation,plllc,NONE,BROAD,2,0,0.0,0.0,0,0.0
+2026-09-03,Sales-Search-1,NY PLLC Formation,set up professional corporation,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-03,Sales-Search-1,NY PLLC Formation,form pllc new york,NONE,NEAR_EXACT,2,1,0.5,18130000.0,18130000,0.0
+2026-09-03,Sales-Search-1,NY PLLC Formation,starting a pllc in ny,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-04,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,5,3,0.6,15336666.666666666,46010000,0.0
+2026-09-04,01_Core_Exact_NY,Brand,nuco filings,NONE,NEAR_PHRASE,4,0,0.0,0.0,0,0.0
+2026-09-04,01_Core_Exact_NY,Formation-Core,new york pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-04,01_Core_Exact_NY,Formation-Core,ny pllc formation,ADDED,EXACT,5,2,0.4,21820000.0,43640000,0.0
+2026-09-04,Sales-Search-1,NY PLLC Formation,new york pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-04,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,2,1,0.5,19040000.0,19040000,0.0
+2026-09-04,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,8,3,0.375,10860000.0,32580000,0.0
+2026-09-04,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,5,0,0.0,0.0,0,0.0
+2026-09-04,Sales-Search-1,NY PLLC Formation,pllc in new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-04,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-04,Sales-Search-1,NY PLLC Formation,forming pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-04,Sales-Search-1,NY PLLC Formation,ny pllc checklist,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-04,Sales-Search-1,NY PLLC Formation,mss pllc,NONE,BROAD,2,1,0.5,17650000.0,17650000,0.0
+2026-09-04,Sales-Search-1,NY PLLC Formation,starting a pllc in ny,NONE,NEAR_EXACT,1,1,1.0,27670000.0,27670000,0.0
+2026-09-05,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-05,01_Core_Exact_NY,Formation-Core,pllc new york,ADDED,EXACT,2,1,0.5,9160000.0,9160000,0.0
+2026-09-05,01_Core_Exact_NY,Formation-Core,pllc ny,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-05,01_Core_Exact_NY,Formation-Core,how to form a pllc in new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-05,02_Professions_NY,Therapists-LCSW,lcsw pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-05,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,1,1,1.0,6320000.0,6320000,0.0
+2026-09-05,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-05,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,5,0,0.0,0.0,0,0.0
+2026-09-05,Sales-Search-1,NY PLLC Formation,pllc formation,ADDED,EXACT,1,1,1.0,4000000.0,4000000,0.0
+2026-09-05,Sales-Search-1,NY PLLC Formation,pllc in new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-05,Sales-Search-1,NY PLLC Formation,pllc law,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-06,01_Core_Exact_NY,Brand,professional llc new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-06,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,5,0,0.0,0.0,0,0.0
+2026-09-06,Sales-Search-1,NY PLLC Formation,pllc nyc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-06,Sales-Search-1,NY PLLC Formation,pllc means,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-09-07,01_Core_Exact_NY,Cost-Price,pllc new york cost,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-07,01_Core_Exact_NY,Formation-Core,new york pllc formation,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-07,01_Core_Exact_NY,Formation-Core,ny pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-07,01_Core_Exact_NY,Formation-Core,pllc ny,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-07,02_Professions_NY,Therapists-LCSW,lcsw new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-07,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-07,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-09-07,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-07,Sales-Search-1,NY PLLC Formation,pllc nyc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-07,Sales-Search-1,NY PLLC Formation,nybacs,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-08,01_Core_Exact_NY,Brand,nypllc com,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-09-08,01_Core_Exact_NY,Brand,fast fillings,NONE,NEAR_PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-08,01_Core_Exact_NY,Formation-Core,ny pllc,ADDED,EXACT,3,1,0.3333333333333333,17670000.0,17670000,0.0
+2026-09-08,01_Core_Exact_NY,Formation-Core,ny pllc formation,ADDED,EXACT,5,2,0.4,3895000.0,7790000,1.0
+2026-09-08,01_Core_Exact_NY,Formation-Core,pllc new york,ADDED,EXACT,6,2,0.3333333333333333,3940000.0,7880000,0.0
+2026-09-08,01_Core_Exact_NY,Formation-Core,how to form a pllc in new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-08,01_Core_Exact_NY,Formation-Core,how to start a pllc in new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-08,02_Professions_NY,Therapists-LCSW,lcsw pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-08,Sales-Search-1,NY PLLC Formation,forming a pllc in ny,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-08,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,2,1,0.5,5090000.0,5090000,0.0
+2026-09-08,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-09-08,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,8,0,0.0,0.0,0,0.0
+2026-09-08,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,5,1,0.2,9500000.0,9500000,0.0
+2026-09-08,Sales-Search-1,NY PLLC Formation,pllc in ny,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-08,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-08,Sales-Search-1,NY PLLC Formation,pllc nyc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-08,Sales-Search-1,NY PLLC Formation,nysed pllc,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-09-08,Sales-Search-1,NY PLLC Formation,pllc cost,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-08,Sales-Search-1,NY PLLC Formation,setting up a pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-08,Sales-Search-1,NY PLLC Formation,nyllc,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-08,Sales-Search-1,NY PLLC Formation,form pllc new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-08,Sales-Search-1,NY PLLC Formation,pllc new york state,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-09,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-09,01_Core_Exact_NY,Formation-Core,ny pllc,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-09-09,01_Core_Exact_NY,Formation-Core,ny pllc formation,ADDED,EXACT,4,3,0.75,6080000.0,18240000,0.0
+2026-09-09,01_Core_Exact_NY,Formation-Core,pllc ny,ADDED,EXACT,2,1,0.5,4170000.0,4170000,0.0
+2026-09-09,01_Core_Exact_NY,Formation-Core,nysed pllc,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-09-09,Sales-Search-1,NY PLLC Formation,new york pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-09,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-09,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-09,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-09-09,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,14,0,0.0,0.0,0,0.0
+2026-09-09,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,4,1,0.25,15091457.0,15091457,0.0
+2026-09-09,Sales-Search-1,NY PLLC Formation,pllc in new york,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-09,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-09,Sales-Search-1,NY PLLC Formation,pllc nys,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-09,Sales-Search-1,NY PLLC Formation,new york pllc name requirements,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-09,Sales-Search-1,NY PLLC Formation,ny pllc checklist,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-09-09,Sales-Search-1,NY PLLC Formation,pllc legal zoom,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-09-09,Sales-Search-1,NY PLLC Formation,llc formation nyc,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-09,Sales-Search-1,NY PLLC Formation,ny llc biennial statement filing,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-09,Sales-Search-1,NY PLLC Formation,nyc biennial filing,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-09,Sales-Search-1,NY PLLC Formation,forming pllc in new york,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-09-09,Sales-Search-1,NY PLLC Formation,new york state pllc,NONE,NEAR_EXACT,2,1,0.5,1630000.0,1630000,0.0

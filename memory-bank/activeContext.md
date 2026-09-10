@@ -7,7 +7,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Current sprint
 
 - **Google Ads Phase 0** — **conversion flip done Jul 9.** Tagged Purchase `7678072764` primary; page-load `7353506045` secondary. See [features/google-ads.md](features/google-ads.md) · [operating plan](../nypllc-google-ads-operating-plan.md)
-- **Weekly SOP** — latest §7.1 **done Sep 5** (due Sep 8): [WEEKLY-SOP.md](../ads-pull-2026-09-05-weekly-sop/WEEKLY-SOP.md). 7d CPA **$122** / 6; 30d **$144** / 16; Ads↔CRM 30d **+6.7%**. **Daily Sep 8:** [DAILY-SOP.md](../ads-pull-2026-09-08-daily-sop/DAILY-SOP.md) — 7d **$214** / 2.8; 30d **$136** / 17; `01` **~4.5** lifetime; $105 day 7; Sales eligible 7d **3,106**.
+- **Weekly SOP** — latest §7.1 **done Sep 5** (due Sep 8): [WEEKLY-SOP.md](../ads-pull-2026-09-05-weekly-sop/WEEKLY-SOP.md). 7d CPA **$122** / 6; 30d **$144** / 16; Ads↔CRM 30d **+6.7%**. **Daily Sep 9:** [DAILY-SOP.md](../ads-pull-2026-09-09-daily-sop/DAILY-SOP.md) — 7d **$163** / 3.8; 30d **$133** / 17; `01` **5.5** lifetime; $105 day 8; Sales eligible 7d **3,338**.
 - **Sep 3 owner calendar** — **supersedes Gate 2/3 hold on `03` + Bing.** Sep 15 eligible readout; **Sep 15–22 enable `03` + Bing**; Oct 1 tCPA ~$120 if mCPA <$160; Nov 1 paid verdict (30–40 vs 20–25). Still **no** Discovery demotion. [expansion-next-steps.md](expansion-next-steps.md) · [operating plan §0.5](../nypllc-google-ads-operating-plan.md)
 - **Sep 2 tCPA diagnostic** — portfolio **$90 → $105**. Sales eligible toward 4.5–5k/wk. May pattern (spend up, auctions flat) = **paid capped**.
 - **$1M mix** — paid 50–60/mo is **stretch**; current rate ≈ **$400–550K** 2028-type year without B2B/CAQH/RA landing. 📖 [expansion-next-steps.md](expansion-next-steps.md)
@@ -88,7 +88,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 📖 Full log: [session-history.md](../docs/session-history.md)
 
-Latest (Sep 9 2026): **CAQH backlist queued** — 20 FORMATION_COMPLETE `$499` emails **not sent** (Gmail OAuth on other machine). Script in PLLC-CRM. 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md).
+Latest (Sep 9 2026): **Daily Ads SOP** — 7d CPA **$163** / 3.8 conv; 30d **$133** / 17 conv; Sep MTD **$114** / 7. `01` **5.5** lifetime. No account changes. $105 day 8; Sales eligible 7d **3,338**. [DAILY-SOP.md](../ads-pull-2026-09-09-daily-sop/DAILY-SOP.md). **CAQH backlist queued** — 20 FORMATION_COMPLETE `$499` emails **not sent** (Gmail OAuth on other machine). 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md).
 
 Latest (Sep 8 2026): **Daily Ads SOP** — 7d CPA **$214** / 2.8 conv; 30d **$136** / 17 conv; Sep MTD **$120** / 6. `01` **~4.5** lifetime. No account changes. $105 day 7; Sales eligible 7d **3,106**. [DAILY-SOP.md](../ads-pull-2026-09-08-daily-sop/DAILY-SOP.md).
 

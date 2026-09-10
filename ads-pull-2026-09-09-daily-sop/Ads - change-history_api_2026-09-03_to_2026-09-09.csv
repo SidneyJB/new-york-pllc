@@ -1,0 +1,109 @@
+change_event.change_date_time,change_event.user_email,change_event.client_type,change_event.change_resource_type,change_event.resource_change_operation,change_event.changed_fields,change_event.old_resource,change_event.new_resource,change_event.campaign,change_event.ad_group
+2026-09-03 16:03:10.295455,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/416850013727""
+  id: 416850013727
+}
+",,
+2026-09-05 15:52:56.704319,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/417845262997""
+  id: 417845262997
+}
+",,
+2026-09-05 16:02:40.125855,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/417846987022""
+  id: 417846987022
+}
+",,
+2026-09-05 16:08:15.930447,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/417848071690""
+  id: 417848071690
+}
+",,
+2026-09-05 16:11:09.949743,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/417848589352""
+  id: 417848589352
+}
+",,
+2026-09-07 18:40:31.642895,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/418740582264""
+  id: 418740582264
+}
+",,
+2026-09-07 20:49:40.560991,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/418595208893""
+  id: 418595208893
+}
+",,
+2026-09-07 20:49:41.612623,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/418595205788""
+  id: 418595205788
+}
+",,
+2026-09-07 20:49:44.531519,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/418704394825""
+  id: 418704394825
+}
+",,
+2026-09-07 20:49:45.579135,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/418704393238""
+  id: 418704393238
+}
+",,
+2026-09-08 18:09:56.394143,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/419100584892""
+  id: 419100584892
+}
+",,
+2026-09-08 18:09:57.646495,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/419100583071""
+  id: 419100583071
+}
+",,

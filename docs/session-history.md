@@ -2,6 +2,10 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-09-12 — Daily Ads SOP
+
+7d CPA **$92** / 5.9 conv; 30d **$124** / 19 conv; Sep MTD **$96** / 12 conv. `01` **6.5** lifetime. Ads↔CRM 7d −27% (small-n) / 30d **+5.6%** (inside ±10%). No account changes. $105 day 11; Sales eligible 7d **3,946**. Writeup: [`DAILY-SOP.md`](../ads-pull-2026-09-12-daily-sop/DAILY-SOP.md).
+
 ## 2026-09-09 — Daily Ads SOP
 
 7d CPA **$163** / 3.8 conv; 30d **$133** / 17 conv; Sep MTD **$114** / 7 conv. `01` **5.5** lifetime (+1 Sep 8). Ads↔CRM 7d −53% (small-n) / 30d −5.6% (inside ±10%). No account changes. $105 day 8; Sales eligible 7d **3,338**. Writeup: [`DAILY-SOP.md`](../ads-pull-2026-09-09-daily-sop/DAILY-SOP.md).

@@ -2,6 +2,10 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-09-13 — Weekly Ads SOP §7.1
+
+Ran 8 days after Sep 5 (calendar due ~Sep 12). 7d CPA **$133** / 4.88 conv; 30d **$133** / 18 conv (week 2 over freeze $130). Self-block 0. Ads Spiffy 18 vs CRM 17 (**+5.9%**). No account changes. tCPA $105 day 12; Sales ISO week **4,062** (up from 3,477). `01` **6.50** lifetime. Gate 2 volume fail expected. **`03` + Bing still Sep 15–22** — do not enable tonight. Writeup: [`WEEKLY-SOP.md`](../ads-pull-2026-09-13-weekly-sop/WEEKLY-SOP.md).
+
 ## 2026-09-12 — Daily Ads SOP
 
 7d CPA **$92** / 5.9 conv; 30d **$124** / 19 conv; Sep MTD **$96** / 12 conv. `01` **6.5** lifetime. Ads↔CRM 7d −27% (small-n) / 30d **+5.6%** (inside ±10%). No account changes. $105 day 11; Sales eligible 7d **3,946**. Writeup: [`DAILY-SOP.md`](../ads-pull-2026-09-12-daily-sop/DAILY-SOP.md).

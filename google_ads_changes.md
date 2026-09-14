@@ -1,12 +1,35 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-09-12
+**Last updated:** 2026-09-13
 
 ## Account
 
 - Customer: NYPLLC (`1529880213`)
 - Live: `Sales-Search-1` + `01_Core_Exact_NY` + `02_Professions_NY` (ENABLED)
 - Unattached PAUSED: `03_ForeignQual_US`
+
+---
+
+## Changes on 2026-09-13 — Weekly SOP §7.1 (week ending Sep 13)
+
+Pull: [`ads-pull-2026-09-13-weekly-sop/`](ads-pull-2026-09-13-weekly-sop/) · writeup [`WEEKLY-SOP.md`](ads-pull-2026-09-13-weekly-sop/WEEKLY-SOP.md) · dashboard [`ads-weekly-dashboard.csv`](ads-weekly-dashboard.csv)
+
+| Metric (window) | Result |
+|---|---|
+| Self-block | **0** of 48 / 31 / 33 / 39. Lists A 53 · A-FQ 45 · C 27 unchanged. Attorneys AG paused |
+| Budget-lost IS | **0%** Sales + `01` + `02` |
+| 7d (Sep 7–13) | $652 / **4.88** click-attr / CPA **$133** |
+| 28d CPA | **$138** (17 / $2,352) |
+| 30d CPA | **$133** (18 / $2,398) — over freeze ≤$130 (**week 2**; tripwire is 3 weeks) |
+| `01` | **6.50** lifetime purchases. 7d IS **~61%** · 30d IS **~49%** · $564 / 70 clicks |
+| Ads↔CRM 30d | Spiffy Purchase **18** vs CRM click-ID **17** (**+5.9%**) |
+| Eligible (Sales) | ISO week Aug 24 **3,140** · Aug 31 **3,477** · Sep 7 **4,062**. $105 diagnostic day 12 — Sep 15 readout |
+| Gate 1 / 2 | Still fail volume. **`03` + Bing still Sep 15–22** (Sep 3 override). No Discovery demotion |
+| Change history | Sep 5–13 `INTERNAL_TOOL` assets only |
+
+| Action | Detail |
+|---|---|
+| Account changes | **None** |
 
 ---
 

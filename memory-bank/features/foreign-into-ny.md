@@ -6,7 +6,7 @@ Hub + state landings for out-of-state professional entities qualifying into NY, 
 
 ## Status
 
-**Live:** NJ, PA, FL, TX, CT, CO. **California built Sep 16 2026** at `/foreign-pllc/california`; deploy with the current website changes.
+**Live:** NJ, PA, FL, TX, CT, CA, CO. California deployed Sep 16 2026 at `/foreign-pllc/california`; canonical metadata, $905 pricing, publication copy, selector entry, and sitemap route verified in production.
 
 ## Key paths
 

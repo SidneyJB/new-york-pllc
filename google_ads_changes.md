@@ -14,7 +14,7 @@
 
 Website:
 
-- Built `/foreign-pllc/california` at **$905** with California professional-entity eligibility caveats, selector entry, canonical metadata, and sitemap entry.
+- Deployed `/foreign-pllc/california` at **$905** with California professional-entity eligibility caveats, selector entry, canonical metadata, and sitemap entry. Production page and sitemap verified after Vercel deployment.
 - Colorado page remains `/foreign-pllc/colorado` at **$895**.
 
 Google Ads account `1529880213`, campaign `03_ForeignQual_US` (`24012757620`):

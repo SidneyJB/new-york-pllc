@@ -26,15 +26,15 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 ## Expansion priorities (next 4 weeks)
 
-📖 Full narrative + Sep–Jan calendar: [expansion-next-steps.md](expansion-next-steps.md) (updated **Sep 4, 2026**). **MSO path** (offer locked, page unpublished): [features/mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md).
+📖 Full narrative + Sep–Jan calendar: [expansion-next-steps.md](expansion-next-steps.md) (updated **Sep 16, 2026** evening). **MSO path** (offer locked, page unpublished): [features/mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md).
 
-1. **CAQH** — **Sep 16 sends done** (checkout-interest 3 + backlist 20). (**PLLC-CRM**)
+1. **CAQH** — remaining ~118 **held**. Copy (3 versions) + Headway/Alma page this week; verify EIN-trigger attach emails. Oct bar **3–5 paid any motion**. (**Site + PLLC-CRM**)
 2. **Direct-RA Lever 1 — LIVE** — first T-30 ~Sep 22; Oct charges. Pre-send checklist in [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
 3. **EXP Credentialing** — referral link **sent Sep 16** (`EXP9Z8S`). (**PLLC-CRM**)
 4. **Affiliate follow-ups** — **third ping sent Sep 1** (Mercury + Gusto). Links not live. [affiliate-partners.md](../docs/affiliate-partners.md)
 5. **Ads** — **Hold $105.** Sep 29–30 $120 pre-register. **`03` ENABLED Sep 16** (five state groups approved; CA/CO RSAs pending). **Bing slip-item.** Attorneys AG **paused**. Unpinned RSA stays paused.
-6. **SEO** — OP deficiencies `#4` and PLLC vs LLC `#5` **live Sep 4**; 20-term tracker file live; **do not publish MSO**
-7. **Big B2B outreach paused**
+6. **SEO** — Headway/Alma comparison **this week**; `#4`/`#5` live Sep 4; 20-term tracker file live; **do not publish MSO**
+7. **Big B2B outreach paused**; Headway/Alma → **platform** segment (formation partners)
 8. **MSO** — CRM manual pairs **done Sep 16**; page still unpublished; **no Vercel public route**; no ads
 
 ## Ads ops
@@ -80,9 +80,9 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 | Revenue levers: **Mercury + Gusto Impact applied Aug 14**; **third ping Sep 1**; links not live | [affiliate-partners.md](../docs/affiliate-partners.md) |
 | $985 price test — **deferred to February** | [revenue levers plan](../nypllc-revenue-levers-plan.md) |
 | Spiffy checkbox live: S Corp $195; sales tax **off checkout Aug 18**; CAQH Spiffy SKU after pilots | [revenue levers plan](../nypllc-revenue-levers-plan.md) |
-| **CAQH pilot** — Sep 16 checkout-interest 3 + backlist 20 sent with $499 hosted invoices; watch replies and payments | [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
+| **CAQH** — Sep 16 replies: 0 paid (Alma/Headway, already paneled, already has CAQH). Remaining ~118 held until copy + comparison page. Oct: 3–5 paid any motion or drop to passive | [expansion-next-steps.md](expansion-next-steps.md) · [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
 | **Direct-RA notices live (Aug 25)** — checkout disclosure **audited Aug 26**; staff **$99 CoC** + **$249 Compliance Plan** paths confirmed. First T-30s ~Sep 22; Oct charges | [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) |
-| Big B2B professional outreach **paused** until CAQH + EXP + affiliates done | [expansion-next-steps.md](expansion-next-steps.md) |
+| Big B2B professional outreach **paused** until CAQH copy/page + EXP + affiliates; **Headway/Alma = platform segment** (formation partners) | [expansion-next-steps.md](expansion-next-steps.md) · [b2b-partners.md](../../PLLC-CRM/memory-bank/features/b2b-partners.md) |
 | **MSO path** — offer locked; **page unpublished** (not in `app/`; Vercel 404 `/ny-mso`); **no ads**; do not name Jonah | [features/mso-msa.md](features/mso-msa.md) |
 
 ## Recent changes

@@ -52,7 +52,7 @@ Anything that **takes money** (build + launch) — still open:
 
 | # | Item | Repo / owner | Notes |
 |---|------|--------------|-------|
-| **1** | **CAQH — queued 20 FORMATION_COMPLETE (not sent)** | **PLLC-CRM** | Sep 9 list: OP_APPROVED+, no correction-needed, skip prior outreach (**125**). Next: `send-caqh-healthcare-backlist.ts --status FORMATION_COMPLETE --limit 20 --confirm` on the Gmail OAuth machine. Then remaining complete. **$499 paid SKU** after 2–3 pilots. 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
+| **1** | **CAQH — checkout-interest 3 + queued 20 (not sent)** | **PLLC-CRM** | **TODO:** `send-caqh-checkout-interest.ts --confirm` (Spano / Famah / Rabinowitz). Then `send-caqh-healthcare-backlist.ts --status FORMATION_COMPLETE --limit 20 --confirm`. Both need the Gmail OAuth machine. 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
 | **2** | **Direct-RA ops** | **PLLC-CRM** | **Live Aug 25.** Checkout disclosure **audited**; staff **$99 CoC** + **$249 Compliance Plan** support paths **confirmed**. First T-30s ~Sep 22; October auto-charges. 📖 [direct-ra-launch-status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) |
 | **3** | **EXP Credentialing** | **PLLC-CRM** | **CRM provisioned Sep 16** (`B2bPartner` coupon **EXP9Z8S**, `https://www.nypllc.com/order?c=EXP9Z8S`). **Referral email not sent.** Spiffy promo attach to checkout 34573 may still be manual. |
 | **4** | **Two affiliate links** (banking + payroll) | **Site** lifecycle email + backlist / S Corp page | **Mercury + Gusto Impact applied Aug 14**; **third ping Sep 1**. **OnPay/ADP backup not sent** (deferred). Links not live. 📖 [affiliate-partners.md](../docs/affiliate-partners.md) |

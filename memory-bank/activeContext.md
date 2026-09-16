@@ -28,7 +28,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 📖 Full narrative + Sep–Jan calendar: [expansion-next-steps.md](expansion-next-steps.md) (updated **Sep 4, 2026**). **MSO path** (offer locked, page unpublished): [features/mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md).
 
-1. **CAQH** — **20 FORMATION_COMPLETE queued, not emailed** (Sep 9). Send from OAuth machine: `send-caqh-healthcare-backlist.ts --status FORMATION_COMPLETE --limit 20 --confirm`. List is OP_APPROVED+, no correction-needed (**125** remaining before this wave). (**PLLC-CRM**)
+1. **CAQH** — **TODO (OAuth machine):** `send-caqh-checkout-interest.ts --confirm` (Spano, Famah, Rabinowitz). Also 20 FORMATION_COMPLETE still queued. (**PLLC-CRM**)
 2. **Direct-RA Lever 1 — LIVE** — first T-30 ~Sep 22; Oct charges. Pre-send checklist in [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
 3. **EXP Credentialing** — Sep 1 close-out **sent**; waiting on their model choice (**PLLC-CRM**)
 4. **Affiliate follow-ups** — **third ping sent Sep 1** (Mercury + Gusto). Links not live. [affiliate-partners.md](../docs/affiliate-partners.md)

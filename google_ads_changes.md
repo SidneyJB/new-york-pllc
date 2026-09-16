@@ -5,8 +5,16 @@
 ## Account
 
 - Customer: NYPLLC (`1529880213`)
-- Live: `Sales-Search-1` + `01_Core_Exact_NY` + `02_Professions_NY` (ENABLED)
-- Unattached PAUSED: `03_ForeignQual_US` — **scripts ready, not enabled**
+- Live: `Sales-Search-1` + `01_Core_Exact_NY` + `02_Professions_NY` + **`03_ForeignQual_US`** (ENABLED)
+- `03_ForeignQual_US` attached to portfolio `12148056412` (Target CPA $105 hold)
+
+---
+
+## Changes on 2026-09-16 — Enable `03_ForeignQual_US`
+
+- Attached `03_ForeignQual_US` (`24012757620`) to portfolio `12148056412` (inline Maximize Conversions → Target CPA portfolio).
+- Set campaign **ENABLED**.
+- Post-enable audit: Generic + NJ/PA/FL/TX/CT ad groups **APPROVED** (Florida unpinned `APPROVED_LIMITED`). **California + Colorado** RSAs still `UNKNOWN` (pending review) — campaign enabled anyway so the five proven state groups can earn while CA/CO clear.
 
 ---
 
@@ -23,7 +31,7 @@ Google Ads account `1529880213`, campaign `03_ForeignQual_US` (`24012757620`):
 - Added **Colorado** (`adGroups/201740615953`) with 4 exact keywords and 2 RSAs. Final URL: `https://www.nypllc.com/foreign-pllc/colorado`.
 - Removed the two legacy California exacts from `Generic-ForeignQual`; removed one superseded full-state duplicate from the California group. Final California set is exactly 4 keywords.
 - Policy validation: 8 additions passed with **0 blocked / 0 exemptions**. New RSA policy state immediately after upload: `UNKNOWN` (pending review).
-- Final audit: campaign **PAUSED**, `MAXIMIZE_CONVERSIONS` inline, `bidding_strategy_resource=null` (**unattached**). No campaign status, budget, or bidding change.
+- Upload audit (pre-enable): campaign **PAUSED**, inline `MAXIMIZE_CONVERSIONS`, unattached. Enable step ran later same day (see above).
 
 Artifacts: [`google-ads-campaign-build/`](google-ads-campaign-build/) · audit: `python -m google_ads.audit_foreign_state_groups`.
 

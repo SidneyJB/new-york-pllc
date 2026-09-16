@@ -8,7 +8,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 - **Google Ads Phase 0** — **conversion flip done Jul 9.** Tagged Purchase `7678072764` primary; page-load `7353506045` secondary. See [features/google-ads.md](features/google-ads.md) · [operating plan](../nypllc-google-ads-operating-plan.md)
 - **Weekly SOP** — latest §7.1 **done Sep 13**: [WEEKLY-SOP.md](../ads-pull-2026-09-13-weekly-sop/WEEKLY-SOP.md). 7d CPA **$133** / 4.88; 30d **$133** / 18; Ads↔CRM 30d **+5.9%**; Sales ISO week **4,062**. **Daily Sep 12:** [DAILY-SOP.md](../ads-pull-2026-09-12-daily-sop/DAILY-SOP.md) — 7d **$92** / 5.9; 30d **$124** / 19; `01` **6.5** lifetime.
-- **Sep 3 owner calendar** — **supersedes Gate 2/3 hold on `03`.** **Hold $105** (Sep 16). **Sep 29–30** pre-register $120 (matured Sep 2–21 ≥0.7/day ≤$135, eligible ≥4,300/wk). **`03` California + Colorado groups uploaded Sep 16; campaign remains PAUSED / unattached. Sid enable this week.** **Bing slip-item.** **$985 February.** Gate 2 Sales exact-neg **filed, not applied**. [expansion-next-steps.md](expansion-next-steps.md) · [operating plan §0.5](../nypllc-google-ads-operating-plan.md)
+- **Sep 3 owner calendar** — **supersedes Gate 2/3 hold on `03`.** **Hold $105** (Sep 16). **Sep 29–30** pre-register $120 (matured Sep 2–21 ≥0.7/day ≤$135, eligible ≥4,300/wk). **`03_ForeignQual_US` ENABLED Sep 16** on portfolio; CA + CO RSAs pending review, five original state groups already approved. **Bing slip-item.** **$985 February.** Gate 2 Sales exact-neg **filed, not applied**. [expansion-next-steps.md](expansion-next-steps.md) · [operating plan §0.5](../nypllc-google-ads-operating-plan.md)
 - **Sep 2 tCPA diagnostic** — portfolio **$90 → $105**. **Hold $105.** Week-1 ~$105 CPA / 5.9 conv; CRM Google 0.52→0.90/day. mCPA ~$183 immature tail.
 - **$1M mix** — paid 50–60/mo is **stretch**; current rate ≈ **$400–550K** 2028-type year without B2B/CAQH/RA landing. 📖 [expansion-next-steps.md](expansion-next-steps.md)
 - **Sep 1 recovery actions** — Core Exact audit: checkout→purchase leak; **paused** Formation-Core unpinned. Attorneys RSA **v5** later **DISAPPROVED** (Sep 2); AG paused. June drop **closed** (Jun 7 tCPA, not match-type). [CORE-EXACT-FUNNEL-AUDIT.md](../ads-pull-2026-09-01-weekly-sop/CORE-EXACT-FUNNEL-AUDIT.md)
@@ -16,7 +16,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 - **`02` Attorneys RSA v5 (Sep 2)** — **DISAPPROVED**. Ad group **PAUSED** (`196018838817`). Stop copy churn. See [google_ads_changes.md](../google_ads_changes.md)
 - **SEO / content moat** — [nypllc-seo-content-moat-plan.md](../nypllc-seo-content-moat-plan.md). Shipped: `/nysed-approval-times`, `/ny-pllc-cost`, `/how-long-to-form-a-pllc-in-ny` (Jul 22); OP deficiencies `#4` `/nysed-op-deficiencies` and PLLC vs LLC `#5` `/pllc-vs-llc` (**live Sep 4**). MSO page **built unpublished** (not in `app/`; Vercel 404s `/ny-mso`). 20-term tracker: [`seo-rank-tracker.csv`](../seo-rank-tracker.csv). See [features/seo-and-domain.md](features/seo-and-domain.md) · [features/mso-msa.md](features/mso-msa.md)
 - **Revenue levers (website surface)** — [nypllc-revenue-levers-plan.md](../nypllc-revenue-levers-plan.md). **Direct-RA Lever 1 LIVE Aug 25** (`DIRECT_RA_NOTICES_LIVE` on CRM Production). **CAQH Sep 16 sends done:** checkout-interest 3 + `FORMATION_COMPLETE` backlist 20, each with a $499 hosted invoice. **CAQH interest checkbox live Aug 26** on Spiffy (no charge; CRM `caqhInterest` + staff badge). **Mercury + Gusto Impact applied Aug 14**; **third ping Sep 1**. Spiffy checkbox live: **S Corp $195**. Sales tax Certificate of Authority **removed from checkout Aug 18** (low take rate). Remaining: DBA, CAQH **paid** SKU, VM copy. **$985 deferred to February.** Expedite SKU **removed Aug 17** (already in $885). See [features/revenue-levers.md](features/revenue-levers.md) · [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) · [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md)
-- **Phase 1 live:** `Sales-Search-1` + `01_Core_Exact_NY` + **`02_Professions_NY`** on portfolio tCPA **$105 hold**. `03_ForeignQual_US` now has **8 groups / 39 keywords / 16 RSAs**, including CA + CO, but remains **PAUSED / unattached**.
+- **Phase 1 live:** `Sales-Search-1` + `01_Core_Exact_NY` + **`02_Professions_NY`** + **`03_ForeignQual_US`** on portfolio tCPA **$105 hold**. `03` has **8 groups / 39 keywords / 16 RSAs**; CA + CO ads pending review.
 - **NY → Colorado FQ (Sep 10 2026)** — Statement of Foreign Entity Authority **$100** SOS; list **$500** ($400 profit). Chart: [`data/ny-outbound-foreign-qualification.json`](../data/ny-outbound-foreign-qualification.json). CRM SoT in PLLC-CRM. See [features/foreign-into-ny.md](features/foreign-into-ny.md)
 - **California foreign-into-NY page LIVE Sep 16** ($905; selector, canonical metadata, and sitemap verified in production). State coverage: NJ/PA/FL/TX/CT/CA/CO.
 - **Foreign publication copy (HARD — Aug 10 2026):** flat package **includes** end-to-end six-week publication. Never “guidance” / “not included unless quoted.” See [features/foreign-into-ny.md](features/foreign-into-ny.md).
@@ -32,7 +32,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 2. **Direct-RA Lever 1 — LIVE** — first T-30 ~Sep 22; Oct charges. Pre-send checklist in [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
 3. **EXP Credentialing** — referral link **sent Sep 16** (`EXP9Z8S`). (**PLLC-CRM**)
 4. **Affiliate follow-ups** — **third ping sent Sep 1** (Mercury + Gusto). Links not live. [affiliate-partners.md](../docs/affiliate-partners.md)
-5. **Ads** — **Hold $105.** Sep 29–30 $120 pre-register. `03` CA + CO groups ready in account; campaign still **PAUSED / unattached** for Sid to launch. **Bing slip-item.** Attorneys AG **paused**. Unpinned RSA stays paused.
+5. **Ads** — **Hold $105.** Sep 29–30 $120 pre-register. **`03` ENABLED Sep 16** (five state groups approved; CA/CO RSAs pending). **Bing slip-item.** Attorneys AG **paused**. Unpinned RSA stays paused.
 6. **SEO** — OP deficiencies `#4` and PLLC vs LLC `#5` **live Sep 4**; 20-term tracker file live; **do not publish MSO**
 7. **Big B2B outreach paused**
 8. **MSO** — CRM manual pairs **done Sep 16**; page still unpublished; **no Vercel public route**; no ads
@@ -40,7 +40,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Ads ops
 
 1. **Sep 16:** **Hold $105.** Pre-register Sep 29–30 for $120.
-2. **This week:** Sid `--execute` `03` attach + enable. Bing later.
+2. **This week:** `03` attach + enable **done Sep 16**. Bing later. Watch CA/CO RSA policy status.
 3. Customer Match **uploaded Sep 5** (`9465911299`; job RUNNING; size 0 until match). Auction Insights **done Sep 5**. Do **not** Targeting-attach.
 4. **Oct:** mobile LP + publication-cost calculator on LPs (not publishing-only). **$985 until February**
 5. **Weekly SOP done Sep 13**. Daily **done Sep 12**. Attorneys AG paused; no copy churn.

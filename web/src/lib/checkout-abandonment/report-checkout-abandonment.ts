@@ -12,7 +12,7 @@ export async function reportCheckoutAbandonment(email: string): Promise<void> {
 
   const attr: ClickAttribution = getClickAttributionFromCookie()
   try {
-    await fetch('/api/checkout-abandonment', {
+    const res = await fetch('/api/checkout-abandonment', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -29,12 +29,17 @@ export async function reportCheckoutAbandonment(email: string): Promise<void> {
       }),
       keepalive: true,
     })
+    if (!res.ok) {
+      const body = await res.text().catch(() => '')
+      console.error('checkout abandonment ingest failed', res.status, body)
+      return
+    }
     try {
       sessionStorage.setItem(key, '1')
     } catch {
       // ignore
     }
-  } catch {
-    // Best-effort: never break checkout.
+  } catch (error) {
+    console.error('checkout abandonment ingest error', error)
   }
 }

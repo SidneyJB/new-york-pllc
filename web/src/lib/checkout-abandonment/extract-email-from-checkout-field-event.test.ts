@@ -17,4 +17,26 @@ describe('extractEmailFromCheckoutFieldEvent', () => {
       extractEmailFromCheckoutFieldEvent({ name: 'notes', value: 'reach me at sid@nypllc.com' }),
     ).toBeNull()
   })
+
+  it('reads customer[email] field names', () => {
+    expect(
+      extractEmailFromCheckoutFieldEvent({ name: 'customer[email]', value: 'sid@nypllc.com' }),
+    ).toBe('sid@nypllc.com')
+  })
+
+  it('reads nested customer.email on order payloads', () => {
+    expect(
+      extractEmailFromCheckoutFieldEvent({
+        customer: { email: 'sid@nypllc.com' },
+      }),
+    ).toBe('sid@nypllc.com')
+  })
+
+  it('reads billing.email', () => {
+    expect(
+      extractEmailFromCheckoutFieldEvent({
+        billing: { email: 'billing@nypllc.com' },
+      }),
+    ).toBe('billing@nypllc.com')
+  })
 })

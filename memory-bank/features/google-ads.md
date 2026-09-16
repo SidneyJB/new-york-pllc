@@ -14,7 +14,7 @@ Google Ads API CLI, CSV exports, and analysis scripts for NYPLLC acquisition (li
 
 ## Key paths
 
-- Package: `google_ads/` (`client.py`, `reports.py`, `pull.py`, `export.py`, `upload_campaigns.py`, `upload_rsas.py`, `check_keyword_policy.py`, `set_portfolio_tcpa.py`, `set_ad_group_ad_status.py`, `set_ad_group_status.py`)
+- Package: `google_ads/` (`client.py`, `reports.py`, `pull.py`, `export.py`, `upload_campaigns.py`, `upload_rsas.py`, `check_keyword_policy.py`, `set_portfolio_tcpa.py`, `set_ad_group_ad_status.py`, `set_ad_group_status.py`, `attach_campaign_to_portfolio.py`, `set_campaign_status.py`)
 - CLI: `google_ads_cli.py`, `google_ads_pull.py`, `google_ads_auth.py`
 - Analysis: `ads_analysis.py`, `apr23_*.py`
 - Data: `Ads - *.csv`, `ads-notes-*.md`, `google_ads_changes*.md`, `apr 23 ads reports/`, `baseline-2026-07-08/`
@@ -70,15 +70,15 @@ pip install -r requirements-ads.txt
 - Policy note (Jul 11): Formation-Core + Attorneys RSAs `APPROVED_LIMITED` (`GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES`); Sales LCSW/PT/MHC ads still `REVIEW_IN_PROGRESS`
 - **Attorneys RSA rewrite (Aug 14):** controlled DISAPPROVED (same gov-docs policy). NYSED/OP copy was wrong for `/professions/law`. Replaced both Attorneys RSAs with Rule 7.5 / attorney-only ownership (`820969348495` / `820969348510`). **Aug 17 daily:** still DISAPPROVED. **Aug 25 v3** commercial-only (`822145210776` / `822189177055`) still DISAPPROVED. **Aug 26 v4** dropped law-practice / filed / six-week lines (`822412227500` / `822340024756`, DISAPPROVED). **Sep 1 v5** no attorney/law/filed/six-week copy (`823134166556` / `823134166682`). **Sep 2: v5 DISAPPROVED** — **paused Attorneys AG** `196018838817`. Stop copy churn. `upload_rsas.py` gained `--ad-groups`.
 - **Sep 1 Core Exact audit:** checkout→purchase leak (~17 begin-checkout vs 3.5 purchases). **Paused** Formation-Core unpinned (`816286133015`) — 0 purchases vs controlled 3.50. **Pinned-price win is permanent** — do not revive unpinned. Writeup: `ads-pull-2026-09-01-weekly-sop/CORE-EXACT-FUNNEL-AUDIT.md`.
-- **Sep 3 owner calendar:** tCPA **$105** already live. Enable **`03` + Bing Sep 15–22**; Sep 15 eligible ~3.5k → 4.5–5k (May pattern = capped); Oct 1 ~$120 if mCPA <$160; **Nov 1** 30–40 vs 20–25 paid. No Discovery demotion. Operating plan §0.5.
+- **Sep 3 owner calendar:** tCPA **$105** live. **Hold $105** (Sep 16). **Sep 29–30** $120 pre-register (operating plan §0.5). Enable **`03` this week** (scripts dry-run Sep 16). **Bing slip-item.** $985 **February**.
 - Daily SOP (Sep 12): 7d CPA $92 / 5.9 conv; 30d CPA $124 / 19 conv; Sep MTD $96 / 12; `01` 6.5 lifetime; Ads↔CRM 7d −27% / 30d +5.6%; $105 diagnostic day 11; Sales eligible 7d 3,946; no List C adds. Writeup: `ads-pull-2026-09-12-daily-sop/DAILY-SOP.md`
 - Daily SOP (Sep 9): 7d CPA $163 / 3.8 conv; 30d CPA $133 / 17 conv; Sep MTD $114 / 7; `01` 5.5 lifetime; Ads↔CRM 7d −53% / 30d −5.6%; $105 diagnostic day 8; Sales eligible 7d 3,338; no List C adds. Writeup: `ads-pull-2026-09-09-daily-sop/DAILY-SOP.md`
 - Daily SOP (Sep 8): 7d CPA $214 / 2.8 conv; 30d CPA $136 / 17 conv; Sep MTD $120 / 6; `01` ~4.5 lifetime; Ads↔CRM 7d −30% / 30d +21% (small-n); $105 diagnostic day 7; Sales eligible 7d 3,106; no List C adds. Writeup: `ads-pull-2026-09-08-daily-sop/DAILY-SOP.md`
 - Daily SOP (Sep 3): 7d CPA $260 / 2 conv; 30d CPA $143 / 15 conv; Sep MTD $322 / 2; Ads↔CRM 7d 0% / 30d ~7%; $105 diagnostic day 2; no List C adds. Writeup: `ads-pull-2026-09-03-daily-sop/DAILY-SOP.md`
 - Daily SOP (Aug 17): 7d CPA $119 / 4 conv; 30d CPA $123 / 13 conv; Aug MTD $94 / 11; Sales eligible ~3.4k; no List C adds. Writeup: `ads-pull-2026-08-17-daily-sop/DAILY-SOP.md`
 - Conversion goals (Jul 11): account `BEGIN_CHECKOUT`/`WEBSITE` → `biddable=False` (was true; caused “missing primary” UI warning). Matches §1.1.1 observation-only. Purchase still sole biddable website goal.
-- `03_ForeignQual_US`: US Presence · $15/day · negatives **A-FQ + B–E** · 6 AGs / 33 kws / 12 RSAs (`campaigns/24012757620`) — **enable Sep 15–22**
-- Portfolio **`NYPLLC Search Portfolio`** (`12148056412`) Target CPA **$105** — Sales + `01` + `02`; **`03` attach on enable Sep 15–22**. **Nov 1** verdict; Oct 1 ~$120 if mCPA <$160.
+- `03_ForeignQual_US`: US Presence · $15/day · negatives **A-FQ + B–E** · 6 AGs / 33 kws / 12 RSAs (`campaigns/24012757620`) — **scripts dry-run Sep 16; Sid enable this week**
+- Portfolio **`NYPLLC Search Portfolio`** (`12148056412`) Target CPA **$105 hold**. **`03` attach on enable.** **Sep 29–30** $120 pre-register. **Nov 1** verdict. **$985 February.**
 - Health-policy keywords (`lcsw`, mental health, psychiatric NP, physical therapy): create via API with `exempt_policy_violation_keys` (validate with `check_keyword_policy.py`)
 - RSA gotcha: Unicode `→` is SYMBOLS **PROHIBITED** — use ASCII `-`
 - Reviews: site uses NYPLLC GBP (`BUSINESS_INFO.googleBusinessProfileUrl`); AggregateRating from `BUSINESS_INFO.googleReviews` = **5.0 / 6** (live GBP Jul 9 2026). RSAs use **`Rated 5 Stars on Google`** on `01`/`02` (5-star only — no review count in ad copy); keep schema in sync when GBP changes

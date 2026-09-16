@@ -1,12 +1,25 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-09-13
+**Last updated:** 2026-09-16
 
 ## Account
 
 - Customer: NYPLLC (`1529880213`)
 - Live: `Sales-Search-1` + `01_Core_Exact_NY` + `02_Professions_NY` (ENABLED)
-- Unattached PAUSED: `03_ForeignQual_US`
+- Unattached PAUSED: `03_ForeignQual_US` — **scripts ready, not enabled**
+
+---
+
+## Changes on 2026-09-16 — `03` attach/enable scripts (dry-run only)
+
+Scripts (same `--execute` gate as `set_ad_group_status.py`):
+
+- [`google_ads/attach_campaign_to_portfolio.py`](google_ads/attach_campaign_to_portfolio.py) — campaign `24012757620` (`03_ForeignQual_US`) → portfolio `12148056412` (replace inline Maximize Conversions)
+- [`google_ads/set_campaign_status.py`](google_ads/set_campaign_status.py) — PAUSED → ENABLED
+
+**Dry-run Sep 16:** `03` still **PAUSED** / **MAXIMIZE_CONVERSIONS** (inline). Sid enables this week. **Bing not imported** (slip-item).
+
+**$105 hold:** week-1 ~$105 CPA / 5.9 conv; Sep 14 eligible ~7k/wk pace; pre-register **Sep 29–30** for $120 (operating plan §0.5). Gate 2 Sales exact-neg on `pllc` broad **filed, not applied**.
 
 ---
 

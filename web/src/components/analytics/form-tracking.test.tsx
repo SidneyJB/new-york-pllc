@@ -12,6 +12,7 @@ import {
 import { trackLeadStart, trackLeadSubmit, trackCheckoutStart, trackScrollDepth } from '@/lib/analytics/track'
 import { trackGoogleAdsBeginCheckout } from '@/lib/analytics/google-ads'
 import { usePathname } from 'next/navigation'
+import { reportCheckoutAbandonment } from '@/lib/checkout-abandonment/report-checkout-abandonment'
 
 vi.mock('@/lib/analytics/track', () => ({
   trackLeadStart: vi.fn(),
@@ -283,11 +284,12 @@ describe('useSpiffyFormEngagementTracking', () => {
       )?.[1]
 
       if (orderChangeCallback) {
-        orderChangeCallback({})
+        orderChangeCallback({ customer: { email: 'sid@nypllc.com' } })
       }
     })
 
     expect(sessionStorage.getItem('form_order_change_time')).toBeTruthy()
+    expect(reportCheckoutAbandonment).toHaveBeenCalledWith('sid@nypllc.com')
   })
 
   it('should track payment method changes', () => {

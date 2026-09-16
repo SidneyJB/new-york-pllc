@@ -1,7 +1,7 @@
 # Affiliate partners — banking + payroll
 
 **Decision date:** Aug 12, 2026  
-**Status:** **Mercury + Gusto Impact both applied Aug 14, 2026** — follow-ups Aug 26. **Third ping sent Sep 1** from `contact@nypllc.com`. Links not live.  
+**Status:** **Mercury + Gusto Impact both applied Aug 14, 2026** — follow-ups Aug 26. **Third ping sent Sep 1** from `contact@nypllc.com`. Links not live. **OnPay / ADP backup application not sent (deferred Sep 16).**  
 **Owner surface:** EIN email + backlist (CRM) · S-Corp-Docs-Faxed email (CRM) · S Corp product page (this site)
 
 Picks: **Mercury** (banking) · **Gusto via Impact** (payroll). Do not sign Relay Partner until exclusivity is confirmed not to block Mercury.

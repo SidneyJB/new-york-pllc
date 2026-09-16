@@ -88,11 +88,15 @@ Near-term ceiling is May’s read, not the original 60–90/month model: **~$110
 | Date | Call |
 |------|------|
 | **Sep 15** | $105 readout: Sales eligible **~3,500 → 4,500–5,000**? If yes, keep. If May pattern, **paid capped**. |
-| **Sep 15–22** | **Enable `03_ForeignQual_US`** (attach portfolio) **and Microsoft clone** of live Search campaigns. New customers (out-of-state FQ, second engine) — not more money for the same NY auctions. **Still no** Sales→Discovery demotion. |
-| **Oct 1** | If **marginal CPA of extra Sep orders <$160** ($536 contribution), raise portfolio tCPA to **~$120** (May-era bid that bought ~29/mo, now on better structure). |
+| **Sep 15–22** | **Enable `03_ForeignQual_US`** (attach portfolio). Scripts exist (`google_ads/attach_campaign_to_portfolio.py`, `set_campaign_status.py`); Sid flips this week. **Bing stays a slip-item** (not this week). **Still no** Sales→Discovery demotion. |
+| **Sep 29–30** | **Pre-register $120 decision.** Matured **Sep 2–21** at **≥0.7 conv/day** and **≤$135 blended**, eligible **≥4,300/wk** → **$120 on Oct 1**. **>$150** or **<0.55/day** → revert **$90**. In between → **hold $105**. Do **not** raise Oct 1 on the Sep 16 pull. |
+| **Oct 1** | Apply the Sep 29–30 call only. Extra-Sep mCPA **~$183** on Sep 16 is immature-tail biased, not the gate. |
 | **Through Oct** | Mobile CVR (recent 7d: **21 mobile clicks, 0 conv**) + **publication-cost calculator on LPs** (anxiety killer; **not** a publishing-only offer or county-shopping CTA — List E / Rockland-only package). CVR is the free volume lever. |
 | **Nov 1** | **Verdict.** Oct **30–40 paid orders** → original 50–60/mo path still alive; January can finish. Oct **20–25** after the above → **50–60 regular months do not exist at prices worth paying.** Do not move the goalposts. |
 | **Dec–Jan** | Freeze, preload budgets, run January at full force. |
+| **February** | **$985** price test (not earlier). |
+
+**Gate 2 exact-neg fence on Sales** (`pllc` broad **$327 CPA** vs exacts): **filed, not applied.**
 
 ### 0.6 Incrementality — the assumption this whole model rests on (added Aug 4 2026)
 

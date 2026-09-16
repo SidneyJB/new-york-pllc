@@ -1,5 +1,5 @@
-import { Metadata } from 'next'
-import { SEO_CONFIG } from '@/lib/seo/config'
+import { PRICING } from '@/lib/constants'
+import { generateStateForeignQualMetadata } from '@/lib/seo/metadata'
 import { StateForeignQualificationPage, StateForeignQualificationContent } from '../_components/state-foreign-qualification-page'
 
 const content: StateForeignQualificationContent = {
@@ -54,7 +54,7 @@ const content: StateForeignQualificationContent = {
     {
       question: 'Can my Florida entity use the same legal name in New York?',
       answer:
-        'Sometimes, but not always. A name accepted in Florida may still fail New York professional naming rules. If needed, we can file a New York Certificate of Assumed Name for $199.',
+        `Sometimes, but not always. A name accepted in Florida may still fail New York professional naming rules. If needed, we can file a New York Certificate of Assumed Name for $${PRICING.assumedNamePrice}.`,
     },
     {
       question: 'What if my Florida entity is just a regular LLC?',
@@ -79,10 +79,11 @@ const content: StateForeignQualificationContent = {
   ],
 }
 
-export const metadata: Metadata = {
-  title: `Florida PLLC/PC Foreign Qualification in NY | NYPLLC`,
+export const metadata = generateStateForeignQualMetadata({
+  slug: 'florida',
+  title: 'Florida PLLC/PC Foreign Qualification in NY | NYPLLC',
   description:
-    'Qualify your Florida professional LLC, PLLC, or PC for New York. NYSED authority, DOS filing, 6-week publication handled end-to-end. Starting at $930.',
+    'Qualify your Florida professional LLC, PLLC, or PC for New York. NYSED authority, DOS filing, 6-week publication handled end-to-end. $930 flat.',
   keywords: [
     'Florida PLLC foreign qualification New York',
     'Florida professional LLC do business in NY',
@@ -90,8 +91,7 @@ export const metadata: Metadata = {
     'foreign PLLC New York',
     'foreign professional corporation New York',
   ],
-  alternates: { canonical: `${SEO_CONFIG.siteUrl}/foreign-pllc/florida` },
-}
+})
 
 export default function FloridaForeignPLLCPage() {
   return <StateForeignQualificationPage content={content} />

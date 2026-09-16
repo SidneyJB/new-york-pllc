@@ -1,5 +1,5 @@
-import { Metadata } from 'next'
-import { SEO_CONFIG } from '@/lib/seo/config'
+import { PRICING } from '@/lib/constants'
+import { generateStateForeignQualMetadata } from '@/lib/seo/metadata'
 import { StateForeignQualificationPage, StateForeignQualificationContent } from '../_components/state-foreign-qualification-page'
 
 const content: StateForeignQualificationContent = {
@@ -64,7 +64,7 @@ const content: StateForeignQualificationContent = {
     {
       question: 'Will I need a DBA or assumed name in New York?',
       answer:
-        'Possibly. If your Pennsylvania legal name does not comply with New York professional naming rules, we can file a Certificate of Assumed Name. The assumed-name service is $199.',
+        `Possibly. If your Pennsylvania legal name does not comply with New York professional naming rules, we can file a Certificate of Assumed Name. The assumed-name service is $${PRICING.assumedNamePrice}.`,
     },
     {
       question: 'Does the price include publication?',
@@ -79,10 +79,11 @@ const content: StateForeignQualificationContent = {
   ],
 }
 
-export const metadata: Metadata = {
-  title: `Pennsylvania PLLC/PC Foreign Qualification in NY | NYPLLC`,
+export const metadata = generateStateForeignQualMetadata({
+  slug: 'pennsylvania',
+  title: 'Pennsylvania PLLC/PC Foreign Qualification in NY | NYPLLC',
   description:
-    'Qualify your Pennsylvania professional LLC, PLLC, or PC for New York. NYSED authority, DOS filing, 6-week publication handled end-to-end. Starting at $995.',
+    'Qualify your Pennsylvania professional LLC, PLLC, or PC for New York. NYSED authority, DOS filing, 6-week publication handled end-to-end. $995 flat.',
   keywords: [
     'Pennsylvania PLLC foreign qualification New York',
     'Pennsylvania professional LLC do business in NY',
@@ -90,8 +91,7 @@ export const metadata: Metadata = {
     'foreign PLLC New York',
     'foreign professional corporation New York',
   ],
-  alternates: { canonical: `${SEO_CONFIG.siteUrl}/foreign-pllc/pennsylvania` },
-}
+})
 
 export default function PennsylvaniaForeignPLLCPage() {
   return <StateForeignQualificationPage content={content} />

@@ -1,5 +1,5 @@
-import { Metadata } from 'next'
-import { SEO_CONFIG } from '@/lib/seo/config'
+import { PRICING } from '@/lib/constants'
+import { generateStateForeignQualMetadata } from '@/lib/seo/metadata'
 import {
   StateForeignQualificationContent,
   StateForeignQualificationPage,
@@ -68,7 +68,7 @@ const content: StateForeignQualificationContent = {
     {
       question: 'Will I need an assumed name in New York?',
       answer:
-        'Possibly. If the California legal name does not meet New York professional naming rules, we can file a Certificate of Assumed Name. That service is $199.',
+        `Possibly. If the California legal name does not meet New York professional naming rules, we can file a Certificate of Assumed Name. That service is $${PRICING.assumedNamePrice}.`,
     },
     {
       question: 'Does the $905 price include publication?',
@@ -83,9 +83,9 @@ const content: StateForeignQualificationContent = {
   ],
 }
 
-export const metadata: Metadata = {
-  title:
-    'California PC/Professional Entity Foreign Qualification in NY | NYPLLC',
+export const metadata = generateStateForeignQualMetadata({
+  slug: 'california',
+  title: 'California PC/Professional Entity Foreign Qualification in NY | NYPLLC',
   description:
     'Qualify an eligible California professional corporation or professional entity in New York. NYSED, DOS filing, and six-week publication included. $905 flat.',
   keywords: [
@@ -95,8 +95,7 @@ export const metadata: Metadata = {
     'California PLLC New York',
     'foreign professional corporation New York',
   ],
-  alternates: { canonical: `${SEO_CONFIG.siteUrl}/foreign-pllc/california` },
-}
+})
 
 export default function CaliforniaForeignPLLCPage() {
   return <StateForeignQualificationPage content={content} />

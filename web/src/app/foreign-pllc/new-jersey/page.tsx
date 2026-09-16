@@ -1,5 +1,5 @@
-import { Metadata } from 'next'
-import { SEO_CONFIG } from '@/lib/seo/config'
+import { PRICING } from '@/lib/constants'
+import { generateStateForeignQualMetadata } from '@/lib/seo/metadata'
 import { StateForeignQualificationPage, StateForeignQualificationContent } from '../_components/state-foreign-qualification-page'
 
 const content: StateForeignQualificationContent = {
@@ -59,7 +59,7 @@ const content: StateForeignQualificationContent = {
     {
       question: 'Will I need a DBA or assumed name in New York?',
       answer:
-        'Possibly. If the New Jersey legal name does not comply with New York professional naming rules, we can file a New York Certificate of Assumed Name. The assumed-name service is $199.',
+        `Possibly. If the New Jersey legal name does not comply with New York professional naming rules, we can file a New York Certificate of Assumed Name. The assumed-name service is $${PRICING.assumedNamePrice}.`,
     },
     {
       question: 'Does the price include publication?',
@@ -74,10 +74,11 @@ const content: StateForeignQualificationContent = {
   ],
 }
 
-export const metadata: Metadata = {
-  title: `New Jersey PLLC/PC Foreign Qualification in NY | NYPLLC`,
+export const metadata = generateStateForeignQualMetadata({
+  slug: 'new-jersey',
+  title: 'New Jersey PLLC/PC Foreign Qualification in NY | NYPLLC',
   description:
-    'Qualify your New Jersey professional LLC, PLLC, or PC for New York. NYSED authority, DOS filing, 6-week publication handled end-to-end. Starting at $995.',
+    'Qualify your New Jersey professional LLC, PLLC, or PC for New York. NYSED authority, DOS filing, 6-week publication handled end-to-end. $995 flat.',
   keywords: [
     'New Jersey PLLC foreign qualification New York',
     'New Jersey professional LLC do business in NY',
@@ -85,8 +86,7 @@ export const metadata: Metadata = {
     'foreign PLLC New York',
     'foreign professional corporation New York',
   ],
-  alternates: { canonical: `${SEO_CONFIG.siteUrl}/foreign-pllc/new-jersey` },
-}
+})
 
 export default function NewJerseyForeignPLLCPage() {
   return <StateForeignQualificationPage content={content} />

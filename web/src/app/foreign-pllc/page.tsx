@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Metadata } from 'next'
+import { FOREIGN_QUAL_HUB_METADATA } from '@/lib/seo/metadata'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
@@ -8,22 +8,7 @@ import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { Shield, ClipboardList, FileCheck2, Newspaper, Users, CheckCircle } from 'lucide-react'
 import { generateBreadcrumbSchema, generateFAQSchema } from '@/lib/seo/structured-data'
 
-export const metadata: Metadata = {
-  title: `Foreign-Qualify Your PLLC in New York | NYPLLC`,
-  description:
-    'Already formed out of state? We foreign-qualify your PLLC for New York — NYSED authority, DOS filing, compliant naming, required publication, end-to-end.',
-  keywords: [
-    'foreign qualification PLLC New York',
-    'qualify out-of-state PLLC in NY',
-    'Application for Authority §1306',
-    'NYSED Certificate of Authority',
-    'professional limited liability company NY',
-    'New York publication requirement foreign PLLC',
-  ],
-  alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'}/foreign-pllc`,
-  },
-}
+export const metadata = FOREIGN_QUAL_HUB_METADATA
 
 export default function ForeignQualificationPage() {
   const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.nypllc.com'

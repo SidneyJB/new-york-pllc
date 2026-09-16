@@ -248,3 +248,58 @@ export const PARTNERS_METADATA = generateMetadata({
   ],
   canonical: '/partners',
 })
+
+type StateForeignQualMetadataInput = {
+  slug: string
+  title: string
+  description: string
+  keywords: string[]
+}
+
+/** Per-page OG/Twitter for foreign-qual state landings (avoids inheriting homepage $885 tags). */
+export function generateStateForeignQualMetadata({
+  slug,
+  title,
+  description,
+  keywords,
+}: StateForeignQualMetadataInput): Metadata {
+  return generateMetadata({
+    title,
+    description,
+    keywords,
+    canonical: `/foreign-pllc/${slug}`,
+    openGraph: {
+      title,
+      description,
+    },
+    twitter: {
+      title,
+      description,
+    },
+  })
+}
+
+export const FOREIGN_QUAL_HUB_METADATA = generateMetadata({
+  title: 'Foreign-Qualify Your PLLC in New York | NYPLLC',
+  description:
+    'Already formed out of state? We foreign-qualify your PLLC for New York — NYSED authority, DOS filing, compliant naming, required publication, end-to-end.',
+  keywords: [
+    'foreign qualification PLLC New York',
+    'qualify out-of-state PLLC in NY',
+    'Application for Authority §1306',
+    'NYSED Certificate of Authority',
+    'professional limited liability company NY',
+    'New York publication requirement foreign PLLC',
+  ],
+  canonical: '/foreign-pllc',
+  openGraph: {
+    title: 'Foreign-Qualify Your PLLC in New York | NYPLLC',
+    description:
+      'Already formed out of state? We foreign-qualify your PLLC for New York — NYSED authority, DOS filing, compliant naming, required publication, end-to-end.',
+  },
+  twitter: {
+    title: 'Foreign-Qualify Your PLLC in New York | NYPLLC',
+    description:
+      'Already formed out of state? We foreign-qualify your PLLC for New York — NYSED authority, DOS filing, compliant naming, required publication, end-to-end.',
+  },
+})

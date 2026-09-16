@@ -84,8 +84,6 @@ campaign_name,ad_group_name,keyword_text,match_type,status
 03_ForeignQual_US,Generic-ForeignQual,out of state pllc new york,EXACT,ENABLED
 03_ForeignQual_US,Generic-ForeignQual,qualify pllc in new york,EXACT,ENABLED
 03_ForeignQual_US,Generic-ForeignQual,foreign pllc registration new york,EXACT,ENABLED
-03_ForeignQual_US,Generic-ForeignQual,california pllc new york,EXACT,ENABLED
-03_ForeignQual_US,Generic-ForeignQual,ca pllc doing business in new york,EXACT,ENABLED
 03_ForeignQual_US,New-Jersey,nj pllc doing business in new york,EXACT,ENABLED
 03_ForeignQual_US,New-Jersey,new jersey pllc new york,EXACT,ENABLED
 03_ForeignQual_US,New-Jersey,nj pllc new york,EXACT,ENABLED
@@ -107,3 +105,11 @@ campaign_name,ad_group_name,keyword_text,match_type,status
 03_ForeignQual_US,Connecticut,ct pllc new york,EXACT,ENABLED
 03_ForeignQual_US,Connecticut,connecticut pllc doing business in new york,EXACT,ENABLED
 03_ForeignQual_US,Connecticut,register connecticut pllc in new york,EXACT,ENABLED
+03_ForeignQual_US,California,california pllc new york,EXACT,ENABLED
+03_ForeignQual_US,California,ca pllc new york,EXACT,ENABLED
+03_ForeignQual_US,California,ca pllc doing business in new york,EXACT,ENABLED
+03_ForeignQual_US,California,register california pllc in new york,EXACT,ENABLED
+03_ForeignQual_US,Colorado,colorado pllc new york,EXACT,ENABLED
+03_ForeignQual_US,Colorado,co pllc new york,EXACT,ENABLED
+03_ForeignQual_US,Colorado,colorado pllc doing business in new york,EXACT,ENABLED
+03_ForeignQual_US,Colorado,register colorado pllc in new york,EXACT,ENABLED

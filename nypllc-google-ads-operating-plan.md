@@ -363,11 +363,11 @@ One honest flag from the QS baseline: the account's only prior profession test �
 
 ### 2.3 Campaign 03_ForeignQual_US — launches Week 4–6, Gate 1-dependent
 
-**Status (Jul 9 2026):** Created **PAUSED** via API (`campaigns/24012757620`). Budget **$15/day** · **United States** Presence · Search only · shared negatives **A-FQ + B–E** · **6 ad groups** · **33 keywords** · **12 RSAs**. **Sep 3 override:** enable **Sep 15–22** (attach portfolio). Do not wait for Gate 1 volume.
+**Status (Sep 16 2026):** Campaign remains **PAUSED** and unattached (`campaigns/24012757620`). Budget **$15/day** · **United States** Presence · Search only · shared negatives **A-FQ + B–E** · **8 ad groups** · **39 keywords** · **16 RSAs**. California and Colorado state groups were added Sep 16. **Sep 3 override:** enable **Sep 15–22** (attach portfolio). Do not wait for Gate 1 volume.
 
-**Geo:** United States, Presence (this is the deliberate exception to NY-only — foreign-qual buyers by definition search from NJ/PA/FL/TX/CT/CA). **Negatives:** List A-FQ (states list minus the six origin states) instead of List A. **Budget:** $10–15/day.
+**Geo:** United States, Presence (this is the deliberate exception to NY-only — foreign-qual buyers by definition search from NJ/PA/FL/TX/CT/CA/CO). **Negatives:** List A-FQ (states list minus the origin states) instead of List A. **Budget:** $10–15/day.
 
-Keywords: [foreign pllc new york] · [register out of state pllc in new york] · [application for authority new york pllc] · [ny application for authority] · [foreign qualification new york] · [register my pllc in new york] · per-state exacts like [nj pllc doing business in new york], [pennsylvania pllc in new york], [florida pllc new york] → each to its /foreign-pllc/{state} page; generic terms → /foreign-pllc.
+Keywords: [foreign pllc new york] · [register out of state pllc in new york] · [application for authority new york pllc] · [ny application for authority] · [foreign qualification new york] · [register my pllc in new york] · per-state exacts like [nj pllc doing business in new york], [california pllc new york], and [colorado pllc new york] → each to its /foreign-pllc/{state} page; generic terms → /foreign-pllc.
 
 Copy is state-specific where possible ("NJ PLLC - NY — $975 Flat"). Order values $915–995 flow to the bidder, so under value-based bidding (3.3) this campaign gets naturally favored. Skip [certificate of authority new york] — it collides with the sales-tax certificate of authority; let Discovery mining tell you if that family is worth touching.
 

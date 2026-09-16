@@ -1,14 +1,14 @@
 {
   "customer_id": "1529880213",
-  "manifest": "/Users/sidb/dev/new-york-pllc/google-ads-campaign-build/manifest.json",
+  "manifest": "/Users/sidneybrodsky/Dev/pllc-business/new-york-pllc/google-ads-campaign-build/manifest.json",
   "summary": {
-    "ok": 0,
-    "already_live": 75,
+    "ok": 1,
+    "already_live": 113,
     "policy_exemptible": 0,
     "policy_blocked": 0,
     "policy_mixed": 0,
     "error": 0,
-    "skipped_no_ad_group": 33
+    "skipped_no_ad_group": 0
   },
   "results": [
     {
@@ -691,7 +691,7 @@
       "ad_group": "Generic-ForeignQual",
       "keyword": "foreign pllc new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -700,7 +700,7 @@
       "ad_group": "Generic-ForeignQual",
       "keyword": "register out of state pllc in new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -709,7 +709,7 @@
       "ad_group": "Generic-ForeignQual",
       "keyword": "application for authority new york pllc",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -718,7 +718,7 @@
       "ad_group": "Generic-ForeignQual",
       "keyword": "ny application for authority",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -727,7 +727,7 @@
       "ad_group": "Generic-ForeignQual",
       "keyword": "foreign qualification new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -736,7 +736,7 @@
       "ad_group": "Generic-ForeignQual",
       "keyword": "foreign qualification ny",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -745,7 +745,7 @@
       "ad_group": "Generic-ForeignQual",
       "keyword": "register my pllc in new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -754,7 +754,7 @@
       "ad_group": "Generic-ForeignQual",
       "keyword": "out of state pllc new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -763,7 +763,7 @@
       "ad_group": "Generic-ForeignQual",
       "keyword": "qualify pllc in new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -772,25 +772,7 @@
       "ad_group": "Generic-ForeignQual",
       "keyword": "foreign pllc registration new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
-      "exemptible": null,
-      "policy": null
-    },
-    {
-      "campaign": "03_ForeignQual_US",
-      "ad_group": "Generic-ForeignQual",
-      "keyword": "california pllc new york",
-      "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
-      "exemptible": null,
-      "policy": null
-    },
-    {
-      "campaign": "03_ForeignQual_US",
-      "ad_group": "Generic-ForeignQual",
-      "keyword": "ca pllc doing business in new york",
-      "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -799,7 +781,7 @@
       "ad_group": "New-Jersey",
       "keyword": "nj pllc doing business in new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -808,7 +790,7 @@
       "ad_group": "New-Jersey",
       "keyword": "new jersey pllc new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -817,7 +799,7 @@
       "ad_group": "New-Jersey",
       "keyword": "nj pllc new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -826,7 +808,7 @@
       "ad_group": "New-Jersey",
       "keyword": "register nj pllc in new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -835,7 +817,7 @@
       "ad_group": "New-Jersey",
       "keyword": "new jersey pllc doing business in new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -844,7 +826,7 @@
       "ad_group": "Pennsylvania",
       "keyword": "pennsylvania pllc in new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -853,7 +835,7 @@
       "ad_group": "Pennsylvania",
       "keyword": "pa pllc new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -862,7 +844,7 @@
       "ad_group": "Pennsylvania",
       "keyword": "pennsylvania pllc doing business in new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -871,7 +853,7 @@
       "ad_group": "Pennsylvania",
       "keyword": "register pa pllc in new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -880,7 +862,7 @@
       "ad_group": "Florida",
       "keyword": "florida pllc new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -889,7 +871,7 @@
       "ad_group": "Florida",
       "keyword": "fl pllc new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -898,7 +880,7 @@
       "ad_group": "Florida",
       "keyword": "florida pllc doing business in new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -907,7 +889,7 @@
       "ad_group": "Florida",
       "keyword": "register florida pllc in new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -916,7 +898,7 @@
       "ad_group": "Texas",
       "keyword": "texas pllc new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -925,7 +907,7 @@
       "ad_group": "Texas",
       "keyword": "tx pllc new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -934,7 +916,7 @@
       "ad_group": "Texas",
       "keyword": "texas pllc doing business in new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -943,7 +925,7 @@
       "ad_group": "Texas",
       "keyword": "register texas pllc in new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -952,7 +934,7 @@
       "ad_group": "Connecticut",
       "keyword": "connecticut pllc new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -961,7 +943,7 @@
       "ad_group": "Connecticut",
       "keyword": "ct pllc new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -970,7 +952,7 @@
       "ad_group": "Connecticut",
       "keyword": "connecticut pllc doing business in new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     },
@@ -979,7 +961,80 @@
       "ad_group": "Connecticut",
       "keyword": "register connecticut pllc in new york",
       "match_type": "EXACT",
-      "status": "skipped_no_ad_group",
+      "status": "already_live",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "California",
+      "keyword": "california pllc new york",
+      "match_type": "EXACT",
+      "status": "already_live",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "California",
+      "keyword": "ca pllc new york",
+      "match_type": "EXACT",
+      "status": "already_live",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "California",
+      "keyword": "ca pllc doing business in new york",
+      "match_type": "EXACT",
+      "validated_via_proxy_ad_group": false,
+      "status": "ok",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "California",
+      "keyword": "register california pllc in new york",
+      "match_type": "EXACT",
+      "status": "already_live",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Colorado",
+      "keyword": "colorado pllc new york",
+      "match_type": "EXACT",
+      "status": "already_live",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Colorado",
+      "keyword": "co pllc new york",
+      "match_type": "EXACT",
+      "status": "already_live",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Colorado",
+      "keyword": "colorado pllc doing business in new york",
+      "match_type": "EXACT",
+      "status": "already_live",
+      "exemptible": null,
+      "policy": null
+    },
+    {
+      "campaign": "03_ForeignQual_US",
+      "ad_group": "Colorado",
+      "keyword": "register colorado pllc in new york",
+      "match_type": "EXACT",
+      "status": "already_live",
       "exemptible": null,
       "policy": null
     }

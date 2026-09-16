@@ -52,14 +52,14 @@ Anything that **takes money** (build + launch) — still open:
 
 | # | Item | Repo / owner | Notes |
 |---|------|--------------|-------|
-| **1** | **CAQH — checkout-interest 3 + queued 20 (not sent)** | **PLLC-CRM** | **TODO:** `send-caqh-checkout-interest.ts --confirm` (Spano / Famah / Rabinowitz). Then `send-caqh-healthcare-backlist.ts --status FORMATION_COMPLETE --limit 20 --confirm`. Both need the Gmail OAuth machine. 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
+| **1** | **CAQH — checkout-interest 3 + backlist 20** | **PLLC-CRM** | **Done Sep 16** — 23 emails sent ($499 + hosted invoice each). 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
 | **2** | **Direct-RA ops** | **PLLC-CRM** | **Live Aug 25.** Checkout disclosure **audited**; staff **$99 CoC** + **$249 Compliance Plan** support paths **confirmed**. First T-30s ~Sep 22; October auto-charges. 📖 [direct-ra-launch-status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) |
-| **3** | **EXP Credentialing** | **PLLC-CRM** | **CRM provisioned Sep 16** (`B2bPartner` coupon **EXP9Z8S**, `https://www.nypllc.com/order?c=EXP9Z8S`). **Referral email not sent.** Spiffy promo attach to checkout 34573 may still be manual. |
+| **3** | **EXP Credentialing** | **PLLC-CRM** | **Done Sep 16** — referral link emailed (`EXP9Z8S`, thread `19fd2c38f89979fa`). Spiffy promo attach to checkout 34573 may still be manual. |
 | **4** | **Two affiliate links** (banking + payroll) | **Site** lifecycle email + backlist / S Corp page | **Mercury + Gusto Impact applied Aug 14**; **third ping Sep 1**. **OnPay/ADP backup not sent** (deferred). Links not live. 📖 [affiliate-partners.md](../docs/affiliate-partners.md) |
-| **5** | **Ads — Sep 16 hold + Sep 29–30 pre-register** | **new-york-pllc** | **Hold $105.** Sep 29–30: matured Sep 2–21 ≥0.7 conv/day and ≤$135 blended, eligible ≥4,300/wk → **$120 Oct 1**; >$150 or <0.55/day → **$90**; else hold. **`03` scripts dry-run only** (Sid enable this week). **Bing slip-item.** **$985 February.** Gate 2 Sales exact-neg **filed, not applied**. |
+| **5** | **Ads — Sep 16 hold + Sep 29–30 pre-register** | **new-york-pllc** | **Hold $105.** Sep 29–30: matured Sep 2–21 ≥0.7 conv/day and ≤$135 blended, eligible ≥4,300/wk → **$120 Oct 1**; >$150 or <0.55/day → **$90**; else hold. `03` California + Colorado groups **uploaded Sep 16**; campaign remains **PAUSED / unattached** for Sid to launch. **Bing slip-item.** **$985 February.** Gate 2 Sales exact-neg **filed, not applied**. |
 | **6** | **SEO — 1 piece/week** | **new-york-pllc** | OP deficiencies `#4` and PLLC vs LLC `#5` **live Sep 4**. **MSO unpublished**. Fill Sep rank column only after a fresh GSC Queries export. |
 | **7** | **Big B2B outreach — paused** | **PLLC-CRM** | Advocate/referral side keeps running until 1–4 are done |
-| **8** | **MSO path** | **new-york-pllc** + CRM | Offer locked. **Do not launch public checkout.** Draft at [`web/src/unpublished/ny-mso/`](../web/src/unpublished/ny-mso/). No ads. 📖 [mso-msa.md](features/mso-msa.md) |
+| **8** | **MSO path** | **new-york-pllc** + CRM | Offer locked. CRM manual pair workflow **done Sep 16**. **Do not launch public checkout.** Draft at [`web/src/unpublished/ny-mso/`](../web/src/unpublished/ny-mso/). No ads. 📖 [mso-msa.md](features/mso-msa.md) |
 
 ---
 
@@ -85,7 +85,7 @@ January = **frozen machine at full force**, not a rebuild. **Nov 1** is the paid
 |------|------|
 | **Every weekly SOP** | Search terms, self-block, **Sales eligible**, mCPA vs $160, Ads↔CRM ±10%. tCPA **$105** until Oct 1. **Latest: Sep 5** — 7d CPA $122 / 6; 30d $144 / 16; Sales eligible 7d 3,431. |
 | **Sep 15** | Eligible **~3,500 → 4,500–5,000**? Spend-up/auctions-flat = **May pattern → paid capped**. **Sep 16: hold $105.** |
-| **Sep 15–22** | **Enable `03`** (scripts dry-run Sep 16; Sid `--execute`). **Bing slip-item.** No Sales→Discovery. Attorneys AG stays paused. |
+| **Sep 15–22** | **Enable `03`** (CA + CO groups ready; Sid still controls attach + enable). **Bing slip-item.** No Sales→Discovery. Attorneys AG stays paused. |
 | **Sep 29–30** | Pre-register $120: matured Sep 2–21 ≥0.7/day ≤$135, eligible ≥4,300/wk → **$120 Oct 1**. >$150 or <0.55/day → **$90**. Else hold $105. |
 | **Oct 1** | Apply Sep 29–30 only. Do not raise on the Sep 16 pull. |
 | **Oct** | Mobile CVR + publication-cost calculator on LPs (not List E / not county shop). |

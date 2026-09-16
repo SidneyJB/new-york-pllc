@@ -3125,11 +3125,281 @@
           "text": "Specialists who only do New York professional entities. No hourly attorney fees."
         }
       ]
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "California",
+      "rsa_variant": "controlled",
+      "final_url": "https://www.nypllc.com/foreign-pllc/california",
+      "headlines": [
+        {
+          "text": "CA PC - NY \u2014 $905 Flat",
+          "pinned_position": 1
+        },
+        {
+          "text": "California PC in New York"
+        },
+        {
+          "text": "CA Professional Entity NY"
+        },
+        {
+          "text": "Register CA PC in New York"
+        },
+        {
+          "text": "CA Foreign Qual \u2014 $905"
+        },
+        {
+          "text": "NY Foreign Qualification"
+        },
+        {
+          "text": "Application for Authority"
+        },
+        {
+          "text": "Out-of-State Entity - NY"
+        },
+        {
+          "text": "NYSED & DOS Filing Help"
+        },
+        {
+          "text": "Licensed Pro Entity Pros"
+        },
+        {
+          "text": "Flat Fee \u2014 No Hidden Costs"
+        },
+        {
+          "text": "Talk to a PLLC Specialist"
+        },
+        {
+          "text": "Built for NY Professionals"
+        },
+        {
+          "text": "We Handle the NY Process"
+        },
+        {
+          "text": "Qualify Your Entity in NY"
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Qualify your California professional corporation in New York. Flat $905."
+        },
+        {
+          "text": "CA to NY foreign qualification for licensed professionals. Start today."
+        },
+        {
+          "text": "New York authority, NYSED review, DOS filing and publication included."
+        },
+        {
+          "text": "We review the California entity before choosing the foreign PC or PLLC path."
+        }
+      ]
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "California",
+      "rsa_variant": "unpinned",
+      "final_url": "https://www.nypllc.com/foreign-pllc/california",
+      "headlines": [
+        {
+          "text": "CA PC - NY \u2014 $905 Flat"
+        },
+        {
+          "text": "California PC in New York"
+        },
+        {
+          "text": "CA Professional Entity NY"
+        },
+        {
+          "text": "Register CA PC in New York"
+        },
+        {
+          "text": "CA Foreign Qual \u2014 $905"
+        },
+        {
+          "text": "NY Foreign Qualification"
+        },
+        {
+          "text": "Application for Authority"
+        },
+        {
+          "text": "Out-of-State Entity - NY"
+        },
+        {
+          "text": "NYSED & DOS Filing Help"
+        },
+        {
+          "text": "Licensed Pro Entity Pros"
+        },
+        {
+          "text": "Flat Fee \u2014 No Hidden Costs"
+        },
+        {
+          "text": "Talk to a PLLC Specialist"
+        },
+        {
+          "text": "Built for NY Professionals"
+        },
+        {
+          "text": "We Handle the NY Process"
+        },
+        {
+          "text": "Qualify Your Entity in NY"
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Qualify your California professional corporation in New York. Flat $905."
+        },
+        {
+          "text": "CA to NY foreign qualification for licensed professionals. Start today."
+        },
+        {
+          "text": "New York authority, NYSED review, DOS filing and publication included."
+        },
+        {
+          "text": "We review the California entity before choosing the foreign PC or PLLC path."
+        }
+      ]
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Colorado",
+      "rsa_variant": "controlled",
+      "final_url": "https://www.nypllc.com/foreign-pllc/colorado",
+      "headlines": [
+        {
+          "text": "CO PLLC - NY \u2014 $895 Flat",
+          "pinned_position": 1
+        },
+        {
+          "text": "Colorado PLLC in New York"
+        },
+        {
+          "text": "Colorado - New York Qual"
+        },
+        {
+          "text": "Register CO PLLC in NY"
+        },
+        {
+          "text": "CO Foreign Qual \u2014 $895"
+        },
+        {
+          "text": "NY Foreign Qualification"
+        },
+        {
+          "text": "Application for Authority"
+        },
+        {
+          "text": "Out-of-State PLLC - NY"
+        },
+        {
+          "text": "NYSED & DOS Filing Help"
+        },
+        {
+          "text": "Licensed Pro Entity Pros"
+        },
+        {
+          "text": "Flat Fee \u2014 No Hidden Costs"
+        },
+        {
+          "text": "Talk to a PLLC Specialist"
+        },
+        {
+          "text": "Built for NY Professionals"
+        },
+        {
+          "text": "We Handle the NY Process"
+        },
+        {
+          "text": "Qualify Your PLLC Into NY"
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Qualify your Colorado professional LLC, PLLC or PC in New York. Flat $895."
+        },
+        {
+          "text": "CO to NY foreign qualification for licensed professionals. Start today."
+        },
+        {
+          "text": "New York authority, NYSED review, DOS filing and publication included."
+        },
+        {
+          "text": "We obtain standard Colorado records and handle the New York filing process."
+        }
+      ]
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Colorado",
+      "rsa_variant": "unpinned",
+      "final_url": "https://www.nypllc.com/foreign-pllc/colorado",
+      "headlines": [
+        {
+          "text": "CO PLLC - NY \u2014 $895 Flat"
+        },
+        {
+          "text": "Colorado PLLC in New York"
+        },
+        {
+          "text": "Colorado - New York Qual"
+        },
+        {
+          "text": "Register CO PLLC in NY"
+        },
+        {
+          "text": "CO Foreign Qual \u2014 $895"
+        },
+        {
+          "text": "NY Foreign Qualification"
+        },
+        {
+          "text": "Application for Authority"
+        },
+        {
+          "text": "Out-of-State PLLC - NY"
+        },
+        {
+          "text": "NYSED & DOS Filing Help"
+        },
+        {
+          "text": "Licensed Pro Entity Pros"
+        },
+        {
+          "text": "Flat Fee \u2014 No Hidden Costs"
+        },
+        {
+          "text": "Talk to a PLLC Specialist"
+        },
+        {
+          "text": "Built for NY Professionals"
+        },
+        {
+          "text": "We Handle the NY Process"
+        },
+        {
+          "text": "Qualify Your PLLC Into NY"
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Qualify your Colorado professional LLC, PLLC or PC in New York. Flat $895."
+        },
+        {
+          "text": "CO to NY foreign qualification for licensed professionals. Start today."
+        },
+        {
+          "text": "New York authority, NYSED review, DOS filing and publication included."
+        },
+        {
+          "text": "We obtain standard Colorado records and handle the New York filing process."
+        }
+      ]
     }
   ],
   "counts": {
-    "rsa_count": 30,
-    "ad_groups": 15,
-    "asset_rows": 504
+    "rsa_count": 46,
+    "ad_groups": 23,
+    "asset_rows": 830
   }
 }

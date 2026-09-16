@@ -10,6 +10,25 @@
 
 ---
 
+## Changes on 2026-09-16 — California + Colorado foreign qualification groups
+
+Website:
+
+- Built `/foreign-pllc/california` at **$905** with California professional-entity eligibility caveats, selector entry, canonical metadata, and sitemap entry.
+- Colorado page remains `/foreign-pllc/colorado` at **$895**.
+
+Google Ads account `1529880213`, campaign `03_ForeignQual_US` (`24012757620`):
+
+- Added **California** (`adGroups/201740612873`) with 4 exact keywords and 2 RSAs. Final URL: `https://www.nypllc.com/foreign-pllc/california`.
+- Added **Colorado** (`adGroups/201740615953`) with 4 exact keywords and 2 RSAs. Final URL: `https://www.nypllc.com/foreign-pllc/colorado`.
+- Removed the two legacy California exacts from `Generic-ForeignQual`; removed one superseded full-state duplicate from the California group. Final California set is exactly 4 keywords.
+- Policy validation: 8 additions passed with **0 blocked / 0 exemptions**. New RSA policy state immediately after upload: `UNKNOWN` (pending review).
+- Final audit: campaign **PAUSED**, `MAXIMIZE_CONVERSIONS` inline, `bidding_strategy_resource=null` (**unattached**). No campaign status, budget, or bidding change.
+
+Artifacts: [`google-ads-campaign-build/`](google-ads-campaign-build/) · audit: `python -m google_ads.audit_foreign_state_groups`.
+
+---
+
 ## Changes on 2026-09-16 — `03` attach/enable scripts (dry-run only)
 
 Scripts (same `--execute` gate as `set_ad_group_status.py`):

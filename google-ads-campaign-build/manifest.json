@@ -487,14 +487,6 @@
             {
               "keyword_text": "foreign pllc registration new york",
               "match_type": "EXACT"
-            },
-            {
-              "keyword_text": "california pllc new york",
-              "match_type": "EXACT"
-            },
-            {
-              "keyword_text": "ca pllc doing business in new york",
-              "match_type": "EXACT"
             }
           ]
         },
@@ -611,13 +603,57 @@
               "match_type": "EXACT"
             }
           ]
+        },
+        {
+          "ad_group_name": "California",
+          "final_url": "https://www.nypllc.com/foreign-pllc/california",
+          "keywords": [
+            {
+              "keyword_text": "california pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "ca pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "ca pllc doing business in new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "register california pllc in new york",
+              "match_type": "EXACT"
+            }
+          ]
+        },
+        {
+          "ad_group_name": "Colorado",
+          "final_url": "https://www.nypllc.com/foreign-pllc/colorado",
+          "keywords": [
+            {
+              "keyword_text": "colorado pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "co pllc new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "colorado pllc doing business in new york",
+              "match_type": "EXACT"
+            },
+            {
+              "keyword_text": "register colorado pllc in new york",
+              "match_type": "EXACT"
+            }
+          ]
         }
       ]
     }
   ],
   "counts": {
     "campaigns": 3,
-    "ad_groups": 21,
-    "keywords": 108
+    "ad_groups": 23,
+    "keywords": 114
   }
 }

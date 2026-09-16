@@ -20,3 +20,5 @@ campaign_name,ad_group_name,status,final_url
 03_ForeignQual_US,Florida,ENABLED,https://www.nypllc.com/foreign-pllc/florida
 03_ForeignQual_US,Texas,ENABLED,https://www.nypllc.com/foreign-pllc/texas
 03_ForeignQual_US,Connecticut,ENABLED,https://www.nypllc.com/foreign-pllc/connecticut
+03_ForeignQual_US,California,ENABLED,https://www.nypllc.com/foreign-pllc/california
+03_ForeignQual_US,Colorado,ENABLED,https://www.nypllc.com/foreign-pllc/colorado

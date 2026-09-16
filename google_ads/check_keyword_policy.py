@@ -22,7 +22,7 @@ def existing_keywords(client, cid: str) -> set[tuple[str, str, str, str]]:
                ad_group_criterion.keyword.text,
                ad_group_criterion.keyword.match_type
         FROM keyword_view
-        WHERE campaign.name IN ('01_Core_Exact_NY', '02_Professions_NY')
+        WHERE campaign.name IN ('01_Core_Exact_NY', '02_Professions_NY', '03_ForeignQual_US')
           AND ad_group_criterion.negative = FALSE
           AND ad_group_criterion.status != 'REMOVED'
     """
@@ -45,7 +45,7 @@ def ad_group_resources(client, cid: str) -> dict[tuple[str, str], str]:
     query = """
         SELECT campaign.name, ad_group.name, ad_group.resource_name
         FROM ad_group
-        WHERE campaign.name IN ('01_Core_Exact_NY', '02_Professions_NY')
+        WHERE campaign.name IN ('01_Core_Exact_NY', '02_Professions_NY', '03_ForeignQual_US')
           AND ad_group.status != 'REMOVED'
     """
     out: dict[tuple[str, str], str] = {}
@@ -134,6 +134,9 @@ def main() -> int:
     proxies = {
         "01_Core_Exact_NY": ad_groups.get(("01_Core_Exact_NY", "Formation-Core")),
         "02_Professions_NY": ad_groups.get(("02_Professions_NY", "Therapists-LCSW")),
+        "03_ForeignQual_US": ad_groups.get(
+            ("03_ForeignQual_US", "Generic-ForeignQual")
+        ),
     }
 
     results: list[dict] = []

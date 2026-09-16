@@ -5,11 +5,11 @@
     {
       "campaign_name": "03_ForeignQual_US",
       "campaign_resource": "customers/1529880213/campaigns/24012757620",
-      "ad_groups_created": 6,
+      "ad_groups_created": 0,
       "keywords": {
-        "created": 33,
+        "created": 1,
         "exempted": 0,
-        "skipped": 0,
+        "skipped": 38,
         "failed": 0,
         "failures": []
       },
@@ -19,7 +19,9 @@
         "Pennsylvania": "https://www.nypllc.com/foreign-pllc/pennsylvania",
         "Florida": "https://www.nypllc.com/foreign-pllc/florida",
         "Texas": "https://www.nypllc.com/foreign-pllc/texas",
-        "Connecticut": "https://www.nypllc.com/foreign-pllc/connecticut"
+        "Connecticut": "https://www.nypllc.com/foreign-pllc/connecticut",
+        "California": "https://www.nypllc.com/foreign-pllc/california",
+        "Colorado": "https://www.nypllc.com/foreign-pllc/colorado"
       }
     }
   ]

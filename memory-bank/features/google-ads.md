@@ -77,7 +77,7 @@ pip install -r requirements-ads.txt
 - Daily SOP (Sep 3): 7d CPA $260 / 2 conv; 30d CPA $143 / 15 conv; Sep MTD $322 / 2; Ads↔CRM 7d 0% / 30d ~7%; $105 diagnostic day 2; no List C adds. Writeup: `ads-pull-2026-09-03-daily-sop/DAILY-SOP.md`
 - Daily SOP (Aug 17): 7d CPA $119 / 4 conv; 30d CPA $123 / 13 conv; Aug MTD $94 / 11; Sales eligible ~3.4k; no List C adds. Writeup: `ads-pull-2026-08-17-daily-sop/DAILY-SOP.md`
 - Conversion goals (Jul 11): account `BEGIN_CHECKOUT`/`WEBSITE` → `biddable=False` (was true; caused “missing primary” UI warning). Matches §1.1.1 observation-only. Purchase still sole biddable website goal.
-- `03_ForeignQual_US`: US Presence · $15/day · negatives **A-FQ + B–E** · 6 AGs / 33 kws / 12 RSAs (`campaigns/24012757620`) — **scripts dry-run Sep 16; Sid enable this week**
+- `03_ForeignQual_US`: US Presence · $15/day · negatives **A-FQ + B–E** · **8 AGs / 39 kws / 16 RSAs** (`campaigns/24012757620`). **Sep 16:** California + Colorado groups uploaded; 4 exacts and 2 RSAs each; California exacts removed from Generic. Audit confirms campaign **PAUSED**, inline Maximize Conversions, **unattached**. New RSAs are `UNKNOWN` pending policy review. Sid still controls attach + enable.
 - Portfolio **`NYPLLC Search Portfolio`** (`12148056412`) Target CPA **$105 hold**. **`03` attach on enable.** **Sep 29–30** $120 pre-register. **Nov 1** verdict. **$985 February.**
 - Health-policy keywords (`lcsw`, mental health, psychiatric NP, physical therapy): create via API with `exempt_policy_violation_keys` (validate with `check_keyword_policy.py`)
 - RSA gotcha: Unicode `→` is SYMBOLS **PROHIBITED** — use ASCII `-`

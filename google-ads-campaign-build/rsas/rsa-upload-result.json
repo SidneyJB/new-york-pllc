@@ -1,22 +1,34 @@
 {
   "dry_run": false,
   "customer_id": "1529880213",
-  "created": 2,
-  "replaced": 2,
+  "created": 4,
+  "replaced": 0,
   "skipped": 0,
   "failed": 0,
   "results": [
     {
-      "campaign_name": "02_Professions_NY",
-      "ad_group_name": "Attorneys",
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "California",
       "rsa_variant": "controlled",
-      "resource_name": "customers/1529880213/adGroupAds/196018838817~823134166556"
+      "resource_name": "customers/1529880213/adGroupAds/201740612873~825042775661"
     },
     {
-      "campaign_name": "02_Professions_NY",
-      "ad_group_name": "Attorneys",
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "California",
       "rsa_variant": "unpinned",
-      "resource_name": "customers/1529880213/adGroupAds/196018838817~823134166682"
+      "resource_name": "customers/1529880213/adGroupAds/201740612873~825042066920"
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Colorado",
+      "rsa_variant": "controlled",
+      "resource_name": "customers/1529880213/adGroupAds/201740615953~824958335413"
+    },
+    {
+      "campaign_name": "03_ForeignQual_US",
+      "ad_group_name": "Colorado",
+      "rsa_variant": "unpinned",
+      "resource_name": "customers/1529880213/adGroupAds/201740615953~824958368338"
     }
   ]
 }

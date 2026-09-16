@@ -30,6 +30,12 @@ export const FOREIGN_QUALIFICATION_STATES = [
     pcPrice: 1000,
   },
   {
+    state: 'California',
+    slug: 'california',
+    pllcPrice: 905,
+    pcPrice: 905,
+  },
+  {
     state: 'Colorado',
     slug: 'colorado',
     pllcPrice: 895,

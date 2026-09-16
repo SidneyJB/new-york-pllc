@@ -2,7 +2,7 @@
 
 Structured upload package for **`01_Core_Exact_NY`**, **`02_Professions_NY`**, and **`03_ForeignQual_US`**, from [nypllc-google-ads-operating-plan.md](../nypllc-google-ads-operating-plan.md) §2.1–2.3.
 
-**State (Jul 9 2026 evening):** `01_Core_Exact_NY` **ENABLED** on portfolio. `02_Professions_NY` portfolio-attached **PAUSED**. `03_ForeignQual_US` PAUSED / unattached (Gate 1). Portfolio `$90` also on `Sales-Search-1`.
+**State (Sep 16 2026):** `01_Core_Exact_NY` and `02_Professions_NY` are enabled on the portfolio. `03_ForeignQual_US` remains **PAUSED / unattached**. California and Colorado state groups are ready inside `03`; do not enable the campaign yet.
 
 ## Files
 
@@ -21,7 +21,7 @@ Structured upload package for **`01_Core_Exact_NY`**, **`02_Professions_NY`**, a
 |----------|-----------|----------|------|
 | `01_Core_Exact_NY` | 4 | 41 | 8 |
 | `02_Professions_NY` | 11 | 34 | 22 |
-| `03_ForeignQual_US` | 6 | 33 | 12 |
+| `03_ForeignQual_US` | 8 | 39 | 16 |
 
 ## Landing page mapping
 
@@ -50,9 +50,10 @@ Each ad group → `https://www.nypllc.com/professions/{slug}` (see `ad_groups.cs
 | Florida | `…/foreign-pllc/florida` |
 | Texas | `…/foreign-pllc/texas` |
 | Connecticut | `…/foreign-pllc/connecticut` |
+| California | `…/foreign-pllc/california` |
 | Colorado | `…/foreign-pllc/colorado` |
 
-CA exacts live in Generic (no CA state page yet). Skipped `certificate of authority new york` per §2.3 (sales-tax collision).
+California exacts live in the California group. Skipped `certificate of authority new york` per §2.3 (sales-tax collision).
 
 ## Campaign defaults (from operating plan)
 
@@ -76,6 +77,11 @@ CA exacts live in Generic (no CA state page yet). Skipped `certificate of author
 
 # RSAs
 .venv/bin/python -m google_ads.upload_rsas
+.venv/bin/python -m google_ads.upload_rsas --campaigns 03_ForeignQual_US --ad-groups California Colorado
+
+# Remove the two legacy California exacts from Generic after state-group upload
+.venv/bin/python -m google_ads.move_california_keywords_to_state_group
+.venv/bin/python -m google_ads.move_california_keywords_to_state_group --execute
 ```
 
 ## Progress (Jul 9 2026)
@@ -84,7 +90,7 @@ CA exacts live in Generic (no CA state page yet). Skipped `certificate of author
 |------|--------|
 | `01_Core_Exact_NY` ENABLED on portfolio | **Done Jul 9 evening** |
 | `02_Professions_NY` PAUSED + keywords + RSAs (portfolio-attached) | Done |
-| `03_ForeignQual_US` PAUSED + 6 AGs + 33 keywords + 12 RSAs | Done |
+| `03_ForeignQual_US` PAUSED + 8 AGs + 39 keywords + 16 RSAs | Done |
 | Portfolio `NYPLLC Search Portfolio` $90 on `Sales-Search-1` + `01` + `02` | Done |
 | Enable `02_Professions_NY` | ~Aug 3 |
 | Enable `03_ForeignQual_US` | After Gate 1 |
@@ -104,4 +110,3 @@ Next:
 
 - Campaign enable / budget ramp
 - Discovery fence negatives on `Sales-Search-1` (§2.4 — Gate 2)
-- CA state landing page (CA keywords → hub for now)

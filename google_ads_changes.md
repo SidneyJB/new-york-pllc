@@ -1,12 +1,47 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-09-16
+**Last updated:** 2026-09-17
 
 ## Account
 
 - Customer: NYPLLC (`1529880213`)
 - Live: `Sales-Search-1` + `01_Core_Exact_NY` + `02_Professions_NY` + **`03_ForeignQual_US`** (ENABLED)
 - `03_ForeignQual_US` attached to portfolio `12148056412` (Target CPA $105 hold)
+
+---
+
+## Changes on 2026-09-17 — Daily SOP (Sep 11–17)
+
+Pull: [`ads-pull-2026-09-17-daily-sop/`](ads-pull-2026-09-17-daily-sop/) · writeup [`DAILY-SOP.md`](ads-pull-2026-09-17-daily-sop/DAILY-SOP.md)
+
+| Metric (window) | Result |
+|---|---|
+| 7d (Sep 11–17) | $676 / **4.88** click-attr / CPA **$138** |
+| 30d CPA | **$128** (20 / $2,560) — under freeze ≤$130 |
+| Sep MTD | **$1,653 / 15 / $110** (~$97/day) |
+| `01` lifetime | **6.50** purchases (0 conv this 7d) |
+| Ads↔CRM | 7d **4.88 vs 6** (−19%, small-n) · 30d **20 vs 20** (0%) |
+| Eligible (Sales) | 7d **3,969** · ISO week Sep 14 partial **2,542** |
+| `03` | ENABLED Sep 16 — 2 impr / 0 clk / $0 in this 7d |
+| Change history | Sep 16 **`03` CA/CO + ENABLE** (already logged below); no edits Sep 11–15 |
+
+| Action | Detail |
+|---|---|
+| Account changes | **None** (monitoring pass) |
+
+---
+
+## Changes on 2026-09-16 — Foreign price floor $895 (CO launch sync)
+
+Colorado at **$895** lowered the foreign-qual floor; shared price asset and Generic hub RSAs were still at **from $930**.
+
+| Change | Detail |
+|---|---|
+| Shared price asset | New asset **`422028348046`** (Foreign from **$895**); linked on Sales + 01/02/03; v3 asset `390754746354` unlinked |
+| `03` Generic-ForeignQual RSAs | Replaced 2 via `upload_rsas.py --replace` — headlines/descriptions **from $895** (FL/TX state RSAs unchanged at $930 flat) |
+| Tooling | `google_ads/site_pricing.py` (expected prices) · `audit_price_assets.py` (weekly SOP) · `sync_price_asset.py` (same-day asset swap) |
+
+`python -m google_ads.audit_price_assets` → **OK** after deploy.
 
 ---
 

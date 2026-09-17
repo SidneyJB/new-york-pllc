@@ -14,7 +14,7 @@ Google Ads API CLI, CSV exports, and analysis scripts for NYPLLC acquisition (li
 
 ## Key paths
 
-- Package: `google_ads/` (`client.py`, `reports.py`, `pull.py`, `export.py`, `upload_campaigns.py`, `upload_rsas.py`, `check_keyword_policy.py`, `set_portfolio_tcpa.py`, `set_ad_group_ad_status.py`, `set_ad_group_status.py`, `attach_campaign_to_portfolio.py`, `set_campaign_status.py`)
+- Package: `google_ads/` (`client.py`, `reports.py`, `pull.py`, `export.py`, `upload_campaigns.py`, `upload_rsas.py`, `check_keyword_policy.py`, `audit_price_assets.py`, `sync_price_asset.py`, `site_pricing.py`, `set_portfolio_tcpa.py`, `set_ad_group_ad_status.py`, `set_ad_group_status.py`, `attach_campaign_to_portfolio.py`, `set_campaign_status.py`)
 - CLI: `google_ads_cli.py`, `google_ads_pull.py`, `google_ads_auth.py`
 - Analysis: `ads_analysis.py`, `apr23_*.py`
 - Data: `Ads - *.csv`, `ads-notes-*.md`, `google_ads_changes*.md`, `apr 23 ads reports/`, `baseline-2026-07-08/`
@@ -71,6 +71,7 @@ pip install -r requirements-ads.txt
 - **Attorneys RSA rewrite (Aug 14):** controlled DISAPPROVED (same gov-docs policy). NYSED/OP copy was wrong for `/professions/law`. Replaced both Attorneys RSAs with Rule 7.5 / attorney-only ownership (`820969348495` / `820969348510`). **Aug 17 daily:** still DISAPPROVED. **Aug 25 v3** commercial-only (`822145210776` / `822189177055`) still DISAPPROVED. **Aug 26 v4** dropped law-practice / filed / six-week lines (`822412227500` / `822340024756`, DISAPPROVED). **Sep 1 v5** no attorney/law/filed/six-week copy (`823134166556` / `823134166682`). **Sep 2: v5 DISAPPROVED** — **paused Attorneys AG** `196018838817`. Stop copy churn. `upload_rsas.py` gained `--ad-groups`.
 - **Sep 1 Core Exact audit:** checkout→purchase leak (~17 begin-checkout vs 3.5 purchases). **Paused** Formation-Core unpinned (`816286133015`) — 0 purchases vs controlled 3.50. **Pinned-price win is permanent** — do not revive unpinned. Writeup: `ads-pull-2026-09-01-weekly-sop/CORE-EXACT-FUNNEL-AUDIT.md`.
 - **Sep 3 owner calendar:** tCPA **$105** live. **Hold $105** (Sep 16). **Sep 29–30** $120 pre-register (operating plan §0.5). Enable **`03` this week** (scripts dry-run Sep 16). **Bing slip-item.** $985 **February**.
+- Daily SOP (Sep 17): 7d CPA $138 / 4.88 conv; 30d CPA $128 / 20 conv; Sep MTD $110 / 15; `01` 6.5 lifetime (0 conv 7d); Ads↔CRM 7d −19% / 30d 0%; $105 diagnostic day 16; Sales eligible 7d 3,969; `03` enabled day 2; no List C adds. Writeup: `ads-pull-2026-09-17-daily-sop/DAILY-SOP.md`
 - Daily SOP (Sep 12): 7d CPA $92 / 5.9 conv; 30d CPA $124 / 19 conv; Sep MTD $96 / 12; `01` 6.5 lifetime; Ads↔CRM 7d −27% / 30d +5.6%; $105 diagnostic day 11; Sales eligible 7d 3,946; no List C adds. Writeup: `ads-pull-2026-09-12-daily-sop/DAILY-SOP.md`
 - Daily SOP (Sep 9): 7d CPA $163 / 3.8 conv; 30d CPA $133 / 17 conv; Sep MTD $114 / 7; `01` 5.5 lifetime; Ads↔CRM 7d −53% / 30d −5.6%; $105 diagnostic day 8; Sales eligible 7d 3,338; no List C adds. Writeup: `ads-pull-2026-09-09-daily-sop/DAILY-SOP.md`
 - Daily SOP (Sep 8): 7d CPA $214 / 2.8 conv; 30d CPA $136 / 17 conv; Sep MTD $120 / 6; `01` ~4.5 lifetime; Ads↔CRM 7d −30% / 30d +21% (small-n); $105 diagnostic day 7; Sales eligible 7d 3,106; no List C adds. Writeup: `ads-pull-2026-09-08-daily-sop/DAILY-SOP.md`

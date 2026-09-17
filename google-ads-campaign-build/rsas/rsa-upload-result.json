@@ -1,34 +1,22 @@
 {
   "dry_run": false,
   "customer_id": "1529880213",
-  "created": 4,
-  "replaced": 0,
+  "created": 2,
+  "replaced": 2,
   "skipped": 0,
   "failed": 0,
   "results": [
     {
       "campaign_name": "03_ForeignQual_US",
-      "ad_group_name": "California",
+      "ad_group_name": "Generic-ForeignQual",
       "rsa_variant": "controlled",
-      "resource_name": "customers/1529880213/adGroupAds/201740612873~825042775661"
+      "resource_name": "customers/1529880213/adGroupAds/198691366976~824965317526"
     },
     {
       "campaign_name": "03_ForeignQual_US",
-      "ad_group_name": "California",
+      "ad_group_name": "Generic-ForeignQual",
       "rsa_variant": "unpinned",
-      "resource_name": "customers/1529880213/adGroupAds/201740612873~825042066920"
-    },
-    {
-      "campaign_name": "03_ForeignQual_US",
-      "ad_group_name": "Colorado",
-      "rsa_variant": "controlled",
-      "resource_name": "customers/1529880213/adGroupAds/201740615953~824958335413"
-    },
-    {
-      "campaign_name": "03_ForeignQual_US",
-      "ad_group_name": "Colorado",
-      "rsa_variant": "unpinned",
-      "resource_name": "customers/1529880213/adGroupAds/201740615953~824958368338"
+      "resource_name": "customers/1529880213/adGroupAds/198691366976~824965325695"
     }
   ]
 }

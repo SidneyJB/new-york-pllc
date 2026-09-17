@@ -7,7 +7,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Current sprint
 
 - **Google Ads Phase 0** — **conversion flip done Jul 9.** Tagged Purchase `7678072764` primary; page-load `7353506045` secondary. See [features/google-ads.md](features/google-ads.md) · [operating plan](../nypllc-google-ads-operating-plan.md)
-- **Weekly SOP** — latest §7.1 **done Sep 13**: [WEEKLY-SOP.md](../ads-pull-2026-09-13-weekly-sop/WEEKLY-SOP.md). 7d CPA **$133** / 4.88; 30d **$133** / 18; Ads↔CRM 30d **+5.9%**; Sales ISO week **4,062**. **Daily Sep 12:** [DAILY-SOP.md](../ads-pull-2026-09-12-daily-sop/DAILY-SOP.md) — 7d **$92** / 5.9; 30d **$124** / 19; `01` **6.5** lifetime.
+- **Weekly SOP** — latest §7.1 **done Sep 13**: [WEEKLY-SOP.md](../ads-pull-2026-09-13-weekly-sop/WEEKLY-SOP.md). 7d CPA **$133** / 4.88; 30d **$133** / 18; Ads↔CRM 30d **+5.9%**; Sales ISO week **4,062**. **Daily Sep 17:** [DAILY-SOP.md](../ads-pull-2026-09-17-daily-sop/DAILY-SOP.md) — 7d **$138** / 4.88; 30d **$128** / 20; Sep MTD **$110** / 15; `01` **6.5** lifetime; `03` day 2.
 - **Sep 3 owner calendar** — **supersedes Gate 2/3 hold on `03`.** **Hold $105** (Sep 16). **Sep 29–30** pre-register $120 (matured Sep 2–21 ≥0.7/day ≤$135, eligible ≥4,300/wk). **`03_ForeignQual_US` ENABLED Sep 16** on portfolio; CA + CO RSAs pending review, five original state groups already approved. **Bing slip-item.** **$985 February.** Gate 2 Sales exact-neg **filed, not applied**. [expansion-next-steps.md](expansion-next-steps.md) · [operating plan §0.5](../nypllc-google-ads-operating-plan.md)
 - **Sep 2 tCPA diagnostic** — portfolio **$90 → $105**. **Hold $105.** Week-1 ~$105 CPA / 5.9 conv; CRM Google 0.52→0.90/day. mCPA ~$183 immature tail.
 - **$1M mix** — paid 50–60/mo is **stretch**; current rate ≈ **$400–550K** 2028-type year without B2B/CAQH/RA landing. 📖 [expansion-next-steps.md](expansion-next-steps.md)
@@ -43,7 +43,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 2. **This week:** `03` attach + enable **done Sep 16**. Bing later. Watch CA/CO RSA policy status.
 3. Customer Match **uploaded Sep 5** (`9465911299`; job RUNNING; size 0 until match). Auction Insights **done Sep 5**. Do **not** Targeting-attach.
 4. **Oct:** mobile LP + publication-cost calculator on LPs (not publishing-only). **$985 until February**
-5. **Weekly SOP done Sep 13**. Daily **done Sep 12**. Attorneys AG paused; no copy churn.
+5. **Weekly SOP done Sep 13**. Daily **done Sep 17**. Attorneys AG paused; no copy churn. **Sep 29–30** $120 pre-register.
 6. **Nov 1 verdict** → freeze **Nov 15–Dec 1** → January full force
 
 ## Active decisions
@@ -89,9 +89,9 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 📖 Full log: [session-history.md](../docs/session-history.md)
 
-Latest (Sep 13 2026): **Weekly Ads SOP §7.1** — 7d CPA **$133** / 4.88 conv; 30d **$133** / 18 (week 2 over freeze $130). Self-block 0. Ads Spiffy 18 vs CRM 17 (+5.9%). No account changes. $105 day 12; Sales ISO week **4,062**. `01` **6.50** lifetime. Gate 2 volume fail expected; **`03`+Bing still Sep 15–22**. [WEEKLY-SOP.md](../ads-pull-2026-09-13-weekly-sop/WEEKLY-SOP.md).
+Latest (Sep 17 2026): **Daily Ads SOP** — 7d CPA **$138** / 4.88 conv; 30d **$128** / 20 conv; Sep MTD **$110** / 15. `01` **6.5** lifetime (0 conv 7d). Ads↔CRM 30d **0%**; 7d −19% (small-n). No account changes. $105 day 16; Sales eligible 7d **3,969**; **`03` ENABLED** (2 impr). [DAILY-SOP.md](../ads-pull-2026-09-17-daily-sop/DAILY-SOP.md).
 
-Latest (Sep 12 2026): **Daily Ads SOP** — 7d CPA **$92** / 5.9 conv; 30d **$124** / 19 conv; Sep MTD **$96** / 12. `01` **6.5** lifetime. No account changes. $105 day 11; Sales eligible 7d **3,946**. [DAILY-SOP.md](../ads-pull-2026-09-12-daily-sop/DAILY-SOP.md).
+Latest (Sep 13 2026): **Weekly Ads SOP §7.1** — 7d CPA **$133** / 4.88 conv; 30d **$133** / 18 (week 2 over freeze $130). Self-block 0. Ads Spiffy 18 vs CRM 17 (+5.9%). No account changes. $105 day 12; Sales ISO week **4,062**. `01` **6.50** lifetime. Gate 2 volume fail expected; **`03`+Bing still Sep 15–22**. [WEEKLY-SOP.md](../ads-pull-2026-09-13-weekly-sop/WEEKLY-SOP.md).
 
 Latest (Sep 9 2026): **Daily Ads SOP** — 7d CPA **$163** / 3.8 conv; 30d **$133** / 17 conv; Sep MTD **$114** / 7. `01` **5.5** lifetime. No account changes. $105 day 8; Sales eligible 7d **3,338**. [DAILY-SOP.md](../ads-pull-2026-09-09-daily-sop/DAILY-SOP.md).
 

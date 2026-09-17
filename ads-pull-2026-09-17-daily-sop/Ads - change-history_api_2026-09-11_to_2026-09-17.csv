@@ -1,0 +1,975 @@
+change_event.change_date_time,change_event.user_email,change_event.client_type,change_event.change_resource_type,change_event.resource_change_operation,change_event.changed_fields,change_event.old_resource,change_event.new_resource,change_event.campaign,change_event.ad_group
+2026-09-16 16:54:50.573884,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP,CREATE,"paths: ""campaign""
+paths: ""id""
+paths: ""name""
+paths: ""resource_name""
+paths: ""status""
+paths: ""type""
+","ad_group {
+}
+","ad_group {
+  resource_name: ""customers/1529880213/adGroups/201740612873""
+  status: ENABLED
+  type_: SEARCH_STANDARD
+  id: 201740612873
+  name: ""California""
+  campaign: ""customers/1529880213/campaigns/24012757620""
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/201740612873
+2026-09-16 16:54:50.994939,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_CRITERION,CREATE,"paths: ""ad_group""
+paths: ""criterion_id""
+paths: ""keyword.match_type""
+paths: ""keyword.text""
+paths: ""negative""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_criterion {
+}
+","ad_group_criterion {
+  resource_name: ""customers/1529880213/adGroupCriteria/201740612873~2492818510960""
+  status: ENABLED
+  keyword {
+    match_type: EXACT
+    text: ""california pllc new york""
+  }
+  criterion_id: 2492818510960
+  ad_group: ""customers/1529880213/adGroups/201740612873""
+  negative: false
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/201740612873
+2026-09-16 16:54:51.37556,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_CRITERION,CREATE,"paths: ""ad_group""
+paths: ""criterion_id""
+paths: ""keyword.match_type""
+paths: ""keyword.text""
+paths: ""negative""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_criterion {
+}
+","ad_group_criterion {
+  resource_name: ""customers/1529880213/adGroupCriteria/201740612873~2500468247653""
+  status: ENABLED
+  keyword {
+    match_type: EXACT
+    text: ""ca pllc new york""
+  }
+  criterion_id: 2500468247653
+  ad_group: ""customers/1529880213/adGroups/201740612873""
+  negative: false
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/201740612873
+2026-09-16 16:54:51.841175,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_CRITERION,CREATE,"paths: ""ad_group""
+paths: ""criterion_id""
+paths: ""keyword.match_type""
+paths: ""keyword.text""
+paths: ""negative""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_criterion {
+}
+","ad_group_criterion {
+  resource_name: ""customers/1529880213/adGroupCriteria/201740612873~2502392718920""
+  status: ENABLED
+  keyword {
+    match_type: EXACT
+    text: ""california pllc doing business in new york""
+  }
+  criterion_id: 2502392718920
+  ad_group: ""customers/1529880213/adGroups/201740612873""
+  negative: false
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/201740612873
+2026-09-16 16:54:52.238221,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_CRITERION,CREATE,"paths: ""ad_group""
+paths: ""criterion_id""
+paths: ""keyword.match_type""
+paths: ""keyword.text""
+paths: ""negative""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_criterion {
+}
+","ad_group_criterion {
+  resource_name: ""customers/1529880213/adGroupCriteria/201740612873~2499346801376""
+  status: ENABLED
+  keyword {
+    match_type: EXACT
+    text: ""register california pllc in new york""
+  }
+  criterion_id: 2499346801376
+  ad_group: ""customers/1529880213/adGroups/201740612873""
+  negative: false
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/201740612873
+2026-09-16 16:54:52.530849,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP,CREATE,"paths: ""campaign""
+paths: ""id""
+paths: ""name""
+paths: ""resource_name""
+paths: ""status""
+paths: ""type""
+","ad_group {
+}
+","ad_group {
+  resource_name: ""customers/1529880213/adGroups/201740615953""
+  status: ENABLED
+  type_: SEARCH_STANDARD
+  id: 201740615953
+  name: ""Colorado""
+  campaign: ""customers/1529880213/campaigns/24012757620""
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/201740615953
+2026-09-16 16:54:52.926793,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_CRITERION,CREATE,"paths: ""ad_group""
+paths: ""criterion_id""
+paths: ""keyword.match_type""
+paths: ""keyword.text""
+paths: ""negative""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_criterion {
+}
+","ad_group_criterion {
+  resource_name: ""customers/1529880213/adGroupCriteria/201740615953~2501912809436""
+  status: ENABLED
+  keyword {
+    match_type: EXACT
+    text: ""colorado pllc new york""
+  }
+  criterion_id: 2501912809436
+  ad_group: ""customers/1529880213/adGroups/201740615953""
+  negative: false
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/201740615953
+2026-09-16 16:54:53.396928,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_CRITERION,CREATE,"paths: ""ad_group""
+paths: ""criterion_id""
+paths: ""keyword.match_type""
+paths: ""keyword.text""
+paths: ""negative""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_criterion {
+}
+","ad_group_criterion {
+  resource_name: ""customers/1529880213/adGroupCriteria/201740615953~2501914426059""
+  status: ENABLED
+  keyword {
+    match_type: EXACT
+    text: ""co pllc new york""
+  }
+  criterion_id: 2501914426059
+  ad_group: ""customers/1529880213/adGroups/201740615953""
+  negative: false
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/201740615953
+2026-09-16 16:54:53.97058,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_CRITERION,CREATE,"paths: ""ad_group""
+paths: ""criterion_id""
+paths: ""keyword.match_type""
+paths: ""keyword.text""
+paths: ""negative""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_criterion {
+}
+","ad_group_criterion {
+  resource_name: ""customers/1529880213/adGroupCriteria/201740615953~2499346807096""
+  status: ENABLED
+  keyword {
+    match_type: EXACT
+    text: ""colorado pllc doing business in new york""
+  }
+  criterion_id: 2499346807096
+  ad_group: ""customers/1529880213/adGroups/201740615953""
+  negative: false
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/201740615953
+2026-09-16 16:54:54.360013,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_CRITERION,CREATE,"paths: ""ad_group""
+paths: ""criterion_id""
+paths: ""keyword.match_type""
+paths: ""keyword.text""
+paths: ""negative""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_criterion {
+}
+","ad_group_criterion {
+  resource_name: ""customers/1529880213/adGroupCriteria/201740615953~2501916959699""
+  status: ENABLED
+  keyword {
+    match_type: EXACT
+    text: ""register colorado pllc in new york""
+  }
+  criterion_id: 2501916959699
+  ad_group: ""customers/1529880213/adGroups/201740615953""
+  negative: false
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/201740615953
+2026-09-16 16:56:27.655068,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_CRITERION,CREATE,"paths: ""ad_group""
+paths: ""criterion_id""
+paths: ""keyword.match_type""
+paths: ""keyword.text""
+paths: ""negative""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_criterion {
+}
+","ad_group_criterion {
+  resource_name: ""customers/1529880213/adGroupCriteria/201740612873~2491514737891""
+  status: ENABLED
+  keyword {
+    match_type: EXACT
+    text: ""ca pllc doing business in new york""
+  }
+  criterion_id: 2491514737891
+  ad_group: ""customers/1529880213/adGroups/201740612873""
+  negative: false
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/201740612873
+2026-09-16 16:56:37.578959,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,CREATE,"paths: ""ad""
+paths: ""ad_group""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_ad {
+  ad {
+  }
+}
+","ad_group_ad {
+  resource_name: ""customers/1529880213/adGroupAds/201740612873~825042775661""
+  status: ENABLED
+  ad {
+    responsive_search_ad {
+      headlines {
+        pinned_field: HEADLINE_1
+        text: ""CA PC - NY — $905 Flat""
+      }
+      headlines {
+        text: ""California PC in New York""
+      }
+      headlines {
+        text: ""CA Professional Entity NY""
+      }
+      headlines {
+        text: ""Register CA PC in New York""
+      }
+      headlines {
+        text: ""CA Foreign Qual — $905""
+      }
+      headlines {
+        text: ""NY Foreign Qualification""
+      }
+      headlines {
+        text: ""Application for Authority""
+      }
+      headlines {
+        text: ""Out-of-State Entity - NY""
+      }
+      headlines {
+        text: ""NYSED & DOS Filing Help""
+      }
+      headlines {
+        text: ""Licensed Pro Entity Pros""
+      }
+      headlines {
+        text: ""Flat Fee — No Hidden Costs""
+      }
+      headlines {
+        text: ""Talk to a PLLC Specialist""
+      }
+      headlines {
+        text: ""Built for NY Professionals""
+      }
+      headlines {
+        text: ""We Handle the NY Process""
+      }
+      headlines {
+        text: ""Qualify Your Entity in NY""
+      }
+      descriptions {
+        text: ""Qualify your California professional corporation in New York. Flat $905.""
+      }
+      descriptions {
+        text: ""CA to NY foreign qualification for licensed professionals. Start today.""
+      }
+      descriptions {
+        text: ""New York authority, NYSED review, DOS filing and publication included.""
+      }
+      descriptions {
+        text: ""We review the California entity before choosing the foreign PC or PLLC path.""
+      }
+    }
+    resource_name: ""customers/1529880213/ads/825042775661""
+    id: 825042775661
+    final_urls: ""https://www.nypllc.com/foreign-pllc/california""
+    name: ""California — controlled""
+  }
+  ad_group: ""customers/1529880213/adGroups/201740612873""
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/201740612873
+2026-09-16 16:56:38.210383,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,CREATE,"paths: ""ad""
+paths: ""ad_group""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_ad {
+  ad {
+  }
+}
+","ad_group_ad {
+  resource_name: ""customers/1529880213/adGroupAds/201740612873~825042066920""
+  status: ENABLED
+  ad {
+    responsive_search_ad {
+      headlines {
+        text: ""CA PC - NY — $905 Flat""
+      }
+      headlines {
+        text: ""California PC in New York""
+      }
+      headlines {
+        text: ""CA Professional Entity NY""
+      }
+      headlines {
+        text: ""Register CA PC in New York""
+      }
+      headlines {
+        text: ""CA Foreign Qual — $905""
+      }
+      headlines {
+        text: ""NY Foreign Qualification""
+      }
+      headlines {
+        text: ""Application for Authority""
+      }
+      headlines {
+        text: ""Out-of-State Entity - NY""
+      }
+      headlines {
+        text: ""NYSED & DOS Filing Help""
+      }
+      headlines {
+        text: ""Licensed Pro Entity Pros""
+      }
+      headlines {
+        text: ""Flat Fee — No Hidden Costs""
+      }
+      headlines {
+        text: ""Talk to a PLLC Specialist""
+      }
+      headlines {
+        text: ""Built for NY Professionals""
+      }
+      headlines {
+        text: ""We Handle the NY Process""
+      }
+      headlines {
+        text: ""Qualify Your Entity in NY""
+      }
+      descriptions {
+        text: ""Qualify your California professional corporation in New York. Flat $905.""
+      }
+      descriptions {
+        text: ""CA to NY foreign qualification for licensed professionals. Start today.""
+      }
+      descriptions {
+        text: ""New York authority, NYSED review, DOS filing and publication included.""
+      }
+      descriptions {
+        text: ""We review the California entity before choosing the foreign PC or PLLC path.""
+      }
+    }
+    resource_name: ""customers/1529880213/ads/825042066920""
+    id: 825042066920
+    final_urls: ""https://www.nypllc.com/foreign-pllc/california""
+    name: ""California — unpinned""
+  }
+  ad_group: ""customers/1529880213/adGroups/201740612873""
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/201740612873
+2026-09-16 16:56:38.879679,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,CREATE,"paths: ""ad""
+paths: ""ad_group""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_ad {
+  ad {
+  }
+}
+","ad_group_ad {
+  resource_name: ""customers/1529880213/adGroupAds/201740615953~824958335413""
+  status: ENABLED
+  ad {
+    responsive_search_ad {
+      headlines {
+        pinned_field: HEADLINE_1
+        text: ""CO PLLC - NY — $895 Flat""
+      }
+      headlines {
+        text: ""Colorado PLLC in New York""
+      }
+      headlines {
+        text: ""Colorado - New York Qual""
+      }
+      headlines {
+        text: ""Register CO PLLC in NY""
+      }
+      headlines {
+        text: ""CO Foreign Qual — $895""
+      }
+      headlines {
+        text: ""NY Foreign Qualification""
+      }
+      headlines {
+        text: ""Application for Authority""
+      }
+      headlines {
+        text: ""Out-of-State PLLC - NY""
+      }
+      headlines {
+        text: ""NYSED & DOS Filing Help""
+      }
+      headlines {
+        text: ""Licensed Pro Entity Pros""
+      }
+      headlines {
+        text: ""Flat Fee — No Hidden Costs""
+      }
+      headlines {
+        text: ""Talk to a PLLC Specialist""
+      }
+      headlines {
+        text: ""Built for NY Professionals""
+      }
+      headlines {
+        text: ""We Handle the NY Process""
+      }
+      headlines {
+        text: ""Qualify Your PLLC Into NY""
+      }
+      descriptions {
+        text: ""Qualify your Colorado professional LLC, PLLC or PC in New York. Flat $895.""
+      }
+      descriptions {
+        text: ""CO to NY foreign qualification for licensed professionals. Start today.""
+      }
+      descriptions {
+        text: ""New York authority, NYSED review, DOS filing and publication included.""
+      }
+      descriptions {
+        text: ""We obtain standard Colorado records and handle the New York filing process.""
+      }
+    }
+    resource_name: ""customers/1529880213/ads/824958335413""
+    id: 824958335413
+    final_urls: ""https://www.nypllc.com/foreign-pllc/colorado""
+    name: ""Colorado — controlled""
+  }
+  ad_group: ""customers/1529880213/adGroups/201740615953""
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/201740615953
+2026-09-16 16:56:39.427951,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,CREATE,"paths: ""ad""
+paths: ""ad_group""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_ad {
+  ad {
+  }
+}
+","ad_group_ad {
+  resource_name: ""customers/1529880213/adGroupAds/201740615953~824958368338""
+  status: ENABLED
+  ad {
+    responsive_search_ad {
+      headlines {
+        text: ""CO PLLC - NY — $895 Flat""
+      }
+      headlines {
+        text: ""Colorado PLLC in New York""
+      }
+      headlines {
+        text: ""Colorado - New York Qual""
+      }
+      headlines {
+        text: ""Register CO PLLC in NY""
+      }
+      headlines {
+        text: ""CO Foreign Qual — $895""
+      }
+      headlines {
+        text: ""NY Foreign Qualification""
+      }
+      headlines {
+        text: ""Application for Authority""
+      }
+      headlines {
+        text: ""Out-of-State PLLC - NY""
+      }
+      headlines {
+        text: ""NYSED & DOS Filing Help""
+      }
+      headlines {
+        text: ""Licensed Pro Entity Pros""
+      }
+      headlines {
+        text: ""Flat Fee — No Hidden Costs""
+      }
+      headlines {
+        text: ""Talk to a PLLC Specialist""
+      }
+      headlines {
+        text: ""Built for NY Professionals""
+      }
+      headlines {
+        text: ""We Handle the NY Process""
+      }
+      headlines {
+        text: ""Qualify Your PLLC Into NY""
+      }
+      descriptions {
+        text: ""Qualify your Colorado professional LLC, PLLC or PC in New York. Flat $895.""
+      }
+      descriptions {
+        text: ""CO to NY foreign qualification for licensed professionals. Start today.""
+      }
+      descriptions {
+        text: ""New York authority, NYSED review, DOS filing and publication included.""
+      }
+      descriptions {
+        text: ""We obtain standard Colorado records and handle the New York filing process.""
+      }
+    }
+    resource_name: ""customers/1529880213/ads/824958368338""
+    id: 824958368338
+    final_urls: ""https://www.nypllc.com/foreign-pllc/colorado""
+    name: ""Colorado — unpinned""
+  }
+  ad_group: ""customers/1529880213/adGroups/201740615953""
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/201740615953
+2026-09-16 16:57:13.129119,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_CRITERION,REMOVE,"paths: ""ad_group""
+paths: ""criterion_id""
+paths: ""keyword.match_type""
+paths: ""keyword.text""
+paths: ""negative""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_criterion {
+  resource_name: ""customers/1529880213/adGroupCriteria/198691366976~2491514737891""
+  status: ENABLED
+  keyword {
+    match_type: EXACT
+    text: ""ca pllc doing business in new york""
+  }
+  criterion_id: 2491514737891
+  ad_group: ""customers/1529880213/adGroups/198691366976""
+  negative: false
+}
+","ad_group_criterion {
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/198691366976
+2026-09-16 16:57:13.129119,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_CRITERION,REMOVE,"paths: ""ad_group""
+paths: ""criterion_id""
+paths: ""keyword.match_type""
+paths: ""keyword.text""
+paths: ""negative""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_criterion {
+  resource_name: ""customers/1529880213/adGroupCriteria/198691366976~2492818510960""
+  status: ENABLED
+  keyword {
+    match_type: EXACT
+    text: ""california pllc new york""
+  }
+  criterion_id: 2492818510960
+  ad_group: ""customers/1529880213/adGroups/198691366976""
+  negative: false
+}
+","ad_group_criterion {
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/198691366976
+2026-09-16 16:57:13.129119,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_CRITERION,REMOVE,"paths: ""ad_group""
+paths: ""criterion_id""
+paths: ""keyword.match_type""
+paths: ""keyword.text""
+paths: ""negative""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_criterion {
+  resource_name: ""customers/1529880213/adGroupCriteria/201740612873~2502392718920""
+  status: ENABLED
+  keyword {
+    match_type: EXACT
+    text: ""california pllc doing business in new york""
+  }
+  criterion_id: 2502392718920
+  ad_group: ""customers/1529880213/adGroups/201740612873""
+  negative: false
+}
+","ad_group_criterion {
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/201740612873
+2026-09-16 17:22:52.646024,contact@nypllc.com,GOOGLE_ADS_API,CAMPAIGN,UPDATE,"paths: ""accessible_bidding_strategy""
+paths: ""bidding_strategy""
+","campaign {
+}
+","campaign {
+  bidding_strategy: ""customers/1529880213/biddingStrategies/12148056412""
+  accessible_bidding_strategy: ""customers/1529880213/accessibleBiddingStrategies/12148056412""
+}
+",customers/1529880213/campaigns/24012757620,
+2026-09-16 17:22:54.139528,contact@nypllc.com,GOOGLE_ADS_API,CAMPAIGN,UPDATE,"paths: ""status""
+","campaign {
+  status: PAUSED
+}
+","campaign {
+  status: ENABLED
+}
+",customers/1529880213/campaigns/24012757620,
+2026-09-16 17:50:56.707279,contact@nypllc.com,GOOGLE_ADS_API,ASSET,CREATE,"paths: ""id""
+paths: ""name""
+paths: ""price_asset.language_code""
+paths: ""price_asset.price_offerings""
+paths: ""price_asset.price_qualifier""
+paths: ""price_asset.type""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/422028348046""
+  id: 422028348046
+  name: ""NYPLLC Prices v4 — Formation / VA / Foreign from $895""
+  price_asset {
+    type_: SERVICES
+    price_qualifier: FROM
+    language_code: ""en""
+    price_offerings {
+      header: ""PLLC Formation""
+      description: ""All-inclusive flat fee""
+      price {
+        currency_code: ""USD""
+        amount_micros: 885000000
+      }
+      final_url: ""https://www.nypllc.com/order""
+    }
+    price_offerings {
+      header: ""Virtual NY Address""
+      description: ""Mail forwarding / month""
+      price {
+        currency_code: ""USD""
+        amount_micros: 50000000
+      }
+      unit: PER_MONTH
+      final_url: ""https://www.nypllc.com/virtual-address-services""
+    }
+    price_offerings {
+      header: ""Foreign PLLC Into NY""
+      description: ""Qualify by origin state""
+      price {
+        currency_code: ""USD""
+        amount_micros: 895000000
+      }
+      final_url: ""https://www.nypllc.com/foreign-pllc""
+    }
+  }
+}
+",,
+2026-09-16 17:50:57.083919,contact@nypllc.com,GOOGLE_ADS_API,CAMPAIGN_ASSET,REMOVE,"paths: ""asset""
+paths: ""campaign""
+paths: ""field_type""
+paths: ""resource_name""
+paths: ""source""
+paths: ""status""
+","campaign_asset {
+  resource_name: ""customers/1529880213/campaignAssets/23165646939~390754746354~PRICE""
+  field_type: PRICE
+  status: ENABLED
+  campaign: ""customers/1529880213/campaigns/23165646939""
+  asset: ""customers/1529880213/assets/390754746354""
+  source: ADVERTISER
+}
+","campaign_asset {
+}
+",customers/1529880213/campaigns/23165646939,
+2026-09-16 17:50:57.373791,contact@nypllc.com,GOOGLE_ADS_API,CAMPAIGN_ASSET,REMOVE,"paths: ""asset""
+paths: ""campaign""
+paths: ""field_type""
+paths: ""resource_name""
+paths: ""source""
+paths: ""status""
+","campaign_asset {
+  resource_name: ""customers/1529880213/campaignAssets/24012757620~390754746354~PRICE""
+  field_type: PRICE
+  status: ENABLED
+  campaign: ""customers/1529880213/campaigns/24012757620""
+  asset: ""customers/1529880213/assets/390754746354""
+  source: ADVERTISER
+}
+","campaign_asset {
+}
+",customers/1529880213/campaigns/24012757620,
+2026-09-16 17:50:57.642559,contact@nypllc.com,GOOGLE_ADS_API,CAMPAIGN_ASSET,REMOVE,"paths: ""asset""
+paths: ""campaign""
+paths: ""field_type""
+paths: ""resource_name""
+paths: ""source""
+paths: ""status""
+","campaign_asset {
+  resource_name: ""customers/1529880213/campaignAssets/24017629178~390754746354~PRICE""
+  field_type: PRICE
+  status: ENABLED
+  campaign: ""customers/1529880213/campaigns/24017629178""
+  asset: ""customers/1529880213/assets/390754746354""
+  source: ADVERTISER
+}
+","campaign_asset {
+}
+",customers/1529880213/campaigns/24017629178,
+2026-09-16 17:50:57.931455,contact@nypllc.com,GOOGLE_ADS_API,CAMPAIGN_ASSET,REMOVE,"paths: ""asset""
+paths: ""campaign""
+paths: ""field_type""
+paths: ""resource_name""
+paths: ""source""
+paths: ""status""
+","campaign_asset {
+  resource_name: ""customers/1529880213/campaignAssets/24022049179~390754746354~PRICE""
+  field_type: PRICE
+  status: ENABLED
+  campaign: ""customers/1529880213/campaigns/24022049179""
+  asset: ""customers/1529880213/assets/390754746354""
+  source: ADVERTISER
+}
+","campaign_asset {
+}
+",customers/1529880213/campaigns/24022049179,
+2026-09-16 17:50:58.260479,contact@nypllc.com,GOOGLE_ADS_API,CAMPAIGN_ASSET,CREATE,"paths: ""asset""
+paths: ""campaign""
+paths: ""field_type""
+paths: ""resource_name""
+","campaign_asset {
+}
+","campaign_asset {
+  resource_name: ""customers/1529880213/campaignAssets/23165646939~422028348046~PRICE""
+  field_type: PRICE
+  campaign: ""customers/1529880213/campaigns/23165646939""
+  asset: ""customers/1529880213/assets/422028348046""
+}
+",customers/1529880213/campaigns/23165646939,
+2026-09-16 17:50:58.530767,contact@nypllc.com,GOOGLE_ADS_API,CAMPAIGN_ASSET,CREATE,"paths: ""asset""
+paths: ""campaign""
+paths: ""field_type""
+paths: ""resource_name""
+","campaign_asset {
+}
+","campaign_asset {
+  resource_name: ""customers/1529880213/campaignAssets/24022049179~422028348046~PRICE""
+  field_type: PRICE
+  campaign: ""customers/1529880213/campaigns/24022049179""
+  asset: ""customers/1529880213/assets/422028348046""
+}
+",customers/1529880213/campaigns/24022049179,
+2026-09-16 17:50:58.834511,contact@nypllc.com,GOOGLE_ADS_API,CAMPAIGN_ASSET,CREATE,"paths: ""asset""
+paths: ""campaign""
+paths: ""field_type""
+paths: ""resource_name""
+","campaign_asset {
+}
+","campaign_asset {
+  resource_name: ""customers/1529880213/campaignAssets/24017629178~422028348046~PRICE""
+  field_type: PRICE
+  campaign: ""customers/1529880213/campaigns/24017629178""
+  asset: ""customers/1529880213/assets/422028348046""
+}
+",customers/1529880213/campaigns/24017629178,
+2026-09-16 17:50:59.027087,contact@nypllc.com,GOOGLE_ADS_API,CAMPAIGN_ASSET,CREATE,"paths: ""asset""
+paths: ""campaign""
+paths: ""field_type""
+paths: ""resource_name""
+","campaign_asset {
+}
+","campaign_asset {
+  resource_name: ""customers/1529880213/campaignAssets/24012757620~422028348046~PRICE""
+  field_type: PRICE
+  campaign: ""customers/1529880213/campaigns/24012757620""
+  asset: ""customers/1529880213/assets/422028348046""
+}
+",customers/1529880213/campaigns/24012757620,
+2026-09-16 17:51:06.417151,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,UPDATE,"paths: ""ad""
+paths: ""status""
+","ad_group_ad {
+  status: ENABLED
+  ad {
+  }
+}
+","ad_group_ad {
+  status: REMOVED
+  ad {
+  }
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/198691366976
+2026-09-16 17:51:07.091135,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,CREATE,"paths: ""ad""
+paths: ""ad_group""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_ad {
+  ad {
+  }
+}
+","ad_group_ad {
+  resource_name: ""customers/1529880213/adGroupAds/198691366976~824965317526""
+  status: ENABLED
+  ad {
+    responsive_search_ad {
+      headlines {
+        pinned_field: HEADLINE_1
+        text: ""Qualify Into NY — From $895""
+      }
+      headlines {
+        text: ""Foreign PLLC New York Help""
+      }
+      headlines {
+        text: ""Register Out-of-State PLLC""
+      }
+      headlines {
+        text: ""NY Application for Authority""
+      }
+      headlines {
+        text: ""Foreign Qual From $895""
+      }
+      headlines {
+        text: ""NY Foreign Qualification""
+      }
+      headlines {
+        text: ""Application for Authority""
+      }
+      headlines {
+        text: ""Out-of-State PLLC - NY""
+      }
+      headlines {
+        text: ""NYSED & DOS Filing Help""
+      }
+      headlines {
+        text: ""Licensed Pro Entity Pros""
+      }
+      headlines {
+        text: ""Flat Fee — No Hidden Costs""
+      }
+      headlines {
+        text: ""Talk to a PLLC Specialist""
+      }
+      headlines {
+        text: ""Built for NY Professionals""
+      }
+      headlines {
+        text: ""We Handle the NY Process""
+      }
+      headlines {
+        text: ""Qualify Your PLLC Into NY""
+      }
+      descriptions {
+        text: ""Qualify your out-of-state PLLC into New York. Flat fees from $895 by home state.""
+      }
+      descriptions {
+        text: ""Application for Authority help for licensed pros. NJ, PA, FL, TX, CT & more.""
+      }
+      descriptions {
+        text: ""Foreign PLLC into NY: Application for Authority, NYSED review help & filing support.""
+      }
+      descriptions {
+        text: ""Specialists who only do New York professional entities. No hourly attorney fees.""
+      }
+    }
+    resource_name: ""customers/1529880213/ads/824965317526""
+    id: 824965317526
+    final_urls: ""https://www.nypllc.com/foreign-pllc""
+    name: ""Generic-ForeignQual — controlled""
+  }
+  ad_group: ""customers/1529880213/adGroups/198691366976""
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/198691366976
+2026-09-16 17:51:07.567103,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,UPDATE,"paths: ""ad""
+paths: ""status""
+","ad_group_ad {
+  status: ENABLED
+  ad {
+  }
+}
+","ad_group_ad {
+  status: REMOVED
+  ad {
+  }
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/198691366976
+2026-09-16 17:51:08.311567,contact@nypllc.com,GOOGLE_ADS_API,AD_GROUP_AD,CREATE,"paths: ""ad""
+paths: ""ad_group""
+paths: ""resource_name""
+paths: ""status""
+","ad_group_ad {
+  ad {
+  }
+}
+","ad_group_ad {
+  resource_name: ""customers/1529880213/adGroupAds/198691366976~824965325695""
+  status: ENABLED
+  ad {
+    responsive_search_ad {
+      headlines {
+        text: ""Qualify Into NY — From $895""
+      }
+      headlines {
+        text: ""Foreign PLLC New York Help""
+      }
+      headlines {
+        text: ""Register Out-of-State PLLC""
+      }
+      headlines {
+        text: ""NY Application for Authority""
+      }
+      headlines {
+        text: ""Foreign Qual From $895""
+      }
+      headlines {
+        text: ""NY Foreign Qualification""
+      }
+      headlines {
+        text: ""Application for Authority""
+      }
+      headlines {
+        text: ""Out-of-State PLLC - NY""
+      }
+      headlines {
+        text: ""NYSED & DOS Filing Help""
+      }
+      headlines {
+        text: ""Licensed Pro Entity Pros""
+      }
+      headlines {
+        text: ""Flat Fee — No Hidden Costs""
+      }
+      headlines {
+        text: ""Talk to a PLLC Specialist""
+      }
+      headlines {
+        text: ""Built for NY Professionals""
+      }
+      headlines {
+        text: ""We Handle the NY Process""
+      }
+      headlines {
+        text: ""Qualify Your PLLC Into NY""
+      }
+      descriptions {
+        text: ""Qualify your out-of-state PLLC into New York. Flat fees from $895 by home state.""
+      }
+      descriptions {
+        text: ""Application for Authority help for licensed pros. NJ, PA, FL, TX, CT & more.""
+      }
+      descriptions {
+        text: ""Foreign PLLC into NY: Application for Authority, NYSED review help & filing support.""
+      }
+      descriptions {
+        text: ""Specialists who only do New York professional entities. No hourly attorney fees.""
+      }
+    }
+    resource_name: ""customers/1529880213/ads/824965325695""
+    id: 824965325695
+    final_urls: ""https://www.nypllc.com/foreign-pllc""
+    name: ""Generic-ForeignQual — unpinned""
+  }
+  ad_group: ""customers/1529880213/adGroups/198691366976""
+}
+",customers/1529880213/campaigns/24012757620,customers/1529880213/adGroups/198691366976

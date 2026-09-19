@@ -41,7 +41,7 @@ January is a **freeze/surge hedge** (n=1 Ads peak; May CRM orders **57 > Jan 51*
 
 Anything that **takes money** (build + launch) — still open:
 
-- **CAQH remaining ~118** — **held.** Copy trio is built. The comparison page draft was moved to `web/src/unpublished/` Sep 19, and the public route intentionally 404s.
+- **CAQH remaining ~118** — **held** until Sid authorizes sends. Copy trio is built; comparison page **live** at `/headway-alma-vs-own-panels` Sep 19 (source draft in `web/src/unpublished/`).
 - **Professional B2B** outreach = 5 emails only.
 - **Affiliate links** — Mercury + Gusto applied Aug 14; links not live. (Expedite SKU removed Aug 17 — already in $885.)
 
@@ -51,12 +51,12 @@ Anything that **takes money** (build + launch) — still open:
 
 | # | Item | Repo / owner | Notes |
 |---|------|--------------|-------|
-| **1** | **CAQH — hold remaining ~118** | **Site + PLLC-CRM** | Copy trio built. Comparison draft is unpublished and `/headway-alma-vs-own-panels` intentionally 404s as of Sep 19. Do not use the page in outreach unless Sid later launches it. Verify EIN-trigger attach emails only after that decision. New Oct bar: **3–5 paid from any motion**, not C1's 10 backlist setups by ~Oct 19. 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
+| **1** | **CAQH — hold remaining ~118** | **Site + PLLC-CRM** | Copy trio built; comparison page **live** Sep 19. Hold backlist until Sid authorizes; therapy sends need live `https://www.nypllc.com/headway-alma-vs-own-panels`. Verify EIN-trigger attach emails. Oct bar: **3–5 paid from any motion**. 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
 | **2** | **Direct-RA ops** | **PLLC-CRM** | **Live Aug 25.** Checkout disclosure **audited**; staff **$99 CoC** + **$249 Compliance Plan** support paths **confirmed**. First T-30s ~Sep 22; October auto-charges. 📖 [direct-ra-launch-status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) |
 | **3** | **EXP Credentialing** | **PLLC-CRM** | **Done Sep 16** — referral link emailed (`EXP9Z8S`, thread `19fd2c38f89979fa`). Spiffy promo attach to checkout 34573 may still be manual. |
 | **4** | **Two affiliate links** (banking + payroll) | **Site** lifecycle email + backlist / S Corp page | **Mercury + Gusto Impact applied Aug 14**; **third ping Sep 1**. **OnPay/ADP backup not sent** (deferred). Links not live. 📖 [affiliate-partners.md](../docs/affiliate-partners.md) |
 | **5** | **Ads — Sep 16 hold + Sep 29–30 pre-register** | **new-york-pllc** | **Hold $105.** Sep 29–30: matured Sep 2–21 ≥0.7 conv/day and ≤$135 blended, eligible ≥4,300/wk → **$120 Oct 1**; >$150 or <0.55/day → **$90**; else hold. **`03_ForeignQual_US` ENABLED Sep 16** on portfolio; CA/CO RSAs pending, five original state groups approved. **Bing slip-item.** **$985 February.** Gate 2 Sales exact-neg **filed, not applied**. |
-| **6** | **SEO — Headway/Alma draft unpublished** | **new-york-pllc** | Sourced decision-page draft retained under `web/src/unpublished/`; no sitemap, footer, profession-page links, or public route. Resume 1 piece/week elsewhere. **MSO unpublished**. |
+| **6** | **SEO — Headway/Alma comparison live** | **new-york-pllc** | `/headway-alma-vs-own-panels` in sitemap + footer Sep 19. Resume 1 piece/week elsewhere. **MSO unpublished**. |
 | **7** | **Big B2B outreach — paused** | **PLLC-CRM** | Advocate/referral side keeps running until 1–4 are done. **Platform segment:** Headway/Alma as formation partners (see CAQH section). |
 | **8** | **MSO path** | **new-york-pllc** + CRM | Offer locked. CRM manual pair workflow **done Sep 16**. **Do not launch public checkout.** Draft at [`web/src/unpublished/ny-mso/`](../web/src/unpublished/ny-mso/). No ads. 📖 [mso-msa.md](features/mso-msa.md) |
 
@@ -74,7 +74,7 @@ Sep 16 sent 23 ($499 + hosted invoice): 3 checkout-interest + 20 `FORMATION_COMP
 | Older formations | Linkage: new PLLC, but insurance still billing the old entity? |
 | Therapy cluster | Honest aggregator economics first. Headway/Alma can suit clinicians who value faster credentialing and less billing administration; direct applications provide a direct payer relationship with more work. |
 
-**Comparison-page draft built Sep 17** using current official Headway, Alma, and CAQH sources. It leads with NYPLLC's $499 CAQH setup, puts Headway's retained portion and Alma's recurring membership cost above the fold, and explains the platform-control tradeoffs. **Sep 19:** moved to `web/src/unpublished/`; `/headway-alma-vs-own-panels` intentionally 404s. Do not link it from outreach unless Sid later launches it.
+**Comparison page built Sep 17 and strengthened Sep 19.** **Live** at `/headway-alma-vs-own-panels` (implementation source in `web/src/unpublished/headway-alma-vs-own-panels.tsx`). It leads with NYPLLC's $499 one-time CAQH setup, direct-panel control, platform cost math, and honest Headway/Alma/hybrid fit. Visible sources section removed at owner direction. Link from therapy outreach when sends resume.
 
 **The market test is the attach rail, not the backlist.** Timing was the advantage: catch people at EIN-obtained, before they DIY or sign an aggregator. Seven checkout-interest boxes in September means the intent exists at that moment. Verify EIN-trigger CAQH emails actually fire. That cohort decides whether CAQH is a product or a page.
 

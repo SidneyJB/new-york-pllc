@@ -100,6 +100,14 @@ export function Footer() {
               </li>
               <li>
                 <Link
+                  href="/headway-alma-vs-own-panels"
+                  className="text-muted-foreground hover:text-foreground text-sm transition-colors"
+                >
+                  Headway vs Alma vs Own Panels
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/how-to-form-a-pllc-in-ny"
                   className="text-muted-foreground hover:text-foreground text-sm transition-colors"
                 >

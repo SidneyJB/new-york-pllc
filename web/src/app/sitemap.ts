@@ -265,6 +265,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/headway-alma-vs-own-panels`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/virtual-address-services`,
       lastModified: new Date(),
       changeFrequency: 'monthly',

@@ -26,9 +26,9 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 ## Expansion priorities (next 4 weeks)
 
-📖 Full narrative + Sep–Jan calendar: [expansion-next-steps.md](expansion-next-steps.md) (updated **Sep 16, 2026** evening). **MSO path** (offer locked, page unpublished): [features/mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md).
+📖 Full narrative + Sep–Jan calendar: [expansion-next-steps.md](expansion-next-steps.md) (updated **Sep 22, 2026**). **MSO path** (offer locked, page unpublished): [features/mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md).
 
-1. **CAQH** — copy trio implemented. **`/headway-alma-vs-own-panels` live Sep 19** (sitemap + footer). Decision page now leads with NYPLLC's **$499 one-time** path, direct-panel control, platform cost math, and honest Headway/Alma/hybrid fit; visible sources section removed at owner direction. Remaining ~118 **held** until Sid authorizes sends; verify EIN-trigger attach emails. Oct bar **3–5 paid any motion**. (**Site + PLLC-CRM**)
+1. **CAQH** — copy trio implemented. **`/headway-alma-vs-own-panels` live Sep 19**. Remaining ~118 **held**. **EIN-obtained attach is on** (Sep 22); paid invoices alert `contact@nypllc.com`. Oct bar **3–5 paid any motion**. (**Site + PLLC-CRM**)
 2. **Direct-RA Lever 1 — LIVE** — first T-30 ~Sep 22; Oct charges. Pre-send checklist in [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
 3. **EXP Credentialing** — referral link **sent Sep 16** (`EXP9Z8S`). (**PLLC-CRM**)
 4. **Affiliate follow-ups** — **third ping sent Sep 1** (Mercury + Gusto). Links not live. [affiliate-partners.md](../docs/affiliate-partners.md)

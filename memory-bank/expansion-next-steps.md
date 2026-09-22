@@ -1,6 +1,6 @@
 # Expansion — next steps (Aug 10, 2026)
 
-**As of:** Sep 19, 2026 (CAQH copy trio implemented; comparison page draft unpublished).
+**As of:** Sep 22, 2026 (EIN-obtained CAQH attach on; paid-invoice alert to contact@).
 **Owner:** Cross-cutting expansion strategy lives here (website memory bank). CRM builds link from [PLLC-CRM/memory-bank/features/](../../PLLC-CRM/memory-bank/features/).
 
 Companion operating plans: [Ads v2](../nypllc-google-ads-operating-plan.md) · [SEO moat](../nypllc-seo-content-moat-plan.md) · [Revenue levers v1](../nypllc-revenue-levers-plan.md) · CAQH v1 · B2B v1 (CRM). **MSO path (offer locked):** [mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md). License filing + credentialing packet research still in [PLLC-CRM catalog](../../PLLC-CRM/business%20ideas.md).
@@ -51,7 +51,7 @@ Anything that **takes money** (build + launch) — still open:
 
 | # | Item | Repo / owner | Notes |
 |---|------|--------------|-------|
-| **1** | **CAQH — hold remaining ~118** | **Site + PLLC-CRM** | Copy trio built; comparison page **live** Sep 19. Hold backlist until Sid authorizes; therapy sends need live `https://www.nypllc.com/headway-alma-vs-own-panels`. Verify EIN-trigger attach emails. Oct bar: **3–5 paid from any motion**. 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
+| **1** | **CAQH — hold remaining ~118** | **Site + PLLC-CRM** | Copy trio built; comparison page **live** Sep 19. Hold backlist until Sid authorizes. **EIN-obtained attach is on** (Sep 22): first healthcare crossing to EIN Obtained sends the $499 email once. Paid invoices alert `contact@nypllc.com`. Oct bar: **3–5 paid from any motion**. 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
 | **2** | **Direct-RA ops** | **PLLC-CRM** | **Live Aug 25.** Checkout disclosure **audited**; staff **$99 CoC** + **$249 Compliance Plan** support paths **confirmed**. First T-30s ~Sep 22; October auto-charges. 📖 [direct-ra-launch-status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) |
 | **3** | **EXP Credentialing** | **PLLC-CRM** | **Done Sep 16** — referral link emailed (`EXP9Z8S`, thread `19fd2c38f89979fa`). Spiffy promo attach to checkout 34573 may still be manual. |
 | **4** | **Two affiliate links** (banking + payroll) | **Site** lifecycle email + backlist / S Corp page | **Mercury + Gusto Impact applied Aug 14**; **third ping Sep 1**. **OnPay/ADP backup not sent** (deferred). Links not live. 📖 [affiliate-partners.md](../docs/affiliate-partners.md) |
@@ -76,7 +76,7 @@ Sep 16 sent 23 ($499 + hosted invoice): 3 checkout-interest + 20 `FORMATION_COMP
 
 **Comparison page built Sep 17 and strengthened Sep 19.** **Live** at `/headway-alma-vs-own-panels` (implementation source in `web/src/unpublished/headway-alma-vs-own-panels.tsx`). It leads with NYPLLC's $499 one-time CAQH setup, direct-panel control, platform cost math, and honest Headway/Alma/hybrid fit. Visible sources section removed at owner direction. Link from therapy outreach when sends resume.
 
-**The market test is the attach rail, not the backlist.** Timing was the advantage: catch people at EIN-obtained, before they DIY or sign an aggregator. Seven checkout-interest boxes in September means the intent exists at that moment. Verify EIN-trigger CAQH emails actually fire. That cohort decides whether CAQH is a product or a page.
+**The market test is the attach rail, not the backlist.** Timing was the advantage: catch people at EIN-obtained, before they DIY or sign an aggregator. **Sep 22: that rail is on.** A healthcare PLLC's first crossing to EIN Obtained sends the $499 cohort email once (`CAQH_EIN_ATTACH_ENABLED=true`). No blast of people already past that step. When the invoice is paid, `contact@nypllc.com` gets one alert. That cohort decides whether CAQH is a product or a page.
 
 **Strategic flip:** Headway and Alma are credentialing competitors and formation partners. They onboard thousands of therapists who need entities first. File them under the B2B plan's **platform** segment. What killed Julianne's $499 sale is a channel for the $885 product. CRM: [b2b-partners.md](../../PLLC-CRM/memory-bank/features/b2b-partners.md).
 

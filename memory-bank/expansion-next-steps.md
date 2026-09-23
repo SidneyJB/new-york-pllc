@@ -55,7 +55,7 @@ Anything that **takes money** (build + launch) — still open:
 | **2** | **Direct-RA ops** | **PLLC-CRM** | **Live Aug 25.** Checkout disclosure **audited**; staff **$99 CoC** + **$249 Compliance Plan** support paths **confirmed**. First T-30s ~Sep 22; October auto-charges. 📖 [direct-ra-launch-status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) |
 | **3** | **EXP Credentialing** | **PLLC-CRM** | **Done Sep 16** — referral link emailed (`EXP9Z8S`, thread `19fd2c38f89979fa`). Spiffy promo attach to checkout 34573 may still be manual. |
 | **4** | **Two affiliate links** (banking + payroll) | **Site** lifecycle email + backlist / S Corp page | **Mercury + Gusto Impact applied Aug 14**; **third ping Sep 1**. **OnPay/ADP backup not sent** (deferred). Links not live. 📖 [affiliate-partners.md](../docs/affiliate-partners.md) |
-| **5** | **Ads — Sep 16 hold + Sep 29–30 pre-register** | **new-york-pllc** | **Hold $105.** Sep 29–30: matured Sep 2–21 ≥0.7 conv/day and ≤$135 blended, eligible ≥4,300/wk → **$120 Oct 1**; >$150 or <0.55/day → **$90**; else hold. **`03_ForeignQual_US` ENABLED Sep 16** on portfolio; CA/CO RSAs pending, five original state groups approved. **Bing slip-item.** **$985 February.** Gate 2 Sales exact-neg **filed, not applied**. |
+| **5** | **Ads — Sep 16 hold + Sep 29–30 pre-register** | **new-york-pllc** | **Hold $105.** Sep 29–30: matured Sep 2–21 ≥0.7 conv/day and ≤$135 blended, eligible ≥4,300/wk → **$120 Oct 1**; >$150 or <0.55/day → **$90**; else hold. **`03_ForeignQual_US` ENABLED Sep 16** on portfolio; CA/CO RSAs pending, five original state groups approved. **Bing blocked Sep 23** (address mismatch; update NY registration, then resubmit via support). **$985 February.** Gate 2 Sales exact-neg **filed, not applied**. |
 | **6** | **SEO — Headway/Alma comparison live** | **new-york-pllc** | `/headway-alma-vs-own-panels` in sitemap + footer Sep 19. Resume 1 piece/week elsewhere. **MSO unpublished**. |
 | **7** | **Big B2B outreach — paused** | **PLLC-CRM** | Advocate/referral side keeps running until 1–4 are done. **Platform segment:** Headway/Alma as formation partners (see CAQH section). |
 | **8** | **MSO path** | **new-york-pllc** + CRM | Offer locked. CRM manual pair workflow **done Sep 16**. **Do not launch public checkout.** Draft at [`web/src/unpublished/ny-mso/`](../web/src/unpublished/ny-mso/). No ads. 📖 [mso-msa.md](features/mso-msa.md) |
@@ -106,7 +106,7 @@ January = **frozen machine at full force**, not a rebuild. **Nov 1** is the paid
 |------|------|
 | **Every weekly SOP** | Search terms, self-block, **Sales eligible**, mCPA vs $160, Ads↔CRM ±10%. tCPA **$105** until Oct 1. **Latest: Sep 5** — 7d CPA $122 / 6; 30d $144 / 16; Sales eligible 7d 3,431. |
 | **Sep 15** | Eligible **~3,500 → 4,500–5,000**? Spend-up/auctions-flat = **May pattern → paid capped**. **Sep 16: hold $105.** |
-| **Sep 15–22** | **`03` ENABLED Sep 16** (portfolio attach + enable). CA/CO RSAs pending review. **Bing slip-item.** No Sales→Discovery. Attorneys AG stays paused. |
+| **Sep 15–22** | **`03` ENABLED Sep 16** (portfolio attach + enable). CA/CO RSAs **APPROVED** (Sep 23 SOP). **Bing blocked Sep 23:** Microsoft suspended `contact@nypllc.com` (unusual activity). Service request **7109261224**. Verification failed on a business-address mismatch. Update the NY registration to match the ads account, then resubmit through support. Two attempts left. Do not open a second account. No Sales→Discovery. Attorneys AG stays paused. |
 | **Sep 29–30** | Pre-register $120: matured Sep 2–21 ≥0.7/day ≤$135, eligible ≥4,300/wk → **$120 Oct 1**. >$150 or <0.55/day → **$90**. Else hold $105. |
 | **Oct 1** | Apply Sep 29–30 only. Do not raise on the Sep 16 pull. |
 | **Oct** | Mobile CVR + publication-cost calculator on LPs (not List E / not county shop). |
@@ -116,7 +116,7 @@ January = **frozen machine at full force**, not a rebuild. **Nov 1** is the paid
 | **Dec–Jan** | Preload; January at full force. |
 | **February** | $985 price test. |
 
-Still hold: Discovery demotion · MSO ads · B2B blast. **`03` and Bing are no longer held.**
+Still hold: Discovery demotion · MSO ads · B2B blast. **`03` is live.** **Bing is no longer a calendar hold; it is blocked** until the business registration address matches the Microsoft Advertising account.
 
 ---
 

@@ -7,7 +7,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Current sprint
 
 - **Google Ads Phase 0** — **conversion flip done Jul 9.** Tagged Purchase `7678072764` primary; page-load `7353506045` secondary. See [features/google-ads.md](features/google-ads.md) · [operating plan](../nypllc-google-ads-operating-plan.md)
-- **Weekly SOP** — latest §7.1 **done Sep 13**: [WEEKLY-SOP.md](../ads-pull-2026-09-13-weekly-sop/WEEKLY-SOP.md). 7d CPA **$133** / 4.88; 30d **$133** / 18; Ads↔CRM 30d **+5.9%**; Sales ISO week **4,062**. **Daily Sep 17:** [DAILY-SOP.md](../ads-pull-2026-09-17-daily-sop/DAILY-SOP.md) — 7d **$138** / 4.88; 30d **$128** / 20; Sep MTD **$110** / 15; `01` **6.5** lifetime; `03` day 2.
+- **Weekly SOP** — latest §7.1 **done Sep 23**: [WEEKLY-SOP.md](../ads-pull-2026-09-23-weekly-sop/WEEKLY-SOP.md). 7d CPA **$152** / 2; 30d **$136** / 18; Ads↔CRM 30d **+5.9%**; Sales ISO week Sep 14 **3,943**. **`03` Colorado self-block fixed Sep 23:** phrase `colorado` removed from A-FQ only (44 members). Neg A still has it. Sep 2–21 pre-register → **hold $105** (0.69/day, eligible ~3,690/wk, CPA $122). CA/CO RSAs **APPROVED**.
 - **Sep 3 owner calendar** — **supersedes Gate 2/3 hold on `03`.** **Hold $105** (Sep 16). **Sep 29–30** pre-register $120 (matured Sep 2–21 ≥0.7/day ≤$135, eligible ≥4,300/wk). **`03_ForeignQual_US` ENABLED Sep 16** on portfolio; CA + CO RSAs pending review, five original state groups already approved. **Bing slip-item.** **$985 February.** Gate 2 Sales exact-neg **filed, not applied**. [expansion-next-steps.md](expansion-next-steps.md) · [operating plan §0.5](../nypllc-google-ads-operating-plan.md)
 - **Sep 2 tCPA diagnostic** — portfolio **$90 → $105**. **Hold $105.** Week-1 ~$105 CPA / 5.9 conv; CRM Google 0.52→0.90/day. mCPA ~$183 immature tail.
 - **$1M mix** — paid 50–60/mo is **stretch**; current rate ≈ **$400–550K** 2028-type year without B2B/CAQH/RA landing. 📖 [expansion-next-steps.md](expansion-next-steps.md)
@@ -56,7 +56,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 - Ads volume claim: **thousands / 25,000+** NY entities (not “300+”); sitelinks only to real sitemap URLs
 - Reviews: NYPLLC **GBP** only (not Trustpilot); live **5.0 / 6 reviews** (Jul 9 2026) — keep `BUSINESS_INFO.googleReviews` in sync
 - Profession / foreign pages: formation/qualification scope only — do **not** over-claim board coordination
-- **MSO:** print $1,770 + $945; **do not name Jonah** on site/ads; intro at DOS only; CheapNewYorkLLC not the public face of the management LLC
+- **MSO:** print $1,770 only; **do not print a counsel fee** (simple-case MSA stays $945 internally; counsel quotes); **do not name Jonah** on site/ads; intro at DOS only; CheapNewYorkLLC not the public face of the management LLC
 - Foreign checklists: customer-provided info only; we obtain standing/certified formation docs
 - Publishing-only: no paid acquisition (negative List E)
 
@@ -88,6 +88,8 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Recent changes
 
 📖 Full log: [session-history.md](../docs/session-history.md)
+
+Latest (Sep 23 2026): **Weekly Ads SOP §7.1** — 7d CPA **$152** / 2 conv; 30d **$136** / 18. Self-block 0 except **`03` Colorado ×3** on A-FQ. Ads Spiffy 18 vs CRM 17 (+5.9%). No account changes. $105 day 22; Sales ISO week Sep 14 **3,943**. Sep 2–21 pre-register = **hold $105**. CA/CO RSAs approved. [WEEKLY-SOP.md](../ads-pull-2026-09-23-weekly-sop/WEEKLY-SOP.md).
 
 Latest (Sep 17 2026): **Daily Ads SOP** — 7d CPA **$138** / 4.88 conv; 30d **$128** / 20 conv; Sep MTD **$110** / 15. `01` **6.5** lifetime (0 conv 7d). Ads↔CRM 30d **0%**; 7d −19% (small-n). No account changes. $105 day 16; Sales eligible 7d **3,969**; **`03` ENABLED** (2 impr). [DAILY-SOP.md](../ads-pull-2026-09-17-daily-sop/DAILY-SOP.md).
 

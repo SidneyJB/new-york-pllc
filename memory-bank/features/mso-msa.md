@@ -44,18 +44,18 @@ CRM ops: [PLLC-CRM mso-msa shard](../../../PLLC-CRM/memory-bank/features/mso-msa
 **In:** therapy, medicine, ordinary dentistry, NP, PT, vet, chiro, and other $885 professions.  
 **Out:** medspa, aesthetics, IV therapy, ketamine, wellness + medical director, dental spa.
 
-**In-scope MSA:** simple two-entity setup (licensed owners on the PLLC; spouse or other unlicensed person on the LLC). Not OA rewrites, investor docs, or extra professions.
+**In-scope MSA:** simple two-entity setup. Licensed owners on the PLLC. LLC owners may be those same people or other people. An unlicensed person still cannot own or manage the PLLC. Not OA rewrites, investor docs, or extra professions. Do not feature a spouse on the page.
 
 ## Page + checkout (unpublished until Sid launches)
 
 - Draft slug `/ny-mso` (also block `/pllc-and-mso`). **No main nav, no sitemap, no footer, no sitelinks, no ads.**
 - Source: [`web/src/unpublished/ny-mso/`](../../web/src/unpublished/ny-mso/) — **outside** `src/app`, so Next does not serve it. Vercel.json rewrites those URLs to 404 even if someone later copies the folder into `app/`.
 - CTA = Spiffy embed URL `https://nypllc.spiffy.co/checkout/ny-pllc-and-management-llc` (Sid still creates the product). Secondary: already-formed PLLC `/order-llc`; PLLC-only `/order`.
-- **Print $1,770 and $945 on the page** when live. Do **not** name Jonah. Intro **after DOS filing**.
+- **Print $1,770 only.** Do **not** print a counsel fee. The simple-case MSA is still **$945** internally; counsel quotes the customer because the work varies. Do **not** name Jonah. Intro **after DOS filing**.
 - Physician page: stripped “MSO-friendly governance” / “we craft MSO agreements” (Sep 1). No public MSO link.
 - Not legal advice. Not a CPOM opinion.
 
-Spiffy form should collect: PLLC name + licensed members; LLC name + members; profession; spouse/unlicensed-partner; address; VM $85 checkbox; optional S Corp/DBA **not** in $1,770. Disclose RA $149/yr for both starting year 2; VM $85/mo for both if selected; counsel $945 after DOS.
+Spiffy form should collect: PLLC name + licensed members; LLC name + members; profession; address; VM $85 checkbox; optional S Corp/DBA **not** in $1,770. No spouse field. Disclose RA $149/yr for both starting year 2; VM $85/mo for both if selected. Do not disclose a counsel dollar amount; counsel quotes after DOS. Page may say we prepare the formation paperwork and information package so counsel can draft the agreement from a complete file. Do not name Jonah.
 
 ## Ads (later — not this launch)
 

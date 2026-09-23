@@ -1,6 +1,6 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-09-17
+**Last updated:** 2026-09-23
 
 ## Account
 
@@ -9,6 +9,35 @@
 - `03_ForeignQual_US` attached to portfolio `12148056412` (Target CPA $105 hold)
 
 ---
+
+## Changes on 2026-09-23 — Remove `colorado` phrase from Neg A-FQ
+
+| Action | Detail |
+|---|---|
+| Removed | Phrase negative `colorado` (criterion `35316990`) from **Neg A-FQ** `12146898703` only. Resource `sharedCriteria/12146898703~35316990` |
+| Left in place | Same phrase on **Neg A** `12146898907` (Sales, `01`, `02`) |
+| Why | A-FQ is attached to `03_ForeignQual_US`. It blocked `[colorado pllc new york]`, `[colorado pllc doing business in new york]`, and `[register colorado pllc in new york]` |
+
+## Changes on 2026-09-23 — Weekly SOP §7.1 (week ending Sep 23)
+
+Pull: [`ads-pull-2026-09-23-weekly-sop/`](ads-pull-2026-09-23-weekly-sop/) · writeup [`WEEKLY-SOP.md`](ads-pull-2026-09-23-weekly-sop/WEEKLY-SOP.md)
+
+| Metric (window) | Result |
+|---|---|
+| 7d (Sep 17–23) | $304 / **2** click-attr / CPA **$152** |
+| 28d CPA | **$125** (18 / $2,248) |
+| 30d CPA | **$136** (18 / $2,439) — third weekly reading over freeze $130 |
+| Sep MTD | **$1,944 / 17 / $114** (~$85/day) |
+| `01` lifetime | **6.50** purchases (0 conv this 7d) |
+| Ads↔CRM | 7d **2 vs 1** (small-n) · 30d **18 vs 17** (+5.9%) |
+| Eligible (Sales) | 7d **2,989** · ISO week Sep 14 **3,943** · Sep 7 **3,992** |
+| Sep 2–21 pre-register | **0.69/day · $122 · ~3,690 eligible/wk → hold $105** |
+| `03` | 111 impr / 3 clk / $14 / 0 conv. CA/CO RSAs **APPROVED**. **3 Colorado exacts self-blocked** by A-FQ phrase `colorado` |
+| Change history | Sep 16 `03` enable only; nothing Sep 17–23 |
+
+| Action | Detail |
+|---|---|
+| Account changes | **None** (monitoring pass). Do not remove `colorado` from List A. A-FQ removal is a next-step decision |
 
 ## Changes on 2026-09-17 — Daily SOP (Sep 11–17)
 

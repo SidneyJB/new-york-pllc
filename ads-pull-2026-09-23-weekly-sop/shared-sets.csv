@@ -1,0 +1,7 @@
+shared_set.name,shared_set.member_count,shared_set.status
+Neg B — Research DIY education,15,ENABLED
+Neg A-FQ — Other states (excl NY + FQ origins),45,ENABLED
+Neg C — Wrong intent lookup jobs school,27,ENABLED
+Neg E — Publishing-only intent,7,ENABLED
+Neg A — Other states (excl NY),53,ENABLED
+Neg D — Freebie price-shopping junk,5,ENABLED

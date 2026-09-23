@@ -17,12 +17,11 @@ import { SpiffyMsoCheckout } from './spiffy-mso-checkout'
 
 const PATH = '/ny-mso'
 const PAIR = PRICING.msoPairPrice
-const COUNSEL = PRICING.msoCounselPrice
 const RA = PRICING.msoPairRaYearTwo
 const VM = PRICING.msoPairVmMonthly
 
 const TITLE = `NY PLLC + Management LLC — $${PAIR} | NYPLLC`
-const DESCRIPTION = `Form a New York practice PLLC and a management LLC together for $${PAIR}. Publication included on both. Independent NY counsel drafts the management agreement ($${COUNSEL}, billed separately) after DOS filing.`
+const DESCRIPTION = `Form a New York practice PLLC and a management LLC together for $${PAIR}. Publication included on both. We prepare the entity paperwork and an information package so independent counsel can draft the management agreement from a complete file. Counsel bills you separately. We introduce you after the professional entity is filed with the Department of State.`
 
 const FAQS = [
   {
@@ -31,11 +30,11 @@ const FAQS = [
   },
   {
     question: 'Who writes the management services agreement?',
-    answer: `Independent New York counsel. They bill you $${COUNSEL} directly. We introduce you after the professional entity is filed with the Department of State — not from this page. We do not draft MSAs and do not take a referral fee.`,
+    answer: `Independent New York counsel. They bill you directly, and the fee depends on the agreement. Before that introduction, we assemble the formation documents and a complete information package in the form that counsel uses, so the agreement is straightforward to draft. We introduce you after the professional entity is filed with the Department of State. We do not draft the agreement and do not take a referral fee.`,
   },
   {
     question: 'I already have a PLLC. Can I add only the management LLC?',
-    answer: `Yes. Form the LLC through our standard LLC order ($${PRICING.basePrice}) and use counsel for the agreement ($${COUNSEL}). Email contact@nypllc.com if you want that path invoiced.`,
+    answer: `Yes. Form the LLC through our standard LLC order ($${PRICING.basePrice}). Counsel quotes the management agreement separately. Email contact@nypllc.com if you want the LLC invoiced.`,
   },
   {
     question: 'Is this legal advice or a CPOM opinion?',
@@ -104,9 +103,11 @@ export default function NyMsoPage() {
             </h1>
             <p className="mt-6 text-lg text-muted-foreground">
               For licensed professionals who need a practice entity and a separate management company.
-              We form both New York entities, including publication on each. A management services
-              agreement is <strong>${COUNSEL}</strong>, billed by independent NY counsel after the
-              professional entity is filed with DOS. We do not name counsel on this site.
+              We form both New York entities, including publication on each. The same person may own
+              both, or the owners may differ. We also prepare the paperwork and an information package
+              so the counsel who drafts the management agreement can work from a complete file. Counsel
+              bills you directly. We introduce you after the professional entity is filed with the
+              Department of State.
             </p>
             <p className="mt-4 text-sm text-muted-foreground">
               Not legal advice. Not a corporate-practice opinion. Medspa, aesthetics, IV therapy,
@@ -132,7 +133,7 @@ export default function NyMsoPage() {
               <Link href="/order-llc" className="text-primary underline underline-offset-2">
                 LLC formation (${PRICING.basePrice})
               </Link>{' '}
-              plus counsel at ${COUNSEL}. Only need a PLLC?{' '}
+              plus a management agreement quoted by counsel. Only need a PLLC?{' '}
               <Link href="/order" className="text-primary underline underline-offset-2">
                 Standard formation (${PRICING.basePrice})
               </Link>

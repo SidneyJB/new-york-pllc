@@ -1,0 +1,153 @@
+shared_set.name,shared_criterion.keyword.text,shared_criterion.keyword.match_type
+Neg B — Research DIY education,template,PHRASE
+Neg B — Research DIY education,what is,PHRASE
+Neg B — Research DIY education,free download,PHRASE
+Neg B — Research DIY education,pdf,PHRASE
+Neg B — Research DIY education,diy,PHRASE
+Neg B — Research DIY education,sample,PHRASE
+Neg B — Research DIY education,definition,PHRASE
+Neg B — Research DIY education,meaning,PHRASE
+Neg B — Research DIY education,versus,PHRASE
+Neg B — Research DIY education,vs,PHRASE
+Neg B — Research DIY education,pros and cons,PHRASE
+Neg B — Research DIY education,yourself,PHRASE
+Neg B — Research DIY education,example,PHRASE
+Neg B — Research DIY education,difference between,PHRASE
+Neg B — Research DIY education,wiki,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),arkansas,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),tennessee,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),new mexico,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),kansas,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),north carolina,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),new hampshire,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),georgia,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),west virginia,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),alabama,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),massachusetts,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),rhode island,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),hawaii,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),nevada,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),south carolina,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),colorado,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),montana,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),utah,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),ohio,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),south dakota,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),oklahoma,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),oregon,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),washington,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),alaska,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),north dakota,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),district of columbia,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),minnesota,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),virginia,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),vermont,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),wisconsin,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),wyoming,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),maryland,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),iowa,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),delaware,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),michigan,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),louisiana,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),maine,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),indiana,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),arizona,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),kentucky,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),idaho,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),missouri,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),illinois,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),mississippi,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),nebraska,PHRASE
+Neg A-FQ — Other states (excl NY + FQ origins),mass,PHRASE
+Neg C — Wrong intent lookup jobs school,look up,PHRASE
+Neg C — Wrong intent lookup jobs school,exam,PHRASE
+Neg C — Wrong intent lookup jobs school,jobs,PHRASE
+Neg C — Wrong intent lookup jobs school,school,PHRASE
+Neg C — Wrong intent lookup jobs school,corporate seal,PHRASE
+Neg C — Wrong intent lookup jobs school,verification,PHRASE
+Neg C — Wrong intent lookup jobs school,salary,PHRASE
+Neg C — Wrong intent lookup jobs school,search,PHRASE
+Neg C — Wrong intent lookup jobs school,hiring,PHRASE
+Neg C — Wrong intent lookup jobs school,course,PHRASE
+Neg C — Wrong intent lookup jobs school,degree,PHRASE
+Neg C — Wrong intent lookup jobs school,verify,PHRASE
+Neg C — Wrong intent lookup jobs school,classes,PHRASE
+Neg C — Wrong intent lookup jobs school,renewal,PHRASE
+Neg C — Wrong intent lookup jobs school,lookup,PHRASE
+Neg C — Wrong intent lookup jobs school,number,PHRASE
+Neg C — Wrong intent lookup jobs school,renew,PHRASE
+Neg C — Wrong intent lookup jobs school,login,PHRASE
+Neg C — Wrong intent lookup jobs school,blumberg,PHRASE
+Neg C — Wrong intent lookup jobs school,llc name availability,PHRASE
+Neg C — Wrong intent lookup jobs school,corporate book,PHRASE
+Neg C — Wrong intent lookup jobs school,usa corp,PHRASE
+Neg C — Wrong intent lookup jobs school,check llc,PHRASE
+Neg C — Wrong intent lookup jobs school,check llc availability,PHRASE
+Neg C — Wrong intent lookup jobs school,llc availability,PHRASE
+Neg C — Wrong intent lookup jobs school,windsor corporate services,PHRASE
+Neg C — Wrong intent lookup jobs school,pllc name availability,PHRASE
+Neg E — Publishing-only intent,publication service,PHRASE
+Neg E — Publishing-only intent,affidavit of publication,PHRASE
+Neg E — Publishing-only intent,certificate of publication,PHRASE
+Neg E — Publishing-only intent,publish my llc,PHRASE
+Neg E — Publishing-only intent,newspaper publication,PHRASE
+Neg E — Publishing-only intent,llc publishing,PHRASE
+Neg E — Publishing-only intent,publication only,PHRASE
+Neg A — Other states (excl NY),arkansas,PHRASE
+Neg A — Other states (excl NY),tennessee,PHRASE
+Neg A — Other states (excl NY),new mexico,PHRASE
+Neg A — Other states (excl NY),kansas,PHRASE
+Neg A — Other states (excl NY),texas,PHRASE
+Neg A — Other states (excl NY),new jersey,PHRASE
+Neg A — Other states (excl NY),north carolina,PHRASE
+Neg A — Other states (excl NY),new hampshire,PHRASE
+Neg A — Other states (excl NY),georgia,PHRASE
+Neg A — Other states (excl NY),west virginia,PHRASE
+Neg A — Other states (excl NY),alabama,PHRASE
+Neg A — Other states (excl NY),pennsylvania,PHRASE
+Neg A — Other states (excl NY),massachusetts,PHRASE
+Neg A — Other states (excl NY),rhode island,PHRASE
+Neg A — Other states (excl NY),hawaii,PHRASE
+Neg A — Other states (excl NY),nevada,PHRASE
+Neg A — Other states (excl NY),penn,PHRASE
+Neg A — Other states (excl NY),south carolina,PHRASE
+Neg A — Other states (excl NY),colorado,PHRASE
+Neg A — Other states (excl NY),montana,PHRASE
+Neg A — Other states (excl NY),utah,PHRASE
+Neg A — Other states (excl NY),ohio,PHRASE
+Neg A — Other states (excl NY),south dakota,PHRASE
+Neg A — Other states (excl NY),california,PHRASE
+Neg A — Other states (excl NY),oklahoma,PHRASE
+Neg A — Other states (excl NY),oregon,PHRASE
+Neg A — Other states (excl NY),washington,PHRASE
+Neg A — Other states (excl NY),florida,PHRASE
+Neg A — Other states (excl NY),alaska,PHRASE
+Neg A — Other states (excl NY),north dakota,PHRASE
+Neg A — Other states (excl NY),district of columbia,PHRASE
+Neg A — Other states (excl NY),minnesota,PHRASE
+Neg A — Other states (excl NY),virginia,PHRASE
+Neg A — Other states (excl NY),vermont,PHRASE
+Neg A — Other states (excl NY),wisconsin,PHRASE
+Neg A — Other states (excl NY),wyoming,PHRASE
+Neg A — Other states (excl NY),maryland,PHRASE
+Neg A — Other states (excl NY),iowa,PHRASE
+Neg A — Other states (excl NY),delaware,PHRASE
+Neg A — Other states (excl NY),michigan,PHRASE
+Neg A — Other states (excl NY),louisiana,PHRASE
+Neg A — Other states (excl NY),maine,PHRASE
+Neg A — Other states (excl NY),indiana,PHRASE
+Neg A — Other states (excl NY),arizona,PHRASE
+Neg A — Other states (excl NY),kentucky,PHRASE
+Neg A — Other states (excl NY),connecticut,PHRASE
+Neg A — Other states (excl NY),idaho,PHRASE
+Neg A — Other states (excl NY),missouri,PHRASE
+Neg A — Other states (excl NY),illinois,PHRASE
+Neg A — Other states (excl NY),mississippi,PHRASE
+Neg A — Other states (excl NY),nebraska,PHRASE
+Neg A — Other states (excl NY),calif,PHRASE
+Neg A — Other states (excl NY),mass,PHRASE
+Neg D — Freebie price-shopping junk,no cost,PHRASE
+Neg D — Freebie price-shopping junk,cheapest,PHRASE
+Neg D — Freebie price-shopping junk,free llc,PHRASE
+Neg D — Freebie price-shopping junk,free ein,PHRASE
+Neg D — Freebie price-shopping junk,$0,PHRASE

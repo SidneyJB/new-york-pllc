@@ -2,6 +2,10 @@
 
 Changelog extracted from legacy memory-bank dumps (Mar 2026 and earlier) plus remote June 2026 work folded in during router sharding. Prefer feature shards for current work; append here for session-level detail.
 
+## 2026-09-23 — Weekly Ads SOP §7.1
+
+Ran 10 days after Sep 13. 7d CPA **$152** / 2 conv (thin). 30d **$136** / 18 conv. Self-block **0** on Sales/`01`/`02`; **`03` 3 of 39** (A-FQ phrase `colorado`). Ads Spiffy 18 vs CRM 17 (**+5.9%**). No account changes. tCPA $105 day 22. Sales ISO week Sep 14 **3,943**. Sep 2–21 pre-register already misses $120 (0.69/day, eligible ~3,690/wk, CPA $122) → **hold $105**. CA/CO RSAs **APPROVED**. Writeup: [`WEEKLY-SOP.md`](../ads-pull-2026-09-23-weekly-sop/WEEKLY-SOP.md).
+
 ## 2026-09-17 — Daily Ads SOP
 
 7d CPA **$138** / 4.88 conv; 30d **$128** / 20 conv; Sep MTD **$110** / 15 conv. `01` **6.5** lifetime (0 conv this 7d). Ads↔CRM 7d −19% (small-n) / 30d **0%**. No account changes. $105 day 16; Sales eligible 7d **3,969**. **`03` ENABLED** Sep 16 — 2 impr / 0 clk in window. Writeup: [`DAILY-SOP.md`](../ads-pull-2026-09-17-daily-sop/DAILY-SOP.md).

@@ -14,7 +14,6 @@ export const PRICING = {
   assumedNamePrice: 199,
   sCorpPrice: 195,
   msoPairPrice: 1770,
-  msoCounselPrice: 945,
   msoPairRaYearTwo: 149,
   msoPairVmMonthly: 85,
   currency: 'USD',

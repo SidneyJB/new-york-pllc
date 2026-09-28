@@ -104,10 +104,10 @@ January = **frozen machine at full force**, not a rebuild. **Nov 1** is the paid
 
 | Date | Rule |
 |------|------|
-| **Every weekly SOP** | Search terms, self-block, **Sales eligible**, mCPA vs $160, Ads↔CRM ±10%. tCPA **$105** until Oct 1. **Latest: Sep 5** — 7d CPA $122 / 6; 30d $144 / 16; Sales eligible 7d 3,431. |
+| **Every weekly SOP** | Search terms, self-block, **Sales eligible**, mCPA vs $160, Ads↔CRM ±10%. tCPA **$105** until Oct 1. **Latest: Sep 28** — 7d CPA $228 / 2; 30d $115 / 21; Sales ISO week Sep 21 3,470. Hold $105. |
 | **Sep 15** | Eligible **~3,500 → 4,500–5,000**? Spend-up/auctions-flat = **May pattern → paid capped**. **Sep 16: hold $105.** |
 | **Sep 15–22** | **`03` ENABLED Sep 16** (portfolio attach + enable). CA/CO RSAs **APPROVED** (Sep 23 SOP). **Bing blocked Sep 23:** Microsoft suspended `contact@nypllc.com` (unusual activity). Service request **7109261224**. Verification failed on a business-address mismatch. Update the NY registration to match the ads account, then resubmit through support. Two attempts left. Do not open a second account. No Sales→Discovery. Attorneys AG stays paused. |
-| **Sep 29–30** | Pre-register $120: matured Sep 2–21 ≥0.7/day ≤$135, eligible ≥4,300/wk → **$120 Oct 1**. >$150 or <0.55/day → **$90**. Else hold $105. |
+| **Sep 29–30** | Pre-register $120: matured Sep 2–21 ≥0.7/day ≤$135, eligible ≥4,300/wk → **$120 Oct 1**. **Sep 28 SOP: hold $105** (0.69/day, eligible ~3.5k). |
 | **Oct 1** | Apply Sep 29–30 only. Do not raise on the Sep 16 pull. |
 | **Oct** | Mobile CVR + publication-cost calculator on LPs (not List E / not county shop). |
 | **Nov 1** | Oct **30–40** paid → 50–60/mo path alive. Oct **20–25** → **50–60/mo does not exist at prices worth paying.** |

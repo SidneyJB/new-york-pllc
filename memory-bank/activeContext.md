@@ -7,8 +7,8 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Current sprint
 
 - **Google Ads Phase 0** — **conversion flip done Jul 9.** Tagged Purchase `7678072764` primary; page-load `7353506045` secondary. See [features/google-ads.md](features/google-ads.md) · [operating plan](../nypllc-google-ads-operating-plan.md)
-- **Weekly SOP** — latest §7.1 **done Sep 23**: [WEEKLY-SOP.md](../ads-pull-2026-09-23-weekly-sop/WEEKLY-SOP.md). 7d CPA **$152** / 2; 30d **$136** / 18; Ads↔CRM 30d **+5.9%**; Sales ISO week Sep 14 **3,943**. **`03` Colorado self-block fixed Sep 23:** phrase `colorado` removed from A-FQ only (44 members). Neg A still has it. Sep 2–21 pre-register → **hold $105** (0.69/day, eligible ~3,690/wk, CPA $122). CA/CO RSAs **APPROVED**.
-- **Sep 3 owner calendar** — **supersedes Gate 2/3 hold on `03`.** **Hold $105** (Sep 16). **Sep 29–30** pre-register $120 (matured Sep 2–21 ≥0.7/day ≤$135, eligible ≥4,300/wk). **`03_ForeignQual_US` ENABLED Sep 16** on portfolio; CA + CO RSAs pending review, five original state groups already approved. **Bing blocked Sep 23** (see below). **$985 February.** Gate 2 Sales exact-neg **filed, not applied**. [expansion-next-steps.md](expansion-next-steps.md) · [operating plan §0.5](../nypllc-google-ads-operating-plan.md)
+- **Weekly SOP** — latest §7.1 **done Sep 28**: [WEEKLY-SOP.md](../ads-pull-2026-09-28-weekly-sop/WEEKLY-SOP.md). 7d CPA **$228** / 2; 30d **$115** / 21; Ads↔CRM 30d **+5.0%**; Sales ISO week Sep 21 **3,470**. Self-block **0**. Sep 29–30 pre-register → **hold $105**. tCPA $105 day 26. CA/CO RSAs **APPROVED**.
+- **Sep 3 owner calendar** — **supersedes Gate 2/3 hold on `03`.** **Hold $105** (confirmed Sep 28 SOP). **Sep 29–30** $120 pre-register **does not fire** (matured Sep 2–21 0.69/day, eligible ~3.5k). **`03_ForeignQual_US` ENABLED Sep 16** on portfolio; CA + CO RSAs **APPROVED**. **Bing blocked Sep 23**. **$985 February.** Gate 2 Sales exact-neg **filed, not applied**. [expansion-next-steps.md](expansion-next-steps.md) · [operating plan §0.5](../nypllc-google-ads-operating-plan.md)
 - **Microsoft Advertising (Sep 23)** — login `contact@nypllc.com` is **suspended** (“unusual activity”). Support (Dayz) authenticated the account. Service request **7109261224**. Identity verification **failed**: business-registration address does not match the address on the ads account. Sid told them the business moved. **Next:** update the NY business registration so it matches the address already on the Microsoft account, then contact support again to submit that document. **Two** verification attempts left. The ads UI is a full block with no upload. Do **not** open a second account. Chat closed with “come back when the new document is ready.”
 - **Sep 2 tCPA diagnostic** — portfolio **$90 → $105**. **Hold $105.** Week-1 ~$105 CPA / 5.9 conv; CRM Google 0.52→0.90/day. mCPA ~$183 immature tail.
 - **$1M mix** — paid 50–60/mo is **stretch**; current rate ≈ **$400–550K** 2028-type year without B2B/CAQH/RA landing. 📖 [expansion-next-steps.md](expansion-next-steps.md)
@@ -33,18 +33,18 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 2. **Direct-RA Lever 1 — LIVE** — first T-30 ~Sep 22; Oct charges. Pre-send checklist in [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
 3. **EXP Credentialing** — referral link **sent Sep 16** (`EXP9Z8S`). (**PLLC-CRM**)
 4. **Affiliate follow-ups** — **third ping sent Sep 1** (Mercury + Gusto). Links not live. [affiliate-partners.md](../docs/affiliate-partners.md)
-5. **Ads** — **Hold $105.** Sep 29–30 $120 pre-register. **`03` ENABLED Sep 16** (five state groups approved; CA/CO RSAs approved). **Bing blocked** until the NY business registration address matches the Microsoft account, then resubmit via support. Attorneys AG **paused**. Unpinned RSA stays paused.
+5. **Ads** — **Hold $105** (Sep 28 SOP: eligible still ~3.5k). Sep 29–30 $120 pre-register **does not fire**. **`03` ENABLED Sep 16**. **Bing blocked**. Attorneys AG **paused**. Unpinned RSA stays paused.
 6. **SEO** — Headway/Alma comparison **live Sep 19** at `/headway-alma-vs-own-panels`; sitemap + footer linked. `#4`/`#5` live Sep 4; 20-term tracker file live; **do not publish MSO**
 7. **Big B2B outreach paused**; Headway/Alma → **platform** segment (formation partners)
 8. **MSO** — CRM manual pairs **done Sep 16**; page still unpublished; **no Vercel public route**; no ads
 
 ## Ads ops
 
-1. **Sep 16:** **Hold $105.** Pre-register Sep 29–30 for $120.
-2. **This week:** `03` attach + enable **done Sep 16**. CA/CO RSAs **APPROVED**. **Bing:** update the business registration address to match the Microsoft account, then return to support. Do not open a second account.
+1. **Sep 28 SOP:** **Hold $105.** Pre-register Sep 29–30 does not meet $120 bars.
+2. **Bing:** update the business registration address to match the Microsoft account, then return to support. Do not open a second account.
 3. Customer Match **uploaded Sep 5** (`9465911299`; job RUNNING; size 0 until match). Auction Insights **done Sep 5**. Do **not** Targeting-attach.
 4. **Oct:** mobile LP + publication-cost calculator on LPs (not publishing-only). **$985 until February**
-5. **Weekly SOP done Sep 13**. Daily **done Sep 17**. Attorneys AG paused; no copy churn. **Sep 29–30** $120 pre-register.
+5. **Weekly SOP done Sep 28**. Attorneys AG paused; no copy churn. **Sep 29–30: hold $105** (do not apply $120).
 6. **Nov 1 verdict** → freeze **Nov 15–Dec 1** → January full force
 
 ## Active decisions
@@ -89,6 +89,8 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Recent changes
 
 📖 Full log: [session-history.md](../docs/session-history.md)
+
+Latest (Sep 28 2026): **Weekly Ads SOP §7.1** — 7d CPA **$228** / 2 conv; 30d **$115** / 21. Self-block 0. Ads Spiffy 21 vs CRM 20 (+5.0%). No account changes. $105 day 26; Sales ISO week Sep 21 **3,470**. Sep 29–30 pre-register = **hold $105**. [WEEKLY-SOP.md](../ads-pull-2026-09-28-weekly-sop/WEEKLY-SOP.md).
 
 Latest (Sep 23 2026, later): **Microsoft Advertising blocked.** Login `contact@nypllc.com`. Support authenticated the account. Service request **7109261224**. Verification failed because the business-registration address does not match the address on the account. Sid said the business moved. Update the NY registration to match the ads account, then contact support to submit. Two attempts left. UI has no upload. Do not open a second account.
 

@@ -1,12 +1,30 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-09-23
+**Last updated:** 2026-09-28
 
 ## Account
 
 - Customer: NYPLLC (`1529880213`)
 - Live: `Sales-Search-1` + `01_Core_Exact_NY` + `02_Professions_NY` + **`03_ForeignQual_US`** (ENABLED)
 - `03_ForeignQual_US` attached to portfolio `12148056412` (Target CPA $105 hold)
+
+---
+
+## Changes on 2026-09-28 — Weekly SOP §7.1 (week ending Sep 28)
+
+Pull: [`ads-pull-2026-09-28-weekly-sop/`](ads-pull-2026-09-28-weekly-sop/) · writeup [`WEEKLY-SOP.md`](ads-pull-2026-09-28-weekly-sop/WEEKLY-SOP.md)
+
+| Metric (window) | Result |
+|---|---|
+| 7d (Sep 22–28) | $457 / **2** click-attr / CPA **$228** |
+| 28d CPA | **$113** (20 / $2,269) |
+| 30d CPA | **$115** (21 / $2,414) — back under freeze $130 |
+| Sep MTD | **$2,269 / 20 / $113** (~$81/day) |
+| Sales ISO week Sep 21 | eligible **3,470** |
+| Self-block | **0** across live campaigns (A-FQ 44) |
+| Ads↔CRM 30d | 21 vs 20 (**+5.0%**) |
+| Account changes | **None** |
+| Sep 29–30 pre-register | **Hold $105** (eligible still ~3.5k, not 4.3k) |
 
 ---
 

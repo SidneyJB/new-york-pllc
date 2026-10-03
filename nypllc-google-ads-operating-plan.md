@@ -90,7 +90,7 @@ Near-term ceiling is May’s read, not the original 60–90/month model: **~$110
 | **Sep 15** | $105 readout: Sales eligible **~3,500 → 4,500–5,000**? If yes, keep. If May pattern, **paid capped**. |
 | **Sep 15–22** | **Enable `03_ForeignQual_US`** (attach portfolio). Scripts exist (`google_ads/attach_campaign_to_portfolio.py`, `set_campaign_status.py`); Sid flips this week. **Bing stays a slip-item** (not this week). **Still no** Sales→Discovery demotion. |
 | **Sep 29–30** | **Pre-register $120 decision.** Matured **Sep 2–21** at **≥0.7 conv/day** and **≤$135 blended**, eligible **≥4,300/wk** → **$120 on Oct 1**. **>$150** or **<0.55/day** → revert **$90**. In between → **hold $105**. Do **not** raise Oct 1 on the Sep 16 pull. |
-| **Oct 1** | Apply the Sep 29–30 call only. Extra-Sep mCPA **~$183** on Sep 16 is immature-tail biased, not the gate. |
+| **Oct 1** | **Applied decision: hold $105.** Sep 29–30 did not clear the eligible-volume precondition; do not apply $120. |
 | **Through Oct** | Mobile CVR (recent 7d: **21 mobile clicks, 0 conv**) + **publication-cost calculator on LPs** (anxiety killer; **not** a publishing-only offer or county-shopping CTA — List E / Rockland-only package). CVR is the free volume lever. |
 | **Nov 1** | **Verdict.** Oct **30–40 paid orders** → original 50–60/mo path still alive; January can finish. Oct **20–25** after the above → **50–60 regular months do not exist at prices worth paying.** Do not move the goalposts. |
 | **Dec–Jan** | Freeze, preload budgets, run January at full force. |
@@ -659,7 +659,8 @@ Gates are permission slips, not deadlines. Missing a gate by two weeks costs alm
 | **Sep 15** | **$105 eligible readout** (Sales ~3.5k → 4.5–5k?). May pattern = paid capped. |
 | **Sep 15–22** | **Enable `03`** + **Bing clone**. No Discovery demotion. |
 | Sep 21 | Microsoft import + UET (campaigns 01–03). |
-| **Oct 1** | If extra-Sep **mCPA <$160** → portfolio tCPA **~$120**. |
+| **Oct 1** | ✅ **Held $105** after the Sep 29–30 pre-register; eligible volume did not clear the ≥4,300/week bar. |
+| **Oct 3** | ✅ Daily SOP: 7d CPA **$355 / 2**, 30d **$141 / 17.77**, Sales eligible **4,168**; self-block 0; no account changes. Continue holding $105. |
 | Oct | Mobile CVR + publication-cost calculator on LPs (not publishing-only / not county shop). |
 | **Nov 1** | **Verdict:** Oct 30–40 paid vs 20–25. |
 | Oct 17 – Nov 14 | Last structural change **Nov 14** unless Nov 1 already called paid capped |

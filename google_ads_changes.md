@@ -1,12 +1,30 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-09-28
+**Last updated:** 2026-10-03
 
 ## Account
 
 - Customer: NYPLLC (`1529880213`)
 - Live: `Sales-Search-1` + `01_Core_Exact_NY` + `02_Professions_NY` + **`03_ForeignQual_US`** (ENABLED)
 - `03_ForeignQual_US` attached to portfolio `12148056412` (Target CPA $105 hold)
+
+---
+
+## Changes on 2026-10-03 — Daily SOP (Sep 27–Oct 3)
+
+Pull: [`ads-pull-2026-10-03-daily-sop/`](ads-pull-2026-10-03-daily-sop/) · writeup [`DAILY-SOP.md`](ads-pull-2026-10-03-daily-sop/DAILY-SOP.md)
+
+| Metric (window) | Result |
+|---|---|
+| 7d | $711 / **2.00** click-attr / CPA **$355** |
+| 30d | **$141** (17.77 / $2,506) — one reading above freeze $130 |
+| October MTD | **$187 / 2 / $94** (partial Oct 1–3) |
+| Sales eligible | **4,168** in 7d; below the 4,300 precondition |
+| Ads↔CRM | 7d **2 vs 1** (small-n) · 30d **17.77 vs 19** (**−6.5%**) |
+| Self-block | **0** across live campaigns |
+| Policy | 3 enabled `01` ads DISAPPROVED; 13 APPROVED_LIMITED overall |
+| Decision | **Hold $105**; do not apply $120 or drop to $90 |
+| Account changes | **None**; 2 asset creates on Oct 2 only |
 
 ---
 

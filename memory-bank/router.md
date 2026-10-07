@@ -21,6 +21,18 @@ Listing shard filenames (e.g. via glob) is optional; reading their contents is n
 | [projectbrief.md](projectbrief.md) | Scope, pricing, constraints |
 | [activeContext.md](activeContext.md) | Current sprint, next steps, watches |
 
+## Business expansion (high priority)
+
+Cross-cutting growth strategy and **how** each lever is executed live here (website repo). CRM implements ops; it does not own these targets.
+
+| Priority | Document | Role |
+|----------|----------|------|
+| **1 — primary** | [**Integrated operating plan**](../nypllc-integrated-operating-plan.md) | Targets from levers (not top-down quotas), formation bridge F1–F8, B2B campaigns, VM/RA mechanics, gates, first 30 days (§8), scorecard (§10). **Read this first** for expansion work. |
+| **2** | [expansion-next-steps.md](expansion-next-steps.md) | Sprint narrative, Sep–Jan ads calendar, historical $1M mix table (financial targets → integrated plan §6) |
+| **3** | Channel operating plans | Mechanics only; integrated plan §0 says which doc wins on conflicts |
+
+**Session rule:** Expansion, $1M path, formation volume, B2B/platform restart, VM/RA growth, or “what’s next on growth” → read **integrated operating plan** (at least §1 baseline, §3–§5 levers, §8 first 30 days), then [activeContext.md](activeContext.md) § Expansion priorities, then 1–2 matching `features/*.md` shards for the lever being built.
+
 ## Read when relevant
 
 | Task keywords | Read |
@@ -40,7 +52,8 @@ Listing shard filenames (e.g. via glob) is optional; reading their contents is n
 | Google Ads, campaigns, keywords, auction insights, ad spend, GAQL, operating plan, tCPA, Phase 0 | [features/google-ads.md](features/google-ads.md) → [operating plan](../nypllc-google-ads-operating-plan.md) |
 | Revenue levers, shelf SKU, banking affiliate, payroll affiliate, Mercury, Relay, Gusto, ADP, S Corp calculator, $985 price test, RA renewal disclosure, Compliance Plan, AOV, checkout bump, Practice Launch bundle | [features/revenue-levers.md](features/revenue-levers.md) → [revenue levers plan](../nypllc-revenue-levers-plan.md) + [affiliate partners](../docs/affiliate-partners.md) |
 | CAQH pilot, credentialing intake, Spiffy CAQH SKU | [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) · outreach [formed-along](../../PLLC-CRM/crm/docs/credentialing-caqh-pilot-outreach-formed-along.md) · [already-formed](../../PLLC-CRM/crm/docs/credentialing-caqh-pilot-outreach-already-formed.md) · [CRM caqh shard](../../PLLC-CRM/memory-bank/features/caqh-credentialing.md) |
-| Expansion priorities, next expansion steps, growth calendar, what's next after Jul 6, Sep–Jan roadmap, B2B paused, CAQH #1, MSO page, $1M, net profit mix | [expansion-next-steps.md](expansion-next-steps.md) |
+| $1M plan, integrated plan, formation levers F1–F8, channel quotas, formation bridge, 2028 model, monthly scorecard, gates calendar, first 30 days, abandoned checkout, B2B waves | [**Integrated operating plan**](../nypllc-integrated-operating-plan.md) (§ Business expansion above) |
+| Expansion priorities, next expansion steps, growth calendar, what's next after Jul 6, Sep–Jan roadmap, B2B paused, CAQH #1, MSO page, $1M, net profit mix | [expansion-next-steps.md](expansion-next-steps.md) → start with [integrated plan](../nypllc-integrated-operating-plan.md) for execution detail |
 
 ## Optional context
 
@@ -59,7 +72,7 @@ Listing shard filenames (e.g. via glob) is optional; reading their contents is n
 
 ## Deep reference (not memory bank)
 
-📖 [Session history](../docs/session-history.md) · [Analytics reference](../docs/analytics-tracking.md) · [Spiffy checkout](../docs/spiffy-checkout.md) · [SEO & domain](../docs/seo-and-domain.md) · [Tailwind v4](../docs/tailwind-v4.md) · [Google Ads operating plan](../nypllc-google-ads-operating-plan.md) · [SEO / content moat plan](../nypllc-seo-content-moat-plan.md) · [Revenue levers plan](../nypllc-revenue-levers-plan.md) · [Affiliate partners](../docs/affiliate-partners.md) · [Expansion next steps](expansion-next-steps.md) · [MSO path](features/mso-msa.md) · [MSO packet](../docs/business-ideas-ny-mso-msa-synthesis.md)
+📖 [**Integrated operating plan**](../nypllc-integrated-operating-plan.md) · [Expansion next steps](expansion-next-steps.md) · [Session history](../docs/session-history.md) · [Analytics reference](../docs/analytics-tracking.md) · [Spiffy checkout](../docs/spiffy-checkout.md) · [SEO & domain](../docs/seo-and-domain.md) · [Tailwind v4](../docs/tailwind-v4.md) · [Google Ads operating plan](../nypllc-google-ads-operating-plan.md) · [SEO / content moat plan](../nypllc-seo-content-moat-plan.md) · [Revenue levers plan](../nypllc-revenue-levers-plan.md) · [Affiliate partners](../docs/affiliate-partners.md) · [MSO path](features/mso-msa.md) · [MSO packet](../docs/business-ideas-ny-mso-msa-synthesis.md)
 
 ## Measurement tooling (repo root)
 

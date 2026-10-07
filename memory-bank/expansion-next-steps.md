@@ -1,7 +1,11 @@
 # Expansion — next steps (Aug 10, 2026)
 
-**As of:** Sep 22, 2026 (EIN-obtained CAQH attach on; paid-invoice alert to contact@).
-**Owner:** Cross-cutting expansion strategy lives here (website memory bank). CRM builds link from [PLLC-CRM/memory-bank/features/](../../PLLC-CRM/memory-bank/features/).
+**As of:** Oct 7, 2026.
+**Owner:** Cross-cutting expansion strategy lives in the **website** memory bank. CRM builds link from [PLLC-CRM/memory-bank/features/](../../PLLC-CRM/memory-bank/features/).
+
+> **Primary expansion document (high priority):** [**NYPLLC Integrated Operating Plan**](../nypllc-integrated-operating-plan.md) — lever-by-lever execution, gates, first 30 days (§8), and the 2028 model built bottom-up. **Read that first** for growth work; this file keeps sprint narrative and the Sep–Jan ads calendar. Router: [memory-bank/router.md](router.md) § Business expansion.
+
+**Targets:** Integrated plan §6 (~1,200 formations + $985 + VM ~400 avg subs → ~$1M net in 2028). The ~$1M table in § below is **historical context** (Sep 3 read); do not treat ≈1,600 formations as the active quota.
 
 Companion operating plans: [Ads v2](../nypllc-google-ads-operating-plan.md) · [SEO moat](../nypllc-seo-content-moat-plan.md) · [Revenue levers v1](../nypllc-revenue-levers-plan.md) · CAQH v1 · B2B v1 (CRM). **MSO path (offer locked):** [mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md). License filing + credentialing packet research still in [PLLC-CRM catalog](../../PLLC-CRM/business%20ideas.md).
 
@@ -133,4 +137,4 @@ NY-specialist wedges still in research (not the MSO package). Catalog: [PLLC-CRM
 
 ## Session rule
 
-When Sid asks **what's next on expansion**, read this file first, then the matching `features/*.md` shard for the lever being worked.
+When Sid asks **what's next on expansion**, read [nypllc-integrated-operating-plan.md](../nypllc-integrated-operating-plan.md) first (§8 first 30 days if executing), then this file for sprint/ads calendar, then the matching `features/*.md` shard for the lever being worked.

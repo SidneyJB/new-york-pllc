@@ -13,7 +13,7 @@ Lean conversion funnel: Vercel custom events + GA4 purchase + Bing UET + scroll 
 - Utils: `web/src/lib/analytics/track`
 - Components: `TrackedCTAButton`, `TrackedPhoneLink`, `TrackedEmailLink`, `ScrollTracking`, `BingAdsTracking`
 - Hooks: `useFormTracking`, `useCheckoutTracking`, `useScrollDepthTracking`, `useSpiffyFormEngagementTracking` (also posts known checkout emails to CRM abandonment ingest)
-- Abandoned checkout: site `POST /api/checkout-abandonment` → CRM `POST /api/public/checkout-abandonment`. Same `CHECKOUT_ABANDONMENT_SECRET` on both Vercel projects (Production/Preview/Development). Optional site `CHECKOUT_ABANDONMENT_INGEST_URL` (defaults to `https://billing.nypllc.com/api/public/checkout-abandonment`). Cron 1h/24h Gmail. Never name Spiffy.
+- Abandoned checkout: site `POST /api/checkout-abandonment` → CRM `POST /api/public/checkout-abandonment`. Same `CHECKOUT_ABANDONMENT_SECRET` on both Vercel projects (Production/Preview/Development). Optional site `CHECKOUT_ABANDONMENT_INGEST_URL` (defaults to `https://billing.nypllc.com/api/public/checkout-abandonment`). Cron 1h/24h Gmail. Never name Spiffy. Site beacon retries 503/5xx up to 3 times; only marks reported after a successful ingest (Oct 7 2026). Smoke: `PLLC-CRM/crm/scripts/probe-checkout-abandonment-ingest.ts`. Env template: `new-york-pllc/web/.env.example`.
 - Purchase fire: `OrderConfirmationClient` (single `useEffect` for Vercel + Meta + Google Ads + GA4)
 
 ## Events

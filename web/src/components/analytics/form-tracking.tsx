@@ -125,8 +125,9 @@ export function useSpiffyFormEngagementTracking() {
 
             const email = extractEmailFromCheckoutFieldEvent(ev)
             if (email && email !== lastAbandonmentEmail) {
-              lastAbandonmentEmail = email
-              void reportCheckoutAbandonment(email)
+              void reportCheckoutAbandonment(email).then((ok) => {
+                if (ok) lastAbandonmentEmail = email
+              })
             }
           })
           
@@ -136,8 +137,9 @@ export function useSpiffyFormEngagementTracking() {
             sessionStorage.setItem('form_order_change_time', now.toString())
             const email = extractEmailFromCheckoutFieldEvent(ev)
             if (email && email !== lastAbandonmentEmail) {
-              lastAbandonmentEmail = email
-              void reportCheckoutAbandonment(email)
+              void reportCheckoutAbandonment(email).then((ok) => {
+                if (ok) lastAbandonmentEmail = email
+              })
             }
           })
           

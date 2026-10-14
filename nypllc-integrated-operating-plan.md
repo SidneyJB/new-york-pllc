@@ -45,7 +45,7 @@
 
 ### Checkout funnel
 
-- **Abandoned-checkout capture is not working.** `CheckoutAbandonment` has **zero rows** in production. The site beacon (`/api/checkout-abandonment`), the CRM ingest, and the cron all exist in code. The recovery emails built in September have never sent.
+- **Abandoned-checkout capture — live (Oct 14 2026).** Site `POST /api/checkout-abandonment` → CRM ingest on `billing.nypllc.com`; Spiffy 1.1 beacon in `form-tracking.tsx`. Production rows flowing (first real customer capture same day); cron sends **1h** and **24h** Gmail. **No 72h touch yet.** Volume still tiny vs traffic — judge F1 on row count + `recoveredAt`, not “pipe broken.” Smoke: `PLLC-CRM/crm/scripts/probe-checkout-abandonment-ingest.ts`.
 - **The only funnel read** is the Sep 1 audit on campaign `01`: 17 begin-checkouts → 3.5 purchases (~20% close). Mobile: 21 clicks, 0 purchases. That sample is small.
 
 ### Virtual mail (corrected from v1)
@@ -62,7 +62,7 @@
 - **370 trialing.** Every renewal due through Jun 2027 has a Stripe customer and subscription.
 - **Due:** Oct 1 · Nov 23 · Dec 31 · Jan 43 · Feb 28 · Mar 28 · Apr 31 · May 39.
 - **Real notices sent so far:** T-30 to T & C Family Dentistry (Oct 23) and Flores MHC (Nov 3). All stop-charges to date were E2E test entities.
-- **Bug:** the Compliance Plan confirmation email fails to send. Its subject contains an em dash (`direct-ra-notices.ts` line 211), and the ASCII subject guard rejects it. The first real upgrader would get no confirmation.
+- **Compliance Plan confirmation email:** fixed (ASCII subject in `direct-ra-notices.ts`; test `direct-ra.test.ts`).
 
 ### Unit economics
 
@@ -117,11 +117,7 @@ Conversion gains from F1 and F2 raise every channel. They are counted **only** i
 
 **Steps:**
 
-1. **Get capture working (Agent + Sid, days 1–2).**
-   - Check that `CHECKOUT_ABANDONMENT_SECRET` is set in **both** the site's and the CRM's Vercel Production environments, with the same value.
-   - Check `CHECKOUT_ABANDONMENT_INGEST_URL`. If unset, the default is `billing.nypllc.com/api/public/checkout-abandonment`; confirm that host is right.
-   - The send cron is already scheduled in CRM `vercel.json` (`/api/cron/checkout-abandonment`), so the break is on the capture side: either the shared secret or the site beacon in `form-tracking.tsx` never firing on the Spiffy embed.
-   - Run one test checkout with an email you control. Confirm a row appears and the 1h email arrives.
+1. **Capture (done Oct 14 2026).** Vercel secrets aligned; site proxy returns 200; `CheckoutAbandonment` rows + 1h cron sends confirmed. Re-smoke: `probe-checkout-abandonment-ingest.ts` or `POST https://www.nypllc.com/api/checkout-abandonment`.
 2. **Measure the funnel for 14 days.** Count started checkouts with a captured email, then purchases. That gives the real abandonment count. Expected: ~150–200/month if the close rate is ~20–25%.
 3. **Fix the sequence (Agent drafts, Sid approves, week 2).**
    - **1h email:** "Your order is saved." Link back to checkout. Answer the top three questions: total cost including publication, timeline, payment plan.
@@ -385,7 +381,7 @@ Activation assumptions from Aug–Sep: cold professional email gets ~10% replies
 
 **Steps:**
 
-1. **Fix the Compliance Plan confirmation email subject** (em dash in `direct-ra-notices.ts` line 211). **Do this now, before the Nov 3 renewal.**
+1. **Compliance Plan confirmation email** — subject is ASCII-safe (shipped; see `directRaComplianceUpgraded` in `direct-ra-notices.ts`).
 2. **Card check (Agent, before Oct 20):**
    - For the 97 renewals due Nov–Jan, use Stripe to confirm each customer has a default payment method that expires after the billing date.
    - Spiffy payment-plan buyers are the most likely gap: their card may not be saved on the Stripe subscription.
@@ -458,8 +454,8 @@ Activation assumptions from Aug–Sep: cold professional email gets ~10% replies
 
 | # | Day | Action | Owner | Lever |
 |---|---|---|---|---|
-| 1 | Oct 7–8 | Fix the Compliance Plan email subject (em dash) | Agent | RA |
-| 2 | Oct 7–9 | Get abandoned-checkout capture working: env vars on both projects, cron, test checkout, first row confirmed | Agent + Sid | F1 |
+| 1 | Oct 7–8 | ~~Fix Compliance Plan email subject~~ **done** | — | RA |
+| 2 | Oct 7–9 | ~~Abandoned-checkout capture~~ **done Oct 14** (ingest + cron 1h/24h; low volume) | — | F1 |
 | 3 | Oct 8–10 | Pull the funnel by device, 60 days (landing → order page → checkout → purchase) | Agent | F2 |
 | 4 | Oct 8–14 | Stripe card check for the 97 Nov–Jan renewals; confirm retries, card updater, and invoice fallback are on | Agent + Ops | RA |
 | 5 | By Oct 14 | Send the CAQH follow-up | Sid | Services |
@@ -483,7 +479,7 @@ Activation assumptions from Aug–Sep: cold professional email gets ~10% replies
 
 | Date | Check | Pass | Fail |
 |---|---|---|---|
-| Oct 9 | Abandoned-checkout rows appearing | — | Escalate. Nothing else in F1 works until this does. |
+| Oct 9 | Abandoned-checkout rows appearing | **Pass Oct 14** (capture + 1h cron) | If volume stays near zero for 30d, debug Spiffy email extraction |
 | Oct 31 | CAQH; affiliates; VM unit cost | §7 | §7 |
 | Nov 1 | Paid verdict | F4 ladder | F4 cap; move the gap to F6/F7 |
 | Nov 15 | F1 first 30 days: ≥3 recovered orders | Keep | Rewrite copy |

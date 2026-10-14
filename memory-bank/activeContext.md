@@ -28,7 +28,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 ## Expansion priorities (next 4 weeks)
 
-📖 **High priority — integrated plan (Oct 7 2026):** [**nypllc-integrated-operating-plan.md**](../nypllc-integrated-operating-plan.md) — formation levers F1–F8, B2B restart Nov 9, VM/RA mechanics, gates. **Do next:** §8 first 30 days (checkout abandonment capture, Compliance Plan subject fix, CAQH follow-up before Oct 15). Sprint narrative + ads calendar: [expansion-next-steps.md](expansion-next-steps.md). **MSO path** (offer locked, page unpublished): [features/mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md).
+📖 **High priority — integrated plan (Oct 7 2026):** [**nypllc-integrated-operating-plan.md**](../nypllc-integrated-operating-plan.md) — formation levers F1–F8, B2B restart Nov 9, VM/RA mechanics, gates. **F1 abandonment capture live Oct 14** (1h/24h cron; 72h not built; volume TBD). CAQH paused Oct 14. Sprint narrative + ads calendar: [expansion-next-steps.md](expansion-next-steps.md). **MSO path** (offer locked, page unpublished): [features/mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md).
 
 1. **CAQH — PAUSED Oct 14** — 0 paid; Sid: rethink product. EIN attach auto-email **OFF** in CRM (deploy). Reply themes: [caqh-pilot-outcomes-oct-2026.md](../../PLLC-CRM/crm/docs/caqh-pilot-outcomes-oct-2026.md). Comparison page stays live; no sales outreach. (**PLLC-CRM**)
 2. **Direct-RA Lever 1 — LIVE** — first T-30 ~Sep 22; Oct charges. Pre-send checklist in [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)

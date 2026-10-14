@@ -4,8 +4,7 @@ import { useEffect, useRef } from 'react'
 import { usePathname } from 'next/navigation'
 import { trackLeadStart, trackLeadSubmit, trackCheckoutStart, trackScrollDepth } from '@/lib/analytics/track'
 import { trackGoogleAdsBeginCheckout } from '@/lib/analytics/google-ads'
-import { extractEmailFromCheckoutFieldEvent } from '@/lib/checkout-abandonment/extract-email-from-checkout-field-event'
-import { reportCheckoutAbandonment } from '@/lib/checkout-abandonment/report-checkout-abandonment'
+import { useCheckoutAbandonmentCapture } from '@/lib/checkout-abandonment/use-checkout-abandonment-capture'
 import { PRICING } from '@/lib/constants'
 
 export interface CheckoutTrackingOptions {
@@ -83,81 +82,12 @@ export function useCheckoutTracking(options?: CheckoutTrackingOptions) {
 }
 
 /**
- * Track Spiffy checkout form engagement using Spiffy JavaScript API
- * Tracks first field interaction, field changes, and engagement time
+ * Spiffy checkout engagement + abandoned-checkout capture.
+ * Uses `window.spiffy` and postMessage (`identify` / legacy field events), not `window.checkout`
+ * (that global is the checkout iframe element in Spiffy Elements 1.1).
  */
 export function useSpiffyFormEngagementTracking() {
-  useEffect(() => {
-    if (typeof window === 'undefined') return
-
-    // Wait for Spiffy checkout API to be available
-    const checkForSpiffyAPI = () => {
-      const checkout = (window as any).checkout
-      
-      if (checkout && typeof checkout.ready === 'function') {
-        checkout.ready(() => {
-          let firstFieldInteractionTime: number | null = null
-          let fieldChangeCount = 0
-          let lastFieldChangeTime: number | null = null
-          
-          let lastAbandonmentEmail = ''
-
-          // Track when user first interacts with form
-          checkout.on('change:field', (ev: any) => {
-            const now = Date.now()
-            
-            if (!firstFieldInteractionTime) {
-              // First field interaction - track lead start
-              firstFieldInteractionTime = now
-              sessionStorage.setItem('form_first_interaction_time', now.toString())
-              
-              // Track lead start for analytics
-              trackLeadStart({ form: 'checkout', step: 'field_interaction' })
-            }
-            
-            // Track field changes
-            fieldChangeCount++
-            lastFieldChangeTime = now
-            
-            // Store engagement metrics
-            sessionStorage.setItem('form_field_change_count', fieldChangeCount.toString())
-            sessionStorage.setItem('form_last_interaction_time', now.toString())
-
-            const email = extractEmailFromCheckoutFieldEvent(ev)
-            if (email && email !== lastAbandonmentEmail) {
-              void reportCheckoutAbandonment(email).then((ok) => {
-                if (ok) lastAbandonmentEmail = email
-              })
-            }
-          })
-          
-          // Track order changes (progress through checkout)
-          checkout.on('change:order', (ev: any) => {
-            const now = Date.now()
-            sessionStorage.setItem('form_order_change_time', now.toString())
-            const email = extractEmailFromCheckoutFieldEvent(ev)
-            if (email && email !== lastAbandonmentEmail) {
-              void reportCheckoutAbandonment(email).then((ok) => {
-                if (ok) lastAbandonmentEmail = email
-              })
-            }
-          })
-          
-          // Track payment method selection
-          checkout.on('change:paymethod', (ev: any) => {
-            const now = Date.now()
-            sessionStorage.setItem('form_payment_method_selected_time', now.toString())
-          })
-        })
-      } else {
-        // Retry if Spiffy API not ready yet
-        setTimeout(checkForSpiffyAPI, 500)
-      }
-    }
-
-    // Start checking for Spiffy API
-    checkForSpiffyAPI()
-  }, [])
+  useCheckoutAbandonmentCapture()
 }
 
 /**

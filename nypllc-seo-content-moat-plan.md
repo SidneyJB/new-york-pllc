@@ -1,6 +1,7 @@
 # NYPLLC SEO / Content Moat — Operating Plan v1
 
 **Prepared:** July 6, 2026 · **Revised:** July 22, 2026
+**90-day cadence (Oct 16, 2026):** One partner-usable asset per period (checklist P2-10), not one piece every week. Data study is time-boxed in P2-11. Editorial map below stays the backlog.
 **Companion documents:** [Ads Plan v2](nypllc-google-ads-operating-plan.md) · CAQH Plan v1 · B2B Plan v1 · [Revenue Levers v1](nypllc-revenue-levers-plan.md) · financial base case
 **Standing constraints:** publication content is educational-only, CTAs to full formation — no publishing-only offer, page, or CTA anywhere (standing directive). Edits to profession pages coordinate with the ads change log (they're live ad landing pages). No outbound calls (podcast/PR outreach is email).
 **Base-case promise this plan must beat:** organic/referral holding ~34% channel share passively. Attack target: organic as an independently growing engine — 0.3 orders/day by mid-2027, 200–350 orders in 2028.

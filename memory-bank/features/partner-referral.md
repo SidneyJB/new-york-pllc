@@ -8,6 +8,8 @@ B2B `/partners` landing + intake form; `?c=` / cookie attribution applies Spiffy
 
 **Live.** Coupon attach timing: before embed mounts and/or when Spiffy is already ready.
 
+**90-day (Oct 16 2026):** B2B outreach **active** — first sends Oct 19; include OOS/wholesale formation firms. Playbook: [partner-first-case-playbook.md](../../docs/partner-first-case-playbook.md) · checklist P1-10. Productive partner = ≥1 paid order in trailing 90d ([decision-log.md](../../decision-log.md)).
+
 ## Key paths
 
 - Page: `web/src/app/partners/page.tsx`
@@ -18,7 +20,7 @@ B2B `/partners` landing + intake form; `?c=` / cookie attribution applies Spiffy
 
 ## Gotchas
 
-- Partner applications: public `/partners` page promises a reply in **3–5 business days**
+- Partner applications: public `/partners` page promises a reply in **3–5 business days** (checklist **1-business-day** SLA applies only after Ops commits — do not change site copy until then; see `build-e12` in 90-day plan)
 - White-label is wholesale fulfillment; checkout/emails/docs may identify NY PLLC Formation
 - Partner ops / payouts / CRM `B2bPartner` live in **PLLC-CRM**
 - Order links must force document navigation so Spiffy embed loads

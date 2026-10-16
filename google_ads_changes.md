@@ -2,6 +2,8 @@
 
 **Last updated:** 2026-10-03
 
+**Calendar (Oct 16, 2026):** $985 is a **November** test, not February. January is not an automatic budget surge. See [decision-log.md](decision-log.md). Rows below are the change history.
+
 ## Account
 
 - Customer: NYPLLC (`1529880213`)
@@ -292,7 +294,7 @@ Funnel audit: [`ads-pull-2026-09-01-weekly-sop/CORE-EXACT-FUNNEL-AUDIT.md`](ads-
 | Attorneys RSA **v5** | **DISAPPROVED** (Sep 2). **Paused** Attorneys ad group `196018838817`. Stop copy churn. |
 | June eligible-volume drop | **Closed.** Not a broad→exact change. Bare `pllc` stayed BROAD (`48929560`) all June. Cliff is **Jun 7 tCPA $110→$90** (spend $129→$55/day; `pllc` broad throttled $98→$23/day). Jun 28 publication negatives are a later, smaller effect. |
 | Gate 2 (~Sep 12) | Treat as **permission slip only** — volume cannot hit 35/30d (need ~2.45 purchases/day vs ~0.3–0.4 recent). Re-evaluate after Aug 3–13 conversions age out. |
-| Holds | `03` paused; no Microsoft scale; no MSO ads; **$985 deferred to February** unless a clean ladder-free window appears before Nov 14. |
+| Holds (as of Sep 1; **$985 date superseded Oct 16**) | `03` was still paused then; no Microsoft scale; no MSO ads. **$985 is November**, not February. |
 | Auction Insights | Still **manual UI** — API token cannot pull insights. Next weekly SOP: export Sales last 90d. |
 
 ---

@@ -1,28 +1,40 @@
 # NYPLLC Integrated Operating Plan — Path to ~$1M Net
 
-**Prepared:** October 7, 2026 (v2, same day: rebuilt bottom-up from levers)
+**Prepared:** October 7, 2026 (v2) · **v3:** October 16, 2026 (expert assessment + 90-day execution checklist)
 **Horizon:** Oct 2026 → Dec 2028 (2028 is the target year)
 **Owner:** Sid
 **Roles used below:** **Sid** (decisions, relationships, sends) · **Ops** (CRM fulfillment, RA/VM ops) · **Agent** (Cursor agents for pulls, research, drafting, builds)
 
-**How to read this plan:**
-- Section 3 lists every lever: what we do, why it should work, the evidence, the steps, the expected effect, and how we know within 30–60 days whether it works.
-- The 2028 numbers in Section 6 are the **sum of those levers**, not goals set from the top.
-- When a lever's check fails, its number comes out of the model and the plan is re-cut at the next quarterly review.
+### v3 change log (Oct 16, 2026)
+
+- **Operational SoT through Jan 13, 2027:** [nypllc-90-day-execution-checklist.md](nypllc-90-day-execution-checklist.md) (packages P1–P3, scorecard defs, experiment rules).
+- **Supersessions recorded in:** [decision-log.md](decision-log.md).
+- **§6:** Replaced additive ~$1.02M lever sum with **hurdle cases** ($1,053K / $1,179K) to validate; $650/formation and 125/mo are unproven.
+- **Volume:** Channel-first model (30 / 40 / 55 at 125/mo); F1–F3 are in-funnel conversion lifts, not extra streams.
+- **B2B:** Outreach starts Oct 2026 (not Nov 9); include OOS formation wholesale; 2028 hurdle **25–30 partner orders/mo**.
+- **Pricing:** $985 test Nov 2026 (not Feb); $1085 conditional on P3-01.
+- **CAQH:** $0 in base forecast; product paused Oct 14.
+
+**How to read this plan (v3):**
+- Sections 3–5 still describe **levers and mechanics**; Section 6 is a **hurdle to validate**, not a forecast built by summing lever rows.
+- When evidence fails a gate, re-cut the hurdle at the next review (Section 9).
 
 ---
 
 ## 0. Which document wins when they disagree
 
-1. **This plan wins** on targets, levers, sequence, and gates.
-2. **The channel plans win** on how each channel is run:
+1. **Through Jan 13, 2027:** [90-day execution checklist](nypllc-90-day-execution-checklist.md) wins on **dates, sequencing, evidence standards**, and weekly scorecard definitions.
+2. **Expert assessment + decision log** win on **economics definitions**, channel double-counting, CAQH/MSO posture, and superseded calendar items ([decision-log.md](decision-log.md)).
+3. **This plan (v3)** wins on stable narrative: baseline §1, recurring §5 mechanics, lever playbooks §3–4, and merged gates §9 — except where v3 change log or decision log says otherwise.
+4. **2028 hurdle (Section 6)** is a **planning case to validate** ($1,053,000 target / $1,179,000 stretch), not proof of forecast accuracy.
+5. **Channel plans** win on how each channel is run:
    - [Google Ads plan v2](nypllc-google-ads-operating-plan.md)
    - [SEO / content moat plan v1](nypllc-seo-content-moat-plan.md)
    - [Revenue levers plan v1](nypllc-revenue-levers-plan.md)
    - [B2B pilot plan](../PLLC-CRM/crm/reports/b2b-partner-program-pilot-plan.md)
    - [CAQH pilot launch](../PLLC-CRM/crm/docs/caqh-pilot-launch.md)
-3. **The June 2026 growth plan** no longer sets ads policy or targets. Its "hold ~$92 tCPA" rule was replaced by the Sep 2026 $105 diagnostic and the Nov 1 verdict. Its data tables and B2B build checklist are still valid reference.
-4. **The ~$1M table in [expansion-next-steps.md](memory-bank/expansion-next-steps.md)** (≈1,600 formations × ~$500) is replaced by Section 6.
+6. **The June 2026 growth plan** no longer sets ads policy or targets. Its "hold ~$92 tCPA" rule was replaced by the Sep 2026 $105 diagnostic and the Nov 1 **dual** verdict (order count + profit evidence). Its data tables are still valid reference.
+7. **The ~$1M table in [expansion-next-steps.md](memory-bank/expansion-next-steps.md)** (≈1,600 formations × ~$500) is **historical**; Section 6 hurdle replaces it.
 
 ---
 
@@ -79,35 +91,34 @@
 
 ## 2. The shape of the problem
 
-To reach ~$1M net in 2028, three things have to happen together:
+To reach ~$1M+ net operating profit in calendar 2028, the business needs **stronger economics per formation**, **repeatable partner distribution**, and **recurring services (VM/RA)** — not a stack of optimistic ancillary lines.
 
-1. **Formations double:** 50 → ~100/month average in 2028.
-2. **VM grows:** from 95 subs to ~400 average in 2028.
-3. **RA renewals land near 65%**, with some Compliance Plan upgrades.
+**Hurdle to validate (not a forecast):** about **125 formations/month** average in 2028 at an unproven **~$650** blended contribution, plus VM and RA after overlap is verified (Section 6).
 
-The $985 price (Feb 2027 test) adds ~$90K if it holds. Section 6 shows the total.
+**Channel allocation to validate** (at 125/mo total): ~**30** partner · ~**40** paid search · ~**55** organic / direct / customer referral / AI. Unknown stays explicit.
 
-**Formation volume moves the plan most:** each +10 orders/month ≈ +$62K/yr. VM is second. So most of this plan is about formations.
+**F1, F2, F3** (abandonment, checkout, reviews) improve **conversion inside** those channels. They are **not** separate additive order streams in the forecast.
+
+**Pricing:** $985 retail test **Nov 2026** (checklist P2-01). Formation-only upside example is **+$45,600**/yr at 90% volume (1,080 × $620 vs 1,200 × $520), **before** lost VM/RA customers and extra fees — not +$90K.
 
 ---
 
-## 3. Formation levers: how we go from 50 to 100 a month
+## 3. Formation levers (playbooks — do not sum rows for forecast)
 
-### Contribution by lever
+Section 3 describes **what to execute** and how to read early signal. **Do not add** the lever table below to a volume forecast; use Section 2 channel rows and apply F1–F3 as conversion lifts inside each row.
 
-| Lever | +orders/mo by Q4 2027 | +orders/mo, 2028 average | Confidence |
-|---|---:|---:|---|
-| F1 Abandoned-checkout recovery | +5 | +6 | Medium. Depends on the true count of started checkouts. |
-| F2 Checkout and landing-page conversion | +4 | +6 | Medium |
-| F3 Reviews | +1 | +2 | Low–medium |
-| F4 Google Ads volume (bid, January, `03`, ad fixes) | +5 | +7 | Medium. The Nov 1 verdict decides it. |
-| F5 Microsoft Ads | +3 | +4 | Low–medium. Account currently suspended. |
-| F6 Organic search and AI answers | +5 | +9 | Medium–low. Slow. |
-| F7 B2B and platforms | +11 | +14 | Medium–low. Largest and slowest. |
-| F8 Second entities and MSO pairs | +1 | +2 | Low |
-| **Total** (base 50) | **~85** | **~100** | |
+### Lever reference (execution priority, not additive math)
 
-Conversion gains from F1 and F2 raise every channel. They are counted **only** in F1/F2 so nothing is counted twice.
+| Lever | Role | Confidence |
+|---|---|---|
+| F1 Abandoned-checkout recovery | In-funnel; capture live Oct 14 | Medium |
+| F2 Checkout / LP conversion | In-funnel | Medium |
+| F3 Reviews | In-funnel / CTR | Low–medium |
+| F4 Google Ads volume | Paid-search row; Nov 1 dual gate | Medium |
+| F5 Microsoft Ads | Paid-search row; suspended | Low–medium |
+| F6 Organic / AI | Organic row; slow | Medium–low |
+| F7 B2B / platforms | Partner row; **largest Sid time** | Medium–low |
+| F8 Second entities / MSO | Partner + lifecycle | Low |
 
 ---
 
@@ -186,16 +197,15 @@ Conversion gains from F1 and F2 raise every channel. They are counted **only** i
 - **(c) January season.**
 - **(d) Coverage:** foreign campaign `03`, and fixing the disapproved ads.
 
-**Steps:**
+**Steps (dates follow the 90-day checklist, not the Feb/$10K calendar):**
 
-1. **Oct:** fix or pause the three disapproved enabled `01` ads. Hold $105. Weekly SOP continues.
-2. **Nov 1 verdict** (ads plan):
-   - **≥30** October Google orders → ladder per ads plan; plan Google at ~33/month in 2028.
-   - **20–25** → cap spend at ~$3K/month outside January; Google planned at ~25/month; move the gap to F6/F7 (B2B list grows from 300 to 400).
-   - **26–29** → hold and re-read Dec 1.
-3. **January 2027:** budgets preloaded in December; full force up to ~$10K.
+1. **Oct:** fix or pause the three disapproved enabled `01` ads. Hold $105. Weekly SOP continues. **Oct 5** government-documents policy review (checklist P1-09).
+2. **Nov 1 dual verdict** ([decision-log.md](decision-log.md)):
+   - Legacy **order-count** branch (ads plan: ≥30 vs 20–25 October Google orders) **and** a **profit / marginal collected-contribution** memo.
+   - Optional bounded experiment (~$200–220 candidate) is **not** an automatic tCPA change.
+3. **January 2027:** spend is **conditional** on demand, marginal profit, tracking, policy, and fulfillment capacity (P3-06). **No automatic ~$10K** January budget.
 4. **`03` foreign:** read Jan 31 (≥3 foreign orders/month → add two states per quarter).
-5. **Feb 2027:** the $985 price test per the revenue levers plan, with ad price assets updated the same day.
+5. **$985 retail test:** **Nov 2–4** after P1-12 go (not February), with ad price assets updated the same day.
 
 **Expected effect:** about **+5 by Q4 2027, +7 average in 2028.** That is Google at ~27–33/month including the lift from F1/F2.
 
@@ -210,7 +220,7 @@ Conversion gains from F1 and F2 raise every channel. They are counted **only** i
 **Steps:**
 
 1. **Sid:** update the NY business registration address to match the Microsoft account, then reopen support case 7109261224. There are two verification attempts left; do not open a second account.
-2. **Agent, before reinstatement:** add `msclkid` capture on the site and in the CRM webhook and `Order` table. It is not captured anywhere today, so Microsoft orders would show up as untagged.
+2. **`msclkid`:** site click-attribution persists it; CRM `Order.msclkid` + webhook extract shipped Oct 16 (migration still needs deploy). Do not spend on Microsoft until reinstatement **and** production capture is live.
 3. **On reinstatement:** import `01`, `02`, and `Sales` with the same negatives (Lists A–E). Use manual or enhanced CPC until 15 conversions, then tCPA.
 4. **Deadline:** not reinstated by **Dec 15 2026** → drop F5 and move its 4/month into F6/F7.
 
@@ -226,7 +236,7 @@ Conversion gains from F1 and F2 raise every channel. They are counted **only** i
 
 **Steps:**
 
-1. **One content piece per week** (SEO plan editorial map). Each one contains at least one CRM-only fact.
+1. **One partner-usable content asset per 90-day period** (checklist P2-10), not one piece every week. Each asset contains at least one CRM-only fact. Data study is time-boxed in P2-11.
    - Next: `#6` PLLC vs PC.
    - Then one page per pipeline stage: PPE affidavit, OP Submitted, the 120-day publication clock, SS-4/EIN rejects, biennial statement.
    - Agent drafts; Sid edits in a fixed weekly slot.
@@ -248,9 +258,11 @@ Conversion gains from F1 and F2 raise every channel. They are counted **only** i
 
 ---
 
-### F7. B2B and platforms: +14/month
+### F7. B2B and platforms
 
-Full campaign detail is in **Section 4**. The summary:
+Full campaign detail is in **Section 4**. **2028 hurdle:** **25–30 partner-attributed orders/month** (validate via 90-day funnel). **Productive partner** = paid order in trailing 90 days; **repeat-producing** = second distinct paid order.
+
+Legacy sensitivity table (Oct 7 v2, **not** the active target):
 
 | Segment | Active partners | Orders/partner/mo | Orders/mo |
 |---|---:|---:|---:|
@@ -275,7 +287,7 @@ Full campaign detail is in **Section 4**. The summary:
 
 ## 4. B2B campaign detail (F7)
 
-**Starts Nov 9 2026.** The pause was waiting on CAQH copy/page (done) and the EXP close-out (done). Affiliates no longer hold it up.
+**Starts Oct 2026** (first targeted sends Oct 19 per checklist P1-10). Retire the **Nov 9** start date. CAQH copy/page and EXP close-out are done; affiliates no longer block outreach.
 
 ### Prospect volume needed
 
@@ -289,26 +301,20 @@ Activation assumptions from Aug–Sep: cold professional email gets ~10% replies
 
 ### A. Past-client advocates (Ops + Agent; ~1 hr/month of Sid)
 
-- **Change from today:** invites go out automatically instead of in manual batches.
-- **Build (1 day):** a CRM cron sends the advocate invite 30 days after `FORMATION_COMPLETE`. One send per customer; respects do-not-send.
+- **Advocate auto-invite cron:** optional post–90-day build; **not** required for partner pilot. Do not delay Sid outbound on cron work.
 - **Offer:** unchanged ($25 off for the friend, $75 to the advocate at DOS filed).
 - **Check:** active advocates and orders/month in the scorecard. Target 0.1 orders per active advocate per month.
 
 ### B. Professional referrers (Sid sends; Agent researches and drafts)
 
-- **List building (Agent, by Nov 9 for the first 150; Nov 30 for 300).** Five sub-segments:
-  1. NY credentialing and billing firms
-  2. Healthcare practice consultants and coaches
-  3. CPAs serving medical and therapy practices
-  4. Healthcare and transactional attorneys who don't form entities themselves
-  5. Malpractice brokers
-- **Excluded:** anyone who sells formations. Each prospect is scored and logged in the existing tracker.
-- **Waves:** 25/week from Nov 9 to Mar 2027. One follow-up at day 7; stop after two touches.
-- **Message:** what their client gets (NY specialist, all-in $885, NYSED handled), what they get ($75 per formation at DOS filed, a co-branded link), and one ask (reply "yes" for a link). No dollar amounts in cold email (existing rule).
-- **Build (1 day): `/partners/[slug]`.** A co-branded page that preloads `?c=CODE` and shows "Recommended by [Partner]."
+- **List building (Agent; 100–150 firms in first 90 days).** Segments include: clinician-focused accountants, small law firms (filing fulfillment), **out-of-state formation providers** (NY professional fulfillment), billing/practice consultants, credentialing firms, coaches, malpractice brokers.
+- **Not excluded:** firms that sell formations elsewhere — many are **wholesale** customers. Score each prospect; do not mix advocates with wholesale in one KPI.
+- **Waves:** ~12–15 new firms/week when capacity allows. One follow-up at day 7; stop after two touches on cold outreach.
+- **Message:** NY specialist, NYSED handled, co-branded link, reply “yes” for the link. **No dollar amounts in cold email.** Retail list price is $885 until the November test; do not lock $885 into partner copy that will still be in market after Nov 2–4.
+- **`/partners/[slug]`:** optional after the first paid partner handoff (P2-04), not a prerequisite for October sends.
 - **On "yes":** provision within 1 business day (script exists), attach the Spiffy promo the same day, and send the link plus a two-line blurb they can paste to clients.
 - **Keeping partners active:** a quarterly partner email with the NYSED wait-time update (something useful to forward) and their referral count.
-- **Stop rule:** fewer than 3 active from the first 150 sends by **Jan 15** → change the message and sub-segment before sending more.
+- **Stop rule:** fewer than 3 **productive** partners (a paid order within 90 days) from the first 150 sends by **Jan 15** → change the message and sub-segment before sending more.
 
 ### C. Platforms and associations (Sid, one-to-one, 3–4 targets/month from Nov)
 
@@ -316,7 +322,7 @@ Activation assumptions from Aug–Sep: cold professional email gets ~10% replies
   - Therapy networks with NY clinicians (Headway, Alma, Grow, Rula, SonderMind, and similar)
   - Private-practice communities, podcasts, and newsletters for therapists and NPs
   - NY professional associations: social work, mental health counseling, psych NP, PT, dental society components
-- **Pitch:** "Your NY clinicians starting their own practice need a PLLC first."
+- **Pitch:** For clinicians who **have decided** to establish a professional entity (with their adviser on structure). Do not claim every panel clinician must form a PLLC first (NYSED recognizes individual practice).
 - **What we offer:** a member resource page, a discount code, a 3-email sequence they can send, and a guest data piece on NYSED wait times.
 - **Ask:** a resource or partner-directory listing, or one newsletter feature per quarter.
 - **Do not pitch CAQH** to networks that credential their own providers.
@@ -407,71 +413,84 @@ Activation assumptions from Aug–Sep: cold professional email gets ~10% replies
 
 ---
 
-## 6. 2028 model = sum of the levers
+## 6. 2028 hurdle (validate — not a forecast)
 
-| Line (2028 net) | If only today's trajectory continues | With the levers above |
+### Superseded Oct 15, 2026 (v2 additive model)
+
+The Oct 7 **~$1.02M** stack (1,200 × $520 formations + **+$90K** $985 assumption + **~$35K** CAQH in services) is **retired**. Patching price to +$45.6K formation-only and dropping CAQH lands near **~$937K** before other fixes — not the same as the hurdle below.
+
+### Target and stretch cases (expert hurdle)
+
+| Annual component | Target case | Stretch case |
 |---|---:|---:|
-| Formations | 700 × $520 − $40K = $324K | 1,200 × $520 − $80K = **$544K** |
-| $985 price (if the Feb 2027 test passes) | — | +$100 × ~1,000 direct orders × 90% retention = **+$90K** |
-| VM (§5) | ~250 avg → $120K | ~400 avg → **$192K** |
-| RA + Compliance Plan (§5) | $64K | **$100K** |
-| Services (§7) | $40K | **$90K** |
-| **Total** | **~$550K** | **~$1.02M** (~$930K without the price change) |
+| Formations | 1,500/yr (**125/mo**) | 1,680/yr (**140/mo**) |
+| Blended formation contribution | $650/order (**unproven**) | $650 (**unproven**) |
+| Formation contribution | $975,000 | $1,092,000 |
+| Advertising + cash referral | −$130,000 | −$150,000 |
+| Additional overhead (not in unit COGS) | −$60,000 | −$75,000 |
+| VM: avg paying accounts × $40/mo × 12 | 350 → **$168,000** | 400 → **$192,000** |
+| RA / compliance (overlap-adjusted) | **$75,000** | **$85,000** |
+| Other services (**CAQH $0** base) | **$25,000** | **$35,000** |
+| **Illustrative operating profit** | **$1,053,000** | **$1,179,000** |
 
-### Sensitivity
+**$985 formation-only example (before lost recurring):** 1,080 orders × $620 contribution vs 1,200 × $520 = **+$45,600**/yr — use only after P1-03 audited costs.
 
-| If this lever fails | 2028 net changes by |
-|---|---:|
-| F7 B2B delivers 5/month instead of 14 | −$56K |
-| F1 + F2 deliver half | −$37K |
-| Nov 1 paid verdict fails (F4 → +2) | −$31K plus lower ad spend (net about −$15K) |
-| $985 rejected | −$90K |
-| VM average 300 | −$48K |
-| RA first renewal 45% | −$30K |
-| CAQH dropped | −$25 to −40K |
+### Trajectory without hurdle (baseline)
 
-**If several levers fail, the plan comes in around $800–900K.** The quarterly reviews (Section 9) re-cut the plan when that happens.
+**~$330K/yr** run-rate net (Section 1) ≈ **$400–550K** in a 2028-type year if partner/pricing/recurring engines do not land ([expansion-next-steps.md](memory-bank/expansion-next-steps.md)).
 
----
+### Sensitivity (directional)
 
-## 7. Services: CAQH, affiliates, shelf, MSO
+| If this fails | Effect |
+|---|---|
+| Partner row stays ~1/mo vs 25–30/mo hurdle | Largest volume gap |
+| $650 blend not achieved | Hurdle formation line drops proportionally |
+| VM/RA double-count not removed | Overstates recurring |
+| $985 with >16% volume loss | May erase formation-only gain |
+| RA first renewal ≪ 65% | RA line drops |
 
-| Item | How | Owner | When | Gate |
-|---|---|---|---|---|
-| CAQH follow-up | One email to the 22 launch invoices, the EIN-attach cohort, Rabinowitz, and AL-Basir. Opens with two questions: do you bill insurance directly, and do you already have CAQH? | Sid | Before Oct 15 | — |
-| CAQH verdict | — | Sid | **Oct 31** | **3–5 paid** → paid Spiffy SKU and release the held backlist with cohort copy (~$35K plan). **1–2 paid** → keep the EIN-attach rail running; re-read Jan 31. **0 paid** → passive only (page + checkbox); hours move to B2B builds. |
-| Payroll and banking affiliates | Gusto and Mercury are pending. If not approved by Oct 31, apply to OnPay or ADP and to Relay's referral program. Place links in the EIN-obtained email, the S-Corp-docs email, and the S Corp page. | Sid | Oct 31 | — |
-| 1120-S tax partners | Recruit from the CPA sub-segment of B2B segment B: rev-share or two-way referrals | Sid | Nov–Dec | — |
-| Shelf SKUs | Good Standing $99, Amendment $249, Dissolution $299, DBA $199. One every 2 weeks, each with its own page and checkout. Pitch in lifecycle emails at the matching moments (CAQH, address change, VM). | Agent; Sid approves | Nov–Feb | — |
-| Practice Launch bundle | $1,485 | Agent + Sid | Mar 2027, after the price test | — |
-| MSO public launch | — | Sid | Decide by Jan 31 2027 | — |
-
-**Services 2028:** CAQH ~$35K + affiliates ~$25K + shelf ~$20K + MSO ~$10K ≈ **$90K.**
+Re-cut Section 6 at **P2-11**, **P3-10**, and Mar 31 / Jun 30 gates (Section 9).
 
 ---
 
-## 8. First 30 days, in order
+## 7. Services (90-day priority order)
 
-| # | Day | Action | Owner | Lever |
-|---|---|---|---|---|
-| 1 | Oct 7–8 | ~~Fix Compliance Plan email subject~~ **done** | — | RA |
-| 2 | Oct 7–9 | ~~Abandoned-checkout capture~~ **done Oct 14** (ingest + cron 1h/24h; low volume) | — | F1 |
-| 3 | Oct 8–10 | Pull the funnel by device, 60 days (landing → order page → checkout → purchase) | Agent | F2 |
-| 4 | Oct 8–14 | Stripe card check for the 97 Nov–Jan renewals; confirm retries, card updater, and invoice fallback are on | Agent + Ops | RA |
-| 5 | By Oct 14 | Send the CAQH follow-up | Sid | Services |
-| 6 | Oct 12–16 | Rewrite the abandoned-checkout emails (1h/24h/72h) | Agent drafts, Sid approves | F1 |
-| 7 | Oct 12–16 | Rewrite the OP-approved VM upsell and add the second touch; send once to the 67 placeholders | Agent drafts, Sid approves | V2 |
-| 8 | Oct 12–16 | Move the review ask to the DOS-approval email, with a direct GBP link and a 7-day reminder | Agent | F3 |
-| 9 | Oct 14–22 | Rewrite the T-30 email (value + switching cost) before the first Nov notices (~Oct 24) | Agent drafts, Sid approves | RA |
-| 10 | Oct 15 | SEO Gate S1 scorecard; `03` first read | Agent, Sid reviews | F6/F4 |
-| 11 | Oct 15–31 | Checkout "how did you hear" field + `msclkid` capture | Agent | Measurement / F5 |
-| 12 | Oct 15–31 | Fix or pause the 3 disapproved `01` ads; mobile pass on the top 5 landing pages | Sid / Agent | F4/F2 |
-| 13 | Oct 19–Nov 10 | Order page above the embed: total, payment plan line, reviews, timeline; VM checkbox copy (logged in the ads change log) | Agent builds, Sid approves | F2/V1 |
-| 14 | Oct 20–Nov 9 | Build the B2B list (150 scored), `/partners/[slug]`, and the advocate auto-invite cron | Agent | F7 |
-| 15 | Oct 31 | CAQH verdict; affiliate decision; VM unit cost measured | Sid / Ops | Services / VM |
-| 16 | Nov 1 | Paid verdict, then the F4 branch | Sid | F4 |
-| 17 | Any time | Microsoft registration address fix, then support | Sid | F5 |
-| 18 | Oct 31 | Monthly scorecard script and first scorecard | Agent | All |
+| Priority | Item | Owner | When | Notes |
+|---:|---|---|---|---|
+| 1 | **NY PC formation pilot** | Ops + Sid | P2-09 / P3-05 | Manual 3–5 paid cases; $985–$1085 test band |
+| 2 | **Existing-practice VM migration** | Ops + Sid | P2-06 / P3-04 | Ten paying migrations in 90 days |
+| 3 | **Compliance Plan substance** | Ops + Agent | P3-07 | Deliverables beyond reminders; biennial filing when due |
+| 4 | **S-corp add-on audit** | Ops | P2-09 | Scope vs CT-6 / handoff to accountant |
+| — | **CAQH** | — | **Paused Oct 14** | **$0** base forecast; passive page + checkbox unless new pilot (P3-09) |
+| — | **Affiliates** | Sid | Oct 31 time-box | Gusto/Mercury; $0 if not earning |
+| Defer | Shelf SKUs / Practice Launch | Agent | After pilots | P3-09 stop/defer list |
+| Selective | **MSO** | Sid + counsel | Jan 31 decision | No broad ads; CRM pair workflow exists |
+
+**Services 2028 hurdle (base):** ~**$25K–$35K** other (affiliates + selective SKUs); **no CAQH** in base.
+
+---
+
+## 8. Execution calendar (Oct 16, 2026 – Jan 13, 2027)
+
+**Authoritative task list:** [nypllc-90-day-execution-checklist.md](nypllc-90-day-execution-checklist.md) (packages P1-01 … P3-10).
+
+**Already done (carry forward):**
+
+| Item | Date |
+|---|---|
+| Compliance Plan email subject (ASCII) | Oct 2026 |
+| Abandoned-checkout capture + 1h/24h cron | **Oct 14** |
+| CAQH product pause + EIN-attach off | **Oct 14** |
+
+**Period summaries:**
+
+| Period | Dates | Outcome |
+|---|---|---|
+| P1 | Oct 16–29 | Economics, RA Oct 23, funnel truth, partner sends, $985 test design |
+| P2 | Oct 30–Nov 29 | $985 live, partner handoffs, VM ops, PC/S-corp prep, model rebuild P2-11 |
+| P3 | Nov 30–Jan 13 | Price decision, 100–150 firms, VM migration + PC pilots, Day 90 Q1 plan |
+
+Weekly scorecards: [scorecards/](scorecards/). Decisions: [decision-log.md](decision-log.md).
 
 ---
 
@@ -479,18 +498,21 @@ Activation assumptions from Aug–Sep: cold professional email gets ~10% replies
 
 | Date | Check | Pass | Fail |
 |---|---|---|---|
-| Oct 9 | Abandoned-checkout rows appearing | **Pass Oct 14** (capture + 1h cron) | If volume stays near zero for 30d, debug Spiffy email extraction |
-| Oct 31 | CAQH; affiliates; VM unit cost | §7 | §7 |
-| Nov 1 | Paid verdict | F4 ladder | F4 cap; move the gap to F6/F7 |
-| Nov 15 | F1 first 30 days: ≥3 recovered orders | Keep | Rewrite copy |
-| Dec 15 | Microsoft reinstated | Keep F5 | Drop F5 |
-| Dec 20 | F2: 45-day conversion read vs baseline | Keep | Next-largest drop-off |
-| Jan 15 2027 | B2B ≥3 active from 150 sends; RA red flag | Continue | Change message / pause upgrade |
+| Oct 9 | Abandoned-checkout rows | **Pass Oct 14** | Debug if no volume 30d |
+| **Oct 29** | **P1-12 Day-14 review** | Economics + billing + partner pipeline + price-test go | Blockers assigned |
+| Oct 31 | VM unit cost; affiliates (1h time-box) | Measured VM $/sub | — |
+| Nov 1 | **Paid verdict (dual)** | Order branch + profit/marginal CPA memo | Cap / experiment only |
+| **Nov 29** | **P2-12 Day-45 review** | Price, partners, VM, PC readiness | Document hold/continue |
+| Nov 15–Dec 1 | Ads/LP structural freeze | Stable price test OK | Exception log only |
+| Nov 15 | F1: ≥3 recovered (30d) | Keep sequence | Rewrite copy |
+| Dec 15 | Microsoft | Keep F5 | Drop F5 from forecast |
+| Dec 20 | F2: 45-day conversion read | Keep | Next drop-off |
+| **Jan 13** | **P3-10 Day-90 review** | Q1 plan + Jun contingency | Re-cut §6 |
+| Jan 15 2027 | B2B productive partners; RA red flag | Continue | Change message / pause upgrade |
 | Jan 31 | SEO Gate S2; `03` read; MSO decision | — | — |
-| Feb | $985 test | Adopt | Revert |
-| **Mar 31** | **Q1 review:** formations ≥65/month excluding January; VM ≥200; RA measured rate; MSO/wholesale operator live | On plan | Re-cut §6 |
-| Jun 30 | SEO Gate S3; platform gate | — | Fold segment C into B |
-| Sep 30 | Q3 review: ≥80/month | Set 2028 at 100/month | Reset target |
+| **Mar 31** | Formations ≥65/mo ex-Jan; VM cohort vs old “200” target | On plan | Re-cut §6 |
+| **Jun 30 2027** | **Structural checkpoint:** ~80–90 formations/mo; 10–15 partner orders; margin holds | Continue hurdle | Distribution / acquisition / date revision |
+| Sep 30 | Q3: ≥80/mo trend | — | Reset target |
 
 ---
 
@@ -509,21 +531,17 @@ Activation assumptions from Aug–Sep: cold professional email gets ~10% replies
 | VM attach | Real VM sub ≤90 days after formation ÷ formations in that cohort (placeholders excluded) |
 | RA first-renewal rate | Paid ÷ due, counted 30 days after the due date |
 
-### Monthly scorecard
+### Scorecard (weekly first)
 
-Produced by Agent on the 1st business day; Sid reviews in about 30 minutes. Saved to `scorecards/YYYY-MM.md`. Contents:
+**Weekly (P1-06):** Manual table first — templates in [scorecards/TEMPLATE-WEEKLY.md](scorecards/TEMPLATE-WEEKLY.md). Sid reviews ~30 minutes.
 
-- Formations by lever and source vs Section 3
-- Checkout funnel and recovery
-- Reviews
-- VM adds, attach, and churn
-- RA cohort results
-- B2B sends, active partners, and orders by segment
-- SEO output and positions
-- Services revenue
-- Net vs Section 6
+**Monthly:** [scorecards/TEMPLATE-YYYY-MM.md](scorecards/TEMPLATE-YYYY-MM.md) after weekly format is stable.
 
-**Build:** one `monthly-scorecard.ts` in PLLC-CRM.
+**Automation:** `PLLC-CRM/crm/scripts/weekly-scorecard-export.ts` exports baseline inputs; do not replace manual judgment until definitions freeze.
+
+### Minimum metric definitions
+
+Import from [90-day checklist § Minimum scorecard definitions](nypllc-90-day-execution-checklist.md) (productive partner, VM churn on exposure, RA matured renewal, contribution per eligible visitor, etc.).
 
 ---
 
@@ -534,13 +552,15 @@ Produced by Agent on the 1st business day; Sid reviews in about 30 minutes. Save
 | Workstream | Hrs/week |
 |---|---:|
 | B2B sends and replies | 4–5 |
-| SEO editing | 2 |
+| SEO editing | 0–1 (one partner-usable asset per period; weekly cadence is deferred) |
 | Email copy approvals (F1/F3/V2/RA) | 1–2 (Oct–Nov only) |
 | Ads decisions | 1 |
 | Reviews and recurring | 1 |
 | Scorecard | 0.5 |
 
-**If fewer hours are available, cut in this order:** shelf → segment C → SEO to one piece every 2 weeks. Do not cut F1, F2, B2B segment B, or the scorecard.
+**If fewer hours are available, cut in this order:** shelf → segment C → extra SEO. Do not cut F1, F2, B2B segment B, or the scorecard.
+
+**Out of 90-day scope:** automated advocate-invite cron (relationships ≠ coupon codes). Do not block Sid partner outreach on that build — [decision-log.md](decision-log.md).
 
 ### Spend
 
@@ -572,4 +592,4 @@ One-time counsel review before each:
 
 ---
 
-*v2 · Oct 7 2026. Next revision is due at the Mar 31 2027 review or after any failed gate. Update Section 1 when the Oct 9 (checkout capture), Oct 20 (card check), and Oct 31 (VM cost) inputs come in.*
+*v3 · Oct 16 2026. Operational detail through Jan 13, 2027: [nypllc-90-day-execution-checklist.md](nypllc-90-day-execution-checklist.md). Next revision at P3-10 (Jan 13), Mar 31, or Jun 30 structural checkpoint. Refresh Section 1 baseline after P1-02/P1-05 recounts.*

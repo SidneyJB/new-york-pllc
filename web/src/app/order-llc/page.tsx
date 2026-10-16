@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { ORDER_LLC_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
-import { PRICING } from '@/lib/constants'
+import { BUSINESS_INFO, PRICING, TRUST_MARKETING } from '@/lib/constants'
 import { SpiffyLlcCheckout } from '@/components/spiffy/spiffy-llc-checkout'
 import { SpiffyScript } from '@/components/spiffy/spiffy-script'
 import { OrderPageClient } from '../order/order-client'
@@ -134,12 +134,16 @@ export default function OrderLlcPage() {
             <div className="mx-auto mt-16 max-w-4xl">
               <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 justify-items-center">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary">2000+</div>
-                  <p className="text-sm text-muted-foreground mt-2">Entities Formed</p>
+                  <div className="text-3xl font-bold text-primary">{TRUST_MARKETING.formationsHeadline}</div>
+                  <p className="text-sm text-muted-foreground mt-2">{TRUST_MARKETING.formationsSubline}</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary">4.9/5</div>
-                  <p className="text-sm text-muted-foreground mt-2">Customer Rating</p>
+                  <div className="text-3xl font-bold text-primary">
+                    {BUSINESS_INFO.googleReviews.ratingValue}/5
+                  </div>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    Google rating ({BUSINESS_INFO.googleReviews.reviewCount} reviews)
+                  </p>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary">$0</div>

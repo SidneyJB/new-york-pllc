@@ -8,8 +8,18 @@ export const APP_CONFIG = {
   phone: '646-444-2102',
 } as const
 
+function formationListPriceDollars(): number {
+  const raw = process.env.NEXT_PUBLIC_FORMATION_LIST_PRICE
+  if (raw) {
+    const n = Number(raw)
+    if (n === 985 || n === 1085 || n === 885) return n
+  }
+  return 885
+}
+
 export const PRICING = {
-  basePrice: 885,
+  /** Retail formation list price; override with NEXT_PUBLIC_FORMATION_LIST_PRICE for $985 test. */
+  basePrice: formationListPriceDollars(),
   /** Certificate of Assumed Name / DBA filing service */
   assumedNamePrice: 199,
   sCorpPrice: 195,
@@ -44,6 +54,14 @@ export const BUSINESS_INFO = {
     ratingValue: 5,
     reviewCount: 6,
   },
+} as const
+
+/** Public trust copy — keep aligned across order page, hero, and ads (see decision-log P1-08). */
+export const TRUST_MARKETING = {
+  formationsHeadline: 'Thousands',
+  formationsSubline:
+    'of New York professional entities formed since 2005 (NYPLLC.com and related formation work)',
+  entitiesAdsClaim: '25,000+ NY entities',
 } as const
 
 export const NAVIGATION = {

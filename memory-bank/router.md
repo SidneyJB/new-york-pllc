@@ -27,11 +27,13 @@ Cross-cutting growth strategy and **how** each lever is executed live here (webs
 
 | Priority | Document | Role |
 |----------|----------|------|
-| **1 — primary** | [**Integrated operating plan**](../nypllc-integrated-operating-plan.md) | Targets from levers (not top-down quotas), formation bridge F1–F8, B2B campaigns, VM/RA mechanics, gates, first 30 days (§8), scorecard (§10). **Read this first** for expansion work. |
-| **2** | [expansion-next-steps.md](expansion-next-steps.md) | Sprint narrative, Sep–Jan ads calendar, historical $1M mix table (financial targets → integrated plan §6) |
-| **3** | Channel operating plans | Mechanics only; integrated plan §0 says which doc wins on conflicts |
+| **0 — operational (through Jan 13, 2027)** | [**90-day execution checklist**](../nypllc-90-day-execution-checklist.md) | Packages P1–P3, scorecard defs, experiment rules, weekly routine. **Active task list.** |
+| **1 — strategy** | [**Integrated operating plan v3**](../nypllc-integrated-operating-plan.md) | Baseline §1, lever playbooks §3–5, **hurdle** §6 (not additive forecast), gates §9. [decision-log.md](../decision-log.md) for supersessions. |
+| **2** | [expansion-next-steps.md](expansion-next-steps.md) | Sprint narrative, Sep–Jan ads calendar; historical $1M mix is context only |
+| **3** | [scorecards/](../scorecards/) + [ops/90-day-task-board.md](../ops/90-day-task-board.md) | Weekly evidence and execution board |
+| **4** | Channel operating plans | Mechanics only; checklist + integrated §0 say which doc wins |
 
-**Session rule:** Expansion, $1M path, formation volume, B2B/platform restart, VM/RA growth, or “what’s next on growth” → read **integrated operating plan** (at least §1 baseline, §3–§5 levers, §8 first 30 days), then [activeContext.md](activeContext.md) § Expansion priorities, then 1–2 matching `features/*.md` shards for the lever being built.
+**Session rule:** Expansion work through Jan 13 → read **90-day checklist** + [decision-log.md](../decision-log.md), then integrated plan v3 §1/§6/§9, then [activeContext.md](activeContext.md) § Expansion priorities, then matching `features/*.md` shards.
 
 ## Read when relevant
 
@@ -52,8 +54,8 @@ Cross-cutting growth strategy and **how** each lever is executed live here (webs
 | Google Ads, campaigns, keywords, auction insights, ad spend, GAQL, operating plan, tCPA, Phase 0 | [features/google-ads.md](features/google-ads.md) → [operating plan](../nypllc-google-ads-operating-plan.md) |
 | Revenue levers, shelf SKU, banking affiliate, payroll affiliate, Mercury, Relay, Gusto, ADP, S Corp calculator, $985 price test, RA renewal disclosure, Compliance Plan, AOV, checkout bump, Practice Launch bundle | [features/revenue-levers.md](features/revenue-levers.md) → [revenue levers plan](../nypllc-revenue-levers-plan.md) + [affiliate partners](../docs/affiliate-partners.md) |
 | CAQH pilot, credentialing intake, Spiffy CAQH SKU | [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) · outreach [formed-along](../../PLLC-CRM/crm/docs/credentialing-caqh-pilot-outreach-formed-along.md) · [already-formed](../../PLLC-CRM/crm/docs/credentialing-caqh-pilot-outreach-already-formed.md) · [CRM caqh shard](../../PLLC-CRM/memory-bank/features/caqh-credentialing.md) |
-| $1M plan, integrated plan, formation levers F1–F8, channel quotas, formation bridge, 2028 model, monthly scorecard, gates calendar, first 30 days, abandoned checkout, B2B waves | [**Integrated operating plan**](../nypllc-integrated-operating-plan.md) (§ Business expansion above) |
-| Expansion priorities, next expansion steps, growth calendar, what's next after Jul 6, Sep–Jan roadmap, B2B paused, CAQH #1, MSO page, $1M, net profit mix | [expansion-next-steps.md](expansion-next-steps.md) → start with [integrated plan](../nypllc-integrated-operating-plan.md) for execution detail |
+| $1M plan, integrated plan, formation levers F1–F8, 2028 hurdle, scorecard, gates, abandoned checkout, B2B | [**90-day checklist**](../nypllc-90-day-execution-checklist.md) then [integrated plan v3](../nypllc-integrated-operating-plan.md) |
+| Expansion priorities, next expansion steps, growth calendar, Sep–Jan roadmap, MSO page, net profit mix | [expansion-next-steps.md](expansion-next-steps.md) after the checklist and [decision-log.md](../decision-log.md) |
 
 ## Optional context
 

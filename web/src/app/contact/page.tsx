@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
-import { APP_CONFIG, BUSINESS_INFO } from '@/lib/constants'
+import { APP_CONFIG, BUSINESS_INFO, TRUST_MARKETING } from '@/lib/constants'
 import { CONTACT_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 import { ContactForm } from '@/components/forms/contact-form'
@@ -257,12 +257,16 @@ export default async function ContactPage({
           <div className="mx-auto mt-16 max-w-4xl">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">2,000+</div>
-                <p className="text-sm text-muted-foreground mt-2">PLLCs Formed</p>
+                <div className="text-3xl font-bold text-primary">{TRUST_MARKETING.formationsHeadline}</div>
+                <p className="text-sm text-muted-foreground mt-2">{TRUST_MARKETING.formationsSubline}</p>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">4.9/5</div>
-                <p className="text-sm text-muted-foreground mt-2">Customer Rating</p>
+                <div className="text-3xl font-bold text-primary">
+                  {BUSINESS_INFO.googleReviews.ratingValue}/5
+                </div>
+                <p className="text-sm text-muted-foreground mt-2">
+                  Google rating ({BUSINESS_INFO.googleReviews.reviewCount} reviews)
+                </p>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary">24-48hr</div>

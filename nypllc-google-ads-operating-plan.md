@@ -2,6 +2,8 @@
 
 **Account:** 1529880213 · Sales-Search-1
 **Prepared:** July 5, 2026
+**Calendar overlay (Oct 16, 2026):** Dates that conflict with [decision-log.md](decision-log.md) or the [90-day checklist](nypllc-90-day-execution-checklist.md) follow those docs. **Nov 1** is a **dual** memo (order count **and** profit / marginal contribution). **$985** is a **November** test, not February. **January ~$10K is not automatic.** Mechanics below (negatives, tCPA, conversion actions) stay in force.
+
 **Horizon:** July 2026 → February 2027 (through first full high season), with standing systems that continue after
 **Prime directive:** The existing campaign is never deleted and never paused without a gate decision. Everything in this plan is additive and reversible.
 **Companion:** [SEO / Content Moat Plan v1](nypllc-seo-content-moat-plan.md) — organic co-lead engine; coordinate LP/profession-page edits via shared change log.
@@ -92,9 +94,9 @@ Near-term ceiling is May’s read, not the original 60–90/month model: **~$110
 | **Sep 29–30** | **Pre-register $120 decision.** Matured **Sep 2–21** at **≥0.7 conv/day** and **≤$135 blended**, eligible **≥4,300/wk** → **$120 on Oct 1**. **>$150** or **<0.55/day** → revert **$90**. In between → **hold $105**. Do **not** raise Oct 1 on the Sep 16 pull. |
 | **Oct 1** | **Applied decision: hold $105.** Sep 29–30 did not clear the eligible-volume precondition; do not apply $120. |
 | **Through Oct** | Mobile CVR (recent 7d: **21 mobile clicks, 0 conv**) + **publication-cost calculator on LPs** (anxiety killer; **not** a publishing-only offer or county-shopping CTA — List E / Rockland-only package). CVR is the free volume lever. |
-| **Nov 1** | **Verdict.** Oct **30–40 paid orders** → original 50–60/mo path still alive; January can finish. Oct **20–25** after the above → **50–60 regular months do not exist at prices worth paying.** Do not move the goalposts. |
-| **Dec–Jan** | Freeze, preload budgets, run January at full force. |
-| **February** | **$985** price test (not earlier). |
+| **Nov 1** | **Order-count branch only (superseded Oct 16).** Also write the profit / marginal-contribution memo. See [decision-log.md](decision-log.md). |
+| **Dec–Jan** | Freeze through Dec 1, then preload. **January spend is conditional** — not automatic full force. |
+| **Nov 2–4** | **$985** retail test after P1-12 (replaces the February row). |
 
 **Gate 2 exact-neg fence on Sales** (`pllc` broad **$327 CPA** vs exacts): **filed, not applied.**
 
@@ -610,8 +612,8 @@ Sixteen columns, one row a week, and every future argument with yourself gets se
 |---|---|---|---|---|
 | **1** | End of week 4 (~Aug 15) | Core Exact ≥15 conv at ≤$110 **and** account ≥28 conv/30d at ≤$105 | Launch 03_ForeignQual; budgets +20% | Hold budgets; QS + search-term audit; re-check in 2 weeks |
 | **2** | End of week 8 (~Sep 12) | Account ≥35 conv/30d at ≤$100 **and** Core Exact IS ≥35% | Demote old campaign → 04_Discovery (2.4) | **Volume fail expected.** **Sep 3 override:** do **not** wait on this gate to launch **`03` + Bing** (Sep 15–22). Still **do not** demote Sales → Discovery. Core Exact IS already ~47% — IS is not the blocker. |
-| **3** | **Nov 1 verdict** (was ~Oct 10) | October **paid orders 30–40** | Original 50–60/mo path alive; January can finish; optional further bid only if marginal still <$160 | October **20–25** after $105, `03`, Bing, ~$120, mobile/LP work → **50–60/mo does not exist at prices worth paying.** State that. No DSA/competitor unlock on a capped pool. |
-| **4** | Dec 1 | 3 stable weeks at ≤$110 CPA; tracking sane | Freeze + surge protocol (3.5) | Enter January at whatever level is stable; surge budgets only, not targets |
+| **3** | **Nov 1 dual memo** (order count was the old gate) | October Google orders **and** profit / marginal collected contribution | Ladder only if both support it. January is not automatic. | State the cap. No DSA/competitor unlock on a capped pool. |
+| **4** | Dec 1 | 3 stable weeks; tracking sane | Hold configuration | Do not enter January with an automatic surge |
 
 Gates are permission slips, not deadlines. Missing a gate by two weeks costs almost nothing; scaling through a failed gate costs a learning-period spiral in your one proven season.
 
@@ -662,11 +664,11 @@ Gates are permission slips, not deadlines. Missing a gate by two weeks costs alm
 | **Oct 1** | ✅ **Held $105** after the Sep 29–30 pre-register; eligible volume did not clear the ≥4,300/week bar. |
 | **Oct 3** | ✅ Daily SOP: 7d CPA **$355 / 2**, 30d **$141 / 17.77**, Sales eligible **4,168**; self-block 0; no account changes. Continue holding $105. |
 | Oct | Mobile CVR + publication-cost calculator on LPs (not publishing-only / not county shop). |
-| **Nov 1** | **Verdict:** Oct 30–40 paid vs 20–25. |
+| **Nov 1** | **Dual verdict:** order-count branch plus profit memo. |
 | Oct 17 – Nov 14 | Last structural change **Nov 14** unless Nov 1 already called paid capped |
 | Nov 15 – Dec 1 | **FREEZE** · Gate 4 on Dec 1 |
-| Dec 26–28 | Surge budgets + target staged (3.5) |
-| Jan 2–31 | Surge protocol, daily cadence |
+| Dec 26–28 | Budget preload only if P3-06 evidence supports it (not an automatic surge) |
+| Jan 2–31 | Spend only under the conditional January rule |
 | Feb 1–10 | Step-down 20–25%/week |
 | Feb 15 | Full-season readout vs. this document → write v3 |
 
@@ -703,7 +705,7 @@ Notes on reading this honestly:
 3. **Auction Insights export** — who actually shows up against you, with overlap and outranking rates, for the baseline file.
 4. **GA4 (or equivalent) with funnel events on nypllc.com?** Needed to instrument CVR for Part 5; if absent, installing it is a week-1 task.
 5. **Meta retargeting inventory for the record:** monthly spend, audience definitions, creative age — for the 6.2 housekeeping pass and the CRM AdSpend backfill.
-6. **$985 price test timing** (from the broader growth plan): schedule it into a window that doesn't overlap a ladder step or January (4.4). Recommended slot: late September, between Gates 2 and 3, or defer to February.
+6. **$985 price test timing — superseded Oct 16.** Window is **Nov 2–4** after P1-12 ([decision-log.md](decision-log.md)), not February. Still avoid stacking it on a tCPA ladder step.
 7. **Phase 1 launch — DONE Jul 9 2026 evening.** `01_Core_Exact_NY` **ENABLED** on portfolio. **`02_Professions_NY` ENABLED Aug 4** (calendar Aug 3). `03` still Gate 1. Conversion flip done. **Customer Match UI upload Sep 5** (1.2; matching in progress). Foreign Qual enable **Sep 15–22**.
 8. **Search-term mining — Jul 11 2026.** `[form pllc new york]` exact on `01` Formation-Core; `"windsor corporate services"` → List C. **Deferred:** exact-neg that term on `Sales-Search-1` until `01` proves delivery (cold + Formation-Core `APPROVED_LIMITED`).
 

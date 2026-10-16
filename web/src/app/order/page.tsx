@@ -9,6 +9,7 @@ import { OrderFallbackCheckoutNotice } from './order-fallback-checkout-notice'
 import { OrderPageClient } from './order-client'
 import { SpiffyPllcCheckout } from '@/components/spiffy/spiffy-pllc-checkout'
 import { SpiffyScript } from '@/components/spiffy/spiffy-script'
+import { BUSINESS_INFO, TRUST_MARKETING } from '@/lib/constants'
 
 export const metadata = ORDER_METADATA
 
@@ -118,12 +119,18 @@ export default function OrderPage() {
           <div className="mx-auto mt-16 max-w-4xl">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 justify-items-center">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">2000+</div>
-                <p className="text-sm text-muted-foreground mt-2">PLLCs Formed</p>
+                <div className="text-3xl font-bold text-primary">{TRUST_MARKETING.formationsHeadline}</div>
+                <p className="text-sm text-muted-foreground mt-2 max-w-xs mx-auto">
+                  {TRUST_MARKETING.formationsSubline}
+                </p>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">4.9/5</div>
-                <p className="text-sm text-muted-foreground mt-2">Customer Rating</p>
+                <div className="text-3xl font-bold text-primary">
+                  {BUSINESS_INFO.googleReviews.ratingValue}/5
+                </div>
+                <p className="text-sm text-muted-foreground mt-2">
+                  Google rating ({BUSINESS_INFO.googleReviews.reviewCount} reviews)
+                </p>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary">$0</div>

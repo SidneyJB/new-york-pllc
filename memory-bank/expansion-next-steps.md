@@ -1,19 +1,22 @@
 # Expansion — next steps (Aug 10, 2026)
 
-**As of:** Oct 7, 2026.
+**As of:** Oct 16, 2026.
 **Owner:** Cross-cutting expansion strategy lives in the **website** memory bank. CRM builds link from [PLLC-CRM/memory-bank/features/](../../PLLC-CRM/memory-bank/features/).
 
-> **Primary expansion document (high priority):** [**NYPLLC Integrated Operating Plan**](../nypllc-integrated-operating-plan.md) — lever-by-lever execution, gates, first 30 days (§8), and the 2028 model built bottom-up. **Read that first** for growth work; this file keeps sprint narrative and the Sep–Jan ads calendar. Router: [memory-bank/router.md](router.md) § Business expansion.
+> **Operational SoT (through Jan 13, 2027):** [**90-day execution checklist**](../nypllc-90-day-execution-checklist.md) · [decision-log.md](../decision-log.md) · [scorecards/](../scorecards/)  
+> **Strategy / hurdle:** [**Integrated operating plan v3**](../nypllc-integrated-operating-plan.md) — validate **$1,053K / $1,179K** hurdle cases (125–140 formations/mo @ unproven $650 blend); not the retired additive ~$1.02M stack.
 
-**Targets:** Integrated plan §6 (~1,200 formations + $985 + VM ~400 avg subs → ~$1M net in 2028). The ~$1M table in § below is **historical context** (Sep 3 read); do not treat ≈1,600 formations as the active quota.
+**Targets:** Channel allocation to validate: ~30 partner / 40 paid search / 55 organic-direct per month at **125** formations. $985 test **Nov 2026** (not February). B2B outreach **active** (not paused).
 
 Companion operating plans: [Ads v2](../nypllc-google-ads-operating-plan.md) · [SEO moat](../nypllc-seo-content-moat-plan.md) · [Revenue levers v1](../nypllc-revenue-levers-plan.md) · CAQH v1 · B2B v1 (CRM). **MSO path (offer locked):** [mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md). License filing + credentialing packet research still in [PLLC-CRM catalog](../../PLLC-CRM/business%20ideas.md).
 
 ---
 
-## ~$1M net (2028-type year) — mix vs current rate
+## ~$1M net (2028-type year) — historical Sep 3 snapshot
 
-Target stack (owner): formations **~$670K** (≈1,600 × ~$500 − ~$140K ads) + recurring **~$270K** (VM ~$165K + RA ~$105K) + services **~$100K** (CAQH ~$55K + other ~$45K).
+**Superseded Oct 16, 2026.** Do not use this table for targets, CAQH revenue, or B2B status. Active hurdle is integrated plan §6 ($1,053K / $1,179K). CAQH is **$0** in the base case. B2B outreach is **active**.
+
+Target stack (owner, Sep 3): formations **~$670K** (≈1,600 × ~$500 − ~$140K ads) + recurring **~$270K** (VM ~$165K + RA ~$105K) + services **~$100K** (CAQH ~$55K + other ~$45K).
 
 | Engine | Plan | Sep 3 read |
 |--------|------|------------|
@@ -45,8 +48,8 @@ January is a **freeze/surge hedge** (n=1 Ads peak; May CRM orders **57 > Jan 51*
 
 Anything that **takes money** (build + launch) — still open:
 
-- **CAQH remaining ~118** — **held** until Sid authorizes sends. Copy trio is built; comparison page **live** at `/headway-alma-vs-own-panels` Sep 19 (source draft in `web/src/unpublished/`).
-- **Professional B2B** outreach = 5 emails only.
+- **CAQH remaining ~118** — never sent. Product **paused Oct 14**; do not authorize a blast. Comparison page stays live.
+- **Professional B2B** — wave 1 was 5 emails (Aug 5). **Outreach is active again** as of Oct 16 (first new sends Oct 19), including wholesale and out-of-state formation firms.
 - **Affiliate links** — Mercury + Gusto applied Aug 14; links not live. (Expedite SKU removed Aug 17 — already in $885.)
 
 ---
@@ -55,18 +58,20 @@ Anything that **takes money** (build + launch) — still open:
 
 | # | Item | Repo / owner | Notes |
 |---|------|--------------|-------|
-| **1** | **CAQH — hold remaining ~118** | **Site + PLLC-CRM** | Copy trio built; comparison page **live** Sep 19. Hold backlist until Sid authorizes. **EIN-obtained attach is on** (Sep 22): first healthcare crossing to EIN Obtained sends the $499 email once. Paid invoices alert `contact@nypllc.com`. Oct bar: **3–5 paid from any motion**. 📖 [caqh-pilot-launch.md](../../PLLC-CRM/crm/docs/caqh-pilot-launch.md) |
+| **1** | **90-day P1 (Oct 16–29)** | **Site + CRM + Sid** | Economics baseline, RA Oct 23, partner sends Oct 19+, $985 test design. 📖 [90-day checklist](../nypllc-90-day-execution-checklist.md) |
 | **2** | **Direct-RA ops** | **PLLC-CRM** | **Live Aug 25.** Checkout disclosure **audited**; staff **$99 CoC** + **$249 Compliance Plan** support paths **confirmed**. First T-30s ~Sep 22; October auto-charges. 📖 [direct-ra-launch-status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) |
 | **3** | **EXP Credentialing** | **PLLC-CRM** | **Done Sep 16** — referral link emailed (`EXP9Z8S`, thread `19fd2c38f89979fa`). Spiffy promo attach to checkout 34573 may still be manual. |
 | **4** | **Two affiliate links** (banking + payroll) | **Site** lifecycle email + backlist / S Corp page | **Mercury + Gusto Impact applied Aug 14**; **third ping Sep 1**. **OnPay/ADP backup not sent** (deferred). Links not live. 📖 [affiliate-partners.md](../docs/affiliate-partners.md) |
-| **5** | **Ads — Sep 16 hold + Sep 29–30 pre-register** | **new-york-pllc** | **Hold $105.** Sep 29–30: matured Sep 2–21 ≥0.7 conv/day and ≤$135 blended, eligible ≥4,300/wk → **$120 Oct 1**; >$150 or <0.55/day → **$90**; else hold. **`03_ForeignQual_US` ENABLED Sep 16** on portfolio; CA/CO RSAs pending, five original state groups approved. **Bing blocked Sep 23** (address mismatch; update NY registration, then resubmit via support). **$985 February.** Gate 2 Sales exact-neg **filed, not applied**. |
-| **6** | **SEO — Headway/Alma comparison live** | **new-york-pllc** | `/headway-alma-vs-own-panels` in sitemap + footer Sep 19. Resume 1 piece/week elsewhere. **MSO unpublished**. |
-| **7** | **Big B2B outreach — paused** | **PLLC-CRM** | Advocate/referral side keeps running until 1–4 are done. **Platform segment:** Headway/Alma as formation partners (see CAQH section). |
+| **5** | **Ads — hold $105 + dual Nov 1** | **new-york-pllc** | **Hold $105.** Nov 1: legacy order-count branch **and** profit/marginal-CPA memo. Oct 5 government-docs policy review (P1-09). **No automatic January $10K.** **`03` enabled.** Bing blocked. **$985 Nov** (see [price-test-985.md](../docs/price-test-985.md)). |
+| **6** | **SEO — Headway/Alma comparison live** | **new-york-pllc** | `/headway-alma-vs-own-panels` live Sep 19. **One partner-usable asset per 90-day period** (P2-10), not a weekly cadence. **MSO unpublished**. |
+| **7** | **B2B partner outreach — active** | **PLLC-CRM + Sid** | First sends Oct 19; include wholesale/OOS formation firms. Productive partner = paid order in 90d. Platform (Headway/Alma) secondary. |
 | **8** | **MSO path** | **new-york-pllc** + CRM | Offer locked. CRM manual pair workflow **done Sep 16**. **Do not launch public checkout.** Draft at [`web/src/unpublished/ny-mso/`](../web/src/unpublished/ny-mso/). No ads. 📖 [mso-msa.md](features/mso-msa.md) |
 
 ---
 
-## CAQH after Sep 16 replies (hold remaining ~118)
+## CAQH after Sep 16 replies (historical)
+
+**Paused Oct 14, 2026.** EIN-obtained auto-email is **OFF**. $0 in the 2028 base case. The paragraphs below are the Sep outcome record, not an active send plan.
 
 Sep 16 sent 23 ($499 + hosted invoice): 3 checkout-interest + 20 `FORMATION_COMPLETE`. Same-day inbound: Julianne Spano declined (Alma/Headway already credential her); Arielle Avenia already billed insurance under the practice for five months; Christina Ercole has had CAQH ~11.5 years and just re-attested; Ari Morgenstern asked about the monthly VM fee, not the setup. Zero paid. The backlist did its job: it showed which products fit whom. Do not blast the leftover ~118 with the same letter.
 
@@ -82,9 +87,11 @@ Sep 16 sent 23 ($499 + hosted invoice): 3 checkout-interest + 20 `FORMATION_COMP
 
 **The market test is the attach rail, not the backlist.** Timing was the advantage: catch people at EIN-obtained, before they DIY or sign an aggregator. **Sep 22: that rail is on.** A healthcare PLLC's first crossing to EIN Obtained sends the $499 cohort email once (`CAQH_EIN_ATTACH_ENABLED=true`). No blast of people already past that step. When the invoice is paid, `contact@nypllc.com` gets one alert. That cohort decides whether CAQH is a product or a page.
 
-**Strategic flip:** Headway and Alma are credentialing competitors and formation partners. They onboard thousands of therapists who need entities first. File them under the B2B plan's **platform** segment. What killed Julianne's $499 sale is a channel for the $885 product. CRM: [b2b-partners.md](../../PLLC-CRM/memory-bank/features/b2b-partners.md).
+**Strategic flip:** Headway and Alma are credentialing competitors and formation partners for clinicians who **decided** to form a professional entity (with adviser on structure). File under B2B **platform** segment; do not pitch “PLLC first” as a universal rule. CRM: [b2b-partners.md](../../PLLC-CRM/memory-bank/features/b2b-partners.md).
 
-**Resized bar (pre-committed so nobody moves goalposts):** original C1 (10 paid backlist setups by ~Oct 19) is very unlikely as framed, and that is fine. New bar: **3–5 paid credentialing orders from any motion** (attach, reframed backlist, or interest follow-ups) **by end of October.** Hit it and re-underwrite the line with real data. **Zero across all motions by Halloween:** CAQH drops to passive (page + checkbox); engineering hours go to the B2B restart; the 2028 model loses its ~$55K CAQH line (~5% of a $1M year). The goal was never hostage to any single rung.
+**This October bar is retired.** The product paused on Oct 14 with $0 in the base case. Do not restart sends to hit 3–5 paid orders.
+
+**Resized bar (Sep writeup, not current):** original C1 (10 paid backlist setups by ~Oct 19) was very unlikely as framed. The then-new bar was **3–5 paid credentialing orders from any motion by end of October**, else drop the ~$55K CAQH line.
 
 ---
 
@@ -92,19 +99,21 @@ Sep 16 sent 23 ($499 + hosted invoice): 3 checkout-interest + 20 `FORMATION_COMP
 
 | When | What |
 |------|------|
-| **September** | Ads **Sep 15** eligible readout; **`03` + Bing Sep 15–22**; **CAQH remaining ~118 held** until three copy versions + Headway/Alma page; **restart partner outreach** after CAQH copy/page + EXP + affiliates; file Headway/Alma as **B2B platform** (formation partners, credentialing competitors); **$985 → February**; OP deficiencies `#4` and PLLC vs LLC `#5` **launched Sep 4**; **MSO stays unpublished** until Sid launches |
-| **October** | First **renewal charges**; compliance-plan test; **Oct 1** tCPA ~$120 if mCPA <$160; mobile + LP calculator. **CAQH:** 3–5 paid credentialing orders from any motion by end of month. Zero by Halloween → passive (page + checkbox), engineering hours to B2B restart, drop ~$55K from 2028 mix |
-| **Nov 1** | Paid-volume **verdict** (30–40 vs 20–25) |
-| **November** | Last ads changes **by Nov 14** (unless already capped), then **freeze** through Dec 1 |
-| **December** | Preload budgets |
-| **January** | Run at full force (hedge, not proven 4×) |
-| **After Jan** | Scale what worked; decide on payer enrollment, wholesale partners, maybe **New Jersey** |
+| **Oct 16 – Jan 13** | **90-day checklist** is the active task list ([nypllc-90-day-execution-checklist.md](../nypllc-90-day-execution-checklist.md)). P1: baseline, Oct 23 RA, B2B sends Oct 19+, $985 design → **Nov** launch. CAQH **paused** ($0 base). |
+| **September** *(historical)* | `03` enabled; Bing blocked; OP `#4`/`#5` live Sep 4 |
+| **October** | Direct RA **Oct 23** charge; compliance-plan test; mobile + LP calculator. **CAQH paused Oct 14** — no outreach bar |
+| **Nov 1** | **Dual ads gate:** legacy order-count branch **and** profit / marginal-CPA memo ([decision-log.md](../decision-log.md)) |
+| **Nov 2–4** | **$985** retail test (if P1-12 go) — not February |
+| **November** | Last ads changes **by Nov 14** (unless capped), then **freeze** through Dec 1 |
+| **December** | Preload budgets; **no automatic $10K January** |
+| **January** | Spend only if P3-06 evidence (demand, margin, tracking, capacity) |
+| **After Jan** | Scale what worked; wholesale/OOS partners; optional NJ |
 
 ---
 
 ## Ads freeze scorecard (Sep 3 2026)
 
-January = **frozen machine at full force**, not a rebuild. **Nov 1** is the paid-ceiling verdict.
+**Superseded for January and $985** by the Oct 16 decision log. Nov 1 is a **dual** memo. January is **not** automatic full force. The dated rows below are the Sep 3 scorecard plus later corrections in the “Later” section.
 
 | Date | Rule |
 |------|------|
@@ -114,13 +123,13 @@ January = **frozen machine at full force**, not a rebuild. **Nov 1** is the paid
 | **Sep 29–30** | Pre-register $120: matured Sep 2–21 ≥0.7/day ≤$135, eligible ≥4,300/wk → **$120 Oct 1**. **Sep 28 SOP: hold $105** (0.69/day, eligible ~3.5k). |
 | **Oct 1** | Apply Sep 29–30 only. Do not raise on the Sep 16 pull. |
 | **Oct** | Mobile CVR + publication-cost calculator on LPs (not List E / not county shop). |
-| **Nov 1** | Oct **30–40** paid → 50–60/mo path alive. Oct **20–25** → **50–60/mo does not exist at prices worth paying.** |
+| **Nov 1** | **Dual memo** (order-count branch + profit/marginal CPA). See checklist P2-08. |
 | **Nov 14** | Last structural ads change (unless Nov 1 already stopped). |
 | **Nov 15 – Dec 1** | **FREEZE.** |
-| **Dec–Jan** | Preload; January at full force. |
-| **February** | $985 price test. |
+| **Dec–Jan** | Preload; January spend conditional (no auto $10K surge). |
+| **Nov 2–4** | **$985** retail test (supersedes February row). |
 
-Still hold: Discovery demotion · MSO ads · B2B blast. **`03` is live.** **Bing is no longer a calendar hold; it is blocked** until the business registration address matches the Microsoft Advertising account.
+Still hold: Discovery demotion · MSO ads. **B2B outreach active.** **`03` is live.** **Bing blocked** until NY registration matches Microsoft account.
 
 ---
 

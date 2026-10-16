@@ -6,6 +6,7 @@ export const CLICK_ATTR_PARAM_KEYS = [
   'gclid',
   'wbraid',
   'gbraid',
+  'msclkid',
   'utm_source',
   'utm_medium',
   'utm_campaign',

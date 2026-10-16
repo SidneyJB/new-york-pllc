@@ -91,7 +91,7 @@ Revisit in-house "S Corp compliance MRR" only if: referral volume proves demand 
 # Lever 4 — AOV & Pricing Suite
 
 ## Component A — the $985 price test (the calendar-constrained one)
-**Slot:** **Deferred to February (decision Sep 1 2026).** Late September is not a clean window (Gate 1 fail, CPA $128, no ladder-free three-week stretch). Never during a ladder step or January.
+**Slot (superseded Oct 16 2026):** **Nov 2–4** retail test after P1-12 go — see [decision-log.md](decision-log.md), [90-day checklist](nypllc-90-day-execution-checklist.md) P1-11 / P2-01, and [docs/price-test-985.md](docs/price-test-985.md). *Historical note:* Sep 1 had deferred to February; expert + checklist moved calendar forward. Never during a ladder step or blind January surge.
 **Design:** sequential, not split — 3 weeks sitewide at $985 with every price-mentioning ad asset updated the same day (concurrent A/B breaks the ad↔page price-match rule). Judge revenue-per-visitor and CVR against the trailing 6-week baseline.
 **The pre-registered math:** standard-order contribution goes $513 → $613 (+19.5%), so the contribution-basis breakeven is CVR retention of 83.7%. Decision rule: retention ≥90% → adopt $985; 84–90% → extend 2 weeks; <84% → revert same-day. Even a 15% CVR drop is roughly profit-neutral — the test is heavily asymmetric in your favor.
 **Rollout list if adopted:** ads assets, partner materials (B2B referral checkout moves $860 → $960 or the discount deepens — decide before launch), site, bundle math below.

@@ -21,7 +21,7 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 | **1 — RA auto-renewal + Compliance Plan ($249/yr)** | Checkout + confirmation **auto-renewal disclosure** copy | **LIVE Aug 25** — T-30/T-7/receipt cron; Stripe retries, CoC cancel, Compliance upgrade. Monitor ~Sep 22 T-30s |
 | **2 — Long-tail shelf** | Spiffy checkouts + `/services` index + SEO pages per SKU; **banking = Mercury** (EIN email) | DOS filing automation for amendments, etc. |
 | **3 — S Corp monetization** | **Gusto Impact** payroll affiliate in S-Corp pipeline email + product page; S Corp calculator (SEO tool) | S-Corp-Docs-Faxed email pipeline |
-| **4 — AOV suite** | $985 price test **deferred to Feb** (Sep 1); S Corp checkbox live, DBA/CAQH bumps, Practice Launch bundle, VM copy | — |
+| **4 — AOV suite** | **$985 test Nov 2026** ([price-test-985.md](../../docs/price-test-985.md)); S Corp checkbox live, DBA bumps, VM copy; CAQH **paused** ($0 base) | `retailListPriceCents` + `FORMATION_RETAIL_LIST_PRICE_CENTS` env |
 
 **Companion plans:** [Ads v2](../../nypllc-google-ads-operating-plan.md) · [SEO moat](../../nypllc-seo-content-moat-plan.md) · CAQH v1 · B2B v1 (CRM).
 
@@ -35,7 +35,7 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 
 ## Key cross-deps (website)
 
-- **$985 price test** — ads plan §4.4 slot only (late Sep or Feb); update **all** price-mentioning ad assets same day as site.
+- **$985 price test** — **Nov 2–4** after P1-12 go ([90-day checklist](../nypllc-90-day-execution-checklist.md) P1-11 / P2-01); update **all** price-mentioning ad assets same day as site (`NEXT_PUBLIC_FORMATION_LIST_PRICE` + CRM env).
 - **Shelf pages** — SEO plan editorial map items #17–18 (CoGS, amend articles); good-standing cross-sell in CAQH flow.
 - **S Corp calculator** — shared with SEO plan Sep calendar.
 - **VM checkout copy** — Component E; target attach 27% → 32%.

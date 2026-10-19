@@ -1,6 +1,6 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-10-03
+**Last updated:** 2026-10-18
 
 **Calendar (Oct 16, 2026):** $985 is a **November** test, not February. January is not an automatic budget surge. See [decision-log.md](decision-log.md). Rows below are the change history.
 
@@ -9,6 +9,25 @@
 - Customer: NYPLLC (`1529880213`)
 - Live: `Sales-Search-1` + `01_Core_Exact_NY` + `02_Professions_NY` + **`03_ForeignQual_US`** (ENABLED)
 - `03_ForeignQual_US` attached to portfolio `12148056412` (Target CPA $105 hold)
+
+---
+
+## Changes on 2026-10-18 — Weekly SOP §7.1 (week ending Oct 18)
+
+Pull: [`ads-pull-2026-10-18-weekly-sop/`](ads-pull-2026-10-18-weekly-sop/) · writeup [`WEEKLY-SOP.md`](ads-pull-2026-10-18-weekly-sop/WEEKLY-SOP.md)
+
+| Metric (window) | Result |
+|---|---|
+| 7d (Oct 12–18) | $847 / **10** click-attr / CPA **$85** |
+| 30d | **$122** (23 / $2,796) |
+| October MTD | **$1,904 / 19 / $100** (Oct 1–18) |
+| Sales eligible | ISO week Oct 12 **3,640** (Sep 28 was 4,364) |
+| Ads↔CRM | 30d **23 vs 21** (**+9.5%**) · 7d **10 vs 12** |
+| Self-block | **0** |
+| Policy | Same 3 enabled `01` ads DISAPPROVED |
+| `03` | 7d budget-lost **5.5%** on the $15/day cap; left alone |
+| Decision | **Hold $105** |
+| Account changes | **None** |
 
 ---
 

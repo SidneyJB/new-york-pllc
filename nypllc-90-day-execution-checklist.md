@@ -62,14 +62,14 @@ Done when: every required work package has an owner, urgent work has capacity, a
 
 Owner: Agent. Support: Ops. Due: October 20. Required. Dependency: P1-01 and authorized system access.
 
-- [ ] Export formation orders from April 1 through October 15, plus prior records needed to understand recurring cohorts. Include order ID, customer/entity ID, order date, SKU, profession, price, discount, partner, acquisition fields, payment method, and fulfillment stage.
-- [ ] Link invoices, installments, payments, refunds, disputes, and outstanding balances to orders. Retain order value and collected cash as separate fields.
-- [ ] Export advertising cost by date and campaign, using a fresh pull rather than the October 3 snapshot.
-- [ ] Export newspaper/state costs and payment-processing fees. Identify whether each cost is actual, estimated, or missing.
-- [ ] Export VM and direct-RA subscriptions with product, customer/entity ID, start date, trial end, billing interval, amount, cancellation status, last successful charge, and next due date.
-- [ ] Export partner records, referral codes, attributed orders, payout amounts, payout events, and the last real relationship activity.
-- [ ] Deduplicate by stable IDs; distinguish multiple entities owned by one person from duplicate orders. Explain the 51-versus-52 September order discrepancy.
-- [ ] Record extraction time, timezone, filters, exclusions, and row counts. Keep sensitive payment and identity data in the authorized systems; use redacted IDs in the analysis.
+- [x] Export formation orders from April 1 through October 15, plus prior records needed to understand recurring cohorts. Include order ID, customer/entity ID, order date, SKU, profession, price, discount, partner, acquisition fields, payment method, and fulfillment stage. Evidence: [orders.csv](../PLLC-CRM/crm/reports/p1-2026-10-18/orders.csv) · [extraction](../PLLC-CRM/crm/reports/p1-2026-10-18/extraction.md).
+- [x] Link invoices, installments, payments, refunds, disputes, and outstanding balances to orders. Retain order value and collected cash as separate fields. Evidence: [order-payments.csv](../PLLC-CRM/crm/reports/p1-2026-10-18/order-payments.csv). Disputes are not stored in the CRM.
+- [x] Export advertising cost by date and campaign, using a fresh pull rather than the October 3 snapshot. Evidence: [P1 readout](../PLLC-CRM/crm/reports/p1-2026-10-18/README.md) · [weekly SOP](ads-pull-2026-10-18-weekly-sop/WEEKLY-SOP.md).
+- [x] Export newspaper/state costs and payment-processing fees. Identify whether each cost is actual, estimated, or missing. Evidence: [order-costs.csv](../PLLC-CRM/crm/reports/p1-2026-10-18/order-costs.csv). Newspaper and cert-pub lines are flat estimates. Actual Stripe fees and paid newspaper invoices are missing.
+- [x] Export VM and direct-RA subscriptions with product, customer/entity ID, start date, trial end, billing interval, amount, cancellation status, last successful charge, and next due date. Evidence: [subscriptions-vm-ra.csv](../PLLC-CRM/crm/reports/p1-2026-10-18/subscriptions-vm-ra.csv).
+- [x] Export partner records, referral codes, attributed orders, payout amounts, payout events, and the last real relationship activity. Evidence: [partners.csv](../PLLC-CRM/crm/reports/p1-2026-10-18/partners.csv) · [partner-payouts.csv](../PLLC-CRM/crm/reports/p1-2026-10-18/partner-payouts.csv).
+- [x] Deduplicate by stable IDs; distinguish multiple entities owned by one person from duplicate orders. Explain the 51-versus-52 September order discrepancy. Evidence: [extraction](../PLLC-CRM/crm/reports/p1-2026-10-18/extraction.md). September paid formations: 51.
+- [x] Record extraction time, timezone, filters, exclusions, and row counts. Keep sensitive payment and identity data in the authorized systems; use redacted IDs in the analysis. Evidence: [extraction](../PLLC-CRM/crm/reports/p1-2026-10-18/extraction.md).
 
 Done when: the files reconcile sufficiently to produce the first scorecard, with every unresolved discrepancy listed rather than hidden.
 
@@ -79,9 +79,9 @@ Owner: Agent. Decision owner: Sid. Review: accountant as needed. Due: October 23
 
 - [ ] Select at least 20 completed orders spanning the main professions, retail/partner sales, paid/unpaid acquisition, and installment/upfront payments. Trace those cases manually to validate the larger analysis.
 - [ ] Calculate customer receipts, discounts, refunds, bad-debt allowance, government fees, publication cost, processing fees, and fulfillment labor for each order.
-- [ ] Explain precisely how the historical $476 figure differs from the current $520. Do not average them without reconciling their definitions.
-- [ ] Separate costs that vary with another order from current fixed payroll and overhead. Show where allocated labor sits so it is not subtracted twice.
-- [ ] Compare retail, referral, and wholesale contribution. Treat a wholesale discount as reduced revenue; separately record any additional cash referral payment.
+- [x] Explain precisely how the historical $476 figure differs from the current $520. Do not average them without reconciling their definitions. Evidence: [scorecard](scorecards/2026-10-18-weekly.md).
+- [x] Separate costs that vary with another order from current fixed payroll and overhead. Show where allocated labor sits so it is not subtracted twice. Evidence: [scorecard](scorecards/2026-10-18-weekly.md). Payroll stays out of the unit figure.
+- [x] Compare retail, referral, and wholesale contribution. Treat a wholesale discount as reduced revenue; separately record any additional cash referral payment. Evidence: [scorecard](scorecards/2026-10-18-weekly.md).
 - [ ] Measure installment completion by sufficiently mature cohort. Separate receivables not yet due from failed collections and write-offs.
 - [ ] Calculate contribution by major profession and product where sample size allows. Include sample counts and a caution on small groups.
 - [ ] Reconstruct a monthly operating P&L that reconciles with the unit model. Allocate shared expenses consistently and identify costs absent from the current forecast.
@@ -93,9 +93,9 @@ Done when: Sid can explain the contribution on a normal retail order, a wholesal
 
 Owner: Ops. Support: Agent. Decision owner: Sid. Card check due: October 20. First-charge check: October 23. Required. Dependency: subscription access; do not wait for the entire baseline project.
 
-- [ ] Identify the actual first October 23 renewal and the 97 renewals listed for November–January. Refresh the list rather than assuming the counts are unchanged.
+- [x] Identify the actual first October 23 renewal and the 97 renewals listed for November–January. Refresh the list rather than assuming the counts are unchanged. Evidence: [P1 readout](../PLLC-CRM/crm/reports/p1-2026-10-18/README.md). One Oct 23 renewal; Nov–Jan is 95 trialing + 4 active + 1 canceled.
 - [ ] Confirm customer/entity matching, agreed product, renewal amount, due date, recorded consent, and notices already sent.
-- [ ] Verify that the October 16 T-7 notice for the first renewal follows the existing approved workflow.
+- [x] Verify that the October 16 T-7 notice for the first renewal follows the existing approved workflow. Evidence: [P1 readout](../PLLC-CRM/crm/reports/p1-2026-10-18/README.md) · [launch status](../PLLC-CRM/crm/docs/direct-ra-launch-status.md). Sent Oct 15, add-a-card subject.
 - [ ] Check payment-method availability, failed prior charges, invoice settings, Smart Retries/card-update settings where available, and the customer-facing statement descriptor.
 - [ ] Find customers with active VM. Check whether RA is included under their agreement and whether a separate RA renewal has been suppressed or otherwise correctly handled.
 - [ ] Verify that cancellation/stop-charge choices remain honored. Distinguish stopping billing from changing the state's agent or mailing-address record.
@@ -109,7 +109,7 @@ Done when: the due population is reconciled, the first renewal outcome is docume
 
 Owner: Ops. Support: Agent. Decision owner: Sid. Due: October 27, ahead of the October 31 gate. Required. Dependency: P1-02.
 
-- [ ] Separate paid-active, unpaid-trial, past-due, canceled, and incomplete-checkout records. Do not count the 67 pending checkouts as subscribers.
+- [x] Separate paid-active, unpaid-trial, past-due, canceled, and incomplete-checkout records. Do not count the 67 pending checkouts as subscribers. Evidence: [scorecard](scorecards/2026-10-18-weekly.md). 89 active; 16 trialing; pending checkouts excluded.
 - [ ] Match VM and RA by entity and agreement. Document which services are included and eliminate forecast overlap.
 - [ ] For at least one normal operating week, record mail volume, receiving/sorting/scanning/forwarding time, customer support, supplies, software, and payment costs.
 - [ ] Separate customer-reimbursed postage from service revenue and unreimbursed costs. Review low-volume and high-volume accounts separately.
@@ -125,14 +125,14 @@ Done when: there is one product definition, one actual paying-subscriber count, 
 
 Owner: Agent. Decision owner: Sid. First version: October 23. Required. Dependency: enough of P1-02/P1-03 to expose gaps.
 
-- [ ] Produce a simple weekly table before building reporting automation. The first report may be a manual export and calculation.
-- [ ] Show formation orders, contracted sales, collected cash, refunds, unpaid installments, contribution before acquisition, acquisition cost, and contribution after acquisition.
+- [x] Produce a simple weekly table before building reporting automation. The first report may be a manual export and calculation. Evidence: [scorecard](scorecards/2026-10-18-weekly.md).
+- [x] Show formation orders, contracted sales, collected cash, refunds, unpaid installments, contribution before acquisition, acquisition cost, and contribution after acquisition. Evidence: [scorecard](scorecards/2026-10-18-weekly.md).
 - [ ] Show orders by one primary source, with unknown kept as unknown. Retain partner involvement and assisted touches in separate fields.
 - [ ] Show eligible visitors, checkout starts, successful first payments, payment errors, captured abandoners, emails sent, and subsequent purchases.
 - [ ] Show productive partners, first partner orders, repeat partner orders, and outreach/conversation counts by segment.
 - [ ] Show paying VM customers, new starts, churn, attach rate, contribution, RA renewals due, matured paid-renewal rate, and billing exceptions.
 - [ ] Show fulfillment touch time, avoidable rework, customer-action backlog, and government-wait backlog separately.
-- [ ] Mark every assumed or immature figure. Add a three-line weekly decision note: what changed, what is uncertain, and what action follows.
+- [x] Mark every assumed or immature figure. Add a three-line weekly decision note: what changed, what is uncertain, and what action follows. Evidence: [scorecard](scorecards/2026-10-18-weekly.md).
 
 Done when: a 30-minute review can identify the most important growth bottleneck and the most important operational exception.
 
@@ -654,7 +654,7 @@ For pricing, an illustrative 10% improvement in contribution per visitor can be 
 
 ## Financial model checks
 
-- [ ] Reconcile the prior $476 and $520 formation economics before using either in a forecast.
+- [x] Reconcile the prior $476 and $520 formation economics before using either in a forecast. Evidence: [scorecard](scorecards/2026-10-18-weekly.md) · [extraction](../PLLC-CRM/crm/reports/p1-2026-10-18/extraction.md). Apr 1–Oct 15 book is $519 per order before ads and about $468 after Google spend is spread across all orders.
 - [ ] Hold volume loss and recurring-customer loss together in price scenarios.
 - [ ] Use actual average subscribers during the year, not only December subscribers.
 - [ ] Recognize a discounted annual VM plan at its actual revenue and cost. At $10 monthly servicing cost, $540 annual revenue yields $420 annual contribution, versus $480 at $50 monthly.

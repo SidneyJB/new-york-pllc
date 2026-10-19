@@ -1,0 +1,19 @@
+change_event.change_date_time,change_event.user_email,change_event.client_type,change_event.change_resource_type,change_event.resource_change_operation,change_event.changed_fields,change_event.old_resource,change_event.new_resource,change_event.campaign,change_event.ad_group
+2026-10-02 16:45:06.256943,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/426355376331""
+  id: 426355376331
+}
+",,
+2026-10-02 16:45:06.405935,contact@nypllc.com,INTERNAL_TOOL,ASSET,CREATE,"paths: ""id""
+paths: ""resource_name""
+","asset {
+}
+","asset {
+  resource_name: ""customers/1529880213/assets/426355383633""
+  id: 426355383633
+}
+",,

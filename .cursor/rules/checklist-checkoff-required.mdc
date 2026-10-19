@@ -1,0 +1,34 @@
+---
+description: Record finished checklist steps and new operating numbers in the owning file the same turn. Do not leave them only in chat.
+alwaysApply: true
+---
+
+# Record it in the file (HARD)
+
+Chat is not the record. If a result belongs in a checklist, scorecard, decision log, extraction note, SOP, or launch-status doc, write it there before the turn ends.
+
+## Checklist steps
+
+When a step in [nypllc-90-day-execution-checklist.md](../../nypllc-90-day-execution-checklist.md), or another execution checklist, is fully done:
+
+- Mark that bullet `- [x]` in the same turn.
+- Link the evidence file on the same line.
+- Leave a partial step `- [ ]`. Do not check a parent package because one bullet inside it is done.
+
+```markdown
+- [x] Export advertising cost by date and campaign. Evidence: [weekly SOP](ads-pull-2026-10-18-weekly-sop/WEEKLY-SOP.md).
+```
+
+## Numbers and status
+
+When a pull, export, or review changes a figure the business is using, update the file that owns that figure. Do not stop after saying it in the reply.
+
+| Result | Write it in |
+|---|---|
+| Weekly orders, cash, contribution, ads | `scorecards/` for that week |
+| Baseline export totals | the extraction note next to the CSVs |
+| A decision that replaces an older plan date or target | `decision-log.md` |
+| Ads SOP result | that week's `WEEKLY-SOP.md` and `google_ads_changes.md` |
+| A billing or launch fact | the matching CRM status doc |
+
+The Oct 18 miss: $519 per order and $468 after ads were reported in chat only. They belonged in the extraction note and the weekly scorecard in that same turn.

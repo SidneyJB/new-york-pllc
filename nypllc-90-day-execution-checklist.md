@@ -192,8 +192,8 @@ Owner: Sid. Support: Agent for preparation; Ops for handoffs. Due: first sends O
 - [ ] Build a first list of 20–25 firms across clinician-focused accountants, small law firms, billing/practice consultants, and out-of-state formation providers. Mix warm reactivation with new prospects, but label each.
 - [ ] Verify the relevant contact and the reason the firm may encounter New York professional-entity work. Do not fill the list with generic businesses that lack that demand.
 - [ ] Prepare a short service sheet: scope, all-in pricing, controlled turnaround commitments, status reporting, handoff process, client relationship, and escalation contact.
-- [ ] Prepare two concise outreach approaches for different segments. Lead with administrative work removed and client reliability; discuss economics after fit is established.
-- [ ] Sid sends the initial messages. Schedule no more than one unsolicited follow-up around day 7, consistent with the existing two-touch plan. Respect opt-outs.
+- [x] Prepare two concise outreach approaches for different segments. Lead with administrative work removed and client reliability; discuss economics after fit is established. Evidence: [Wave 3](../PLLC-CRM/crm/reports/b2b-partner-outreach-wave3-2026-10-19.md).
+- [ ] Sid sends the initial messages. Schedule no more than one unsolicited follow-up around day 7, consistent with the existing two-touch plan. Respect opt-outs. Partial Oct 19: 16 sent from `contact@nypllc.com` (13 referral, Pact CPA, Sheldon Richards, and Glenn Kempa wholesale). Evidence: [send log](../PLLC-CRM/crm/reports/b2b-partner-outreach-wave3-2026-10-19-send.json). Still unsent, no public email: Clarity and Empire Risk. Follow-up around Oct 26 not sent.
 - [ ] Seek 3–5 substantive conversations. Ask how many relevant cases the firm handled in the last 90 days and how it handles them now.
 - [ ] Ask suitable prospects for one live case. Record objections and next steps even when the prospect declines.
 

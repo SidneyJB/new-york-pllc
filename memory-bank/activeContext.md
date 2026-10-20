@@ -32,11 +32,13 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 📖 **Operational SoT:** [**nypllc-90-day-execution-checklist.md**](../nypllc-90-day-execution-checklist.md) · [decision-log.md](../decision-log.md) · [scorecards/](../scorecards/) · [ops/90-day-task-board.md](../ops/90-day-task-board.md)  
 📖 **Strategy / hurdle:** [**integrated operating plan v3**](../nypllc-integrated-operating-plan.md) §6 ($1.053M / $1.179M). Sprint calendar: [expansion-next-steps.md](expansion-next-steps.md).
 
+**P1-01 closed Oct 20:** [ops/p1-01-ownership.md](../ops/p1-01-ownership.md) (Sidney is Sid and Ops; calendar holds; capacity).
+
 **P1 (Oct 16–29):**
 
 1. **Economics baseline** — CRM `baseline-financial-export.ts` + weekly scorecard template; formation contribution per P1-03.
-2. **Direct RA** — Oct 23 first charge + descriptor verify; T-7 Oct 16. [direct-ra-launch-status.md](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
-3. **B2B — active** — first partner sends **Oct 19**; include OOS/wholesale formation firms; productive partner = paid order in 90d. (**PLLC-CRM** + Sid)
+2. **Direct RA** — **P1-04 card-check done Oct 20**; Oct 23 live charge + descriptor verify remains. T & C still **no PM** on file. [P1-04 preflight](../../PLLC-CRM/crm/reports/p1-04-2026-10-20/README.md) · [direct-ra-launch-status.md](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
+3. **B2B — active** — first sends **Oct 19** (16). P1-10 prep done Oct 20: [partner review](../../PLLC-CRM/crm/reports/p1-10-2026-10-20/partner-review.md), [first 25](../../PLLC-CRM/crm/reports/p1-10-2026-10-20/first-25-firms.md), [service sheet](../../PLLC-CRM/crm/reports/p1-10-2026-10-20/service-sheet.md). Conversations and live cases still Sid. (**PLLC-CRM** + Sid)
 4. **$985 test** — design in [docs/price-test-985.md](../docs/price-test-985.md); launch window **Nov 2–4** after P1-12 (not February).
 5. **Ads** — **Hold $105**; **Nov 1 dual gate** (legacy order-count + profit/marginal CPA memo). Oct 5 gov-docs policy review (P1-09). No auto **$10K January**.
 6. **Trust copy (P1-08)** — `TRUST_MARKETING` + live GBP on order / order-llc / contact; ads claim **25,000+** where used.

@@ -19,11 +19,14 @@
 
 For scorecards and hurdle comparisons unless Sid adopts a different accountant definition:
 
-- **Operating profit (business):** Formation and service **collected revenue** (and expected collectible per scorecard rules) minus **fulfillment COGS**, **payment processing**, **cash referral/wholesale discounts**, and **advertising** treated as period expense in the scorecard.
+- **Operating profit (business):** Formation and service **collected revenue** (and expected collectible per scorecard rules) minus **fulfillment COGS**, **payment processing**, **cash referral/wholesale discounts**, **advertising**, **material financing cost**, and **shared overhead**. **Business entity income tax** is below this line (not inside unit contribution).
 - **Formation contribution (unit):** Revenue on chosen basis minus variable fulfillment, fees, refunds/allowance, and **direct** labor allocated per P1-03 — **not** double-counted in separate overhead lines.
 - **Owner compensation:** Gusto salary/distributions tracked **separately** from operating profit unless explicitly included in a “net to owner” view.
 - **Personal taxes / owner distributions:** Out of scope for the weekly scorecard; finance planner repo handles personal.
+- **Financing:** No business-debt interest is in the October 2026 baseline. If any appears, deduct it once in operating profit, not again in the per-order figure.
 - **Shared overhead:** “Additional overhead allowance” in hurdle table (~$60K–$75K) is **not** already in per-order contribution unless P1-03 allocates it there.
+
+Named owners, calendar holds, and Period 1 capacity: [ops/p1-01-ownership.md](ops/p1-01-ownership.md).
 
 ## Task board
 

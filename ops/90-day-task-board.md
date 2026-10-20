@@ -4,17 +4,21 @@
 **Decisions:** [decision-log.md](../decision-log.md)  
 **Evidence:** [scorecards/](../scorecards/)
 
-| Owner | Role |
-|-------|------|
-| Sid | Commercial decisions, partner sends, pricing, growth budget |
-| Ops | Fulfillment, mail, subscriptions, billing exceptions |
-| Agent | Exports, analysis, drafts, small builds |
+| Owner | Person | Role |
+|-------|--------|------|
+| Sid | Sidney Brodsky | Commercial decisions, partner sends, pricing, growth budget |
+| Ops | Sidney Brodsky | Fulfillment, mail, subscriptions, billing exceptions |
+| Agent | Technical operator (this workspace) | Exports, analysis, drafts, small builds |
 
-## Calendar (standing)
+Detail and system access: [p1-01-ownership.md](p1-01-ownership.md).
 
-- Two **partner-sales** blocks / week (Sid)
-- **Scorecard** review 30 min / week (Sid + Agent)
-- Daily billing scan ~15 min (Ops)
+## Calendar (standing, ET)
+
+Recorded October 20, 2026. These holds are the working calendar.
+
+- **Partner sales:** Tuesday 10:00–12:00 and Thursday 10:00–12:00 (Sid)
+- **Scorecard:** Monday 9:00–9:30 (Sid + Agent). Next: October 27.
+- **Billing scan:** first 15 minutes of each working day (Ops)
 
 ## Package status
 
@@ -41,6 +45,7 @@ Run from `PLLC-CRM/crm` with production `DATABASE_URL`:
 - `npx tsx scripts/report-vm-ra-overlap.ts`
 - `npx tsx scripts/report-productive-partners.ts`
 - `npx tsx scripts/ra-renewal-card-check.ts`
+- `npx tsx scripts/p1-04-preflight-export.ts` (P1-04 evidence → `reports/p1-04-YYYY-MM-DD/`)
 - `npx tsx scripts/orders-attribution.ts` (attribution rollup; extend for cash linkage per P1-02)
 
 **Analytics (manual):** [funnel-device-report.md](../docs/funnel-device-report.md)

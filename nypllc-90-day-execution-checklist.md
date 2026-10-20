@@ -48,13 +48,13 @@ Preserve the existing November 15–December 1 structural ads/landing-page freez
 
 Owner: Sid. Support: Ops and Agent. Due: October 16. Required. Dependency: none.
 
-- [ ] Name the actual person responsible for each owner role; verify which systems each person can access.
-- [ ] Reserve two recurring partner-sales blocks and one 30-minute scorecard meeting on the team's working calendar.
-- [ ] Assign capacity for exports, billing checks, and a small checkout-fix sprint. If staffing cannot support the list, mark lower-priority packages Waiting rather than silently assigning everything to Sid.
-- [ ] Write the goal's accounting definition: operating profit, treatment of owner compensation, shared expenses, financing costs, and business taxes. Keep personal taxes and owner distributions clearly distinguished.
-- [ ] Create a decision log with date, issue, options, evidence, chosen action, owner, next review, and rollback condition.
-- [ ] Record the proposed changes to B2B timing, the price-test calendar, and the advertising decision rule. Make the adopted version explicit.
-- [ ] Create one task board or shared checklist from this document. Add evidence links as work is completed.
+- [x] Name the actual person responsible for each owner role; verify which systems each person can access. Evidence: [P1-01 ownership](ops/p1-01-ownership.md). Sidney Brodsky is Sid and Ops. Agent is the technical operator. CRM, Stripe, Ads API, and Gmail confirmed Oct 16–20. Microsoft Advertising remains blocked.
+- [x] Reserve two recurring partner-sales blocks and one 30-minute scorecard meeting on the team's working calendar. Evidence: [P1-01 ownership](ops/p1-01-ownership.md). Tue/Thu 10:00–12:00 ET partner sales; Monday 9:00–9:30 ET scorecard.
+- [x] Assign capacity for exports, billing checks, and a small checkout-fix sprint. If staffing cannot support the list, mark lower-priority packages Waiting rather than silently assigning everything to Sid. Evidence: [P1-01 ownership](ops/p1-01-ownership.md). Agent owns exports and P1-09; Ops owns the Oct 23 charge; CAQH, MSO ads, Bing second account, and advocate cron are Waiting.
+- [x] Write the goal's accounting definition: operating profit, treatment of owner compensation, shared expenses, financing costs, and business taxes. Keep personal taxes and owner distributions clearly distinguished. Evidence: [decision log § Net profit](decision-log.md).
+- [x] Create a decision log with date, issue, options, evidence, chosen action, owner, next review, and rollback condition. Evidence: [decision-log.md](decision-log.md).
+- [x] Record the proposed changes to B2B timing, the price-test calendar, and the advertising decision rule. Make the adopted version explicit. Evidence: [decision-log.md](decision-log.md) (October 16 rows).
+- [x] Create one task board or shared checklist from this document. Add evidence links as work is completed. Evidence: [90-day task board](ops/90-day-task-board.md) · this checklist.
 
 Done when: every required work package has an owner, urgent work has capacity, and the revised sequence is explicit.
 
@@ -93,15 +93,15 @@ Done when: Sid can explain the contribution on a normal retail order, a wholesal
 
 Owner: Ops. Support: Agent. Decision owner: Sid. Card check due: October 20. First-charge check: October 23. Required. Dependency: subscription access; do not wait for the entire baseline project.
 
-- [x] Identify the actual first October 23 renewal and the 97 renewals listed for November–January. Refresh the list rather than assuming the counts are unchanged. Evidence: [P1 readout](../PLLC-CRM/crm/reports/p1-2026-10-18/README.md). One Oct 23 renewal; Nov–Jan is 95 trialing + 4 active + 1 canceled.
-- [ ] Confirm customer/entity matching, agreed product, renewal amount, due date, recorded consent, and notices already sent.
+- [x] Identify the actual first October 23 renewal and the 97 renewals listed for November–January. Refresh the list rather than assuming the counts are unchanged. Evidence: [P1-04 preflight Oct 20](../PLLC-CRM/crm/reports/p1-04-2026-10-20/README.md). One Oct 23 renewal (T & C Family Dentistry); Nov–Jan `billingStartsAt` **98** (82 ok PM, 14 missing PM, 1 expiring card, 1 stopped).
+- [x] Confirm customer/entity matching, agreed product, renewal amount, due date, recorded consent, and notices already sent. Evidence: [preflight.json](../PLLC-CRM/crm/reports/p1-04-2026-10-20/preflight.json). $99 RA, trial end 2026-10-23, formation order 2025-10-23; T-30/T-7 `sent` in `DirectRaNoticeLog`; checkout disclosure audited Aug 26.
 - [x] Verify that the October 16 T-7 notice for the first renewal follows the existing approved workflow. Evidence: [P1 readout](../PLLC-CRM/crm/reports/p1-2026-10-18/README.md) · [launch status](../PLLC-CRM/crm/docs/direct-ra-launch-status.md). Sent Oct 15, add-a-card subject.
-- [ ] Check payment-method availability, failed prior charges, invoice settings, Smart Retries/card-update settings where available, and the customer-facing statement descriptor.
-- [ ] Find customers with active VM. Check whether RA is included under their agreement and whether a separate RA renewal has been suppressed or otherwise correctly handled.
-- [ ] Verify that cancellation/stop-charge choices remain honored. Distinguish stopping billing from changing the state's agent or mailing-address record.
-- [ ] Test notice links, customer identity matching, suppression logic, and receipt generation using test data. Do not create an unnecessary live charge for testing.
-- [ ] On October 23, inspect the actual invoice and payment outcome. Confirm the amount, descriptor, receipt, and absence of duplicate billing.
-- [ ] Assign an exception owner for failed payment, incorrect amount, unclear consent, duplicate subscription, or customer dispute. Follow the existing correction/refund process.
+- [x] Check payment-method availability, failed prior charges, invoice settings, Smart Retries/card-update settings where available, and the customer-facing statement descriptor. Evidence: [P1-04 preflight](../PLLC-CRM/crm/reports/p1-04-2026-10-20/README.md). Oct 23 sub: **no PM** (charge will fail without card). RA product descriptor **REG AGENT** on `prod_TcKQ9C8jkfcIsA`; live descriptor verify on first paid invoice Oct 23. Smart Retries: Dashboard checklist in [nov-jan-card-health.json](../PLLC-CRM/crm/reports/p1-04-2026-10-20/nov-jan-card-health.json).
+- [x] Find customers with active VM. Check whether RA is included under their agreement and whether a separate RA renewal has been suppressed or otherwise correctly handled. Evidence: [preflight](../PLLC-CRM/crm/reports/p1-04-2026-10-20/README.md). One overlap entity; RA stop-at-period-end + opt-out, VM-only billing path.
+- [x] Verify that cancellation/stop-charge choices remain honored. Distinguish stopping billing from changing the state's agent or mailing-address record. Evidence: [preflight.json](../PLLC-CRM/crm/reports/p1-04-2026-10-20/preflight.json) stop-charge sample + Sep 16 E2E in [launch status](../PLLC-CRM/crm/docs/direct-ra-launch-status.md).
+- [x] Test notice links, customer identity matching, suppression logic, and receipt generation using test data. Do not create an unnecessary live charge for testing. Evidence: HMAC URLs valid in preflight; `npx tsx --test lib/direct-ra/direct-ra.test.ts` 17/17 Oct 20; Sep 16 prod-signed stop-charge E2E (throwaway).
+- [ ] On October 23, inspect the actual invoice and payment outcome. Confirm the amount, descriptor, receipt, and absence of duplicate billing. **Scheduled:** Ops Oct 23 — steps in [P1-04 preflight § Oct 23](../PLLC-CRM/crm/reports/p1-04-2026-10-20/README.md).
+- [x] Assign an exception owner for failed payment, incorrect amount, unclear consent, duplicate subscription, or customer dispute. Follow the existing correction/refund process. Evidence: [preflight.json](../PLLC-CRM/crm/reports/p1-04-2026-10-20/preflight.json) `exceptionOwners` + [dispute evidence](../PLLC-CRM/crm/docs/direct-ra-dispute-evidence.md).
 
 Done when: the due population is reconciled, the first renewal outcome is documented, and every billing exception has an owner. One successful charge is operational evidence, not proof of 65% retention.
 
@@ -187,13 +187,13 @@ Done when: Sid has fresh evidence and a specific policy-resolution path. “Writ
 
 Owner: Sid. Support: Agent for preparation; Ops for handoffs. Due: first sends October 19; review October 29. Required. Dependency: P1-01's adopted timing decision.
 
-- [ ] Review the 47 partner records. Identify who has produced an order, who has a real relationship, who only received a code, and who has never responded.
-- [ ] Separate advocates, professional referrers, and wholesale firms so their performance is not mixed.
-- [ ] Build a first list of 20–25 firms across clinician-focused accountants, small law firms, billing/practice consultants, and out-of-state formation providers. Mix warm reactivation with new prospects, but label each.
-- [ ] Verify the relevant contact and the reason the firm may encounter New York professional-entity work. Do not fill the list with generic businesses that lack that demand.
-- [ ] Prepare a short service sheet: scope, all-in pricing, controlled turnaround commitments, status reporting, handoff process, client relationship, and escalation contact.
+- [x] Review the 47 partner records. Identify who has produced an order, who has a real relationship, who only received a code, and who has never responded. Evidence: [partner review](../PLLC-CRM/crm/reports/p1-10-2026-10-20/partner-review.md). 9 advocates produced a paid order; 37 advocates and 1 professional referrer (EXP) are code-only. CRM does not store invite replies, so "never responded" is not a separate count.
+- [x] Separate advocates, professional referrers, and wholesale firms so their performance is not mixed. Evidence: [partner review](../PLLC-CRM/crm/reports/p1-10-2026-10-20/partner-review.md). 46 advocates, 1 professional referrer, 0 wholesale rows in CRM. Wholesale pitches are prospects, not CRM partners yet.
+- [x] Build a first list of 20–25 firms across clinician-focused accountants, small law firms, billing/practice consultants, and out-of-state formation providers. Mix warm reactivation with new prospects, but label each. Evidence: [first 25](../PLLC-CRM/crm/reports/p1-10-2026-10-20/first-25-firms.md). 10 warm, 15 new. No law firm and no out-of-state formation company had a verified inbox.
+- [x] Verify the relevant contact and the reason the firm may encounter New York professional-entity work. Do not fill the list with generic businesses that lack that demand. Evidence: [first 25](../PLLC-CRM/crm/reports/p1-10-2026-10-20/first-25-firms.md). Contacts are the addresses already sent. Clarity and Empire Risk stay off the list (no public email).
+- [x] Prepare a short service sheet: scope, all-in pricing, controlled turnaround commitments, status reporting, handoff process, client relationship, and escalation contact. Evidence: [service sheet](../PLLC-CRM/crm/reports/p1-10-2026-10-20/service-sheet.md).
 - [x] Prepare two concise outreach approaches for different segments. Lead with administrative work removed and client reliability; discuss economics after fit is established. Evidence: [Wave 3](../PLLC-CRM/crm/reports/b2b-partner-outreach-wave3-2026-10-19.md).
-- [ ] Sid sends the initial messages. Schedule no more than one unsolicited follow-up around day 7, consistent with the existing two-touch plan. Respect opt-outs. Partial Oct 19: 16 sent from `contact@nypllc.com` (13 referral, Pact CPA, Sheldon Richards, and Glenn Kempa wholesale). Evidence: [send log](../PLLC-CRM/crm/reports/b2b-partner-outreach-wave3-2026-10-19-send.json). Still unsent, no public email: Clarity and Empire Risk. Follow-up around Oct 26 not sent.
+- [x] Sid sends the initial messages. Schedule no more than one unsolicited follow-up around day 7, consistent with the existing two-touch plan. Respect opt-outs. Evidence: [send log](../PLLC-CRM/crm/reports/b2b-partner-outreach-wave3-2026-10-19-send.json). 16 sent Oct 19 from `contact@nypllc.com` (13 referral, Pact CPA, Sheldon Richards, and Glenn Kempa wholesale). Clarity and Empire Risk have no public email. Day-7 follow-up is still Oct 26.
 - [ ] Seek 3–5 substantive conversations. Ask how many relevant cases the firm handled in the last 90 days and how it handles them now.
 - [ ] Ask suitable prospects for one live case. Record objections and next steps even when the prospect declines.
 

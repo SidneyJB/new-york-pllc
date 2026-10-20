@@ -140,7 +140,7 @@ Done when: a 30-minute review can identify the most important growth bottleneck 
 
 Owner: Agent for inspection; Sid/Ops for conversations. Due: October 26. Required. Dependency: access to analytics and reachable customers.
 
-- [ ] Pull the last 60 days of the funnel by device, main landing page, campaign/source, and new versus existing customer where reliably available.
+- [x] Pull the last 60 days of the funnel by device, main landing page, campaign/source, and new versus existing customer where reliably available. Evidence: [funnel report](reports/checkout-funnel-by-device-2026-10-20.md) — GA4 blocked (needs `GA4_PROPERTY_ID`); CRM abandoners + Ads device proxy recorded; Vercel `checkout_start` still manual.
 - [ ] Check whether checkout-start events represent unique starts, repeated opens, or page views. Reconcile fractional ad attribution with actual CRM purchases.
 - [ ] Inspect the five most-used landing pages and the order flow on real mobile layouts and desktop. Verify price, installment visibility, keyboard behavior, scrolling, loading, and error messages.
 - [ ] Check whether embedded-checkout failure has a working direct-checkout fallback, and whether source/partner attribution survives that route.
@@ -171,10 +171,10 @@ Done when: the limited fixes work end to end and subsequent price testing has a 
 
 Owner: Agent/ads operator. Decision owner: Sid. Initial review: October 21. Required. Dependency: current account access.
 
-- [ ] Pull current 7-, 30-, and 60-day spend, conversions, CRM-attributed orders, conversion lag, and campaign/search-term data.
-- [ ] Reconcile Google purchases with CRM orders without importing duplicate primary conversions. Explain discrepancies rather than forcing the numbers to match.
-- [ ] Inspect each current disapproval and limitation, including the paused attorney group. Record the exact policy reason and the status of any existing verification/certification.
-- [ ] Review the current government-documents policy, including the October 5 update, against the actual service and account facts. Determine whether certification, a valid exclusion request, or an appeal is appropriate.
+- [x] Pull current 7-, 30-, and 60-day spend, conversions, CRM-attributed orders, conversion lag, and campaign/search-term data. Evidence: [P1-09 pull](ads-pull-2026-10-20-p1-09/) · [policy memo](ads-pull-2026-10-20-p1-09/P1-09-policy-memo.md).
+- [x] Reconcile Google purchases with CRM orders without importing duplicate primary conversions. Explain discrepancies rather than forcing the numbers to match. Evidence: [policy memo](ads-pull-2026-10-20-p1-09/P1-09-policy-memo.md) — 30d Spiffy Purchase **29** vs CRM gclid **28** (~+3.6%).
+- [x] Inspect each current disapproval and limitation, including the paused attorney group. Record the exact policy reason and the status of any existing verification/certification. Evidence: [policy memo](ads-pull-2026-10-20-p1-09/P1-09-policy-memo.md) — five DISAPPROVED ENABLED (historical topic `GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES`); Attorneys AG paused.
+- [x] Review the current government-documents policy, including the October 5 update, against the actual service and account facts. Determine whether certification, a valid exclusion request, or an appeal is appropriate. Evidence: [policy memo](ads-pull-2026-10-20-p1-09/P1-09-policy-memo.md) — **appeal** disapproved `01` ads; certification only if program fits private filing service; unpause APPROVED_LIMITED Formation-Core RSA while appeals pend.
 - [ ] Assemble accurate supporting information and submit only the applicable process through the existing account. Do not imply government authorization the business does not have.
 - [ ] Confirm that the prior negative-keyword failure has not recurred. Check short tokens, cross-campaign negatives, and active keyword coverage.
 - [ ] Review foreign-qualification traffic with its small sample clearly labeled. Do not interpret $53 of historical spend as a meaningful demand test.

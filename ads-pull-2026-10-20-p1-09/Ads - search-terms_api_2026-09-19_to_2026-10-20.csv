@@ -1,0 +1,569 @@
+segments.date,campaign.name,ad_group.name,search_term_view.search_term,search_term_view.status,segments.search_term_match_type,metrics.impressions,metrics.clicks,metrics.ctr,metrics.average_cpc,metrics.cost_micros,metrics.conversions
+2026-09-19,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,2,1,0.5,6900000.0,6900000,0.0
+2026-09-19,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-19,Sales-Search-1,NY PLLC Formation,pllc application ny,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-19,Sales-Search-1,NY PLLC Formation,pllc in new york,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-19,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-19,Sales-Search-1,NY PLLC Formation,pllc nys,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-19,Sales-Search-1,NY PLLC Formation,ny pllc checklist,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-09-20,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-20,02_Professions_NY,Therapists-LCSW,pllc therapist,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-09-20,Sales-Search-1,NY PLLC Formation,forming a pllc in ny,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-20,Sales-Search-1,NY PLLC Formation,new york pllc,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-09-20,Sales-Search-1,NY PLLC Formation,new york pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-20,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-20,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,6,1,0.16666666666666666,3660000.0,3660000,0.0
+2026-09-20,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-20,Sales-Search-1,NY PLLC Formation,pllc ny,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-20,Sales-Search-1,NY PLLC Formation,create pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-20,Sales-Search-1,NY PLLC Formation,llc to pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-20,Sales-Search-1,NY PLLC Formation,company register new york,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-21,03_ForeignQual_US,Generic-ForeignQual,ny application for authority,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-21,03_ForeignQual_US,Generic-ForeignQual,application for authority new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-21,03_ForeignQual_US,Generic-ForeignQual,new york foreign entity registration,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-21,Sales-Search-1,NY PLLC Formation,forming a pllc in ny,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-21,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-21,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-21,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,9,0,0.0,0.0,0,0.0
+2026-09-21,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,6,0,0.0,0.0,0,0.0
+2026-09-21,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,8,0,0.0,0.0,0,0.0
+2026-09-21,Sales-Search-1,NY PLLC Formation,pllc nys,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-21,Sales-Search-1,NY PLLC Formation,pllc registration,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-22,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-22,01_Core_Exact_NY,Brand,corporate filing solutions,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-22,01_Core_Exact_NY,Brand,form pllc new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-22,03_ForeignQual_US,Generic-ForeignQual,ny application for authority,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-22,03_ForeignQual_US,Generic-ForeignQual,application for authority in new york,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-09-22,03_ForeignQual_US,Generic-ForeignQual,application for authority new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-22,03_ForeignQual_US,Generic-ForeignQual,authority to do business in ny,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-22,03_ForeignQual_US,Generic-ForeignQual,new york application for authority,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-22,03_ForeignQual_US,Generic-ForeignQual,ny authority to do business,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-09-22,03_ForeignQual_US,Generic-ForeignQual,ny state application for authority,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-22,03_ForeignQual_US,Generic-ForeignQual,nys foreign entity registration,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-22,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,5,2,0.4,4565000.0,9130000,0.0
+2026-09-22,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-09-22,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-22,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,11,0,0.0,0.0,0,0.0
+2026-09-22,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,4,1,0.25,6360000.0,6360000,0.0
+2026-09-22,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-09-22,Sales-Search-1,NY PLLC Formation,nysed pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-22,Sales-Search-1,NY PLLC Formation,mycorporation,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-23,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-23,01_Core_Exact_NY,Brand,pllc new york state,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-23,03_ForeignQual_US,Generic-ForeignQual,application for authority new york,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-09-23,03_ForeignQual_US,Generic-ForeignQual,new york foreign corporation registration,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-23,03_ForeignQual_US,Generic-ForeignQual,new york foreign qualification,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-23,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-23,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-23,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,1,1,1.0,7250000.0,7250000,0.0
+2026-09-23,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,9,0,0.0,0.0,0,0.0
+2026-09-23,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-23,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-09-23,Sales-Search-1,NY PLLC Formation,pllc ny,ADDED,EXACT,3,1,0.3333333333333333,10490000.0,10490000,0.5
+2026-09-23,Sales-Search-1,NY PLLC Formation,start a pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-23,Sales-Search-1,NY PLLC Formation,llc publishers,NONE,BROAD,3,0,0.0,0.0,0,0.0
+2026-09-23,Sales-Search-1,NY PLLC Formation,new york professional services,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-23,Sales-Search-1,NY PLLC Formation,nyllc,NONE,BROAD,3,0,0.0,0.0,0,0.0
+2026-09-23,Sales-Search-1,NY PLLC Formation,pc llc,NONE,BROAD,2,0,0.0,0.0,0,0.0
+2026-09-24,03_ForeignQual_US,Generic-ForeignQual,ny application for authority,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-09-24,03_ForeignQual_US,Generic-ForeignQual,foreign entity registration ny,NONE,NEAR_EXACT,3,0,0.0,0.0,0,0.0
+2026-09-24,03_ForeignQual_US,Generic-ForeignQual,new york state foreign corporation registration,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-24,Sales-Search-1,NY PLLC Formation,new york pllc,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-09-24,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,5,1,0.2,11110000.0,11110000,0.5
+2026-09-24,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-09-24,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,2,1,0.5,4200000.0,4200000,0.0
+2026-09-24,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-24,Sales-Search-1,NY PLLC Formation,nys pllc formation,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-24,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,11,0,0.0,0.0,0,0.0
+2026-09-24,Sales-Search-1,NY PLLC Formation,pllc application ny,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-24,Sales-Search-1,NY PLLC Formation,pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-24,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,1,1,1.0,1500000.0,1500000,0.0
+2026-09-24,Sales-Search-1,NY PLLC Formation,pllc in ny,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-24,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,2,1,0.5,7290000.0,7290000,1.0
+2026-09-24,Sales-Search-1,NY PLLC Formation,pllc nys,ADDED,EXACT,2,1,0.5,8470000.0,8470000,0.333334
+2026-09-24,Sales-Search-1,NY PLLC Formation,articles of organization pllc,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-09-24,Sales-Search-1,NY PLLC Formation,create a pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-24,Sales-Search-1,NY PLLC Formation,new york llc state fee,NONE,BROAD,2,0,0.0,0.0,0,0.0
+2026-09-24,Sales-Search-1,NY PLLC Formation,nys pllc requirements,ADDED,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-24,Sales-Search-1,NY PLLC Formation,pllc company,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-09-25,03_ForeignQual_US,Generic-ForeignQual,application for authority nys,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-25,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-25,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-25,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,12,1,0.08333333333333333,670000.0,670000,0.0
+2026-09-25,Sales-Search-1,NY PLLC Formation,pllc application ny,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-25,Sales-Search-1,NY PLLC Formation,pllc in new york,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-25,Sales-Search-1,NY PLLC Formation,articles of organization pllc,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-09-25,Sales-Search-1,NY PLLC Formation,new york llc,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-25,Sales-Search-1,NY PLLC Formation,new york llc formation services,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-25,Sales-Search-1,NY PLLC Formation,registering a business in new york,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-26,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,1,1,1.0,4480000.0,4480000,0.0
+2026-09-26,03_ForeignQual_US,Generic-ForeignQual,nys foreign corporation registration,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-26,Sales-Search-1,NY PLLC Formation,new york pllc,ADDED,EXACT,2,2,1.0,9640000.0,19280000,0.0
+2026-09-26,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-26,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-26,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-26,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,7,1,0.14285714285714285,13510000.0,13510000,0.0
+2026-09-26,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-09-26,Sales-Search-1,NY PLLC Formation,pllc in new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-26,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-26,Sales-Search-1,NY PLLC Formation,creating a pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-26,Sales-Search-1,NY PLLC Formation,new york llc,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-26,Sales-Search-1,NY PLLC Formation,starting a pllc in ny,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-27,01_Core_Exact_NY,Brand,pllc new york state,NONE,NEAR_EXACT,3,0,0.0,0.0,0,0.0
+2026-09-27,01_Core_Exact_NY,Brand,legalzoom pllc formation,NONE,NEAR_PHRASE,2,0,0.0,0.0,0,0.0
+2026-09-27,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,2,1,0.5,4710000.0,4710000,0.0
+2026-09-27,Sales-Search-1,NY PLLC Formation,nys pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-27,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,9,0,0.0,0.0,0,0.0
+2026-09-27,Sales-Search-1,NY PLLC Formation,pllc application ny,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-27,Sales-Search-1,NY PLLC Formation,pllc formation,ADDED,EXACT,2,1,0.5,24180000.0,24180000,0.0
+2026-09-27,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,2,1,0.5,20780000.0,20780000,0.0
+2026-09-27,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-27,Sales-Search-1,NY PLLC Formation,convert llc to pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-27,Sales-Search-1,NY PLLC Formation,new york pllc name requirements,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-27,Sales-Search-1,NY PLLC Formation,ny pllc checklist,NONE,PHRASE,4,0,0.0,0.0,0,0.0
+2026-09-27,Sales-Search-1,NY PLLC Formation,articles of organization llc ny,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-27,Sales-Search-1,NY PLLC Formation,pllc medical,NONE,BROAD,2,0,0.0,0.0,0,0.0
+2026-09-28,01_Core_Exact_NY,Brand,legal zoom pllc,NONE,NEAR_PHRASE,2,1,0.5,9270000.0,9270000,0.0
+2026-09-28,03_ForeignQual_US,Generic-ForeignQual,application for authority new york,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-09-28,03_ForeignQual_US,Generic-ForeignQual,application of authority ny,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-09-28,03_ForeignQual_US,Generic-ForeignQual,new york application for authority,NONE,NEAR_EXACT,3,0,0.0,0.0,0,0.0
+2026-09-28,03_ForeignQual_US,Generic-ForeignQual,new york foreign corporation registration,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-09-28,03_ForeignQual_US,Generic-ForeignQual,nys foreign corporation registration,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-28,Sales-Search-1,NY PLLC Formation,new york pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-28,Sales-Search-1,NY PLLC Formation,new york pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-28,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-28,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,6,3,0.5,17031611.333333332,51094834,0.0
+2026-09-28,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-28,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-28,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,11,0,0.0,0.0,0,0.0
+2026-09-28,Sales-Search-1,NY PLLC Formation,pllc application ny,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-28,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,7,1,0.14285714285714285,22780000.0,22780000,0.0
+2026-09-28,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,5,1,0.2,4370000.0,4370000,0.0
+2026-09-28,Sales-Search-1,NY PLLC Formation,pllc ny,ADDED,EXACT,4,1,0.25,6490000.0,6490000,0.0
+2026-09-28,Sales-Search-1,NY PLLC Formation,articles of organization for pllc,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-09-28,Sales-Search-1,NY PLLC Formation,new york pllc name requirements,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-09-28,Sales-Search-1,NY PLLC Formation,pllc formation services,NONE,PHRASE,6,0,0.0,0.0,0,0.0
+2026-09-28,Sales-Search-1,NY PLLC Formation,ny llc filing fee,NONE,BROAD,2,0,0.0,0.0,0,0.0
+2026-09-28,Sales-Search-1,NY PLLC Formation,pllc new york state,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-09-29,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-29,01_Core_Exact_NY,Brand,nypllc com,ADDED,EXACT,2,1,0.5,9200000.0,9200000,0.0
+2026-09-29,01_Core_Exact_NY,Brand,legal zoom pllc,NONE,NEAR_PHRASE,4,0,0.0,0.0,0,0.0
+2026-09-29,01_Core_Exact_NY,Brand,legalzoom pllc,NONE,NEAR_PHRASE,2,0,0.0,0.0,0,0.0
+2026-09-29,03_ForeignQual_US,Generic-ForeignQual,foreign qualification new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-29,03_ForeignQual_US,Generic-ForeignQual,application for authority new york,NONE,NEAR_EXACT,6,0,0.0,0.0,0,0.0
+2026-09-29,03_ForeignQual_US,Generic-ForeignQual,application of authority new york,NONE,NEAR_EXACT,3,1,0.3333333333333333,1870000.0,1870000,0.0
+2026-09-29,03_ForeignQual_US,Generic-ForeignQual,foreign entity registration ny,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-09-29,03_ForeignQual_US,Generic-ForeignQual,new york foreign corporation registration,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-29,03_ForeignQual_US,Generic-ForeignQual,ny foreign entity registration,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-29,03_ForeignQual_US,Generic-ForeignQual,nys application for authority,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-09-29,03_ForeignQual_US,Generic-ForeignQual,nys foreign entity registration,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-29,Sales-Search-1,NY PLLC Formation,forming a pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-29,Sales-Search-1,NY PLLC Formation,new york pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-29,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,6,1,0.16666666666666666,4250000.0,4250000,0.0
+2026-09-29,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-09-29,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,1,1,1.0,6340000.0,6340000,0.0
+2026-09-29,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-09-29,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,7,0,0.0,0.0,0,0.0
+2026-09-29,Sales-Search-1,NY PLLC Formation,pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-29,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-29,Sales-Search-1,NY PLLC Formation,pllc in ny,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-29,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,9,3,0.3333333333333333,7076666.666666667,21230000,0.0
+2026-09-29,Sales-Search-1,NY PLLC Formation,pllc online,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-29,Sales-Search-1,NY PLLC Formation,nysed pllc,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-09-29,Sales-Search-1,NY PLLC Formation,llc notice of formation,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-29,Sales-Search-1,NY PLLC Formation,new york secretary of state business registration,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-29,Sales-Search-1,NY PLLC Formation,new york pllc requirements,ADDED,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-09-29,Sales-Search-1,NY PLLC Formation,pllc new york state,NONE,NEAR_EXACT,4,0,0.0,0.0,0,0.0
+2026-09-30,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-30,01_Core_Exact_NY,Brand,pllc new york formation,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-30,01_Core_Exact_NY,Brand,pllc new york state,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-09-30,01_Core_Exact_NY,Brand,professional llc new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-30,01_Core_Exact_NY,Brand,cheap llc publication ny,NONE,NEAR_PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-30,03_ForeignQual_US,Generic-ForeignQual,application for authority new york,NONE,NEAR_EXACT,5,0,0.0,0.0,0,0.0
+2026-09-30,03_ForeignQual_US,Generic-ForeignQual,application of authority new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-09-30,Sales-Search-1,NY PLLC Formation,forming a pllc in ny,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-30,Sales-Search-1,NY PLLC Formation,new york pllc,ADDED,EXACT,5,0,0.0,0.0,0,0.0
+2026-09-30,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-30,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-30,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,22,0,0.0,0.0,0,0.0
+2026-09-30,Sales-Search-1,NY PLLC Formation,pllc in ny,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-09-30,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-09-30,Sales-Search-1,NY PLLC Formation,pllc nyc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-09-30,Sales-Search-1,NY PLLC Formation,nysed pllc,NONE,PHRASE,4,0,0.0,0.0,0,0.0
+2026-09-30,Sales-Search-1,NY PLLC Formation,pllc name requirements,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-30,Sales-Search-1,NY PLLC Formation,setting up a pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-30,Sales-Search-1,NY PLLC Formation,starting a pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-09-30,Sales-Search-1,NY PLLC Formation,domestic professional,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-30,Sales-Search-1,NY PLLC Formation,my startup llc,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-30,Sales-Search-1,NY PLLC Formation,nyllc,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-09-30,Sales-Search-1,NY PLLC Formation,form pllc new york,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-01,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-10-01,01_Core_Exact_NY,Brand,nyfileonline com,NONE,NEAR_PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-01,03_ForeignQual_US,Generic-ForeignQual,application for authority new york,NONE,NEAR_EXACT,4,0,0.0,0.0,0,0.0
+2026-10-01,03_ForeignQual_US,Generic-ForeignQual,application for authority nys,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-01,03_ForeignQual_US,Generic-ForeignQual,foreign entity registration ny,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-01,03_ForeignQual_US,Generic-ForeignQual,new york application for authority,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,NY PLLC Formation,forming a pllc in ny,ADDED,EXACT,4,1,0.25,6320000.0,6320000,0.0
+2026-10-01,Sales-Search-1,NY PLLC Formation,new york pllc,ADDED,EXACT,6,1,0.16666666666666666,8020000.0,8020000,0.0
+2026-10-01,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,1,1,1.0,11360000.0,11360000,0.0
+2026-10-01,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,20,1,0.05,4580000.0,4580000,0.0
+2026-10-01,Sales-Search-1,NY PLLC Formation,pllc in new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,NY PLLC Formation,pllc in ny,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,5,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,NY PLLC Formation,creating a pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,NY PLLC Formation,corpnet com,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,NY PLLC Formation,mycorporation,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,NY PLLC Formation,mycorporation com reviews,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,NY PLLC Formation,nyllc,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,NY PLLC Formation,pllc means,NONE,NEAR_EXACT,1,1,1.0,1520000.0,1520000,0.0
+2026-10-01,Sales-Search-1,NY PLLC Formation,starting a pllc in ny,NONE,NEAR_EXACT,1,1,1.0,1380000.0,1380000,2.0
+2026-10-02,01_Core_Exact_NY,Brand,pllc new york state,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-02,01_Core_Exact_NY,Brand,legal zoom pllc,NONE,NEAR_PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-02,02_Professions_NY,Therapists-LCSW,pllc therapist,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-02,03_ForeignQual_US,Generic-ForeignQual,application for authority ny,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-02,03_ForeignQual_US,Generic-ForeignQual,application of authority new york,NONE,NEAR_EXACT,4,0,0.0,0.0,0,0.0
+2026-10-02,03_ForeignQual_US,Generic-ForeignQual,foreign entity registration ny,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-02,03_ForeignQual_US,Generic-ForeignQual,ny foreign qualification,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-02,03_ForeignQual_US,Generic-ForeignQual,nys application for authority,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-02,03_ForeignQual_US,Generic-ForeignQual,nys application for certificate of authority,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-02,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,6,0,0.0,0.0,0,0.0
+2026-10-02,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-10-02,Sales-Search-1,NY PLLC Formation,pllc in ny,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-02,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-10-02,Sales-Search-1,NY PLLC Formation,pllc ny,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-02,Sales-Search-1,NY PLLC Formation,pllc nyc,ADDED,EXACT,1,1,1.0,6440000.0,6440000,0.0
+2026-10-02,Sales-Search-1,NY PLLC Formation,pllc nys,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-10-02,Sales-Search-1,NY PLLC Formation,pllc com,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-10-02,Sales-Search-1,NY PLLC Formation,bizee,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-03,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-03,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,3,1,0.3333333333333333,3909709.0,3909709,0.0
+2026-10-03,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,6,0,0.0,0.0,0,0.0
+2026-10-03,Sales-Search-1,NY PLLC Formation,pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-03,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-03,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,4,1,0.25,1770000.0,1770000,0.0
+2026-10-03,Sales-Search-1,NY PLLC Formation,ny pllc checklist,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-10-03,Sales-Search-1,NY PLLC Formation,llc formation near me,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-03,Sales-Search-1,NY PLLC Formation,plllc,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-04,01_Core_Exact_NY,Brand,form pllc new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-04,03_ForeignQual_US,Generic-ForeignQual,ny application for authority online,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-04,03_ForeignQual_US,Generic-ForeignQual,nys application for authority,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-04,Sales-Search-1,NY PLLC Formation,forming a pllc in ny,ADDED,EXACT,2,1,0.5,12660000.0,12660000,0.0
+2026-10-04,Sales-Search-1,NY PLLC Formation,pllc application ny,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-04,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-10-04,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-04,Sales-Search-1,NY PLLC Formation,pllc ny,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-04,Sales-Search-1,NY PLLC Formation,pllc nyc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-04,Sales-Search-1,NY PLLC Formation,pllc nys,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-04,Sales-Search-1,NY PLLC Formation,apply for pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-04,Sales-Search-1,NY PLLC Formation,setting up a pllc,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-10-04,Sales-Search-1,NY PLLC Formation,form pllc new york,NONE,NEAR_EXACT,1,2,2.0,7350000.0,14700000,0.0
+2026-10-05,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,3,2,0.6666666666666666,7147094.5,14294189,0.0
+2026-10-05,01_Core_Exact_NY,Brand,form pllc new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-05,03_ForeignQual_US,Generic-ForeignQual,ny application for authority,ADDED,EXACT,3,1,0.3333333333333333,4710000.0,4710000,0.0
+2026-10-05,03_ForeignQual_US,Generic-ForeignQual,application for authority new york,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-05,03_ForeignQual_US,Generic-ForeignQual,new york application for authority,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-05,03_ForeignQual_US,Generic-ForeignQual,ny foreign qualification,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-05,Sales-Search-1,NY PLLC Formation,new york pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-05,Sales-Search-1,NY PLLC Formation,new york pllc formation,ADDED,EXACT,2,1,0.5,11920000.0,11920000,0.0
+2026-10-05,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-05,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-05,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,6,0,0.0,0.0,0,0.0
+2026-10-05,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-10-05,Sales-Search-1,NY PLLC Formation,pllc in ny,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-05,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,4,1,0.25,9050000.0,9050000,0.0
+2026-10-05,Sales-Search-1,NY PLLC Formation,pllc ny,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-05,Sales-Search-1,NY PLLC Formation,pllc credential,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-05,Sales-Search-1,NY PLLC Formation,pllc filing,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-05,Sales-Search-1,NY PLLC Formation,pllc formation services,NONE,PHRASE,3,0,0.0,0.0,0,0.0
+2026-10-05,Sales-Search-1,NY PLLC Formation,nyllc,NONE,BROAD,5,2,0.4,17470000.0,34940000,0.0
+2026-10-05,Sales-Search-1,NY PLLC Formation,professional llc formation services,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-05,Sales-Search-1,NY PLLC Formation,form pllc new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-05,Sales-Search-1,NY PLLC Formation,professional llc,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-06,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,2,1,0.5,4830000.0,4830000,0.0
+2026-10-06,01_Core_Exact_NY,Brand,form pllc new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-06,01_Core_Exact_NY,Brand,legal zoom pllc,NONE,NEAR_PHRASE,5,1,0.2,7930000.0,7930000,0.0
+2026-10-06,01_Core_Exact_NY,Brand,legalzoom foreign entity registration,NONE,NEAR_PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-06,01_Core_Exact_NY,Brand,legalzoom pllc,NONE,NEAR_PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-06,01_Core_Exact_NY,Brand,nuco filings,NONE,NEAR_PHRASE,2,0,0.0,0.0,0,0.0
+2026-10-06,03_ForeignQual_US,Generic-ForeignQual,foreign entity registration ny,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-06,03_ForeignQual_US,Generic-ForeignQual,new york foreign entity registration,NONE,NEAR_EXACT,5,1,0.2,14270000.0,14270000,0.0
+2026-10-06,03_ForeignQual_US,Generic-ForeignQual,ny application for authority online,NONE,NEAR_EXACT,4,0,0.0,0.0,0,0.0
+2026-10-06,03_ForeignQual_US,Generic-ForeignQual,ny foreign corporation registration,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-06,03_ForeignQual_US,Generic-ForeignQual,ny foreign entity registration,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-06,03_ForeignQual_US,Generic-ForeignQual,nys application for certificate of authority,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-06,Sales-Search-1,NY PLLC Formation,new york pllc formation,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-06,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,2,1,0.5,6310000.0,6310000,0.0
+2026-10-06,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,3,1,0.3333333333333333,6190000.0,6190000,0.0
+2026-10-06,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-10-06,Sales-Search-1,NY PLLC Formation,nys pllc formation,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-10-06,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-06,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-10-06,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,2,1,0.5,19750000.0,19750000,0.0
+2026-10-06,Sales-Search-1,NY PLLC Formation,pllc ny,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-10-06,Sales-Search-1,NY PLLC Formation,pllc nyc,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-10-06,Sales-Search-1,NY PLLC Formation,pllc nys,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-06,Sales-Search-1,NY PLLC Formation,articles of organization for pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-06,Sales-Search-1,NY PLLC Formation,creating a pllc,NONE,PHRASE,1,1,1.0,5430000.0,5430000,1.0
+2026-10-06,Sales-Search-1,NY PLLC Formation,file llc new york,NONE,BROAD,2,0,0.0,0.0,0,0.0
+2026-10-06,Sales-Search-1,NY PLLC Formation,hubco incorporation services,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-06,Sales-Search-1,NY PLLC Formation,nyllc,NONE,BROAD,3,0,0.0,0.0,0,0.0
+2026-10-06,Sales-Search-1,NY PLLC Formation,starting a pllc in ny,NONE,NEAR_EXACT,4,0,0.0,0.0,0,0.0
+2026-10-07,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,4,2,0.5,5675000.0,11350000,0.0
+2026-10-07,03_ForeignQual_US,Generic-ForeignQual,foreign entity registration ny,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-07,03_ForeignQual_US,Generic-ForeignQual,ny application for authority online,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-07,Sales-Search-1,NY PLLC Formation,new york pllc,ADDED,EXACT,3,1,0.3333333333333333,7480000.0,7480000,0.0
+2026-10-07,Sales-Search-1,NY PLLC Formation,new york pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-07,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,3,1,0.3333333333333333,5000000.0,5000000,0.0
+2026-10-07,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-07,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,17,0,0.0,0.0,0,0.0
+2026-10-07,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-07,Sales-Search-1,NY PLLC Formation,pllc nyc,ADDED,EXACT,2,1,0.5,8200000.0,8200000,0.0
+2026-10-07,Sales-Search-1,NY PLLC Formation,pllc nys,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-07,Sales-Search-1,NY PLLC Formation,pllc application,NONE,PHRASE,3,0,0.0,0.0,0,0.0
+2026-10-07,Sales-Search-1,NY PLLC Formation,pllc formation services,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-10-07,Sales-Search-1,NY PLLC Formation,pllc legal zoom,NONE,PHRASE,3,0,0.0,0.0,0,0.0
+2026-10-07,Sales-Search-1,NY PLLC Formation,articles of corporation,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-07,Sales-Search-1,NY PLLC Formation,nyllc,NONE,BROAD,2,0,0.0,0.0,0,0.0
+2026-10-08,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,3,2,0.6666666666666666,2595000.0,5190000,0.0
+2026-10-08,03_ForeignQual_US,Generic-ForeignQual,application for authority new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-08,03_ForeignQual_US,Generic-ForeignQual,new york foreign qualification,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-08,Sales-Search-1,NY PLLC Formation,new york pllc,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-10-08,Sales-Search-1,NY PLLC Formation,new york pllc formation,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-10-08,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,5,0,0.0,0.0,0,0.0
+2026-10-08,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-10-08,Sales-Search-1,NY PLLC Formation,nys pllc formation,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-08,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,16,0,0.0,0.0,0,0.0
+2026-10-08,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-10-08,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-10-08,Sales-Search-1,NY PLLC Formation,pllc ny,ADDED,EXACT,4,1,0.25,8280000.0,8280000,0.0
+2026-10-08,Sales-Search-1,NY PLLC Formation,mycompanyworks,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-08,Sales-Search-1,NY PLLC Formation,nyllc,NONE,BROAD,2,0,0.0,0.0,0,0.0
+2026-10-08,Sales-Search-1,NY PLLC Formation,pllc means,NONE,NEAR_EXACT,2,1,0.5,4740000.0,4740000,0.0
+2026-10-09,03_ForeignQual_US,Generic-ForeignQual,application for authority in new york,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-09,03_ForeignQual_US,Generic-ForeignQual,application of authority new york,NONE,NEAR_EXACT,3,0,0.0,0.0,0,0.0
+2026-10-09,03_ForeignQual_US,Generic-ForeignQual,authority to do business in ny,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-09,03_ForeignQual_US,Generic-ForeignQual,new york application for authority,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-09,03_ForeignQual_US,Generic-ForeignQual,new york foreign qualification,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-09,03_ForeignQual_US,Generic-ForeignQual,ny foreign qualification,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-09,Sales-Search-1,NY PLLC Formation,form pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-09,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,5,1,0.2,11560000.0,11560000,0.0
+2026-10-09,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,6,0,0.0,0.0,0,0.0
+2026-10-09,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,13,2,0.15384615384615385,24190000.0,48380000,0.0
+2026-10-09,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-09,Sales-Search-1,NY PLLC Formation,pllc ny,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-09,Sales-Search-1,NY PLLC Formation,pllc nys,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-09,Sales-Search-1,NY PLLC Formation,start pllc,ADDED,EXACT,1,1,1.0,23060000.0,23060000,0.0
+2026-10-09,Sales-Search-1,NY PLLC Formation,creating a pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-09,Sales-Search-1,NY PLLC Formation,nysed pllc,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-10-09,Sales-Search-1,NY PLLC Formation,pllc application,NONE,PHRASE,3,1,0.3333333333333333,690000.0,690000,0.0
+2026-10-09,Sales-Search-1,NY PLLC Formation,pllc articles of organization,ADDED,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-09,Sales-Search-1,NY PLLC Formation,new york llc,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-09,Sales-Search-1,NY PLLC Formation,nyllc,NONE,BROAD,4,2,0.5,6765899.5,13531799,0.0
+2026-10-10,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-10-10,03_ForeignQual_US,Generic-ForeignQual,authority to do business in ny,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-10,Sales-Search-1,NY PLLC Formation,forming a pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-10,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,3,1,0.3333333333333333,3620000.0,3620000,1.0
+2026-10-10,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-10,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-10,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,5,0,0.0,0.0,0,0.0
+2026-10-10,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-10,Sales-Search-1,NY PLLC Formation,pllc ny,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-10,Sales-Search-1,NY PLLC Formation,pllc registration,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-10-10,Sales-Search-1,NY PLLC Formation,p llc,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-11,03_ForeignQual_US,Generic-ForeignQual,application of authority new york,NONE,NEAR_EXACT,3,1,0.3333333333333333,10940000.0,10940000,0.0
+2026-10-11,Sales-Search-1,NY PLLC Formation,forming a pllc in new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-11,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-11,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-10-11,Sales-Search-1,NY PLLC Formation,pllc in ny,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-11,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-11,Sales-Search-1,NY PLLC Formation,pllc nys,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-11,Sales-Search-1,NY PLLC Formation,creating a pllc,NONE,PHRASE,1,1,1.0,3790000.0,3790000,0.0
+2026-10-11,Sales-Search-1,NY PLLC Formation,ny pllc checklist,NONE,PHRASE,2,1,0.5,6170000.0,6170000,0.0
+2026-10-11,Sales-Search-1,NY PLLC Formation,pllc articles of organization,ADDED,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-11,Sales-Search-1,NY PLLC Formation,pllc names,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-10-11,Sales-Search-1,NY PLLC Formation,pllc registration,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-11,Sales-Search-1,NY PLLC Formation,set up pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-11,Sales-Search-1,NY PLLC Formation,new york llc,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-11,Sales-Search-1,NY PLLC Formation,form pllc new york,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-12,01_Core_Exact_NY,Brand,pllc new york state,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-12,03_ForeignQual_US,Generic-ForeignQual,application for authority new york,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-12,Sales-Search-1,NY PLLC Formation,new york pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-12,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,4,1,0.25,6630000.0,6630000,1.0
+2026-10-12,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-12,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,1,1,1.0,3996340.0,3996340,0.0
+2026-10-12,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-12,Sales-Search-1,NY PLLC Formation,nys pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-12,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,9,0,0.0,0.0,0,0.0
+2026-10-12,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-12,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,4,1,0.25,1095000.0,1095000,0.0
+2026-10-12,Sales-Search-1,NY PLLC Formation,pllc nyc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-12,Sales-Search-1,NY PLLC Formation,pllc nys,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-12,Sales-Search-1,NY PLLC Formation,open a pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-12,Sales-Search-1,NY PLLC Formation,pllc application,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-10-12,Sales-Search-1,NY PLLC Formation,nyllc,NONE,BROAD,3,0,0.0,0.0,0,0.0
+2026-10-12,Sales-Search-1,NY PLLC Formation,what does pllc mean,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-13,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-13,01_Core_Exact_NY,Brand,form pllc new york,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-13,01_Core_Exact_NY,Brand,cheap llc publication ny,NONE,NEAR_PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-13,01_Core_Exact_NY,Brand,northwest registered agent new york,NONE,NEAR_PHRASE,2,0,0.0,0.0,0,0.0
+2026-10-13,03_ForeignQual_US,Generic-ForeignQual,ny application for authority,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-13,03_ForeignQual_US,Generic-ForeignQual,application for authority ny,NONE,NEAR_EXACT,1,1,1.0,2940000.0,2940000,0.0
+2026-10-13,03_ForeignQual_US,Generic-ForeignQual,application for authority to do business in new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-13,03_ForeignQual_US,Generic-ForeignQual,application of authority new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-13,03_ForeignQual_US,Generic-ForeignQual,authority to do business in new york state,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-13,03_ForeignQual_US,Generic-ForeignQual,new york foreign entity registration,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-13,03_ForeignQual_US,Generic-ForeignQual,ny application for authority online,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-13,Sales-Search-1,NY PLLC Formation,form a pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-13,Sales-Search-1,NY PLLC Formation,form a pllc in new york,ADDED,EXACT,2,1,0.5,19280000.0,19280000,0.0
+2026-10-13,Sales-Search-1,NY PLLC Formation,forming a pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-13,Sales-Search-1,NY PLLC Formation,forming a pllc in ny,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-13,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-10-13,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-10-13,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-13,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,14,3,0.21428571428571427,20305138.666666668,60915416,1.5
+2026-10-13,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,3,1,0.3333333333333333,25940000.0,25940000,0.0
+2026-10-13,Sales-Search-1,NY PLLC Formation,pllc in ny,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-13,Sales-Search-1,NY PLLC Formation,pllc ny,ADDED,EXACT,2,1,0.5,12200000.0,12200000,0.5
+2026-10-13,Sales-Search-1,NY PLLC Formation,pllc nys,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-13,Sales-Search-1,NY PLLC Formation,pllc registration,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-13,Sales-Search-1,NY PLLC Formation,corporate filings of new york,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-13,Sales-Search-1,NY PLLC Formation,ny llc,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-13,Sales-Search-1,NY PLLC Formation,plllc,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-13,Sales-Search-1,NY PLLC Formation,professional llc,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-14,01_Core_Exact_NY,Brand,legalzoom pllc,NONE,NEAR_PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-14,01_Core_Exact_NY,Brand,legalzoom pllc formation,NONE,NEAR_PHRASE,2,0,0.0,0.0,0,0.0
+2026-10-14,03_ForeignQual_US,Generic-ForeignQual,application for authority new york,NONE,NEAR_EXACT,5,1,0.2,5690000.0,5690000,0.0
+2026-10-14,03_ForeignQual_US,Generic-ForeignQual,authority to do business in new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-14,03_ForeignQual_US,Generic-ForeignQual,authority to do business in new york state,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-14,03_ForeignQual_US,Generic-ForeignQual,authority to do business in ny,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-14,03_ForeignQual_US,Generic-ForeignQual,new york application for authority,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-14,03_ForeignQual_US,Generic-ForeignQual,ny state application for authority,NONE,NEAR_EXACT,5,0,0.0,0.0,0,0.0
+2026-10-14,Sales-Search-1,NY PLLC Formation,form a pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-14,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,5,1,0.2,12880000.0,12880000,0.0
+2026-10-14,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-14,Sales-Search-1,NY PLLC Formation,nys pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-14,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,12,1,0.08333333333333333,3070000.0,3070000,1.0
+2026-10-14,Sales-Search-1,NY PLLC Formation,pllc formation,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-14,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,6,0,0.0,0.0,0,0.0
+2026-10-14,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,6,1,0.16666666666666666,790000.0,790000,0.0
+2026-10-14,Sales-Search-1,NY PLLC Formation,pllc nyc,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-10-14,Sales-Search-1,NY PLLC Formation,pllc nys,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-14,Sales-Search-1,NY PLLC Formation,llc to pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-14,Sales-Search-1,NY PLLC Formation,nysed pllc,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-10-15,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-15,01_Core_Exact_NY,Brand,pllc new york state,NONE,NEAR_EXACT,3,0,0.0,0.0,0,0.0
+2026-10-15,03_ForeignQual_US,Generic-ForeignQual,application of authority new york,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-15,03_ForeignQual_US,Generic-ForeignQual,foreign corporation registration new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-15,03_ForeignQual_US,Generic-ForeignQual,new york application for authority,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-15,03_ForeignQual_US,Generic-ForeignQual,ny foreign entity registration,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,forming a pllc in ny,ADDED,EXACT,5,0,0.0,0.0,0,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,8,3,0.375,8896666.666666666,26690000,1.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,5,0,0.0,0.0,0,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,1,1,1.0,15370000.0,15370000,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,8,0,0.0,0.0,0,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,pllc formation,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,5,0,0.0,0.0,0,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,pllc ny,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,pllc nyc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,pllc nys,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,start a pllc,ADDED,EXACT,1,1,1.0,15220000.0,15220000,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,creating a pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,llc to pllc,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,pllc application,NONE,PHRASE,4,0,0.0,0.0,0,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,pllc articles of organization,ADDED,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,howtostartanllc com,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-15,Sales-Search-1,NY PLLC Formation,ny pllc requirements,ADDED,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-16,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,2,1,0.5,850000.0,850000,0.0
+2026-10-16,03_ForeignQual_US,Generic-ForeignQual,application for authority new york,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-16,03_ForeignQual_US,Generic-ForeignQual,application for authority nys,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-16,03_ForeignQual_US,Generic-ForeignQual,authority to do business in new york state,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-16,03_ForeignQual_US,Generic-ForeignQual,foreign entity registration ny,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-16,03_ForeignQual_US,Generic-ForeignQual,pllc application new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,new york pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,nys pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,12,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,6,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,pllc nyc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,start pllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,llc to pllc,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,pllc application,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,pllc filing,NONE,PHRASE,10,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,pllc formation services,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,llc formation services new york,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,nys pllc requirements,ADDED,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,pllc application new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,pllc new york state,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,pllcs,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-16,Sales-Search-1,NY PLLC Formation,starting a pllc in ny,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-17,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,5,0,0.0,0.0,0,0.0
+2026-10-17,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-10-17,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,2,1,0.5,11460000.0,11460000,0.0
+2026-10-17,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-10-17,Sales-Search-1,NY PLLC Formation,articles of organization pllc,NONE,PHRASE,4,0,0.0,0.0,0,0.0
+2026-10-17,Sales-Search-1,NY PLLC Formation,pllc application,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-10-17,Sales-Search-1,NY PLLC Formation,pllc filing,NONE,PHRASE,3,0,0.0,0.0,0,0.0
+2026-10-17,Sales-Search-1,NY PLLC Formation,pllc company,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-18,01_Core_Exact_NY,Brand,nypllc,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-18,03_ForeignQual_US,Generic-ForeignQual,nys foreign corporation registration,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-18,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-18,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,3,1,0.3333333333333333,36090000.0,36090000,0.0
+2026-10-18,Sales-Search-1,NY PLLC Formation,nypllc,ADDED,EXACT,4,3,0.75,10490000.0,31470000,1.0
+2026-10-18,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,6,0,0.0,0.0,0,0.0
+2026-10-18,Sales-Search-1,NY PLLC Formation,pllc formation,ADDED,EXACT,3,1,0.3333333333333333,8580000.0,8580000,0.0
+2026-10-18,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,1,1,1.0,5220000.0,5220000,0.0
+2026-10-18,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-18,Sales-Search-1,NY PLLC Formation,pllc nyc,ADDED,EXACT,1,1,1.0,9900000.0,9900000,0.0
+2026-10-18,Sales-Search-1,NY PLLC Formation,articles of organization for pllc,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-10-18,Sales-Search-1,NY PLLC Formation,pllc filing,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-18,Sales-Search-1,NY PLLC Formation,pllc formation services,NONE,PHRASE,2,1,0.5,28420000.0,28420000,0.0
+2026-10-19,03_ForeignQual_US,Generic-ForeignQual,application for authority nys,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-19,03_ForeignQual_US,Generic-ForeignQual,authority to do business in new york state,NONE,NEAR_EXACT,2,1,0.5,7100000.0,7100000,0.0
+2026-10-19,03_ForeignQual_US,Generic-ForeignQual,how to form a pllc in new york,NONE,NEAR_EXACT,3,0,0.0,0.0,0,0.0
+2026-10-19,03_ForeignQual_US,Generic-ForeignQual,new york state application for authority,NONE,NEAR_EXACT,1,1,1.0,5880000.0,5880000,0.0
+2026-10-19,03_ForeignQual_US,Generic-ForeignQual,new york state foreign corporation registration,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-19,03_ForeignQual_US,Generic-ForeignQual,ny authority to do business,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-19,03_ForeignQual_US,Generic-ForeignQual,ny state application for authority,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-19,03_ForeignQual_US,Generic-ForeignQual,register foreign corporation in new york,NONE,NEAR_EXACT,3,0,0.0,0.0,0,0.0
+2026-10-19,Sales-Search-1,NY PLLC Formation,forming a pllc in ny,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-10-19,Sales-Search-1,NY PLLC Formation,new york pllc,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-19,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,5,1,0.2,7890000.0,7890000,0.0
+2026-10-19,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,5,0,0.0,0.0,0,0.0
+2026-10-19,Sales-Search-1,NY PLLC Formation,nys pllc formation,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-19,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,7,0,0.0,0.0,0,0.0
+2026-10-19,Sales-Search-1,NY PLLC Formation,pllc formation,ADDED,EXACT,2,1,0.5,5080000.0,5080000,0.0
+2026-10-19,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,8,1,0.125,2890000.0,2890000,0.0
+2026-10-19,Sales-Search-1,NY PLLC Formation,pllc in new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-19,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,8,1,0.125,1000000.0,1000000,0.0
+2026-10-19,Sales-Search-1,NY PLLC Formation,pllc ny,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-19,Sales-Search-1,NY PLLC Formation,pllc nyc,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-10-19,Sales-Search-1,NY PLLC Formation,pllc nys,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-19,Sales-Search-1,NY PLLC Formation,new york business register,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-19,Sales-Search-1,NY PLLC Formation,pllc business,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-20,01_Core_Exact_NY,Brand,pllc new york formation,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-20,03_ForeignQual_US,Generic-ForeignQual,application for authority new york,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-20,03_ForeignQual_US,Generic-ForeignQual,new york application for authority,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-20,03_ForeignQual_US,Generic-ForeignQual,new york state foreign corporation registration,NONE,NEAR_EXACT,2,0,0.0,0.0,0,0.0
+2026-10-20,03_ForeignQual_US,Generic-ForeignQual,nys application for authority,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0
+2026-10-20,Sales-Search-1,NY PLLC Formation,new york pllc,ADDED,EXACT,4,0,0.0,0.0,0,0.0
+2026-10-20,Sales-Search-1,NY PLLC Formation,new york pllc formation,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-20,Sales-Search-1,NY PLLC Formation,ny pllc,ADDED,EXACT,8,1,0.125,7790000.0,7790000,0.0
+2026-10-20,Sales-Search-1,NY PLLC Formation,ny pllc formation,ADDED,EXACT,2,1,0.5,4630000.0,4630000,0.0
+2026-10-20,Sales-Search-1,NY PLLC Formation,nys pllc,ADDED,EXACT,3,0,0.0,0.0,0,0.0
+2026-10-20,Sales-Search-1,NY PLLC Formation,pllc,ADDED,EXACT,15,0,0.0,0.0,0,0.0
+2026-10-20,Sales-Search-1,NY PLLC Formation,pllc formation new york,ADDED,EXACT,1,0,0.0,0.0,0,0.0
+2026-10-20,Sales-Search-1,NY PLLC Formation,pllc in new york,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-20,Sales-Search-1,NY PLLC Formation,pllc new york,ADDED,EXACT,5,1,0.2,10990000.0,10990000,0.0
+2026-10-20,Sales-Search-1,NY PLLC Formation,pllc nys,ADDED,EXACT,2,0,0.0,0.0,0,0.0
+2026-10-20,Sales-Search-1,NY PLLC Formation,llc to pllc,NONE,PHRASE,1,0,0.0,0.0,0,0.0
+2026-10-20,Sales-Search-1,NY PLLC Formation,pllc formation services,NONE,PHRASE,2,0,0.0,0.0,0,0.0
+2026-10-20,Sales-Search-1,NY PLLC Formation,business register new york,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-20,Sales-Search-1,NY PLLC Formation,nyllc,NONE,BROAD,1,0,0.0,0.0,0,0.0
+2026-10-20,Sales-Search-1,NY PLLC Formation,pllc new york formation,NONE,NEAR_EXACT,1,1,1.0,53370000.0,53370000,1.0
+2026-10-20,Sales-Search-1,NY PLLC Formation,pllc new york state,NONE,NEAR_EXACT,1,0,0.0,0.0,0,0.0

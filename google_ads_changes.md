@@ -1,6 +1,6 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-10-18
+**Last updated:** 2026-10-20
 
 **Calendar (Oct 16, 2026):** $985 is a **November** test, not February. January is not an automatic budget surge. See [decision-log.md](decision-log.md). Rows below are the change history.
 
@@ -9,6 +9,19 @@
 - Customer: NYPLLC (`1529880213`)
 - Live: `Sales-Search-1` + `01_Core_Exact_NY` + `02_Professions_NY` + **`03_ForeignQual_US`** (ENABLED)
 - `03_ForeignQual_US` attached to portfolio `12148056412` (Target CPA $105 hold)
+
+---
+
+## Changes on 2026-10-20 — P1-09 evidence pull (no account changes)
+
+Pull: [`ads-pull-2026-10-20-p1-09/`](ads-pull-2026-10-20-p1-09/) · memo [`P1-09-policy-memo.md`](ads-pull-2026-10-20-p1-09/P1-09-policy-memo.md)
+
+| Item | Result |
+|---|---|
+| 7d / 30d CPA (live camps) | **$80** (10 conv) / **$106** (29 conv) |
+| Ads↔CRM 30d | Spiffy Purchase **29** vs CRM gclid **28** (~+3.6%) |
+| Policy | 3× `01` + 2× Attorneys RSAs **DISAPPROVED** (`GOVERNMENT_DOCUMENTS…`, REVIEWED). **Appeals recommended**; pause disapproved + unpause Formation-Core **APPROVED_LIMITED** `816286133015` per memo |
+| Account changes | **None** (hold **$105**) |
 
 ---
 

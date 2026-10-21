@@ -83,5 +83,5 @@ Hold **$105** unless SOP tripwires fire. For the decision memo, combine:
 ## Sid actions
 
 - [ ] Submit appeals for ads `816213581518`, `816213581680`, `816286167770` (UI; use text above).  
-- [ ] Approve pause disapproved + unpause `816286133015` if Ops/agent should execute via script.  
+- [ ] Approve pause of the three disapproved ads. Unpause of `816286133015` **done Oct 21** (ENABLED, still APPROVED_LIMITED). See [google_ads_changes.md](../google_ads_changes.md).  
 - [ ] Log appeal confirmation IDs in [google_ads_changes.md](../google_ads_changes.md).

@@ -1,6 +1,6 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-10-20
+**Last updated:** 2026-10-21
 
 **Calendar (Oct 16, 2026):** $985 is a **November** test, not February. January is not an automatic budget surge. See [decision-log.md](decision-log.md). Rows below are the change history.
 
@@ -11,6 +11,15 @@
 - `03_ForeignQual_US` attached to portfolio `12148056412` (Target CPA $105 hold)
 
 ---
+
+## Changes on 2026-10-21 — Unpause Formation-Core limited RSA
+
+| Item | Result |
+|---|---|
+| Ad | `816286133015` Formation-Core — unpinned, ad group `201832402041` |
+| Change | **PAUSED → ENABLED** (`google_ads.set_ad_group_ad_status`) |
+| Policy | Still **APPROVED_LIMITED**. Ad group Formation-Core stays ENABLED. |
+| Not done | Appeals for the three disapproved `01` ads. Those ads were left ENABLED. |
 
 ## Changes on 2026-10-20 — P1-09 evidence pull (no account changes)
 

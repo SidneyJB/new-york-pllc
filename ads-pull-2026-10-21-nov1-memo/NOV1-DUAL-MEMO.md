@@ -53,7 +53,7 @@ Source: P1-09 memo, plus [self-block check](../ads-pull-2026-10-21-self-block/SE
 | `03` | Immature. Not a demand test. |
 | Microsoft Advertising | Still blocked. Address mismatch, case 7109261224. Two attempts left. No second account. `msclkid` is not a live spend source. |
 
-**Skeleton verdict:** policy is unresolved until the three `01` appeals are filed and Google answers. Self-block is not the blocker. Hold $105 while appeals are outstanding. Unpausing Formation-Core RSA `816286133015` is the operational unblock in the P1-09 memo; it is not done in this skeleton.
+**Skeleton verdict:** policy is unresolved until the three `01` appeals are filed and Google answers. Self-block is not the blocker. Hold $105 while appeals are outstanding. Formation-Core RSA `816286133015` was unpaused October 21 and is ENABLED, still APPROVED_LIMITED.
 
 ## What November 1 still needs
 

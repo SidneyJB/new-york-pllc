@@ -18,7 +18,7 @@ Recorded October 20, 2026. These holds are the working calendar.
 
 - **Partner sales:** Tuesday 10:00–12:00 and Thursday 10:00–12:00 (Sid)
 - **Scorecard:** Monday 9:00–9:30 (Sid + Agent). Next: October 27.
-- **Billing scan:** first 15 minutes of each working day (Ops)
+- **Billing scan:** first 15 minutes of each working day (Ops). Last run October 21: [billing scan](../../PLLC-CRM/crm/reports/billing-scan-2026-10-21/README.md).
 
 ## Package status
 

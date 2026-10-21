@@ -1,0 +1,120 @@
+campaign.name,campaign.status,campaign_criterion.keyword.text,campaign_criterion.keyword.match_type,campaign_criterion.negative,campaign_criterion.status
+Sales-Search-1,ENABLED,publication,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,publishing,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,application,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,operating agreement,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,certificate of incorporation,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,lcsw,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lcsw exam,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,social worker,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,licensed mental health counselor,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,clinical social worker,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,certificate of incorporation new york,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,new york articles of incorporation,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,business formation attorney,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,attorney for small business,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,lcsw exam prep,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,pllc lawyer,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,lcsw jobs,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,lcsw nyc,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,business license new york,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lcsw therapist,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,manhattan business lawyer,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,nyc business solutions,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,ny llc publication requirement,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,new york business entity search,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,new york entity search,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,ny business search,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,what is a pllc,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,licsw,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,social worker new york city,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,how to form a pllc,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,new york certificate of publication,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,social work in new york,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lcsw application,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,social worker ny,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,nys lcsw requirements,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lcsw exam ny,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lcsw salary,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,new york lcsw,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,nyu silver school of social work,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,register business name in ny,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,new york social worker,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,new york new york business lawyers,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,get business license new york,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,notice of formation,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,social worker new york,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lcsw jobs nyc,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,new york state office of professions,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,nyc social worker,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,social worker nyc,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,social work new york,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,nyc department of small business services,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,dba new york,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,licensed mental health counselor new york,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lcsw requirements ny,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,nys lcsw application,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,bettina thomsen,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,company formation charges,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,baker mckenzie new york,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,nymhca,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,apply for business license nyc,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,LLC ny,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,nyc social workers,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,how to become a lmhc,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,what is lmhc,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,nyc lcsw,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,ny registered agent service,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,new york university silver school of social work,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,cohn legal,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,lcsw website,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lcsw ny,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,ny llp,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,new york board of social work,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,commercial law new york,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,ny registered agent search,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lcsw jobs new york city,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,ny social work,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,social worker in new york,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,what is lcsw in counseling,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lcsw in new york,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lcsw requirements nyc,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,how to start a law firm in new york,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,business entity formation attorney,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,new york licensing services,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,nys nasw,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,ropes & gray llp new york,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,latham new york office,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,formation nyc,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,asher & associates p c,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,how to become a therapist nyc,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,new york state lcsw application,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,legal zoom pllc,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,LLC new york,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lcsw remote jobs ny,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,ny lcsw ceu requirements,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,debevoise & plimpton new york,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,how to become lcsw in ny,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lmsw requirements ny,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,nysscsw,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,mhc lp jobs nyc,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,new york business registration search,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,ny foreign corporation registration,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,remote lmsw jobs new york,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lmsw private practice jobs,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,atsumi & sakai new york llp,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,sultzer & lipari pllc,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,jennifer silverman pllc,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lcsw vibes,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,remote lmsw jobs ny,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,social workers in new york ny,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,social workers new york city,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lcsw assessment jobs remote,PHRASE,True,ENABLED
+Sales-Search-1,ENABLED,how many supervision hours for lcsw ny,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,ny business license application,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lcsw application nys,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,social work limited permit ny,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,nys lcsw application status,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,authorization to do business in ny,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lcsw ny requirements,EXACT,True,ENABLED
+Sales-Search-1,ENABLED,lcsw hours requirements ny,EXACT,True,ENABLED

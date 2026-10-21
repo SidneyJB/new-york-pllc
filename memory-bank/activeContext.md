@@ -36,7 +36,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 
 **P1 (Oct 16–29):**
 
-1. **Economics baseline** — CRM `baseline-financial-export.ts` + weekly scorecard template; formation contribution per P1-03.
+1. **Economics baseline** — CRM `baseline-financial-export.ts` + weekly scorecard template; formation contribution per P1-03. **P1-03 trace Oct 21:** finished $885 PLLC **$514** upfront / **$513** on four payments. [TRACE](../../PLLC-CRM/crm/reports/p1-03-2026-10-21/TRACE.md). Labor, P&L, and the acquisition allowance are still open.
 2. **Direct RA** — **P1-04 card-check done Oct 20**; Oct 23 live charge + descriptor verify remains. T & C still **no PM** on file. [P1-04 preflight](../../PLLC-CRM/crm/reports/p1-04-2026-10-20/README.md) · [direct-ra-launch-status.md](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
 3. **B2B — active** — first sends **Oct 19** (16). P1-10 prep done Oct 20: [partner review](../../PLLC-CRM/crm/reports/p1-10-2026-10-20/partner-review.md), [first 25](../../PLLC-CRM/crm/reports/p1-10-2026-10-20/first-25-firms.md), [service sheet](../../PLLC-CRM/crm/reports/p1-10-2026-10-20/service-sheet.md). Conversations and live cases still Sid. (**PLLC-CRM** + Sid)
 4. **$985 test** — design in [docs/price-test-985.md](../docs/price-test-985.md); launch window **Nov 2–4** after P1-12 (not February).

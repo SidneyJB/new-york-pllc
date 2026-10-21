@@ -66,7 +66,7 @@ Historical topic (from change log and UI emails): **`GOVERNMENT_DOCUMENTS_AND_OF
    - **Unpause** Formation-Core RSA `816286133015` (**APPROVED_LIMITED**, currently PAUSED per Oct 18 SOP) so Formation-Core has a serving limited ad alongside approved Cost-Price/Brand limited ads.  
    - Do **not** upload new copy until appeal outcomes (stop churn — see Aug–Sep attorney incident).
 
-4. **Self-block / negatives:** not re-run in this memo; last weekly SOP **0** self-block (Oct 18). Re-check on next weekly SOP.
+4. **Self-block / negatives:** re-run October 21. **Pass, 0 self-blocked** (48 / 31 / 39 / 39). [SELF-BLOCK.md](../ads-pull-2026-10-21-self-block/SELF-BLOCK.md).
 
 5. **Foreign `03`:** $190 / 24 clicks / 0 conv in 30d — label **immature**; do not treat as demand proof.
 

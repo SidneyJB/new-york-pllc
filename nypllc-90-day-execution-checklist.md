@@ -77,13 +77,13 @@ Done when: the files reconcile sufficiently to produce the first scorecard, with
 
 Owner: Agent. Decision owner: Sid. Review: accountant as needed. Due: October 23. Required. Dependency: P1-02.
 
-- [ ] Select at least 20 completed orders spanning the main professions, retail/partner sales, paid/unpaid acquisition, and installment/upfront payments. Trace those cases manually to validate the larger analysis.
+- [x] Select at least 20 completed orders spanning the main professions, retail/partner sales, paid/unpaid acquisition, and installment/upfront payments. Trace those cases manually to validate the larger analysis. Evidence: [P1-03 trace](../PLLC-CRM/crm/reports/p1-03-2026-10-21/TRACE.md). 39 of 57 formation-complete orders since April 1. Partner, dentistry, and accounting have no finished order; those in-progress rows are in the same note. Standard finished $885 PLLC is **$514** upfront and **$513** on four collected payments.
 - [ ] Calculate customer receipts, discounts, refunds, bad-debt allowance, government fees, publication cost, processing fees, and fulfillment labor for each order.
 - [x] Explain precisely how the historical $476 figure differs from the current $520. Do not average them without reconciling their definitions. Evidence: [scorecard](scorecards/2026-10-18-weekly.md).
 - [x] Separate costs that vary with another order from current fixed payroll and overhead. Show where allocated labor sits so it is not subtracted twice. Evidence: [scorecard](scorecards/2026-10-18-weekly.md). Payroll stays out of the unit figure.
 - [x] Compare retail, referral, and wholesale contribution. Treat a wholesale discount as reduced revenue; separately record any additional cash referral payment. Evidence: [scorecard](scorecards/2026-10-18-weekly.md).
 - [ ] Measure installment completion by sufficiently mature cohort. Separate receivables not yet due from failed collections and write-offs.
-- [ ] Calculate contribution by major profession and product where sample size allows. Include sample counts and a caution on small groups.
+- [x] Calculate contribution by major profession and product where sample size allows. Include sample counts and a caution on small groups. Evidence: [P1-03 trace](../PLLC-CRM/crm/reports/p1-03-2026-10-21/TRACE.md). Finished orders only. Dentistry and accounting are zero in that set. Design and rehab are 3 each.
 - [ ] Reconstruct a monthly operating P&L that reconciles with the unit model. Allocate shared expenses consistently and identify costs absent from the current forecast.
 - [ ] Set a provisional acquisition allowance from audited contribution less the contribution the business needs to retain. Treat $200–$220 as a candidate experiment range, not an automatically approved ceiling.
 
@@ -176,10 +176,10 @@ Owner: Agent/ads operator. Decision owner: Sid. Initial review: October 21. Requ
 - [x] Inspect each current disapproval and limitation, including the paused attorney group. Record the exact policy reason and the status of any existing verification/certification. Evidence: [policy memo](ads-pull-2026-10-20-p1-09/P1-09-policy-memo.md) — five DISAPPROVED ENABLED (historical topic `GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES`); Attorneys AG paused.
 - [x] Review the current government-documents policy, including the October 5 update, against the actual service and account facts. Determine whether certification, a valid exclusion request, or an appeal is appropriate. Evidence: [policy memo](ads-pull-2026-10-20-p1-09/P1-09-policy-memo.md) — **appeal** disapproved `01` ads; certification only if program fits private filing service; unpause APPROVED_LIMITED Formation-Core RSA while appeals pend.
 - [ ] Assemble accurate supporting information and submit only the applicable process through the existing account. Do not imply government authorization the business does not have.
-- [ ] Confirm that the prior negative-keyword failure has not recurred. Check short tokens, cross-campaign negatives, and active keyword coverage.
+- [x] Confirm that the prior negative-keyword failure has not recurred. Check short tokens, cross-campaign negatives, and active keyword coverage. Evidence: [self-block Oct 21](ads-pull-2026-10-21-self-block/SELF-BLOCK.md). **0** of 48 / 31 / 39 / 39. Phrase `vs` and `$0` remain on shared lists and do not hit an enabled keyword.
 - [ ] Review foreign-qualification traffic with its small sample clearly labeled. Do not interpret $53 of historical spend as a meaningful demand test.
 - [ ] Document the Microsoft address mismatch, the evidence required to correct it, and the remaining attempts. Continue through the existing case.
-- [ ] Prepare a November 1 decision memo with order volume, lag, actual economics, policy status, and data limitations. Retain the current $105 setting unless the adopted SOP calls for a change.
+- [ ] Prepare a November 1 decision memo with order volume, lag, actual economics, policy status, and data limitations. Retain the current $105 setting unless the adopted SOP calls for a change. Skeleton, October still open: [Nov 1 dual memo](ads-pull-2026-10-21-nov1-memo/NOV1-DUAL-MEMO.md).
 
 Done when: Sid has fresh evidence and a specific policy-resolution path. “Write another ad” is not a resolution if the underlying eligibility issue remains.
 

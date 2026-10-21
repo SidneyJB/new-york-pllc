@@ -1,0 +1,21 @@
+campaign.name,campaign.status,shared_set.name,campaign_shared_set.status
+Sales-Search-1,ENABLED,Neg B — Research DIY education,ENABLED
+Sales-Search-1,ENABLED,Neg C — Wrong intent lookup jobs school,ENABLED
+Sales-Search-1,ENABLED,Neg E — Publishing-only intent,ENABLED
+Sales-Search-1,ENABLED,Neg A — Other states (excl NY),ENABLED
+Sales-Search-1,ENABLED,Neg D — Freebie price-shopping junk,ENABLED
+03_ForeignQual_US,ENABLED,Neg B — Research DIY education,ENABLED
+03_ForeignQual_US,ENABLED,Neg A-FQ — Other states (excl NY + FQ origins),ENABLED
+03_ForeignQual_US,ENABLED,Neg C — Wrong intent lookup jobs school,ENABLED
+03_ForeignQual_US,ENABLED,Neg E — Publishing-only intent,ENABLED
+03_ForeignQual_US,ENABLED,Neg D — Freebie price-shopping junk,ENABLED
+02_Professions_NY,ENABLED,Neg B — Research DIY education,ENABLED
+02_Professions_NY,ENABLED,Neg C — Wrong intent lookup jobs school,ENABLED
+02_Professions_NY,ENABLED,Neg E — Publishing-only intent,ENABLED
+02_Professions_NY,ENABLED,Neg A — Other states (excl NY),ENABLED
+02_Professions_NY,ENABLED,Neg D — Freebie price-shopping junk,ENABLED
+01_Core_Exact_NY,ENABLED,Neg B — Research DIY education,ENABLED
+01_Core_Exact_NY,ENABLED,Neg C — Wrong intent lookup jobs school,ENABLED
+01_Core_Exact_NY,ENABLED,Neg E — Publishing-only intent,ENABLED
+01_Core_Exact_NY,ENABLED,Neg A — Other states (excl NY),ENABLED
+01_Core_Exact_NY,ENABLED,Neg D — Freebie price-shopping junk,ENABLED

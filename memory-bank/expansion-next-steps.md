@@ -4,9 +4,9 @@
 **Owner:** Cross-cutting expansion strategy lives in the **website** memory bank. CRM builds link from [PLLC-CRM/memory-bank/features/](../../PLLC-CRM/memory-bank/features/).
 
 > **Operational SoT (through Jan 13, 2027):** [**90-day execution checklist**](../nypllc-90-day-execution-checklist.md) · [decision-log.md](../decision-log.md) · [scorecards/](../scorecards/)  
-> **Strategy / hurdle:** [**Integrated operating plan v3**](../nypllc-integrated-operating-plan.md) — validate **$1,053K / $1,179K** hurdle cases (125–140 formations/mo @ unproven $650 blend); not the retired additive ~$1.02M stack.
+> **Strategy / hurdle:** [**Integrated operating plan v3**](../nypllc-integrated-operating-plan.md) — dollar cases **$1,053K / $1,179K** are still priced at 125–140 formations/mo and an unproven $650 blend. **Oct 21:** the written levers support **111–115/mo** (or **107–111** if Bing stays blocked), not 125. [decision-log.md](../decision-log.md).
 
-**Targets:** Channel allocation to validate: ~30 partner / 40 paid search / 55 organic-direct per month at **125** formations. $985 test **Nov 2026** (not February). B2B outreach **active** (not paused).
+**Targets:** Oct 21 volume correction in [decision-log.md](../decision-log.md). Written levers support **111–115** formations/month if the **30** partner target hits and Bing returns, or **107–111** if Bing stays blocked. The old **40 / 55** non-partner split was a target mix, not a forecast. **125/month** in the §6 dollar hurdle is **10–14** orders above the levers and has no source. $985 test **Nov 2026** (not February). B2B outreach **active** (not paused).
 
 Companion operating plans: [Ads v2](../nypllc-google-ads-operating-plan.md) · [SEO moat](../nypllc-seo-content-moat-plan.md) · [Revenue levers v1](../nypllc-revenue-levers-plan.md) · CAQH v1 · B2B v1 (CRM). **MSO path (offer locked):** [mso-msa.md](features/mso-msa.md) · packet [synthesis](../docs/business-ideas-ny-mso-msa-synthesis.md). License filing + credentialing packet research still in [PLLC-CRM catalog](../../PLLC-CRM/business%20ideas.md).
 

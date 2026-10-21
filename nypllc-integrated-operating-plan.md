@@ -10,13 +10,13 @@
 - **Operational SoT through Jan 13, 2027:** [nypllc-90-day-execution-checklist.md](nypllc-90-day-execution-checklist.md) (packages P1–P3, scorecard defs, experiment rules).
 - **Supersessions recorded in:** [decision-log.md](decision-log.md).
 - **§6:** Replaced additive ~$1.02M lever sum with **hurdle cases** ($1,053K / $1,179K) to validate; $650/formation and 125/mo are unproven.
-- **Volume:** Channel-first model (30 / 40 / 55 at 125/mo); F1–F3 are in-funnel conversion lifts, not extra streams.
+- **Volume:** Oct 16 mix was 30 / 40 / 55 at 125/mo. **Oct 21:** that 40 / 55 split was a target, not a lever result. Written levers support **111–115** formations/month with the 30 partner target, or **107–111** if Bing stays blocked. **125** is 10–14 orders/month above that. See [decision-log.md](decision-log.md).
 - **B2B:** Outreach starts Oct 2026 (not Nov 9); include OOS formation wholesale; 2028 hurdle **25–30 partner orders/mo**.
 - **Pricing:** $985 test Nov 2026 (not Feb); $1085 conditional on P3-01.
 - **CAQH:** $0 in base forecast; product paused Oct 14.
 
 **How to read this plan (v3):**
-- Sections 3–5 still describe **levers and mechanics**; Section 6 is a **hurdle to validate**, not a forecast built by summing lever rows.
+- Sections 3–5 still describe **levers and mechanics**. Add a distinct order gain once to the baseline. Do not add it again on top of a channel total that already includes it. Section 6 is a **dollar hurdle to validate**. Its 125 formations/month is not the lever-supported volume (Section 2).
 - When evidence fails a gate, re-cut the hurdle at the next review (Section 9).
 
 ---
@@ -93,19 +93,21 @@
 
 To reach ~$1M+ net operating profit in calendar 2028, the business needs **stronger economics per formation**, **repeatable partner distribution**, and **recurring services (VM/RA)** — not a stack of optimistic ancillary lines.
 
-**Hurdle to validate (not a forecast):** about **125 formations/month** average in 2028 at an unproven **~$650** blended contribution, plus VM and RA after overlap is verified (Section 6).
+**Volume the written levers support (planner correction, Oct 21, 2026).** Start from about **49** non-partner orders a month. Central estimates: abandoned checkout **+6**, order page and mobile **+6**, Google acquisition **+7** excluding those conversion gains, Bing **+4** if reinstated, organic and AI **+9**. That is **81**. Reviews **+2** and second entities **+2** make **85**. Those last four can overlap conversion already counted, or they belong to whatever channel actually produced the order. The partner line is still a **30/month target**. Totals: **111** or **115** formations a month. If Bing stays blocked, subtract **4**.
 
-**Channel allocation to validate** (at 125/mo total): ~**30** partner · ~**40** paid search · ~**55** organic / direct / customer referral / AI. Unknown stays explicit.
+The old mix, **40** paid search and **55** organic / direct / referral / AI, was a target allocation. It is not a reconciled forecast and not a pass/fail by channel. Another mix can support the same total if acquisition cost and contribution work. The levers sit **10–14** orders a month under a 95 non-partner target (**81** or **85** versus **95**). Those orders have no source. Section 6 still prices **125/month**. That figure is this unreconciled shape, not the lever total.
 
-**F1, F2, F3** (abandonment, checkout, reviews) improve **conversion inside** those channels. They are **not** separate additive order streams in the forecast.
+**Counting rule:** add a distinct gain once to the baseline. Google at **27–33** orders a month already includes that channel’s share of recovery and the order page, so that endpoint is not added on top of the **+6** and **+6**.
+
+Contribution per order in this section remains the unproven **~$650**, with VM and RA after overlap is verified (Section 6).
 
 **Pricing:** $985 retail test **Nov 2026** (checklist P2-01). Formation-only upside example is **+$45,600**/yr at 90% volume (1,080 × $620 vs 1,200 × $520), **before** lost VM/RA customers and extra fees — not +$90K.
 
 ---
 
-## 3. Formation levers (playbooks — do not sum rows for forecast)
+## 3. Formation levers (playbooks)
 
-Section 3 describes **what to execute** and how to read early signal. **Do not add** the lever table below to a volume forecast; use Section 2 channel rows and apply F1–F3 as conversion lifts inside each row.
+Section 3 describes **what to execute** and how to read early signal. Add each distinct gain once, on top of the ~49 non-partner baseline in Section 2. Do not add the same gain again on top of a Google or paid-search total that already includes it. The old 40 / 55 channel rows are not the volume forecast.
 
 ### Lever reference (execution priority, not additive math)
 
@@ -433,6 +435,8 @@ The Oct 7 **~$1.02M** stack (1,200 × $520 formations + **+$90K** $985 assumptio
 | Other services (**CAQH $0** base) | **$25,000** | **$35,000** |
 | **Illustrative operating profit** | **$1,053,000** | **$1,179,000** |
 
+The **125/month** and **140/month** rows are the shape this dollar table was built on. They are not the lever-supported volume. Section 2 puts that volume at **111–115/month** with the 30 partner target and Bing, or **107–111** if Bing stays blocked. The **10–14** order gap up to 125 has no source, and this table is not restated at 111–115. **$650**, the **$40** VM contribution, and the account counts stay as written.
+
 **$985 formation-only example (before lost recurring):** 1,080 orders × $620 contribution vs 1,200 × $520 = **+$45,600**/yr — use only after P1-03 audited costs.
 
 ### Trajectory without hurdle (baseline)
@@ -444,6 +448,8 @@ The Oct 7 **~$1.02M** stack (1,200 × $520 formations + **+$90K** $985 assumptio
 | If this fails | Effect |
 |---|---|
 | Partner row stays ~1/mo vs 25–30/mo hurdle | Largest volume gap |
+| Bing stays blocked | Lever-supported total falls by **4**/month |
+| No source is named for the **10–14** orders above the lever case | **125/month** in the dollar table stays unexplained |
 | $650 blend not achieved | Hurdle formation line drops proportionally |
 | VM/RA double-count not removed | Overstates recurring |
 | $985 with >16% volume loss | May erase formation-only gain |

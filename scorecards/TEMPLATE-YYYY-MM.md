@@ -8,7 +8,7 @@ Roll up weekly files for the month. Compare to integrated plan §6 **hurdle** (n
 
 | Line | Month actual | YTD / trend | Hurdle assumption | Gap |
 |------|-------------:|------------:|------------------:|-----|
-| Formations (orders) | | | ~125/mo avg 2028 | |
+| Formations (orders) | | | Lever case 111–115/mo (107–111 if Bing blocked). Dollar table still uses 125. | |
 | Blended formation contribution | | | $650 (unproven) | |
 | Advertising + cash referral | | | | |
 | VM avg paying subs | | | 350–400 | |

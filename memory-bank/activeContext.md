@@ -30,7 +30,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Expansion priorities (90-day window — Oct 16 2026)
 
 📖 **Operational SoT:** [**nypllc-90-day-execution-checklist.md**](../nypllc-90-day-execution-checklist.md) · [decision-log.md](../decision-log.md) · [scorecards/](../scorecards/) · [ops/90-day-task-board.md](../ops/90-day-task-board.md)  
-📖 **Strategy / hurdle:** [**integrated operating plan v3**](../nypllc-integrated-operating-plan.md) §6 ($1.053M / $1.179M). Sprint calendar: [expansion-next-steps.md](expansion-next-steps.md).
+📖 **Strategy / hurdle:** [**integrated operating plan v3**](../nypllc-integrated-operating-plan.md) §6 ($1.053M / $1.179M, still priced at 125 formations/month). **Oct 21:** levers support **111–115/month** with the 30 partner target and Bing, else **107–111**. [decision-log.md](../decision-log.md). Sprint calendar: [expansion-next-steps.md](expansion-next-steps.md).
 
 **P1-01 closed Oct 20:** [ops/p1-01-ownership.md](../ops/p1-01-ownership.md) (Sidney is Sid and Ops; calendar holds; capacity).
 

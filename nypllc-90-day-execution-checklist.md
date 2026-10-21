@@ -687,7 +687,7 @@ The previously proposed target case is a hurdle to validate:
 | Other service contribution | $25,000 |
 | Illustrative annual operating profit | $1,053,000 |
 
-Every line requires validation. The $650 blended formation contribution depends on pricing and mix; the recurring lines require actual paid cohorts; all residual operating costs must be deducted. The 2028 volume is an average of 125 formations per month, not a year-end milestone.
+Every line requires validation. The $650 blended formation contribution depends on pricing and mix; the recurring lines require actual paid cohorts; all residual operating costs must be deducted. The dollar table above still uses 125 formations a month. The Oct 21 volume correction says the written levers support 111–115 a month with the 30 partner target and Bing, or 107–111 if Bing stays blocked. The 10–14 orders between that and 125 have no source. See [decision-log.md](decision-log.md).
 
 ## Evidence to retain for each work package
 

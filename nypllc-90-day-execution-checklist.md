@@ -194,8 +194,8 @@ Owner: Sid. Support: Agent for preparation; Ops for handoffs. Due: first sends O
 - [x] Prepare a short service sheet: scope, all-in pricing, controlled turnaround commitments, status reporting, handoff process, client relationship, and escalation contact. Evidence: [service sheet](../PLLC-CRM/crm/reports/p1-10-2026-10-20/service-sheet.md).
 - [x] Prepare two concise outreach approaches for different segments. Lead with administrative work removed and client reliability; discuss economics after fit is established. Evidence: [Wave 3](../PLLC-CRM/crm/reports/b2b-partner-outreach-wave3-2026-10-19.md).
 - [x] Sid sends the initial messages. Schedule no more than one unsolicited follow-up around day 7, consistent with the existing two-touch plan. Respect opt-outs. Evidence: [send log](../PLLC-CRM/crm/reports/b2b-partner-outreach-wave3-2026-10-19-send.json). 16 sent Oct 19 from `contact@nypllc.com` (13 referral, Pact CPA, Sheldon Richards, and Glenn Kempa wholesale). Clarity and Empire Risk have no public email. Day-7 follow-up is still Oct 26.
-- [ ] Seek 3–5 substantive conversations. Ask how many relevant cases the firm handled in the last 90 days and how it handles them now.
-- [ ] Ask suitable prospects for one live case. Record objections and next steps even when the prospect declines.
+- [ ] Seek 3–5 substantive conversations. Ask how many relevant cases the firm handled in the last 90 days and how it handles them now. Oct 22: Sid reports zero replies to the 16 Oct 19 sends, so the Thursday block cannot produce a conversation. Next scheduled touch is the Oct 26 day-7 follow-up.
+- [ ] Ask suitable prospects for one live case. Record objections and next steps even when the prospect declines. Blocked on the same Oct 22 zero-reply status.
 
 Done when: the pipeline contains actual conversations and potential cases, not merely issued codes.
 

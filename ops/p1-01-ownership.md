@@ -25,7 +25,7 @@ These blocks are the team calendar for the 90-day plan. They are not Google Cale
 | Partner sales | Tuesday 10:00–12:00 | Sid | 2 |
 | Partner sales | Thursday 10:00–12:00 | Sid | 2 |
 | Scorecard | Monday 9:00–9:30 | Sid + Agent | 0.5 |
-| Billing scan | Each working day, first 15 minutes | Ops | ~1.25 / week |
+| Billing scan | Each working day, first 15 minutes. Command: `cd PLLC-CRM/crm && npm run billing-scan` | Ops | ~1.25 / week |
 
 Sid’s growth allowance stays **10–12 hours/week**: partners 4 hours in the blocks above; customer/pricing 2; recurring services 1; scorecard 0.5; implementation and contingency the rest. Next scorecard: **Monday, October 27, 2026, 9:00 ET**. Next partner blocks: **Tuesday, October 21** and **Thursday, October 23**.
 

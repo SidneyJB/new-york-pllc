@@ -64,7 +64,7 @@ Anything that **takes money** (build + launch) — still open:
 | **4** | **Two affiliate links** (banking + payroll) | **Site** lifecycle email + backlist / S Corp page | **Mercury + Gusto Impact applied Aug 14**; **third ping Sep 1**. **OnPay/ADP backup not sent** (deferred). Links not live. 📖 [affiliate-partners.md](../docs/affiliate-partners.md) |
 | **5** | **Ads — hold $105 + dual Nov 1** | **new-york-pllc** | **Hold $105.** Nov 1: legacy order-count branch **and** profit/marginal-CPA memo. Oct 5 government-docs policy review (P1-09). **No automatic January $10K.** **`03` enabled.** Bing blocked. **$985 Nov** (see [price-test-985.md](../docs/price-test-985.md)). |
 | **6** | **SEO — Headway/Alma comparison live** | **new-york-pllc** | `/headway-alma-vs-own-panels` live Sep 19. **One partner-usable asset per 90-day period** (P2-10), not a weekly cadence. **MSO unpublished**. |
-| **7** | **B2B partner outreach — active** | **PLLC-CRM + Sid** | First sends Oct 19; include wholesale/OOS formation firms. Productive partner = paid order in 90d. Platform (Headway/Alma) secondary. |
+| **7** | **B2B partner outreach — active** | **PLLC-CRM + Sid** | First sends Oct 19 (16). **Oct 22: zero replies.** Day-7 follow-up Oct 26. Productive partner = paid order in 90d. Platform (Headway/Alma) secondary. |
 | **8** | **MSO path** | **new-york-pllc** + CRM | Offer locked. CRM manual pair workflow **done Sep 16**. **Do not launch public checkout.** Draft at [`web/src/unpublished/ny-mso/`](../web/src/unpublished/ny-mso/). No ads. 📖 [mso-msa.md](features/mso-msa.md) |
 
 ---

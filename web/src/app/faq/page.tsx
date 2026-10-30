@@ -503,8 +503,7 @@ export default function FAQPage() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-muted-foreground">
-                        We currently collect the full amount up front so we can file immediately and keep timelines
-                        tight. If you have questions about budgeting, reach out and we'll talk it through.
+                        {`Yes. At checkout you can pay $${PRICING.basePrice} in full or split it into 4 payments of $${(PRICING.basePrice / 4).toFixed(2)}. The total is the same either way.`}
                       </p>
                     </CardContent>
                   </Card>

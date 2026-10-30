@@ -49,10 +49,10 @@ export const BUSINESS_INFO = {
   /** Direct Google Business Profile / Maps place page (prefer over maps.app.goo.gl short links). */
   googleBusinessProfileUrl:
     'https://www.google.com/maps/place/NYPLLC.com/@41.0486631,-74.0067845,17z/data=!3m1!4b1!4m6!3m5!1s0x89c3ab61dc362309:0x93b52d87f71f0e47!8m2!3d41.0486631!4d-74.0067845!16s%2Fg%2F11ypmhsz4m',
-  /** Keep in sync with live GBP (verified Jul 9 2026: 6 reviews, all 5★). */
+  /** Keep in sync with live GBP (Sid, Oct 30 2026: 16 reviews, all 5★). */
   googleReviews: {
     ratingValue: 5,
-    reviewCount: 6,
+    reviewCount: 16,
   },
 } as const
 

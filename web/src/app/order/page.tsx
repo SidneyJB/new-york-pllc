@@ -7,6 +7,7 @@ import { ORDER_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 import { OrderFallbackCheckoutNotice } from './order-fallback-checkout-notice'
 import { OrderPageClient } from './order-client'
+import { OrderTimeline } from './order-timeline'
 import { SpiffyPllcCheckout } from '@/components/spiffy/spiffy-pllc-checkout'
 import { SpiffyScript } from '@/components/spiffy/spiffy-script'
 import { BUSINESS_INFO, TRUST_MARKETING } from '@/lib/constants'
@@ -67,39 +68,13 @@ export default function OrderPage() {
             <Card>
               <CardHeader>
                 <CardTitle>What Happens After You Order?</CardTitle>
+                <CardDescription>
+                  Steps marked State are government review time. We can&apos;t speed those up, but we tell you
+                  where your filing is.
+                </CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
-                  <div className="text-center">
-                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <span className="text-primary font-bold">1</span>
-                    </div>
-                    <h3 className="font-semibold mb-2">State Filing</h3>
-                    <p className="text-sm text-muted-foreground">
-                      We file your Articles of Organization with New York State within 24 hours after NYSED approval
-                    </p>
-                  </div>
-
-                  <div className="text-center">
-                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <span className="text-primary font-bold">2</span>
-                    </div>
-                    <h3 className="font-semibold mb-2">Publishing Process</h3>
-                    <p className="text-sm text-muted-foreground">
-                      6-week newspaper publication in two NY newspapers as required by law
-                    </p>
-                  </div>
-
-                  <div className="text-center">
-                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <span className="text-primary font-bold">3</span>
-                    </div>
-                    <h3 className="font-semibold mb-2">Completion</h3>
-                    <p className="text-sm text-muted-foreground">
-                      Final Certificate of Publication filed and all documents delivered digitally
-                    </p>
-                  </div>
-                </div>
+                <OrderTimeline />
               </CardContent>
             </Card>
 

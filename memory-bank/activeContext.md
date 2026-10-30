@@ -64,7 +64,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 - GA4 `purchase` fires on confirmation; **not** imported to Google Ads (avoid double-count)
 - Google Ads primary: tagged Spiffy Purchase (`7678072764`, real `$` from `total=`); page-load secondary (`7353506045`)
 - Ads volume claim: **thousands / 25,000+** NY entities (not “300+”); sitelinks only to real sitemap URLs
-- Reviews: NYPLLC **GBP** only (not Trustpilot); live **5.0 / 6 reviews** (Jul 9 2026) — keep `BUSINESS_INFO.googleReviews` in sync
+- Reviews: NYPLLC **GBP** only (not Trustpilot); live **5.0 / 16 reviews** (Sid, Oct 30 2026) — keep `BUSINESS_INFO.googleReviews` in sync
 - Profession / foreign pages: formation/qualification scope only — do **not** over-claim board coordination
 - **MSO:** print $1,770 only; **do not print a counsel fee** (simple-case MSA stays $945 internally; counsel quotes); **do not name Jonah** on site/ads; intro at DOS only; CheapNewYorkLLC not the public face of the management LLC
 - Foreign checklists: customer-provided info only; we obtain standing/certified formation docs

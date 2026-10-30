@@ -315,7 +315,7 @@ export default async function PartnersPage({
               <div className="lg:col-span-2">
                 <h2 className="text-3xl font-bold tracking-tight">Partner application</h2>
                 <p className="mt-4 text-muted-foreground">
-                  Tell us about your firm and referral volume. We reply in 3–5 business days to
+                  Tell us about your firm and referral volume. We reply the same business day to
                   confirm fit and next steps.
                 </p>
 
@@ -346,8 +346,8 @@ export default async function PartnersPage({
                 {submitted && (
                   <Card className="mb-6 border-green-200 bg-green-50">
                     <CardContent className="py-4 text-sm text-green-900">
-                      Thanks, your application is in. We&apos;ll review it and reach out in 3–5
-                      business days.
+                      Thanks, your application is in. We&apos;ll review it and reach out the same
+                      business day.
                     </CardContent>
                   </Card>
                 )}

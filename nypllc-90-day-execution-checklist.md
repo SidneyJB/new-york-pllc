@@ -203,14 +203,14 @@ Done when: the pipeline contains actual conversations and potential cases, not m
 
 Owner: Agent for design; Sid for decisions; Ops for fulfillment. Due: October 29. Required. Dependency: P1-03 and P1-08.
 
-- [ ] Define the $985 test's eligible product and audience. Exclude existing quotes and contractual partner pricing from unintended changes.
-- [ ] Select a practical design: a staged price change with source-adjusted comparisons by default; a contemporaneous randomized test only if existing tools can keep assignment, quotes, checkout, and ads consistent without substantial engineering.
-- [ ] Document the limitations of a before/after comparison, especially the holiday calendar. Do not promise statistical certainty from 50 monthly orders.
-- [ ] Set the primary metric to expected collected contribution per eligible visitor. Monitor first-payment conversion, contribution per order, refunds, payment failures, and fulfillment quality.
-- [ ] Define a full, honest price display across site, checkout, ad assets, installments, and coupons. Honor prior quotes and saved offers under a written policy.
-- [ ] Write provisional continue/hold/revert rules before launch. Use the audited contribution model; do not copy the old +$90,000 assumption.
-- [ ] Confirm wholesale prices and whether discounts and referral payouts can stack. Set a contribution floor and obtain targeted review of partner terms where required.
-- [ ] Define partner intake, status updates, payment responsibility, exception handling, and a one-business-day response commitment that Ops can meet.
+- [x] Define the $985 test's eligible product and audience. Exclude existing quotes and contractual partner pricing from unintended changes. Evidence: [price-test-985.md](docs/price-test-985.md) §1. Domestic NY PLLC retail only; quotes honored to Dec 31; wholesale fixed; referral list-relative $960 (Sid, Oct 30).
+- [x] Select a practical design: a staged price change with source-adjusted comparisons by default; a contemporaneous randomized test only if existing tools can keep assignment, quotes, checkout, and ads consistent without substantial engineering. Evidence: [price-test-985.md](docs/price-test-985.md) §2. Staged switch, one deploy.
+- [x] Document the limitations of a before/after comparison, especially the holiday calendar. Do not promise statistical certainty from 50 monthly orders. Evidence: [price-test-985.md](docs/price-test-985.md) §3.
+- [x] Set the primary metric to expected collected contribution per eligible visitor. Monitor first-payment conversion, contribution per order, refunds, payment failures, and fulfillment quality. Evidence: [price-test-985.md](docs/price-test-985.md) §4. Denominator: Vercel Analytics visitors (Sid, Oct 30); GA4 later.
+- [x] Define a full, honest price display across site, checkout, ad assets, installments, and coupons. Honor prior quotes and saved offers under a written policy. Evidence: [price-test-985.md](docs/price-test-985.md) §1–2, §7.
+- [x] Write provisional continue/hold/revert rules before launch. Use the audited contribution model; do not copy the old +$90,000 assumption. Evidence: [price-test-985.md](docs/price-test-985.md) §5. Break-even about 12% volume loss.
+- [x] Confirm wholesale prices and whether discounts and referral payouts can stack. Set a contribution floor and obtain targeted review of partner terms where required. Evidence: [price-test-985.md](docs/price-test-985.md) §6. Floor $400; no stacking. Oct 30 review: wholesale coupons are a fixed offset off list, so their Spiffy dollar amounts get edited on launch day (added to §7).
+- [x] Define partner intake, status updates, payment responsibility, exception handling, and a one-business-day response commitment that Ops can meet. Evidence: [price-test-985.md](docs/price-test-985.md) §6. Sid committed to same-business-day replies Oct 30.
 
 Done when: the test is ready for a controlled launch and the first partner order can be fulfilled without creating a new portal.
 

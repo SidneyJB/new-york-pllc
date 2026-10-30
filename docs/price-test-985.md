@@ -1,6 +1,6 @@
 # $985 retail formation price test (design)
 
-**Status:** P1-11 draft, Oct 29 2026. Agent drafted it; items marked **[Sid]** need a decision before launch. Launch is on hold until the **Nov 9** re-decision ([decision log](../decision-log.md) Oct 29). This design feeds P2-01.
+**Status:** P1-11 design complete Oct 30 2026. Agent drafted it Oct 29; Sid decided the four open calls Oct 30 (referral **$960**, Vercel visitors as the denominator, **same-business-day** partner replies, partner-terms review done in §6). Launch is on hold until the **Nov 9** re-decision ([decision log](../decision-log.md) Oct 29). This design feeds P2-01.
 
 ## 1. What changes, and for whom
 
@@ -13,9 +13,7 @@
 - **Protected:**
   - Written quotes and manual invoices already issued at $885 are honored until **Dec 31 2026**. Ops issues the quoted amount and logs it as an exception.
   - Wholesale partner rates ($800 / $775 / $750) are unchanged. They're contract prices, not list-relative.
-  - **[Sid] Referral coupon.** Today a referral is $25 off list ($860) plus a $75 fee. Choose one:
-    - **(a) Recommended:** keep the discount list-relative, so referral becomes **$960**. This keeps the partner offer a real discount off the public price.
-    - **(b)** Freeze referral at $860. This widens the gap to $125 and makes partner orders look artificially cheap during the test.
+  - **Referral coupon: list-relative, $960 (Sid, Oct 30).** Today a referral is $25 off list ($860) plus a $75 fee. At $985 it becomes **$960** plus the same $75 fee. The Spiffy referral promo is already a fixed $25 offset, so existing referral codes produce $960 with no change.
 - **No stacking.** No referral fee on wholesale orders (unchanged). One coupon per order. A referral coupon can't combine with any other discount.
 
 ## 2. Design: staged switch, not a randomized split
@@ -48,9 +46,7 @@
 **Primary: expected collected contribution per eligible visitor**
 
 - Contribution = cash collected + expected collection of open installments at the matured rate (Apr–Jun: 99.7%) − refunds − filing cost ($345) − card fees − cash referral fees **+ expected 12-month VM/RA/add-on contribution from that order** (rates in the break-even table).
-- **Eligible visitor:** **[Sid]** choose the source.
-  - **Option 1:** GA4 sessions on the PLLC landing and order pages. Needs `GA4_PROPERTY_ID`.
-  - **Option 2:** Vercel Analytics unique visitors on the same pages.
+- **Eligible visitor: Vercel Analytics unique visitors** on the PLLC landing and order pages (Sid, Oct 30). Switch to GA4 sessions later once `GA4_PROPERTY_ID` is set. If the source changes mid-test, keep the Vercel series running alongside and mark the break.
   - **Either way, also report contribution per paid Google click.** The Ads API counts those reliably, so it's the cleanest paid-traffic denominator we have.
 
 **Break-even, including what a lost customer takes with them** (added Oct 29)
@@ -111,9 +107,21 @@ Compare **source-mix-adjusted** results with the baseline: paid and non-paid are
 - **Exceptions:**
   - A wrong coupon or price at checkout is corrected by invoice or refund within 1 business day.
   - Disputes go to Sid.
-- **Response commitment:** Ops replies to partner emails within **one business day** on weekdays. **[Sid]** Confirm Ops can meet that.
+- **Response commitment:** Ops replies to partner emails the **same business day** (Sid, Oct 30). This is stricter than the one-business-day standard in the checklist.
 
-**[Sid] Review of partner terms:** confirm the referral-fee and wholesale terms in the [white-label info sheet](../../marketing/b2b-white-label-partner/white-label-partner-info-sheet.md) still read correctly at $985 before launch.
+**Review of partner terms (Agent, Oct 30; Sid asked for it).** Sources: the [white-label info sheet](../../PLLC-CRM/crm/marketing/b2b-white-label-partner/white-label-partner-info-sheet.md), the [agreement](../../PLLC-CRM/crm/marketing/b2b-white-label-partner/white-label-partner-agreement.md), the [service sheet](../../PLLC-CRM/crm/reports/p1-10-2026-10-20/service-sheet.md), `/partners`, and the CRM promo code (`lib/b2b-partners/constants.ts`, `lib/spiffy-api/partner-promos/`).
+
+| # | Finding | Effect at $985 | Fix (launch day unless noted) |
+|---|---------|----------------|-------------------------------|
+| 1 | **Wholesale coupons are a fixed dollar offset off list**, not a fixed price. `computeWhiteLabelOnetimeDiscountCents` = `B2B_PARTNER_LIST_PRICE_CENTS` (88500) − tier price, so a Tier 1 code is $85 off. | Every wholesale coupon left unchanged would charge partners **$900 / $875 / $850** instead of $800 / $775 / $750. That breaks agreement §3.2 (tier changes need a written amendment). | Today: 0 wholesale partners in CRM, so no live code is wrong yet. On launch day, set `B2B_PARTNER_LIST_PRICE_CENTS` to 98500 (better: read it from `FORMATION_RETAIL_LIST_PRICE_CENTS`) so new codes are built right, **and** edit each existing wholesale promo's dollar amount in Spiffy to the new offset ($185 / $210 / $235). Codes keep their names; no re-issue (Sid, Oct 30). Any wholesale code created before then (e.g. Iris, if she picks white-label) goes on the edit list. |
+| 2 | CRM expects referral orders to total `B2B_PARTNER_EXPECTED_REFERRAL_TOTAL_CENTS` = $860 (list constant − $25). | Every $960 referral order gets `b2bCustomPricing = true` and lands in the formation-partners "custom pricing" queue as noise. | Same constant change as #1 fixes it. |
+| 3 | Agreement §3.1 states list **$885**; §11.2 lets us change website list prices on **30 days' notice**. | Wholesale prices don't move, so a signed partner loses nothing. The notice clause still applies on its face. | Before launch, email any **signed** white-label partner a short notice that list moves to $985 and their wholesale tier prices are unchanged. Check whether High Water (filled agreement Aug 18; currently an advocate code) ever signed. |
+| 4 | Info sheet, service sheet and agreement print **$885**, **$860**, and "$85 / $110 / $135 off list". `/partners` reads `PRICING.basePrice`, so the site updates itself. | Partner-facing documents would show the old list price. | On launch day, update the three markdown files and regenerate the PDFs (`generate_docs.py`). |
+| 5 | Contribution floor ($400). | Referral at $960 − $75 fee ≈ **$512**. Wholesale unchanged ≈ **$431**. Both clear it. | None. |
+| 6 | Stacking. | Referral and wholesale are separate codes, and one coupon per order still holds. The $75 fee is never paid on wholesale. | None. |
+| 7 | Response-time copy doesn't match the same-day commitment: `/partners` says "We reply in 3–5 business days" (two places), the info sheet says 3–5 business days for applications, and the service sheet says one business day. | Not price-related, but partners see it now. | Service sheet and `/partners` (both places) updated Oct 30. The info-sheet line about applications still says 3–5 business days; change it with the launch-day PDF regen. |
+
+**Verdict:** the terms themselves hold at $985 (floor met, no stacking, wholesale protected by contract). The risk is mechanical: #1 and #2 have to happen on launch day, or partners get overcharged and the CRM flags every referral order. Both go into the §7 launch checklist.
 
 ## 7. Launch checklist (P2-01)
 
@@ -122,6 +130,7 @@ Compare **source-mix-adjusted** results with the baseline: paid and non-paid are
 3. Run a Spiffy test-mode checkout, both full payment and installment. Confirm the installment amounts add up to the total, then exclude the test order.
 4. Run the CRM webhook check that `retailListPriceCents` = 98500 on the first live order.
 5. Check errors, complaints and quote mismatches daily for the first 3 business days.
+6. **Partner pricing (from the §6 review):** set CRM `B2B_PARTNER_LIST_PRICE_CENTS` to 98500, edit each wholesale Spiffy promo's dollar amount to the new offset, and confirm a test wholesale checkout charges $800. Update the info sheet, service sheet and agreement to $985 / $960 and regenerate the PDFs. Send the list-price notice to any signed white-label partner.
 
 ## $1085
 

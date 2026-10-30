@@ -156,14 +156,14 @@ Done when: the top three purchasing obstacles have evidence, and proposed fixes 
 Owner: Agent. Content decision: Sid. Fulfillment validation: Ops. Due: October 28. Required. Dependency: P1-07; urgent bugs can be fixed earlier.
 
 - [ ] Put the complete formation price, publication inclusion, and actual installment terms immediately next to the buying action. Show total price as well as installment amount.
-- [ ] Explain the sequence from completed intake to professional approval, DOS filing, and publication. Separate internal turnaround from government waiting time.
-- [ ] Make the next step after payment explicit, including information the customer can supply later if the workflow permits it.
+- [x] Explain the sequence from completed intake to professional approval, DOS filing, and publication. Separate internal turnaround from government waiting time. Evidence: `/order` 5-step timeline (You / Us / State), merged Oct 30 `72858a9`.
+- [ ] Make the next step after payment explicit, including information the customer can supply later if the workflow permits it. **Partial Oct 30:** timeline step 1 covers confirmation and intake follow-up; what can be supplied later isn't stated.
 - [ ] Add a clear route to brief administrative help. Route legal/tax structure decisions to the customer's adviser.
-- [ ] Reconcile formation-count and review-rating claims with records. If a claim includes legacy or sister-company work, label that scope accurately.
+- [ ] Reconcile formation-count and review-rating claims with records. If a claim includes legacy or sister-company work, label that scope accurately. **Partial Oct 30:** Google reviews updated to 16 (Sid). FAQ payment-plan answer fixed to match checkout. Formation-count copy not re-checked.
 - [ ] Fix confirmed mobile/payment problems. Use sandbox or test modes where possible; exclude test orders from reporting.
 - [ ] Verify abandonment capture and purchase suppression. Keep the 1-hour and 24-hour sequence useful and factual; add a 72-hour personal-help touch only if early feedback supports it.
 - [ ] Prepare a review request tied to a genuine successful milestone. Ask for an honest review without conditioning it on a positive response.
-- [ ] Record deployment date, affected pages, expected metric, and rollback steps. Avoid a full redesign.
+- [ ] Record deployment date, affected pages, expected metric, and rollback steps. Avoid a full redesign. **Oct 30 deploy `72858a9`:** `/order` (timeline below checkout), `/faq` (payment plans), review count site-wide. Expected metric: fewer timeline complaints and disputes. Rollback: `git revert -m 1 72858a9`. A price box above the checkout was built and dropped as redundant with the Spiffy embed (Sid). Leave this unchecked until later P1-08 changes are logged too.
 
 Done when: the limited fixes work end to end and subsequent price testing has a documented, stable buying journey.
 

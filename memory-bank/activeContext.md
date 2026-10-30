@@ -37,14 +37,15 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 **P1 (Oct 16–29):**
 
 1. **Economics baseline** — CRM `baseline-financial-export.ts` + weekly scorecard template; formation contribution per P1-03. **P1-03 trace Oct 21:** finished $885 PLLC **$514** upfront / **$513** on four payments. [TRACE](../../PLLC-CRM/crm/reports/p1-03-2026-10-21/TRACE.md). Labor, P&L, and the acquisition allowance are still open.
-2. **Direct RA** — **P1-04 card-check done Oct 20**; Oct 23 live charge + descriptor verify remains. T & C still **no PM** on file. [P1-04 preflight](../../PLLC-CRM/crm/reports/p1-04-2026-10-20/README.md) · [direct-ra-launch-status.md](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md)
-3. **B2B — active** — first sends **Oct 19** (16). **Oct 22: zero replies**, so conversations and live cases are waiting on the Oct 26 day-7 follow-up. P1-10 prep done Oct 20: [partner review](../../PLLC-CRM/crm/reports/p1-10-2026-10-20/partner-review.md), [first 25](../../PLLC-CRM/crm/reports/p1-10-2026-10-20/first-25-firms.md), [service sheet](../../PLLC-CRM/crm/reports/p1-10-2026-10-20/service-sheet.md). (**PLLC-CRM** + Sid)
-4. **$985 test** — design in [docs/price-test-985.md](../docs/price-test-985.md); launch window **Nov 2–4** after P1-12 (not February).
-5. **Ads** — **Hold $105**; **Nov 1 dual gate** (legacy order-count + profit/marginal CPA memo). Oct 5 gov-docs policy review (P1-09). No auto **$10K January**.
+2. **Direct RA** — **Oct 23 first renewal (T & C): no card → invoice voided after 3 attempts; customer canceled Oct 27; RA resignation filing is a CRM task.** Oct 30–Jan 31: 100 subs, **13 with no card** (12 due Nov 3–18), all got T-30; T-7 runs on cron. No manual outreach. `ra-renewal-card-check.ts` fixed Oct 29 (it had overcounted at 89). [Day-14 review](../ops/p1-12-day14-review-2026-10-29.md)
+3. **B2B — active** — Wave 3 (16, Oct 19): **0 replies**. The one follow-up was **sent late, Oct 29** (16/16 in-thread; [log](../../PLLC-CRM/crm/reports/b2b-partner-outreach-wave3-followup-send.json)). No more touches to these 16. Next: pick a new segment for the Nov 3 block. Productive partners 2/47, repeat 0. [service sheet](../../PLLC-CRM/crm/reports/p1-10-2026-10-20/service-sheet.md) (**PLLC-CRM** + Sid)
+4. **$985 test** — **HOLD (Sid Oct 29)**; re-decide **Nov 9**. Site price is centralized (merged `f9e058b`: one env var `NEXT_PUBLIC_FORMATION_LIST_PRICE`; live is unchanged at $885). P1-11 rules drafted in [price-test-985.md](../docs/price-test-985.md). **Break-even ≈ 12% volume loss** once VM/RA/add-ons are counted (16% formation-only). Open Sid calls: referral $960 vs $860, visitor denominator, Ops 1-day SLA, partner-terms read. Test-day items outside code: OG image, Spiffy price, Ads price assets. [Day-14 review](../ops/p1-12-day14-review-2026-10-29.md)
+5. **Nov 1 (Sid-run, in session): finalize ads memo** — Hold $105 adopted Oct 29 ([decision-log](../decision-log.md)). On Nov 1 Sid asks the agent to: re-pull Oct 1–31 (`google_ads_cli.py query` daily + campaign + `01` ad approval) into `ads-pull-2026-11-01-nov1/`; run CRM `orders-attribution.ts --monthly --since 2026-09-01`; add a "Final October" table to [NOV1-DUAL-MEMO.md](../ads-pull-2026-10-21-nov1-memo/NOV1-DUAL-MEMO.md); check the revisit triggers (Oct CPA > $150 or CRM Google orders < 25 → flag only, no account change); check off the P1-09 memo bullet. **No scheduled/unattended run.**
+7. **Ads** — **Hold $105 adopted Oct 29** for the Nov 1 gate (October: $3,401 / 33 conv / $103 CPA; 34 CRM Google orders). Three `01` ads still DISAPPROVED; appeals are Sid's UI action. No auto **$10K January**.
 6. **Trust copy (P1-08)** — `TRUST_MARKETING` + live GBP on order / order-llc / contact; ads claim **25,000+** where used.
 7. **CAQH — paused** — $0 base forecast; comparison page stays; no outreach. EIN attach **OFF**.
 8. **Customer interviews + mobile checkout** — script [docs/customer-interview-script.md](../docs/customer-interview-script.md).
-9. **Oct 29 review (P1-12)** — evidence per checklist owners.
+9. **P1-12 Day-14 review held Oct 29** — [Day-14 review](../ops/p1-12-day14-review-2026-10-29.md). Still open: Oct 19–25 scorecard (Nov 2 meeting), revised 90-day priorities.
 
 ## Ads ops
 
@@ -97,6 +98,8 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 ## Recent changes
 
 📖 Full log: [session-history.md](../docs/session-history.md)
+
+Latest (Oct 29 2026): **P1-12 Day-14 review** — [Day-14 review](../ops/p1-12-day14-review-2026-10-29.md). $985 **held to Nov 9**; Nov 1 ads **hold $105**; site price centralized and merged (live $885); B2B follow-up sent (0 replies); P1-11 drafted with break-even ≈12%; **VM has zero overhead** ($50/mo, postage billed through); first RA renewal didn't pay and was canceled.
 
 Latest (Oct 3 2026): **Daily Ads SOP** — 7d CPA **$355** / 2 Purchase; 30d **$141** / 17.77 click-attributed Purchase; October MTD **$94** / 2. Sales eligible **4,168** in 7d; self-block **0**; Ads↔CRM 30d **−6.5%**. **Hold $105**; no account changes. Enabled-ad policy snapshot has 3 DISAPPROVED ads in `01`. [DAILY-SOP.md](../ads-pull-2026-10-03-daily-sop/DAILY-SOP.md).
 

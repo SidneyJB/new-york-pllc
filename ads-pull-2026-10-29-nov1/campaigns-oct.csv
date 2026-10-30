@@ -1,0 +1,4 @@
+campaign.name,campaign.status,metrics.cost_micros,metrics.conversions,metrics.clicks
+Sales-Search-1,ENABLED,2736801634,29.0,240
+03_ForeignQual_US,ENABLED,200230000,1.0,20
+01_Core_Exact_NY,ENABLED,463852528,3.0,47

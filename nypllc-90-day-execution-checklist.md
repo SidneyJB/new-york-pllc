@@ -100,7 +100,7 @@ Owner: Ops. Support: Agent. Decision owner: Sid. Card check due: October 20. Fir
 - [x] Find customers with active VM. Check whether RA is included under their agreement and whether a separate RA renewal has been suppressed or otherwise correctly handled. Evidence: [preflight](../PLLC-CRM/crm/reports/p1-04-2026-10-20/README.md). One overlap entity; RA stop-at-period-end + opt-out, VM-only billing path.
 - [x] Verify that cancellation/stop-charge choices remain honored. Distinguish stopping billing from changing the state's agent or mailing-address record. Evidence: [preflight.json](../PLLC-CRM/crm/reports/p1-04-2026-10-20/preflight.json) stop-charge sample + Sep 16 E2E in [launch status](../PLLC-CRM/crm/docs/direct-ra-launch-status.md).
 - [x] Test notice links, customer identity matching, suppression logic, and receipt generation using test data. Do not create an unnecessary live charge for testing. Evidence: HMAC URLs valid in preflight; `npx tsx --test lib/direct-ra/direct-ra.test.ts` 17/17 Oct 20; Sep 16 prod-signed stop-charge E2E (throwaway).
-- [ ] On October 23, inspect the actual invoice and payment outcome. Confirm the amount, descriptor, receipt, and absence of duplicate billing. **Scheduled:** Ops Oct 23 — steps in [P1-04 preflight § Oct 23](../PLLC-CRM/crm/reports/p1-04-2026-10-20/README.md).
+- [x] On October 23, inspect the actual invoice and payment outcome. Confirm the amount, descriptor, receipt, and absence of duplicate billing. Evidence: [Day-14 review](ops/p1-12-day14-review-2026-10-29.md) §2. $99 invoice `in_1UTjixKGsQmzBSf3vjyBZDKn` voided after 3 failed attempts (no card); $0 charged, no duplicate. Descriptor still unverified because nothing was charged. Sub canceled on request Oct 27.
 - [x] Assign an exception owner for failed payment, incorrect amount, unclear consent, duplicate subscription, or customer dispute. Follow the existing correction/refund process. Evidence: [preflight.json](../PLLC-CRM/crm/reports/p1-04-2026-10-20/preflight.json) `exceptionOwners` + [dispute evidence](../PLLC-CRM/crm/docs/direct-ra-dispute-evidence.md).
 
 Done when: the due population is reconciled, the first renewal outcome is documented, and every billing exception has an owner. One successful charge is operational evidence, not proof of 65% retention.
@@ -117,7 +117,7 @@ Owner: Ops. Support: Agent. Decision owner: Sid. Due: October 27, ahead of the O
 - [ ] Compare checkout attach and later OP-approved attach within a single 90-day formation cohort. Count each entity once.
 - [ ] Reconcile the advertised service with actual operations: scanning, weekly forwarding, package handling, RA inclusion, postage, cancellation, and filing-change assistance.
 - [ ] Confirm the permitted uses of the address and the limits of privacy claims. A mailing address is not automatically an acceptable clinical location or a replacement for all required residential information.
-- [ ] Estimate margin under $50 monthly versus $540 annually. Include the revenue discount, processing savings, servicing cost, and evidence needed to justify retention assumptions.
+- [ ] Estimate margin under $50 monthly versus $540 annually. Include the revenue discount, processing savings, servicing cost, and evidence needed to justify retention assumptions. **Oct 29 (Sid):** servicing cost is zero; postage is billed through at cost, so margin is $50 less the Stripe fee. Still open: annual-vs-monthly retention evidence.
 
 Done when: there is one product definition, one actual paying-subscriber count, a defensible monthly contribution estimate, and a billing-overlap reconciliation.
 
@@ -179,7 +179,7 @@ Owner: Agent/ads operator. Decision owner: Sid. Initial review: October 21. Requ
 - [x] Confirm that the prior negative-keyword failure has not recurred. Check short tokens, cross-campaign negatives, and active keyword coverage. Evidence: [self-block Oct 21](ads-pull-2026-10-21-self-block/SELF-BLOCK.md). **0** of 48 / 31 / 39 / 39. Phrase `vs` and `$0` remain on shared lists and do not hit an enabled keyword.
 - [x] Review foreign-qualification traffic with its small sample clearly labeled. Do not interpret $53 of historical spend as a meaningful demand test. Evidence: [FQ traffic](ads-pull-2026-10-21-fq/FQ-TRAFFIC.md). Sep 21–Oct 20: **$190**, 24 clicks, 0 conversions. Immature. The older Sep 4–Oct 3 figure is **$53** / 10 clicks / 0 conversions.
 - [ ] Document the Microsoft address mismatch, the evidence required to correct it, and the remaining attempts. Continue through the existing case.
-- [ ] Prepare a November 1 decision memo with order volume, lag, actual economics, policy status, and data limitations. Retain the current $105 setting unless the adopted SOP calls for a change. Skeleton, October still open: [Nov 1 dual memo](ads-pull-2026-10-21-nov1-memo/NOV1-DUAL-MEMO.md).
+- [ ] Prepare a November 1 decision memo with order volume, lag, actual economics, policy status, and data limitations. Retain the current $105 setting unless the adopted SOP calls for a change. [Nov 1 dual memo](ads-pull-2026-10-21-nov1-memo/NOV1-DUAL-MEMO.md): October read filled in Oct 29 ($3,401 / 33 conv / $103 Ads CPA; 34 CRM Google orders). Recommendation is to hold $105. Open until the Nov 1 re-pull and Sid's sign-off.
 
 Done when: Sid has fresh evidence and a specific policy-resolution path. “Write another ad” is not a resolution if the underlying eligibility issue remains.
 
@@ -194,7 +194,7 @@ Owner: Sid. Support: Agent for preparation; Ops for handoffs. Due: first sends O
 - [x] Prepare a short service sheet: scope, all-in pricing, controlled turnaround commitments, status reporting, handoff process, client relationship, and escalation contact. Evidence: [service sheet](../PLLC-CRM/crm/reports/p1-10-2026-10-20/service-sheet.md).
 - [x] Prepare two concise outreach approaches for different segments. Lead with administrative work removed and client reliability; discuss economics after fit is established. Evidence: [Wave 3](../PLLC-CRM/crm/reports/b2b-partner-outreach-wave3-2026-10-19.md).
 - [x] Sid sends the initial messages. Schedule no more than one unsolicited follow-up around day 7, consistent with the existing two-touch plan. Respect opt-outs. Evidence: [send log](../PLLC-CRM/crm/reports/b2b-partner-outreach-wave3-2026-10-19-send.json). 16 sent Oct 19 from `contact@nypllc.com` (13 referral, Pact CPA, Sheldon Richards, and Glenn Kempa wholesale). Clarity and Empire Risk have no public email. Day-7 follow-up is still Oct 26.
-- [ ] Seek 3–5 substantive conversations. Ask how many relevant cases the firm handled in the last 90 days and how it handles them now. Oct 22: Sid reports zero replies to the 16 Oct 19 sends, so the Thursday block cannot produce a conversation. Next scheduled touch is the Oct 26 day-7 follow-up.
+- [ ] Seek 3–5 substantive conversations. Ask how many relevant cases the firm handled in the last 90 days and how it handles them now. Oct 22: Sid reports zero replies to the 16 Oct 19 sends, so the Thursday block cannot produce a conversation. **Oct 29 check:** all 16 Gmail threads (contact@nypllc.com) still hold only the Oct 19 message. **0 replies, 0 bounces, and the Oct 26 day-7 follow-up was never sent.** **Follow-up sent Oct 29 (evening ET)**: 16/16 in-thread replies, no second pitch. Log: [followup-send.json](../PLLC-CRM/crm/reports/b2b-partner-outreach-wave3-followup-send.json). No further unsolicited touches to these 16.
 - [ ] Ask suitable prospects for one live case. Record objections and next steps even when the prospect declines. Blocked on the same Oct 22 zero-reply status.
 
 Done when: the pipeline contains actual conversations and potential cases, not merely issued codes.
@@ -218,12 +218,12 @@ Done when: the test is ready for a controlled launch and the first partner order
 
 Owner: Sid. Support: Ops and Agent. Date: October 29. Required. Dependency: preceding packages; unresolved items remain visible.
 
-- [ ] Review the corrected economics and list every material unknown.
-- [ ] Review the first RA renewal and unresolved billing exceptions.
+- [x] Review the corrected economics and list every material unknown. Evidence: [Day-14 review](ops/p1-12-day14-review-2026-10-29.md) §1. Seven unknowns listed; GA4 denominator blocks the $985 metric.
+- [x] Review the first RA renewal and unresolved billing exceptions. Evidence: [Day-14 review](ops/p1-12-day14-review-2026-10-29.md) §2. T & C invoice voided after 3 failed attempts; canceled on request Oct 27. 13 of 100 Oct 30–Jan 31 renewals have no card.
 - [ ] Confirm that the checkout changes work and the proposed $985 rollout has a consistent customer-facing price.
 - [ ] Review conversations, first-case opportunities, and why prospects accepted or declined.
-- [ ] Choose whether to launch the price test in Period 2, keep gathering evidence, or fix a blocking issue first.
-- [ ] Assign a next action and due date to every blocker. Limit active engineering work to the most consequential unresolved item.
+- [x] Choose whether to launch the price test in Period 2, keep gathering evidence, or fix a blocking issue first. Evidence: [Day-14 review](ops/p1-12-day14-review-2026-10-29.md) §5 + [decision log](decision-log.md) Oct 29. Sid: hold; fix blockers first; re-decide Nov 9.
+- [x] Assign a next action and due date to every blocker. Evidence: [Day-14 review](ops/p1-12-day14-review-2026-10-29.md) §6. Only engineering item: $985 price centralization. Limit active engineering work to the most consequential unresolved item.
 - [ ] Publish the first scorecard and the revised 90-day priorities.
 
 Done when: the review records the next decisions, named owners, and unresolved blockers.

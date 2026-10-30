@@ -32,3 +32,5 @@ Named owners, calendar holds, and Period 1 capacity: [ops/p1-01-ownership.md](op
 ## Task board
 
 Execution checkboxes live in [nypllc-90-day-execution-checklist.md](nypllc-90-day-execution-checklist.md). Weekly evidence files: [scorecards/](scorecards/).
+| 2026-10-29 | $985 launch Nov 2–4 (P1-12) | [Day-14 review](ops/p1-12-day14-review-2026-10-29.md) | **Adopted Oct 29 (Sid):** HOLD. Do not launch Nov 2–4. Fix price consistency, P1-11 rules, GA4 denominator; re-decide Nov 9. | Sid | Nov 9 weekly | Launch if blockers 3–5 in the review are closed |
+| 2026-10-29 | Nov 1 ads gate (P1-09 / P2-08) | [Nov 1 memo](ads-pull-2026-10-21-nov1-memo/NOV1-DUAL-MEMO.md) October read: $3,401 / 33 conv / $103 Ads CPA; 34 CRM Google orders | **Adopted (Sid):** hold portfolio tCPA **$105**. No structural change before the Nov 15–Dec 1 freeze; no bounded experiment until P1-03 sets the allowance. Sid files the three `01` appeals. Nov 1 re-pull confirms the figures. | Sid | Nov 9 weekly (watch the Oct 22–31 CPA) | Revisit if the Nov 1 re-pull shows Oct CPA > $150 or CRM Google orders < 25 |

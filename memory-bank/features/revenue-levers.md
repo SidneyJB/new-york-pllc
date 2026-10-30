@@ -39,6 +39,7 @@ Site: `/change-registered-agent`, Terms RA renew section, confirmation copy. Spi
 - **Shelf pages** — SEO plan editorial map items #17–18 (CoGS, amend articles); good-standing cross-sell in CAQH flow.
 - **S Corp calculator** — shared with SEO plan Sep calendar.
 - **VM checkout copy** — Component E; target attach 27% → 32%.
+- **VM unit economics (Sid, Oct 29 2026):** **zero overhead.** $50/mo plus postage billed through at cost, so only the Stripe fee (~$1.75) comes off. Paid attach is **27%** (75/281 Apr–Sep NY PLLC). Churn is not measured yet (P1-05). Used in the $985 break-even ([price-test-985.md](../../docs/price-test-985.md)).
 - **B2B flex line** — plan designates B2B outreach as flex if revenue-levers weeks overload (~8–12 hrs/wk Aug).
 
 ## Scope rules (from plan)

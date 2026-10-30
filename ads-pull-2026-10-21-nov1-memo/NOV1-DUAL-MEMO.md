@@ -1,6 +1,38 @@
-# November 1 dual memo — skeleton (October 21, 2026)
+# November 1 dual memo (skeleton Oct 21; October read Oct 29, 2026)
 
-**Status:** skeleton. October is not closed. Replace the order-count and spend figures after the October 31 pull, then Sid decides. This file does not change the bid.
+**Status:** October read through **Oct 28** is filled in below. Oct 29–31 add about 3 days. Re-run the two pulls on Nov 1 and change a figure only if it moves the verdict. **Sid decides.** This file does not change the bid.
+
+## October read, Oct 29 (Agent)
+
+Pull: [ads-pull-2026-10-29-nov1/](../ads-pull-2026-10-29-nov1/) (`daily.csv`, `campaigns-oct.csv`), plus CRM `orders-attribution.ts --monthly` (uses `orderCreatedAt`, excludes VM-only and tests). Portfolio tCPA is confirmed at **$105** via the API.
+
+| Window | Spend | Ads conv | Ads CPA | CRM orders (Google click id) | CRM orders (all) |
+|---|---:|---:|---:|---:|---:|
+| September | $2,657 | 22.0 | $121 | 20 | 52 |
+| **Oct 1–28** | **$3,401** | **33.0** | **$103** | **34** (through Oct 29) | **62** |
+| Last 14d (Oct 15–28) | $1,862 | 14.0 | $133 | — | — |
+| Last 7d (Oct 22–28) | $1,059 | 5.0 | $212 | — | — |
+
+By campaign, Oct 1–28:
+- Sales-Search-1: $2,737 and 29 conversions.
+- `01_Core_Exact_NY`: $464 and 3 conversions.
+- `03_ForeignQual_US`: $200 and 1 conversion.
+
+Notes:
+- **CRM-side Google CPA ≈ $100** ($3,401 ÷ 34), within about 3% of Ads. That's the best Google month since click-id capture went live. Total October orders, **62**, already beat September's 52.
+- **The last-7-day CPA of $212 is mostly lag.** Conversions take days to land and the window is still open. Treat it as a watch item, not a signal. If the Nov 1 re-pull still shows CPA above $150 for Oct 22–31, flag it at the Nov 9 review.
+
+### Verdict by branch
+
+- **Order count:** about 34 Google orders a month, against the legacy 50–60 stretch. That's **not a scale case**. It's a big improvement on Aug–Sep (16 and 20), though, so **hold, not cap**.
+- **Profit:** about $519 before ads minus about $100 CPA leaves **about $419 per Google order before labor**. That's a wide margin. The acquisition allowance is still unset, so this branch **can't justify a bid increase**. Holding is supported.
+- **Policy:** the three `01` ads (`816213581518`, `816213581680`, `816286167770`) are **still DISAPPROVED as of Oct 29**. No appeal is recorded. Formation-Core `816286133015` is APPROVED_LIMITED.
+
+**Decision (Sid, Oct 29): hold portfolio tCPA at $105.** Logged in [decision-log.md](../decision-log.md). Make no structural change before the Nov 15–Dec 1 freeze. Don't run a bounded experiment until P1-03 sets the allowance. Filing the three `01` appeals is the only account action, and it's a UI action for Sid.
+
+---
+
+*Original Oct 21 skeleton follows.*
 
 **Rule:** [decision log, October 16](../decision-log.md). Legacy Google **order-count** branch and a **profit / marginal CPA** branch, side by side. A $200–$220 acquisition allowance is a candidate, not an approved ceiling.
 

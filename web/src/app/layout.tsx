@@ -13,6 +13,7 @@ import { PartnerReferralCapture } from '@/components/referral-attribution/partne
 import { FB_PIXEL_ID } from '@/lib/fbpixel'
 import './globals.css'
 import Script from 'next/script'
+import { PRICING } from '@/lib/constants'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -27,8 +28,8 @@ export const metadata: Metadata = {
   // template here silently appended "| NY PLLC Formation" a second time to
   // every child route's <title> (confirmed via rendered HTML). `default`
   // still covers the root route and any future page that omits metadata.
-  title: 'NY PLLC Formation — $885 Flat, Publishing Included | NYPLLC',
-  description: 'Form your New York PLLC for $885 flat — DOS filing, required 6-week publication, and EIN included. Fast, compliant formation for licensed professionals.',
+  title: `NY PLLC Formation — $${PRICING.basePrice} Flat, Publishing Included | NYPLLC`,
+  description: `Form your New York PLLC for $${PRICING.basePrice} flat — DOS filing, required 6-week publication, and EIN included. Fast, compliant formation for licensed professionals.`,
   keywords: [
     'NY PLLC formation',
     'New York PLLC',
@@ -71,8 +72,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     siteName: 'New York PLLC Formation Service',
-    title: 'NY PLLC Formation — $885 Flat, Publishing Included | NYPLLC',
-    description: 'Form your New York PLLC for $885 flat — DOS filing, required 6-week publication, and EIN included. Fast, compliant formation for licensed professionals.',
+    title: `NY PLLC Formation — $${PRICING.basePrice} Flat, Publishing Included | NYPLLC`,
+    description: `Form your New York PLLC for $${PRICING.basePrice} flat — DOS filing, required 6-week publication, and EIN included. Fast, compliant formation for licensed professionals.`,
     images: [{
       url: new URL(SEO_CONFIG.socialImage, SEO_CONFIG.siteUrl).toString(),
       width: 1200,
@@ -82,8 +83,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NY PLLC Formation — $885 Flat, Publishing Included | NYPLLC',
-    description: 'Form your New York PLLC for $885 flat — DOS filing, required 6-week publication, and EIN included.',
+    title: `NY PLLC Formation — $${PRICING.basePrice} Flat, Publishing Included | NYPLLC`,
+    description: `Form your New York PLLC for $${PRICING.basePrice} flat — DOS filing, required 6-week publication, and EIN included.`,
     images: [new URL(SEO_CONFIG.socialImage, SEO_CONFIG.siteUrl).toString()],
     creator: '@nypllc',
   },

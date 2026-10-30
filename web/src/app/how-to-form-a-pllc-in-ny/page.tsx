@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { generateMetadata } from '@/lib/seo/metadata'
 import { DIY_PLLC_HOWTO, generateBreadcrumbSchema, generateArticleSchema } from '@/lib/seo/structured-data'
+import { PRICING } from '@/lib/constants'
 
 export const metadata = generateMetadata({
   title: 'How to Form a PLLC in New York (2026 Guide) | NYPLLC',
@@ -138,12 +139,12 @@ export default function DIYGuideTestPage() {
                   Skip the Hassle
                 </h3>
                 <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                  Our $885 flat-fee service includes everything: OP approval, one-day DOS filing, 
+                  Our ${PRICING.basePrice} flat-fee service includes everything: OP approval, one-day DOS filing, 
                   full 6-week publication, Certificate of Publication filing, EIN, and bank-ready documents.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button size="lg" asChild>
-                    <Link href="/order">Get Started for $885</Link>
+                    <Link href="/order">Get Started for ${PRICING.basePrice}</Link>
                   </Button>
                   <Button variant="outline" size="lg" asChild>
                     <Link href="/contact">Talk to Us First</Link>
@@ -193,12 +194,12 @@ export default function DIYGuideTestPage() {
               </li>
               <li><strong>Professional help (optional):</strong>
                 <ul className="list-circle pl-6 mt-2 space-y-1">
-                  <li>Our flat $885 service includes OP approval, DOS filing, full publication, Certificate of Publication filing, EIN, and bank-ready documents.</li>
+                  <li>Our flat ${PRICING.basePrice} service includes OP approval, DOS filing, full publication, Certificate of Publication filing, EIN, and bank-ready documents.</li>
                 </ul>
               </li>
             </ul>
             <p className="text-base leading-7 text-foreground">
-              Our flat $885 service saves you significant money compared to DIY, especially when you factor in publication costs that can exceed $1,000 in some counties. Beyond the cost savings, you also avoid the risk of re-paying for rejected filings or rerun publication, and the cost of delays to your practice. For a full fee-by-fee breakdown, see{' '}
+              Our flat ${PRICING.basePrice} service saves you significant money compared to DIY, especially when you factor in publication costs that can exceed $1,000 in some counties. Beyond the cost savings, you also avoid the risk of re-paying for rejected filings or rerun publication, and the cost of delays to your practice. For a full fee-by-fee breakdown, see{' '}
               <Link href="/ny-pllc-cost" className="text-primary underline underline-offset-2 font-medium">
                 NY PLLC cost: complete 2026 breakdown
               </Link>
@@ -221,7 +222,7 @@ export default function DIYGuideTestPage() {
               <li><strong>DOS (Department of State) formation:</strong>
                 <ul className="list-circle pl-6 mt-2 space-y-1">
                   <li>Standard processing can take many weeks or longer</li>
-                  <li>One-day DOS formation is included in our $885 service price</li>
+                  <li>One-day DOS formation is included in our ${PRICING.basePrice} service price</li>
                 </ul>
               </li>
               <li><strong>Publication:</strong>
@@ -330,7 +331,7 @@ export default function DIYGuideTestPage() {
             </ul>
             <h3 className="text-2xl font-semibold tracking-tight text-foreground mb-3 mt-6">At this stage, many professionals stop DIY-ing</h3>
             <p className="text-base leading-7 text-foreground">
-              This is often where professionals decide the risk of a deficiency letter and weeks of delay is not worth the savings. As part of our $885 service, we prepare and review your entire OP packet, scrub it for inconsistencies, and track it through approval so you are not guessing whether you used the right forms or versions.
+              This is often where professionals decide the risk of a deficiency letter and weeks of delay is not worth the savings. As part of our ${PRICING.basePrice} service, we prepare and review your entire OP packet, scrub it for inconsistencies, and track it through approval so you are not guessing whether you used the right forms or versions.
             </p>
           </section>
 
@@ -346,7 +347,7 @@ export default function DIYGuideTestPage() {
                   Let us manage the forms, follow-ups, and coordination so you can focus on your practice.
                 </p>
                 <Button size="lg" asChild>
-                  <Link href="/order">Start Your PLLC for $885</Link>
+                  <Link href="/order">Start Your PLLC for ${PRICING.basePrice}</Link>
                 </Button>
               </div>
             </CardContent>
@@ -506,11 +507,11 @@ Purpose: Practice of [Profession] and any lawful activities authorized for a PLL
                 </h3>
                 <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
                   Publication costs $1,000+ in some counties and any mistakes mean starting over. 
-                  We coordinate with designated newspapers, proof every notice, and ensure perfect execution—all included in our $885 price.
+                  We coordinate with designated newspapers, proof every notice, and ensure perfect execution—all included in our ${PRICING.basePrice} price.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button size="lg" asChild>
-                    <Link href="/order">Get Started for $885</Link>
+                    <Link href="/order">Get Started for ${PRICING.basePrice}</Link>
                   </Button>
                   <Button variant="outline" size="lg" asChild>
                     <Link href="/faq">See FAQ</Link>
@@ -692,7 +693,7 @@ Purpose: Practice of [Profession] and any lawful activities authorized for a PLL
               Forming a New York PLLC is not a one-form filing. It is a multi-step, multi-agency process with long timelines and very little margin for error. Small inconsistencies in names, addresses, or forms can trigger rejections months later and force you to redo expensive steps like publication.
             </p>
             <p className="text-base leading-7 text-foreground mb-4">
-              NYPLLC.com exists to remove that risk and workload. For a flat $885, we handle:
+              NYPLLC.com exists to remove that risk and workload. For a flat ${PRICING.basePrice}, we handle:
             </p>
             <ul className="list-disc pl-6 mb-4 space-y-2 text-base leading-7 text-foreground">
               <li>OP Certificate of Authority</li>
@@ -725,7 +726,7 @@ Purpose: Practice of [Profession] and any lawful activities authorized for a PLL
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                   <Button size="lg" asChild>
-                    <Link href="/order">Start Your PLLC for $885</Link>
+                    <Link href="/order">Start Your PLLC for ${PRICING.basePrice}</Link>
                   </Button>
                   <Button variant="outline" size="lg" asChild>
                     <Link href="/contact">Contact Us</Link>

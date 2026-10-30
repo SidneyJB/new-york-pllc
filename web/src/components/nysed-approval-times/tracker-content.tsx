@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { ApprovalTimesPublicPayload } from '@/lib/nysed-approval-times/types'
+import { PRICING } from '@/lib/constants'
 
 function formatUpdatedStamp(iso: string): string {
   return new Date(iso).toLocaleDateString('en-US', {
@@ -224,7 +225,7 @@ export function TrackerContent({ data }: TrackerContentProps) {
               </Link>
               {' · '}
               <Link href="/order" className="text-primary underline underline-offset-2">
-                Start your PLLC for $885
+                Start your PLLC for ${PRICING.basePrice}
               </Link>
             .
           </p>

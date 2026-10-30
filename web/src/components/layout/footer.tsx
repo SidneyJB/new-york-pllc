@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { APP_CONFIG, BUSINESS_INFO, NAVIGATION } from '@/lib/constants'
+import { APP_CONFIG, BUSINESS_INFO, NAVIGATION, PRICING } from '@/lib/constants'
 
 export function Footer() {
   return (
@@ -16,7 +16,7 @@ export function Footer() {
                   href="/order"
                   className="text-muted-foreground hover:text-foreground text-sm transition-colors"
                 >
-                  New PLLC Formation ($885)
+                  New PLLC Formation (${PRICING.basePrice})
                 </Link>
               </li>
               <li>

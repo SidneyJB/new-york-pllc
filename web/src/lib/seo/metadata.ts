@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { SEO_CONFIG } from './config'
+import { PRICING } from '@/lib/constants'
 
 export interface PageMetadata {
   title: string
@@ -102,8 +103,8 @@ export function generateMetadata({
 
 // Page-specific metadata configurations
 export const HOME_METADATA = generateMetadata({
-  title: 'NY PLLC Formation — $885 Flat, Publishing Included | NYPLLC',
-  description: 'Form your New York PLLC for $885 flat — DOS filing, required 6-week publication, and EIN included. Fast, compliant formation for licensed professionals.',
+  title: `NY PLLC Formation — $${PRICING.basePrice} Flat, Publishing Included | NYPLLC`,
+  description: `Form your New York PLLC for $${PRICING.basePrice} flat — DOS filing, required 6-week publication, and EIN included. Fast, compliant formation for licensed professionals.`,
   keywords: [
     'NY PLLC formation',
     'New York PLLC',
@@ -119,7 +120,7 @@ export const HOME_METADATA = generateMetadata({
 
 export const FAQ_METADATA = generateMetadata({
   title: 'New York PLLC Formation FAQ | NYPLLC',
-  description: 'Answers to the most common New York PLLC questions: publishing requirements, professional licensing, timelines, and the $885 flat cost.',
+  description: `Answers to the most common New York PLLC questions: publishing requirements, professional licensing, timelines, and the $${PRICING.basePrice} flat cost.`,
   keywords: [
     'PLLC formation FAQ',
     'New York PLLC questions',
@@ -143,8 +144,8 @@ export const CONTACT_METADATA = generateMetadata({
 })
 
 export const ORDER_METADATA = generateMetadata({
-  title: 'Order Your NY PLLC — $885 Flat | NYPLLC',
-  description: 'Start your New York PLLC formation for $885 flat — DOS filing, required publication, and EIN included. Secure order form, no hidden fees.',
+  title: `Order Your NY PLLC — $${PRICING.basePrice} Flat | NYPLLC`,
+  description: `Start your New York PLLC formation for $${PRICING.basePrice} flat — DOS filing, required publication, and EIN included. Secure order form, no hidden fees.`,
   keywords: [
     'order PLLC formation',
     'buy NY PLLC',

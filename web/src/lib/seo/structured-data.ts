@@ -1,4 +1,4 @@
-import { BUSINESS_INFO } from '@/lib/constants'
+import { BUSINESS_INFO, PRICING } from '@/lib/constants'
 import { SEO_CONFIG } from './config'
 
 export interface BreadcrumbItem {
@@ -383,7 +383,7 @@ export const PLLC_SERVICE_OFFERS: ServiceOffer[] = [
   {
     name: 'Complete PLLC Formation Package',
     description: 'Articles of Organization filing, free first year registered agent service, 6-week newspaper publishing in two newspapers, Certificate of Publication filing, and all required affidavits.',
-    price: '885.00',
+    price: PRICING.basePrice.toFixed(2),
     priceCurrency: 'USD',
     availability: 'https://schema.org/InStock',
   },
@@ -412,12 +412,12 @@ export const PLLC_FAQS: FAQItem[] = [
     answer: 'The publication process takes exactly 6 weeks as required by law. We coordinate with newspapers in your county to ensure the notices run consecutively. The total timeline from filing to completion is typically 14-19 weeks, including NYSED approval (8-12 weeks) and the 6-week publication period.',
   },
   {
-    question: 'Why is your service $885?',
-    answer: 'Our $885 price includes everything: Articles of Organization filing, free first year registered agent service, 6-week newspaper publication in two newspapers, Certificate of Publication filing, and all required affidavits. Many competitors charge $99 for filing but then add $500-1000+ for publishing, making their total cost much higher.',
+    question: `Why is your service $${PRICING.basePrice}?`,
+    answer: `Our $${PRICING.basePrice} price includes everything: Articles of Organization filing, free first year registered agent service, 6-week newspaper publication in two newspapers, Certificate of Publication filing, and all required affidavits. Many competitors charge $99 for filing but then add $500-1000+ for publishing, making their total cost much higher.`,
   },
   {
     question: 'Are there any hidden fees?',
-    answer: 'No hidden fees. The $885 includes all state filing fees, publication costs, and our service fees. Optional extras such as S Corp election are checkboxes at checkout — you only pay them if you opt in.',
+    answer: `No hidden fees. The $${PRICING.basePrice} includes all state filing fees, publication costs, and our service fees. Optional extras such as S Corp election are checkboxes at checkout — you only pay them if you opt in.`,
   },
   {
     question: 'How long does PLLC formation take?',

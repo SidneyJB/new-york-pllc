@@ -15,7 +15,7 @@ const PRICE = PRICING.basePrice
 const PATH = '/ny-pllc-cost'
 const TITLE = `NY PLLC Cost: Complete 2026 Breakdown ($${PRICE} Flat Fee Explained) | NYPLLC`
 const DESCRIPTION =
-  'Every fee behind New York PLLC formation in 2026: NYSED, DOS filing, publication, and Certificate of Publication, plus why our $885 flat price never changes by county.'
+  `Every fee behind New York PLLC formation in 2026: NYSED, DOS filing, publication, and Certificate of Publication, plus why our $${PRICING.basePrice} flat price never changes by county.`
 
 /** FAQ only for questions not already answered in the body sections above. */
 const COST_FAQS = [
@@ -48,7 +48,7 @@ export const metadata = generateMetadata({
     'PLLC filing fees New York',
     'NYSED Certificate of Authority fee',
     'PLLC publication cost',
-    '$885 PLLC',
+    `$${PRICING.basePrice} PLLC`,
   ],
   canonical: PATH,
 })

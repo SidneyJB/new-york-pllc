@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
-import { APP_CONFIG, BUSINESS_INFO, TRUST_MARKETING } from '@/lib/constants'
+import { APP_CONFIG, BUSINESS_INFO, TRUST_MARKETING, PRICING } from '@/lib/constants'
 import { CONTACT_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 import { ContactForm } from '@/components/forms/contact-form'
@@ -413,7 +413,7 @@ export default async function ContactPage({
                 variant="default"
                 className="bg-background text-foreground hover:bg-background/90"
               >
-                Start Formation - $885
+                Start Formation - ${PRICING.basePrice}
               </TrackedCTAButton>
               <TrackedPhoneLink phone={APP_CONFIG.phone} location="contact-cta">
                 <Button variant="outline" size="lg" className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">

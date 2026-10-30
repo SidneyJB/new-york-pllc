@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { ScrollTracking } from '@/components/analytics/scroll-tracking'
-import { BUSINESS_INFO } from '@/lib/constants'
+import { BUSINESS_INFO, PRICING } from '@/lib/constants'
 import { FAQ_METADATA } from '@/lib/seo/metadata'
 import { PLLC_FAQS, generateFAQSchema, generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 
@@ -454,11 +454,11 @@ export default function FAQPage() {
                 <div className="space-y-6">
                   <Card>
                     <CardHeader>
-                      <CardTitle className="text-lg">What does your $885 price include?</CardTitle>
+                      <CardTitle className="text-lg">What does your ${PRICING.basePrice} price include?</CardTitle>
                     </CardHeader>
                     <CardContent>
                       <p className="text-muted-foreground mb-3">
-                        Our all-inclusive $885 price covers everything needed to form and operate your PLLC:
+                        Our all-inclusive ${PRICING.basePrice} price covers everything needed to form and operate your PLLC:
                       </p>
                       <ul className="list-disc list-inside text-muted-foreground space-y-1">
                         <li>NYSED preapproval process</li>
@@ -479,7 +479,7 @@ export default function FAQPage() {
                       </p>
                       <p className="mt-4 text-sm">
                         <Link href="/order" className="text-primary underline underline-offset-2 font-medium">
-                          Ready to get started? Order now for $885
+                          Ready to get started? Order now for ${PRICING.basePrice}
                         </Link>
                       </p>
                     </CardContent>
@@ -491,7 +491,7 @@ export default function FAQPage() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-muted-foreground">
-                        No. The $885 package covers formation, publication, and EIN. Optional extras (such as S Corp
+                        No. The ${PRICING.basePrice} package covers formation, publication, and EIN. Optional extras (such as S Corp
                         election) are checkboxes at checkout — you only pay them if you opt in.
                       </p>
                     </CardContent>

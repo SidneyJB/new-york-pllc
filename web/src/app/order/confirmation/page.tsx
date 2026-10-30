@@ -5,6 +5,7 @@ import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { generateMetadata } from '@/lib/seo/metadata'
 import { BadgeCheck } from 'lucide-react'
 import { OrderConfirmationClient } from './confirmation-client'
+import { PRICING } from '@/lib/constants'
 
 export const metadata = generateMetadata({
   title: 'Order Confirmation | NY PLLC Formation Complete',
@@ -34,7 +35,7 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
   const orderDetails = {
     customerName: (nameFirst && nameLast) ? `${nameFirst} ${nameLast}` : "Valued Customer",
     service: "PLLC Formation Package",
-    amount: 885, // Standard package price
+    amount: PRICING.basePrice, // Standard package price
     paymentDate: new Date().toLocaleDateString(),
     estimatedCompletion: "14-19 weeks (8-12 weeks for NYSED approval, then 6 weeks for publishing)"
   }

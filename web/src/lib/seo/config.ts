@@ -1,8 +1,9 @@
+import { PRICING } from '@/lib/constants'
 export const SEO_CONFIG = {
   siteUrl: 'https://www.nypllc.com',
   siteName: 'New York PLLC Formation Service',
   defaultTitle: 'NY PLLC Formation | Professional LLC Services New York',
-  defaultDescription: 'Form your New York Professional Limited Liability Company (PLLC) for $885 including all publishing requirements. Fast, simple, and compliant PLLC formation for licensed professionals.',
+  defaultDescription: `Form your New York Professional Limited Liability Company (PLLC) for $${PRICING.basePrice} including all publishing requirements. Fast, simple, and compliant PLLC formation for licensed professionals.`,
   twitterHandle: '@nypllc',
   companyInfo: {
     name: 'New York PLLC Formation Service',

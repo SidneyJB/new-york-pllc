@@ -52,7 +52,7 @@ export function MobileStickyCta() {
       <div className="flex items-center gap-2 px-3 py-2.5">
         <TrackedCTAButton
           href="/order"
-          cta="Start your PLLC — $885"
+          cta={`Start your PLLC — $${PRICING.basePrice}`}
           location="mobile_sticky"
           size="lg"
           className="h-11 min-w-0 flex-1 text-sm sm:text-base"

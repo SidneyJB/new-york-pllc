@@ -1,3 +1,4 @@
+import { PRICING } from '@/lib/constants'
 export const PARTNER_ORGANIZATION_TYPES = [
   { value: 'credentialing', label: 'Credentialing firm' },
   { value: 'billing', label: 'Medical billing / RCM' },
@@ -19,7 +20,7 @@ export const PARTNER_CLIENT_TYPES = [
 ] as const
 
 export const PARTNER_SERVICES = [
-  { value: 'pllc-formation', label: 'NY PLLC formation ($885 all-inclusive)' },
+  { value: 'pllc-formation', label: `NY PLLC formation ($${PRICING.basePrice} all-inclusive)` },
   { value: 'foreign-qualification', label: 'Foreign qualification into NY' },
   { value: 'virtual-address', label: 'Virtual address ($50/mo)' },
   { value: 'registered-agent', label: 'Registered agent ($99/yr)' },

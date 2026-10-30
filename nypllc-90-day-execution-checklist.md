@@ -127,7 +127,7 @@ Owner: Agent. Decision owner: Sid. First version: October 23. Required. Dependen
 
 - [x] Produce a simple weekly table before building reporting automation. The first report may be a manual export and calculation. Evidence: [scorecard](scorecards/2026-10-18-weekly.md).
 - [x] Show formation orders, contracted sales, collected cash, refunds, unpaid installments, contribution before acquisition, acquisition cost, and contribution after acquisition. Evidence: [scorecard](scorecards/2026-10-18-weekly.md).
-- [ ] Show orders by one primary source, with unknown kept as unknown. Retain partner involvement and assisted touches in separate fields.
+- [x] Show orders by one primary source, with unknown kept as unknown. Retain partner involvement and assisted touches in separate fields. Evidence: [Oct 25 scorecard](scorecards/2026-10-25-weekly.md) (partner > Google click/braid id > ChatGPT > Unknown).
 - [ ] Show eligible visitors, checkout starts, successful first payments, payment errors, captured abandoners, emails sent, and subsequent purchases.
 - [ ] Show productive partners, first partner orders, repeat partner orders, and outreach/conversation counts by segment.
 - [ ] Show paying VM customers, new starts, churn, attach rate, contribution, RA renewals due, matured paid-renewal rate, and billing exceptions.

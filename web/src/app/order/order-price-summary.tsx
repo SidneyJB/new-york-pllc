@@ -35,9 +35,8 @@ export function OrderPriceSummary() {
         </ul>
       </div>
       <p className="mt-4 border-t pt-4 text-xs leading-relaxed text-muted-foreground">
-        Publication is included for every county except New York County (Manhattan), where newspaper rates add
-        $995. Optional add-ons (S-corp election, virtual address) are checkboxes and cost nothing unless you pick
-        them. Questions before you pay? Call{' '}
+        Optional add-ons (S-corp election, virtual address) are checkboxes and cost nothing unless you pick them.
+        Questions before you pay? Call{' '}
         <a href={`tel:${APP_CONFIG.phone}`} className="underline underline-offset-2">
           {APP_CONFIG.phone}
         </a>{' '}

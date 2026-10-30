@@ -10,6 +10,8 @@ B2B `/partners` landing + intake form; `?c=` / cookie attribution applies Spiffy
 
 **90-day (Oct 16 2026):** B2B outreach **active** — first sends Oct 19; include OOS/wholesale formation firms. Playbook: [partner-first-case-playbook.md](../../docs/partner-first-case-playbook.md) · checklist P1-10. Productive partner = ≥1 paid order in trailing 90d ([decision-log.md](../../decision-log.md)).
 
+**Oct 30 2026 — first Wave 3 reply:** Iris Kimberg (NY Therapy Guide, referral segment) replied to the Oct 29 follow-up asking cost, tenure, multidisciplinary PT/OT/SLP, and referral fee. Sid replied Oct 30: $885 all-in incl. publication; since 2005 / 25,000+ entities; NYSED allows one PLLC across PT/OT/SLP with a member licensed in each ([NYSED Alert 19](https://www.op.nysed.gov/professions/physical-therapists/practice-alerts/professional-business-entities)); referral $25 off / $75 fee; white-label wholesale from $800 offered as an option. Next: on a yes, provision `B2bPartner` + promo (referral) or send the white-label pack. Rule check: white-label was offered to a warm (replied) prospect on Sid's instruction; cold-list rule (referral-only first touch) unchanged.
+
 ## Key paths
 
 - Page: `web/src/app/partners/page.tsx`

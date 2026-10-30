@@ -7,7 +7,6 @@ import { ORDER_METADATA } from '@/lib/seo/metadata'
 import { generateBreadcrumbSchema } from '@/lib/seo/structured-data'
 import { OrderFallbackCheckoutNotice } from './order-fallback-checkout-notice'
 import { OrderPageClient } from './order-client'
-import { OrderPriceSummary } from './order-price-summary'
 import { OrderTimeline } from './order-timeline'
 import { SpiffyPllcCheckout } from '@/components/spiffy/spiffy-pllc-checkout'
 import { SpiffyScript } from '@/components/spiffy/spiffy-script'
@@ -52,8 +51,6 @@ export default function OrderPage() {
                 Complete Your New York PLLC Formation Order
               </h1>
             </header>
-
-            <OrderPriceSummary />
 
             <Card className="mb-8">
               <CardHeader>
@@ -111,8 +108,8 @@ export default function OrderPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">6 weeks</div>
-                <p className="text-sm text-muted-foreground mt-2">Newspaper publication included</p>
+                <div className="text-3xl font-bold text-primary">$0</div>
+                <p className="text-sm text-muted-foreground mt-2">Hidden Fees</p>
               </div>
             </div>
           </div>

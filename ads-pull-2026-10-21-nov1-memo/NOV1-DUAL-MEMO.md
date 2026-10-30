@@ -2,6 +2,24 @@
 
 **Status:** October read through **Oct 28** is filled in below. Oct 29–31 add about 3 days. Re-run the two pulls on Nov 1 and change a figure only if it moves the verdict. **Sid decides.** This file does not change the bid.
 
+## October is a record month (CRM read Oct 30, Agent)
+
+`orders-attribution.ts --monthly --since 2025-09-01`, pulled Oct 30, one day before the month closes:
+
+| Month | Orders | Revenue | Google click-id orders |
+|---|---:|---:|---:|
+| May 2026 (prior high) | 57 | $52,289 | n/a (capture began Jul 9) |
+| September | 52 | $46,679 | 20 |
+| **October (through Oct 30)** | **66** | **$61,739** | **37** |
+
+- **Record month for total orders:** +9 over May (+16%) and +14 over September (+27%).
+- **Driver is Google:** 20 → 37 orders on spend up about 28% ($2,657 → ~$3,400). Untagged orders fell 32 → 25, so part of Google's rise is better click-id capture relabeling orders that used to have no source. Total orders still rose 14, so the growth is real.
+- **Cause:** the Aug–Sep ads work (Aug 4 self-block fix, $105 tCPA from Sep 2, `03` from Sep 16). The 90-day checklist's ads decision was to hold that setup.
+- **For this memo:** the order-count branch should start from October being a record. That supports **hold $105** into the Nov 15 freeze, not a cut.
+- **For the $985 test:** the baseline is rising. A before/after read can credit price with growth that was already underway. See [price-test-985.md](../docs/price-test-985.md) §3.
+
+Nov 1: re-run the same command and replace the Oct 30 row with the full month.
+
 ## October read, Oct 29 (Agent)
 
 Pull: [ads-pull-2026-10-29-nov1/](../ads-pull-2026-10-29-nov1/) (`daily.csv`, `campaigns-oct.csv`), plus CRM `orders-attribution.ts --monthly` (uses `orderCreatedAt`, excludes VM-only and tests). Portfolio tCPA is confirmed at **$105** via the API.

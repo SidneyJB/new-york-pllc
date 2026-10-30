@@ -35,6 +35,7 @@
   - **P2-12, Nov 29:** safety check only
   - **Dec 21:** first real read
   - **Jan 8 2027:** decision
+- **Rising baseline (added Oct 30):** October 2026 is a record month (66 orders through Oct 30 vs the prior high of 57 in May), driven by Google (20 → 37 orders Sep → Oct). If volume is still trending up at launch, a flat before/after comparison will flatter $985. Report the baseline weeks' trend, not just their average, and compare Google and non-Google orders separately. See the [Nov 1 memo](../ads-pull-2026-10-21-nov1-memo/NOV1-DUAL-MEMO.md).
 - **Limitations, stated up front:**
   - **Before/after only.** Any change in demand over the period (holidays, Ads auction changes, competitor pricing) is mixed in with the price effect.
   - **The holidays are in the window.** Thanksgiving week and Dec 22 – Jan 1 are historically slow. Report them separately rather than dropping them.

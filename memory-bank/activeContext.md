@@ -29,6 +29,10 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 - **MSO path (offer locked Aug 31 2026)** — PLLC + management LLC **$1,770**. Counsel MSA **$945** (unnamed on site). Pair RA **$149/yr**; pair VM **$85/mo**. No medspa. **Ads wait.** Page built under [`web/src/unpublished/ny-mso/`](../web/src/unpublished/ny-mso/) — **not live**; Vercel rewrites `/ny-mso` to 404. Do not move into `app/` until Sid launches. [features/mso-msa.md](features/mso-msa.md)
 - **Domestic NY PC (Sep 3 2026)** — off-menu **MSO-ready Practice PC** manual quote **$1,285** flat; no site/Spiffy SKU. Future standard PC list **$885** (PLL parity). SoT: [features/domestic-ny-pc.md](features/domestic-ny-pc.md)
 
+## October 2026 = record month (CRM, Oct 30)
+
+**66 orders / $61,739 through Oct 30**, vs the prior high of 57 (May) and 52 (Sep). Google click-id orders went 20 → 37 (Sep → Oct), partly from better tagging. Cause: the Aug–Sep ads fixes, not 90-day checklist items. Implications are written into the [Nov 1 memo](../ads-pull-2026-10-21-nov1-memo/NOV1-DUAL-MEMO.md) (hold $105) and [price-test-985.md](../docs/price-test-985.md) §3 (rising baseline). Replace with the full-month figure on Nov 1.
+
 ## Expansion priorities (90-day window — Oct 16 2026)
 
 📖 **Operational SoT:** [**nypllc-90-day-execution-checklist.md**](../nypllc-90-day-execution-checklist.md) · [decision-log.md](../decision-log.md) · [scorecards/](../scorecards/) · [ops/90-day-task-board.md](../ops/90-day-task-board.md)  

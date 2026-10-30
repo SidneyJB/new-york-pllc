@@ -1,5 +1,7 @@
 # Active Context
 
+> **📌 MONDAY NOV 2 (Sid):** Send B2B **Wave 4** (12 firms) around **9:30–10 ET**, right after the scorecard meeting. Moved up from Tue Nov 3 (Oct 30). Gmail dedupe is done (0 prior threads). In session: `cd PLLC-CRM/crm && npx tsx scripts/send-outreach-wave4-2026-11-03.ts --dry-run`, then `--confirm` on Sid's word. One follow-up **Mon Nov 9**, then stop. Drafts: [Wave 4](../../PLLC-CRM/crm/reports/b2b-partner-outreach-wave4-2026-11-03.md). Remove this note once sent.
+
 ## Production state
 
 NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checkout, analytics funnel, profession pages, DIY guide, virtual-address pages, foreign-into-NY state pages, and B2B partner landing shipped.

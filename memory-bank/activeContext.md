@@ -49,7 +49,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 5. **Nov 1 (Sid-run, in session): finalize ads memo** — Hold $105 adopted Oct 29 ([decision-log](../decision-log.md)). On Nov 1 Sid asks the agent to: re-pull Oct 1–31 (`google_ads_cli.py query` daily + campaign + `01` ad approval) into `ads-pull-2026-11-01-nov1/`; run CRM `orders-attribution.ts --monthly --since 2026-09-01`; add a "Final October" table to [NOV1-DUAL-MEMO.md](../ads-pull-2026-10-21-nov1-memo/NOV1-DUAL-MEMO.md); check the revisit triggers (Oct CPA > $150 or CRM Google orders < 25 → flag only, no account change); check off the P1-09 memo bullet. **No scheduled/unattended run.**
 7. **Ads** — **Hold $105 adopted Oct 29** for the Nov 1 gate (October: $3,401 / 33 conv / $103 CPA; 34 CRM Google orders). Three `01` ads still DISAPPROVED; appeals are Sid's UI action. No auto **$10K January**.
 6. **Trust copy (P1-08)** — `TRUST_MARKETING` + live GBP on order / order-llc / contact; ads claim **25,000+** where used.
-7. **CAQH — paused** — $0 base forecast; comparison page stays; no outreach. EIN attach **OFF**.
+7. **Insurance credentialing — launching full-blown ASAP (Sid, Nov 3 2026)**, superseding the CAQH pause. Selling the first two clients now (Danielle / Green Sparrow, Gabriella / Cove Compass; replies sent Nov 3). The `/headway-alma-vs-own-panels` comparison page still sells the paused $499 CAQH-only SKU and needs new copy. 📖 [plan](../../PLLC-CRM/crm/docs/insurance-credentialing-expansion-plan-2026-11.md) · [decision-log.md](../decision-log.md)
 8. **Customer interviews + mobile checkout** — script [docs/customer-interview-script.md](../docs/customer-interview-script.md).
 9. **P1-12 Day-14 review held Oct 29** — [Day-14 review](../ops/p1-12-day14-review-2026-10-29.md). Still open: Oct 19–25 scorecard (Nov 2 meeting), revised 90-day priorities.
 
@@ -96,7 +96,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 | Revenue levers: **Mercury + Gusto Impact applied Aug 14**; **third ping Sep 1**; links not live | [affiliate-partners.md](../docs/affiliate-partners.md) |
 | $985 price test — **Nov 2–4** after P1-12 | [price-test-985.md](../docs/price-test-985.md) |
 | Spiffy checkbox live: S Corp $195; sales tax **off checkout Aug 18**; CAQH paid SKU **paused** | [revenue levers plan](../nypllc-revenue-levers-plan.md) |
-| **CAQH paused Oct 14** — 0 paid; EIN attach off; comparison page stays live; **$0** base forecast | [decision-log.md](../decision-log.md) · [caqh-pilot-outcomes-oct-2026.md](../../PLLC-CRM/crm/docs/caqh-pilot-outcomes-oct-2026.md) |
+| **Insurance credentialing: full launch ASAP (Sid, Nov 3)**; supersedes the Oct 14 CAQH pause; first 2 clients being sold | [decision-log.md](../decision-log.md) · [caqh-pilot-outcomes-oct-2026.md](../../PLLC-CRM/crm/docs/caqh-pilot-outcomes-oct-2026.md) |
 | **Direct-RA notices live (Aug 25)** — checkout disclosure **audited Aug 26**; staff **$99 CoC** + **$249 Compliance Plan** paths confirmed. First T-30s ~Sep 22; Oct charges | [CRM launch status](../../PLLC-CRM/crm/docs/direct-ra-launch-status.md) |
 | B2B outreach **active** (first sends Oct 19); include wholesale/OOS; Headway/Alma are a secondary platform segment | [expansion-next-steps.md](expansion-next-steps.md) · [b2b-partners.md](../../PLLC-CRM/memory-bank/features/b2b-partners.md) |
 | **MSO path** — offer locked; **page unpublished** (not in `app/`; Vercel 404 `/ny-mso`); **no ads**; do not name Jonah | [features/mso-msa.md](features/mso-msa.md) |

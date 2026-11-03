@@ -558,7 +558,7 @@ Done when: the Q1 volume plan has a staffing/capacity explanation and a funded r
 
 Owner: Sid. Support: Ops/Agent. Due: January 8. Required prioritization; additional launches conditional.
 
-- [ ] Keep CAQH at zero in the base forecast unless a genuinely different, narrowly defined offer attracts paid pilot commitments.
+- [ ] ~~Keep CAQH at zero in the base forecast unless a genuinely different, narrowly defined offer attracts paid pilot commitments.~~ **Superseded Nov 3 2026 (Sid):** full insurance credentialing launches ASAP; first two clients (Green Sparrow, Cove Compass) being sold now. See [decision-log.md](decision-log.md) and the [credentialing plan](../PLLC-CRM/crm/docs/insurance-credentialing-expansion-plan-2026-11.md). Keep it out of the base forecast until paid jobs land; track it as a labeled scenario line.
 - [ ] Review filing-rescue inquiries. If recurring demand exists, define an administrative scope and quote 3–5 cases manually before building a public funnel.
 - [ ] Distinguish document/filing rescue from legal restructuring, a disputed ownership issue, or advice on converting an unsuitable entity. Route the latter to appropriate counsel.
 - [ ] Keep MSO work selective, within the existing reviewed scope, and dependent on suitable clients and counsel. Do not launch a broad campaign because the CRM workflow exists.

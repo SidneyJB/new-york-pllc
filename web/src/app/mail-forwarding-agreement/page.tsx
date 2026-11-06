@@ -42,6 +42,7 @@ export default function MailForwardingAgreementPage() {
                 <h1 className="text-2xl font-bold text-foreground mb-2">
                   MAIL FORWARDING & REGISTERED AGENT SERVICE AGREEMENT
                 </h1>
+                <p className="text-sm text-muted-foreground">Last updated: November 6, 2026</p>
               </div>
               {/* Section 1 */}
               <section>
@@ -128,7 +129,8 @@ export default function MailForwardingAgreementPage() {
                     <p className="font-medium mb-1">3.3 Billing Timing.</p>
                     <ul className="list-disc list-inside ml-4 space-y-1">
                       <li>The Fixed Subscription Fee is charged monthly.</li>
-                      <li>Variable Postage Costs are charged to the credit card on file at the time of forwarding (weekly on Fridays).</li>
+                      <li>Variable Postage Costs are billed at cost. Postage for mail forwarded since the Customer&apos;s last invoice is itemized on the next monthly invoice and charged to the payment method on file together with the Fixed Subscription Fee.</li>
+                      <li>If this Agreement ends with postage still unbilled, the Provider may charge that amount to the payment method on file or send a final invoice.</li>
                     </ul>
                   </div>
                   <div>
@@ -154,7 +156,7 @@ export default function MailForwardingAgreementPage() {
                         File an address change with NY DOS reflecting a new address that is not the Provider&apos;s address, and provide proof of that filing to the Provider; or
                       </li>
                       <li>
-                        Have the Provider complete the NY DOS address-change filing on the Customer&apos;s behalf for a fee of $199.00.
+                        Have the Provider complete the NY DOS address-change filing on the Customer&apos;s behalf for a fee of $129.00.
                       </li>
                     </ol>
                     <p className="leading-relaxed mt-2">
@@ -164,7 +166,7 @@ export default function MailForwardingAgreementPage() {
                   <div>
                     <p className="font-medium mb-1">4.2 Missed Payment; Default Address Change.</p>
                     <p className="leading-relaxed">
-                      If any monthly subscription payment is missed, the Customer will have thirty (30) days from the missed payment date to do one of the following: (1) file an address change with NY DOS and provide proof to the Provider; (2) have the Provider complete the filing for $199.00; or (3) reinstate service by curing the missed payment(s) and bringing the account current. If the Customer does not complete one of these options within that thirty-day period, the Provider will, by default, file an address change with NY DOS so that the Customer&apos;s business address on file is the Customer&apos;s home address (or other personal address) on file with the Provider. The Customer authorizes the Provider to make such filing.
+                      If any monthly subscription payment is missed, the Customer will have thirty (30) days from the missed payment date to do one of the following: (1) file an address change with NY DOS and provide proof to the Provider; (2) have the Provider complete the filing for $129.00; or (3) reinstate service by curing the missed payment(s) and bringing the account current. If the Customer does not complete one of these options within that thirty-day period, the Provider will, by default, file an address change with NY DOS so that the Customer&apos;s business address on file is the Customer&apos;s home address (or other personal address) on file with the Provider. The Customer authorizes the Provider to make such filing.
                     </p>
                   </div>
                   <div>

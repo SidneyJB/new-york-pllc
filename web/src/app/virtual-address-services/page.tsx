@@ -211,8 +211,8 @@ export default function VirtualAddressServicesPage() {
                   <div>
                     <h3 className="text-lg font-semibold text-foreground mb-2">Automatic Billing</h3>
                     <p className="text-muted-foreground">
-                      Your monthly subscription fee is charged automatically. Postage costs are charged only when mail is forwarded, 
-                      so you only pay for what you use. Simple and transparent.
+                      Your monthly subscription fee is charged automatically. Postage is added to your next monthly invoice only 
+                      when mail is forwarded, so you only pay for what you use. Simple and transparent.
                     </p>
                   </div>
                 </div>
@@ -252,7 +252,7 @@ export default function VirtualAddressServicesPage() {
                       <p className="text-3xl font-bold text-primary mb-2">At Cost</p>
                       <p className="text-muted-foreground">
                         You only pay the actual shipping costs to forward your mail. 
-                        Charged automatically when mail is forwarded—no markup, no surprises.
+                        Added to your next monthly invoice when mail is forwarded—no markup, no surprises.
                       </p>
                     </CardContent>
                   </Card>
@@ -307,7 +307,7 @@ export default function VirtualAddressServicesPage() {
                     <svg className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    <p className="text-muted-foreground">Cancel anytime after a NY DOS address change (self-file with proof, or we file for $199)</p>
+                    <p className="text-muted-foreground">Cancel anytime after a NY DOS address change (self-file with proof, or we file for $129)</p>
                   </div>
                 </div>
               </CardContent>

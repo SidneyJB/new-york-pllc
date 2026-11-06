@@ -6,7 +6,7 @@ import { APP_CONFIG, PRICING } from '@/lib/constants'
 import { TERMS_METADATA } from '@/lib/seo/metadata'
 
 export const metadata = TERMS_METADATA
-const LAST_UPDATED = 'August 12, 2026'
+const LAST_UPDATED = 'November 6, 2026'
 
 export default function TermsPage() {
   return (
@@ -152,7 +152,7 @@ export default function TermsPage() {
                       ).
                     </p>
                     <p className="text-sm text-muted-foreground">
-                      Virtual mail customers who need an address change use the separate $199 Certificate of Change
+                      Virtual mail customers who need an address change use the separate $129 Certificate of Change
                       path in the{' '}
                       <Link href="/mail-forwarding-agreement" className="text-primary underline">
                         Mail Forwarding &amp; Registered Agent Agreement

@@ -41,7 +41,7 @@ export default function ChangeRegisteredAgentPage() {
                 <a className="text-primary underline" href="mailto:contact@nypllc.com">
                   contact@nypllc.com
                 </a>{' '}
-                and we will send one. Virtual mail clients use the separate $199 address-change
+                and we will send one. Virtual mail clients use the separate $129 address-change
                 path in the{' '}
                 <Link href="/mail-forwarding-agreement" className="text-primary underline">
                   mail forwarding agreement

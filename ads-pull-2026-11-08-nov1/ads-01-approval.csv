@@ -1,0 +1,9 @@
+ad_group_ad.ad.id,ad_group.name,campaign.name,ad_group_ad.status,ad_group_ad.policy_summary.approval_status
+816213589888,Cost-Price,01_Core_Exact_NY,ENABLED,APPROVED
+816286168247,Cost-Price,01_Core_Exact_NY,ENABLED,APPROVED
+816213581518,Formation-Core,01_Core_Exact_NY,ENABLED,DISAPPROVED
+816286133015,Formation-Core,01_Core_Exact_NY,ENABLED,APPROVED_LIMITED
+816213581680,Service-Intent,01_Core_Exact_NY,ENABLED,DISAPPROVED
+816286167770,Service-Intent,01_Core_Exact_NY,ENABLED,DISAPPROVED
+816213511561,Brand,01_Core_Exact_NY,ENABLED,APPROVED_LIMITED
+816213555055,Brand,01_Core_Exact_NY,ENABLED,APPROVED_LIMITED

@@ -1,0 +1,28 @@
+=== CRM Orders — Attribution Report (read-only) ===
+
+Business date field: orderCreatedAt (Spiffy checkout timestamp; used by revenue/metrics scripts)
+Granularity: monthly
+Window: 2026-05-01 → 2026-11-08
+VM-only orders: excluded (use --include-vm to include)
+
+⚠️  WARNING: Window starts before 2026-07-09. Google click-ID capture (gclid/wbraid/gbraid) only went live on that date.
+   Orders before 2026-07-09 will appear as untagged/other_utm — click-ID attribution is not meaningful for that period.
+
+VM-only orders excluded from counts: 4
+Orders with VM included: 343 (+4 VM-only)
+
+Month          Orders   Google      UTM  Untagged      Revenue   % Google    % UTM   % Untag
+--------------------------------------------------------------------------------------------
+2026-05-01         57        0        0        57   $52,289.00       0.0%     0.0%    100.0%
+2026-06-01         47        0        0        47   $43,408.00       0.0%     0.0%    100.0%
+2026-07-01         47       10        4        33   $42,269.00      21.3%     8.5%     70.2%
+2026-08-01         49       16        3        30   $41,478.00      32.7%     6.1%     61.2%
+2026-09-01         52       20        0        32   $46,679.00      38.5%     0.0%     61.5%
+2026-10-01         68       38        4        26   $63,559.00      55.9%     5.9%     38.2%
+2026-11-01         19        7        4         8   $16,820.00      36.8%    21.1%     42.1%
+--------------------------------------------------------------------------------------------
+TOTAL             339       91       15       233  $306,502.00      26.8%     4.4%     68.7%
+
+Other UTM sources (distinct, all periods):
+  chatgpt.com: 14
+  clutch.co: 1

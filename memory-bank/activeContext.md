@@ -1,6 +1,13 @@
 # Active Context
 
-> **📌 MONDAY NOV 2 (Sid):** Send B2B **Wave 4** (12 firms) around **9:30–10 ET**, right after the scorecard meeting. Moved up from Tue Nov 3 (Oct 30). Gmail dedupe is done (0 prior threads). In session: `cd PLLC-CRM/crm && npx tsx scripts/send-outreach-wave4-2026-11-03.ts --dry-run`, then `--confirm` on Sid's word. One follow-up **Mon Nov 9**, then stop. Drafts: [Wave 4](../../PLLC-CRM/crm/reports/b2b-partner-outreach-wave4-2026-11-03.md). Remove this note once sent.
+> **📌 NOV 8 EVIDENCE PASS (overdue items):**
+> - **Scorecards:** [Nov 1](../scorecards/2026-11-01-weekly.md) and [Nov 8](../scorecards/2026-11-08-weekly.md).
+> - **Nov 1 memo final:** hold $105; neither trigger fired.
+> - **Analyses:** [P1-03](../../PLLC-CRM/crm/reports/p1-03-2026-11-08/README.md), [P1-05](../../PLLC-CRM/crm/reports/p1-05-2026-11-08/README.md), [P1-07](../reports/p1-07-buying-journey-2026-11-08.md).
+> - **Priorities:** [revised priorities](../ops/revised-priorities-2026-11-08.md).
+> - **Wave 4 sent Sun Nov 8 evening (12 firms)** on Sid's word; it had never gone out Nov 2. [Send log](../../PLLC-CRM/crm/reports/b2b-partner-outreach-wave4-2026-11-03-send.json). One follow-up around **Mon Nov 16**, then stop.
+> - **Abandoned-checkout capture has recorded nothing since Oct 14.**
+> - **Affiliates dead** (Sid, Nov 8).
 
 ## Production state
 
@@ -29,7 +36,7 @@ NY PLLC marketing site (**www.nypllc.com**) is **live on Vercel**. Spiffy checko
 - **MSO path (offer locked Aug 31 2026)** — PLLC + management LLC **$1,770**. Counsel MSA **$945** (unnamed on site). Pair RA **$149/yr**; pair VM **$85/mo**. No medspa. **Ads wait.** Page built under [`web/src/unpublished/ny-mso/`](../web/src/unpublished/ny-mso/) — **not live**; Vercel rewrites `/ny-mso` to 404. Do not move into `app/` until Sid launches. [features/mso-msa.md](features/mso-msa.md)
 - **Domestic NY PC (Sep 3 2026)** — off-menu **MSO-ready Practice PC** manual quote **$1,285** flat; no site/Spiffy SKU. Future standard PC list **$885** (PLL parity). SoT: [features/domestic-ny-pc.md](features/domestic-ny-pc.md)
 
-## October 2026 = record month (CRM, Oct 30)
+## October 2026 = record month (CRM, final Nov 8: **68 orders / $63,559**, 38 Google)
 
 **66 orders / $61,739 through Oct 30**, vs the prior high of 57 (May) and 52 (Sep). Google click-id orders went 20 → 37 (Sep → Oct), partly from better tagging. Cause: the Aug–Sep ads fixes, not 90-day checklist items. Implications are written into the [Nov 1 memo](../ads-pull-2026-10-21-nov1-memo/NOV1-DUAL-MEMO.md) (hold $105) and [price-test-985.md](../docs/price-test-985.md) §3 (rising baseline). Replace with the full-month figure on Nov 1.
 

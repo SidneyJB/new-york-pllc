@@ -85,7 +85,7 @@
 | VM | $600/yr; margin **not measured** (80% assumed) |
 | RA | $99/yr, ~92% margin |
 
-**Current run-rate net ≈ $330K/yr.**
+**Current run-rate net ≈ $330K/yr.** **Nov 9 recount from Relay actuals:** Apr–Oct runs about $423K/yr on cash and $371K on accrual before owner pay, or $290K after Sid's Gusto pay (Spiffy $99/month included) ([P1-03 §3a](../PLLC-CRM/crm/reports/p1-03-2026-11-08/README.md)). Use the accrual figure in P2-11.
 
 ---
 

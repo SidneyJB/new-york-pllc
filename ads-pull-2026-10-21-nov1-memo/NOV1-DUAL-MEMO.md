@@ -1,6 +1,39 @@
 # November 1 dual memo (skeleton Oct 21; October read Oct 29, 2026)
 
-**Status:** October read through **Oct 28** is filled in below. Oct 29–31 add about 3 days. Re-run the two pulls on Nov 1 and change a figure only if it moves the verdict. **Sid decides.** This file does not change the bid.
+**Status:** **Final.** Full October re-pulled Nov 8 (a week late; the Nov 1 re-pull never ran). The verdict is unchanged: **hold $105**. **Sid decides.** This file does not change the bid.
+
+## Final October (re-pull Nov 8, Agent)
+
+Pull: [ads-pull-2026-11-08-nov1/](../ads-pull-2026-11-08-nov1/) (`daily.csv`, `campaigns-oct.csv`, `ads-01-approval.csv`, `crm-orders-attribution-monthly.txt`). Portfolio tCPA confirmed **$105** via the API.
+
+| Window | Spend | Ads conv | Ads CPA | CRM Google orders | CRM orders (all) | CRM revenue |
+|---|---:|---:|---:|---:|---:|---:|
+| September | $2,657 | 22.0 | $121 | 20 | 52 | $46,679 |
+| **October** | **$3,698** | **43.0** | **$86** | **38** | **68** | **$63,559** |
+| Oct 22–31 | $1,356 | 13.0 | $104 | — | — | — |
+| Nov 1–7 | $942 | 4.0 | $235 | 7 (Nov 1–8) | 19 | $16,820 |
+
+By campaign, October:
+- Sales-Search-1: $2,972 and 36 conversions.
+- `01_Core_Exact_NY`: $525 and 6 conversions.
+- `03_ForeignQual_US`: $200 and 1 conversion.
+
+**Revisit triggers (Oct 29 decision log row): neither fired.**
+- Oct 22–31 CPA is **$104** (the trigger is > $150).
+- CRM Google orders are **38** (the trigger is < 25).
+- CRM-side Google CPA is **$97** ($3,698 ÷ 38).
+- Ads conversions run 13% above CRM click-id orders (43 vs 38), just outside the ±10% band. Fractional credit and late click ids explain most of it; nothing is double-imported.
+
+**Watch for the Nov 9 review:**
+- Nov 1–7 Ads CPA is **$235** on 4 conversions. That window is lag-heavy (CRM already shows 7 Google orders Nov 1–8), so it's a watch item, not a trigger.
+- Read it again in the Nov 16 scorecard.
+
+**Policy:** the three `01` ads (`816213581518`, `816213581680`, `816286167770`) are **still DISAPPROVED on Nov 8**. No appeal is recorded; filing it is Sid's action in the Google Ads dashboard. Formation-Core `816286133015` and both Brand ads are APPROVED_LIMITED; both Cost-Price ads are APPROVED.
+
+**Verdict:**
+- **Order count:** record month, 38 Google orders. Hold, not cap.
+- **Profit:** about $514 − $97 ≈ **$417 per Google order** (labor isn't costed, per Sid Nov 9).
+- **Decision:** hold $105 into the Nov 15–Dec 1 freeze. Sid's Oct 29 decision stands.
 
 ## October is a record month (CRM read Oct 30, Agent)
 

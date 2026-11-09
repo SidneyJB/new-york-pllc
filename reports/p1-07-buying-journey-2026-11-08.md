@@ -53,6 +53,30 @@ Mobile converts at about 60% of the desktop rate on the same campaigns.
 
 **Not working.** Only 5 rows were ever captured (Oct 7, and four on Oct 14). None have been captured since Oct 14, through a record month. The recovery cron itself runs (1,617 runs). Capture runs in `use-checkout-abandonment-capture.ts` (Spiffy `identify` postMessage and page-exit cookie). P1-08 owns the fix; Sid deferred P1-08 on Nov 8.
 
+### Root cause (live investigation, Nov 9)
+
+1. **The plumbing works.**
+   - The site endpoint has its secret: a malformed POST returns 400, not 503.
+   - The CRM ingest rejects unauthenticated calls (401).
+   - The capture hook is still mounted on `/order` (`useSpiffyFormEngagementTracking` → `useCheckoutAbandonmentCapture`).
+2. **The trigger never fires.**
+   - **Test:** in the live `/order` checkout, I filled first name, last name, a dummy `@example.com` email and a 555 phone number. Our ingest call was intercepted in the page, so nothing reached the CRM (confirmed: no row).
+   - **Result:** Spiffy's own debug bus (`window.__SPIFFY_DEBUG__`) logged only `ready`, `form:ready`, `persistHandle` and `form:size`. **No `identify` message**, and no `_sp_id` cookie.
+   - Those are the only two signals the capture listens for.
+3. **Spiffy's current `spiffy.js` explains why.**
+   - `identify` and the `_sp_id` cookie are set by the parent page's `autoIdentify`. That hooks the submit of a non-Spiffy `<form>` on *our* page, not anything typed inside the checkout iframe.
+   - The iframe only relays readiness, size, cookie-persist, auth, order and upsell events.
+4. **Why the October tests passed.**
+   - `form-tracking.test.tsx` *simulates* a Spiffy `identify` postMessage. It proves our handler works when that message arrives, not that Spiffy sends it.
+   - Production produced two `/order` rows on Oct 14 (plus two from the probe script with no URL). So Spiffy apparently did emit `identify` then, at least in some flow, and has emitted nothing since Oct 14.
+   - That points to a change on Spiffy's side after Oct 14. Their event bus now drops cross-frame messages without trusted origins and ships a 1.1.0 snippet check. This is inferred; there's no Spiffy changelog to confirm it.
+5. **Not tested:** whether `identify` fires on an order *submit* attempt. That would mean submitting the live checkout.
+
+**Fix routes (Sid decides):**
+- **(a) Ask Spiffy support** whether the inline checkout can emit an email/lead event to the parent page or fire an integration/webhook when a checkout starts. It's server-side and adds no friction. Recommended first step.
+- **(b) Spiffy's documented [multi-step checkout](https://university.spiffy.co/tutorials/cart-abandon-multi-step-checkout/):** an email field on our page before the checkout, passed in via URL params. It works, but adds a step to a record-month checkout.
+- **(c) Leave it off** and remove F1 (+6/month) from the P2-11 model.
+
 ## Customer conversations
 
 **Not started.**

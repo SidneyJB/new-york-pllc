@@ -165,7 +165,7 @@ Owner: Agent. Content decision: Sid. Fulfillment validation: Ops. Due: October 2
 - [ ] Add a clear route to brief administrative help. Route legal/tax structure decisions to the customer's adviser.
 - [ ] Reconcile formation-count and review-rating claims with records. If a claim includes legacy or sister-company work, label that scope accurately. **Partial Oct 30:** Google reviews updated to 16 (Sid). FAQ payment-plan answer fixed to match checkout. Formation-count copy not re-checked.
 - [ ] Fix confirmed mobile/payment problems. Use sandbox or test modes where possible; exclude test orders from reporting.
-- [ ] Verify abandonment capture and purchase suppression. Keep the 1-hour and 24-hour sequence useful and factual; add a 72-hour personal-help touch only if early feedback supports it.
+- [ ] Verify abandonment capture and purchase suppression. **Nov 9 root cause:** the live Spiffy checkout no longer sends an `identify` message or sets `_sp_id` when a buyer types an email (Spiffy debug bus, live test). Our capture listens only for those, so nothing has been captured since Oct 14. The October tests simulated the message. Fix routes for Sid: ask Spiffy support / multi-step email-first / drop F1 ([P1-07 § Root cause](reports/p1-07-buying-journey-2026-11-08.md)). Keep the 1-hour and 24-hour sequence useful and factual; add a 72-hour personal-help touch only if early feedback supports it.
 - [ ] Prepare a review request tied to a genuine successful milestone. Ask for an honest review without conditioning it on a positive response.
 - [ ] Record deployment date, affected pages, expected metric, and rollback steps. Avoid a full redesign. **Oct 30 deploy `72858a9`:** `/order` (timeline below checkout), `/faq` (payment plans), review count site-wide. Expected metric: fewer timeline complaints and disputes. Rollback: `git revert -m 1 72858a9`. A price box above the checkout was built and dropped as redundant with the Spiffy embed (Sid). Leave this unchecked until later P1-08 changes are logged too.
 
@@ -237,6 +237,8 @@ Period 1 exit standard: trustworthy enough economics to run bounded experiments;
 ## Period 2: Days 15–45 — October 30–November 29
 
 ### P2-01. Launch and monitor the $985 formation-price test
+
+**Status (Nov 9, Sid): HOLD at $885. Not launching** ([decision log](decision-log.md)). The bullets below stay unchecked; they apply only if Sid reopens the test.
 
 Owner: Agent for implementation; Sid for launch/decision; Ops for support. Target launch: November 2–4. Required if P1-11 passes. Dependencies: stable purchase flow, reconciled economics, and the adopted early-test decision.
 

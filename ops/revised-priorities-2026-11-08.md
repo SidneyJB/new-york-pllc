@@ -15,8 +15,9 @@
 ## Order of work, Nov 9–29
 
 1. **Partner selling (Sid, Tue/Thu blocks).** Wave 4 (12) went out Nov 8; answer replies the same business day, with one follow-up around Nov 16. Next segment after that. Target 12–15 new firms a week per P2-03.
-2. **$985 decision (Nov 9).** The baseline is rising (record October), so a before/after read will flatter the price change. Decide knowing that.
+2. **$985: held at $885 (Sid, Nov 9).** No price test this period. That leaves December open for a bounded ad test if Sid approves one.
 3. **Billing exceptions (Ops, daily through Nov 18).** Six no-card RA renewals are due Nov 10–18. Muthu's payment plan is 31 days overdue with no dunning. (The two overlap RA subs were canceled Nov 9.)
-4. **Before the Nov 15 freeze:** only the fixes the freeze allows. The three `01` appeals are Sid's UI action. The broken abandonment capture is a tracking fix the checklist allows during the freeze, but Sid deferred P1-08 on Nov 8.
-5. **P2-11 model (Nov 24):** use the Nov 8 inputs (2.4% VM churn, 27% mature attach, 0.5% bad debt, RA overlap exclusions, $0 affiliates).
-6. **Deferred:** P1-08 (Sid, Nov 8), customer interviews until someone is assigned to ask, and the PC pilot until a partner surfaces a case.
+4. **Abandoned checkout (Nov 9 root cause):** Spiffy stopped sending `identify` to our page; capture can't work as built. Sid picks: ask Spiffy support (recommended), email-first multi-step, or drop F1.
+5. **Before the Nov 15 freeze:** only the fixes the freeze allows. The three `01` appeals are Sid's UI action. The broken abandonment capture is a tracking fix the checklist allows during the freeze, but Sid deferred P1-08 on Nov 8.
+6. **P2-11 model (Nov 24):** use the Nov 8 inputs (2.4% VM churn, 27% mature attach, 0.5% bad debt, RA overlap exclusions, $0 affiliates).
+7. **Deferred:** P1-08 (Sid, Nov 8), customer interviews until someone is assigned to ask, and the PC pilot until a partner surfaces a case.

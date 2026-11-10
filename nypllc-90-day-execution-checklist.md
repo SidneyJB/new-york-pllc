@@ -275,7 +275,7 @@ Owner: Sid. Support: Agent. Due: ongoing through November 25, with reporting thr
 
 - [ ] Add roughly 40–50 qualified firms to the initial 20–25. Aim for approximately 60–75 distinct firms contacted cumulatively by the period end, with warm and cold activity separated.
 - [ ] Prioritize segments that have demonstrated actual relevant volume. Do not broaden simply because a list is easy to build.
-- [ ] Set a normal-week cadence of approximately 12–15 new firms, adjusted for holidays and actual capacity.
+- [ ] Set a normal-week cadence of approximately 12–15 new firms, adjusted for holidays and actual capacity. **Nov 9:** Wave 5 drafted for Nov 17 (7 wholesale firms + 1 contact form; [draft](../PLLC-CRM/crm/reports/b2b-partner-outreach-wave5-2026-11-17.md)); cumulative would reach 45.
 - [ ] Personalize the reason for contact using the firm's client base or current service. Avoid unsupported claims about its needs.
 - [ ] Continue the one-follow-up rule for unanswered cold outreach. Move interested conversations into a mutually agreed next step instead of an automated cold cadence.
 - [ ] Ask about cases handled, current provider, operational pain, decision maker, who pays, expected volume, and requirements for a first handoff.
@@ -564,7 +564,7 @@ Done when: the Q1 volume plan has a staffing/capacity explanation and a funded r
 
 Owner: Sid. Support: Ops/Agent. Due: January 8. Required prioritization; additional launches conditional.
 
-- [ ] ~~Keep CAQH at zero in the base forecast unless a genuinely different, narrowly defined offer attracts paid pilot commitments.~~ **Superseded Nov 3 2026 (Sid):** full insurance credentialing launches ASAP; first two clients (Green Sparrow, Cove Compass) being sold now. See [decision-log.md](decision-log.md) and the [credentialing plan](../PLLC-CRM/crm/docs/insurance-credentialing-expansion-plan-2026-11.md). Keep it out of the base forecast until paid jobs land; track it as a labeled scenario line.
+- [ ] ~~Keep CAQH at zero in the base forecast unless a genuinely different, narrowly defined offer attracts paid pilot commitments.~~ **Superseded Nov 3 2026 (Sid):** full insurance credentialing launches ASAP; first two clients (Green Sparrow, Cove Compass) being sold now. See [decision-log.md](decision-log.md) and the [credentialing plan](../PLLC-CRM/crm/docs/insurance-credentialing-expansion-plan-2026-11.md). Keep it out of the base forecast until paid jobs land; track it as a labeled scenario line. **Nov 9 DB check:** first paid job landed: Green Sparrow paid **$2,210** on Nov 5 (in-network, 4 insurers + Medicaid + Medicare; engagement at SIGNATURES). Cove Compass: $894 invoice (NPI/CAQH $399 + Medicaid $495, Fidelis) open, re-sent Nov 9.
 - [ ] Review filing-rescue inquiries. If recurring demand exists, define an administrative scope and quote 3–5 cases manually before building a public funnel.
 - [ ] Distinguish document/filing rescue from legal restructuring, a disputed ownership issue, or advice on converting an unsuitable entity. Route the latter to appropriate counsel.
 - [ ] Keep MSO work selective, within the existing reviewed scope, and dependent on suitable clients and counsel. Do not launch a broad campaign because the CRM workflow exists.

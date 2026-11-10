@@ -14,18 +14,18 @@ import {
 const PATH = '/headway-alma-vs-own-panels'
 const TITLE = 'Headway vs Alma vs Your Own Insurance Panels | NYPLLC'
 const DESCRIPTION =
-  'Compare Headway, Alma, and building your own insurance panels. NYPLLC prepares your CAQH profile for a one-time $499 fee using your formation file.'
+  'Compare Headway, Alma, and getting in-network under your own PLLC. NYPLLC handles NPI, CAQH, and insurer applications for flat fees, starting at $399.'
 
 const FAQS = [
   {
-    question: 'What does the $499 CAQH setup include?',
+    question: 'What do your credentialing services cost?',
     answer:
-      'We prepare a new CAQH profile or update an existing one. We organize your documents and fix one round of errors. You review the finished profile and confirm in CAQH that the information is correct.',
+      'Foundation is $399: the NPI for your PLLC, an update to your individual NPI, your CAQH profile built or updated, a PLLC W-9, and a check of your practice location. Get in-network is $1,095 and adds applications to three commercial insurers, followed up until each decides; each extra insurer is $225. If you are already in-network in your own name, moving those contracts to your PLLC is $199 plus $99 per insurer. NY Medicaid is $495 and Medicare is $395. Upkeep is $249 a year. Payment plans are available.',
   },
   {
-    question: 'Does NYPLLC apply to insurance panels?',
+    question: 'Does NYPLLC apply to insurance panels for me?',
     answer:
-      'No. We set up your CAQH profile. You must apply to each insurance company separately.',
+      'Yes, on the Get in-network and Move my contracts services. We check whether each panel is open, prepare and submit the applications under your PLLC, and follow up every two weeks until the insurer decides. You review and sign every contract and attestation. Each insurer decides on its own, so we cannot guarantee acceptance. If a panel turns out to be closed, we switch that application to another insurer or refund that insurer\'s share.',
   },
   {
     question: 'Can I use this service if my PLLC is already formed?',
@@ -50,7 +50,7 @@ const FAQS = [
   {
     question: 'Why use NYPLLC instead of doing CAQH myself?',
     answer:
-      'CAQH is free for providers, but you must gather the documents, enter the information, and resolve errors yourself. We reuse the practice information in your formation file, prepare the profile, organize the documents, and handle one round of corrections for a fixed $499 fee.',
+      'CAQH is free for providers, and you can apply to insurers yourself. It takes time: two NPIs, a CAQH profile, separate applications for each insurer, and months of follow-up calls. We start from the practice information already in your formation file and handle that work for a flat fee. We never hold your portal passwords.',
   },
 ]
 
@@ -58,7 +58,8 @@ export const metadata = generateMetadata({
   title: TITLE,
   description: DESCRIPTION,
   keywords: [
-    'CAQH setup service',
+    'insurance credentialing New York',
+    'therapist credentialing service',
     'CAQH profile help',
     'Headway vs Alma',
     'Headway vs private practice insurance',
@@ -71,7 +72,7 @@ export const metadata = generateMetadata({
 })
 
 const contactHref = `mailto:${APP_CONFIG.supportEmail}?subject=${encodeURIComponent(
-  'CAQH setup for my practice'
+  'Insurance credentialing for my practice'
 )}`
 
 export default function HeadwayAlmaVsOwnPanelsPage() {
@@ -89,7 +90,7 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
               description: DESCRIPTION,
               url: PATH,
               datePublished: '2026-09-17',
-              dateModified: '2026-09-19',
+              dateModified: '2026-11-09',
             })
           ),
         }}
@@ -107,7 +108,7 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
             generateBreadcrumbSchema([
               { name: 'Home', item: baseUrl },
               {
-                name: 'CAQH setup options',
+                name: 'Insurance credentialing options',
                 item: `${baseUrl}${PATH}`,
               },
             ])
@@ -117,7 +118,7 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
 
       <div className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
-          <Breadcrumb items={[{ label: 'CAQH setup options' }]} />
+          <Breadcrumb items={[{ label: 'Insurance credentialing options' }]} />
         </div>
       </div>
 
@@ -134,9 +135,10 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
               <p className="mt-6 text-lg leading-8 text-muted-foreground">
                 Headway and Alma can get you started with less billing work, but
                 you use their insurance arrangements and keep paying as long as
-                you use the platform. If you want to apply to insurers under
-                your own practice, NYPLLC can prepare your CAQH profile once for
-                $499 using information already in your formation file.
+                you use the platform. If you want contracts under your own
+                practice, NYPLLC can handle the NPI, CAQH, and insurer
+                applications for a flat fee, starting from the information
+                already in your formation file.
               </p>
               <div className="mt-7 grid gap-4 sm:grid-cols-2">
                 <div className="rounded-lg border bg-background p-4">
@@ -151,9 +153,9 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
                 <div className="rounded-lg border border-primary/40 bg-primary/5 p-4">
                   <p className="font-semibold">Build your own panels</p>
                   <p className="mt-2 text-sm leading-6 text-muted-foreground">
-                    Pay NYPLLC $499 once for CAQH setup, then choose which
-                    insurers to apply to under your practice. You or your
-                    billing company handles claims after enrollment.
+                    Pay NYPLLC once to get your PLLC in-network with the
+                    insurers you choose. You or your billing company handles
+                    claims after enrollment.
                   </p>
                 </div>
               </div>
@@ -162,21 +164,39 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
                   <a href={contactHref}>Email us to get started</a>
                 </Button>
                 <span className="text-sm text-muted-foreground">
-                  One-time fee. No subscription or per-session fee to us.
+                  Flat fees. No share of your sessions. Payment plans available.
                 </span>
               </div>
             </div>
             <div className="rounded-xl border bg-background p-6 shadow-sm">
-              <p className="font-semibold">Your $499 CAQH setup</p>
-              <ul className="mt-4 list-disc space-y-3 pl-5 text-sm leading-6 text-muted-foreground">
-                <li>Prepare a new profile or update your current one</li>
-                <li>Collect and organize the required documents</li>
-                <li>Fix one round of errors</li>
-                <li>Send you the finished profile to review and confirm</li>
+              <p className="font-semibold">NYPLLC credentialing</p>
+              <ul className="mt-4 space-y-3 text-sm leading-6 text-muted-foreground">
+                <li>
+                  <strong className="text-foreground">Foundation, $399.</strong>{' '}
+                  PLLC NPI, CAQH profile, W-9, location check
+                </li>
+                <li>
+                  <strong className="text-foreground">
+                    Get in-network, $1,095.
+                  </strong>{' '}
+                  Foundation plus 3 insurers, followed up to a decision; $225
+                  per extra insurer
+                </li>
+                <li>
+                  <strong className="text-foreground">
+                    Move my contracts, $199 + $99 per insurer.
+                  </strong>{' '}
+                  For clinicians already in-network in their own name
+                </li>
+                <li>
+                  <strong className="text-foreground">Add-ons.</strong> NY
+                  Medicaid $495, Medicare $395, upkeep $249/yr
+                </li>
               </ul>
               <p className="mt-5 border-t pt-4 text-xs leading-5 text-muted-foreground">
-                You review and attest to the profile. Insurance company
-                applications and billing are not included.
+                You sign every contract and attestation. Insurers decide on
+                their own; acceptance is not guaranteed. Billing and claims are
+                not included.
               </p>
             </div>
           </div>
@@ -200,8 +220,8 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
               profile, separate payer applications, and a way to bill claims.
               The benefit is that your practice applies under its own
               information and chooses which payer relationships to pursue.
-              NYPLLC handles the CAQH setup so you do not have to start that
-              process from a blank profile.
+              NYPLLC handles the NPI, CAQH, and applications so you do not
+              have to start that process from a blank page.
             </p>
           </section>
 
@@ -228,7 +248,7 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
               </div>
               <div className="rounded-xl border border-primary/40 bg-primary/5 p-6">
                 <p className="text-xs font-medium uppercase tracking-wide text-primary">
-                  Best fit for our $499 service
+                  Where NYPLLC helps
                 </p>
                 <h3 className="mt-2 text-lg font-semibold">
                   Build your own panels
@@ -257,15 +277,15 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
               </div>
             </div>
             <p className="mt-4 max-w-3xl text-sm leading-6 text-muted-foreground">
-              A platform can be the right starting point. The $499 NYPLLC
-              service is for clinicians who also want a complete CAQH profile
-              for their own direct applications.
+              A platform can be the right starting point. NYPLLC credentialing
+              is for clinicians who also want contracts under their own
+              practice, now or later.
             </p>
           </section>
 
           <section className="rounded-xl border bg-muted/30 p-6 sm:p-8">
             <h2 className="text-2xl font-semibold">
-              Compare a one-time setup with ongoing platform costs
+              Compare a one-time fee with ongoing platform costs
             </h2>
             <p className="mt-3 max-w-3xl leading-7 text-muted-foreground">
               Alma lists membership at $1,140 when billed annually or $125 month
@@ -293,11 +313,11 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
             <div className="mt-6 grid gap-4 sm:grid-cols-3">
               <div className="rounded-lg border bg-background p-5">
                 <p className="text-sm text-muted-foreground">
-                  NYPLLC CAQH setup
+                  NYPLLC Get in-network
                 </p>
-                <p className="mt-2 text-3xl font-semibold">$499</p>
+                <p className="mt-2 text-3xl font-semibold">$1,095</p>
                 <p className="mt-2 text-sm text-muted-foreground">
-                  One time. Payer applications and billing are separate.
+                  One time, including 3 insurers. Billing is separate.
                 </p>
               </div>
               <div className="rounded-lg border bg-background p-5">
@@ -334,7 +354,7 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
             <div className="overflow-x-auto rounded-xl border bg-card">
               <table className="min-w-[760px] w-full text-left text-sm">
                 <caption className="sr-only">
-                  Comparison of NYPLLC CAQH setup, DIY CAQH, and Headway or Alma
+                  Comparison of NYPLLC credentialing, doing it yourself, and Headway or Alma
                 </caption>
                 <thead className="bg-muted/50">
                   <tr>
@@ -345,7 +365,7 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
                       scope="col"
                       className="bg-primary/5 px-4 py-3 font-semibold"
                     >
-                      <span className="block">NYPLLC CAQH setup</span>
+                      <span className="block">NYPLLC credentialing</span>
                       <span className="mt-1 block text-xs font-normal text-muted-foreground">
                         For practices building direct panels
                       </span>
@@ -367,12 +387,12 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
                       Cost structure
                     </th>
                     <td className="bg-primary/5 px-4 py-4 align-top font-medium">
-                      $499 one-time fee. No subscription or per-session fee to
-                      NYPLLC.
+                      Flat fee: $399 Foundation, $1,095 with 3 insurers. No
+                      subscription or per-session fee to NYPLLC.
                     </td>
                     <td className="px-4 py-4 align-top text-muted-foreground">
-                      CAQH is free. You spend your own time on the profile,
-                      documents, and corrections.
+                      CAQH and applications are free. You spend your own time
+                      on the forms and follow-up calls.
                     </td>
                     <td className="px-4 py-4 align-top text-muted-foreground">
                       Headway retains a variable portion of eligible session
@@ -385,14 +405,15 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
                       scope="row"
                       className="px-4 py-4 align-top font-semibold"
                     >
-                      CAQH work
+                      NPI, CAQH, and applications
                     </th>
                     <td className="bg-primary/5 px-4 py-4 align-top font-medium">
-                      We prepare the profile and handle one correction round.
+                      We prepare them, submit under your PLLC, and follow up
+                      every two weeks until each insurer decides.
                     </td>
                     <td className="px-4 py-4 align-top text-muted-foreground">
-                      You gather documents, enter the information, and fix any
-                      issues.
+                      You gather documents, fill out each application, and
+                      chase each insurer yourself.
                     </td>
                     <td className="px-4 py-4 align-top text-muted-foreground">
                       The platform handles its credentialing process. Ask what
@@ -407,8 +428,7 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
                       Who holds the payer relationship
                     </th>
                     <td className="bg-primary/5 px-4 py-4 align-top font-medium">
-                      Your practice applies to insurance companies separately
-                      under its own information.
+                      Your PLLC holds its own contracts, under its own tax ID.
                     </td>
                     <td className="px-4 py-4 align-top text-muted-foreground">
                       Your practice applies to insurance companies separately
@@ -428,8 +448,8 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
                       If you leave
                     </th>
                     <td className="bg-primary/5 px-4 py-4 align-top font-medium">
-                      Your CAQH profile remains yours. Direct payer contracts
-                      are separate from NYPLLC.
+                      Your CAQH profile and contracts are yours. Nothing is
+                      tied to NYPLLC.
                     </td>
                     <td className="px-4 py-4 align-top text-muted-foreground">
                       Your CAQH profile and direct payer contracts remain yours.
@@ -483,8 +503,8 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
                       Best fit
                     </th>
                     <td className="bg-primary/5 px-4 py-4 align-top font-medium">
-                      You want us to handle CAQH while your practice chooses
-                      which insurance companies to approach directly.
+                      You want contracts under your own practice without doing
+                      the paperwork and follow-up yourself.
                     </td>
                     <td className="px-4 py-4 align-top text-muted-foreground">
                       You have time to build and maintain the profile yourself.
@@ -510,7 +530,7 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
                 Why use NYPLLC
               </p>
               <h2 className="mt-2 text-2xl font-semibold">
-                CAQH setup that starts with your practice
+                Credentialing that starts with your practice
               </h2>
             </div>
             <ul className="grid gap-4 text-sm leading-6 text-muted-foreground sm:grid-cols-2">
@@ -523,24 +543,24 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
               </li>
               <li className="rounded-lg border p-4">
                 <strong className="block text-foreground">
-                  One correction round is included
+                  We follow up until a decision
                 </strong>
-                We resolve one round of profile errors before you review and
-                attest.
+                We check each insurer every two weeks and send you the
+                effective date when it is set.
               </li>
               <li className="rounded-lg border p-4">
                 <strong className="block text-foreground">
-                  The price is fixed at $499
+                  Flat fees, payment plans available
                 </strong>
                 You do not pay NYPLLC a membership fee or a share of future
                 sessions.
               </li>
               <li className="rounded-lg border p-4">
                 <strong className="block text-foreground">
-                  Your CAQH profile remains yours
+                  Closed panel? You are not stuck paying
                 </strong>
-                You can authorize participating organizations and use it for
-                separate direct payer applications.
+                If an insurer&apos;s panel turns out to be closed, we switch
+                that application or refund that insurer&apos;s share.
               </li>
               <li className="rounded-lg border p-4">
                 <strong className="block text-foreground">
@@ -553,8 +573,8 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
                 <strong className="block text-foreground">
                   The scope is clear
                 </strong>
-                We prepare CAQH. We do not claim that the service enrolls you
-                with an insurance company.
+                Insurers decide on their own, so we never promise acceptance.
+                Billing, claims, and rate negotiation are not included.
               </li>
             </ul>
           </section>
@@ -563,17 +583,16 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
             <div className="rounded-xl border p-6">
               <h2 className="text-xl font-semibold">Use NYPLLC if</h2>
               <p className="mt-3 leading-7 text-muted-foreground">
-                Your professional entity is formed or in progress, your CAQH
-                profile is incomplete, and you want help preparing it for direct
-                payer applications.
+                Your professional entity is formed or in progress and you want
+                to bill insurance under your own practice, or move contracts you
+                already hold into your PLLC.
               </p>
             </div>
             <div className="rounded-xl border p-6">
               <h2 className="text-xl font-semibold">Skip this service if</h2>
               <p className="mt-3 leading-7 text-muted-foreground">
-                Your CAQH profile is already complete and current, or your
-                chosen platform confirms that it will handle the profile and you
-                do not plan to apply directly.
+                You only plan to see clients through Headway or Alma, or you
+                plan to see private-pay clients only.
               </p>
             </div>
           </section>
@@ -592,18 +611,20 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
             <p className="leading-7 text-muted-foreground">
               CAQH itself is free. It stores professional and practice
               information that you can share with authorized organizations. A
-              completed profile does not enroll you with an insurer. Our $499
-              service prepares the profile; payer applications remain separate.
+              completed profile does not enroll you with an insurer; each
+              insurer needs its own application. Our Get in-network service
+              covers both.
             </p>
           </section>
 
           <section className="rounded-xl border bg-primary/5 p-6 sm:p-8">
             <h2 className="text-2xl font-semibold">
-              Want us to set up your CAQH profile?
+              Want help getting in-network?
             </h2>
             <p className="mt-3 max-w-2xl leading-7 text-muted-foreground">
-              Email us your practice name. We will confirm the $499 price and
-              send you the list of information and documents we need.
+              Email us your practice name and which insurers you want. We will
+              ask a few questions, then confirm which service fits and the
+              price.
             </p>
             <Button asChild className="mt-6">
               <a href={contactHref}>Email us to get started</a>

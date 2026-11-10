@@ -24,6 +24,10 @@ const COST_FAQS = [
     answer: `No. The $${PRICE} covers state filing fees (including 24-hour DOS expedite on Articles and Certificate of Publication and a DOS certified copy of your Articles), both newspaper publication runs, and our service fee. Extras like a DBA or virtual address are optional and quoted only if you ask for them.`,
   },
   {
+    question: 'Does the price change depending on my county?',
+    answer: `No. The $${PRICE} includes the full six-week publication for a standard order, with no county surcharge, wherever in New York you live or practice.`,
+  },
+  {
     question: "Do fees ever change after I've paid?",
     answer: `No. Unless you request and approve a specific optional add-on, $${PRICE} is the final price.`,
   },

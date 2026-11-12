@@ -100,10 +100,10 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/headway-alma-vs-own-panels"
+                  href="/ny-pllc-insurance-credentialing"
                   className="text-muted-foreground hover:text-foreground text-sm transition-colors"
                 >
-                  Headway vs Alma vs Own Panels
+                  Insurance Credentialing
                 </Link>
               </li>
               <li>

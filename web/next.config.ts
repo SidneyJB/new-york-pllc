@@ -28,6 +28,17 @@ const nextConfig: NextConfig = {
     },
   },
 
+  // Old credentialing page merged into the PLLC credentialing guide (Nov 11 2026).
+  async redirects() {
+    return [
+      {
+        source: '/headway-alma-vs-own-panels',
+        destination: '/ny-pllc-insurance-credentialing',
+        permanent: true,
+      },
+    ]
+  },
+
   // Keep unpublished MSO pages off the public site until Sid launches.
   async rewrites() {
     if (!process.env.VERCEL) {

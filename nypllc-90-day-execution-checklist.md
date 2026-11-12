@@ -386,10 +386,10 @@ Done when: the PC pilot has a narrow, costed workflow and a real prospect pipeli
 
 Owner: Agent. Review: Sid/Ops. Due: November 13. Required but time-boxed; do not displace billing or partner fulfillment.
 
-- [ ] Choose one resource repeatedly requested in customer or partner conversations, such as a profession-specific administrative checklist or an explanation of filing milestones.
-- [ ] Use verified operational facts. For processing-time observations, report sample size, dates, profession, and whether still-open cases are excluded; do not imply the result is an official statewide guarantee.
-- [ ] Remove identifiable customer details and obtain permission before publishing a named testimonial or case study.
-- [ ] Give the resource a clear next step to the appropriate formation or partner service.
+- [x] Choose one resource repeatedly requested in customer or partner conversations, such as a profession-specific administrative checklist or an explanation of filing milestones. **Nov 11:** [`/ny-pllc-insurance-credentialing`](web/src/app/ny-pllc-insurance-credentialing/page.tsx) live ([draft + sources](docs/drafts/pllc-insurance-credentialing-page-draft-2026-11-11.md)). Topic: insurance credentialing for a new PLLC (29 checkout-box leads, Iris Kimberg, Danielle). Replaces `/headway-alma-vs-own-panels` (301).
+- [x] Use verified operational facts. For processing-time observations, report sample size, dates, profession, and whether still-open cases are excluded; do not imply the result is an official statewide guarantee. **Nov 11:** facts from the credentialing ops manual (CMS, eMedNY, CAQH) and cited sources; no own-case timelines yet (none mature), ranges labeled as typical.
+- [x] Remove identifiable customer details and obtain permission before publishing a named testimonial or case study. **Nov 11:** the page names no customer.
+- [x] Give the resource a clear next step to the appropriate formation or partner service. **Nov 11:** email CTA (quote on reply), price cards, links to `/order` and the LCSW guide.
 - [ ] Ask engaged partners whether they want to share or reference it. Track resulting visits and inquiries.
 - [ ] Run the honest-review request workflow at the chosen milestone. Verify that it reaches real customers once and respects communication preferences.
 - [ ] Review current site claims, prices, links, and service descriptions for consistency with the live offer.

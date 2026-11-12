@@ -377,8 +377,8 @@ Owner: Ops for process; Agent for costing/materials; Sid for scope. Review: coun
 - [ ] Cost actual filing work, document handling, customer support, and any professional review. Choose a test price only after that calculation; $985–$1085 is a hypothesis.
 - [ ] Prepare a manual quote and checkout/invoice process using current tools. Identify who owns the case and who reviews the filing packet.
 - [ ] Ask 3–5 qualified partners whether they have a live suitable PC case. Require a paid order before treating the product as validated.
-- [ ] Audit the existing $195 S-corp add-on: what is filed, which jurisdiction(s) it covers, proof of submission, acceptance follow-up, and handoff to the client's tax adviser.
-- [ ] Correct any gap between the S-corp offer and actual fulfillment. A larger package or higher add-on price remains a separate later test.
+- [x] Audit the existing $195 S-corp add-on: what is filed, which jurisdiction(s) it covers, proof of submission, acceptance follow-up, and handoff to the client's tax adviser. **Nov 11:** [audit](../PLLC-CRM/crm/reports/p2-09-scorp-audit-2026-11-11/README.md). 63 orders: 24 filed with evidence, 24 not yet at EIN, 2 refunded. Gaps: 2 signed but apparently never faxed (Julia Kim, Finn Law), 9 paid but not started or unsigned (5 now past the 75-day window), 3 with weak filing evidence. No fax-delivery proof saved, no acceptance follow-up, no post-filing accountant handoff.
+- [ ] Correct any gap between the S-corp offer and actual fulfillment. **Nov 11:** fixes listed in the audit §4 (client choices, two CRM lints, fax proof, post-fax email, playbook fix); awaiting Sid. A larger package or higher add-on price remains a separate later test.
 
 Done when: the PC pilot has a narrow, costed workflow and a real prospect pipeline; the existing add-on's scope is accurate.
 

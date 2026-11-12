@@ -1,0 +1,123 @@
+{
+  "scenarios": {
+    "downside": {
+      "2027": {
+        "orders_total": 681,
+        "formation_contribution": 370878,
+        "ads": 37800,
+        "vm_revenue_net": 95791,
+        "ra_revenue_net": 26782,
+        "overhead": 17568,
+        "operating_profit": 438086,
+        "after_owner_pay": 308246,
+        "orders_per_month_dec": 58.0,
+        "vm_subs_dec": 200.2
+      },
+      "2028": {
+        "orders_total": 709,
+        "formation_contribution": 384746,
+        "ads": 37800,
+        "vm_revenue_net": 140370,
+        "ra_revenue_net": 50183,
+        "overhead": 17568,
+        "operating_profit": 519934,
+        "after_owner_pay": 390094,
+        "orders_per_month_dec": 60.0,
+        "vm_subs_dec": 268.2
+      }
+    },
+    "target": {
+      "2027": {
+        "orders_total": 937,
+        "formation_contribution": 502459,
+        "ads": 48185,
+        "vm_revenue_net": 117321,
+        "ra_revenue_net": 31394,
+        "overhead": 27568,
+        "operating_profit": 575420,
+        "after_owner_pay": 445580,
+        "orders_per_month_dec": 95.0,
+        "vm_subs_dec": 279.1
+      },
+      "2028": {
+        "orders_total": 1264,
+        "formation_contribution": 667731,
+        "ads": 56775,
+        "vm_revenue_net": 225227,
+        "ra_revenue_net": 64564,
+        "overhead": 77568,
+        "operating_profit": 823180,
+        "after_owner_pay": 693340,
+        "orders_per_month_dec": 114.0,
+        "vm_subs_dec": 473.0
+      }
+    },
+    "strong": {
+      "2027": {
+        "orders_total": 1034,
+        "formation_contribution": 550891,
+        "ads": 50262,
+        "vm_revenue_net": 130047,
+        "ra_revenue_net": 36010,
+        "overhead": 42568,
+        "operating_profit": 624117,
+        "after_owner_pay": 494277,
+        "orders_per_month_dec": 109.0,
+        "vm_subs_dec": 325.1
+      },
+      "2028": {
+        "orders_total": 1496,
+        "formation_contribution": 785385,
+        "ads": 62325,
+        "vm_revenue_net": 276224,
+        "ra_revenue_net": 74959,
+        "overhead": 77568,
+        "operating_profit": 996673,
+        "after_owner_pay": 866833,
+        "orders_per_month_dec": 138.0,
+        "vm_subs_dec": 600.0
+      }
+    }
+  },
+  "sensitivity_target_2028": {
+    "base": 823180,
+    "deltas": [
+      [
+        "Retail contribution per order -$50",
+        -50924
+      ],
+      [
+        "Abandoned-checkout recovery never fixed (F1 = 0)",
+        -50569
+      ],
+      [
+        "Partner orders 2028 end -10/mo (25 -> 15)",
+        -46316
+      ],
+      [
+        "Organic/AI 2028 end -8/mo (36 -> 28)",
+        -44183
+      ],
+      [
+        "Google 2028 end -7/mo (37 -> 30)",
+        -42573
+      ],
+      [
+        "VM attach 27% -> 22%",
+        -30891
+      ],
+      [
+        "Bing stays blocked",
+        -26513
+      ],
+      [
+        "VM churn 2.4% -> 3.0%/mo",
+        -13136
+      ],
+      [
+        "RA first renewal 65% -> 55%",
+        -9933
+      ]
+    ]
+  }
+}

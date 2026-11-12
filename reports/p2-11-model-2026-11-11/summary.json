@@ -10,6 +10,9 @@
         "overhead": 17568,
         "operating_profit": 438086,
         "after_owner_pay": 308246,
+        "cred_jobs": 12,
+        "credentialing_net": 19773,
+        "operating_profit_with_credentialing": 457857,
         "orders_per_month_dec": 58.0,
         "vm_subs_dec": 200.2
       },
@@ -22,6 +25,9 @@
         "overhead": 17568,
         "operating_profit": 519934,
         "after_owner_pay": 390094,
+        "cred_jobs": 12,
+        "credentialing_net": 20650,
+        "operating_profit_with_credentialing": 540580,
         "orders_per_month_dec": 60.0,
         "vm_subs_dec": 268.2
       }
@@ -36,6 +42,9 @@
         "overhead": 27568,
         "operating_profit": 575420,
         "after_owner_pay": 445580,
+        "cred_jobs": 38,
+        "credentialing_net": 60319,
+        "operating_profit_with_credentialing": 635742,
         "orders_per_month_dec": 95.0,
         "vm_subs_dec": 279.1
       },
@@ -48,6 +57,9 @@
         "overhead": 77568,
         "operating_profit": 823180,
         "after_owner_pay": 693340,
+        "cred_jobs": 61,
+        "credentialing_net": 91419,
+        "operating_profit_with_credentialing": 914597,
         "orders_per_month_dec": 114.0,
         "vm_subs_dec": 473.0
       }
@@ -62,6 +74,9 @@
         "overhead": 42568,
         "operating_profit": 624117,
         "after_owner_pay": 494277,
+        "cred_jobs": 52,
+        "credentialing_net": 77222,
+        "operating_profit_with_credentialing": 701341,
         "orders_per_month_dec": 109.0,
         "vm_subs_dec": 325.1
       },
@@ -74,6 +89,9 @@
         "overhead": 77568,
         "operating_profit": 996673,
         "after_owner_pay": 866833,
+        "cred_jobs": 98,
+        "credentialing_net": 136140,
+        "operating_profit_with_credentialing": 1132815,
         "orders_per_month_dec": 138.0,
         "vm_subs_dec": 600.0
       }

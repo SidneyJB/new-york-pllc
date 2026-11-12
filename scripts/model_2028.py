@@ -10,7 +10,8 @@ P2-11 checklist this model follows:
   - VM = opening balance - churn + new paid starts, with a lag from formation
   - RA billed only when a formation reaches its first renewal (12 months), VM clients excluded
   - ads and partner fees deducted once; no labor line (Sid, Nov 9); owner pay shown below operating profit
-  - credentialing, PC, affiliates = $0 in the base; shown only as a labeled upside row
+  - credentialing: its own line, reported both with and without (labeled scenario, not base)
+  - PC, CAQH-only, affiliates = $0
 """
 from __future__ import annotations
 
@@ -76,6 +77,16 @@ A = {
     'staff_cost_month': 5000,       # part-time ops help [I]
     # Owner pay (Gusto, all Sid): below operating profit
     'owner_pay_month': 10820,
+    # Insurance credentialing (launched Nov 3 2026). Shown as its own line, reported with and without.
+    # Avg job: Danielle $2,210 paid, Gabriella $894 invoiced, Nicole + Nick quoted $1,795 (Nov 11) -> ~$1,670 [T]
+    'cred_avg_job': 1670.0,
+    'cred_cash_cost_job': 35.0,          # postage, notary, misc (expansion plan 3.4)
+    'cred_card_fee': 0.03,
+    'cred_sid_jobs_month': 3,            # Sid's capacity before paid help (plan 3.4: hire at ~3+/mo)
+    'cred_labor_per_extra_job': 450.0,   # ~13 h x $35/h coordinator for jobs above Sid's capacity [I]
+    'cred_upkeep_attach': 0.40,          # plan 3.4 (go bar is 30%)
+    'cred_upkeep_month_net': 249 / 12 * 0.97,
+    'cred_upkeep_churn': 0.02,           # [I]
 }
 
 # ---------------------------------------------------------------- scenarios
@@ -92,6 +103,7 @@ SCENARIOS = {
         'vm_churn': 0.03,
         'ra_first_renewal': 0.55,
         'upside_services_month': 0,
+        'cred_jobs': (1, 1, 1),            # roughly today's pace, no hire
     },
     'target': {
         'google': (30, 36, 37),            # F4 +7 central (plan Section 2)
@@ -104,6 +116,7 @@ SCENARIOS = {
         'vm_churn': 0.024,
         'ra_first_renewal': 0.65,          # plan Section 5 target
         'upside_services_month': 0,
+        'cred_jobs': (2, 4, 6),            # 5+ interested now; checkout question + 29-lead email + page
     },
     'strong': {
         'google': (30, 38, 40),
@@ -116,6 +129,7 @@ SCENARIOS = {
         'vm_churn': 0.02,
         'ra_first_renewal': 0.75,
         'upside_services_month': 0,
+        'cred_jobs': (2, 6, 10),           # also sold through partners (accountants, practice consultants)
     },
 }
 
@@ -134,6 +148,7 @@ def run(s: dict) -> list[dict]:
     rows = []
     vm_subs = A['vm_open_active'] + A['vm_open_trialing'] * A['vm_trial_convert']
     metro = A['metro_vm_subs']
+    cred_upkeep = 0.0
     formations_by_month = dict(A['history'])
     vm_starts_due: dict[str, float] = {}
     retail_by_month = {k: v for k, v in A['history'].items()}  # history treated as retail
@@ -184,6 +199,13 @@ def run(s: dict) -> list[dict]:
             ra_payers += nonvm * survive
         ra_rev = ra_payers * A['ra_price_net']
 
+        jobs = path_value(s['cred_jobs'], i)
+        extra = max(0.0, jobs - A['cred_sid_jobs_month'])
+        cred_jobs_net = jobs * (A['cred_avg_job'] * (1 - A['cred_card_fee']) - A['cred_cash_cost_job']) \
+            - extra * A['cred_labor_per_extra_job']
+        cred_upkeep = cred_upkeep * (1 - A['cred_upkeep_churn']) + jobs * A['cred_upkeep_attach']
+        cred_net = cred_jobs_net + cred_upkeep * A['cred_upkeep_month_net']
+
         overhead = A['overhead_month'] + (A['staff_cost_month'] if total > A['staff_threshold_orders'] else 0)
         op = contrib + vm_rev + ra_rev - ads - overhead
         rows.append({
@@ -200,7 +222,10 @@ def run(s: dict) -> list[dict]:
             'operating_profit': round(op),
             'owner_pay': A['owner_pay_month'],
             'after_owner_pay': round(op - A['owner_pay_month']),
-            'upside_services_not_in_base': s['upside_services_month'],
+            'cred_jobs': round(jobs, 1),
+            'cred_upkeep_clients': round(cred_upkeep, 1),
+            'credentialing_net': round(cred_net),
+            'operating_profit_with_credentialing': round(op + cred_net),
         })
     return rows
 
@@ -211,7 +236,8 @@ def year_sum(rows, year, key):
 
 def summarize(rows):
     keys = ['orders_total', 'formation_contribution', 'ads', 'vm_revenue_net', 'ra_revenue_net',
-            'overhead', 'operating_profit', 'after_owner_pay']
+            'overhead', 'operating_profit', 'after_owner_pay', 'cred_jobs', 'credentialing_net',
+            'operating_profit_with_credentialing']
     out = {}
     for y in (2027, 2028):
         out[y] = {k: round(year_sum(rows, y, k)) for k in keys}

@@ -19,13 +19,39 @@ Operating profit is before owner pay and before business taxes, the same definit
 | Overhead (incl. staff help above 90 orders/mo) | −$17.6K | −$77.6K | −$77.6K |
 | **Operating profit** | **$520K** | **$823K** | **$997K** |
 | After Sid's pay ($10.8K/mo) | $390K | $693K | $867K |
+| **Insurance credentialing (own line, below)** | +$20.7K | +$91.4K | +$136.1K |
+| **Operating profit with credentialing** | **$541K** | **$915K** | **$1,133K** |
 | VM subscribers, Dec 2028 | 268 | 473 | 600 |
 
 2027 operating profit: downside $438K, target $575K, strong $624K.
 
 **Check against today:** Apr–Oct 2026 actual operating profit was $423K annualized on cash (P1-03 §3a). The downside 2027 ($438K) is roughly "today, held flat, with recurring revenue still building," so the starting point reconciles.
 
-**Read:** the $1M goal needs the **strong** case: about 138 formations a month by the end of 2028, with 35 a month from partners and a VM book near 600. The target case, which uses the integrated plan's own lever estimates, lands around **$820K**.
+**Read (formations, VM and RA only):** the $1M goal needs the **strong** case: about 138 formations a month by the end of 2028, with 35 a month from partners and a VM book near 600. The target case, which uses the integrated plan's own lever estimates, lands around **$820K**.
+
+## 1a. Insurance credentialing (added Nov 11, after Sid's question)
+
+The first pass left credentialing at $0, following P2-11's rule that unproven lines stay out of the base. It should have been a separate line from the start: there is one paid job, one open invoice, two quotes out at the new price, and at least five clients interested (Sid, Nov 11). It's now modeled as its own line and reported both with and without, so the formation base stays clean.
+
+| Assumption | Value | Source |
+|---|---|---|
+| Average job | $1,670 | Danielle $2,210 paid, Gabriella $894 invoiced, Nicole and Nick quoted $1,795 [T] |
+| Cash cost per job | $35 + 3% card fee | Expansion plan §3.4 |
+| Labor | $0 for the first 3 jobs/month (Sid); about $450/job above that (~13 h at $35/h) | Plan §3.4 hire trigger at ~3+ jobs/month [I] |
+| Upkeep | 40% of jobs add $249/yr; 2%/mo churn | Plan §3.4 [I] |
+| Jobs per month (Nov 2026 → Dec 2027 → Dec 2028) | Downside 1 → 1 → 1 · Target 2 → 4 → 6 · Strong 2 → 6 → 10 | [I] |
+
+| 2028 | Downside | Target | Strong |
+|---|---:|---:|---:|
+| Credentialing jobs (year) | 12 | 61 | 98 |
+| Credentialing net contribution | $20.7K | $91.4K | $136.1K |
+| Operating profit with credentialing | $541K | $915K | $1,133K |
+
+**What it means:**
+- **Credentialing nearly closes the gap in the target case.** $823K becomes about $915K.
+- **Getting the target case to $1M needs about 11 credentialing jobs a month** from late 2027 through 2028, about 130 in the year. At roughly 13 hours a job, that's a full-time coordinator or two part-timers, which the $450/job labor line covers.
+- **Per job, it's worth about three formations.** About $1,590 net while Sid does the work, about $1,140 once it's paid labor, against $546 per formation.
+- **The risk is execution, not demand.** No job has reached an insurer decision yet, and hours per job aren't measured (0 of 41 credentialing events have `minutesSpent`). The go/no-go measures in plan §3.10 (hours ≤ 125% of estimate, submissions within 21 days, first effective date by Jan 8) are what turn these assumptions into evidence.
 
 ## 2. What drives the difference
 
@@ -65,7 +91,7 @@ One-at-a-time changes to the target case (2028 operating profit):
 - **VM:** opening book of 96 active + 80% of 23 trialing; 27% attach; first paid month 2 months after formation; 2.4%/mo churn; $50/mo net of card fee. Partner orders attach at half the rate [I]. Metro VM: 14 subscribers at $23.47 to us.
 - **RA:** $99/yr, first billed 12 months after formation, only for retail formations without VM (VM includes RA). First renewal 65% (plan target), later years 85% [I]. Nov 2025–Mar 2026 formations assumed at 45/mo [U]; Apr–Oct 2026 are actuals.
 - **Overhead:** $1,464/mo (Relay actuals + Spiffy), plus $5K/mo for part-time help once formations pass 90/mo [I].
-- **Not in the base (P2-11 rule):** credentialing, PC formations, CAQH, affiliate income, Compliance Plan upgrades, $985 pricing. Each is upside if it proves out.
+- **Not in the base (P2-11 rule):** PC formations, CAQH-only, affiliate income, Compliance Plan upgrades, $985 pricing. Credentialing is its own line (section 1a), reported with and without.
 
 ## 4. Market size check (time-boxed)
 

@@ -20,7 +20,7 @@ const FAQS = [
   {
     question: 'What do your credentialing services cost?',
     answer:
-      'Foundation is $399: the NPI for your PLLC, an update to your individual NPI, your CAQH profile built or updated, a PLLC W-9, and a check of your practice location. Get in-network is $1,095 and adds applications to three commercial insurers, followed up until each decides; each extra insurer is $225. If you are already in-network in your own name, moving those contracts to your PLLC is $199 plus $99 per insurer. NY Medicaid is $495 and Medicare is $395. Upkeep is $249 a year. Payment plans are available.',
+      'Foundation is $399: the NPI for your PLLC, an update to your individual NPI, your CAQH profile built or updated, a PLLC W-9, and a check of your practice location. Get in-network is $1,795 and adds applications to three commercial insurers, followed up until each decides; each extra insurer is $350. If you are already in-network in your own name, moving those contracts to your PLLC is $199 plus $99 per insurer. NY Medicaid is $495 and Medicare is $395. Upkeep is $249 a year. Payment plans are available.',
   },
   {
     question: 'Does NYPLLC apply to insurance panels for me?',
@@ -177,9 +177,9 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
                 </li>
                 <li>
                   <strong className="text-foreground">
-                    Get in-network, $1,095.
+                    Get in-network, $1,795.
                   </strong>{' '}
-                  Foundation plus 3 insurers, followed up to a decision; $225
+                  Foundation plus 3 insurers, followed up to a decision; $350
                   per extra insurer
                 </li>
                 <li>
@@ -315,7 +315,7 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
                 <p className="text-sm text-muted-foreground">
                   NYPLLC Get in-network
                 </p>
-                <p className="mt-2 text-3xl font-semibold">$1,095</p>
+                <p className="mt-2 text-3xl font-semibold">$1,795</p>
                 <p className="mt-2 text-sm text-muted-foreground">
                   One time, including 3 insurers. Billing is separate.
                 </p>
@@ -387,7 +387,7 @@ export default function HeadwayAlmaVsOwnPanelsPage() {
                       Cost structure
                     </th>
                     <td className="bg-primary/5 px-4 py-4 align-top font-medium">
-                      Flat fee: $399 Foundation, $1,095 with 3 insurers. No
+                      Flat fee: $399 Foundation, $1,795 with 3 insurers. No
                       subscription or per-session fee to NYPLLC.
                     </td>
                     <td className="px-4 py-4 align-top text-muted-foreground">

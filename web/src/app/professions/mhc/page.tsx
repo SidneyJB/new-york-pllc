@@ -252,6 +252,13 @@ export default function MHCPage() {
             <p className="mt-4 text-lg text-muted-foreground">
               A complete, bank-ready formation package designed for credentialing, leasing, and payer enrollment.
             </p>
+            <p className="mt-3 text-base text-muted-foreground">
+              Planning to take insurance under your PLLC? Read our guide to{' '}
+              <Link href="/ny-pllc-insurance-credentialing" className="text-primary underline underline-offset-2">
+                insurance credentialing for a New York PLLC
+              </Link>
+              .
+            </p>
 
             <div className="mt-10 grid gap-6 md:grid-cols-3">
               <Card>

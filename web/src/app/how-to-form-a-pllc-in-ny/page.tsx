@@ -579,6 +579,13 @@ Purpose: Practice of [Profession] and any lawful activities authorized for a PLL
               <li>Using an unfiled trade name on contracts → creates legal and tax complications.</li>
               <li>EIN application gets held up because DOS filing has not fully propagated through state systems yet.</li>
             </ul>
+            <p className="text-base leading-7 text-foreground mb-4">
+              If you are a clinician who plans to bill insurance, the EIN is also what lets your PLLC get its own NPI and start insurer applications. See our{' '}
+              <Link href="/ny-pllc-insurance-credentialing" className="text-primary underline underline-offset-2 font-medium">
+                guide to insurance credentialing for a New York PLLC
+              </Link>
+              .
+            </p>
           </section>
 
           <section className="mb-12">

@@ -163,9 +163,9 @@ Owner: Agent. Content decision: Sid. Fulfillment validation: Ops. Due: October 2
 - [x] Explain the sequence from completed intake to professional approval, DOS filing, and publication. Separate internal turnaround from government waiting time. Evidence: `/order` 5-step timeline (You / Us / State), merged Oct 30 `72858a9`.
 - [ ] Make the next step after payment explicit, including information the customer can supply later if the workflow permits it. **Partial Oct 30:** timeline step 1 covers confirmation and intake follow-up; what can be supplied later isn't stated.
 - [ ] Add a clear route to brief administrative help. Route legal/tax structure decisions to the customer's adviser.
-- [ ] Reconcile formation-count and review-rating claims with records. If a claim includes legacy or sister-company work, label that scope accurately. **Partial Oct 30:** Google reviews updated to 16 (Sid). FAQ payment-plan answer fixed to match checkout. Formation-count copy not re-checked.
+- [x] Reconcile formation-count and review-rating claims with records. If a claim includes legacy or sister-company work, label that scope accurately. **Partial Oct 30:** Google reviews updated to 16 (Sid). FAQ payment-plan answer fixed to match checkout. Formation-count copy re-checked Nov 11: `/about` tenure fixed; Sid confirmed both "thousands" lines (PLLC formations, OP applications) are accurate and stay (Nov 11).
 - [ ] Fix confirmed mobile/payment problems. Use sandbox or test modes where possible; exclude test orders from reporting.
-- [ ] Verify abandonment capture and purchase suppression. **Nov 9 root cause:** the live Spiffy checkout no longer sends an `identify` message or sets `_sp_id` when a buyer types an email (Spiffy debug bus, live test). Our capture listens only for those, so nothing has been captured since Oct 14. The October tests simulated the message. Fix routes for Sid: ask Spiffy support / multi-step email-first / drop F1 ([P1-07 § Root cause](reports/p1-07-buying-journey-2026-11-08.md)). Keep the 1-hour and 24-hour sequence useful and factual; add a 72-hour personal-help touch only if early feedback supports it.
+- [ ] Verify abandonment capture and purchase suppression. **Nov 9 root cause:** the live Spiffy checkout no longer sends an `identify` message or sets `_sp_id` when a buyer types an email (Spiffy debug bus, live test). Our capture listens only for those, so nothing has been captured since Oct 14. The October tests simulated the message. Fix routes for Sid: ask Spiffy support / multi-step email-first / drop F1 ([P1-07 § Root cause](reports/p1-07-buying-journey-2026-11-08.md)). **Nov 11:** support email drafted for Sid to send: [draft](docs/drafts/spiffy-support-abandoned-checkout-2026-11-11.md). Keep the 1-hour and 24-hour sequence useful and factual; add a 72-hour personal-help touch only if early feedback supports it.
 - [ ] Prepare a review request tied to a genuine successful milestone. Ask for an honest review without conditioning it on a positive response.
 - [ ] Record deployment date, affected pages, expected metric, and rollback steps. Avoid a full redesign. **Oct 30 deploy `72858a9`:** `/order` (timeline below checkout), `/faq` (payment plans), review count site-wide. Expected metric: fewer timeline complaints and disputes. Rollback: `git revert -m 1 72858a9`. A price box above the checkout was built and dropped as redundant with the Spiffy embed (Sid). Leave this unchecked until later P1-08 changes are logged too.
 
@@ -275,7 +275,7 @@ Owner: Sid. Support: Agent. Due: ongoing through November 25, with reporting thr
 
 - [ ] Add roughly 40–50 qualified firms to the initial 20–25. Aim for approximately 60–75 distinct firms contacted cumulatively by the period end, with warm and cold activity separated.
 - [ ] Prioritize segments that have demonstrated actual relevant volume. Do not broaden simply because a list is easy to build.
-- [ ] Set a normal-week cadence of approximately 12–15 new firms, adjusted for holidays and actual capacity.
+- [ ] Set a normal-week cadence of approximately 12–15 new firms, adjusted for holidays and actual capacity. **Nov 9:** Wave 5 drafted for Nov 17 (7 wholesale firms + 1 contact form; [draft](../PLLC-CRM/crm/reports/b2b-partner-outreach-wave5-2026-11-17.md)); cumulative would reach 45.
 - [ ] Personalize the reason for contact using the firm's client base or current service. Avoid unsupported claims about its needs.
 - [ ] Continue the one-follow-up rule for unanswered cold outreach. Move interested conversations into a mutually agreed next step instead of an automated cold cadence.
 - [ ] Ask about cases handled, current provider, operational pain, decision maker, who pays, expected volume, and requirements for a first handoff.
@@ -377,8 +377,8 @@ Owner: Ops for process; Agent for costing/materials; Sid for scope. Review: coun
 - [ ] Cost actual filing work, document handling, customer support, and any professional review. Choose a test price only after that calculation; $985–$1085 is a hypothesis.
 - [ ] Prepare a manual quote and checkout/invoice process using current tools. Identify who owns the case and who reviews the filing packet.
 - [ ] Ask 3–5 qualified partners whether they have a live suitable PC case. Require a paid order before treating the product as validated.
-- [ ] Audit the existing $195 S-corp add-on: what is filed, which jurisdiction(s) it covers, proof of submission, acceptance follow-up, and handoff to the client's tax adviser.
-- [ ] Correct any gap between the S-corp offer and actual fulfillment. A larger package or higher add-on price remains a separate later test.
+- [x] Audit the existing $195 S-corp add-on: what is filed, which jurisdiction(s) it covers, proof of submission, acceptance follow-up, and handoff to the client's tax adviser. **Nov 11:** [audit](../PLLC-CRM/crm/reports/p2-09-scorp-audit-2026-11-11/README.md). 63 orders: 24 filed with evidence, 24 not yet at EIN, 2 refunded. Gaps: 2 signed but apparently never faxed (Julia Kim, Finn Law), 9 paid but not started or unsigned (5 now past the 75-day window), 3 with weak filing evidence. No fax-delivery proof saved, no acceptance follow-up, no post-filing accountant handoff.
+- [ ] Correct any gap between the S-corp offer and actual fulfillment. **Nov 11:** fixes listed in the audit §4 (client choices, two CRM lints, fax proof, post-fax email, playbook fix); awaiting Sid. Mailbox search same day: East Coast Foot faxed Aug 6 (resolved); Julia Kim and Finn Law have no fax anywhere; client drafts in the audit folder (`client-drafts.md`), not sent. A larger package or higher add-on price remains a separate later test.
 
 Done when: the PC pilot has a narrow, costed workflow and a real prospect pipeline; the existing add-on's scope is accurate.
 
@@ -386,13 +386,13 @@ Done when: the PC pilot has a narrow, costed workflow and a real prospect pipeli
 
 Owner: Agent. Review: Sid/Ops. Due: November 13. Required but time-boxed; do not displace billing or partner fulfillment.
 
-- [ ] Choose one resource repeatedly requested in customer or partner conversations, such as a profession-specific administrative checklist or an explanation of filing milestones.
-- [ ] Use verified operational facts. For processing-time observations, report sample size, dates, profession, and whether still-open cases are excluded; do not imply the result is an official statewide guarantee.
-- [ ] Remove identifiable customer details and obtain permission before publishing a named testimonial or case study.
-- [ ] Give the resource a clear next step to the appropriate formation or partner service.
+- [x] Choose one resource repeatedly requested in customer or partner conversations, such as a profession-specific administrative checklist or an explanation of filing milestones. **Nov 11:** [`/ny-pllc-insurance-credentialing`](web/src/app/ny-pllc-insurance-credentialing/page.tsx) live ([draft + sources](docs/drafts/pllc-insurance-credentialing-page-draft-2026-11-11.md)). Topic: insurance credentialing for a new PLLC (29 checkout-box leads, Iris Kimberg, Danielle). Replaces `/headway-alma-vs-own-panels` (301).
+- [x] Use verified operational facts. For processing-time observations, report sample size, dates, profession, and whether still-open cases are excluded; do not imply the result is an official statewide guarantee. **Nov 11:** facts from the credentialing ops manual (CMS, eMedNY, CAQH) and cited sources; no own-case timelines yet (none mature), ranges labeled as typical.
+- [x] Remove identifiable customer details and obtain permission before publishing a named testimonial or case study. **Nov 11:** the page names no customer.
+- [x] Give the resource a clear next step to the appropriate formation or partner service. **Nov 11:** email CTA (quote on reply), price cards, links to `/order` and the LCSW guide.
 - [ ] Ask engaged partners whether they want to share or reference it. Track resulting visits and inquiries.
 - [ ] Run the honest-review request workflow at the chosen milestone. Verify that it reaches real customers once and respects communication preferences.
-- [ ] Review current site claims, prices, links, and service descriptions for consistency with the live offer.
+- [x] Review current site claims, prices, links, and service descriptions for consistency with the live offer. **Nov 11 sweep:** no stale credentialing prices left (old page redirected; `d52ba13`, `28ceb67`). Formation price comes from one constant; RA $99/yr, Compliance Plan $249/yr, VM $50/mo and $129 address change agree on every page; Google reviews 5.0 / 16 from one constant. Fixed: `/about` said "25+ years" against "since 2005"; now "20+ years and over 25,000 entities formed". Sid confirmed Nov 11 (keep): two volume lines, "Join thousands of licensed professionals who have successfully formed their PLLC with us" (`components/sections/cta-section.tsx`) and "We've handled thousands of OP applications" (`/how-to-form-a-pllc-in-ny`). The $499 CAQH auto-email stays off in code (`CAQH_EIN_ATTACH_PRODUCT_PAUSED_DEFAULT = true`).
 
 Done when: one useful, accurate asset is available to support selling and real customer proof is accumulating.
 
@@ -400,16 +400,16 @@ Done when: one useful, accurate asset is available to support selling and real c
 
 Owner: Agent. Decision owner: Sid. Due: November 24. Required. Dependency: audited baseline and early test evidence.
 
-- [ ] Build the forecast by month through December 2028, separating product mix from acquisition channel.
-- [ ] Count each formation once under a primary channel. Apply checkout/recovery improvements within that channel's conversion model.
-- [ ] Model VM subscribers as opening balance less churn plus unique paid activations, with an explicit lag from formation to VM start.
-- [ ] Model RA by actual renewal eligibility dates. Formations sold in 2028 do not automatically create year-two RA revenue in 2028.
-- [ ] Remove RA charges included with VM and other bundled products. For Compliance Plan upgrades, model the full replacement price and costs rather than adding an entire plan price on top of an included base.
-- [ ] Deduct advertising, cash referral payments, incremental staffing, and shared overhead exactly once. Show a cash view separately from annual operating profit.
-- [ ] Keep CAQH and unapproved/non-earning affiliate programs at zero in the base case. Put unproven PC/other service volume in an explicitly labeled scenario.
-- [ ] Time-box an official-data market check: count distinct initial NY professional-entity formations/qualifications by type and year; exclude amendments and distinguish active-only data from all filings.
-- [ ] Record missing or inaccessible data and avoid inventing a market-share estimate. A count of existing licensed professionals is not the annual formation market.
-- [ ] Show downside, target, and stronger-performance cases, and identify the two assumptions that drive most of the difference.
+- [ ] Build the forecast by month through December 2028, separating product mix from acquisition channel. **Nov 11:** [first pass](reports/p2-11-model-2026-11-11/README.md) is monthly by channel; product mix only split retail vs partner (PLLC/LLC/foreign not yet). Open.
+- [x] Count each formation once under a primary channel. Apply checkout/recovery improvements within that channel's conversion model. **Nov 11:** [first pass](reports/p2-11-model-2026-11-11/README.md); six channels, each order counted once.
+- [x] Model VM subscribers as opening balance less churn plus unique paid activations, with an explicit lag from formation to VM start. **Nov 11:** [first pass](reports/p2-11-model-2026-11-11/README.md); 96 active + trialing, 2-month lag, 2.4% churn.
+- [x] Model RA by actual renewal eligibility dates. Formations sold in 2028 do not automatically create year-two RA revenue in 2028. **Nov 11:** [first pass](reports/p2-11-model-2026-11-11/README.md); billed at month 12, 24, 36 only.
+- [x] Remove RA charges included with VM and other bundled products. For Compliance Plan upgrades, model the full replacement price and costs rather than adding an entire plan price on top of an included base. **Nov 11:** [first pass](reports/p2-11-model-2026-11-11/README.md); VM clients excluded from RA; Compliance Plan upgrades left at $0.
+- [ ] Deduct advertising, cash referral payments, incremental staffing, and shared overhead exactly once. Show a cash view separately from annual operating profit. **Nov 11:** deducted once in [first pass](reports/p2-11-model-2026-11-11/README.md); cash view not built yet. Open.
+- [x] Keep CAQH and unapproved/non-earning affiliate programs at zero in the base case. Put unproven PC/other service volume in an explicitly labeled scenario. **Nov 11:** [first pass](reports/p2-11-model-2026-11-11/README.md); PC, CAQH-only, affiliates, $985 excluded from the base; credentialing added the same day as its own labeled line (2028: +$91K target, +$136K strong; $915K / $1.13M with it).
+- [x] Time-box an official-data market check: count distinct initial NY professional-entity formations/qualifications by type and year; exclude amendments and distinguish active-only data from all filings. **Nov 11:** [first pass](reports/p2-11-model-2026-11-11/README.md) §4; DOS active-entity data by filing year (active-only floor: 4,626 domestic PLLCs in 2025).
+- [x] Record missing or inaccessible data and avoid inventing a market-share estimate. A count of existing licensed professionals is not the annual formation market. **Nov 11:** [first pass](reports/p2-11-model-2026-11-11/README.md) §4–5.
+- [x] Show downside, target, and stronger-performance cases, and identify the two assumptions that drive most of the difference. **Nov 11:** [first pass](reports/p2-11-model-2026-11-11/README.md); 2028 operating profit $520K / $823K / $997K ($541K / $915K / $1.13M with credentialing). Drivers: new-channel formation volume (partners, organic/AI) and contribution per order with the checkout fix.
 
 Done when: there is a monthly model whose assumptions reconcile to the scorecard and whose unknowns are explicit.
 
@@ -564,7 +564,7 @@ Done when: the Q1 volume plan has a staffing/capacity explanation and a funded r
 
 Owner: Sid. Support: Ops/Agent. Due: January 8. Required prioritization; additional launches conditional.
 
-- [ ] ~~Keep CAQH at zero in the base forecast unless a genuinely different, narrowly defined offer attracts paid pilot commitments.~~ **Superseded Nov 3 2026 (Sid):** full insurance credentialing launches ASAP; first two clients (Green Sparrow, Cove Compass) being sold now. See [decision-log.md](decision-log.md) and the [credentialing plan](../PLLC-CRM/crm/docs/insurance-credentialing-expansion-plan-2026-11.md). Keep it out of the base forecast until paid jobs land; track it as a labeled scenario line.
+- [ ] ~~Keep CAQH at zero in the base forecast unless a genuinely different, narrowly defined offer attracts paid pilot commitments.~~ **Superseded Nov 3 2026 (Sid):** full insurance credentialing launches ASAP; first two clients (Green Sparrow, Cove Compass) being sold now. See [decision-log.md](decision-log.md) and the [credentialing plan](../PLLC-CRM/crm/docs/insurance-credentialing-expansion-plan-2026-11.md). Keep it out of the base forecast until paid jobs land; track it as a labeled scenario line. **Nov 9 DB check:** first paid job landed: Green Sparrow paid **$2,210** on Nov 5 (in-network, 4 insurers + Medicaid + Medicare; engagement at SIGNATURES). Cove Compass: $894 invoice (NPI/CAQH $399 + Medicaid $495, Fidelis) open, re-sent Nov 9.
 - [ ] Review filing-rescue inquiries. If recurring demand exists, define an administrative scope and quote 3–5 cases manually before building a public funnel.
 - [ ] Distinguish document/filing rescue from legal restructuring, a disputed ownership issue, or advice on converting an unsuitable entity. Route the latter to appropriate counsel.
 - [ ] Keep MSO work selective, within the existing reviewed scope, and dependent on suitable clients and counsel. Do not launch a broad campaign because the CRM workflow exists.

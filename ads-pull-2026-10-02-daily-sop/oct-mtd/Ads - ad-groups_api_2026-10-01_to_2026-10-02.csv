@@ -1,0 +1,9 @@
+segments.date,campaign.name,campaign.status,ad_group.id,ad_group.name,ad_group.status,ad_group.type,ad_group.cpc_bid_micros,ad_group.effective_cpc_bid_micros,metrics.impressions,metrics.clicks,metrics.ctr,metrics.average_cpc,metrics.cost_micros,metrics.conversions,metrics.conversions_by_conversion_date,metrics.all_conversions,metrics.cost_per_conversion,metrics.conversions_from_interactions_rate,metrics.absolute_top_impression_percentage,metrics.top_impression_percentage
+2026-10-01,01_Core_Exact_NY,ENABLED,201832405641,Brand,ENABLED,SEARCH_STANDARD,10000,0,14,0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.5,1.0
+2026-10-01,01_Core_Exact_NY,ENABLED,197759908946,Cost-Price,ENABLED,SEARCH_STANDARD,10000,0,3,0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+2026-10-01,02_Professions_NY,ENABLED,196965164343,Nurse-Practitioners,ENABLED,SEARCH_STANDARD,10000,0,1,0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+2026-10-01,03_ForeignQual_US,ENABLED,198691366976,Generic-ForeignQual,ENABLED,SEARCH_STANDARD,10000,0,22,1,0.045454545454545456,1910000.0,1910000,0.0,0.0,0.0,0.0,0.0,0.05555555555555555,0.8888888888888888
+2026-10-01,Sales-Search-1,ENABLED,190466421307,NY PLLC Formation,ENABLED,SEARCH_STANDARD,10000,0,135,11,0.08148148148148149,11353636.363636363,124890000,1.0,1.0,4.992429,124890000.0,0.09090909090909091,0.16494845360824742,0.8556701030927835
+2026-10-02,01_Core_Exact_NY,ENABLED,201832405641,Brand,ENABLED,SEARCH_STANDARD,10000,0,9,1,0.1111111111111111,20800000.0,20800000,0.0,0.0,0.0,0.0,0.0,0.0,0.5714285714285714
+2026-10-02,03_ForeignQual_US,ENABLED,198691366976,Generic-ForeignQual,ENABLED,SEARCH_STANDARD,10000,0,23,0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.125,1.0
+2026-10-02,Sales-Search-1,ENABLED,190466421307,NY PLLC Formation,ENABLED,SEARCH_STANDARD,10000,0,50,0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.16216216216216217,0.8108108108108109

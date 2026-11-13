@@ -1,0 +1,15 @@
+segments.date,segments.device,campaign.name,metrics.impressions,metrics.clicks,metrics.ctr,metrics.average_cpc,metrics.cost_micros,metrics.conversions
+2026-10-01,DESKTOP,01_Core_Exact_NY,5,0,0.0,0.0,0,0.0
+2026-10-01,DESKTOP,02_Professions_NY,1,0,0.0,0.0,0,0.0
+2026-10-01,DESKTOP,03_ForeignQual_US,20,0,0.0,0.0,0,0.0
+2026-10-01,DESKTOP,Sales-Search-1,100,5,0.05,19110000.0,95550000,0.0
+2026-10-01,MOBILE,01_Core_Exact_NY,12,0,0.0,0.0,0,0.0
+2026-10-01,MOBILE,03_ForeignQual_US,2,1,0.5,1910000.0,1910000,0.0
+2026-10-01,MOBILE,Sales-Search-1,34,6,0.17647058823529413,4890000.0,29340000,1.0
+2026-10-01,TABLET,Sales-Search-1,1,0,0.0,0.0,0,0.0
+2026-10-02,DESKTOP,01_Core_Exact_NY,7,1,0.14285714285714285,20800000.0,20800000,0.0
+2026-10-02,DESKTOP,03_ForeignQual_US,19,0,0.0,0.0,0,0.0
+2026-10-02,DESKTOP,Sales-Search-1,37,0,0.0,0.0,0,0.0
+2026-10-02,MOBILE,01_Core_Exact_NY,2,0,0.0,0.0,0,0.0
+2026-10-02,MOBILE,03_ForeignQual_US,4,0,0.0,0.0,0,0.0
+2026-10-02,MOBILE,Sales-Search-1,13,0,0.0,0.0,0,0.0

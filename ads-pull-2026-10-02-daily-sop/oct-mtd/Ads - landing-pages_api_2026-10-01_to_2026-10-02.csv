@@ -1,0 +1,49 @@
+segments.date,campaign.name,campaign.status,ad_group.name,landing_page_view.unexpanded_final_url,metrics.impressions,metrics.clicks,metrics.ctr,metrics.average_cpc,metrics.cost_micros,metrics.conversions
+2026-10-01,01_Core_Exact_NY,ENABLED,Cost-Price,https://www.nypllc.com/foreign-pllc,1,0,0.0,0.0,0,0.0
+2026-10-01,01_Core_Exact_NY,ENABLED,Cost-Price,https://www.nypllc.com/order,3,0,0.0,0.0,0,0.0
+2026-10-01,01_Core_Exact_NY,ENABLED,Cost-Price,https://www.nypllc.com/professions/lcsw,2,0,0.0,0.0,0,0.0
+2026-10-01,01_Core_Exact_NY,ENABLED,Brand,https://www.nypllc.com/contact,3,0,0.0,0.0,0,0.0
+2026-10-01,01_Core_Exact_NY,ENABLED,Brand,https://www.nypllc.com/about,3,0,0.0,0.0,0,0.0
+2026-10-01,01_Core_Exact_NY,ENABLED,Brand,https://www.nypllc.com/foreign-pllc,2,0,0.0,0.0,0,0.0
+2026-10-01,01_Core_Exact_NY,ENABLED,Brand,https://www.nypllc.com/,14,0,0.0,0.0,0,0.0
+2026-10-01,01_Core_Exact_NY,ENABLED,Brand,https://www.nypllc.com/order,1,0,0.0,0.0,0,0.0
+2026-10-01,01_Core_Exact_NY,ENABLED,Brand,https://www.nypllc.com/faq,3,0,0.0,0.0,0,0.0
+2026-10-01,01_Core_Exact_NY,ENABLED,Brand,https://www.nypllc.com/virtual-address-services,1,0,0.0,0.0,0,0.0
+2026-10-01,01_Core_Exact_NY,ENABLED,Brand,https://www.nypllc.com/professions/lcsw,6,0,0.0,0.0,0,0.0
+2026-10-01,02_Professions_NY,ENABLED,Nurse-Practitioners,https://www.nypllc.com/professions/nurse-practitioner,1,0,0.0,0.0,0,0.0
+2026-10-01,03_ForeignQual_US,ENABLED,Generic-ForeignQual,https://www.nypllc.com/contact,4,0,0.0,0.0,0,0.0
+2026-10-01,03_ForeignQual_US,ENABLED,Generic-ForeignQual,https://www.nypllc.com/about,2,0,0.0,0.0,0,0.0
+2026-10-01,03_ForeignQual_US,ENABLED,Generic-ForeignQual,https://www.nypllc.com/foreign-pllc,23,1,0.043478260869565216,1910000.0,1910000,0.0
+2026-10-01,03_ForeignQual_US,ENABLED,Generic-ForeignQual,https://www.nypllc.com/order,3,0,0.0,0.0,0,0.0
+2026-10-01,03_ForeignQual_US,ENABLED,Generic-ForeignQual,https://www.nypllc.com/faq,6,0,0.0,0.0,0,0.0
+2026-10-01,03_ForeignQual_US,ENABLED,Generic-ForeignQual,https://www.nypllc.com/virtual-address-services,4,0,0.0,0.0,0,0.0
+2026-10-01,03_ForeignQual_US,ENABLED,Generic-ForeignQual,https://www.nypllc.com/professions/lcsw,6,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,ENABLED,NY PLLC Formation,https://www.nypllc.com/contact,6,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,ENABLED,NY PLLC Formation,https://www.nypllc.com/about,22,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,ENABLED,NY PLLC Formation,https://www.nypllc.com/foreign-pllc,35,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,ENABLED,NY PLLC Formation,https://www.nypllc.com/order,9,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,ENABLED,NY PLLC Formation,https://www.nypllc.com/faq,30,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,ENABLED,NY PLLC Formation,https://www.nypllc.com,135,11,0.08148148148148149,11353636.363636363,124890000,1.0
+2026-10-01,Sales-Search-1,ENABLED,NY PLLC Formation,https://www.nypllc.com/virtual-address-services,10,0,0.0,0.0,0,0.0
+2026-10-01,Sales-Search-1,ENABLED,NY PLLC Formation,https://www.nypllc.com/professions/lcsw,49,0,0.0,0.0,0,0.0
+2026-10-02,01_Core_Exact_NY,ENABLED,Brand,https://www.nypllc.com/contact,1,0,0.0,0.0,0,0.0
+2026-10-02,01_Core_Exact_NY,ENABLED,Brand,https://www.nypllc.com/about,2,0,0.0,0.0,0,0.0
+2026-10-02,01_Core_Exact_NY,ENABLED,Brand,https://www.nypllc.com/foreign-pllc,1,0,0.0,0.0,0,0.0
+2026-10-02,01_Core_Exact_NY,ENABLED,Brand,https://www.nypllc.com/,9,1,0.1111111111111111,20800000.0,20800000,0.0
+2026-10-02,01_Core_Exact_NY,ENABLED,Brand,https://www.nypllc.com/order,1,0,0.0,0.0,0,0.0
+2026-10-02,01_Core_Exact_NY,ENABLED,Brand,https://www.nypllc.com/faq,2,0,0.0,0.0,0,0.0
+2026-10-02,01_Core_Exact_NY,ENABLED,Brand,https://www.nypllc.com/professions/lcsw,2,0,0.0,0.0,0,0.0
+2026-10-02,03_ForeignQual_US,ENABLED,Generic-ForeignQual,https://www.nypllc.com/contact,2,0,0.0,0.0,0,0.0
+2026-10-02,03_ForeignQual_US,ENABLED,Generic-ForeignQual,https://www.nypllc.com/about,2,0,0.0,0.0,0,0.0
+2026-10-02,03_ForeignQual_US,ENABLED,Generic-ForeignQual,https://www.nypllc.com/foreign-pllc,24,0,0.0,0.0,0,0.0
+2026-10-02,03_ForeignQual_US,ENABLED,Generic-ForeignQual,https://www.nypllc.com/order,8,0,0.0,0.0,0,0.0
+2026-10-02,03_ForeignQual_US,ENABLED,Generic-ForeignQual,https://www.nypllc.com/faq,4,0,0.0,0.0,0,0.0
+2026-10-02,03_ForeignQual_US,ENABLED,Generic-ForeignQual,https://www.nypllc.com/virtual-address-services,2,0,0.0,0.0,0,0.0
+2026-10-02,03_ForeignQual_US,ENABLED,Generic-ForeignQual,https://www.nypllc.com/professions/lcsw,2,0,0.0,0.0,0,0.0
+2026-10-02,Sales-Search-1,ENABLED,NY PLLC Formation,https://www.nypllc.com/about,2,0,0.0,0.0,0,0.0
+2026-10-02,Sales-Search-1,ENABLED,NY PLLC Formation,https://www.nypllc.com/foreign-pllc,7,0,0.0,0.0,0,0.0
+2026-10-02,Sales-Search-1,ENABLED,NY PLLC Formation,https://www.nypllc.com/order,1,0,0.0,0.0,0,0.0
+2026-10-02,Sales-Search-1,ENABLED,NY PLLC Formation,https://www.nypllc.com/faq,6,0,0.0,0.0,0,0.0
+2026-10-02,Sales-Search-1,ENABLED,NY PLLC Formation,https://www.nypllc.com,50,0,0.0,0.0,0,0.0
+2026-10-02,Sales-Search-1,ENABLED,NY PLLC Formation,https://www.nypllc.com/virtual-address-services,1,0,0.0,0.0,0,0.0
+2026-10-02,Sales-Search-1,ENABLED,NY PLLC Formation,https://www.nypllc.com/professions/lcsw,16,0,0.0,0.0,0,0.0

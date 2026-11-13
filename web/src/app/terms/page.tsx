@@ -141,15 +141,20 @@ export default function TermsPage() {
                       listed as your registered agent with the New York Department of State.
                     </p>
                     <p className="text-muted-foreground mb-2">
-                      To end service you must change the registered agent on file
+                      To end service, stopping renewal ends billing at the current period end. NYPLLC
+                      remains your registered agent of record until you change the registered agent on file
                       with NY DOS by either (1) filing a Certificate of Change yourself, or (2) paying
-                      a one-time <strong>$99 all-in</strong> fee for us to file it. Billing stops only
-                      after DOS no longer lists us. Step-by-step instructions are linked from your
+                      a one-time <strong>$99 all-in</strong> fee for us to file it. Step-by-step instructions are linked from your
                       renewal email (or email{' '}
                       <a className="text-primary underline" href="mailto:contact@nypllc.com">
                         contact@nypllc.com
                       </a>
                       ).
+                    </p>
+                    <p className="text-muted-foreground mb-2">
+                      Beginning 60 days after your paid service period ends, if no change has been filed,
+                      we may file a resignation of registered agent with the DOS and notify you by email.
+                      After that, service of process will be delivered to the DOS as the state's default agent.
                     </p>
                     <p className="text-sm text-muted-foreground">
                       Virtual mail customers who need an address change use the separate $129 Certificate of Change

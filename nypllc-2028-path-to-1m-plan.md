@@ -146,3 +146,26 @@ Not needed yet: Sid has headroom above his current 20–25 hours. Plan a part-ti
 3. Coordinator trigger: ~5 jobs a month for two months, or your week nearing 40 hours (your limit, confirmed Nov 13).
 4. Part-time ops hire: when your week nears that ceiling, not on a fixed date.
 5. Reopen the $985 test for February?
+
+---
+
+## 8. Context for a deeper review
+
+For an agent or advisor asked how to make the goal real. Read in this order:
+
+| What | Where |
+|---|---|
+| This plan | You're reading it |
+| Model, assumptions with sources, scenario runs | [P2-11 README](reports/p2-11-model-2026-11-11/README.md) (§1a credentialing, §1b partners, §1c organic and competitors) · [`scripts/model_2028.py`](scripts/model_2028.py) (`SCENARIOS`; override fields in memory to test cases) |
+| Decisions and supersessions | [decision-log.md](decision-log.md) |
+| Execution status through Jan 13 2027 | [90-day checklist](nypllc-90-day-execution-checklist.md) · [task board](ops/90-day-task-board.md) · weekly [scorecards](scorecards/) |
+| Strategy, hurdle, lever playbooks | [integrated operating plan v3](nypllc-integrated-operating-plan.md) · [Google Ads plan](nypllc-google-ads-operating-plan.md) · [SEO plan](nypllc-seo-content-moat-plan.md) · [revenue levers](nypllc-revenue-levers-plan.md) |
+| Credentialing (the line $1M depends on) | [credentialing expansion plan](../PLLC-CRM/crm/docs/insurance-credentialing-expansion-plan-2026-11.md) (tiers, hours §3.4, go/no-go §3.10) · [standalone business](../PLLC-CRM/memory-bank/features/credentialing-standalone-business.md) · [ops manual](../PLLC-CRM/crm/docs/credentialing/README.md) · [checkbox-lead follow-ups](../PLLC-CRM/crm/docs/insurance-credentialing-checkbox-followup-draft-2026-11.md) |
+| Draft packages | [P2-05 VM attach](reports/p2-05-vm-attach-2026-11-13/README.md) · [P2-06 VM migration](reports/p2-06-vm-migration-2026-11-13/README.md) · [P2-09 PC pilot](reports/p2-09-pc-pilot-2026-11-13/README.md) · [P1-07 buying journey](reports/p1-07-buying-journey-2026-11-08.md) · [$985 test design](docs/price-test-985.md) |
+| Live data (read-only) | From `PLLC-CRM/crm`: `npm run recurring-cohort`, `npm run source-survey`, `npx tsx scripts/orders-attribution.ts --monthly`, `scripts/weekly-scorecard-export.ts`, `scripts/baseline-financial-export.ts`, `scripts/credentialing-status.ts` |
+| Owner cash, pay and taxes (whether hires are affordable) | `financial-planner` repo memory bank ([router](../financial-planner/memory-bank/router.md)) |
+
+**Known gaps (Nov 13 2026):**
+- **Lost evidence files.** These lived in the gitignored `PLLC-CRM/crm/reports/` and were lost in a folder move: P1-03 unit economics (`p1-03-2026-11-08`, the source of $514 per retail order and $423K annualized operating profit), the P1-03 Oct 21 cost trace, P1-05 VM economics (`p1-05-2026-11-08`), the Nov 8 scorecard extraction and the Nov 9 billing scan. The headline figures survive in committed docs (this plan, P2-11, the decision log, the scorecards), but the workings don't. Rebuild them from the scripts above before relying on the detail.
+- **Unmeasured:** credentialing hours per job (0 of 41 events had minutes on Nov 8), credentialing ad cost per client, the RA first-renewal rate (first window closes Nov 22), and the source-survey "tried another service first" share (live Nov 13, no answers yet).
+- **SEO** hasn't been measured since the Aug 4 rank-tracker baseline.

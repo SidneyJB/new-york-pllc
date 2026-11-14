@@ -1,5 +1,11 @@
 # Active Context
 
+> **📌 NOV 13 (Sid + agent):**
+> - **Reality checks:** partners are the biggest *volume* gap but only ~$64K of 2028 profit; organic is flat (non-Google ~30–37/mo since Jul); without either, formations + VM + RA top out ~$700–800K, so $1M rests on retail + VM + **credentialing (~15 jobs/mo)**. [P2-11 §1b/§1c](../reports/p2-11-model-2026-11-11/README.md).
+> - **Decisions ([decision log](../decision-log.md)):** no new cold partner waves; never contact credentialing firms (competitors); Tue/Thu blocks → credentialing sales from Nov 17; PC pilot shelved (manual quotes only); VM checkout copy needs no billing disclosure.
+> - **Done:** Spiffy support email sent (abandoned checkout); Wave 4 follow-up to 3 non-credentialing firms; Headway news on `/ny-pllc-insurance-credentialing`; post-payment "How did you find us?" survey live (CRM `fc0818a1`, site `694ccd6`); credentialing first email to 7 medical leads; Nov 18 nudge to 7 behavioral-health non-repliers scheduled (task `credentialing-nudge-nov18`); P2-05/06/07/09 drafts ([reports/](../reports/)); weekly recurring report (`npm run recurring-cohort`).
+> - **Waiting on Sid:** P2-05 decisions (OP email rewrite, attach window, site accuracy fixes S1–S6), P2-06 decisions (fee $129, Tier 1 emails from Dec 1), Google `01` appeals before the Nov 15 freeze.
+
 > **📌 NOV 8 EVIDENCE PASS (overdue items):**
 > - **Scorecards:** [Nov 1](../scorecards/2026-11-01-weekly.md) and [Nov 8](../scorecards/2026-11-08-weekly.md).
 > - **Nov 1 memo final:** hold $105; neither trigger fired.

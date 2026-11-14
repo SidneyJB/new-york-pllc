@@ -17,7 +17,7 @@ Detail and system access: [p1-01-ownership.md](p1-01-ownership.md).
 Recorded October 20, 2026. These holds are the working calendar.
 
 - **Credentialing sales (from Nov 17, Sid, Nov 13):** Tuesday 10:00–12:00 and Thursday 10:00–12:00 (Sid). Was the partner-sales block. Partner work is now only replies to existing threads, handled same business day. History: **Partner sales:** Tuesday 10:00–12:00 and Thursday 10:00–12:00 (Sid). Oct 22 block: zero replies to the Oct 19 sends, so no conversations. Next touch Oct 26.
-- **Scorecard:** Monday 9:00–9:30 (Sid + Agent). Next: October 27.
+- **Scorecard:** Monday 9:00–9:30 (Sid + Agent). From Nov 16 the agent runs `recurring-cohort` and `source-survey`; Sid exports 7 days of Vercel visitors. Next: October 27.
 - **Billing scan:** first 15 minutes of each working day (Ops). From `PLLC-CRM/crm`: `npm run billing-scan`. Writes `crm/reports/billing-scan-YYYY-MM-DD/README.md`. Last run October 22: [billing scan](../../PLLC-CRM/crm/reports/billing-scan-2026-10-22/README.md).
 
 ## Package status
@@ -48,5 +48,7 @@ Run from `PLLC-CRM/crm` with production `DATABASE_URL`:
 - `npx tsx scripts/ra-renewal-card-check.ts`
 - `npx tsx scripts/p1-04-preflight-export.ts` (P1-04 evidence → `reports/p1-04-YYYY-MM-DD/`)
 - `npx tsx scripts/orders-attribution.ts` (attribution rollup; extend for cash linkage per P1-02)
+- `npm run recurring-cohort` (P2-07 weekly VM / RA / Compliance Plan cohort report → `reports/recurring-cohort-YYYY-MM-DD/`; paste section 8 into the scorecard)
+- `npm run source-survey -- --since YYYY-MM-DD` (post-payment "how did you find us" counts, live Nov 13)
 
 **Analytics (manual):** [funnel-device-report.md](../docs/funnel-device-report.md)

@@ -90,6 +90,33 @@ Orders per month by Dec 2028 in the target case: 89 with no partners, 114 at the
 
 Reproduce: from `scripts/`, import `model_2028`, copy `SCENARIOS['target']` or `SCENARIOS['strong']`, set `partner` and `cred_jobs`, and print `summarize(run(case))[2028]`.
 
+## 1c. Organic and competitor reality check (added Nov 13, after Sid's questions)
+
+Findings, not decisions. Same method as §1b: the model script is unchanged and runs override `organic_ai_other`, `partner` and `cred_jobs` in memory.
+
+**Organic is flat, not growing.** Non-Google orders (UTM + untagged, CRM attribution): Jul 37, Aug 33, Sep 32, Oct 30 (Nov 1–8: 12). Some of the decline is better Google tagging, so the true non-paid figure is flat at best. The target case assumes organic/AI grows from 25 to 36 a month by Dec 2028 (+20%/yr) and the strong case to 42. Nothing measured supports that yet. The 20-term rank tracker has only its Aug 4 baseline (every later column empty). ChatGPT is the one growing source: 14 tagged orders since July, 3 in the Nov 2–8 week.
+
+2028 operating profit before owner pay:
+
+| Scenario | Orders/mo Dec 2028 | Formations + VM + RA | + credentialing |
+|---|---:|---:|---:|
+| Target, as written | 114 | $823K | $915K |
+| Target, organic flat at 25 | 103 | $758K | $850K |
+| Target, organic flat, no partners | 78 | $695K | $786K |
+| Same, credentialing 2 → 8 → 12 jobs/mo | 78 | $695K | $860K |
+| Strong retail, organic flat, no partners, 12 jobs/mo | 86 | $774K | $940K |
+| Same, Google pushed to 55/mo by Dec 2028 | 101 | $805K | $971K |
+
+**What it means:** without partners or organic growth, formations + VM + RA top out around $700–800K. Extra Google volume adds little, because ads cost and the ~90 orders/month staff-help step absorb most of it. $1M then needs credentialing at roughly 15–16 jobs a month (each extra monthly job ≈ $14K/yr at paid labor), and credentialing is the least proven line.
+
+**Competitors (checked Nov 13; web search, not Google SERP):**
+- Google Ads auction insights (Sales, Jun 8–Sep 5): LegalZoom 42% impression share with **62% overlap** with us, above us 66% of the time; Northwest 29% / 42%; newyorkregisteredagent.com 25% / 49%; ZenBusiness 21% / 12%; us 14%. We compete with them **for the click**.
+- **For the sale, mostly not.** ZenBusiness says it doesn't form PLLCs. LegalZoom sells PLLC formation by phone only ($129 + state fee, per a ZenBusiness review; no LegalZoom NY PLLC page found). Northwest's PLLC page doesn't confirm NY. The firms that actually sell NY PLLC formation are local: Scott Thomas Esq. (profession-priced, publication extra), Lawyer for Business ($3,295 / $3,595 NYC) and us ($885 all-in).
+- **Organic results on head terms** were law-firm blogs and guide sites (UpCounsel, Nolo, Scott Thomas, Lawyer for Business, Freelancers Union, ZenBusiness and Northwest guides), not LegalZoom. Our Clutch profile ranked near the top on 2 of 3 terms; nypllc.com wasn't in the top ~16 on any. The SEO plan's "competing with LegalZoom and Northwest" is right for paid, wrong for organic.
+- **Sid's bounce-back hypothesis** (LegalZoom clickers can't buy there and come back to us) is plausible but not "almost all": winning more auctions after the Aug 4 fix raised orders (Google 10 → 38/mo Jul–Oct), the cannibalization study found paid adds ~6–14 orders/mo, and non-Google orders are flat. The post-payment survey (live Nov 13) measures it directly.
+
+**To make organic credible:** a monthly Search Console export into the rank tracker; ChatGPT orders as their own scorecard line; set organic flat in the model at the Mar 31 gate if non-Google orders are still around 30/month.
+
 ## 2. What drives the difference
 
 Downside to strong is $477K in 2028:

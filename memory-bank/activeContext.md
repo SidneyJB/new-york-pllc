@@ -1,5 +1,11 @@
 # Active Context
 
+> **📌 NOV 14 (pressure test of the 2028 plan; Sid's decisions late Nov 13):**
+> - **Working target is now $800K in 2028 at high odds; $1M is the stretch** ([decision log](../decision-log.md), six rows dated Nov 13). Also decided: no price by profession, no ops help now, PCs stay shelved, Sid delivers credentialing (no contractor yet), acquisition looked at lightly.
+> - **Evidence:** [reports/evidence/2028-pressure-test-2026-11-13/](../reports/evidence/2028-pressure-test-2026-11-13/README.md): CRM aggregates, NY open data, model checks and an odds simulation, each with its re-run command.
+> - **Proposed checklist re-cut for the Day-45 review, not yet approved:** [ops/p2-12-day45-recut-proposal-2026-11-14.md](../ops/p2-12-day45-recut-proposal-2026-11-14.md). The live checklist and the outlook doc are unchanged. The proposal's §7 lists the outlook figures the pressure test contradicts.
+> - **Odds on those decisions (simulation):** $800K is 77% with every item done and 45% when each item is 65% likely to get done. Two open calls would move it: fee changes, and $985 for everyone.
+
 > **📌 NOV 13 (Sid + agent):**
 > - **Plan: [2028 outlook and path to $1M](../nypllc-2028-path-to-1m-plan.md).** Realistic 2028 is ~$650K; $1M (~1-in-6 now) needs credentialing at 12–15 jobs/mo, $985, and paid help. **Sid works ~20–25 h/week now, with headroom**, so he can carry credentialing to ~5–7 jobs/month before a coordinator.
 > - **Reality checks:** partners are the biggest *volume* gap but only ~$64K of 2028 profit; organic is flat (non-Google ~30–37/mo since Jul); without either, formations + VM + RA top out ~$700–800K, so $1M rests on retail + VM + **credentialing (~15 jobs/mo)**. [P2-11 §1b/§1c](../reports/p2-11-model-2026-11-11/README.md).

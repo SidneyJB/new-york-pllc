@@ -1,0 +1,37 @@
+NY open data counts, pulled 2026-11-14T05:05:27Z
+
+1. Filed Nov 1 2025 - Oct 31 2026, still active
+   Domestic PLLCs     5077
+   Domestic PCs       1575
+   Foreign PLLCs       171
+   Foreign PCs         204
+   Domestic PLLCs by month: 2025-11 359, 2025-12 440, 2026-01 376, 2026-02 448, 2026-03 518, 2026-04 490, 2026-05 427, 2026-06 435, 2026-07 317, 2026-08 331, 2026-09 481, 2026-10 455
+   Domestic PLLCs by county: Albany 635, New York 625, Nassau 493, Rockland 477, Kings 431, Westchester 400, Suffolk 337, Erie 297, Queens 297, Monroe 150
+   Domestic PCs by county:   New York 295, Nassau 271, Queens 219, Kings 219, Suffolk 181, Westchester 74, Richmond 44, Rockland 40, Bronx 37, Albany 34
+
+2. Who is named for service of process on those PLLCs (top 12)
+     211  THE PLLC
+     150  REGISTERED AGENTS INC.
+      70  C/O MJ MORLEY LAW, P.C.
+      68  LEGALINC CORPORATE SERVICES INC.
+      66  NORTHWEST REGISTERED AGENT LLC
+      31  THOMAS LAW FIRM PLLC
+      24  C/O THE LLC
+      21  USACORP INC
+      17  C/O THE PLLC
+      14  C/O ACCUMERA LLC
+       8  C T CORPORATION SYSTEM
+       8  BUSINESS FILINGS INCORPORATED
+   At 1 Blue Hill Plaza (our mail clients): 78
+
+3. Behavioral-health names
+   Domestic PLLCs filed in the 12 months: 1664
+     of those in Rockland County or at Blue Hill Plaza (roughly ours): 158
+   Active domestic PLLCs, all years: 10875
+   Active domestic PCs, all years:   3696
+   Domestic PLLCs by filing year: 2016 295, 2017 313, 2018 299, 2019 521, 2020 546, 2021 859, 2022 943, 2023 1273, 2024 1332, 2025 1484, 2026 1451
+
+4. Size of the installed base
+   Active domestic PLLCs, all years: 54367
+   Active domestic PCs, all years:   60309
+   Domestic PCs filed in the 12 months with medical or dental names: 452

@@ -1,0 +1,61 @@
+1. The plan's own cases, as the model computes them
+Target case as written                                         F+VM+RA   823K  cred   91K  total   915K  orders 1264  orders/mo Dec 114  mail subs Dec 473
+Plan realistic case (plan says $587K / $663K)                  F+VM+RA   587K  cred   84K  total   671K  orders  769  orders/mo Dec 65  mail subs Dec 331
+     formation_contribution   2028  420.4K   2027  391.1K
+     vm_revenue_net           2028  168.3K   2027  104.8K
+     ra_revenue_net           2028   60.2K   2027   31.5K
+     ads                      2028   44.2K   2027   40.9K
+     overhead                 2028   17.6K   2027   17.6K
+     model's own Nov 2026 month: orders 55.0, operating profit $33,191 (x12 = $398,292)
+
+2. Measured corrections
+Realistic + actual Nov 2025-Mar 2026 orders (180, not 225)     F+VM+RA   586K  cred   84K  total   669K  orders  769  orders/mo Dec 65  mail subs Dec 331
+  + RA first renewal 50% (4 of 9 paid so far)                  F+VM+RA   572K  cred   84K  total   656K  orders  769  orders/mo Dec 65  mail subs Dec 331
+  + mail churn at the measured net 1.7%                        F+VM+RA   592K  cred   84K  total   676K  orders  769  orders/mo Dec 65  mail subs Dec 378
+Flat at 55 orders a month, no fixes, 1 credentialing job       F+VM+RA   505K  cred   21K  total   526K  orders  660  orders/mo Dec 55  mail subs Dec 301
+Central case used in the pressure test (credentialing ~3/mo)   F+VM+RA   572K  cred   61K  total   633K  orders  769  orders/mo Dec 65  mail subs Dec 331
+
+3. Credentialing paths on the realistic base (jobs/month now, Dec 2027, Dec 2028). No acquisition cost in the model.
+     (2, 4, 5)      jobs in 2028   54   credentialing net   83.8K   total   656K
+     (2, 6, 8)      jobs in 2028   85   credentialing net  120.9K   total   693K
+     (2, 8, 12)     jobs in 2028  122   credentialing net  165.6K   total   738K
+     (2, 10, 15)    jobs in 2028  153   credentialing net  202.8K   total   775K
+     (2, 12, 12)    jobs in 2028  144   credentialing net  194.2K   total   766K
+     (2, 15, 15)    jobs in 2028  180   credentialing net  238.5K   total   811K
+
+4. Every lever in the plan's section 3 at full value (its "about $950K-1M")
+     cred (2, 8, 12)  price +$0   orders x1.00: total   839K, less the $27K ops hire =   812K
+     cred (2, 8, 12)  price +$97  orders x1.00: total   925K, less the $27K ops hire =   898K
+     cred (2, 8, 12)  price +$97  orders x0.95: total   893K, less the $27K ops hire =   866K
+     cred (2, 8, 12)  price +$97  orders x0.90: total   861K, less the $27K ops hire =   834K
+     cred (2, 10, 15) price +$0   orders x1.00: total   876K, less the $27K ops hire =   849K
+     cred (2, 10, 15) price +$97  orders x1.00: total   962K, less the $27K ops hire =   935K
+     cred (2, 10, 15) price +$97  orders x0.95: total   930K, less the $27K ops hire =   903K
+     cred (2, 10, 15) price +$97  orders x0.90: total   898K, less the $27K ops hire =   871K
+
+5. One price for everyone on the realistic base: change in 2028 profit by share of orders kept
+     orders x1.00   $985:   +75K   $1085:  +149K   $1185:  +224K   $1285:  +298K   $1485:  +448K
+     orders x0.97   $985:   +58K   $1085:  +131K   $1185:  +203K   $1285:  +275K   $1485:  +421K
+     orders x0.95   $985:   +48K   $1085:  +118K   $1185:  +189K   $1285:  +260K   $1485:  +403K
+     orders x0.92   $985:   +31K   $1085:  +100K   $1185:  +169K   $1285:  +237K   $1485:  +375K
+     orders x0.90   $985:   +21K   $1085:   +88K   $1185:  +155K   $1285:  +222K   $1485:  +357K
+     orders x0.88   $985:   +10K   $1085:   +75K   $1185:  +141K   $1285:  +206K   $1485:  +338K
+     orders x0.85   $985:    -7K   $1085:   +56K   $1185:  +120K   $1285:  +183K   $1485:  +311K
+     orders x0.80   $985:   -35K   $1085:   +25K   $1185:   +84K   $1285:  +144K   $1485:  +264K
+     orders x0.70   $985:   -91K   $1085:   -39K   $1185:   +14K   $1285:   +66K   $1485:  +171K
+
+6. Lifetime value of one order, and how many orders a price step can lose before lifetime value falls
+     low  formation $547 + mail $476 + RA $233 = $1,256 undiscounted. Break-even order loss -> $985: 7%  $1085: 13%  $1185: 19%  $1285: 24%  $1485: 32%
+     mid  formation $547 + mail $584 + RA $280 = $1,411 undiscounted. Break-even order loss -> $985: 6%  $1085: 12%  $1185: 17%  $1285: 22%  $1485: 29%
+     high formation $547 + mail $756 + RA $303 = $1,606 undiscounted. Break-even order loss -> $985: 6%  $1085: 11%  $1185: 15%  $1285: 19%  $1485: 27%
+     one-year view ($732 per lost order, price-test-985.md): $985: 12%  $1085: 21%  $1185: 28%  $1285: 35%  $1485: 44%
+
+7. On-track path for the program adopted Nov 13 (price held at $885), every input at its expected value from odds_sim_2028.py
+     2026-11  orders/mo  55.0  mail subs   112  RA renewals paid/mo  11.8  formations+mail+RA profit/mo $32,308
+     2027-03  orders/mo  59.0  mail subs   148  RA renewals paid/mo  19.2  formations+mail+RA profit/mo $36,674
+     2027-06  orders/mo  62.1  mail subs   186  RA renewals paid/mo  23.2  formations+mail+RA profit/mo $40,345
+     2027-09  orders/mo  65.1  mail subs   224  RA renewals paid/mo  25.1  formations+mail+RA profit/mo $43,827
+     2027-12  orders/mo  68.1  mail subs   262  RA renewals paid/mo  40.8  formations+mail+RA profit/mo $48,623
+     2028-06  orders/mo  70.0  mail subs   336  RA renewals paid/mo  50.1  formations+mail+RA profit/mo $53,981
+     2028-12  orders/mo  71.8  mail subs   404  RA renewals paid/mo  68.0  formations+mail+RA profit/mo $59,880
+     2028 formations + mail + RA: $655,173. Credentialing, Metro and the product items sit outside the model; the simulation's median for the whole program is about $848K.

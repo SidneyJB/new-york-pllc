@@ -1,0 +1,47 @@
+2028 odds simulation. Dollars in $K. Inputs and tags are in the script; limits are in README.md section 6.
+6000 draws per row, seed 20261113.
+
+== Reference points
+Do nothing new                                             2028 P10  594  P50  645  P90  696 | >=800K   0%  >=900K   0%  >=1M   0% | 2029 P50  737  >=1M   0% | orders  778  mail subs 366
+Nov 13 plan ($985 for all, Sid delivers credentialing, ads) 2028 P10  673  P50  745  P90  816 | >=800K  16%  >=900K   0%  >=1M   0% | 2029 P50  856  >=1M   3% | orders  759  mail subs 376
+
+== After Sid's Nov 13 decisions (price held at $885)
+Adopted program, everything done                           2028 P10  766  P50  848  P90  942 | >=800K  77%  >=900K  23%  >=1M   2% | 2029 P50  994  >=1M  47% | orders  843  mail subs 402
+Adopted program, each item 65% likely to get done          2028 P10  697  P50  789  P90  895 | >=800K  45%  >=900K   9%  >=1M   1% | 2029 P50  918  >=1M  22% | orders  818  mail subs 390
+Adopted program, each item 50% likely                      2028 P10  673  P50  760  P90  861 | >=800K  29%  >=900K   4%  >=1M   0% | 2029 P50  883  >=1M  14% | orders  808  mail subs 382
+... without the letters to public lists                    2028 P10  714  P50  786  P90  859 | >=800K  40%  >=900K   2%  >=1M   0% | 2029 P50  917  >=1M  14% | orders  845  mail subs 404
+... without Metro                                          2028 P10  750  P50  828  P90  916 | >=800K  67%  >=900K  15%  >=1M   1% | 2029 P50  968  >=1M  36% | orders  845  mail subs 403
+... without the product items                              2028 P10  736  P50  820  P90  911 | >=800K  62%  >=900K  13%  >=1M   1% | 2029 P50  960  >=1M  33% | orders  843  mail subs 402
+... without the stuck fixes                                2028 P10  727  P50  805  P90  895 | >=800K  53%  >=900K   9%  >=1M   0% | 2029 P50  937  >=1M  23% | orders  802  mail subs 372
+... without the bid step                                   2028 P10  755  P50  836  P90  927 | >=800K  71%  >=900K  18%  >=1M   1% | 2029 P50  973  >=1M  38% | orders  820  mail subs 396
+
+== Still-open options on top of the adopted program (everything done)
++ fee changes (RA $129 with biennial, $60 mail, higher tier) 2028 P10  789  P50  873  P90  969 | >=800K  87%  >=900K  36%  >=1M   5% | 2029 P50 1020  >=1M  59% | orders  842  mail subs 402
++ $985 for everyone (the Feb test still on file)           2028 P10  796  P50  885  P90  980 | >=800K  89%  >=900K  42%  >=1M   7% | 2029 P50 1021  >=1M  58% | orders  780  mail subs 381
++ $985 for everyone, if the barrier worry is right         2028 P10  765  P50  858  P90  954 | >=800K  78%  >=900K  28%  >=1M   3% | 2029 P50  985  >=1M  44% | orders  742  mail subs 368
++ fee changes and $985 for everyone                        2028 P10  820  P50  908  P90 1010 | >=800K  94%  >=900K  55%  >=1M  12% | 2029 P50 1047  >=1M  70% | orders  780  mail subs 381
++ a light acquisition look (15% chance of closing $150-300K) 2028 P10  772  P50  862  P90  977 | >=800K  80%  >=900K  32%  >=1M   7% | 2029 P50 1007  >=1M  53% | orders  843  mail subs 402
+
+== How the 95% quoted in chat on Nov 13 becomes the 77% above (everything done)
+1 Chat program, $885 therapists+NPs / $1,285 others        2028 P10  830  P50  945  P90 1059 | >=800K  95%  >=900K  68%  >=1M  27% | 2029 P50 1082  >=1M  77% | orders  765  mail subs 381
+2 Price held at $885 (price by profession declined)        2028 P10  745  P50  841  P90  939 | >=800K  69%  >=900K  22%  >=1M   2% | 2029 P50  986  >=1M  45% | orders  843  mail subs 402
+3 PCs removed (estimate revised; they stay shelved)        2028 P10  728  P50  809  P90  904 | >=800K  56%  >=900K  11%  >=1M   1% | 2029 P50  953  >=1M  31% | orders  842  mail subs 402
+4 Mail outreach to existing PLLCs removed                  2028 P10  722  P50  803  P90  895 | >=800K  52%  >=900K   9%  >=1M   1% | 2029 P50  944  >=1M  27% | orders  842  mail subs 402
+5 Fee changes no longer assumed (still an open call)       2028 P10  700  P50  778  P90  868 | >=800K  37%  >=900K   4%  >=1M   0% | 2029 P50  919  >=1M  18% | orders  843  mail subs 402
+6 No ops hire (decision)                                   2028 P10  733  P50  811  P90  901 | >=800K  58%  >=900K  10%  >=1M   0% | 2029 P50  952  >=1M  29% | orders  843  mail subs 402
+7 Sid delivers credentialing (decision) = adopted program  2028 P10  766  P50  848  P90  942 | >=800K  77%  >=900K  23%  >=1M   2% | 2029 P50  994  >=1M  47% | orders  843  mail subs 402
+
+== The same three points with each item 65% likely to get done
+1 Chat program, price by profession                        2028 P10  755  P50  872  P90  993 | >=800K  78%  >=900K  38%  >=1M   9% | 2029 P50  994  >=1M  48% | orders  744  mail subs 369
+2 Chat program, price held at $885                         2028 P10  677  P50  770  P90  875 | >=800K  35%  >=900K   6%  >=1M   0% | 2029 P50  901  >=1M  18% | orders  818  mail subs 389
+7 Adopted program                                          2028 P10  697  P50  789  P90  895 | >=800K  45%  >=900K   9%  >=1M   1% | 2029 P50  918  >=1M  22% | orders  818  mail subs 390
+
+== What would restore it, on the adopted program
+Price by profession $885 / $1,085, everything done         2028 P10  814  P50  904  P90 1003 | >=800K  93%  >=900K  52%  >=1M  10% | 2029 P50 1044  >=1M  67% | orders  797  mail subs 389
+Price by profession $885 / $1,285, everything done         2028 P10  850  P50  954  P90 1062 | >=800K  97%  >=900K  74%  >=1M  29% | 2029 P50 1090  >=1M  80% | orders  767  mail subs 381
+  ... if the barrier worry is right                        2028 P10  811  P50  918  P90 1030 | >=800K  92%  >=900K  59%  >=1M  17% | 2029 P50 1051  >=1M  67% | orders  747  mail subs 375
+  ... 65% done                                             2028 P10  778  P50  893  P90 1013 | >=800K  85%  >=900K  47%  >=1M  13% | 2029 P50 1013  >=1M  54% | orders  745  mail subs 370
+$985 for everyone, 65% done                                2028 P10  727  P50  826  P90  935 | >=800K  62%  >=900K  19%  >=1M   2% | 2029 P50  947  >=1M  31% | orders  758  mail subs 371
+Fee changes and $985 for everyone, 65% done                2028 P10  736  P50  838  P90  953 | >=800K  68%  >=900K  24%  >=1M   4% | 2029 P50  958  >=1M  35% | orders  754  mail subs 368
+Ops help ($33K) lifting completion from 65% to 90%         2028 P10  706  P50  799  P90  897 | >=800K  49%  >=900K   9%  >=1M   0% | 2029 P50  938  >=1M  27% | orders  834  mail subs 397
+

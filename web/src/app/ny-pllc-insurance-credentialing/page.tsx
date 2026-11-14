@@ -39,6 +39,11 @@ const FAQS = [
       'No. They credential you under their own group contracts, so the insurer contracts belong to the platform, not your PLLC.',
   },
   {
+    question: "What is Headway's new $9.99 fee?",
+    answer:
+      "Headway deducts $9.99 from your payout for every session with a client it sends you, insurance or private pay, for as long as you keep seeing that client. Clients you bring yourself don't carry it. Headway is rolling it out state by state through late 2026. Contracts you hold with insurers under your own PLLC don't carry a platform fee.",
+  },
+  {
     question: 'How long does the whole thing take?',
     answer:
       'The NPI and CAQH steps take days to a few weeks. Commercial insurers commonly take 60 to 180 days after they receive the application. Medicaid is usually slower.',
@@ -151,7 +156,7 @@ export default function NyPllcInsuranceCredentialingPage() {
               description: DESCRIPTION,
               url: PATH,
               datePublished: '2026-11-11',
-              dateModified: '2026-11-11',
+              dateModified: '2026-11-13',
             })
           ),
         }}
@@ -227,6 +232,29 @@ export default function NyPllcInsuranceCredentialingPage() {
               credential your own practice from the beginning. If you plan to
               stay on a platform, that&apos;s fine. If you think you&apos;ll
               want your own contracts someday, read on.
+            </p>
+            <h3 className="mt-6 font-semibold">
+              What changed at Headway this fall
+            </h3>
+            <p className={`mt-3 ${p}`}>
+              Headway now deducts $9.99 from your payout for every session with
+              a client it sends you, whether the session is billed to insurance
+              or paid privately. The fee lasts as long as you keep seeing that
+              client. Clients you bring yourself don&apos;t carry it. Headway is
+              rolling the fee out state by state through late 2026 and has moved
+              the start dates more than once, so check your account for yours.
+            </p>
+            <p className={`mt-3 ${p}`}>
+              In October, Headway also asked therapists to sign a new provider
+              agreement that would have let it use their name, likeness and
+              voice. It paused the agreement the next day after therapists
+              objected.
+            </p>
+            <p className={`mt-3 ${p}`}>
+              If most of your clients come through Headway, the fee can reach
+              several thousand dollars a year. Contracts you hold with insurers
+              under your own PLLC don&apos;t carry a platform fee, and they stay
+              with you if you leave Headway.
             </p>
           </section>
 

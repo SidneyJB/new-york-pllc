@@ -27,7 +27,7 @@ These blocks are the team calendar for the 90-day plan. They are not Google Cale
 | Scorecard | Monday 9:00–9:30 | Sid + Agent | 0.5 |
 | Billing scan | Each working day, first 15 minutes. Command: `cd PLLC-CRM/crm && npm run billing-scan` | Ops | ~1.25 / week |
 
-Sid’s growth allowance stays **10–12 hours/week** (**Nov 13 2026: Sid works about 20–25 hours a week in total**, all roles. Tue/Thu blocks moved to credentialing sales from Nov 17. Capacity plan and hire triggers: [2028 outlook and path to $1M](../nypllc-2028-path-to-1m-plan.md) §1 and §3C.): partners 4 hours in the blocks above; customer/pricing 2; recurring services 1; scorecard 0.5; implementation and contingency the rest. Next scorecard: **Monday, October 27, 2026, 9:00 ET**. Next partner blocks: **Tuesday, October 21** and **Thursday, October 23**.
+Sid’s growth allowance stays **10–12 hours/week** (**Nov 13 2026: Sid works about 20–25 hours a week in total, all roles, with substantial headroom before he's stretched; working ceiling ~40 h/week until he confirms.** Tue/Thu blocks moved to credentialing sales from Nov 17. Capacity plan and hire triggers: [2028 outlook and path to $1M](../nypllc-2028-path-to-1m-plan.md) §1 and §3C.): partners 4 hours in the blocks above; customer/pricing 2; recurring services 1; scorecard 0.5; implementation and contingency the rest. Next scorecard: **Monday, October 27, 2026, 9:00 ET**. Next partner blocks: **Tuesday, October 21** and **Thursday, October 23**.
 
 ## Period 1 capacity (October 20–29)
 

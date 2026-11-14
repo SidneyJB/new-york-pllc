@@ -8,23 +8,22 @@ All dollar figures are annual operating profit before Sid's pay and before busin
 
 ---
 
-## 1. The constraint that shapes everything: Sid works 20–25 hours a week
+## 1. Sid's time: 20–25 hours a week now, with headroom
 
-Sid is the only person in the business: sales, ops, the mail station, filings, close-outs and now credentialing. As of Nov 13 2026 he works about **20–25 hours a week**.
+Sid is the only person in the business: sales, ops, the mail station, filings, close-outs and now credentialing. As of Nov 13 2026 he works about **20–25 hours a week**, and **he has substantial headroom before he's close to overwhelmed** (Sid, Nov 13). His upper limit isn't stated yet; this plan uses about **40 hours a week as a working ceiling** until he confirms it.
 
-That changes the plan more than any channel does:
+What that means:
 
-- The fixed Tue/Thu sales blocks (4 hours) are already a fifth of the week.
-- Credentialing takes about 12 hours per full job ([credentialing plan §3.4](../PLLC-CRM/crm/docs/insurance-credentialing-expansion-plan-2026-11.md); not yet measured). Three jobs a month is about 9 hours a week, close to half of Sid's time. Fifteen jobs a month is about 42 hours a week, more than all of Sid's hours twice over.
-- So **every route to $1M needs paid help**, and the plan below assumes Sid stays at about 20–25 hours. Growth comes from hiring and from things that don't need his hours (price, fixes that ship once), not from Sid working more.
-
----
+- **Sid can carry credentialing himself for a while.** At about 12 hours per full job ([credentialing plan §3.4](../PLLC-CRM/crm/docs/insurance-credentialing-expansion-plan-2026-11.md); not yet measured), 15–20 extra hours a week is about 5–7 jobs a month. While Sid does the work, each job keeps about $1,590 instead of about $1,140 with paid labor.
+- **Up to about 5–7 jobs a month, the limit is leads, not hours.** Lead flow (section 3A) is the first problem to solve.
+- **15 jobs a month still needs paid help.** That's about 180 hours a month (about 42 a week) of credentialing alone, on top of everything else.
+- **The part-time ops hire isn't needed yet.** It becomes useful when Sid's week approaches his limit, so credentialing sales keep their time.
 
 ## 2. Where 2028 is really heading
 
 **Today:** about $423K a year (Apr–Oct 2026 actuals, cash basis), on about 60–70 formations a month. October set a record: 68 orders, $63.6K.
 
-**Most likely 2028: about $650K.** Range about $600–750K. **$1M: roughly a 1-in-6 chance** on the current course.
+**Most likely 2028: about $650K.** Range about $600–750K. **$1M: roughly a 1-in-6 chance** on the current course. Sid's headroom doesn't move the central figure much, because the forecast is limited by demand (leads and orders), not hours. It does make the credentialing ramp faster and cheaper, which nudges the $1M odds toward 1-in-5.
 
 The target case in the model says $823K (formations, virtual mail, RA) or $915K with credentialing. It needs almost every line to go right at once. Taking out one optimistic assumption at a time:
 
@@ -62,9 +61,9 @@ From the realistic ~$587K base (formations, virtual mail, RA):
 
 | Lever | 2028 effect | Needs Sid's hours? | When |
 |---|---:|---|---|
-| A. Credentialing at 12–15 jobs/month | +$165–210K | Only to sell and set up; delivery by a coordinator | Build from now; coordinator in Q1 2027 |
+| A. Credentialing at 12–15 jobs/month | +$165–210K | Yes: Sid sells and delivers up to ~5–7 jobs/month; a coordinator above that | Build from now; coordinator when the trigger hits (likely mid-2027) |
 | B. Price $885 → $985 | +$75–85K | No (a one-time change) | Bounded test, Feb 2027 |
-| C. Free Sid's time (part-time ops) | Enables A and B; costs ~$27K/yr | Saves about 10–15 h/week | Q1 2027 |
+| C. Paid help when Sid's week fills (part-time ops, then coordinator) | Keeps A growing past ~5–7 jobs/month; ops ~$27K/yr | Saves about 10–15 h/week | When Sid nears his limit (working figure ~40 h/week) |
 | D. Bing reinstated | +$27K | One task (registration address) | Before the Dec 15 gate |
 | E. Abandoned-checkout fix, full | +$26K | No | On Spiffy's reply |
 | F. Conversion fixes, full | +$20K | Little | Dec–Feb (site freeze until Dec 1) |
@@ -80,9 +79,9 @@ Our own formation flow can't reach 15 jobs a month by itself. About 40% of forma
 2. **Our existing customers: a one-time Q1 campaign, perhaps 10–20 jobs.** About 230 behavioral-health entities in the CRM by name, about 130 past DOS approval (rough count, Nov 13). Most still pay us for RA or virtual mail, so it's an owned list. Headway's $9.99 per-session fee gives them a reason to act now.
 3. **Clinicians who never formed with us: the standalone credentialing business.** This is the [idea parked Nov 5](../PLLC-CRM/memory-bank/features/credentialing-standalone-business.md): its own site, ads and LLC, aimed at NY therapists leaving Headway or Alma. It's the only route to 15 a month that isn't capped by our formation volume. Its biggest unknown is ad cost per client; only a live ad test answers it.
 
-**Capacity:** delivery has to move to a coordinator. The [credentialing plan](../PLLC-CRM/crm/docs/insurance-credentialing-expansion-plan-2026-11.md) §3.4 sizes it: 4–5 jobs a month is about 12–16 hours a week (a part-time coordinator, about $2.3K/month at $35/h), and 8+ jobs a month is about 25+ hours a week. The model already charges about $450 of labor per job above 3 jobs a month, so the coordinator pays for itself.
+**Capacity:** with his headroom, Sid can deliver credentialing himself up to about 5–7 jobs a month. Above that it moves to a coordinator. The [credentialing plan](../PLLC-CRM/crm/docs/insurance-credentialing-expansion-plan-2026-11.md) §3.4 sizes the role: 4–5 jobs a month is about 12–16 hours a week (a part-time coordinator, about $2.3K/month at $35/h), and 8+ jobs a month is about 25+ hours a week. The model already charges about $450 of labor per job above 3 a month, so the coordinator pays for itself.
 
-**Given Sid's 20–25 hours, the hire trigger should come earlier than the plan's "3+ jobs a month for two months".** Proposed: hire at a steady 2 jobs a month, or as soon as credentialing takes more than about 6 hours a week of Sid's time. The role needs its own CRM login with an audit trail first (SSNs, DOBs, CAQH logins).
+**Hire trigger (revised Nov 13):** hire a coordinator when credentialing holds at about **5 jobs a month for two months**, or when Sid's total week nears his limit (working figure about 40 hours), whichever comes first. Measured hours per job will move this either way. The role needs its own CRM login with an audit trail first (SSNs, DOBs, CAQH logins).
 
 **Before any of this is real:** log minutes on every credentialing job now (`credentialing-log.ts --minutes`; 0 of 41 events had minutes on Nov 8). Median hours per job decides the hire timing, the price, and whether 15 a month is affordable.
 
@@ -92,9 +91,9 @@ Note: credentialing plan §3.4 calls credentialing "a modest line" that the $1M 
 
 At 750–850 orders a year, $100 is worth about $80K, and volume would have to fall about 12% before the increase loses money (counting VM, RA and add-ons; 16% formation-only). It needs no new channel and none of Sid's hours. Sid held $885 on Nov 9 because October set a record, which is sound for the holiday period. **Proposed:** a bounded $985 test in **February 2027**, after the January ads decision, using the rules already drafted in [price-test-985.md](docs/price-test-985.md). It only reopens by a new decision-log row.
 
-### C. Free Sid's time
+### C. Paid help when Sid's week fills
 
-A part-time ops person (about 10–15 hours a week, about $27K a year) to take the mail station (the Friday pack list, holds, drop-offs), routine close-out rows and the daily billing exceptions. That frees Sid's hours for credentialing sales and setup, the one activity that moves the number. This cost isn't in the model's overhead below 90 orders a month, so it comes out of the gains above.
+Not needed yet: Sid has headroom above his current 20–25 hours. Plan a part-time ops person (about 10–15 hours a week, about $27K a year) for when his week approaches his limit. It would take the mail station (the Friday pack list, holds, drop-offs), routine close-out rows and the daily billing exceptions, so credentialing sales keep Sid's hours. This cost isn't in the model's overhead below 90 orders a month, so it comes out of the gains above.
 
 ### D–G. Smaller fixes, done properly
 
@@ -120,9 +119,9 @@ A part-time ops person (about 10–15 hours a week, about $27K a year) to take t
 |---|---|---|
 | Now | Log minutes on every credentialing job. Work the checkbox leads (nudge Nov 18). | Sid, Agent |
 | Nov 25–29 | Day-45 review (P2-12): partner test (fewer than 3 conversations → partner line ~5/month, rest Waiting), virtual mail, the model. | Sid + Agent |
-| December | Credentialing scale plan: existing-customer campaign copy and list, a decision on reopening the standalone business (including a small ad test to price a client), coordinator job description and hire trigger, ops-hire scope. Bing task before Dec 15. | Agent drafts, Sid decides |
-| January | Existing-customer credentialing campaign. January ads decision (no automatic surge). Start the ops hire. | Sid, Agent |
-| February | Bounded $985 test, if Sid reopens it. Coordinator starts if the trigger is met. | Sid |
+| December | Credentialing scale plan: existing-customer campaign copy and list, a decision on reopening the standalone business (including a small ad test to price a client), coordinator job description and hire trigger. Bing task before Dec 15. | Agent drafts, Sid decides |
+| January | Existing-customer credentialing campaign. January ads decision (no automatic surge). Sid delivers the new jobs himself. | Sid, Agent |
+| February | Bounded $985 test, if Sid reopens it. Check the hire trigger (~5 jobs/month for two months, or Sid near his limit). | Sid |
 | By Mar 31 | **Gate:** credentialing at 4–6 jobs a month means the $1M path is real. Under 3 means plan around $750K. | Sid |
 
 ---
@@ -144,6 +143,6 @@ A part-time ops person (about 10–15 hours a week, about $27K a year) to take t
 
 1. Adopt this as the working 2028 view (about $650K most likely; $1M through credentialing and hiring)?
 2. Reopen the standalone credentialing business conversation in December?
-3. Hire trigger: a coordinator at a steady 2 jobs a month (proposed) instead of 3?
-4. Part-time ops hire in Q1, and its scope?
+3. Confirm your weekly ceiling (working figure ~40 hours) and the coordinator trigger (~5 jobs a month for two months, or near your limit).
+4. Part-time ops hire: when your week nears that ceiling, not on a fixed date.
 5. Reopen the $985 test for February?

@@ -1,6 +1,6 @@
 # Draft: email to Spiffy support about abandoned-checkout capture (Nov 11 2026)
 
-**Status: draft, not sent.** Sid sends it from contact@nypllc.com to Spiffy support, or pastes it into their help chat. Background: [P1-07 § Root cause](../../reports/p1-07-buying-journey-2026-11-08.md). This is fix route (a) for P1-08's "verify abandonment capture".
+**Status: SENT Nov 13 2026** from contact@nypllc.com to support@spiffy.co (Gmail `1a1d7c87f26691fd`), plain text, markdown removed. Was: Sid sends it from contact@nypllc.com to Spiffy support, or pastes it into their help chat. Background: [P1-07 § Root cause](../../reports/p1-07-buying-journey-2026-11-08.md). This is fix route (a) for P1-08's "verify abandonment capture".
 
 ---
 

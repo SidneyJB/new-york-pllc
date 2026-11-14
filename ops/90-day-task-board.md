@@ -16,7 +16,7 @@ Detail and system access: [p1-01-ownership.md](p1-01-ownership.md).
 
 Recorded October 20, 2026. These holds are the working calendar.
 
-- **Partner sales:** Tuesday 10:00–12:00 and Thursday 10:00–12:00 (Sid). Oct 22 block: zero replies to the Oct 19 sends, so no conversations. Next touch Oct 26.
+- **Credentialing sales (from Nov 17, Sid, Nov 13):** Tuesday 10:00–12:00 and Thursday 10:00–12:00 (Sid). Was the partner-sales block. Partner work is now only replies to existing threads, handled same business day. History: **Partner sales:** Tuesday 10:00–12:00 and Thursday 10:00–12:00 (Sid). Oct 22 block: zero replies to the Oct 19 sends, so no conversations. Next touch Oct 26.
 - **Scorecard:** Monday 9:00–9:30 (Sid + Agent). Next: October 27.
 - **Billing scan:** first 15 minutes of each working day (Ops). From `PLLC-CRM/crm`: `npm run billing-scan`. Writes `crm/reports/billing-scan-YYYY-MM-DD/README.md`. Last run October 22: [billing scan](../../PLLC-CRM/crm/reports/billing-scan-2026-10-22/README.md).
 

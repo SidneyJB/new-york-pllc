@@ -53,6 +53,43 @@ The first pass left credentialing at $0, following P2-11's rule that unproven li
 - **Per job, it's worth about three formations.** About $1,590 net while Sid does the work, about $1,140 once it's paid labor, against $546 per formation.
 - **The risk is execution, not demand.** No job has reached an insurer decision yet, and hours per job aren't measured (0 of 41 credentialing events have `minutesSpent`). The go/no-go measures in plan §3.10 (hours ≤ 125% of estimate, submissions within 21 days, first effective date by Jan 8) are what turn these assumptions into evidence.
 
+## 1b. Partner reality check (added Nov 13, after Sid's question)
+
+Sid, Nov 13: the plan leans on partners as the largest channel, and new-partner outreach has gone nowhere. This section re-runs the model with only the partner line changed. Nothing in the script was edited; the runs override `partner` (and `cred_jobs` where shown) in memory.
+
+**Evidence to date:** 38 firms contacted (waves 1–4), 1 reply (Iris Kimberg, NY Therapy Guide, a directory, not a formation referrer), 0 substantive conversations, 1 productive partner in 90 days (JEFFREYTAQY, a past-customer advocate). The partner orders the business has actually had came from warm relationships: past-customer advocates (four paid payouts, Jul 30) and Metro wholesale (declining). None came from cold outreach.
+
+2028 operating profit before owner pay; partners shown as (now, Dec 2027, Dec 2028) per month:
+
+| Case | Partners 0 | Partners 3 → 5 | Partners 15 → 25 (plan) | Partners 22 → 35 |
+|---|---:|---:|---:|---:|
+| Target | $760K | $759K | $823K | $876K |
+| Target + credentialing 2 → 8 → 12 jobs/mo | $925K | $925K | $989K | $1,041K |
+| Strong (credentialing 2 → 6 → 10) | $964K | $979K | $1,079K | $1,133K |
+| Strong + credentialing 2 → 8 → 12 | **$993K** | $1,009K | $1,109K | $1,162K |
+
+Orders per month by Dec 2028 in the target case: 89 with no partners, 114 at the plan's 25.
+
+**What it means:**
+- **Partners are the largest volume gap, not the largest profit gap.** Zero partners costs about $64K in the target case.
+- A partner order is worth about $420 against $546 retail. Partner clients attach virtual mail at half the retail rate, and partner volume pushes past the ~90 orders/month staff-help step in overhead. That is why 0 → 5 partners a month adds nothing.
+- **$1M without partners** needs the strong retail case (Google, organic/AI, abandoned-checkout fix, virtual mail) plus about 12 credentialing jobs a month: $993K.
+- These are model assumptions, mostly labeled [I]. Credentialing is the least proven line (no insurer decision yet, hours per job not measured).
+
+**Why cold outreach is failing (Agent's read):**
+- Thin offer for the firm: a $75 referral payout or a small wholesale discount on something a CPA or consultant sees a few times a year.
+- Volume arithmetic: at about one case per partner per quarter, 25 a month takes about 75 productive partners.
+- Channel conflict: 7 of the 12 Wave 4 firms are credentialing companies, and since Nov 3 NYPLLC sells insurance credentialing itself.
+- 1 reply in 38 is within the normal 1–3% for cold email, so this is the expected result, not bad luck. The checklist's holiday caution applies to the newest waves only.
+
+**Proposed (not adopted; Sid decides at the Day-45 review, P2-12, Nov 25–29):**
+1. Finish what is already built: Wave 4 follow-up Mon Nov 16, Wave 5 Tue Nov 17, and Sid personally contacts the Tier 1 warm referrers ([list](../warm-referrers-2026-11-09.md)). No new cold wave.
+2. Day-45 test: if waves 4–5 plus the warm list produce **fewer than 3 substantive conversations**, cut the partner line to about 5/month in this model, mark the rest of P2-03/P3-02 Waiting, and record it in the decision log.
+3. Move Sid's Tue/Thu sales blocks to insurance credentialing, where demand arrived unprompted (Green Sparrow, Cove Compass, Dr. Hanna, the 29 checkout-interest leads; Headway's new fee is pushing therapists to own contracts).
+4. Stop pitching credentialing firms as referrers, or offer them formation wholesale only.
+
+Reproduce: from `scripts/`, import `model_2028`, copy `SCENARIOS['target']` or `SCENARIOS['strong']`, set `partner` and `cred_jobs`, and print `summarize(run(case))[2028]`.
+
 ## 2. What drives the difference
 
 Downside to strong is $477K in 2028:

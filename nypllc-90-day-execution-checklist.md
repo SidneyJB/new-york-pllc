@@ -279,7 +279,7 @@ Owner: Sid. Support: Agent. Due: ongoing through November 25, with reporting thr
 - [ ] Personalize the reason for contact using the firm's client base or current service. Avoid unsupported claims about its needs.
 - [ ] Continue the one-follow-up rule for unanswered cold outreach. Move interested conversations into a mutually agreed next step instead of an automated cold cadence.
 - [ ] Ask about cases handled, current provider, operational pain, decision maker, who pays, expected volume, and requirements for a first handoff.
-- [ ] Keep 8–10 substantive conversations as a cumulative learning target by period end, not a quota that justifies low-quality meetings.
+- [ ] Keep 8–10 substantive conversations as a cumulative learning target by period end, not a quota that justifies low-quality meetings. **Nov 13:** 38 firms contacted, 1 reply, 0 conversations. Proposed Day-45 test (not adopted): fewer than 3 substantive conversations from waves 4–5 plus the Tier 1 warm list → cut the partner line to ~5/month and mark the rest Waiting. Zero partners costs ~$64K in the 2028 target case ([P2-11 §1b](reports/p2-11-model-2026-11-11/README.md)).
 - [ ] Select 2–3 firms for a first paid case or a clearly scheduled live opportunity. Do not count a verbal expression of interest as revenue.
 - [ ] Record why each declined prospect declined: no volume, already satisfied, price, scope, trust, timing, or terms.
 
@@ -304,6 +304,8 @@ Done when: the first case works end to end and the partner understands how to se
 
 ### P2-05. Improve VM attachment on new formations
 
+**Nov 13 status:** drafts in [reports/p2-05-vm-attach-2026-11-13/](reports/p2-05-vm-attach-2026-11-13/README.md), with 6 decisions waiting on Sid. Pending VM checkouts are **97, not 67** (all expired and unpaid). The clean follow-up segment is 17 now and 36 after publication. The OP email produced 2 purchases from 97 sends but 62 replies. 90-day attach by order month, Apr–Oct: 36/32/23/20/23/31/28% (Aug–Oct not yet mature). Boxes stay unchecked until Sid approves.
+
 Owner: Agent for implementation; Ops for setup; Sid for copy. Target: before November 14. Required. Dependency: P1-05.
 
 - [ ] Put the verified VM service definition and full recurring price at the relevant checkout decision. Keep the choice optional and unselected by default.
@@ -320,6 +322,8 @@ Done when: the revised offer is accurate, setup completes reliably, and new paid
 
 ### P2-06. Prepare the existing-practice VM migration pilot
 
+**Nov 13 status:** drafts in [reports/p2-06-vm-migration-2026-11-13/](reports/p2-06-vm-migration-2026-11-13/README.md), with 7 decisions waiting on Sid. Proposed setup fee is $129 all-in, leaving about $70 net for about 65 minutes (not yet timed). A migration adds about $501/yr, because the $99 RA subscription ends when VM starts. 179 candidates, Tier 1 = 20. Boxes stay unchecked until Sid approves.
+
 Owner: Ops for service design; Sid for commercial scope; Agent for materials. Due: November 13. Required preparation; paid rollout is conditional on readiness.
 
 - [ ] Define a narrow initial customer: an existing professional entity with a genuine business-mail need and no unresolved question about the address's permitted use.
@@ -334,6 +338,8 @@ Owner: Ops for service design; Sid for commercial scope; Agent for materials. Du
 Done when: a customer can understand the offer, pay for a defined scope, and migrate without gaps in important mail handling.
 
 ### P2-07. Measure recurring cohorts and improve collection operations
+
+**Nov 13 status:** the weekly report is built (`cd crm && npm run recurring-cohort`, read-only, 12/12 tests pass; uncommitted in PLLC-CRM) and was run once for Nov 7–13 ([report](../PLLC-CRM/crm/reports/recurring-cohort-2026-11-13/README.md), gitignored). Results: 35 of 39 recurring invoices paid ($1,933). VM: 99 paying, 30-day churn 2.7%, 1.7% since Apr 1 on the finance-engine basis. Montgomery counts as a payment failure, not a voluntary cancel. RA first renewal is not reported as a rate until T & C's window closes Nov 22 (9 due: 4 paid, 3 open, 1 cancelled, 1 not yet charged). Fluid Essence has two formation disputes from Oct 25 and Oct 27. Compliance Plan red flag not triggered. Boxes stay unchecked until the report is committed and in the weekly routine.
 
 Owner: Ops. Analysis: Agent. Decision owner: Sid. Due: weekly; first October renewal matures around November 22. Required. Dependency: P1-04/P1-05.
 
@@ -367,6 +373,8 @@ Owner: Agent/ads operator. Decision owner: Sid. Prepare: October 30; finalize af
 Done when: the account is managed under an explicit rule, the freeze is respected, and any future spend increase is a bounded experiment.
 
 ### P2-09. Prepare the PC pilot and audit the existing S-corp add-on
+
+**Nov 13 status (PC half):** drafts in [reports/p2-09-pc-pilot-2026-11-13/](reports/p2-09-pc-pilot-2026-11-13/README.md). Demand: 4 domestic PC requests in about 13 months, 1 paid. Recommended test price **$985** ($675 contribution vs $514 for a PLLC). The $10 organization tax in the $1,285 quote has been repealed. The CRM writes the NYSED PC fee at the PLLC rate. The NYSED fees ($90/$20/$105) are not yet checked on the live site. 8 decisions waiting on Sid. Boxes stay unchecked. **Sid, Nov 13: PC pilot not worth doing; there is no PC checkout. P3-05 Waiting; manual quotes only ([decision log](decision-log.md)).**
 
 Owner: Ops for process; Agent for costing/materials; Sid for scope. Review: counsel/accountant where needed. Due: November 20. Required preparation; paid pilot conditional on a ready workflow.
 
@@ -418,7 +426,7 @@ Done when: there is a monthly model whose assumptions reconcile to the scorecard
 Owner: Sid. Support: Ops and Agent. Prepare meeting November 25; reporting boundary November 29. Required.
 
 - [ ] Decide whether the price test supports keeping $985 provisionally, reverting, or extending observation. State whether the evidence is directional or strong.
-- [ ] Select the one or two partner segments with the best combination of demand, responsiveness, repeat potential, and contribution.
+- [ ] Select the one or two partner segments with the best combination of demand, responsiveness, repeat potential, and contribution. **Nov 13:** 38 firms contacted, 1 reply, 0 conversations. Proposed Day-45 test (not adopted): fewer than 3 substantive conversations from waves 4–5 plus the Tier 1 warm list → cut the partner line to ~5/month and mark the rest Waiting. Zero partners costs ~$64K in the 2028 target case ([P2-11 §1b](reports/p2-11-model-2026-11-11/README.md)).
 - [ ] Review paid handoffs and what prevented prospects from sending a case.
 - [ ] Review VM paid starts, setup completion, cost, churn, and the readiness of the existing-practice pilot.
 - [ ] Review PC readiness and actual opportunities. Do not launch a broad campaign just because the checklist is complete.

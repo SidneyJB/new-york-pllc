@@ -29,8 +29,9 @@ All state fees below are **included** in the flat price (not billed separately).
 | NYSED Certificate of Authority (consent) | $90 |
 | NYSED certified-copy filing after DOS | $20 |
 | DOS Certificate of Incorporation (BCL §1503) | $125 |
-| Organization tax (200 no-par shares) | $10 |
 | DOS certified copy | $10 |
+
+*Nov 13 2026: the $10 organization tax line was removed. NY repealed the organization tax (TSB-M-15(1)C). The $1,285 price is unchanged.*
 | EIN | — |
 | First-year registered agent | — |
 | Corporate records kit | bylaws, incorporator/director/shareholder resolutions, stock certificates, stock ledger |
@@ -83,7 +84,7 @@ That covers the New York PC only. It does not cover the Delaware C Corp or the m
 
 Included
 - NYSED Certificate of Authority ($90) and the post-formation certified-copy filing with NYSED ($20)
-- Certificate of Incorporation filed with the Department of State ($125), organization tax for 200 no-par shares ($10), and a DOS certified copy ($10)
+- Certificate of Incorporation filed with the Department of State ($125) and a DOS certified copy ($10)
 - EIN
 - First-year registered agent
 - Corporate records kit: bylaws, organizational minutes, stock certificates, and stock ledger

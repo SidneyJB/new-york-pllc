@@ -5,6 +5,7 @@ import { ScrollTracking } from '@/components/analytics/scroll-tracking'
 import { generateMetadata } from '@/lib/seo/metadata'
 import { BadgeCheck } from 'lucide-react'
 import { OrderConfirmationClient } from './confirmation-client'
+import { SourceSurveyCard } from '@/components/source-survey/source-survey-card'
 import { PRICING } from '@/lib/constants'
 
 export const metadata = generateMetadata({
@@ -92,6 +93,8 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
       <section className="py-4 lg:py-8">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl">
+
+            <SourceSurveyCard />
 
             {/* Order Details */}
             <Card className="mb-8">

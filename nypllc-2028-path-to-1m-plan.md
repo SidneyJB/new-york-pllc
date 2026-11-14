@@ -10,7 +10,7 @@ All dollar figures are annual operating profit before Sid's pay and before busin
 
 ## 1. Sid's time: 20–25 hours a week now, with headroom
 
-Sid is the only person in the business: sales, ops, the mail station, filings, close-outs and now credentialing. As of Nov 13 2026 he works about **20–25 hours a week**, and **he has substantial headroom before he's close to overwhelmed** (Sid, Nov 13). His upper limit isn't stated yet; this plan uses about **40 hours a week as a working ceiling** until he confirms it.
+Sid is the only person in the business: sales, ops, the mail station, filings, close-outs and now credentialing. As of Nov 13 2026 he works about **20–25 hours a week**, and **he has substantial headroom before he's close to overwhelmed** (Sid, Nov 13). His limit is **about 40 hours a week** (Sid, Nov 13).
 
 What that means:
 
@@ -63,7 +63,7 @@ From the realistic ~$587K base (formations, virtual mail, RA):
 |---|---:|---|---|
 | A. Credentialing at 12–15 jobs/month | +$165–210K | Yes: Sid sells and delivers up to ~5–7 jobs/month; a coordinator above that | Build from now; coordinator when the trigger hits (likely mid-2027) |
 | B. Price $885 → $985 | +$75–85K | No (a one-time change) | Bounded test, Feb 2027 |
-| C. Paid help when Sid's week fills (part-time ops, then coordinator) | Keeps A growing past ~5–7 jobs/month; ops ~$27K/yr | Saves about 10–15 h/week | When Sid nears his limit (working figure ~40 h/week) |
+| C. Paid help when Sid's week fills (part-time ops, then coordinator) | Keeps A growing past ~5–7 jobs/month; ops ~$27K/yr | Saves about 10–15 h/week | When Sid nears his ~40 h/week limit |
 | D. Bing reinstated | +$27K | One task (registration address) | Before the Dec 15 gate |
 | E. Abandoned-checkout fix, full | +$26K | No | On Spiffy's reply |
 | F. Conversion fixes, full | +$20K | Little | Dec–Feb (site freeze until Dec 1) |
@@ -81,7 +81,7 @@ Our own formation flow can't reach 15 jobs a month by itself. About 40% of forma
 
 **Capacity:** with his headroom, Sid can deliver credentialing himself up to about 5–7 jobs a month. Above that it moves to a coordinator. The [credentialing plan](../PLLC-CRM/crm/docs/insurance-credentialing-expansion-plan-2026-11.md) §3.4 sizes the role: 4–5 jobs a month is about 12–16 hours a week (a part-time coordinator, about $2.3K/month at $35/h), and 8+ jobs a month is about 25+ hours a week. The model already charges about $450 of labor per job above 3 a month, so the coordinator pays for itself.
 
-**Hire trigger (revised Nov 13):** hire a coordinator when credentialing holds at about **5 jobs a month for two months**, or when Sid's total week nears his limit (working figure about 40 hours), whichever comes first. Measured hours per job will move this either way. The role needs its own CRM login with an audit trail first (SSNs, DOBs, CAQH logins).
+**Hire trigger (revised Nov 13):** hire a coordinator when credentialing holds at about **5 jobs a month for two months**, or when Sid's total week nears his ~40-hour limit, whichever comes first. Measured hours per job will move this either way. The role needs its own CRM login with an audit trail first (SSNs, DOBs, CAQH logins).
 
 **Before any of this is real:** log minutes on every credentialing job now (`credentialing-log.ts --minutes`; 0 of 41 events had minutes on Nov 8). Median hours per job decides the hire timing, the price, and whether 15 a month is affordable.
 
@@ -143,6 +143,6 @@ Not needed yet: Sid has headroom above his current 20–25 hours. Plan a part-ti
 
 1. Adopt this as the working 2028 view (about $650K most likely; $1M through credentialing and hiring)?
 2. Reopen the standalone credentialing business conversation in December?
-3. Confirm your weekly ceiling (working figure ~40 hours) and the coordinator trigger (~5 jobs a month for two months, or near your limit).
+3. Coordinator trigger: ~5 jobs a month for two months, or your week nearing 40 hours (your limit, confirmed Nov 13).
 4. Part-time ops hire: when your week nears that ceiling, not on a fixed date.
 5. Reopen the $985 test for February?

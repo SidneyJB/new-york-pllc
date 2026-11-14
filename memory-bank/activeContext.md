@@ -1,5 +1,7 @@
 # Active Context
 
+> **📌 NOV 14: credentialing research and national channel test.** Credentialing alone: v2 study puts $350K net by Dec 2028 at ~35–40% ($500K ~22%) if sold nationally (setups + $69/$119 maintenance + group retainers); most likely ~$230–300K net. Human time per job is ~30 min (agents do the rest). **Live checklist: [credentialing-national-test-checklist.md](../credentialing-national-test-checklist.md)** (mail + search test from Dec 1, read late Jan–mid Feb 2027). Reports: [market share](../reports/credentialing-market-share-2027-2028.md) · [upside paths](../reports/credentialing-upside-paths-2027-2028.md) · [path to $350–500K net, v2](../reports/credentialing-path-to-350-500k-net-2028.md). Prices set Nov 14: prescriber package $2,995; group retainer $99–129/clinician/month (floor $79).
+
 > **📌 NOV 14 (pressure test of the 2028 plan; Sid's decisions late Nov 13):**
 > - **Working target is now $800K in 2028 at high odds; $1M is the stretch** ([decision log](../decision-log.md), six rows dated Nov 13). Also decided: no price by profession, no ops help now, PCs stay shelved, Sid delivers credentialing (no contractor yet), acquisition looked at lightly.
 > - **Evidence:** [reports/evidence/2028-pressure-test-2026-11-13/](../reports/evidence/2028-pressure-test-2026-11-13/README.md): CRM aggregates, NY open data, model checks and an odds simulation, each with its re-run command.

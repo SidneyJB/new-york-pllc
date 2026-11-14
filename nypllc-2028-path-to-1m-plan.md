@@ -1,5 +1,7 @@
 # 2028: realistic outlook and the path to $1M
 
+> **Nov 14 2026 update (credentialing):** hours per job here are superseded: Sid's own time on the first full case was ~30 min; agents do the rest. Credentialing alone, sold nationally, has a ~35–40% chance of $350K net by Dec 2028 per the [v2 study](reports/credentialing-path-to-350-500k-net-2028.md); see also [market share](reports/credentialing-market-share-2027-2028.md) and [upside paths](reports/credentialing-upside-paths-2027-2028.md). Execution: [credentialing-national-test-checklist.md](credentialing-national-test-checklist.md).
+
 **Written:** Nov 13 2026, from Sid's reality-check session. **Owner:** Sid. **Status:** plan for Sid's review. The decisions already adopted are in the [decision log](decision-log.md); everything else here is proposed.
 
 **Where this sits:** the [integrated operating plan v3](nypllc-integrated-operating-plan.md) §6 sets the $1M hurdle, and the [90-day checklist](nypllc-90-day-execution-checklist.md) runs execution through Jan 13 2027. This document is the honest read on where 2028 is heading and what would change it. When it disagrees with the integrated plan's channel targets (partners at 25–30 a month, organic growth), this document wins until the Day-45 review (P2-12) or Sid says otherwise. Model detail: [P2-11 §1b and §1c](reports/p2-11-model-2026-11-11/README.md).

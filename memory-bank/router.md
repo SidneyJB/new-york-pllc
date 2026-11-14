@@ -27,13 +27,14 @@ Cross-cutting growth strategy and **how** each lever is executed live here (webs
 
 | Priority | Document | Role |
 |----------|----------|------|
+| **0a — outlook (Nov 13 2026)** | [**2028 outlook and path to $1M**](../nypllc-2028-path-to-1m-plan.md) | Realistic 2028 (~$650K), what gets to $1M (credentialing, price, paid help), Sid's 20–25 h/week constraint, 90-day sequence |
 | **0 — operational (through Jan 13, 2027)** | [**90-day execution checklist**](../nypllc-90-day-execution-checklist.md) | Packages P1–P3, scorecard defs, experiment rules, weekly routine. **Active task list.** |
 | **1 — strategy** | [**Integrated operating plan v3**](../nypllc-integrated-operating-plan.md) | Baseline §1, lever playbooks §3–5, **hurdle** §6 (not additive forecast), gates §9. [decision-log.md](../decision-log.md) for supersessions. |
 | **2** | [expansion-next-steps.md](expansion-next-steps.md) | Sprint narrative, Sep–Jan ads calendar; historical $1M mix is context only |
 | **3** | [scorecards/](../scorecards/) + [ops/90-day-task-board.md](../ops/90-day-task-board.md) | Weekly evidence and execution board |
 | **4** | Channel operating plans | Mechanics only; checklist + integrated §0 say which doc wins |
 
-**Session rule:** Expansion work through Jan 13 → read **90-day checklist** + [decision-log.md](../decision-log.md), then integrated plan v3 §1/§6/§9, then [activeContext.md](activeContext.md) § Expansion priorities, then matching `features/*.md` shards.
+**Session rule:** Expansion work through Jan 13 → read the [**2028 outlook**](../nypllc-2028-path-to-1m-plan.md), the **90-day checklist** + [decision-log.md](../decision-log.md), then integrated plan v3 §1/§6/§9, then [activeContext.md](activeContext.md) § Expansion priorities, then matching `features/*.md` shards.
 
 ## Read when relevant
 

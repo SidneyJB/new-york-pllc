@@ -3,6 +3,8 @@
 **As of:** Oct 16, 2026.
 **Owner:** Cross-cutting expansion strategy lives in the **website** memory bank. CRM builds link from [PLLC-CRM/memory-bank/features/](../../PLLC-CRM/memory-bank/features/).
 
+> **Nov 13 2026: [2028 outlook and path to $1M](../nypllc-2028-path-to-1m-plan.md).** About $650K most likely; $1M needs credentialing at 12–15 jobs/month, a $985 price, and paid help (Sid works ~20–25 h/week). Read this before the older calendar below.
+
 > **Operational SoT (through Jan 13, 2027):** [**90-day execution checklist**](../nypllc-90-day-execution-checklist.md) · [decision-log.md](../decision-log.md) · [scorecards/](../scorecards/)  
 > **Strategy / hurdle:** [**Integrated operating plan v3**](../nypllc-integrated-operating-plan.md) — dollar cases **$1,053K / $1,179K** are still priced at 125–140 formations/mo and an unproven $650 blend. **Oct 21:** the written levers support **111–115/mo** (or **107–111** if Bing stays blocked), not 125. [decision-log.md](../decision-log.md).
 

@@ -23,6 +23,8 @@
 
 ## 0. Which document wins when they disagree
 
+> **Nov 13 2026:** the [2028 outlook and path to $1M](nypllc-2028-path-to-1m-plan.md) is the current honest read on 2028 (about $650K most likely, $1M about 1-in-6 on the current course). Until the Day-45 review (P2-12) it wins over this plan's channel targets: partners at 25–30/month and organic growth. The §6 dollar hurdle stays the goal. Sid works about 20–25 hours a week.
+
 1. **Through Jan 13, 2027:** [90-day execution checklist](nypllc-90-day-execution-checklist.md) wins on **dates, sequencing, evidence standards**, and weekly scorecard definitions.
 2. **Expert assessment + decision log** win on **economics definitions**, channel double-counting, CAQH/MSO posture, and superseded calendar items ([decision-log.md](decision-log.md)).
 3. **This plan (v3)** wins on stable narrative: baseline §1, recurring §5 mechanics, lever playbooks §3–4, and merged gates §9 — except where v3 change log or decision log says otherwise.

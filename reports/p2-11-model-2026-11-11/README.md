@@ -1,6 +1,6 @@
 # P2-11: 2028 model, first pass (Nov 11 2026)
 
-**Prepared by:** Agent. **Decision owner:** Sid. **Due:** Nov 24 (P2-11). This is a first pass for review, not the final model.
+**Prepared by:** Agent. **Decision owner:** Sid. **Due:** Nov 24 (P2-11). This is a first pass for review, not the final model. **Nov 13:** the plan built from §1b/§1c is [2028 outlook and path to $1M](../../nypllc-2028-path-to-1m-plan.md).
 
 **Files:** [model script](../../scripts/model_2028.py) (every assumption is in it, with its source) · monthly output per case: [downside](monthly-downside.csv), [target](monthly-target.csv), [strong](monthly-strong.csv) · [summary.json](summary.json). Re-run with `python3 scripts/model_2028.py`.
 

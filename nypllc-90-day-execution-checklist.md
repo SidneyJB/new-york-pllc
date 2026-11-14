@@ -2,6 +2,8 @@
 
 Prepared October 15, 2026. Day 1 is October 16, 2026. All dates use America/New_York.
 
+> **Nov 13 2026:** read the [2028 outlook and path to $1M](nypllc-2028-path-to-1m-plan.md) with this checklist. Realistic 2028 is about $650K; $1M runs through insurance credentialing and paid help. **Sid works about 20–25 hours a week**, so any package that needs his hours competes with credentialing sales.
+
 This checklist translates the preceding strategic assessment into work for Sid, Ops, and an agent or technical operator. It is a proposed execution plan. A checked task should mean the work has actually been completed and the evidence saved. The October 15 status document supplies the baseline; live data must replace those snapshots before decisions.
 
 The objective is to establish a credible path to approximately $1 million of annual net business profit in calendar 2028. These 90 days should demonstrate better unit economics, repeatable partner acquisition, and reliable recurring revenue. They do not guarantee the 2028 result.

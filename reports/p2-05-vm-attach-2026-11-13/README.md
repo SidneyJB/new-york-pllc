@@ -57,7 +57,7 @@ Draft only. Nothing was sent. No live system, site code, CRM record, Stripe or c
 
 ## Not verified
 
-- `PLLC-CRM/crm/reports/p1-05-2026-11-08/README.md` **doesn't exist on disk** (searched Nov 13). The checklist links to it. P1-05 figures here come from the checklist text, scorecards and integrated plan, so the §6 permitted-use draft wasn't read.
+- `../evidence/p1-05-vm-economics-2026-11-13/README.md` **doesn't exist on disk** (searched Nov 13). The checklist links to it. P1-05 figures here come from the checklist text, scorecards and integrated plan, so the §6 permitted-use draft wasn't read.
 - Whether a Certificate of Change during publication causes a problem (assumed: wait).
 - Whether "weekly, Fridays" forwarding is followed every week. The Friday pack list isn't built.
 - Checkout page text was read from the public checkout config, not the admin. The CRM code shows the $50 is charged at checkout and monthly billing starts at order + 1 month. I didn't check that against a real invoice.

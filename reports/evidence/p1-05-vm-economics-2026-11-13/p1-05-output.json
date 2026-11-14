@@ -1,0 +1,1082 @@
+{
+  "asOf": "2026-11-13",
+  "generatedAt": "2026-11-14T03:16:03.630Z",
+  "bookNow": {
+    "active": 99,
+    "cancelled": 9,
+    "past_due": 1,
+    "pending_offer_only": 97,
+    "trialing": 20
+  },
+  "monthly": [
+    {
+      "month": "2026-04",
+      "through": "2026-04-end",
+      "liveAtMonthEnd": 34,
+      "newStarts": 14,
+      "reinstates": 0,
+      "grossCancelsByClass": {},
+      "grossCancelsExMetroTest": 0,
+      "netCancelsEngine": 0,
+      "exposureMonths": 27.4,
+      "monthlyChurnNetPct": 0
+    },
+    {
+      "month": "2026-05",
+      "through": "2026-05-end",
+      "liveAtMonthEnd": 52,
+      "newStarts": 19,
+      "reinstates": 0,
+      "grossCancelsByClass": {
+        "voluntary": 1,
+        "formation_refunded": 1
+      },
+      "grossCancelsExMetroTest": 2,
+      "netCancelsEngine": 0,
+      "exposureMonths": 47.1,
+      "monthlyChurnNetPct": 0
+    },
+    {
+      "month": "2026-06",
+      "through": "2026-06-end",
+      "liveAtMonthEnd": 62,
+      "newStarts": 12,
+      "reinstates": 0,
+      "grossCancelsByClass": {
+        "voluntary": 2
+      },
+      "grossCancelsExMetroTest": 2,
+      "netCancelsEngine": 1,
+      "exposureMonths": 57.4,
+      "monthlyChurnNetPct": 1.7
+    },
+    {
+      "month": "2026-07",
+      "through": "2026-07-end",
+      "liveAtMonthEnd": 74,
+      "newStarts": 11,
+      "reinstates": 2,
+      "grossCancelsByClass": {
+        "formation_refunded": 1,
+        "voluntary": 1
+      },
+      "grossCancelsExMetroTest": 2,
+      "netCancelsEngine": 1,
+      "exposureMonths": 69.4,
+      "monthlyChurnNetPct": 1.4
+    },
+    {
+      "month": "2026-08",
+      "through": "2026-08-end",
+      "liveAtMonthEnd": 81,
+      "newStarts": 10,
+      "reinstates": 0,
+      "grossCancelsByClass": {
+        "involuntary_payment": 1,
+        "voluntary": 2
+      },
+      "grossCancelsExMetroTest": 3,
+      "netCancelsEngine": 3,
+      "exposureMonths": 77.6,
+      "monthlyChurnNetPct": 3.9
+    },
+    {
+      "month": "2026-09",
+      "through": "2026-09-end",
+      "liveAtMonthEnd": 95,
+      "newStarts": 15,
+      "reinstates": 0,
+      "grossCancelsByClass": {
+        "voluntary": 1
+      },
+      "grossCancelsExMetroTest": 1,
+      "netCancelsEngine": 1,
+      "exposureMonths": 87.8,
+      "monthlyChurnNetPct": 1.1
+    },
+    {
+      "month": "2026-10",
+      "through": "2026-10-end",
+      "liveAtMonthEnd": 114,
+      "newStarts": 20,
+      "reinstates": 0,
+      "grossCancelsByClass": {
+        "voluntary": 1
+      },
+      "grossCancelsExMetroTest": 1,
+      "netCancelsEngine": 1,
+      "exposureMonths": 106.2,
+      "monthlyChurnNetPct": 0.9
+    },
+    {
+      "month": "2026-11",
+      "through": "2026-11-13",
+      "liveAtMonthEnd": 120,
+      "newStarts": 8,
+      "reinstates": 0,
+      "grossCancelsByClass": {
+        "involuntary_payment": 1,
+        "migration_metro": 5,
+        "voluntary": 1
+      },
+      "grossCancelsExMetroTest": 2,
+      "netCancelsEngine": 2,
+      "exposureMonths": 50.5,
+      "monthlyChurnNetPct": 4
+    }
+  ],
+  "churn": {
+    "sinceApr1_toNov8": {
+      "through": "2026-11-08",
+      "exposureMonths": 503.9,
+      "netCancels": 8,
+      "netMonthlyPct": 1.6,
+      "netAnnualizedPct": 17.5,
+      "grossCancels": 12,
+      "grossMonthlyPct": 2.4,
+      "grossByClass": {
+        "voluntary": 9,
+        "involuntary_payment": 1,
+        "formation_refunded": 2
+      },
+      "grossByStripeReason": {
+        "cancellation_requested": 12
+      },
+      "grossVsNetReconciliation": {
+        "reinstated later (not net churn)": 2,
+        "counted in net": 8,
+        "formation_refunded (entity dropped by engine)": 2
+      }
+    },
+    "sinceApr1_toAsOf": {
+      "through": "2026-11-13",
+      "exposureMonths": 523.5,
+      "netCancels": 9,
+      "netMonthlyPct": 1.7,
+      "netAnnualizedPct": 18.8,
+      "grossCancels": 13,
+      "grossMonthlyPct": 2.5,
+      "grossByClass": {
+        "voluntary": 9,
+        "involuntary_payment": 2,
+        "formation_refunded": 2
+      },
+      "grossByStripeReason": {
+        "cancellation_requested": 13
+      },
+      "grossVsNetReconciliation": {
+        "reinstated later (not net churn)": 2,
+        "counted in net": 9,
+        "formation_refunded (entity dropped by engine)": 2
+      }
+    },
+    "trailing30_Nov8": {
+      "through": "2026-11-08",
+      "netCancels": 2,
+      "exposureMonths": 108.5,
+      "monthlyPct": 1.8
+    },
+    "trailing30_asOf": {
+      "through": "2026-11-13",
+      "netCancels": 3,
+      "exposureMonths": 111.6,
+      "monthlyPct": 2.7
+    }
+  },
+  "allTimeVmCancelsByClass": {
+    "voluntary": 9,
+    "involuntary_payment": 2,
+    "formation_refunded": 3,
+    "migration_metro": 5
+  },
+  "allTimeVmCancelsByStripeReason": {
+    "cancellation_requested": 14
+  },
+  "overlap": {
+    "liveVmEntities": 120,
+    "liveRaSubsOnLiveVmEntities": 1,
+    "ofWhichCancelAtPeriodEnd": 1,
+    "ofWhichStripeStatus": {
+      "trialing": 1
+    },
+    "legacyActiveRaRowsOnLiveVmEntities": 0,
+    "liveVmEntitiesWithRaOptOut": 3,
+    "raCancelsSinceApr1ClassVmIncludesRa": 3,
+    "raCancelsSinceApr1ByMonth": {
+      "2026-11": 2,
+      "2026-10": 1
+    },
+    "raSubsEverOnVmEntities": 6
+  },
+  "attach": [
+    {
+      "label": "A. P2-05 rule (all PLLC entities, real sub started <=90d)",
+      "table": [
+        {
+          "month": "2026-04",
+          "entities": 48,
+          "vmWithin90d": 17,
+          "attachPct": 35.4,
+          "checkout": 15,
+          "opStage": 0,
+          "otherLater": 2,
+          "everAttachedToDate": 17,
+          "everCheckout": 15,
+          "everLater": 2,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-05",
+          "entities": 55,
+          "vmWithin90d": 18,
+          "attachPct": 32.7,
+          "checkout": 17,
+          "opStage": 0,
+          "otherLater": 1,
+          "everAttachedToDate": 18,
+          "everCheckout": 17,
+          "everLater": 1,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-06",
+          "entities": 44,
+          "vmWithin90d": 10,
+          "attachPct": 22.7,
+          "checkout": 10,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 10,
+          "everCheckout": 10,
+          "everLater": 0,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-07",
+          "entities": 44,
+          "vmWithin90d": 9,
+          "attachPct": 20.5,
+          "checkout": 9,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 9,
+          "everCheckout": 9,
+          "everLater": 0,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-08",
+          "entities": 44,
+          "vmWithin90d": 10,
+          "attachPct": 22.7,
+          "checkout": 8,
+          "opStage": 0,
+          "otherLater": 2,
+          "everAttachedToDate": 11,
+          "everCheckout": 9,
+          "everLater": 2,
+          "windowStillOpen": 20,
+          "mature": false
+        },
+        {
+          "month": "2026-09",
+          "entities": 51,
+          "vmWithin90d": 16,
+          "attachPct": 31.4,
+          "checkout": 15,
+          "opStage": 0,
+          "otherLater": 1,
+          "everAttachedToDate": 16,
+          "everCheckout": 15,
+          "everLater": 1,
+          "windowStillOpen": 51,
+          "mature": false
+        },
+        {
+          "month": "2026-10",
+          "entities": 67,
+          "vmWithin90d": 19,
+          "attachPct": 28.4,
+          "checkout": 19,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 19,
+          "everCheckout": 19,
+          "everLater": 0,
+          "windowStillOpen": 67,
+          "mature": false
+        },
+        {
+          "month": "2026-11",
+          "entities": 24,
+          "vmWithin90d": 7,
+          "attachPct": 29.2,
+          "checkout": 7,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 7,
+          "everCheckout": 7,
+          "everLater": 0,
+          "windowStillOpen": 24,
+          "mature": false
+        }
+      ],
+      "pooledMature": {
+        "entities": 191,
+        "vm": 54,
+        "pct": 28.3
+      }
+    },
+    {
+      "label": "B. A minus cancelled-and-refunded formations",
+      "table": [
+        {
+          "month": "2026-04",
+          "entities": 47,
+          "vmWithin90d": 16,
+          "attachPct": 34,
+          "checkout": 14,
+          "opStage": 0,
+          "otherLater": 2,
+          "everAttachedToDate": 16,
+          "everCheckout": 14,
+          "everLater": 2,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-05",
+          "entities": 54,
+          "vmWithin90d": 17,
+          "attachPct": 31.5,
+          "checkout": 16,
+          "opStage": 0,
+          "otherLater": 1,
+          "everAttachedToDate": 17,
+          "everCheckout": 16,
+          "everLater": 1,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-06",
+          "entities": 43,
+          "vmWithin90d": 10,
+          "attachPct": 23.3,
+          "checkout": 10,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 10,
+          "everCheckout": 10,
+          "everLater": 0,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-07",
+          "entities": 44,
+          "vmWithin90d": 9,
+          "attachPct": 20.5,
+          "checkout": 9,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 9,
+          "everCheckout": 9,
+          "everLater": 0,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-08",
+          "entities": 43,
+          "vmWithin90d": 10,
+          "attachPct": 23.3,
+          "checkout": 8,
+          "opStage": 0,
+          "otherLater": 2,
+          "everAttachedToDate": 11,
+          "everCheckout": 9,
+          "everLater": 2,
+          "windowStillOpen": 20,
+          "mature": false
+        },
+        {
+          "month": "2026-09",
+          "entities": 51,
+          "vmWithin90d": 16,
+          "attachPct": 31.4,
+          "checkout": 15,
+          "opStage": 0,
+          "otherLater": 1,
+          "everAttachedToDate": 16,
+          "everCheckout": 15,
+          "everLater": 1,
+          "windowStillOpen": 51,
+          "mature": false
+        },
+        {
+          "month": "2026-10",
+          "entities": 66,
+          "vmWithin90d": 19,
+          "attachPct": 28.8,
+          "checkout": 19,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 19,
+          "everCheckout": 19,
+          "everLater": 0,
+          "windowStillOpen": 66,
+          "mature": false
+        },
+        {
+          "month": "2026-11",
+          "entities": 24,
+          "vmWithin90d": 7,
+          "attachPct": 29.2,
+          "checkout": 7,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 7,
+          "everCheckout": 7,
+          "everLater": 0,
+          "windowStillOpen": 24,
+          "mature": false
+        }
+      ],
+      "pooledMature": {
+        "entities": 188,
+        "vm": 52,
+        "pct": 27.7
+      }
+    },
+    {
+      "label": "C. B with engine start rule (non-pending row)",
+      "table": [
+        {
+          "month": "2026-04",
+          "entities": 47,
+          "vmWithin90d": 16,
+          "attachPct": 34,
+          "checkout": 14,
+          "opStage": 0,
+          "otherLater": 2,
+          "everAttachedToDate": 16,
+          "everCheckout": 14,
+          "everLater": 2,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-05",
+          "entities": 54,
+          "vmWithin90d": 17,
+          "attachPct": 31.5,
+          "checkout": 16,
+          "opStage": 0,
+          "otherLater": 1,
+          "everAttachedToDate": 17,
+          "everCheckout": 16,
+          "everLater": 1,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-06",
+          "entities": 43,
+          "vmWithin90d": 10,
+          "attachPct": 23.3,
+          "checkout": 10,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 10,
+          "everCheckout": 10,
+          "everLater": 0,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-07",
+          "entities": 44,
+          "vmWithin90d": 9,
+          "attachPct": 20.5,
+          "checkout": 9,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 9,
+          "everCheckout": 9,
+          "everLater": 0,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-08",
+          "entities": 43,
+          "vmWithin90d": 10,
+          "attachPct": 23.3,
+          "checkout": 8,
+          "opStage": 0,
+          "otherLater": 2,
+          "everAttachedToDate": 11,
+          "everCheckout": 9,
+          "everLater": 2,
+          "windowStillOpen": 20,
+          "mature": false
+        },
+        {
+          "month": "2026-09",
+          "entities": 51,
+          "vmWithin90d": 16,
+          "attachPct": 31.4,
+          "checkout": 15,
+          "opStage": 0,
+          "otherLater": 1,
+          "everAttachedToDate": 16,
+          "everCheckout": 15,
+          "everLater": 1,
+          "windowStillOpen": 51,
+          "mature": false
+        },
+        {
+          "month": "2026-10",
+          "entities": 66,
+          "vmWithin90d": 19,
+          "attachPct": 28.8,
+          "checkout": 19,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 19,
+          "everCheckout": 19,
+          "everLater": 0,
+          "windowStillOpen": 66,
+          "mature": false
+        },
+        {
+          "month": "2026-11",
+          "entities": 24,
+          "vmWithin90d": 7,
+          "attachPct": 29.2,
+          "checkout": 7,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 7,
+          "everCheckout": 7,
+          "everLater": 0,
+          "windowStillOpen": 24,
+          "mature": false
+        }
+      ],
+      "pooledMature": {
+        "entities": 188,
+        "vm": 52,
+        "pct": 27.7
+      }
+    },
+    {
+      "label": "D. B, numerator only subs not cancelled today",
+      "table": [
+        {
+          "month": "2026-04",
+          "entities": 47,
+          "vmWithin90d": 11,
+          "attachPct": 23.4,
+          "checkout": 10,
+          "opStage": 0,
+          "otherLater": 1,
+          "everAttachedToDate": 16,
+          "everCheckout": 14,
+          "everLater": 2,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-05",
+          "entities": 54,
+          "vmWithin90d": 16,
+          "attachPct": 29.6,
+          "checkout": 15,
+          "opStage": 0,
+          "otherLater": 1,
+          "everAttachedToDate": 17,
+          "everCheckout": 16,
+          "everLater": 1,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-06",
+          "entities": 43,
+          "vmWithin90d": 9,
+          "attachPct": 20.9,
+          "checkout": 9,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 10,
+          "everCheckout": 10,
+          "everLater": 0,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-07",
+          "entities": 44,
+          "vmWithin90d": 8,
+          "attachPct": 18.2,
+          "checkout": 8,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 9,
+          "everCheckout": 9,
+          "everLater": 0,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-08",
+          "entities": 43,
+          "vmWithin90d": 10,
+          "attachPct": 23.3,
+          "checkout": 8,
+          "opStage": 0,
+          "otherLater": 2,
+          "everAttachedToDate": 11,
+          "everCheckout": 9,
+          "everLater": 2,
+          "windowStillOpen": 20,
+          "mature": false
+        },
+        {
+          "month": "2026-09",
+          "entities": 51,
+          "vmWithin90d": 16,
+          "attachPct": 31.4,
+          "checkout": 15,
+          "opStage": 0,
+          "otherLater": 1,
+          "everAttachedToDate": 16,
+          "everCheckout": 15,
+          "everLater": 1,
+          "windowStillOpen": 51,
+          "mature": false
+        },
+        {
+          "month": "2026-10",
+          "entities": 66,
+          "vmWithin90d": 19,
+          "attachPct": 28.8,
+          "checkout": 19,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 19,
+          "everCheckout": 19,
+          "everLater": 0,
+          "windowStillOpen": 66,
+          "mature": false
+        },
+        {
+          "month": "2026-11",
+          "entities": 24,
+          "vmWithin90d": 7,
+          "attachPct": 29.2,
+          "checkout": 7,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 7,
+          "everCheckout": 7,
+          "everLater": 0,
+          "windowStillOpen": 24,
+          "mature": false
+        }
+      ],
+      "pooledMature": {
+        "entities": 188,
+        "vm": 44,
+        "pct": 23.4
+      }
+    },
+    {
+      "label": "E. A, all entity types (PLLC + LLC)",
+      "table": [
+        {
+          "month": "2026-04",
+          "entities": 49,
+          "vmWithin90d": 17,
+          "attachPct": 34.7,
+          "checkout": 15,
+          "opStage": 0,
+          "otherLater": 2,
+          "everAttachedToDate": 17,
+          "everCheckout": 15,
+          "everLater": 2,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-05",
+          "entities": 57,
+          "vmWithin90d": 18,
+          "attachPct": 31.6,
+          "checkout": 17,
+          "opStage": 0,
+          "otherLater": 1,
+          "everAttachedToDate": 18,
+          "everCheckout": 17,
+          "everLater": 1,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-06",
+          "entities": 47,
+          "vmWithin90d": 10,
+          "attachPct": 21.3,
+          "checkout": 10,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 10,
+          "everCheckout": 10,
+          "everLater": 0,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-07",
+          "entities": 47,
+          "vmWithin90d": 9,
+          "attachPct": 19.1,
+          "checkout": 9,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 9,
+          "everCheckout": 9,
+          "everLater": 0,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-08",
+          "entities": 47,
+          "vmWithin90d": 10,
+          "attachPct": 21.3,
+          "checkout": 8,
+          "opStage": 0,
+          "otherLater": 2,
+          "everAttachedToDate": 11,
+          "everCheckout": 9,
+          "everLater": 2,
+          "windowStillOpen": 23,
+          "mature": false
+        },
+        {
+          "month": "2026-09",
+          "entities": 51,
+          "vmWithin90d": 16,
+          "attachPct": 31.4,
+          "checkout": 15,
+          "opStage": 0,
+          "otherLater": 1,
+          "everAttachedToDate": 16,
+          "everCheckout": 15,
+          "everLater": 1,
+          "windowStillOpen": 51,
+          "mature": false
+        },
+        {
+          "month": "2026-10",
+          "entities": 68,
+          "vmWithin90d": 19,
+          "attachPct": 27.9,
+          "checkout": 19,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 19,
+          "everCheckout": 19,
+          "everLater": 0,
+          "windowStillOpen": 68,
+          "mature": false
+        },
+        {
+          "month": "2026-11",
+          "entities": 24,
+          "vmWithin90d": 7,
+          "attachPct": 29.2,
+          "checkout": 7,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 7,
+          "everCheckout": 7,
+          "everLater": 0,
+          "windowStillOpen": 24,
+          "mature": false
+        }
+      ],
+      "pooledMature": {
+        "entities": 200,
+        "vm": 54,
+        "pct": 27
+      }
+    },
+    {
+      "label": "F. E minus cancelled-and-refunded",
+      "table": [
+        {
+          "month": "2026-04",
+          "entities": 48,
+          "vmWithin90d": 16,
+          "attachPct": 33.3,
+          "checkout": 14,
+          "opStage": 0,
+          "otherLater": 2,
+          "everAttachedToDate": 16,
+          "everCheckout": 14,
+          "everLater": 2,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-05",
+          "entities": 56,
+          "vmWithin90d": 17,
+          "attachPct": 30.4,
+          "checkout": 16,
+          "opStage": 0,
+          "otherLater": 1,
+          "everAttachedToDate": 17,
+          "everCheckout": 16,
+          "everLater": 1,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-06",
+          "entities": 46,
+          "vmWithin90d": 10,
+          "attachPct": 21.7,
+          "checkout": 10,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 10,
+          "everCheckout": 10,
+          "everLater": 0,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-07",
+          "entities": 47,
+          "vmWithin90d": 9,
+          "attachPct": 19.1,
+          "checkout": 9,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 9,
+          "everCheckout": 9,
+          "everLater": 0,
+          "windowStillOpen": 0,
+          "mature": true
+        },
+        {
+          "month": "2026-08",
+          "entities": 46,
+          "vmWithin90d": 10,
+          "attachPct": 21.7,
+          "checkout": 8,
+          "opStage": 0,
+          "otherLater": 2,
+          "everAttachedToDate": 11,
+          "everCheckout": 9,
+          "everLater": 2,
+          "windowStillOpen": 23,
+          "mature": false
+        },
+        {
+          "month": "2026-09",
+          "entities": 51,
+          "vmWithin90d": 16,
+          "attachPct": 31.4,
+          "checkout": 15,
+          "opStage": 0,
+          "otherLater": 1,
+          "everAttachedToDate": 16,
+          "everCheckout": 15,
+          "everLater": 1,
+          "windowStillOpen": 51,
+          "mature": false
+        },
+        {
+          "month": "2026-10",
+          "entities": 67,
+          "vmWithin90d": 19,
+          "attachPct": 28.4,
+          "checkout": 19,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 19,
+          "everCheckout": 19,
+          "everLater": 0,
+          "windowStillOpen": 67,
+          "mature": false
+        },
+        {
+          "month": "2026-11",
+          "entities": 24,
+          "vmWithin90d": 7,
+          "attachPct": 29.2,
+          "checkout": 7,
+          "opStage": 0,
+          "otherLater": 0,
+          "everAttachedToDate": 7,
+          "everCheckout": 7,
+          "everLater": 0,
+          "windowStillOpen": 24,
+          "mature": false
+        }
+      ],
+      "pooledMature": {
+        "entities": 197,
+        "vm": 52,
+        "pct": 26.4
+      }
+    }
+  ],
+  "opUpsell": {
+    "sentEver": 98,
+    "checkoutCompletedEver": 2
+  },
+  "stripeVm": {
+    "window": "2026-04-01..2026-11-13 (invoice created, ET)",
+    "invoicesSeen": 581,
+    "paidInvoices": 467,
+    "paidZeroInvoices": 108,
+    "paidCents": 2316198,
+    "subscriptionLineCentsOnPaid": 2316000,
+    "otherLineCentsOnPaid": 198,
+    "otherLinesOnPaid": 1,
+    "invoicesWithOtherLines": [
+      {
+        "month": "2026-11",
+        "status": "paid",
+        "otherLineCents": 198,
+        "otherLines": 1
+      }
+    ],
+    "paidByMonth": {
+      "2026-11": 55,
+      "2026-10": 93,
+      "2026-09": 78,
+      "2026-08": 70,
+      "2026-07": 64,
+      "2026-06": 54,
+      "2026-05": 33,
+      "2026-04": 20
+    },
+    "paidCentsByMonth": {
+      "2026-11": 273698,
+      "2026-10": 461000,
+      "2026-09": 386000,
+      "2026-08": 348500,
+      "2026-07": 316000,
+      "2026-06": 266000,
+      "2026-05": 165000,
+      "2026-04": 100000
+    },
+    "zeroPaidByMonth": {
+      "2026-11": 9,
+      "2026-10": 21,
+      "2026-09": 15,
+      "2026-08": 10,
+      "2026-07": 11,
+      "2026-06": 9,
+      "2026-05": 18,
+      "2026-04": 15
+    },
+    "unitAmountsOnPaid": {
+      "month:5000": 457,
+      "month:3500": 6,
+      "month:2500": 4
+    },
+    "chargesMatched": 467,
+    "chargesGrossCents": 2316198,
+    "feeCents": 81155,
+    "feePerChargeCents": 174,
+    "effectiveFeePct": 3.5,
+    "feeByChargeAmount": {
+      "2500": {
+        "n": 4,
+        "fee": 412
+      },
+      "3500": {
+        "n": 6,
+        "fee": 792
+      },
+      "5000": {
+        "n": 456,
+        "fee": 79770
+      },
+      "5198": {
+        "n": 1,
+        "fee": 181
+      }
+    },
+    "refundedCents": 15000,
+    "disputedCharges": 0,
+    "unpaidAttemptedInvoices": 3,
+    "unpaidAttemptedCents": 15000,
+    "unpaidAttemptedByStatus": {
+      "open": 3
+    },
+    "badDebtPctOfBilled": 0.6
+  },
+  "liveVmPrices": [
+    {
+      "unitAmount": 5000,
+      "interval": "month",
+      "intervalCount": 1,
+      "active": true,
+      "subs": 118
+    },
+    {
+      "unitAmount": 3500,
+      "interval": "month",
+      "intervalCount": 1,
+      "active": true,
+      "subs": 1
+    },
+    {
+      "unitAmount": 2500,
+      "interval": "month",
+      "intervalCount": 1,
+      "active": true,
+      "subs": 1
+    }
+  ],
+  "crmAmountsLiveVm": {
+    "2500": 1,
+    "3500": 1,
+    "5000": 118
+  },
+  "postage": {
+    "shipmentsAll": 16,
+    "byStatus": {
+      "PURCHASED": 13,
+      "REJECTED": 3
+    },
+    "firstShipment": "2026-11-06",
+    "billableWithPostage": 12,
+    "billablePostageCents": 2591,
+    "billedCount": 8,
+    "billedCents": 1282,
+    "unbilledCount": 4,
+    "unbilledCents": 1309,
+    "nonBillable": 1,
+    "nonBillablePostageCents": 78,
+    "byKind": {
+      "FLAT": 6,
+      "LETTER": 5,
+      "PARCEL": 1
+    }
+  }
+}

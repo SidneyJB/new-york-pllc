@@ -46,7 +46,7 @@ No bullet is complete yet. Each needs Sid or Ops sign-off before it is checked.
 - Labor minutes (no CRM timing exists).
 - Whether CRM "Start Virtual Mail" needs a current card first.
 - Address type is a heuristic; the 85 home-address matches rely on the owner's personal address in the CRM.
-- The P1-05 Nov 8 evidence file (`PLLC-CRM/crm/reports/p1-05-2026-11-08/README.md`) is not on disk. Churn (2.4%/month) and the address-use draft were taken from the checklist's summary of it.
+- The P1-05 Nov 8 evidence file (`../evidence/p1-05-vm-economics-2026-11-13/README.md`) is not on disk. Churn (2.4%/month) and the address-use draft were taken from the checklist's summary of it.
 - Mail scanning: the request mentioned scanned mail, but the live page and agreement promise only weekly forwarding. The service sheet does not offer scanning.
 
 ## Sources

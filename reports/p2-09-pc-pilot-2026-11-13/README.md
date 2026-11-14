@@ -42,7 +42,7 @@ This covers the PC half of [checklist P2-09](../../nypllc-90-day-execution-check
 - Corporate-record templates: bylaws, consent and the stock legend under BCL §§1507–1511 (counsel review before the first case).
 - Whether demand case D's service (healthcare navigation advisory) is a licensed profession that can form a PC at all.
 - The physical corporate-kit cost (~$75 assumed).
-- The P1-03 folder `PLLC-CRM/crm/reports/p1-03-2026-11-08/` was not in this checkout. The $514 PLLC benchmark comes from the P2-11 README and the decision log.
+- The P1-03 folder `../evidence/p1-03-unit-economics-2026-11-13/README.md/` was not in this checkout. The $514 PLLC benchmark comes from the P2-11 README and the decision log.
 
 ## Method
 

@@ -5,7 +5,7 @@
 ## Where things stand
 
 - **Volume:** October set a record (68 orders, $63.6K). November is on pace (19 through Nov 8).
-- **Profit (Relay actuals, Nov 9):** Apr–Oct operating profit before owner pay is about **$423K annualized** on cash, $371K on accrual, and $290K after Sid's Gusto pay (Spiffy included) ([P1-03 §3a](../../PLLC-CRM/crm/reports/p1-03-2026-11-08/README.md)). Overhead is about $1,365/month (74% Amazon). Metro partner income is falling.
+- **Profit (Relay actuals, Nov 9):** Apr–Oct operating profit before owner pay is about **$423K annualized** on cash, $371K on accrual, and $290K after Sid's Gusto pay (Spiffy included) ([P1-03 §3a](../reports/evidence/p1-03-unit-economics-2026-11-13/README.md)). Overhead is about $1,365/month (74% Amazon). Metro partner income is falling.
 - **Collections:** payment plans are healthy (98–100% collected).
 - **VM:** churn is 2.4%/month, all voluntary; 96 paying.
 - **RA:** the first paid renewal landed and the descriptor is right. 7 of the next 96 renewals have no card.

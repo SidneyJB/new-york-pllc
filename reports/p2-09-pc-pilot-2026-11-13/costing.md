@@ -2,7 +2,7 @@
 
 Conventions follow the [decision log](../../decision-log.md), Nov 9 row: **labor is not costed in dollars.** Minutes are tracked for capacity only. Contribution = price − government and third-party cash − Stripe (3% + $0.30). PLLC benchmark: **$514 contribution at $885** (P1-03, via the [P2-11 model](../p2-11-model-2026-11-11/README.md)). The CRM PLLC COGS constants are $345 (articles $235 incl. expedite and certified copy, NYSED $10, legal notices $50, cert pub $50).
 
-The P1-03 folder `PLLC-CRM/crm/reports/p1-03-2026-11-08/` was not on disk in this checkout, so the $514 figure is taken from the P2-11 README and the decision log.
+The P1-03 folder `../evidence/p1-03-unit-economics-2026-11-13/README.md/` was not on disk in this checkout, so the $514 figure is taken from the P2-11 README and the decision log.
 
 ## 1. Cash cost per standard PC case
 

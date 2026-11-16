@@ -1,23 +1,18 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { resolveSpiffyCheckoutHref } from '@/components/spiffy/resolve-spiffy-checkout-href'
+import { SPIFFY_PLLC_CHECKOUT_URL } from '@/components/spiffy/spiffy-pllc-checkout'
 import { trackCTAClick } from '@/lib/analytics/track'
 import { PRICING } from '@/lib/constants'
-import { buildOrderPageHref } from '@/lib/referral-attribution/build-order-page-href'
-import { getPartnerCodeFromCookie } from '@/lib/referral-attribution/get-partner-code-from-cookie'
-
-const SPIFFY_PLLC_CHECKOUT_URL =
-  'https://nypllc.spiffy.co/checkout/new-york-pllc-formation'
 
 export function OrderFallbackCheckoutNotice() {
   const [href, setHref] = useState(SPIFFY_PLLC_CHECKOUT_URL)
 
   useEffect(() => {
-    const partnerCode = getPartnerCodeFromCookie()
-    if (partnerCode) setHref(buildOrderPageHref(partnerCode))
+    // Same partner `c` code + click ids/UTMs the embedded checkout gets.
+    setHref(resolveSpiffyCheckoutHref({ baseUrl: SPIFFY_PLLC_CHECKOUT_URL }))
   }, [])
-
-  const isExternalCheckout = href === SPIFFY_PLLC_CHECKOUT_URL
 
   return (
     <div className="mb-6 rounded-md bg-muted/50 px-4 py-2.5 text-center">
@@ -25,10 +20,13 @@ export function OrderFallbackCheckoutNotice() {
         If you&apos;re having trouble accessing the order form on this page, you can{' '}
         <a
           href={href}
-          target={isExternalCheckout ? '_blank' : undefined}
-          rel={isExternalCheckout ? 'noopener noreferrer' : undefined}
+          target="_blank"
+          rel="noopener noreferrer"
           className="font-medium text-primary underline underline-offset-2 hover:text-primary/90"
-          onClick={() => {
+          onClick={(event) => {
+            // Re-resolve at click time so attribution persisted after mount is included.
+            const latestHref = resolveSpiffyCheckoutHref({ baseUrl: SPIFFY_PLLC_CHECKOUT_URL })
+            event.currentTarget.href = latestHref
             trackCTAClick({
               cta: 'spiffy-direct-checkout',
               location: 'order-embed-fallback',

@@ -308,7 +308,7 @@ Done when: the first case works end to end and the partner understands how to se
 
 ### P2-05. Improve VM attachment on new formations
 
-**Nov 13 status:** drafts in [reports/p2-05-vm-attach-2026-11-13/](reports/p2-05-vm-attach-2026-11-13/README.md), with 6 decisions waiting on Sid. Pending VM checkouts are **97, not 67** (all expired and unpaid). The clean follow-up segment is 17 now and 36 after publication. The OP email produced 2 purchases from 97 sends but 62 replies. 90-day attach by order month, Apr–Oct: 36/32/23/20/23/31/28% (Aug–Oct not yet mature). Boxes stay unchecked until Sid approves.
+**Nov 13 status:** drafts in [reports/p2-05-vm-attach-2026-11-13/](reports/p2-05-vm-attach-2026-11-13/README.md), with 6 decisions waiting on Sid (**Nov 16:** decisions 3 and 4 made, see [decision log](decision-log.md); 1, 2, 5, 6 open). Pending VM checkouts are **97, not 67** (all expired and unpaid). The clean follow-up segment is 17 now and 36 after publication. The OP email produced 2 purchases from 97 sends but 62 replies. 90-day attach by order month, Apr–Oct: 36/32/23/20/23/31/28% (Aug–Oct not yet mature). Boxes stay unchecked until Sid approves.
 
 Owner: Agent for implementation; Ops for setup; Sid for copy. Target: before November 14. Required. Dependency: P1-05.
 
@@ -326,7 +326,7 @@ Done when: the revised offer is accurate, setup completes reliably, and new paid
 
 ### P2-06. Prepare the existing-practice VM migration pilot
 
-**Nov 13 status:** drafts in [reports/p2-06-vm-migration-2026-11-13/](reports/p2-06-vm-migration-2026-11-13/README.md), with 7 decisions waiting on Sid. Proposed setup fee is $129 all-in, leaving about $70 net for about 65 minutes (not yet timed). A migration adds about $501/yr, because the $99 RA subscription ends when VM starts. 179 candidates, Tier 1 = 20. Boxes stay unchecked until Sid approves.
+**Nov 13 status:** drafts in [reports/p2-06-vm-migration-2026-11-13/](reports/p2-06-vm-migration-2026-11-13/README.md), with 7 decisions waiting on Sid (**Nov 16:** 1–6 made, see [decision log](decision-log.md): free switch, $50 first month, Tier 1 emails allowed, pilot now, law firms out, sheet wording not approved; 7 open). Originally proposed setup fee was $129 all-in, leaving about $70 net for about 65 minutes (not yet timed). A migration adds about $501/yr, because the $99 RA subscription ends when VM starts. 179 candidates, Tier 1 = 20. Boxes stay unchecked until Sid approves.
 
 Owner: Ops for service design; Sid for commercial scope; Agent for materials. Due: November 13. Required preparation; paid rollout is conditional on readiness.
 

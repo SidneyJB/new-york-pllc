@@ -10,7 +10,7 @@ Your New York PLLC is already formed. Your home address is on the public New Yor
 
 ## What you get
 
-- **A business mailing address** at 1 Blue Hill Plaza, Pearl River, NY 10965, for your entity's mail and the public state record.
+- **A business mailing address** at 1 Blue Hill Plaza, Suite 1509-24, Pearl River, NY 10965, for your entity's mail and the public state record.
 - **Registered agent service**, included.
 - **Weekly forwarding.** Mail is forwarded every Friday to the US address you choose.
 - **Signature for certified and registered mail**, and packages accepted.
@@ -50,9 +50,7 @@ We file with the state only after we have your Form 1583. That way your mail is 
 
 ## What this service is not
 
-- **Not a practice location.** Do not list our address as the place you see patients or clients. Many payers, NPPES, DEA and banks need a physical practice address.
 - **Not daily mail or scanning.** We forward weekly.
-- **Not a full privacy service.** Earlier state filings stay public. NYSED, the IRS and your bank keep their own records. You update the IRS (Form 8822-B), banks, payers and your own license address yourself.
 
 ## Cancelling
 

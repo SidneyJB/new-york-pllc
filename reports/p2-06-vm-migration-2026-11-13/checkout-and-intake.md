@@ -8,7 +8,7 @@ The site has no standalone VM checkout today. VM is sold in the formation checko
 
 | Step | Tool | Who | Notes |
 |---|---|---|---|
-| 1. Setup fee | `crm/scripts/create-ops-payment-link.ts --pllc-id <id> --amount-cents 12900 --label "VM migration setup and Certificate of Change"` (dry-run by default; `--confirm` creates a hosted invoice) | Ops | Only **after** the customer says yes in writing. Never send an invoice first (checklist P2-06 last bullet). |
+| 1. First month (Sid, Nov 16: no setup fee; the $50 first month covers the Certificate of Change) | Collect the first $50 month through the VM subscription (start it billing now) rather than a separate setup invoice. Old route, no longer used: `crm/scripts/create-ops-payment-link.ts --pllc-id <id> --amount-cents 12900 --label "VM migration setup and Certificate of Change"` (dry-run by default; `--confirm` creates a hosted invoice) | Ops | Only **after** the customer says yes in writing. Never send an invoice first (checklist P2-06 last bullet). |
 | 2. Card for the subscription | Per-subscription card link (`/api/stripe/update-card?subscriptionId=`, setup mode, one entity) | Ops | Ops to confirm the right order: start the VM subscription first, then send the card link, or collect the card first. |
 | 3. Start VM | CRM PLLC page, Subscriptions tab, "Start Virtual Mail" | Ops | Billing start must be at least 24 hours out (CRM rule). Set it to the expected activation date. |
 | 4. End RA | CRM Subscriptions tab, cancel the RA subscription (no client email) | Ops | Same session as step 3. The CRM blocks VM and RA on one entity at once. Add a note "RA included with VM, P2-06 migration". |
@@ -17,13 +17,13 @@ The site has no standalone VM checkout today. VM is sold in the formation checko
 
 Unverified (Ops): whether "Start Virtual Mail" needs a valid card on file first, and whether the formation-time card still works for each prospect.
 
-**Option for Sid:** one hosted invoice of $179 (setup $129 + first month $50), with the subscription starting a month later. One payment for the customer, but the first month is then outside the subscription record. Recommendation: keep them separate for the pilot so recurring and one-time revenue stay apart (P3-04 asks for that split).
+**Superseded Nov 16 (no setup fee).** Was: one hosted invoice of $179 (setup $129 + first month $50), with the subscription starting a month later. One payment for the customer, but the first month is then outside the subscription record. Recommendation: keep them separate for the pilot so recurring and one-time revenue stay apart (P3-04 asks for that split).
 
 ## Tracking (for P3-04)
 
 Add a CRM note on each pilot entity with tag `P2-06 migration pilot` and record:
 
-- offer sent date, yes date, setup fee paid date
+- offer sent date, yes date, first $50 month paid date
 - 1583 received date, ID check result
 - VM start date, RA end date
 - DOS filing date, DOS filed date
@@ -72,20 +72,18 @@ Add a CRM note on each pilot entity with tag `P2-06 migration pilot` and record:
 - [ ] First subscription payment succeeded.
 - [ ] 30-day check-in booked.
 
-## Draft first-touch email (for Sid to edit; do not send)
+## Draft first-touch email (Sid's terms Nov 16; awaiting his approval; do not send)
 
 Subject: Your PLLC's public address
 
 Hi {first name},
 
-Your PLLC's public address with the NY Department of State is {home street}. Anyone can look it up.
+Right now the public address for {PLLC name} on the NY Department of State record is {home street}. Anyone can look that up.
 
-We now offer existing clients a move to our business address in Pearl River. We file the state change, receive your entity's mail, and forward it weekly. Registered agent stays included.
+If you'd rather have a business address there, we can move you to ours in Pearl River. We file the change with the state at no charge, receive your PLLC's mail, and forward it to you every week.
 
-It is $129 once, including the state fee, then $50 a month. Registered agent is included, so your $99 yearly renewal would stop.
+It's $50 a month, and that includes registered agent service, so your $99 yearly registered agent renewal would stop. Postage is billed at cost.
 
-It is not a practice location, so it will not work for NPPES or payer enrollment.
-
-Would this help? Reply and I will check it fits before you pay anything.
+Would that help? Just reply and I'll make sure it's a good fit before you pay anything.
 
 Sid

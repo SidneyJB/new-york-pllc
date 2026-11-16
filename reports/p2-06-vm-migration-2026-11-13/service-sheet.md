@@ -27,8 +27,8 @@ Your New York PLLC is already formed. Your home address is on the public New Yor
 
 | | |
 |---|---|
-| One-time setup and change fee | **$129**, including the $30 state filing fee and expedited filing |
-| Monthly service | **$50/month**, registered agent included |
+| Setup and state filing | **No charge.** We file the change with the state at no cost to you. |
+| Monthly service | **$50/month**, registered agent included. Your first $50 month is paid when you sign up. |
 | Postage | At cost, added to your next monthly invoice when we forward mail. No markup. |
 
 If you pay us for registered agent service now, that charge stops when this service starts. You do not pay for both.

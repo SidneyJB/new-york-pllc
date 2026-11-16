@@ -12,7 +12,7 @@ Created Nov 14 2026. Source: [credentialing-path-to-350-500k-net-2028.md](report
 
 - [ ] **Sid:** approve maintenance prices: $69/month for therapists, $119/month for prescribers.
   - Current upkeep is $249/yr. The report sets the market at $45–150/month.
-- [ ] **Sid:** pick the site structure: state hub pages on one site, or separate state sites (see the note at the end).
+- [x] **Sid:** pick the site structure: state hub pages on one site, or separate state sites (see the note at the end). **Nov 16: one site with state pages** ([decision log](decision-log.md)).
 - [ ] **Sid:** confirm the test states: NY, NJ, FL, TX, MD.
 - [ ] **Sid:** approve the written service terms. These become the "proof" substitute:
   - We submit within 5 business days of a complete intake.

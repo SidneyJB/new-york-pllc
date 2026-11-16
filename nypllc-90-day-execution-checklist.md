@@ -316,7 +316,7 @@ Owner: Agent for implementation; Ops for setup; Sid for copy. Target: before Nov
 - [ ] Explain supported mailing/address uses, RA inclusion, postage, setup requirements, and cancellation accurately.
 - [ ] Rewrite the OP-approved message around the actual address decision before filing. Explain what the customer must decide and by when.
 - [ ] Add the planned second touch only for eligible customers who have not responded or purchased. Suppress buyers, cancellations, opt-outs, and customers for whom the service does not fit.
-- [ ] Review the 67 pending checkouts individually by status. Build a clean eligible follow-up segment; do not send every historical record the same message.
+- [x] Review the 67 pending checkouts individually by status. Build a clean eligible follow-up segment; do not send every historical record the same message. **Done:** 97 reviewed Nov 13 ([P2-05 pack](reports/p2-05-vm-attach-2026-11-13/pending-checkouts-review.md)); clean segment 17 now + 19 after publication. **Nov 16:** one-time note sent to 15 of the 17 (re-checked live; [decision log](decision-log.md)). The 19 wait for publication.
 - [ ] Track message sent, delivered where available, clicked where reliable, setup started, setup completed, first successful payment, and time to activation.
 - [ ] Review support questions from the first ten starts. Fix repeated confusion in the offer before increasing promotion.
 - [ ] Report checkout starts and later OP starts separately, then deduplicate into the combined 90-day attach rate.
@@ -336,8 +336,8 @@ Owner: Ops for service design; Sid for commercial scope; Agent for materials. Du
 - [ ] Cost the migration work. Set a transparent setup/change fee and determine whether that fee includes any government fee.
 - [ ] Explain that subscription start, completion of a filing change, and safe termination of an old service may be different dates.
 - [ ] Prepare one concise offer page or service sheet and an existing checkout/invoice route. Use a manual intake for the pilot.
-- [ ] Select 10–15 suitable prospects from permitted past-customer contacts and partner introductions. Do not treat all former formation buyers as suitable mail customers.
-- [ ] Ask for a paid pilot purchase after confirming fit. Do not issue an unsolicited invoice as if the customer already ordered.
+- [x] Select 10–15 suitable prospects from permitted past-customer contacts and partner introductions. Do not treat all former formation buyers as suitable mail customers. **Done Nov 16:** 15 Tier 1 past customers (home address, office-light profession, not law firms, not partner-referred, re-checked live; Sid excluded 3 office-looking addresses and 1 past-due RA). Partner intros not sought.
+- [ ] Ask for a paid pilot purchase after confirming fit. Do not issue an unsolicited invoice as if the customer already ordered. **Nov 16:** first-touch email sent to the 15 (asks them to reply so we confirm fit before payment; no invoice sent).
 
 Done when: a customer can understand the offer, pay for a defined scope, and migrate without gaps in important mail handling.
 

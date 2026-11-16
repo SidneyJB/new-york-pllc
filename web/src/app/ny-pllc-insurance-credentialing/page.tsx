@@ -51,7 +51,7 @@ const FAQS = [
   {
     question: 'What do your credentialing services cost?',
     answer:
-      'Foundation is $399. Move my contracts is $199 plus $99 per insurer. Get in network is $1,795 with 3 commercial insurers, plus $350 for each extra insurer. NY Medicaid is $495 and Medicare is $395. Upkeep is $25 a month or $249 a year. Payment plans are available.',
+      'Foundation is $399. Move my contracts is $249 plus $149 per insurer. Get in network is $1,795 with 3 commercial insurers, plus $350 for each extra insurer. NY Medicaid is $495 and Medicare is $395. Upkeep is $25 a month or $249 a year. Payment plans are available.',
   },
 ]
 
@@ -64,7 +64,7 @@ const TIERS = [
   },
   {
     name: 'Move my contracts',
-    price: '$199 + $99 per insurer',
+    price: '$249 + $149 per insurer',
     detail:
       'For clinicians already in network under their own name: PLLC NPI, CAQH update, and linking each existing contract to the PLLC.',
   },

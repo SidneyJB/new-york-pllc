@@ -13,7 +13,7 @@ Created Nov 14 2026. Source: [credentialing-path-to-350-500k-net-2028.md](report
 - [ ] **Sid:** approve maintenance prices: $69/month for therapists, $119/month for prescribers.
   - Current upkeep is $249/yr. The report sets the market at $45–150/month.
 - [x] **Sid:** pick the site structure: state hub pages on one site, or separate state sites (see the note at the end). **Nov 16: one site with state pages** ([decision log](decision-log.md)).
-- [ ] **Sid:** confirm the test states: NY, NJ, FL, TX, MD.
+- [x] **Sid:** confirm the test states: NY, NJ, FL, TX, MD. **Confirmed Nov 16** (Sid: matches the research).
 - [ ] **Sid:** approve the written service terms. These become the "proof" substitute:
   - We submit within 5 business days of a complete intake.
   - The client spends about 45 minutes in total.
@@ -21,7 +21,7 @@ Created Nov 14 2026. Source: [credentialing-path-to-350-500k-net-2028.md](report
   - Credit or refund if an insurer declines after payment.
   - Flat published prices.
 - [ ] **Agent:** add the maintenance tiers, once approved, to the price list: `PLLC-CRM/crm/docs/insurance-credentialing-expansion-plan-2026-11.md` and the planner cheatsheet.
-- [ ] **Agent:** check Keyword Planner volumes and CPCs for credentialing terms in the five test states. Needs Sid's Google Ads access; the report's figures came from a third-party tool.
+- [ ] **Agent:** check Keyword Planner volumes and CPCs for credentialing terms in the five test states. **Nov 16 (Sid approved via API): blocked.** The API developer token has Explorer access, which Google doesn't allow for Keyword Planner (`DEVELOPER_TOKEN_NOT_APPROVED`). Routes: Sid applies for Basic access in the Ads API Center, or the agent reads Keyword Planner in the browser on Sid's signed-in Ads account, or Sid exports a CSV. Needs Sid's Google Ads access; the report's figures came from a third-party tool.
 
 ## Nov 17–28, 2026: build
 

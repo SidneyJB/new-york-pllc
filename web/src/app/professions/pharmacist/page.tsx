@@ -161,7 +161,7 @@ export default function PharmacistPage() {
               <Badge variant="outline">EIN + Bank-Ready Docs</Badge>
             </div>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">
                   Start your Pharmacy PLLC &mdash; ${PRICE}
@@ -326,7 +326,7 @@ export default function PharmacistPage() {
               We&apos;re based in New York and responsive by phone and email. No scripts. No bots. Just experienced help for licensed professionals like you.
             </p>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">Start now &mdash; ${PRICE}</Link>
               </Button>

@@ -172,7 +172,7 @@ export default function NursePractitionerPage() {
               <Badge variant="outline">Acute Care</Badge>
             </div>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">
                   Start your NP PLLC — ${PRICE}
@@ -357,7 +357,7 @@ export default function NursePractitionerPage() {
               From NYSED pre-approval through publication and a bank-ready document set, our process is tuned for modern NP practice across specialties and care settings in New York.
             </p>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">Start now — ${PRICE}</Link>
               </Button>

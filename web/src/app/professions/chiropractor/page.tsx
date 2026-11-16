@@ -154,7 +154,7 @@ export default function ChiropractorPage() {
               <Badge variant="outline">EIN + Bank-Ready Docs</Badge>
             </div>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">
                   Start your Chiropractic PLLC — ${PRICE}
@@ -322,7 +322,7 @@ export default function ChiropractorPage() {
               We’re based in New York and actually answer the phone. No scripts. No bots. Just experienced help from people who do this every day.
             </p>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">Start now — ${PRICE}</Link>
               </Button>

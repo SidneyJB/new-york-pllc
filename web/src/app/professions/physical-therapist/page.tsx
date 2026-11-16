@@ -165,7 +165,7 @@ export default function PTPage() {
               <Badge variant="outline">EIN + Bank-Ready Docs</Badge>
             </div>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">
                   Start your PT PLLC — ${PRICE}
@@ -297,7 +297,7 @@ export default function PTPage() {
               We’re New Yorkers. We answer the phone. We explain every step in plain language — before and after you file.
             </p>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">Start now — ${PRICE}</Link>
               </Button>

@@ -183,7 +183,7 @@ export default function EngineeringPage() {
               <Badge variant="outline">EIN + Bank-Ready Docs</Badge>
             </div>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">
                   Start your Engineering PLLC — ${PRICE}
@@ -244,7 +244,7 @@ export default function EngineeringPage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="text-muted-foreground text-sm">
-                  Articles tailored to civil/structural/mechanical/electrical/environmental/geotech services and filed correctly with NYSED and the Department of State — with milestone updates throughout.
+                  Articles tailored to civil/<wbr />structural/<wbr />mechanical/<wbr />electrical/<wbr />environmental/<wbr />geotech services and filed correctly with NYSED and the Department of State — with milestone updates throughout.
                 </CardContent>
               </Card>
 
@@ -357,7 +357,7 @@ export default function EngineeringPage() {
               We’re based in New York and respond quickly by phone and email. No scripts. No bots. Clear steps, accurate filings.
             </p>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">Start now — ${PRICE}</Link>
               </Button>

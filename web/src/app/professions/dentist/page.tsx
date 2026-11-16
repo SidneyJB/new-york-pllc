@@ -151,7 +151,7 @@ export default function DentistPage() {
               <Badge variant="outline">EIN + Bank-Ready Docs</Badge>
             </div>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">
                   Start your Dental PLLC — ${PRICE}
@@ -314,7 +314,7 @@ export default function DentistPage() {
               We’re based in New York and responsive by phone and email. No scripts. No bots. Just experienced help for licensed professionals like you.
             </p>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">Start now — ${PRICE}</Link>
               </Button>

@@ -162,7 +162,7 @@ export default function MHCPage() {
               <Badge variant="outline">EIN + Operating Agreement</Badge>
             </div>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">
                   Start your MHC PLLC — ${PRICE}
@@ -353,7 +353,7 @@ export default function MHCPage() {
               We’re based in New York and actually answer the phone. No scripts. No bots. Just experienced help for licensed professionals.
             </p>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">Start now — ${PRICE}</Link>
               </Button>

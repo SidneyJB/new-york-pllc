@@ -147,7 +147,7 @@ export default function LawFirmPage() {
               <Badge variant="outline">EIN + Operating Agreement</Badge>
             </div>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">
                   Start your Law Firm PLLC — ${PRICE}
@@ -349,7 +349,7 @@ export default function LawFirmPage() {
               attorney-only ownership, and publication — with clear communication from start to finish.
             </p>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">Start now — ${PRICE}</Link>
               </Button>

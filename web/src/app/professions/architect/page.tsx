@@ -175,7 +175,7 @@ export default function ArchitecturePage() {
               <Badge variant="outline">EIN + Bank-Ready Docs</Badge>
             </div>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">
                   Start your Architecture PLLC — ${PRICE}
@@ -355,7 +355,7 @@ export default function ArchitecturePage() {
               We’re based in New York and respond quickly by phone and email. No scripts. No bots. Clear steps, accurate filings.
             </p>
 
-            <div className="mt-10 flex justify-center gap-3">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
                 <Link href="/order">Start now — ${PRICE}</Link>
               </Button>

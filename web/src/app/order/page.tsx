@@ -10,7 +10,7 @@ import { OrderPageClient } from './order-client'
 import { OrderTimeline } from './order-timeline'
 import { SpiffyPllcCheckout } from '@/components/spiffy/spiffy-pllc-checkout'
 import { SpiffyScript } from '@/components/spiffy/spiffy-script'
-import { BUSINESS_INFO, TRUST_MARKETING } from '@/lib/constants'
+import { BUSINESS_INFO, PRICING, TRUST_MARKETING } from '@/lib/constants'
 
 export const metadata = ORDER_METADATA
 
@@ -57,6 +57,7 @@ export default function OrderPage() {
                 <CardTitle>Complete Your Order</CardTitle>
                 <CardDescription>
                   Fill out the secure form below to start your PLLC formation process. All information is encrypted and secure.
+                  {` You can pay $${PRICING.basePrice} in full or split it into 4 payments of $${(PRICING.basePrice / 4).toFixed(2)}. The total is the same either way.`}
                 </CardDescription>
               </CardHeader>
               <CardContent>

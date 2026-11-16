@@ -51,7 +51,7 @@ const FAQS = [
   {
     question: 'What do your credentialing services cost?',
     answer:
-      'Foundation is $399. Move my contracts is $249 plus $149 per insurer. Get in network is $1,795 with 3 commercial insurers, plus $350 for each extra insurer. NY Medicaid is $495 and Medicare is $395. Upkeep is $25 a month or $249 a year. Payment plans are available.',
+      'Foundation is $399. Move my contracts is $249 plus $149 per insurer. Get in network is $1,795 with 3 commercial insurers, plus $350 for each extra insurer. NY Medicaid is $495 and Medicare is $395. Upkeep is $69 a month for therapists, counselors and social workers, and $119 a month for prescribers. Payment plans are available.',
   },
 ]
 
@@ -91,9 +91,9 @@ const TIERS = [
   },
   {
     name: 'Upkeep',
-    price: '$25/month or $249/year',
+    price: '$69/month, or $119/month for prescribers',
     detail:
-      'CAQH re-attestation every 120 days, reminders before documents expire, address and roster changes.',
+      'CAQH re-attestation every 120 days, Medicaid and Medicare revalidations, recredentialing, address and roster changes, and reminders before documents expire.',
   },
 ]
 

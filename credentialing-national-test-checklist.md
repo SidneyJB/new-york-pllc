@@ -14,7 +14,7 @@ Created Nov 14 2026. Source: [credentialing-path-to-350-500k-net-2028.md](report
   - Current upkeep is $249/yr. The report sets the market at $45–150/month.
 - [x] **Sid:** pick the site structure: state hub pages on one site, or separate state sites (see the note at the end). **Nov 16: one site with state pages** ([decision log](decision-log.md)).
 - [x] **Sid:** confirm the test states: NY, NJ, FL, TX, MD. **Confirmed Nov 16** (Sid: matches the research).
-- [ ] **Sid:** approve the written service terms. These become the "proof" substitute:
+- [ ] **Sid:** approve the written service terms. **Nov 16:** drafted ([terms draft](reports/credentialing-service-terms-draft-2026-11-16.md)); waiting on Sid's call on when we charge (written pre-check vs insurers with no pre-check) and the smaller defaults. These become the "proof" substitute:
   - We submit within 5 business days of a complete intake.
   - The client spends about 45 minutes in total.
   - We never invoice an insurer before it confirms in writing that it is open.
@@ -25,7 +25,7 @@ Created Nov 14 2026. Source: [credentialing-path-to-350-500k-net-2028.md](report
 
 ## Nov 17–28, 2026: build
 
-- [ ] **Agent:** draft the landing page(s) for the five test states, following Sid's site-structure choice.
+- [x] **Agent:** draft the landing page(s) for the five test states, following Sid's site-structure choice. **Done Nov 16:** one site with home, pricing, terms, intake and NY/NJ/FL/TX/MD guides (sourced), restyled away from AI tells and humanized; local repo `credentialing-site` (no remote yet). Brand, phone and address are placeholders.
   - Each covers prices, the 5-day promise, panel check before invoicing, what the client does vs what we do, and state Medicaid notes.
 - [ ] **Sid:** approve the landing page copy.
 - [ ] **Agent:** pull the mailing list from the public NPI registry.

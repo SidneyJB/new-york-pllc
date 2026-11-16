@@ -1,5 +1,12 @@
 # Active Context
 
+> **📌 NOV 16 (Sid + agent):**
+> - **Site fixes live (`077d20c`):** all 19 profession pages fit at 375px; checkout fallback link carries `?c=` + click ids; `/order` states the 4-payment plan. Upkeep now $69/mo therapists, $119/mo prescribers on `/ny-pllc-insurance-credentialing` (`c0e64fc`).
+> - **Scorecard Nov 9–15:** [2026-11-15-weekly.md](../scorecards/2026-11-15-weekly.md) (9 orders vs 18; Vercel visitors pending Sid's export).
+> - **P2-05/P2-06 decided** ([decision log](../decision-log.md)): checkout copy not approved; site accuracy fixes deferred; OP-approved email now shows the address on file (CRM `43f2ef96`), no reminder, 24 h hold kept; VM switch-in is free (pay the $50 first month); 30 VM address notes sent (15 already-filed, 15 Tier 1 migration prospects).
+> - **Credentialing:** test states NY/NJ/FL/TX/MD confirmed; one site with state pages, drafted in local repo `credentialing-site` (brand, phone, address and terms approval pending); existing-customer email campaign approved, batches Nov 19, Dec 1/8/10, CAQH group Dec 15 via Tue/Thu scheduled task `credentialing-campaign-sends`. Keyword Planner via API blocked (Explorer token): needs Sid's Google sign-in in the app browser or Basic access.
+> - **Dec 1:** scheduled task `dec1-ads-memo` writes the post-freeze ads memo. Direct mail via Lob: letter first, postcard follow-up (recommended, not yet decided).
+
 > **📌 NOV 14: credentialing research and national channel test.** Credentialing alone: v2 study puts $350K net by Dec 2028 at ~35–40% ($500K ~22%) if sold nationally (setups + $69/$119 maintenance + group retainers); most likely ~$230–300K net. Human time per job is ~30 min (agents do the rest). **Live checklist: [credentialing-national-test-checklist.md](../credentialing-national-test-checklist.md)** (mail + search test from Dec 1, read late Jan–mid Feb 2027). Reports: [market share](../reports/credentialing-market-share-2027-2028.md) · [upside paths](../reports/credentialing-upside-paths-2027-2028.md) · [path to $350–500K net, v2](../reports/credentialing-path-to-350-500k-net-2028.md). Prices set Nov 14: prescriber package $2,995; group retainer $99–129/clinician/month (floor $79).
 
 > **📌 NOV 14 (pressure test of the 2028 plan; Sid's decisions late Nov 13):**

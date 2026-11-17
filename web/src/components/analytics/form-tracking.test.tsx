@@ -190,24 +190,52 @@ describe('useSpiffyFormEngagementTracking', () => {
     delete (window as any).spiffy
   })
 
-  it('reports abandonment on Spiffy identify postMessage', () => {
-    vi.mocked(reportCheckoutAbandonment).mockResolvedValue(true)
+  it('reports abandonment on the Spiffy checkout custom-JS identify postMessage', () => {
+    vi.useFakeTimers()
+    try {
+      vi.mocked(reportCheckoutAbandonment).mockResolvedValue(true)
 
-    renderHook(() => useSpiffyFormEngagementTracking())
+      renderHook(() => useSpiffyFormEngagementTracking())
 
-    act(() => {
-      window.dispatchEvent(
-        new MessageEvent('message', {
-          data: { event: 'identify', em: btoa('sid@nypllc.com') },
-        }),
-      )
-    })
+      act(() => {
+        window.dispatchEvent(
+          new MessageEvent('message', {
+            data: JSON.stringify({ event: 'identify', data: { email: 'sid@nypllc.com' } }),
+            origin: 'https://nypllc.spiffy.co',
+          }),
+        )
+      })
 
-    expect(trackLeadStart).toHaveBeenCalledWith({
-      form: 'checkout',
-      step: 'field_interaction',
-    })
-    expect(reportCheckoutAbandonment).toHaveBeenCalledWith('sid@nypllc.com')
+      expect(trackLeadStart).toHaveBeenCalledWith({
+        form: 'checkout',
+        step: 'field_interaction',
+      })
+      act(() => {
+        vi.advanceTimersByTime(2000)
+      })
+      expect(reportCheckoutAbandonment).toHaveBeenCalledWith('sid@nypllc.com', { keepalive: false })
+    } finally {
+      vi.useRealTimers()
+    }
+  })
+
+  it('ignores identify postMessages from other origins', () => {
+    vi.useFakeTimers()
+    try {
+      renderHook(() => useSpiffyFormEngagementTracking())
+      act(() => {
+        window.dispatchEvent(
+          new MessageEvent('message', {
+            data: JSON.stringify({ event: 'identify', data: { email: 'sid@nypllc.com' } }),
+            origin: 'https://evil.example',
+          }),
+        )
+        vi.advanceTimersByTime(2000)
+      })
+      expect(reportCheckoutAbandonment).not.toHaveBeenCalled()
+    } finally {
+      vi.useRealTimers()
+    }
   })
 
   it('reports abandonment from legacy checkout change:order handler', () => {
@@ -228,11 +256,17 @@ describe('useSpiffyFormEngagementTracking', () => {
     const orderHandler = checkoutOn.mock.calls.find((call: unknown[]) => call[0] === 'change:order')?.[1]
     expect(orderHandler).toBeTypeOf('function')
 
-    act(() => {
-      orderHandler?.({ customer: { email: 'sid@nypllc.com' } })
-    })
+    vi.useFakeTimers()
+    try {
+      act(() => {
+        orderHandler?.({ customer: { email: 'sid@nypllc.com' } })
+        vi.advanceTimersByTime(2000)
+      })
+    } finally {
+      vi.useRealTimers()
+    }
 
-    expect(reportCheckoutAbandonment).toHaveBeenCalledWith('sid@nypllc.com')
+    expect(reportCheckoutAbandonment).toHaveBeenCalledWith('sid@nypllc.com', { keepalive: false })
     el.remove()
   })
 })

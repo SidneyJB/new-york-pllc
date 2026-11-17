@@ -1,0 +1,71 @@
+<script>
+/* nypllc.com abandoned-checkout email capture (Nov 2026).
+   Runs inside the Spiffy checkout. When the buyer enters a valid email, posts
+   {"event":"identify","data":{"email":...}} to the nypllc.com order page that embeds
+   this checkout. Based on Spiffy's experimental change:field example. */
+(function () {
+  var PARENT_ORIGINS = ['https://www.nypllc.com', 'https://nypllc.com'];
+  var EXTRA_PARENT_ORIGIN_RE = /^(https:\/\/new-york-pllc-[a-z0-9-]+\.vercel\.app|https?:\/\/localhost(:\d+)?)$/;
+  var EMAIL_RE = /^[^\s@<>()[\]\\,;:"]+@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z]{2,}$/i;
+  var DEBOUNCE_MS = 800;
+  var lastSent = '';
+  var timer = null;
+
+  if (window.parent === window) return; /* hosted checkout page, not embedded */
+
+  function embeddingOrigin() {
+    try {
+      var ao = window.location.ancestorOrigins;
+      if (ao && ao.length) return ao[0];
+      if (document.referrer) return new URL(document.referrer).origin;
+    } catch (e) {}
+    return '';
+  }
+
+  function targetOrigins() {
+    var o = embeddingOrigin();
+    if (o && (PARENT_ORIGINS.indexOf(o) !== -1 || EXTRA_PARENT_ORIGIN_RE.test(o))) return [o];
+    return PARENT_ORIGINS;
+  }
+
+  function readEmail(fields) {
+    var list = Array.isArray(fields) ? fields : fields ? [fields] : [];
+    for (var i = 0; i < list.length; i++) {
+      var f = list[i];
+      if (f && f.name === 'email' && typeof f.value === 'string') return f.value.trim();
+    }
+    return '';
+  }
+
+  function send(email) {
+    if (email.length > 254 || !EMAIL_RE.test(email)) return;
+    if (email.toLowerCase() === lastSent) return;
+    lastSent = email.toLowerCase();
+    var msg = JSON.stringify({ event: 'identify', data: { email: email } });
+    var origins = targetOrigins();
+    for (var i = 0; i < origins.length; i++) {
+      try { window.parent.postMessage(msg, origins[i]); } catch (e) {}
+    }
+  }
+
+  function start() {
+    checkout.on('change:field', function (fields) {
+      try {
+        var email = readEmail(fields);
+        if (!email) return;
+        clearTimeout(timer);
+        timer = setTimeout(function () { send(email); }, DEBOUNCE_MS);
+      } catch (e) {}
+    });
+  }
+
+  var tries = 0;
+  (function waitForCheckout() {
+    if (typeof checkout !== 'undefined' && checkout && typeof checkout.ready === 'function') {
+      checkout.ready(start);
+    } else if (++tries < 40) {
+      setTimeout(waitForCheckout, 250);
+    }
+  })();
+})();
+</script>

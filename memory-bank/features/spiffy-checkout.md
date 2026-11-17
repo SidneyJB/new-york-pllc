@@ -24,6 +24,7 @@ Payment → Spiffy webhook → Zapier (customer + admin email) → confirmation 
 - Partner coupons / `?c=CODE`: see [partner-referral.md](partner-referral.md); CRM owns partner ops
 - Apply coupon before embed mounts and when Spiffy is already ready
 - Engagement metrics in `sessionStorage` feed purchase event (`engagement_time`, `field_changes`)
+- **Abandoned-checkout email (Nov 17 2026, uncommitted; needs Sid paste + deploy):** Spiffy (Dan, Nov 16) confirmed the inline checkout never posts `identify` / `change:field` / `customer:auth` to the parent page and has no abandonment hook. Fix: custom JS inside the checkout ([docs/spiffy-custom-js-email-capture.html](../../docs/spiffy-custom-js-email-capture.html), pasted into Spiffy checkout custom code) posts `{"event":"identify","data":{"email"}}` to `https://www.nypllc.com`; site hook `use-checkout-abandonment-capture.ts` accepts it only from `https://nypllc.spiffy.co`, debounces 1.5s, flushes on pagehide. Unconfirmed until a live test that Spiffy's `checkout.on('change:field')` fires in the current build.
 - Thank-you URL: `total=` is full contract **cents** (payment plans included); `order=` = Spiffy order id — used for Ads conversion value
 - Prefer www thank-you URL; analytics metadata allowlists safe params only (no SSN/DOB dump)
 

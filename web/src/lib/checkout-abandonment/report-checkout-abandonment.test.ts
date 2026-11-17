@@ -35,3 +35,44 @@ describe('reportCheckoutAbandonment', () => {
     expect(sessionStorage.getItem('checkout_abandonment_reported:fail@nypllc.com')).toBeNull()
   })
 })
+
+describe('reportCheckoutAbandonment keepalive', () => {
+  beforeEach(() => {
+    sessionStorage.clear()
+    vi.stubGlobal('fetch', vi.fn())
+  })
+
+  afterEach(() => {
+    vi.unstubAllGlobals()
+  })
+
+  it('uses keepalive on the first attempt when the page is closing', async () => {
+    const fetchMock = vi.mocked(fetch)
+    fetchMock.mockResolvedValueOnce(new Response('{}', { status: 200 }))
+
+    await reportCheckoutAbandonment('exit@nypllc.com', { keepalive: true })
+
+    expect(fetchMock).toHaveBeenCalledTimes(1)
+    const [url, init] = fetchMock.mock.calls[0]
+    expect(url).toBe('/api/checkout-abandonment')
+    expect(init?.keepalive).toBe(true)
+    expect(JSON.parse(String(init?.body))).toMatchObject({ email: 'exit@nypllc.com' })
+  })
+
+  it('does not use keepalive on the first attempt by default', async () => {
+    const fetchMock = vi.mocked(fetch)
+    fetchMock.mockResolvedValueOnce(new Response('{}', { status: 200 }))
+
+    await reportCheckoutAbandonment('live@nypllc.com')
+
+    expect(fetchMock.mock.calls[0][1]?.keepalive).toBe(false)
+  })
+
+  it('skips the network when this session already reported the email', async () => {
+    const fetchMock = vi.mocked(fetch)
+    sessionStorage.setItem('checkout_abandonment_reported:dup@nypllc.com', '1')
+
+    expect(await reportCheckoutAbandonment('Dup@nypllc.com')).toBe(true)
+    expect(fetchMock).not.toHaveBeenCalled()
+  })
+})

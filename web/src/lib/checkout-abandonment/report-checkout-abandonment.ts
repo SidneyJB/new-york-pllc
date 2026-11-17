@@ -8,7 +8,15 @@ function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms))
 }
 
-export async function reportCheckoutAbandonment(email: string): Promise<boolean> {
+export type ReportCheckoutAbandonmentOptions = {
+  /** Page is closing: let the browser finish the request after unload. */
+  keepalive?: boolean
+}
+
+export async function reportCheckoutAbandonment(
+  email: string,
+  options: ReportCheckoutAbandonmentOptions = {},
+): Promise<boolean> {
   if (typeof window === 'undefined') return false
   const key = `checkout_abandonment_reported:${email.trim().toLowerCase()}`
   try {
@@ -37,7 +45,7 @@ export async function reportCheckoutAbandonment(email: string): Promise<boolean>
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
-        keepalive: attempt === MAX_ATTEMPTS,
+        keepalive: options.keepalive === true || attempt === MAX_ATTEMPTS,
       })
       if (res.ok) {
         try {

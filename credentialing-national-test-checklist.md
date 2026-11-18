@@ -46,7 +46,8 @@ Created Nov 14 2026. Source: [credentialing-path-to-350-500k-net-2028.md](report
 - [ ] **Agent:** ABA prep (Sid, Nov 18: ABA stays on the postcard list): add licensed behavior analyst to the panel tracker, and draft a technician-roster price for Sid. Both before mail batch 1. **Nov 18:** tracker done on branch `credentialing-channel-tracking` (`a946ea04`, not merged); price approved Nov 18 ($99/technician/insurer, $79 for 5+, $149 Medicaid per state; [ABA prep](reports/aba-credentialing-prep-2026-11-18.md)). Open only until the branch is merged.
 - [x] **Agent:** build the batch-1 mail file from the NPI list: drop our 19 customers and the clinic/agency-only rows (Sid, Nov 18; [decision log](decision-log.md)). **Done Nov 18:** [README § Batch 1 file](reports/credentialing-npi-list-2026-11-18/README.md): 1,831 pieces (NY 286, NJ 281, FL 550, TX 502, MD 212); NY letter overlaps also removed; ~$1,337 at Stannp.
 
-- [ ] **Agent:** CRM: let a credentialing engagement exist without one of our PLLCs (clients who didn't form with us), so mail/search leads can be entered (Sid, Nov 18). Ship on Sid's go.
+- [ ] **Agent:** CRM: let a credentialing engagement exist without one of our PLLCs (clients who didn't form with us), so mail/search leads can be entered (Sid, Nov 18). Ship on Sid's go. **Nov 18: built, not shipped** on `credentialing-channel-tracking` (`5d9c3ee6`, `4abd30e8`; migration `20261118180000_add_credentialing_outside_clients` not applied; 3607/3607 tests). Still PLLC-only: CAQH intake wizard, authorization + W-9 generator. Merge waits for the filing worker to stop.
+- [ ] **Agent:** make the credentialing authorization + W-9 generator and the CAQH intake wizard work for outside clients (needed before the first mail/search client signs).
 
 ## Dec 1–12, 2026: launch
 

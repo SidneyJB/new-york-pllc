@@ -12,22 +12,24 @@ You want to get paid by insurance under your practice. We handle the paperwork w
 
 Our prices are flat and published on this site. You pay the price shown for your package and for each insurer you add. There are no hourly charges and no percentage of your claims. If something you ask for isn't on the price list, we quote it in writing before doing it.
 
-## We confirm an insurer is open before we charge for it
+## We check insurers before you buy
 
-Insurers sometimes stop accepting new clinicians for a license type or county. Before we charge you for an insurer, we get that insurer's written confirmation that it is open for your profession and county. We send you what the insurer said. If an insurer is closed, we tell you and don't charge for it.
+Insurers sometimes stop accepting new clinicians for a license type or county. We never sell you an insurer we already know is closed for your profession and county. Your package is billed when you confirm your insurers. If an insurer turns out to be closed, or turns down the application, you choose a credit or a refund for that insurer (below).
 
 ## If an insurer declines after you've paid
 
 Sometimes an insurer closes or turns down an application after you've paid for it. If that happens, we email you the insurer's written answer and you choose one of these:
 
 - **Credit:** we apply that insurer's share to a different insurer of your choice at no extra charge, as long as that insurer is open.
-- **Refund:** we refund $350 for that insurer to your original payment method.
+- **Refund:** we refund that insurer's share to your original payment method within 5 business days of your choice: $350 for each commercial insurer, $495 for Medicaid and $395 for Medicare.
+
+If the insurer declined because of something on your side (for example expired malpractice coverage, a missing document or a license issue), there's no credit or refund, but once it's fixed we resubmit to that insurer once at no charge.
 
 The setup part of your package (NPIs, CAQH profile and the documents we prepare) isn't refunded, because that work is done and you keep it. Asking an insurer to reconsider a closed panel is a separate service with its own price.
 
 ## Our timeline
 
-We submit within 5 business days of a complete intake. A complete intake means your intake form, your signed authorization, your signed W-9 and the documents on the intake checklist. If something is missing, we tell you exactly what, and the 5 days start when it arrives.
+We submit your NPI and CAQH profile within 5 business days of a complete intake, and each insurer application within 5 business days of your CAQH profile being attested. A complete intake means your intake form, your signed authorization, your signed W-9 and the documents on the intake checklist. If something is missing, we tell you exactly what, and the 5 days start when it arrives.
 
 ## Your time
 
@@ -61,7 +63,7 @@ Each insurer decides whether to accept you and how long it takes. We can't guara
 
 After you're in-network, upkeep keeps your enrollments current: CAQH re-attestation every 120 days, Medicare and Medicaid revalidations, recredentialing with each insurer, and address, roster and directory updates. The current upkeep price is shown on the price list.
 
-- Upkeep is billed monthly to the card on file, starting the month after your package is complete.
+- Upkeep is billed monthly to the card on file, starting the month after your first insurer approves you. There's no minimum term; you can cancel any time.
 - You can cancel any time by email. Cancellation takes effect at the end of the month you've paid for, and we don't charge again after that.
 - We don't refund a partial month.
 - If you cancel, you're responsible for your own CAQH attestations and renewals from then on. We'll send you a short list of the dates coming up.
@@ -80,16 +82,27 @@ Our responsibility for any problem with our work is limited to the fees you paid
 
 ---
 
+## Sid's answers (Nov 18)
+
+- Q1: billing follows ops-manual ground rule 10 (Nov 14): package billed up front; never sell a known-closed insurer; credit or refund if an insurer closes or declines. Section rewritten.
+- Q2: 5 days covers NPI + CAQH; insurer applications within 5 business days of CAQH attestation.
+- Q4: client-caused decline: one free resubmission once fixed; no credit or refund.
+- Q5: refunds within 5 business days of the client's choice.
+- Q3: prescriber packages refund $350 per commercial insurer; Medicaid $495 and Medicare $395 (list prices).
+- Q6: closed-panel reconsideration is quoted per case.
+- Q7: upkeep starts the month after the first insurer approves; no minimum term; cancel anytime.
+- Q8: already decided Nov 16: existing $249/yr upkeep clients keep their price.
+
 ## Open questions for Sid
 
-1. **Written-open rule vs apply-first insurers.** This draft promises "written confirmation an insurer is open before we charge," as the checklist and the panel-status rule say. But README ground rule 10 (Nov 14) invoices the package up front, and UHC/Optum BH, Carelon BH (Anthem, Emblem), Evernorth BH and Excellus give no written pre-check; the application is the check. Which do we publish? One option: charge for apply-first insurers only once the application is accepted into credentialing, and say so.
-2. **What "submit within 5 business days" means.** CAQH must be attested before insurers will read it. Does the 5 days cover the NPI and CAQH work only, with insurer applications following CAQH attestation, or every application?
-3. **Prescriber package refund amount.** $350 per insurer is set for the therapist packages. What does a prescriber get back per insurer from the $2,995 package, and does Medicare or Medicaid count the same as a commercial insurer?
-4. **Declines caused by the client** (expired malpractice, incomplete file, license issue): credit, refund or neither?
-5. **Refund timing:** how many days after the client chooses a refund?
-6. **Closed-panel appeal price** is still unset; the terms only say it's separate.
-7. **Upkeep start and minimum term:** start the month after the package completes, or at the first insurer approval? Any minimum term?
-8. **Existing $249/yr upkeep clients:** keep their price or move them with notice?
+1. (Answered Nov 18) **Written-open rule vs apply-first insurers.** This draft promises "written confirmation an insurer is open before we charge," as the checklist and the panel-status rule say. But README ground rule 10 (Nov 14) invoices the package up front, and UHC/Optum BH, Carelon BH (Anthem, Emblem), Evernorth BH and Excellus give no written pre-check; the application is the check. Which do we publish? One option: charge for apply-first insurers only once the application is accepted into credentialing, and say so.
+2. (Answered Nov 18) **What "submit within 5 business days" means.** CAQH must be attested before insurers will read it. Does the 5 days cover the NPI and CAQH work only, with insurer applications following CAQH attestation, or every application?
+3. (Answered Nov 18) **Prescriber package refund amount.** $350 per insurer is set for the therapist packages. What does a prescriber get back per insurer from the $2,995 package, and does Medicare or Medicaid count the same as a commercial insurer?
+4. (Answered Nov 18) **Declines caused by the client** (expired malpractice, incomplete file, license issue): credit, refund or neither?
+5. (Answered Nov 18) **Refund timing:** how many days after the client chooses a refund?
+6. (Answered Nov 18) **Closed-panel appeal price** is still unset; the terms only say it's separate.
+7. (Answered Nov 18) **Upkeep start and minimum term:** start the month after the package completes, or at the first insurer approval? Any minimum term?
+8. (Answered Nov 18) **Existing $249/yr upkeep clients:** keep their price or move them with notice?
 9. **Brand name** for the terms page (brand and domain are still open per the Nov 16 decision log row).
 
 ## Needs counsel before publishing

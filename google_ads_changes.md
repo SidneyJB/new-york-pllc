@@ -1,6 +1,6 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-10-21
+**Last updated:** 2026-11-18
 
 **Calendar (Oct 16, 2026):** $985 is a **November** test, not February. January is not an automatic budget surge. See [decision-log.md](decision-log.md). Rows below are the change history.
 
@@ -9,6 +9,29 @@
 - Customer: NYPLLC (`1529880213`)
 - Live: `Sales-Search-1` + `01_Core_Exact_NY` + `02_Professions_NY` + **`03_ForeignQual_US`** (ENABLED)
 - `03_ForeignQual_US` attached to portfolio `12148056412` (Target CPA $105 hold)
+
+---
+
+## Changes on 2026-11-18 — Freeze exception (policy fix): disapproved `01` ads + sitelink repointed to /order
+
+| Item | Result |
+|---|---|
+| Found | Policy manager → Appeal history: **Jul 10 2026 "Dispute decision" on `01_Core_Exact_NY`, Government Documents — FAILED** (never logged here). Also Jul 9 2026 `02_Professions_NY` (partially successful) and Oct 27 2025 sitelinks (successful) |
+| Decision | Sid, Nov 18: don't re-appeal; point the disapproved items at /order (every ad to /order is approved) |
+| Change | Final URL `/how-to-form-a-pllc-in-ny` → `https://www.nypllc.com/order` on RSAs `816213581518` (Formation-Core), `816213581680`, `816286167770` (Service-Intent) and sitelink asset `388656387708` "How to Form a PLLC" |
+| Tool | `google_ads.repoint_disapproved_to_order` (validate-only pass, then `--confirm`); all four now in review |
+| Next | Check approval in 1–2 business days. If still disapproved: site disclosure line + appeal ([audit](reports/p2-08-ads-audit-2026-11-18.md) §2c). Consider renaming the sitelink text after Dec 1 to match /order |
+
+---
+
+## Changes on 2026-11-18 — Freeze exception (claims fix): domestic assets off `03_ForeignQual_US`
+
+| Item | Result |
+|---|---|
+| Why | P2-08 audit ([report](reports/p2-08-ads-audit-2026-11-18.md) P1): domestic-only assets contradicted foreign ads priced $895–$1000. Inaccurate claim, so allowed under the Nov 15–Dec 1 freeze. Approved by Sid in chat Nov 18 |
+| Change | Removed 6 campaign_asset links from `03_ForeignQual_US` (`24012757620`) only: callouts `370198410524` Flat $885 Price, `370198410530` EIN Included, `370198410533` Operating Agreement, `388575877522` RA Year 1 Free; sitelink `370198410509` Start Your Order — $885; snippet `388656609642` Services |
+| Tool | `google_ads.unlink_foreign_domestic_assets --confirm`; re-check shows 0 of the 6 still linked |
+| Unchanged | Same assets stay on the other three campaigns; `03` keeps the price asset, call asset and other callouts. No bid, budget, keyword or ad change |
 
 ---
 

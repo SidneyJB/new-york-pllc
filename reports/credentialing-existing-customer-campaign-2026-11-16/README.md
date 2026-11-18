@@ -29,7 +29,7 @@ How the 122 split (each PLLC counted once, under the first rule that applies):
 | Wave 2: got the virtual-mail address note today (Nov 16) | 13 | Later wave, Jan 5 2027 (the script refuses within 7 days of that note anyway) |
 | Wave 3: already asked in the formation-complete email (Nov 10 to 16) | 6 | Later wave, Jan 5 2027 (script waits 3 weeks after that email) |
 | Held: got the Sep/Oct $499 CAQH offer with an invoice | 28 | Sid's call (open question 2). Counted as a past quote, so not in any wave |
-| Held: behavior analysts (ABA) | 2 | Sid's call (open question 3) |
+| Held: behavior analysts (ABA) | 2 | **Released Nov 18 (Sid): batch 4, Dec 10** (Peony Path, K. Gareri); same approved text, "behavior analysts" in the last line |
 | Excluded: credentialing engagement in the CRM, or named (Green Sparrow, Cove Compass, Dunia Gibson, Madeline Rose) | 4 | Never |
 | Excluded: credentialing price already sent by email (Nov 11 and 13 quotes, plus one from the CAQH pilot) | 3 | Never; they are open quotes |
 | Excluded: partner-referred order (`b2bPartnerId`) | 4 | Never |

@@ -14,7 +14,7 @@ Created Nov 14 2026. Source: [credentialing-path-to-350-500k-net-2028.md](report
   - Current upkeep is $249/yr. The report sets the market at $45–150/month.
 - [x] **Sid:** pick the site structure: state hub pages on one site, or separate state sites (see the note at the end). **Nov 16: one site with state pages** ([decision log](decision-log.md)).
 - [x] **Sid:** confirm the test states: NY, NJ, FL, TX, MD. **Confirmed Nov 16** (Sid: matches the research).
-- [ ] **Sid:** approve the written service terms. **Nov 16:** drafted ([terms draft](reports/credentialing-service-terms-draft-2026-11-16.md)); waiting on Sid's call on when we charge (written pre-check vs insurers with no pre-check) and the smaller defaults. These become the "proof" substitute:
+- [ ] **Sid:** approve the written service terms. **Nov 16:** drafted ([terms draft](reports/credentialing-service-terms-draft-2026-11-16.md)); waiting on Sid's call on when we charge (written pre-check vs insurers with no pre-check) and the smaller defaults. These become the "proof" substitute: **Nov 18: all 9 open questions answered** ([decision log](decision-log.md)); terms draft and site updated. Still needs counsel on the items listed in the draft before publishing.
   - We submit within 5 business days of a complete intake.
   - The client spends about 45 minutes in total.
   - We never invoice an insurer before it confirms in writing that it is open.
@@ -28,20 +28,25 @@ Created Nov 14 2026. Source: [credentialing-path-to-350-500k-net-2028.md](report
 - [x] **Agent:** draft the landing page(s) for the five test states, following Sid's site-structure choice. **Done Nov 16:** one site with home, pricing, terms, intake and NY/NJ/FL/TX/MD guides (sourced), restyled away from AI tells and humanized; local repo `credentialing-site` (no remote yet). Brand, phone and address are placeholders.
   - Each covers prices, the 5-day promise, panel check before invoicing, what the client does vs what we do, and state Medicaid notes.
 - [ ] **Sid:** approve the landing page copy.
-- [ ] **Agent:** pull the mailing list from the public NPI registry.
+- [x] **Agent:** pull the mailing list from the public NPI registry. **Done Nov 18:** [list README](reports/credentialing-npi-list-2026-11-18/README.md) (CSV gitignored): 2,543 new BH Type 2 NPIs Aug 20-Nov 18 (FL 689, TX 691, NY 427, NJ 399, MD 337; ~2,406 unique addresses); 1 client + 86 large systems dropped; 19 own customers flagged. Re-run: `scripts/pull_credentialing_npi_list.py`. MBS tenant DB not checked for exclusions.
   - Who: new behavioral-health organization NPIs from the last 90 days in the five test states.
   - Exclude: existing clients and anyone formed with us who already has a credentialing case.
-- [ ] **Agent:** draft the direct-mail piece: postcard or letter, one offer, a state-specific URL or QR code per state for tracking.
-- [ ] **Sid:** approve the mail piece and the print/mail vendor and cost.
-- [ ] **Agent:** draft the search campaign: one campaign per test state, exact and phrase match on credentialing terms, sent to that state's page.
-- [ ] **Sid:** approve the campaign and the daily budget.
-- [ ] **Agent:** set up tracking.
+- [x] **Agent:** draft the direct-mail piece: postcard or letter, one offer, a state-specific URL or QR code per state for tracking. **Done Nov 18:** [draft](reports/credentialing-direct-mail-draft-2026-11-18/README.md): 6x9 First-Class postcard, one offer (pay for an insurer only after its written yes), per-state short URL + QR + code; Stannp ~$0.73/card (Lob $1.03 fallback); batch 1 ~1,700 pieces ~$1,250. Nothing ordered.
+- [x] **Sid:** approve the mail piece and the print/mail vendor and cost. **Approved Nov 18:** 6x9 postcard, Stannp (Lob fallback), batch 1 ~1,500 individual practices; offer line changed to credit-or-refund.
+- [x] **Agent:** draft the search campaign: one campaign per test state, exact and phrase match on credentialing terms, sent to that state's page. **Done Nov 18:** [draft](reports/credentialing-search-campaign-draft-2026-11-18/README.md): separate Ads account recommended; 5 campaigns x 5 ad groups, ~600 keywords, manual CPC; $9K Dec 3-Feb 14 (TX $2,264, FL $1,968, NY $1,700, MD $1,622, NJ $1,446). Nothing built in any account.
+- [x] **Sid:** approve the campaign and the daily budget. **Approved Nov 18:** new account under the manager login, billed to the credentialing LLC, $9K Dec 3-Feb 14 as drafted; live only on Sid's go.
+- [ ] **Agent:** set up tracking. **Nov 18: built, not shipped.** CRM branch `credentialing-channel-tracking` (`217be323`): lead table (source, state, inquiry → quote → paid), human vs agent minutes, `npm run credentialing-lead`, intake route; migration `20261118120000` not applied; 3572/3572 tests pass. Needs Sid's go to merge, migrate and wire the site form. Note: [channel-tracking.md](../PLLC-CRM/crm/docs/credentialing/systems/channel-tracking.md) on that branch.
   - Mark each lead's source (mail, search, formation funnel) in the CRM.
   - Track inquiry → quote → paid conversion for each channel and state.
   - Log human minutes per job separately from agent work.
-- [ ] **Agent:** set up the intake → panel check → quote flow for out-of-state clients.
+- [ ] **Agent:** set up the intake → panel check → quote flow for out-of-state clients. **Nov 18: built, not shipped.** Same branch (`2d1cd86a`): NJ/FL/TX/MD county keys, `--state` on lookups, 38 payers / 60 contacts (some unverified) in `payer-network-contacts-2026-11-states.json`; sweep off per state until Sid turns it on. Needs merge, contact import and Sid's go.
   - Extend the panel-status tracker beyond NY: counties and payers per state.
   - Add network-inquiry contacts for the main payers in each test state.
+
+- [ ] **Agent:** ABA prep (Sid, Nov 18: ABA stays on the postcard list): add licensed behavior analyst to the panel tracker, and draft a technician-roster price for Sid. Both before mail batch 1. **Nov 18:** tracker done on branch `credentialing-channel-tracking` (`a946ea04`, not merged); price approved Nov 18 ($99/technician/insurer, $79 for 5+, $149 Medicaid per state; [ABA prep](reports/aba-credentialing-prep-2026-11-18.md)). Open only until the branch is merged.
+- [x] **Agent:** build the batch-1 mail file from the NPI list: drop our 19 customers and the clinic/agency-only rows (Sid, Nov 18; [decision log](decision-log.md)). **Done Nov 18:** [README § Batch 1 file](reports/credentialing-npi-list-2026-11-18/README.md): 1,831 pieces (NY 286, NJ 281, FL 550, TX 502, MD 212); NY letter overlaps also removed; ~$1,337 at Stannp.
+
+- [ ] **Agent:** CRM: let a credentialing engagement exist without one of our PLLCs (clients who didn't form with us), so mail/search leads can be entered (Sid, Nov 18). Ship on Sid's go.
 
 ## Dec 1–12, 2026: launch
 
@@ -50,6 +55,9 @@ Created Nov 14 2026. Source: [credentialing-path-to-350-500k-net-2028.md](report
 - [ ] **Agent:** within 1 business day, answer every inquiry with a draft card for Sid and record a panel check per insurer.
 
 ## Jan 5–16, 2027
+
+- [ ] **Agent:** NY DOS letter, first drop (Sid, Nov 18; [decision log](decision-log.md)): re-run the list, drop customers and do-not-send, show Sid the letter text, send ~450 Sep-Dec filings via Lob First Class. The `nypllc.com/insurance` redirect must be live first (build after Dec 1, deploy on Sid's go).
+- [x] **Agent:** before mail batch 1, drop NY rows that are on the DOS letter list from the postcard file. **Done Nov 18** (54 removed; same file).
 
 - [ ] **Agent:** pull a fresh 90-day NPI list for mail batch 2.
 - [ ] **Sid:** send mail batch 2 (the rest of the mail budget).

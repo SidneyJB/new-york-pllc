@@ -1,0 +1,130 @@
+diff -ru a/src/app/sitemap.ts b/src/app/sitemap.ts
+--- a/web/src/app/sitemap.ts	2026-11-18 14:11:10
++++ b/web/src/app/sitemap.ts	2026-11-18 14:11:25
+@@ -235,6 +235,12 @@
+       priority: 0.8,
+     },
+     {
++      url: `${baseUrl}/services`,
++      lastModified: new Date(),
++      changeFrequency: 'monthly',
++      priority: 0.7,
++    },
++    {
+       url: `${baseUrl}/how-long-to-form-a-pllc-in-ny`,
+       lastModified: new Date(),
+       changeFrequency: 'monthly',
+diff -ru a/src/components/layout/footer.tsx b/src/components/layout/footer.tsx
+--- a/web/src/components/layout/footer.tsx	2026-11-18 14:11:10
++++ b/web/src/components/layout/footer.tsx	2026-11-18 14:11:25
+@@ -45,6 +45,14 @@
+               </li>
+               <li>
+                 <Link
++                  href="/services"
++                  className="text-muted-foreground hover:text-foreground text-sm transition-colors"
++                >
++                  Other PLLC Filings
++                </Link>
++              </li>
++              <li>
++                <Link
+                   href="/partners"
+                   className="text-muted-foreground hover:text-foreground text-sm transition-colors"
+                 >
+diff -ru a/src/components/layout/navbar.tsx b/src/components/layout/navbar.tsx
+--- a/web/src/components/layout/navbar.tsx	2026-11-18 14:11:10
++++ b/web/src/components/layout/navbar.tsx	2026-11-18 14:11:25
+@@ -67,6 +67,11 @@
+                       Virtual Address Services
+                     </Link>
+                   </DropdownMenuItem>
++                  <DropdownMenuItem asChild>
++                    <Link href="/services">
++                      DBA, Amendments &amp; Other Filings
++                    </Link>
++                  </DropdownMenuItem>
+                 </DropdownMenuContent>
+               </DropdownMenu>
+ 
+@@ -211,6 +216,13 @@
+                       onClick={() => setMobileMenuOpen(false)}
+                     >
+                       Virtual Address Services
++                    </Link>
++                    <Link
++                      href="/services"
++                      className="text-muted-foreground hover:text-foreground hover:bg-muted block px-6 py-2 text-sm transition-colors"
++                      onClick={() => setMobileMenuOpen(false)}
++                    >
++                      DBA, Amendments &amp; Other Filings
+                     </Link>
+                   </div>
+                 )}
+diff -ru a/src/lib/constants/index.ts b/src/lib/constants/index.ts
+--- a/web/src/lib/constants/index.ts	2026-11-18 14:11:10
++++ b/web/src/lib/constants/index.ts	2026-11-18 14:11:25
+@@ -20,8 +20,13 @@
+ export const PRICING = {
+   /** Retail formation list price; override with NEXT_PUBLIC_FORMATION_LIST_PRICE for $985 test. */
+   basePrice: formationListPriceDollars(),
+-  /** Certificate of Assumed Name / DBA filing service */
++  /** Certificate of Assumed Name / DBA filing service (our fee; DOS fee separate) */
+   assumedNamePrice: 199,
++  /** Shelf filings on /services (our fee; DOS fees in DOS_FEES). Revenue levers plan Lever 2. */
++  addressChangePrice: 99,
++  amendmentPrice: 249,
++  goodStandingPrice: 99,
++  dissolutionPrice: 299,
+   sCorpPrice: 195,
+   msoPairPrice: 1770,
+   msoPairRaYearTwo: 149,
+@@ -37,6 +42,21 @@
+   ],
+ } as const
+ 
++/**
++ * NY DOS fees for a domestic LLC/PLLC, passed through at cost.
++ * Sources (checked Nov 18 2026): https://dos.ny.gov/fee-schedules ;
++ * assumed name: https://dos.ny.gov/instructions-completing-certificate-assumed-name-0 (no county fee for LLCs).
++ */
++export const DOS_FEES = {
++  assumedName: 25,
++  certificateOfChange: 30,
++  amendment: 60,
++  certificateOfStatus: 25,
++  dissolution: 60,
++  certifiedCopy: 10,
++  expedite24h: 25,
++} as const
++
+ export const BUSINESS_INFO = {
+   legalName: 'Business Filing Solutions LLC',
+   address: {
+@@ -67,8 +87,7 @@
+ export const NAVIGATION = {
+   main: [
+     { name: 'Home', href: '/' },
+-    // Temporarily disabled: { name: 'Services', href: '/services' },
+-    // Temporarily disabled: { name: 'Pricing', href: '/pricing' },
++    { name: 'PLLC Filings', href: '/services' },
+     { name: 'About', href: '/about' },
+     { name: 'Partner Program', href: '/partners' },
+     { name: 'FAQ', href: '/faq' },
+diff -ru a/src/lib/seo/metadata.ts b/src/lib/seo/metadata.ts
+--- a/web/src/lib/seo/metadata.ts	2026-11-18 14:11:10
++++ b/web/src/lib/seo/metadata.ts	2026-11-18 14:11:25
+@@ -207,6 +207,13 @@
+   },
+ })
+ 
++export const SERVICES_METADATA = generateMetadata({
++  title: 'NY PLLC Filings: DBA, Amendments, Dissolution | NYPLLC',
++  description:
++    'DBA, address change, amendment, good standing and dissolution for New York PLLCs. Flat fee plus the state fee, shown up front. We prepare and file it.',
++  canonical: '/services',
++})
++
+ export const DISCLAIMER_METADATA = generateMetadata({
+   title: 'Legal Disclaimer | NYPLLC',
+   description: 'NYPLLC provides administrative filing services, not legal advice. Read our full legal disclaimer before ordering PLLC formation.',

@@ -50,7 +50,7 @@ Post-formation life events (amendments, dissolutions, certificates, banking) are
 | Certificate of Good Standing (Status) | $99 | ~$25 | Days | Cross-sell inside CAQH flow — payers and banks request it |
 | Certified copies | $99 | ~$10–25 | Days | Same retrieval pipeline |
 | Articles of Amendment (name/address/purpose) | $249 | $60 | ~1 wk | Reuses DOS filing automation; compliance-plan members get 20% off |
-| Standalone DBA / Assumed Name | $199 | $45 | Trivial | Just needs its own checkout + page |
+| Standalone DBA / Assumed Name | $199 | $25 (corrected Nov 18 2026: DOS fee for an LLC/PLLC, no county fee) | Trivial | Just needs its own checkout + page |
 | Dissolution | $299 | ~$60 + NYSED consent handling | ~1 wk | Professional-entity dissolutions have extra steps — price reflects it |
 | Foreign-qual origin-state expansion (add ~8–10 states beyond NJ/PA/FL/TX/CT/CA) | Per formula | Per state | Rolling | Feeds SEO programmatic pages + the ads FQ campaign keyword list |
 | Trademark filing | $499–650 + USPTO fees | — | **Parked** | Non-attorney filing-service UPL considerations: needs counsel review or an attorney-partner rev-share (a B2B plan segment-5 reciprocity play). Do not ship without one of those. |

@@ -1,0 +1,64 @@
+Pulled 2026-11-18T19:09:03.322Z (read-only session)
+
+A. Orders by product and Eastern-time month, Nov 2025 onward (partner = b2bPartnerId set)
+  m        ny_pllc  ny_llc  ny_pc  foreign_pllc  foreign_llc_pc  out_of_state  non_formation  formations  partner  on_plan
+  2025-11  22       1       0      0             0               0             0              23          0        0      
+  2025-12  32       1       0      0             0               0             0              33          0        12     
+  2026-01  50       0       0      1             0               0             0              51          0        24     
+  2026-02  33       0       0      0             0               0             0              33          1        16     
+  2026-03  38       0       0      2             0               0             0              40          3        17     
+  2026-04  47       1       0      0             0               0             0              48          0        26     
+  2026-05  56       1       0      0             1               0             0              58          2        25     
+  2026-06  44       2       0      0             1               0             0              47          1        18     
+  2026-07  44       1       0      0             1               1             0              47          1        18     
+  2026-08  41       2       0      2             0               1             2              46          1        14     
+  2026-09  48       0       0      2             0               1             0              51          1        22     
+  2026-10  64       1       0      1             0               0             0              66          0        26     
+  2026-11  35       0       0      2             0               0             0              37          0        13     
+
+B. Mix and contribution per product, orders Apr 1 - Nov 18 2026 (Eastern). Net revenue includes add-ons
+   (S-corp, DBA, expedite) bought on the order. Contribution = net revenue - COGS - 3% - $0.30 - 0.5% bad debt.
+  prod                      n    share_pct  partner  net_rev  cogs  cogs_snapshots  contribution  plan_pct
+  1 NY PLLC                 379  94.8       6        924      344   379             547           42      
+  2 NY LLC                  8    2.0        0        609      320   8               268           13      
+  3 foreign PLLC into NY    7    1.8        0        1033     335   7               662           0       
+  4 foreign LLC/PC into NY  3    0.8        0        834      338   3               466           0       
+  5 out-of-state formation  3    0.8        0        525      330   3               176           0       
+  z non-formation service   2    0.5        0        222      20    1               204           0       
+
+B2. Same, retail NY PLLC only (no partner), Apr 1 - Oct 31 2026: reconciliation to the model ($514 + S-corp add-on = $547)
+  n    net_rev  cogs  contribution
+  340  928      345   550         
+
+C. Payment plans, formation orders Apr 1 - Oct 31 2026: plan length and share
+  payments     n    avg_total
+  3            1    785      
+  4            148  934      
+  pay in full  216  906      
+
+C2. Installment timing, plan orders Apr 1 - Jul 31 2026 (all four due dates have passed): payment n, days after order
+  payment_n  n   paid  avg_paid  median_days  sum_paid
+  1          87  87    233       0.0          20244   
+  2          87  87    233       14.0         20244   
+  3          87  87    235       28.0         20458   
+  4          85  85    232       42.0         19740   
+  plan_orders  billed  collected
+  87           81238   80685    
+
+D. Order to filing (when the state fees and publication are paid), formation orders by order quarter
+  q        n    dos_filed  dos_median_days  notice_sent  notice_median_days  completed  completed_median_days
+  2025-Q4  57   56         73               54           73                  47         128                  
+  2026-Q1  124  121        63               120          66                  78         118                  
+  2026-Q2  153  136        93               133          96                  14         89                   
+  2026-Q3  144  66         81               61           82                  1          26                   
+  2026-Q4  103  12         4                12           6                   0                               
+   Medians are over filed entities only, so recent quarters (still filing) read short.
+
+E. Partner payouts by status (timing from accrual to paid)
+  status   n  total  median_days_to_paid
+  ACCRUED  1  75                        
+  PAID     7  525    51                 
+
+F. Formation groups (multi-entity orders, MSO pairs)
+  kind          groups  entities
+  MULTI_ENTITY  1       5       

@@ -1,0 +1,5 @@
+# Mailing list with names/addresses of clinicians: keep out of git
+list.csv
+dropped.csv
+batch-1-mail-file.csv
+batch-1-excluded.csv

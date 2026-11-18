@@ -1,0 +1,94 @@
+{
+ "batch": "1",
+ "campaign": "cred_mail_2026_12",
+ "crm_exported_at": "2026-11-18T21:21:56.196Z",
+ "waterfall": {
+  "NPI list (list.csv)": {
+   "NY": 427,
+   "NJ": 399,
+   "FL": 689,
+   "TX": 691,
+   "MD": 337,
+   "total": 2543
+  },
+  "1. Drop our formation customers": {
+   "NY": 409,
+   "NJ": 398,
+   "FL": 689,
+   "TX": 691,
+   "MD": 337,
+   "total": 2524
+  },
+  "2. Drop clinic/agency-only rows": {
+   "NY": 349,
+   "NJ": 290,
+   "FL": 570,
+   "TX": 547,
+   "MD": 223,
+   "total": 1979
+  },
+  "3. CRM re-check: credentialing clients/leads/quotes, do-not-send, MBS tenant, missed formation customers": {
+   "NY": 344,
+   "NJ": 290,
+   "FL": 570,
+   "TX": 547,
+   "MD": 223,
+   "total": 1974
+  },
+  "4. Drop NY rows on the NY DOS letter list": {
+   "NY": 290,
+   "NJ": 290,
+   "FL": 570,
+   "TX": 547,
+   "MD": 223,
+   "total": 1920
+  },
+  "5. One piece per unique mailing address": {
+   "NY": 286,
+   "NJ": 281,
+   "FL": 550,
+   "TX": 502,
+   "MD": 212,
+   "total": 1831
+  }
+ },
+ "excluded_by_reason_group": {
+  "formation customer": 19,
+  "clinic/agency only": 545,
+  "formation customer missed by the pull": 3,
+  "MBS tenant formation customer": 1,
+  "CRM CAQH backlist skip": 1,
+  "on NY DOS letter list": 54
+ },
+ "letter_match_method": {
+  "name (non-NY row, kept)": 1,
+  "address only, kept (different practice at the same building)": 23,
+  "name": 51,
+  "address + name word": 3
+ },
+ "pieces": 1831,
+ "pieces_by_state": {
+  "FL": 550,
+  "MD": 212,
+  "NJ": 281,
+  "NY": 286,
+  "TX": 502
+ },
+ "pieces_by_category": {
+  "Therapist": 954,
+  "Behavior analyst (ABA)": 331,
+  "Psychologist": 119,
+  "Prescriber": 410,
+  "Therapist (addiction)": 17
+ },
+ "pieces_with_address_flag": 4,
+ "address_flag_kinds": {
+  "virtual-mailbox address with no private box number": 3,
+  "billing lockbox (PO Box + Dept), not the practice": 1
+ },
+ "pieces_mailing_outside_test_states": 26,
+ "pieces_with_multiple_officials": 18,
+ "pieces_with_crm_check_flag": 0,
+ "cost_stannp_0.73": 1336.63,
+ "cost_lob_1.03": 1885.93
+}

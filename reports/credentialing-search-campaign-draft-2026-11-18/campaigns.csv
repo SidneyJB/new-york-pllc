@@ -1,0 +1,6 @@
+Campaign,Budget,Budget type,Campaign type,Networks,Bid strategy type,Location,Location option,Language,Final URL suffix,Campaign status
+CRED-Search-NY,26,Daily,Search,Google search,Manual CPC,New York,Presence,English,utm_source=google&utm_medium=cpc&utm_campaign=cred-search-ny&utm_content={adgroupid}&utm_term={keyword}&matchtype={matchtype},Paused
+CRED-Search-NJ,22,Daily,Search,Google search,Manual CPC,New Jersey,Presence,English,utm_source=google&utm_medium=cpc&utm_campaign=cred-search-nj&utm_content={adgroupid}&utm_term={keyword}&matchtype={matchtype},Paused
+CRED-Search-FL,30,Daily,Search,Google search,Manual CPC,Florida,Presence,English,utm_source=google&utm_medium=cpc&utm_campaign=cred-search-fl&utm_content={adgroupid}&utm_term={keyword}&matchtype={matchtype},Paused
+CRED-Search-TX,34,Daily,Search,Google search,Manual CPC,Texas,Presence,English,utm_source=google&utm_medium=cpc&utm_campaign=cred-search-tx&utm_content={adgroupid}&utm_term={keyword}&matchtype={matchtype},Paused
+CRED-Search-MD,24,Daily,Search,Google search,Manual CPC,Maryland,Presence,English,utm_source=google&utm_medium=cpc&utm_campaign=cred-search-md&utm_content={adgroupid}&utm_term={keyword}&matchtype={matchtype},Paused

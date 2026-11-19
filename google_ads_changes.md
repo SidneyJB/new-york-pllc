@@ -12,6 +12,18 @@
 
 ---
 
+## Change 2026-11-19 (evening): freeze exception (policy probe), new RSA "Ad A" in `01_Core_Exact_NY` / Service-Intent
+
+| Field | Value |
+|---|---|
+| Owner / approval | Sid ("Yes, add Ad A", Nov 19); policy-fix exception to the Nov 15-Dec 1 freeze (decision log Nov 18) |
+| What | Created RSA `832114234315` (`adGroupAds/201832404161~832114234315`), ENABLED, final URL /order, H1 pinned "NY PLLC Formation, $885 Flat". Copy: [draft](reports/p2-08-01-replacement-ads-draft-2026-11-19.md) Ad A. No EIN, NYSED, DOS, filing, application or certificate wording; adds "Not a Government Agency" / "Private Formation Service". Validated with validate_only first |
+| Why | 3 `01` RSAs disapproved under GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES; identical copy is APPROVED in Cost-Price, so the text alone isn't the cause [O]. This probe tests whether a fresh review passes with service-only wording |
+| Not changed | The 2 disapproved Service-Intent ads and the Formation-Core ad left as they are (disapproved ads don't serve); keywords, bids, budgets untouched |
+| Status at creation | REVIEW_IN_PROGRESS |
+| Next | If approved: add Ad B (Service-Intent) and Ad C (Formation-Core) per the draft. If disapproved: request the policy exclusion, or leave `01` to the Dec 1 memo |
+| Affected metrics | `01` Service-Intent impressions / conversions |
+
 ## Review result 2026-11-19 — repoint to /order did NOT clear the `01` disapprovals
 
 | Item | Result |

@@ -429,6 +429,8 @@ Done when: there is a monthly model whose assumptions reconcile to the scorecard
 
 ### P2-12. Hold the Day 45 review
 
+> **Nov 19:** review pack prepared ([p2-12-day45-review-pack-2026-11-19.md](ops/p2-12-day45-review-pack-2026-11-19.md)): live numbers, which re-cut items are already decided, 9 open decisions, and the review-day refresh list.
+
 Owner: Sid. Support: Ops and Agent. Prepare meeting November 25; reporting boundary November 29. Required.
 
 - [ ] Decide whether the price test supports keeping $985 provisionally, reverting, or extending observation. State whether the evidence is directional or strong.

@@ -242,6 +242,8 @@ Period 1 exit standard: trustworthy enough economics to run bounded experiments;
 
 ### P2-01. Launch and monitor the $985 formation-price test
 
+> **Status: Waiting (Day-45 re-cut adopted Nov 19).** $885 holds; Sid decides on a February test at the Jan 13 review ([decision log](decision-log.md)).
+
 **Status (Nov 9, Sid): HOLD at $885. Not launching** ([decision log](decision-log.md)). The bullets below stay unchecked; they apply only if Sid reopens the test.
 
 Owner: Agent for implementation; Sid for launch/decision; Ops for support. Target launch: November 2–4. Required if P1-11 passes. Dependencies: stable purchase flow, reconciled economics, and the adopted early-test decision.
@@ -275,6 +277,8 @@ Done when: each weekly review produces a small number of decisions and the evide
 
 ### P2-03. Expand the targeted partner pipeline
 
+> **Status: Waiting (Day-45 partner test applied Nov 19).** Reply to existing threads same business day; no new cold waves.
+
 Owner: Sid. Support: Agent. Due: ongoing through November 25, with reporting through November 29. Required. Dependency: P1-10.
 
 - [ ] Add roughly 40–50 qualified firms to the initial 20–25. Aim for approximately 60–75 distinct firms contacted cumulatively by the period end, with warm and cold activity separated.
@@ -290,6 +294,8 @@ Owner: Sid. Support: Agent. Due: ongoing through November 25, with reporting thr
 Done when: there is enough segmented evidence to choose where the next 50 contacts should come from.
 
 ### P2-04. Fulfill the first partner orders and remove handoff friction
+
+> **Status: Waiting (Nov 19).** Reopens with a live partner case.
 
 Owner: Ops. Relationship owner: Sid. Support: Agent. Due: within one business day of each qualified handoff. Required when an order arises. Dependency: P1-11 partner terms.
 
@@ -429,6 +435,8 @@ Done when: there is a monthly model whose assumptions reconcile to the scorecard
 
 ### P2-12. Hold the Day 45 review
 
+> **Nov 19 (Sid): re-cut adopted; all nine pack decisions recorded in the [decision log](decision-log.md)** (fee changes held; Metro cards: no). Review-day refresh still runs Nov 25–29.
+>
 > **Nov 19:** review pack prepared ([p2-12-day45-review-pack-2026-11-19.md](ops/p2-12-day45-review-pack-2026-11-19.md)): live numbers, which re-cut items are already decided, 9 open decisions, and the review-day refresh list.
 
 Owner: Sid. Support: Ops and Agent. Prepare meeting November 25; reporting boundary November 29. Required.
@@ -449,6 +457,8 @@ Period 2 exit standard: a functioning commercial experiment, real partner handof
 
 ### P3-01. Decide the next pricing action
 
+> **Nov 19:** $885 for every profession; price by profession stays declined; fee changes held (not implemented); $985 decided at Jan 13 ([decision log](decision-log.md)).
+
 Owner: Sid. Analysis/implementation: Agent. Support: Ops. First decision: December 2; reassess as evidence matures. Required.
 
 - [ ] Summarize the $985 period against the documented baseline: eligible traffic, source mix, first-payment conversion, actual/expected collection, refunds, contribution per order, and contribution per visitor.
@@ -463,6 +473,8 @@ Owner: Sid. Analysis/implementation: Agent. Support: Ops. First decision: Decemb
 Done when: the business has an explicit price position, the evidence supporting it, and a scheduled next decision. “Provisional” is acceptable; unsupported certainty is not.
 
 ### P3-02. Turn partner acquisition into a repeatable weekly process
+
+> **Status: Waiting (Nov 19).** No partner target; report the partner line as it is.
 
 Owner: Sid. Support: Agent for research and tracking; Ops for fulfillment. Due: weekly through January 13. Required.
 
@@ -480,6 +492,8 @@ Owner: Sid. Support: Agent for research and tracking; Ops for fulfillment. Due: 
 Done when: partner growth has a known funnel, repeat behavior, and a credible next segment to pursue.
 
 ### P3-03. Tighten partner economics and service standards
+
+> **Status: Waiting (Nov 19).**
 
 Owner: Ops and Agent. Decision owner: Sid. Due: December 18 and January 8. Required when partner cases exist.
 
@@ -514,6 +528,8 @@ Done when: paid migrations demonstrate a repeatable, accurately described servic
 
 ### P3-05. Fulfill 3–5 paid PC pilot cases
 
+> **Status: Stopped (Nov 13; confirmed Nov 19).** Manual quotes only; reopen at ~2 PC requests a month.
+
 Owner: Ops. Commercial owner: Sid. Support: Agent. Professional review: as required by the chosen scope. Conditional on P2-09 readiness and suitable buyers.
 
 - [ ] Confirm that each customer's entity choice has been resolved by the customer and their adviser where needed. Do not sell a PC on an unverified tax or liability promise.
@@ -529,6 +545,8 @@ Owner: Ops. Commercial owner: Sid. Support: Agent. Professional review: as requi
 Done when: there are paid cases with measured outcomes, or a clear decision that the demand/operating case remains insufficient.
 
 ### P3-06. Run one bounded paid-acquisition experiment if the prerequisites pass
+
+> **Nov 19:** approved for January, conditional on the Dec 1 memo: $105 → $120, extra spend ≤ $1,500, judged after 14 days / 15 conversions ([decision log](decision-log.md)). No account change before then.
 
 Owner: Ads operator/Agent. Decision owner: Sid. Earliest discretionary change: December 2. Conditional on reliable tracking, applicable policy eligibility, stable pricing, and available fulfillment capacity.
 
@@ -577,6 +595,8 @@ Owner: Ops. Analysis/support: Agent. Decision owner: Sid. Due: December 18; refr
 Done when: the Q1 volume plan has a staffing/capacity explanation and a funded response to its principal bottleneck.
 
 ### P3-09. Decide which additional products remain on the shelf
+
+> **Nov 19:** stop list confirmed with revisit triggers ([decision log](decision-log.md)).
 
 Owner: Sid. Support: Ops/Agent. Due: January 8. Required prioritization; additional launches conditional.
 

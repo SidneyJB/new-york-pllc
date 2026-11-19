@@ -78,6 +78,8 @@ So most of these letters would go to a clinician's home, addressed to a business
 
 ## 3. The letter
 
+**Nov 19 (Sid):** goes out as NY PLLC; opening is "I'm Sid, the founder of NY PLLC" and the rest speaks as "we" (no one-person framing).
+
 One page, from Sid, on plain NY PLLC letterhead. Written to the rules in [AI-TELLS.md](../../../credentialing-site/AI-TELLS.md) and [HUMANIZER-PASS.md](../../../credentialing-site/HUMANIZER-PASS.md): no em dashes, no bold, no rhetorical questions, no "why choose us", first person. Prices are the live [nypllc.com credentialing page](https://www.nypllc.com/ny-pllc-insurance-credentialing) as checked Nov 18 2026; the Headway lines stay inside what that page says. Merge fields: `{PLLC name}` (title case), `{month}` (filing month), `{profession plural}` (from the pattern: "LCSWs", "mental health counselors", "psychologists", "psychiatric NPs", "marriage and family therapists", "creative arts therapists", else "therapists").
 
 > **Letterhead:** NY PLLC · 1 Blue Hill Plaza, Suite 1509-24, Pearl River, NY 10965 · (646) 444-2102 · contact@nypllc.com · nypllc.com
@@ -89,7 +91,7 @@ One page, from Sid, on plain NY PLLC letterhead. Written to the rules in [AI-TEL
 >
 > Hello,
 >
-> I saw in the NY Department of State's records that {PLLC name} was filed in {month}. Congratulations on starting your practice. My name is Sid, and I run NY PLLC, a small company in Pearl River that forms PLLCs for clinicians. I'm writing about one thing we do that a new practice often needs next: getting the PLLC in network with insurance companies.
+> I saw in the NY Department of State's records that {PLLC name} was filed in {month}. Congratulations on starting your practice. I'm Sid, the founder of NY PLLC. We're a company in Pearl River that forms PLLCs for clinicians, and I'm writing about one thing we do that a new practice often needs next: getting the PLLC in network with insurance companies.
 >
 > To bill insurers under the PLLC, the practice needs its own NPI, a CAQH profile that lists it, and an application to each insurer. After that, someone has to keep following up until each insurer decides. We do all of it and follow up with every insurer every two weeks. Your part is mostly signing, and we never ask for your passwords. We use the delegate access the portals offer, or we file on paper.
 >
@@ -99,11 +101,11 @@ One page, from Sid, on plain NY PLLC letterhead. Written to the rules in [AI-TEL
 > - Already in network under your own name: moving those contracts to the PLLC is $249 plus $149 per insurer
 > - NY Medicaid ($495) and Medicare ($395), if you want them
 >
-> We also offer payment plans. Before I send you an invoice, I check what we know about which of your insurers are taking new {profession plural} where you practice, and I won't sell you one we know is closed. If an insurer turns you down, you get that insurer's share back or moved to another insurer.
+> We also offer payment plans. Before we send you an invoice, we check what we know about which of your insurers are taking new {profession plural} where you practice, and we won't sell you one we know is closed. If an insurer turns you down, you get that insurer's share back or moved to another insurer.
 >
 > If you see clients through Headway, you may know it now deducts $9.99 from your payout for every session with a client it sends you, and that it has been rolling the fee out state by state. Contracts you hold yourself under your PLLC don't carry a platform fee, and they stay yours if you leave. If you're happy on a platform, you may not need us at all.
 >
-> Prices and details are at nypllc.com/insurance. If you'd like to go ahead, email me at contact@nypllc.com with the county where you see clients (or say you're telehealth only) and the insurers you have in mind.
+> Prices and details are at nypllc.com/insurance. If you'd like to go ahead, email us at contact@nypllc.com with the county where you see clients (or say you're telehealth only) and the insurers you have in mind.
 >
 > Sid Brodsky
 > NY PLLC
@@ -115,7 +117,7 @@ Notes on the copy:
 - **One offer.** Medicaid and Medicare sit inside the price list because prescribers (68 psychiatric NPs, 14 psychiatry) care about them most; Foundation ($399) and upkeep are left for replies.
 - **Headway:** the page says "rolling it out state by state through late 2026" and that dates have moved. By January "through late 2026" is in the past, so the letter says "has been rolling the fee out state by state" with no date. Re-read the page the week of printing and match it.
 - **Refund line** is the offer line Sid approved Nov 18 and follows the Nov 14 billing rule and the terms draft: the client chooses a credit to another open insurer or a refund of that insurer's share, paid within 5 business days of their choice; setup isn't refunded, and a decline caused by the client's own file gets one free resubmission instead. "That insurer's share" covers both the $350 and the $149 lines.
-- **"I check what we know"** is the same hedge the existing-customer email uses: apply-first insurers (UHC/Optum BH, Carelon BH, Evernorth BH, Excellus) have no written pre-check.
+- **"we check what we know"** is the same hedge the existing-customer email uses: apply-first insurers (UHC/Optum BH, Carelon BH, Evernorth BH, Excellus) have no written pre-check.
 - **Phone** is in the letterhead only. The body asks for an email, which is where the close-out flow and the panel check run.
 - **"Your part is mostly signing"**, not "you only sign": clients also attest CAQH and, for Medicaid, submit and get one form notarized (standalone shard, "honest promise").
 - **Brand:** this goes out as NY PLLC, because the standalone credentialing brand, phone and domain aren't decided. The re-cut's correction 4 makes this letter the first test of outside demand, before any separate brand.

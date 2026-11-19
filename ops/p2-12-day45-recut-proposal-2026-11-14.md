@@ -1,6 +1,6 @@
 # P2-12 Day-45 review: proposed re-cut of the checklist (Nov 14 2026)
 
-**Prepared by:** Agent · **Decision owner:** Sid · **Status: proposal.** The live [checklist](../nypllc-90-day-execution-checklist.md) and the [2028 outlook](../nypllc-2028-path-to-1m-plan.md) are unchanged until Sid approves this at the Day-45 review (Nov 25–29).
+**Prepared by:** Agent · **Decision owner:** Sid · **Status: adopted by Sid Nov 19, minus items settled after Nov 14; fee changes held; Metro cards declined (see decision log Nov 19).** Was: proposal. The live [checklist](../nypllc-90-day-execution-checklist.md) and the [2028 outlook](../nypllc-2028-path-to-1m-plan.md) are unchanged until Sid approves this at the Day-45 review (Nov 25–29).
 
 **Evidence:** [pressure test, Nov 13](../reports/evidence/2028-pressure-test-2026-11-13/README.md). **Decisions already recorded:** six rows dated Nov 13 at the end of the [decision log](../decision-log.md).
 

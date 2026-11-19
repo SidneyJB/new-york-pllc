@@ -6,6 +6,8 @@ Google Ads API CLI, CSV exports, and analysis scripts for NYPLLC acquisition (li
 
 ## Status
 
+- **Nov 19 2026:** `01_Core_Exact_NY` 3 RSAs + sitelink `388656387708` still DISAPPROVED after the Nov 18 repoint to /order (Government Documents, certificate required; `816213581518` also Destination not accessible). Next: disclosure line + appeal (Sid). [Change log](../../google_ads_changes.md).
+
 **Active.** Tooling + dumps at repo root; Cursor skill `.cursor/skills/google-ads-cli/`.
 
 ## Operating plan

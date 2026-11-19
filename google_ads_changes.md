@@ -1,6 +1,6 @@
 # Google Ads Change Log
 
-**Last updated:** 2026-11-18
+**Last updated:** 2026-11-19
 
 **Calendar (Oct 16, 2026):** $985 is a **November** test, not February. January is not an automatic budget surge. See [decision-log.md](decision-log.md). Rows below are the change history.
 
@@ -11,6 +11,15 @@
 - `03_ForeignQual_US` attached to portfolio `12148056412` (Target CPA $105 hold)
 
 ---
+
+## Review result 2026-11-19 — repoint to /order did NOT clear the `01` disapprovals
+
+| Item | Result |
+|---|---|
+| Source | Google Ads email Nov 18 2026 5:43pm ET ("Ads (3), assets (1) impacted by Google Ads policy", campaign `01_Core_Exact_NY`) + live API check Nov 19 |
+| Status | RSAs `816213581518`, `816213581680`, `816286167770` and sitelink `388656387708`: **DISAPPROVED**, review status REVIEWED, final URL /order. Topic GOVERNMENT_DOCUMENTS_AND_OFFICIAL_SERVICES (FULLY_LIMITED, "certificate required") on all; `816213581518` also DESTINATION_NOT_ACCESSIBLE (PROHIBITED) |
+| Meaning | "Every ad to /order is approved" no longer held for these items; the gov-docs flag follows the ad text/sitelink, not only the DIY-guide URL |
+| Next | Sid's call (decision log Nov 18): site disclosure line, then appeal. Separately find why Google can't reach /order for `816213581518` (bot/geo block?). No account change made Nov 19 |
 
 ## Changes on 2026-11-18 — Freeze exception (policy fix): disapproved `01` ads + sitelink repointed to /order
 

@@ -25,7 +25,7 @@ Created Nov 14 2026. Source: [credentialing-path-to-350-500k-net-2028.md](report
 
 ## Nov 17–28, 2026: build
 
-- [x] **Agent:** draft the landing page(s) for the five test states, following Sid's site-structure choice. **Done Nov 16:** one site with home, pricing, terms, intake and NY/NJ/FL/TX/MD guides (sourced), restyled away from AI tells and humanized; local repo `credentialing-site` (no remote yet). Brand, phone and address are placeholders.
+- [x] **Agent:** draft the landing page(s) for the five test states, following Sid's site-structure choice. **Done Nov 16:** one site with home, pricing, terms, intake and NY/NJ/FL/TX/MD guides (sourced), restyled away from AI tells and humanized; local repo `credentialing-site` (no remote yet). Brand, phone and address are placeholders. **Nov 19:** deployed for review to Vercel project `credentialing-site` (https://credentialing-site.vercel.app, Vercel login required, not public); Next 15.5.29; About page with Sid's photo; "we" voice instead of sole-owner wording (credentialing-site `46c77d0`).
   - Each covers prices, the 5-day promise, panel check before invoicing, what the client does vs what we do, and state Medicaid notes.
 - [ ] **Sid:** approve the landing page copy.
 - [x] **Agent:** pull the mailing list from the public NPI registry. **Done Nov 18:** [list README](reports/credentialing-npi-list-2026-11-18/README.md) (CSV gitignored): 2,543 new BH Type 2 NPIs Aug 20-Nov 18 (FL 689, TX 691, NY 427, NJ 399, MD 337; ~2,406 unique addresses); 1 client + 86 large systems dropped; 19 own customers flagged. Re-run: `scripts/pull_credentialing_npi_list.py`. MBS tenant DB not checked for exclusions.

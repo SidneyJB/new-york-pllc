@@ -5,6 +5,8 @@
 
 > **Nov 13 2026: [2028 outlook and path to $1M](../nypllc-2028-path-to-1m-plan.md).** About $650K most likely; $1M needs credentialing at 12–15 jobs/month, a $985 price, and paid help above ~5–7 jobs/month (Sid works ~20–25 h/week now, with headroom). Read this before the older calendar below.
 
+> **Nov 18 2026: [new-lines research](../reports/new-lines-research-2026-11-18/ROUND-2-READ.md).** 16 fact reports on offerings beyond the current ones. No line with very high earnings and odds; three moderate tests (S-corp package, other-state professional entities, NY nonprofit formation), each under about $2K. Not decided.
+
 > **Operational SoT (through Jan 13, 2027):** [**90-day execution checklist**](../nypllc-90-day-execution-checklist.md) · [decision-log.md](../decision-log.md) · [scorecards/](../scorecards/)  
 > **Strategy / hurdle:** [**Integrated operating plan v3**](../nypllc-integrated-operating-plan.md) — dollar cases **$1,053K / $1,179K** are still priced at 125–140 formations/mo and an unproven $650 blend. **Oct 21:** the written levers support **111–115/mo** (or **107–111** if Bing stays blocked), not 125. [decision-log.md](../decision-log.md).
 

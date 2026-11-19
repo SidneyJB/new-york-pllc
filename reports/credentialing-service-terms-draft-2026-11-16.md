@@ -1,6 +1,6 @@
 # Insurance credentialing: service terms (DRAFT, Nov 16 2026)
 
-Status: draft for Sid's review. Not approved, not live. Counsel should read the sections marked "Counsel" before this goes on the site. Internal notes for Sid are at the end and are not part of the client-facing text.
+Status: draft for Sid's review. Not approved, not live. **Nov 19 (Sid): we have no counsel.** The former "Counsel" sections were redrafted against the statutes (notes below). Plan: one limited-scope paid review of the finished draft before the first upkeep charge. Internal notes for Sid are at the end and are not part of the client-facing text.
 
 ---
 
@@ -76,9 +76,27 @@ After you're in-network, upkeep keeps your enrollments current: CAQH re-attestat
 - Read and decide on each insurer contract yourself. We don't negotiate rates or give legal advice on contract terms.
 - Tell us before applying to the same insurers yourself or through another service, so applications don't conflict.
 
-## Limits (Counsel)
+## Upkeep sign-up and cancelling (self-reviewed Nov 19; see notes)
 
-Our responsibility for any problem with our work is limited to the fees you paid us for that work. We're not responsible for insurer decisions, delays or rates.
+- Before you start upkeep, we show you the monthly price, when the first charge happens (the month after your first insurer approves you), that it renews every month until you cancel, and how to cancel. You agree in writing (a checkbox or a reply to our email) before we charge anything.
+- After you sign up, we email you a confirmation with the price, the billing date and how to cancel.
+- You can cancel by emailing us at our published address, or online if you signed up online. We confirm the cancellation by email. No call is needed and we don't ask you to explain.
+- If the price ever changes, we email you at least 30 days before the new price applies, and you can cancel before then.
+
+## Your information (self-reviewed Nov 19; see notes)
+
+- We collect only what the insurers and programs require.
+- Social Security numbers and dates of birth go only through our encrypted form or directly into the program's own site, never by email. We store them encrypted and only people working on your file can see them.
+- If we learn that someone got access to your personal information who shouldn't have, we tell you in writing without unreasonable delay, as New York law requires.
+- When you stop working with us, we keep your file only as long as we need it for open applications, upkeep, or our legal and tax records.
+
+## Acting for you
+
+Your signed authorization lets us prepare your applications and submit them where a program allows a delegate, surrogate or authorized agent. We never sign your name, attest for you or use your logins. Anything that needs your signature or attestation, you do yourself.
+
+## Limits (self-reviewed Nov 19; see notes)
+
+We aren't a law firm, a billing company or an insurer, and we don't give legal, tax or contract advice. Each insurer decides whether to accept you, when your contract starts and what it pays, and we aren't responsible for those decisions or their timing. If we make a mistake in our own work, we fix it at no charge. Beyond that, our responsibility for any problem with our work is limited to the fees you paid us for that work. Nothing in these terms limits any responsibility that the law doesn't allow to be limited.
 
 ---
 
@@ -105,10 +123,21 @@ Our responsibility for any problem with our work is limited to the fees you paid
 8. (Answered Nov 18) **Existing $249/yr upkeep clients:** keep their price or move them with notice?
 9. **Brand name** for the terms page (brand and domain are still open per the Nov 16 decision log row).
 
-## Needs counsel before publishing
+## Self-review notes (Nov 19 2026; replaces "Needs counsel before publishing")
 
-- The liability cap and the "no guarantee" wording.
-- Automatic monthly billing and online cancellation. NY has an automatic renewal law (General Business Law § 527-a), and the test states (NJ, FL, TX, MD) may have their own rules. Confirm the disclosure and consent we need at checkout.
-- Refund terms under each test state's consumer rules.
-- Handling SSNs and dates of birth (NY SHIELD Act) and whether any state licenses or regulates credentialing services.
-- Whether our authorization form lets us sign or submit as the client's agent, and the delegate/surrogate access model for the CAQH runner (already flagged in the expansion plan's risk table).
+Tags: [M] read in the source, [I] inference, [U] not verified. This is research, not legal advice.
+
+1. **Automatic renewal (upkeep).** NY GBL § 527-a covers *consumer* contracts, meaning purchases for personal, family or household purposes [M, secondary summaries of § 527 / 527-a]. Our clients buy for their practice, so the law most likely doesn't apply [I]. We follow its rules anyway because they cost us nothing: clear terms before purchase, affirmative consent, a confirmation email with how to cancel, and cancellation through the same channel as sign-up [M]. NY amended the law with changes effective Nov 5 2025 [M, secondary]; text not re-read [U].
+   - **Maryland:** 2025 Chapters 204/205 amended Commercial Law § 14-1328 (a clear termination channel, including a termination email address, and notice before a free trial over 14 days converts) [M, session-law listing]. The effective date wasn't confirmed [U]. The upkeep section above publishes a cancel-by-email route, which meets it either way [I].
+   - **Florida § 501.165:** covers service contracts that auto-renew for a period of more than 1 month [M, secondary]. Upkeep renews monthly, so it likely falls outside [I]; consumer scope unverified [U].
+   - **New Jersey:** the enacted law found covers health clubs and property-service contracts; general subscription bills (A5395, A455, A5354) were pending, not enacted [M, NJ legislature listings].
+   - **Texas:** no current general auto-renewal statute confirmed; the bills found were from 2005–2011 and some died [U].
+   - **Federal:** the FTC's click-to-cancel rule was vacated by the Eighth Circuit [M, secondary].
+2. **SSNs and dates of birth.** The NY SHIELD Act requires a small business (fewer than 50 employees, or under $3M revenue) to keep reasonable administrative, technical and physical safeguards scaled to its size, and GBL § 899-aa requires breach notice [M, statute summaries]. There's no private right of action; the Attorney General enforces it [M]. Our setup (Cognito encrypted forms, encrypted SSN storage in the CRM, no SSNs by email) fits, provided staff logins and an audit trail come before any hire (decision log Nov 18) [I].
+3. **Licensing of credentialing services.** No state license or registration for a credentialing company turned up for NY, NJ, FL, TX or MD [U: absence of results is not proof]. Billing or collections could trigger other rules; we don't do either.
+4. **Acting as agent.** The authorization plus delegate/surrogate access (CAQH, NPPES I&A, PECOS) is the model the programs themselves offer; we never sign or attest for the client (ops manual ground rule) [M, our manual].
+5. **Liability cap.** A cap at the fees paid, plus a carve-out for what the law doesn't let a business limit, is common in small-business service terms [I].
+
+**Before the first upkeep charge:** one limited-scope paid review of this finished draft by a NY business/consumer attorney (Sid's call on who). Not needed before the Dec 1 postcards, since the site takes intake only and bills by invoice after a quote.
+
+Sources: [NY GBL 527-A (NY Senate)](https://nysenate.gov/legislation/laws/GBS/527-A), [Olshan summary](https://www.olshanlaw.com/Advertising-Law-Blog/new-york-enacts-comprehensive-automatic-renewal-law), [Perkins Coie: NY and CO updates](https://perkinscoie.com/insights/update/new-york-and-colorado-update-auto-renewing-subscription-requirements), [MD Ch. 205 (2025)](https://mgaleg.maryland.gov/2025RS/chapters_noln/Ch_205_hb0107E.pdf), [Fla. Stat. 501.165](https://florida.public.law/statutes/fla._stat._501.165), [NJ A5354 (2026)](https://pub.njleg.gov/bills/2026/A5500/5354_I1.HTM), [NY GBL 899-BB](https://newyork.public.law/laws/n.y._general_business_law_section_899-bb), [Covington on SHIELD](https://www.cov.com/-/media/files/corporate/publications/2020/03/new-york-shield-act-data-security-requirements-become-effective.pdf).

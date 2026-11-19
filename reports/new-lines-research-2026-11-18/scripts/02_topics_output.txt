@@ -1,0 +1,181 @@
+Pulled 2026-11-18T19:10:37.523Z (session default_transaction_read_only=on confirmed; default tenant DATABASE_URL)
+InboundEmail rows, last 12 months: 10581
+Excluded by sender address as government/newspaper/vendor/partner/own: 793 linked + 4291 unlinked messages; unlinked vendor solicitations/platform notices by text: 48
+Kept: client-linked 4552 messages from 506 senders; unlinked 897 messages from 381 senders
+
+## Topic counts (client-linked senders = matched to a CRM Customer or enterprise intermediary)
+topic | senders | messages | unlinked senders | unlinked msgs | msgs before filing | after filing | no filed entity
+T01 taxes / accountant / bookkeeping / CPA | 22 | 26 | 13 | 17 | 8 | 14 | 4
+T02 payroll / hiring an employee / workers comp / DBL-PFL | 11 | 12 | 5 | 6 | 1 | 8 | 3
+T03 malpractice / liability insurance | 12 | 14 | 3 | 3 | 7 | 5 | 2
+T04 website / domain / business email / phone number | 25 | 34 | 11 | 14 | 11 | 10 | 13
+T05 HIPAA / compliance / BAA | 4 | 4 | 1 | 3 | 2 | 1 | 1
+T06 DEA / CLIA / prescribing / controlled substances | 4 | 5 | 2 | 2 | 4 | 1 | 0
+T07 license renewal / license in another state | 5 | 5 | 5 | 5 | 3 | 2 | 0
+T08 forming / registering in another state | 15 | 22 | 9 | 10 | 7 | 5 | 10
+T09 nonprofit / 501(c)(3) | 1 | 1 | 0 | 0 | 1 | 0 | 0
+T10 trademark | 2 | 2 | 1 | 1 | 1 | 1 | 0
+T11 contracts / lease / employment-contractor agreement / lawyer referral | 22 | 29 | 6 | 8 | 14 | 8 | 7
+T12 add / remove member-owner; sell or close practice | 14 | 21 | 3 | 3 | 6 | 9 | 6
+T13 annual state tax filing / fee (IT-204-LL, annual fee, franchise tax) | 5 | 5 | 7 | 7 | 1 | 4 | 0
+T14 EHR / practice software | 6 | 7 | 0 | 0 | 2 | 4 | 1
+T15 apostille | 0 | 0 | 0 | 0 | 0 | 0 | 0
+T16 operating agreement changes | 3 | 3 | 1 | 1 | 1 | 2 | 0
+T17 business credit card / loan | 5 | 6 | 0 | 0 | 3 | 3 | 0
+T18 "do you also / can you help with / do you offer" | 34 | 38 | 18 | 20 | 8 | 25 | 5
+
+## By profession group (senders/messages), client-linked only
+topic | therapist | psych NP | other NP-PA | physician | dentist | other health | law | other | unknown
+T01 | 9/10 | 2/2 | 2/3 | 3/3 | 1/1 | 3/4 | 0/0 | 2/3 | 0/0
+T02 | 5/5 | 1/1 | 1/1 | 1/2 | 1/1 | 1/1 | 0/0 | 1/1 | 0/0
+T03 | 5/7 | 0/0 | 0/0 | 3/3 | 0/0 | 3/3 | 0/0 | 1/1 | 0/0
+T04 | 9/13 | 4/8 | 0/0 | 3/3 | 0/0 | 5/5 | 1/2 | 2/2 | 1/1
+T05 | 1/1 | 0/0 | 0/0 | 1/1 | 0/0 | 1/1 | 1/1 | 0/0 | 0/0
+T06 | 0/0 | 0/0 | 0/0 | 2/2 | 0/0 | 2/3 | 0/0 | 0/0 | 0/0
+T07 | 2/2 | 0/0 | 0/0 | 2/2 | 1/1 | 0/0 | 0/0 | 0/0 | 0/0
+T08 | 3/4 | 4/4 | 0/0 | 2/4 | 1/1 | 2/2 | 1/1 | 2/6 | 0/0
+T09 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 1/1 | 0/0
+T10 | 2/2 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0
+T11 | 2/2 | 3/3 | 1/1 | 5/9 | 0/0 | 5/6 | 3/4 | 2/3 | 1/1
+T12 | 4/4 | 1/1 | 1/1 | 3/6 | 0/0 | 3/4 | 1/4 | 0/0 | 1/1
+T13 | 1/1 | 0/0 | 0/0 | 1/1 | 0/0 | 1/1 | 1/1 | 1/1 | 0/0
+T14 | 4/5 | 0/0 | 0/0 | 1/1 | 0/0 | 1/1 | 0/0 | 0/0 | 0/0
+T15 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0
+T16 | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 | 2/2 | 1/1 | 0/0 | 0/0
+T17 | 0/0 | 0/0 | 0/0 | 4/5 | 0/0 | 1/1 | 0/0 | 0/0 | 0/0
+T18 | 7/9 | 6/6 | 1/1 | 7/9 | 1/1 | 6/6 | 3/3 | 2/2 | 1/1
+
+Any mention of "operating agreement": 22 linked senders / 26 msgs; unlinked 17 / 20
+
+Client-linked senders by group (denominator): therapist 132, psych NP 41, other NP-PA 44, physician 71, dentist 26, other health 82, law 53, other 51, unknown 6
+
+## B1. Customers (with >=1 paid order) by state of residence (Customer.state)
+state | customers
+NY | 489
+NJ | 32
+(blank) | 14
+FL | 10
+PA | 7
+TX | 4
+VA | 2
+NC | 2
+AZ | 2
+GA | 2
+CA | 2
+MA | 1
+CO | 1
+ME | 1
+OK | 1
+MN | 1
+TN | 1
+OH | 1
+WA | 1
+DC | 1
+
+## B2. Customers linked to 2+ entities (owner rows or orders; excludes cancelled/test)
+customers_2plus | customers_3plus | customers_with_entity
+10 | 2 | 569
+
+## B2b. Enterprise (intermediary) customers and their entity counts
+enterprise_customers | with_2plus | entities
+1 | 1 | 3
+
+## B3. Entities by profession group (non-cancelled, non-test; n=586)
+therapist | 145
+psych NP | 56
+other NP-PA | 51
+physician | 93
+dentist | 26
+other health | 92
+law | 57
+other | 53
+unknown | 13
+
+## B3b. Entities by recorded profession (top 30)
+medicine | 93
+mental health counseling | 57
+nurse practitioner in psychiatry | 54
+licensed clinical social work | 52
+law | 42
+nurse practitioner in family health | 33
+dentistry | 25
+physical therapy | 22
+architecture | 21
+professional engineering | 15
+registered professional nursing | 14
+(none) | 13
+psychology | 12
+chiropractic | 11
+certified public accountancy | 9
+marriage and family therapy | 8
+acupuncture | 7
+physician assistant | 7
+occupational therapy | 7
+law firm | 6
+licensed behavior analyst | 6
+dietetics-nutrition | 5
+speech language pathology | 5
+legal | 4
+speech - language pathology | 4
+optometry | 4
+creative arts therapy | 4
+massage therapy | 3
+nurse practitioner in adult health | 3
+nurse practitioner in women's health | 3
+
+## B3c. Entities by entity type / foreign flag
+et | foreign_into_ny | count
+PLLC | false | 550
+LLC | false | 21
+PLLC | true | 10
+PC | true | 2
+PC | false | 1
+- | false | 1
+LLC | true | 1
+
+## B4. Recurring subscriptions by product and status (Subscription table; distinct entities)
+product | status | subs | entities | avg_amount | freq
+REGISTERED_AGENT | trialing | 409 | 409 | 99 | annual
+REGISTERED_AGENT | canceled | 13 | 13 | 111 | annual
+REGISTERED_AGENT | active | 12 | 12 | 99 | annual
+REGISTERED_AGENT | past_due | 4 | 4 | 99 | annual
+REGISTERED_AGENT | scheduled | 2 | 2 | 99 | annual
+REGISTERED_AGENT | unpaid | 1 | 1 | 99 | annual
+REGISTERED_AGENT | pending | 1 | 1 | 99 | annual
+VIRTUAL_MAIL | active | 102 | 102 | 50 | monthly
+VIRTUAL_MAIL | pending | 97 | 97 | 50 | monthly
+VIRTUAL_MAIL | trialing | 19 | 19 | 50 | monthly
+VIRTUAL_MAIL | canceled | 16 | 16 | 50 | monthly
+VIRTUAL_MAIL | cancelled | 5 | 5 | 50 | monthly
+VIRTUAL_MAIL | past_due | 1 | 1 | 50 | monthly
+
+## B4b. Open recurring subscribers by product (status active, trialing or past_due)
+product | entities | active | trialing | past_due
+REGISTERED_AGENT | 425 | 12 | 409 | 4
+VIRTUAL_MAIL | 122 | 102 | 19 | 1
+
+## B4c. RA compliance plan flag on open RA subs
+compliance_plan
+0
+
+## B4d. Legacy RegisteredAgentSubscription table by status
+status | count
+ACTIVE | 4
+
+## B4e. Partner (Metro) RA clients and Metro VM clients by status
+product | status | count
+Metro VM | TRIALING | 14
+Metro VM | NEEDS_CARD | 4
+partner RA | CANCELLED | 1710
+partner RA | TRIALING | 1317
+partner RA | ACTIVE | 410
+
+## B4f. Credentialing engagements by status
+status | count
+SIGNATURES | 1
+IN_PROGRESS | 1
+INTAKE | 1
+
+## B5. Distinct client email addresses (Customer.email + alternateEmails; EnterpriseCustomer separately)
+customer_rows | distinct_emails | emails_completed_formation | customers_completed_formation | emails_dos_filed | enterprise_customers | additional_owner_persons
+585 | 592 | 235 | 232 | 390 | 1 | 32

@@ -1,5 +1,9 @@
 # Active Context
 
+> **📌 NOV 18 (expansion pass):** decisions in [decision-log.md](../decision-log.md) (NPI postcards, NY letter, VM pilot scope, review asks, services + NPI add-on, model incl. Metro RA, coordinator, ads fixes, credentialing terms + launch, brand Clear Panel Credentialing, batch 1 = 1,831 cards, ABA roster price). CRM shipped leads, outside clients, W-9 SSN default, NJ/FL/TX/MD + ABA, review-ask lint (CRM `cd14d74f`). Open: Sid registers clearpanelcredentialing.com; counsel on terms; Keyword Planner; Google review of the 4 repointed ad items.
+
+> **📌 NOV 18: new-lines research (not decided).** 16 fact reports plus the agent's read in [reports/new-lines-research-2026-11-18/](../reports/new-lines-research-2026-11-18/ROUND-2-READ.md). No line found with both very high earnings and very high odds. Three moderate candidates, each testable for under ~$2K: a done-for-you S-corp package (payroll, books, returns) for our S-corp election buyers; professional entity formation in other states (Illinois, North Carolina first); NY not-for-profit formation with 501(c)(3). Sid: Cheap New York LLC and nyllc.com are one company and it does not sell not-for-profit formations. Nothing sent, built or priced.
+
 > **📌 NOV 16 (Sid + agent):**
 > - **Site fixes live (`077d20c`):** all 19 profession pages fit at 375px; checkout fallback link carries `?c=` + click ids; `/order` states the 4-payment plan. Upkeep now $69/mo therapists, $119/mo prescribers on `/ny-pllc-insurance-credentialing` (`c0e64fc`).
 > - **Scorecard Nov 9–15:** [2026-11-15-weekly.md](../scorecards/2026-11-15-weekly.md) (9 orders vs 18; Vercel visitors pending Sid's export).

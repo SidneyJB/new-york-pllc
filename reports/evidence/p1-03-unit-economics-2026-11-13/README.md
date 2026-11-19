@@ -13,7 +13,7 @@
 | Operating profit before owner pay, cash, annualized | $423K ($246.6K in 7 months) | **$418K** ($243.5K) | Within 1.3% |
 | Same, accrual ($345 per order) | $371K | **$360K** ($210.0K) | 3% lower |
 | After Sid's Gusto pay ($11K/month) | $290K | **$286K** | Within 1.6% |
-| Overhead | $1,365/month, 74% Amazon | **Not rebuilt.** Carried from the original. | No Relay export on disk |
+| Overhead | $1,365/month, 74% Amazon | **Rebuilt Nov 19: $1,340/month, 79% Amazon** (Apr–Oct Relay #5222) | Matches within 2%; see §3b |
 | Metro partner income | About $3K/month and falling | **$2.9K/month** average; $5.9K in Jun–Jul, **$240** in Oct | Yes |
 | Acquisition allowance | $150, keeps $364 | **$150, keeps $364.03** | Exact |
 
@@ -113,7 +113,23 @@ Add-ons are worth about **$112 per add-on order** over the base. Add-ons include
 
 ### §3b Overhead
 
-Not rebuilt. The original said about **$1,365/month, 74% Amazon**, against $400 in the old forecast. That split came from Relay vendor lines. It needs the Apr–Oct Relay export to check. Spiffy's $99/month is also a Relay line.
+**Rebuilt Nov 19 2026** from Sid's Relay Business Ops export (#5222, Nov 2025–Nov 2026; Apr–Oct used). The original said about $1,365/month, 74% Amazon. The rebuild gives **$1,340/month, 79% Amazon** [M], so the original holds.
+
+| Month 2026 | Overhead | of which Amazon | Postage/shipping | Facebook |
+|---|---:|---:|---:|---:|
+| Apr | $123 | $0 | $117 | $114 |
+| May | $64 | $0 | $136 | $115 |
+| Jun | $298 | $139 | $50 | $116 |
+| Jul | $1,546 | $829 | $272 | $118 |
+| Aug | $4,376 | $4,265 | $100 | $99 |
+| Sep | $2,039 | $1,417 | $284 | $92 |
+| Oct | $931 | $743 | $620 | $143 |
+| **Per month** | **$1,340** | **$1,056** | **$225** | **$114** |
+
+- Overhead lines: Amazon (incl. Digital Services), Quo, Google, Splashtop, Wispr Flow, Cognito Forms, Alohi, Anthropic, Hetzner, OpenRouter, Mistral, small fees; one-offs FlexiSpot $597 and Kamens and Associates $500 (without them, $1,183/month). Amazon jumps from July and peaks in August ($4,265), which looks like mail-station setup [I]; it is not a steady run rate.
+- Kept out of overhead: filing costs (NY DOS, NYSED checks, Hamodia, other states), Google Ads, Gusto, tax and savings transfers. Postage and Facebook are shown separately.
+- **Spiffy's $99/month is not in Relay.** It must be paid from another card or account [I]; it stays carried from the original. Any software billed to a card outside Relay (e.g. Vercel, Neon) is also missing here [U].
+- **Deposits check:** Relay Stripe deposits Apr–Oct $338,944 vs $336,046 Stripe payouts in §3 (+$2,898, 0.9%) [M]; Metro deposits $21,254.
 
 Overhead is 4% of the cash profit. A 25% error in it would move the annualized figure by about $4K.
 
@@ -166,7 +182,7 @@ All commands are read-only. The script opens Postgres with `default_transaction_
    .venv/bin/python google_ads_cli.py query --sql "SELECT segments.month, metrics.cost_micros, metrics.conversions FROM customer WHERE segments.date BETWEEN '2026-04-01' AND '2026-10-31'"
    ```
    Result: Apr $2,931, May $4,032, Jun $2,053, Jul $1,389, Aug $2,028, Sep $2,657, Oct $3,698. Total $18,788. The CRM `AdSpend` table only holds a lifetime total, so it can't be split by month.
-5. **Overhead, Spiffy, and the Relay cash view:** needs Sid's Apr–Oct Relay statements ZIP. Then, in `financial-planner`: `python relay_pick_zip.py` (or `relay_statements_analysis.py --xlsx`) builds the P&L workbook. Not run here: no export on disk.
+5. **Overhead, Spiffy, and the Relay cash view:** done Nov 19 from `relay-statements-11-12-01-02-03-04-05-06-07-08-09-10-11.zip` (account #5222; a first export had only #5554, the savings account). In `financial-planner`: `python3 relay_statements_analysis.py <zip>`; overhead per §3b.
 
 The monthly table in §3a is plain arithmetic on the outputs of steps 1, 3 and 4, plus overhead and Spiffy at $1,464/month.
 
@@ -180,7 +196,7 @@ The monthly table in §3a is plain arithmetic on the outputs of steps 1, 3 and 4
 | Cash $246.6K / $423K | $243.5K / $418K | Revenue here is Stripe plus CRM, not Relay deposits. Cash filing cost here is estimated from stage dates, not bank lines. Relay may also hold inflows that Stripe and the CRM don't (for example, a client paying by check or wire). |
 | Accrual $371K | $360K | Same $345-per-order method, different revenue base. The $10.5K gap over 7 months (about $1.5K/month) can't be placed without Relay. Most likely revenue outside Stripe and the CRM. |
 | $290K after Gusto | $286K | Follows the cash gap. Same $11K/month. |
-| Overhead $1,365/month, 74% Amazon | Not reproduced | Needs the Relay export. |
+| Overhead $1,365/month, 74% Amazon | $1,340/month, 79% Amazon | Rebuilt Nov 19 from Relay (§3b). |
 | Metro about $3K/month, falling | $2.9K/month; $240 in Oct | Same finding, now with the monthly series. |
 | §4 $150 keeps $364 | $364.03 | Same. |
 

@@ -146,11 +146,13 @@ Auto-tagging adds `gclid` (or `gbraid`/`wbraid` on iOS). Direct mail should use 
 
 | Phase | Days | NY | NJ | FL | TX | MD | Total/day | Phase total |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Dec 3–20 (launch, learning) | 18 | $26 | $22 | $30 | $34 | $24 | $136 | $2,448 |
-| Dec 21–Jan 3 (holidays) | 14 | $13 | $11 | $15 | $18 | $13 | $70 | $980 |
-| Jan 4–31 (main) | 28 | $28 | $24 | $33 | $38 | $27 | $150 | $4,200 |
-| Feb 1–14 (tail, if not stopped) | 14 | $19 | $16 | $21 | $24 | $18 | $98 | $1,372 |
-| **Total per state** | 74 | **$1,700** | **$1,446** | **$1,968** | **$2,264** | **$1,622** | | **$9,000** |
+| Dec 3–20 (launch, learning) | 18 | $26 | $8 | $30 | $34 | $7 | $105 | $1,890 |
+| Dec 21–Jan 3 (holidays) | 14 | $13 | $4 | $15 | $18 | $4 | $54 | $756 |
+| Jan 4–31 (main) | 28 | $28 | $8 | $33 | $38 | $9 | $116 | $3,248 |
+| Feb 1–14 (tail, if not stopped) | 14 | $19 | $6 | $21 | $24 | $5 | $75 | $1,050 |
+| **Total per state** | 74 | **$1,700** | **$508** | **$1,968** | **$2,264** | **$504** | | **$6,944** |
+
+**Nov 19 change (Sid):** Keyword Planner ([report](../credentialing-keyword-planner-2026-11-19/README.md)) put NJ at about 100 and MD at about 90 core searches a month, under this draft's own ~200 rule, while they held 34% of the budget for 19% of measured demand. NJ and MD stay **separate campaigns** (each keeps its own state landing page; location targeting is per campaign) with about **$500 each**. TX, FL and NY are unchanged. The ceiling is now $6,944; expected spend is still about $2–4K. Was: NJ $1,446, MD $1,622, total $9,000.
 
 Launch is assumed Thu Dec 3; if Sid approves later in the Dec 1–12 window, shorten phase 1 and keep the other rows. Google can spend up to 2× a daily budget on a single day but not more than 30.4× in a month, so the monthly totals hold.
 

@@ -92,7 +92,7 @@ def ag_keywords(s):
     return ags
 
 
-PHASE1_BUDGET = {"NY": 26, "NJ": 22, "FL": 30, "TX": 34, "MD": 24}  # Dec 3-20 daily, README section 7
+PHASE1_BUDGET = {"NY": 26, "NJ": 8, "FL": 30, "TX": 34, "MD": 7}  # Dec 3-20 daily, README section 7 (NJ/MD cut Nov 19)
 
 START_CPC = {"Credentialing Services": 30, "Therapists": 28, "Prescribers": 30,
              "Get In Network": 22, "Medicaid": 22}

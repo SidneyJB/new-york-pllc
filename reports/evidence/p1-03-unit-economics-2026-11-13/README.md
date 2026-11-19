@@ -126,7 +126,7 @@ Add-ons are worth about **$112 per add-on order** over the base. Add-ons include
 | Oct | $931 | $743 | $620 | $143 |
 | **Per month** | **$1,340** | **$1,056** | **$225** | **$114** |
 
-- Overhead lines: Amazon (incl. Digital Services), Quo, Google, Splashtop, Wispr Flow, Cognito Forms, Alohi, Anthropic, Hetzner, OpenRouter, Mistral, small fees; one-offs FlexiSpot $597 and Kamens and Associates $500 (without them, $1,183/month). Amazon jumps from July and peaks in August ($4,265), which looks like mail-station setup [I]; it is not a steady run rate.
+- Overhead lines: Amazon (incl. Digital Services), Quo, Google, Splashtop, Wispr Flow, Cognito Forms, Alohi, Anthropic, Hetzner, OpenRouter, Mistral, small fees; one-offs FlexiSpot $597 and Kamens and Associates $500 (without them, $1,183/month; see the MacBook note below). The August Amazon peak ($4,265) is mostly one **MacBook Pro, $3,517.56 on Aug 22** (Sid, Nov 19): a one-off equipment purchase, not a run rate. **Without the MacBook, overhead is about $837/month (Amazon about $554, 66%); without the MacBook, FlexiSpot and Kamens, about $681/month** [M].
 - Kept out of overhead: filing costs (NY DOS, NYSED checks, Hamodia, other states), Google Ads, Gusto, tax and savings transfers. Postage and Facebook are shown separately.
 - **Spiffy's $99/month is not in Relay.** It must be paid from another card or account [I]; it stays carried from the original. Any software billed to a card outside Relay (e.g. Vercel, Neon) is also missing here [U].
 - **Deposits check:** Relay Stripe deposits Apr–Oct $338,944 vs $336,046 Stripe payouts in §3 (+$2,898, 0.9%) [M]; Metro deposits $21,254.
